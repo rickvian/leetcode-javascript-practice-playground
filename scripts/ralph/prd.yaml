@@ -1,0 +1,15 @@
+branchName: ralph/feature
+userStories:
+  - id: US-001
+    title: Setup node project with jest test
+    acceptanceCriteria:
+      - setup node project with jest
+      - create folder with leetcode-playground, it contain tests/ folder
+      - each .js file inside leetcode-playground will have name format [number]-[problem-name].js e.g. 0002-add-two-numbers.js
+      - they contain function name exactly defined in leetcode, and exported.
+      - tests/file containing same forrmat
+      - create 2 leetcode file sample and tests first.
+      - ensure jest test work correctly
+    priority: 1
+    passes: false
+    notes: ""

@@ -1,0 +1,43 @@
+{
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code && git config --global --unset-all credential.helper || true",
+  "remoteEnv": {
+    "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ],
+      "settings": {
+        "git.terminalAuthentication": false,
+        "github.gitAuthentication": false,
+        "dev.containers.copyGitConfig": false,
+        "dev.containers.gitCredentialHelperConfigLocation": "none"
+      }
+    }
+  },
+  "containerEnv": {
+    "SSH_AUTH_SOCK": "",
+    "GIT_ASKPASS": "",
+    "VSCODE_GIT_ASKPASS_NODE": "",
+    "VSCODE_GIT_ASKPASS_MAIN": "",
+    "VSCODE_GIT_IPC_HANDLE": "",
+    "GITHUB_TOKEN": "",
+    "GH_TOKEN": "",
+    "GCM_INTERACTIVE": "never",
+    "GIT_TERMINAL_PROMPT": "0"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "mounts": [
+    {
+      "source": "/Users/macbook/.config/ralph/leetcode-javascript-practice-playground/token",
+      "target": "/tmp/ralph_token",
+      "type": "bind"
+    }
+  ],
+  "postStartCommand": "unset VSCODE_GIT_IPC_HANDLE GIT_ASKPASS VSCODE_GIT_ASKPASS_NODE VSCODE_GIT_ASKPASS_MAIN && git config --global --unset-all credential.helper || true && gh auth login --with-token < /tmp/ralph_token && gh auth setup-git"
+}
