@@ -1,0 +1,10 @@
+    31→0124 - binary tree maximum path sum
+    32→0125 - valid palindrome
+    33→0128 - longest consecutive sequence
+    34→0133 - clone graph
+    35→0139 - word break
+    36→0141 - linked list cycle
+    37→0143 - reorder list
+    38→0152 - maximum product subarray
+    39→0153 - find minimum in rotated sorted array
+    40→0190 - reverse bits

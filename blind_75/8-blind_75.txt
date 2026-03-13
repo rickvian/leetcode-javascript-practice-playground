@@ -1,0 +1,5 @@
+    71→0424 - longest repeating character replacement
+    72→0435 - non-overlapping intervals
+    73→0572 - subtree of another tree
+    74→0647 - palindromic substrings
+    75→1143 - longest common subsequence

@@ -5,7 +5,7 @@
  * @param {number[][]} intervals - Array of intervals [start, end]
  * @return {number[][]} Merged intervals
  */
-var merge = function(intervals) {
+var merge = function(_intervals) {
     // Solution implementation
 };
 

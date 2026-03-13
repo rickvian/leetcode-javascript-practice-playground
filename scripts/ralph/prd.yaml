@@ -17,79 +17,87 @@ userStories:
   - id: US-002
     title: Create unit tests for Blind 75 problems 1-10
     acceptanceCriteria:
+      - Retrieve problem list from 1-blind_75.txt file (items 1-10)
       - Create blank solution files for problems 1-10 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder with all test cases from LeetCode
-      - Follow the exact file naming convention [NNNN-problem-name].js as per CLAUDE.md
+      - Create corresponding test files under tests/ folder
+      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
     priority: 2
     passes: false
-    notes: "First batch of Blind 75 problems - create blank files and comprehensive test cases"
+    notes: "First batch of Blind 75 problems - retrieve from 1-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
 
   - id: US-003
     title: Create unit tests for Blind 75 problems 11-20
     acceptanceCriteria:
+      - Retrieve problem list from 2-blind_75.txt file (items 11-20)
       - Create blank solution files for problems 11-20 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder with all test cases from LeetCode
-      - Follow the exact file naming convention [NNNN-problem-name].js as per CLAUDE.md
+      - Create corresponding test files under tests/ folder
+      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
     priority: 2
     passes: true
-    notes: "Second batch of Blind 75 problems - create blank files and comprehensive test cases"
+    notes: "Second batch of Blind 75 problems - retrieve from 2-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
 
   - id: US-004
     title: Create unit tests for Blind 75 problems 21-30
     acceptanceCriteria:
+      - Retrieve problem list from 3-blind_75.txt file (items 21-30)
       - Create blank solution files for problems 21-30 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder with all test cases from LeetCode
-      - Follow the exact file naming convention [NNNN-problem-name].js as per CLAUDE.md
+      - Create corresponding test files under tests/ folder
+      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
     priority: 2
     passes: false
-    notes: "Third batch of Blind 75 problems - create blank files and comprehensive test cases"
+    notes: "Third batch of Blind 75 problems - retrieve from 3-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
 
   - id: US-005
     title: Create unit tests for Blind 75 problems 31-40
     acceptanceCriteria:
+      - Retrieve problem list from 4-blind_75.txt file (items 31-40)
       - Create blank solution files for problems 31-40 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder with all test cases from LeetCode
-      - Follow the exact file naming convention [NNNN-problem-name].js as per CLAUDE.md
+      - Create corresponding test files under tests/ folder
+      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
     priority: 2
     passes: false
-    notes: "Fourth batch of Blind 75 problems - create blank files and comprehensive test cases"
+    notes: "Fourth batch of Blind 75 problems - retrieve from 4-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
 
   - id: US-006
     title: Create unit tests for Blind 75 problems 41-50
     acceptanceCriteria:
+      - Retrieve problem list from 5-blind_75.txt file (items 41-50)
       - Create blank solution files for problems 41-50 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder with all test cases from LeetCode
-      - Follow the exact file naming convention [NNNN-problem-name].js as per CLAUDE.md
+      - Create corresponding test files under tests/ folder
+      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
     priority: 2
     passes: false
-    notes: "Fifth batch of Blind 75 problems - create blank files and comprehensive test cases"
+    notes: "Fifth batch of Blind 75 problems - retrieve from 5-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
 
   - id: US-007
     title: Create unit tests for Blind 75 problems 51-60
     acceptanceCriteria:
+      - Retrieve problem list from 6-blind_75.txt file (items 51-60)
       - Create blank solution files for problems 51-60 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder with all test cases from LeetCode
-      - Follow the exact file naming convention [NNNN-problem-name].js as per CLAUDE.md
+      - Create corresponding test files under tests/ folder
+      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
     priority: 2
     passes: false
-    notes: "Sixth batch of Blind 75 problems - create blank files and comprehensive test cases"
+    notes: "Sixth batch of Blind 75 problems - retrieve from 6-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
 
   - id: US-008
     title: Create unit tests for Blind 75 problems 61-70
     acceptanceCriteria:
+      - Retrieve problem list from 7-blind_75.txt file (items 61-70)
       - Create blank solution files for problems 61-70 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder with all test cases from LeetCode
-      - Follow the exact file naming convention [NNNN-problem-name].js as per CLAUDE.md
+      - Create corresponding test files under tests/ folder
+      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
     priority: 2
     passes: false
-    notes: "Seventh batch of Blind 75 problems - create blank files and comprehensive test cases"
+    notes: "Seventh batch of Blind 75 problems - retrieve from 7-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
 
   - id: US-009
     title: Create unit tests for Blind 75 problems 71-75
     acceptanceCriteria:
+      - Retrieve problem list from 8-blind_75.txt file (items 71-75)
       - Create blank solution files for problems 71-75 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder with all test cases from LeetCode
-      - Follow the exact file naming convention [NNNN-problem-name].js as per CLAUDE.md
+      - Create corresponding test files under tests/ folder
+      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
     priority: 2
     passes: false
-    notes: "Final batch of Blind 75 problems - create blank files and comprehensive test cases"
+    notes: "Final batch of Blind 75 problems - retrieve from 8-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"

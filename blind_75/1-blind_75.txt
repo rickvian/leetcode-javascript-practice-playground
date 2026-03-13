@@ -1,0 +1,10 @@
+     1→0001 - two sum
+     2→0003 - longest substring without repeating characters
+     3→0005 - longest palindromic substring
+     4→0011 - container with most water
+     5→0015 - 3sum
+     6→0019 - remove nth node from end of list
+     7→0020 - valid parentheses
+     8→0021 - merge two sorted lists
+     9→0023 - merge k sorted lists
+    10→0033 - search in rotated sorted array
