@@ -4,8 +4,8 @@
   "description": "LeetCode JavaScript practice problems with Jest tests scenarios",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --watch"
   },
   "keywords": [
     "leetcode",
