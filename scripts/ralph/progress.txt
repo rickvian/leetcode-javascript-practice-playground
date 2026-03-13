@@ -1,0 +1,33 @@
+## Codebase Patterns
+- Jest configuration: Use default jest config in package.json scripts
+- LeetCode file naming: [number]-[problem-name].js (e.g., 0001-two-sum.js)
+- Function exports: Use module.exports for single functions or { func, Class } for multiple exports
+- LinkedList operations: Create helper ListNode class for linked list problems
+
+---
+
+## 2026-03-13 - US-001
+- **What was implemented:**
+  - Initialized Node.js project with Jest test framework
+  - Created leetcode-playground/ directory structure with tests/ subdirectory
+  - Implemented 2 sample LeetCode problems:
+    - 0001-two-sum.js: Hash map based two-sum solution
+    - 0002-add-two-numbers.js: Linked list addition with carry logic
+  - Created comprehensive test suites with multiple test cases
+
+- **Files changed:**
+  - Created: package.json with Jest configuration
+  - Created: .gitignore for node_modules and logs
+  - Created: leetcode-playground/0001-two-sum.js
+  - Created: leetcode-playground/0002-add-two-numbers.js
+  - Created: leetcode-playground/tests/0001-two-sum.test.js
+  - Created: leetcode-playground/tests/0002-add-two-numbers.test.js
+
+- **Learnings:**
+  - Jest discovery works automatically with **/*.test.js pattern
+  - Need to export ListNode class from solution files for linked list problems
+  - Test organization: mirror solution file names in tests/ directory
+  - Module.exports works well for both functions and classes
+  - All 6 test cases pass successfully
+
+---

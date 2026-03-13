@@ -1,4 +1,4 @@
-const { addTwoNumbers, ListNode } = require('../0002-add-two-numbers');
+import { addTwoNumbers, ListNode } from '../0002-add-two-numbers';
 
 describe('0002-add-two-numbers', () => {
     it('should add two numbers correctly: l1 = [2,4,3], l2 = [5,6,4], result = [7,0,8]', () => {

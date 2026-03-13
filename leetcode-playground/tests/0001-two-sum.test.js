@@ -1,4 +1,4 @@
-const twoSum = require('../0001-two-sum');
+import { twoSum } from '../0001-two-sum';
 
 describe('0001-two-sum', () => {
     it('should return [0, 1] for nums = [2, 7, 11, 15], target = 9', () => {

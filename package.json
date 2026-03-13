@@ -1,16 +1,21 @@
 {
   "name": "leetcode-javascript-practice-playground",
   "version": "1.0.0",
-  "description": "LeetCode JavaScript practice problems with Jest tests",
+  "description": "LeetCode JavaScript practice problems with Jest tests scenarios",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "keywords": ["leetcode", "javascript", "jest"],
-  "author": "",
+  "keywords": [
+    "leetcode",
+    "javascript",
+    "jest"
+  ],
+  "author": "rickvian",
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.0.0"
-  }
+  },
+  "type": "module"
 }

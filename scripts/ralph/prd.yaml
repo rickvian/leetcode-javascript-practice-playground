@@ -11,5 +11,5 @@ userStories:
       - create 2 leetcode file sample and tests first.
       - ensure jest test work correctly
     priority: 1
-    passes: false
+    passes: true
     notes: ""
