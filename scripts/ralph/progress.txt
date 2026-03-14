@@ -1,8 +1,40 @@
 ## Codebase Patterns
 - Jest configuration: Use default jest config in package.json scripts
 - LeetCode file naming: [number]-[problem-name].js (e.g., 0001-two-sum.js)
-- Function exports: Use module.exports for single functions or { func, Class } for multiple exports
+- Function exports: Use ES Module syntax `export { functionName }` (NOT CommonJS module.exports)
+- TreeNode problems: Define TreeNode class in solution file and export it alongside function
 - LinkedList operations: Create helper ListNode class for linked list problems
+- Tree problems: Export TreeNode class from solution file for use in tests
+- Stub tests: All tests "fail" for stub files (expected - implementations are blank)
+
+---
+
+## 2026-03-14 - US-004
+- **What was implemented:**
+  - Created blank solution stubs and comprehensive test files for Blind 75 problems 21-30
+  - Problem 21 (0073-set-matrix-zeroes) already existed, created 9 new problems:
+    - 0076-minimum-window-substring.js
+    - 0079-word-search.js
+    - 0091-decode-ways.js
+    - 0098-validate-binary-search-tree.js
+    - 0100-same-tree.js
+    - 0102-binary-tree-level-order-traversal.js
+    - 0104-maximum-depth-of-binary-tree.js
+    - 0105-construct-binary-tree-from-preorder-and-inorder-traversal.js
+    - 0121-best-time-to-buy-and-sell-stock.js
+  - Each solution file has JSDoc header with LeetCode URL and function stub
+  - Tree problems export TreeNode class alongside main function
+  - Test files have comprehensive coverage: edge cases, constraints, LeetCode examples
+
+- **Files changed:**
+  - Created: 9 solution files in leetcode-playground/
+  - Created: 9 test files in leetcode-playground/tests/
+
+- **Learnings:**
+  - Tree problems require TreeNode class defined and exported in solution file
+  - ES Module syntax required for all exports (project uses "type": "module" in package.json)
+  - progress.txt had incorrect pattern noting module.exports - corrected to ES Module syntax
+  - All 30 test suites load without import errors (stubs return undefined, tests fail as expected)
 
 ---
 
