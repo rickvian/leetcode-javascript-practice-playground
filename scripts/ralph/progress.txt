@@ -9,6 +9,36 @@
 
 ---
 
+## 2026-03-14 - US-008
+- **What was implemented:**
+  - Created blank solution stubs and comprehensive test files for Blind 75 problems 61-70
+  - 10 new problems created:
+    - 0271-encode-and-decode-strings.js (LeetCode premium, exports encode + decode)
+    - 0295-find-median-from-data-stream.js (exports MedianFinder class)
+    - 0297-serialize-and-deserialize-binary-tree.js (exports TreeNode + serialize + deserialize)
+    - 0300-longest-increasing-subsequence.js
+    - 0322-coin-change.js
+    - 0323-number-of-connected-components-in-an-undirected-graph.js (LeetCode premium)
+    - 0338-counting-bits.js
+    - 0347-top-k-frequent-elements.js
+    - 0371-sum-of-two-integers.js
+    - 0417-pacific-atlantic-water-flow.js
+  - Each solution file has JSDoc header with LeetCode URL and function/class stub
+  - Tree problems export TreeNode class alongside main function
+  - Test files have comprehensive coverage: edge cases, constraints, LeetCode examples
+
+- **Files changed:**
+  - Created: 10 solution files in leetcode-playground/
+  - Created: 10 test files in leetcode-playground/tests/
+
+- **Learnings:**
+  - topKFrequent tests: use `.sort()` when order is not guaranteed; guard k=2 tie-break with arrayContaining
+  - pacificAtlantic tests: guard result with `if (result)` to avoid TypeError on undefined stub return
+  - serialize/deserialize tests: build helper treeToArray for structural comparison across encode/decode cycle
+  - countBits tests: validate specific indices (powers of 2) rather than full array for large n
+
+---
+
 ## 2026-03-14 - US-007
 - **What was implemented:**
   - Created blank solution stubs and comprehensive test files for Blind 75 problems 51-60
