@@ -9,6 +9,36 @@
 
 ---
 
+## 2026-03-14 - US-006
+- **What was implemented:**
+  - Created blank solution stubs and comprehensive test files for Blind 75 problems 41-50
+  - 10 new problems created:
+    - 0191-number-of-1-bits.js
+    - 0198-house-robber.js
+    - 0200-number-of-islands.js
+    - 0206-reverse-linked-list.js (exports ListNode + reverseList)
+    - 0207-course-schedule.js
+    - 0208-implement-trie.js (exports Trie class)
+    - 0211-design-add-and-search-words.js (exports WordDictionary class)
+    - 0212-word-search-ii.js
+    - 0213-house-robber-ii.js
+    - 0217-contains-duplicate.js
+  - Each solution file has JSDoc header with LeetCode URL and function stub
+  - Class-based problems (Trie, WordDictionary) export the class directly
+  - Test files have comprehensive coverage: edge cases, constraints, LeetCode examples
+
+- **Files changed:**
+  - Created: 10 solution files in leetcode-playground/
+  - Created: 10 test files in leetcode-playground/tests/
+
+- **Learnings:**
+  - Class-based problems (Trie, WordDictionary) export the class itself, not a function
+  - WordDictionary tests need to guard for undefined (stub returns undefined from search)
+  - hammingWeight: n=0 edge case and n=4294967295 (all 32 bits) are important test boundaries
+  - House Robber II: circular array - cannot rob both first and last house
+
+---
+
 ## 2026-03-14 - US-005
 - **What was implemented:**
   - Created blank solution stubs and comprehensive test files for Blind 75 problems 31-40
