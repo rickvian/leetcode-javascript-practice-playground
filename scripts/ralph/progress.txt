@@ -9,6 +9,35 @@
 
 ---
 
+## 2026-03-14 - US-005
+- **What was implemented:**
+  - Created blank solution stubs and comprehensive test files for Blind 75 problems 31-40
+  - 10 new problems created:
+    - 0124-binary-tree-maximum-path-sum.js (exports TreeNode + maxPathSum)
+    - 0125-valid-palindrome.js
+    - 0128-longest-consecutive-sequence.js
+    - 0133-clone-graph.js (exports Node + cloneGraph)
+    - 0139-word-break.js
+    - 0141-linked-list-cycle.js (exports ListNode + hasCycle)
+    - 0143-reorder-list.js (exports ListNode + reorderList)
+    - 0152-maximum-product-subarray.js
+    - 0153-find-minimum-in-rotated-sorted-array.js
+    - 0190-reverse-bits.js
+  - Each solution file has JSDoc header with LeetCode URL and function stub
+  - Graph problems export Node class; tree problems export TreeNode; linked list problems export ListNode
+  - Test files have comprehensive coverage: edge cases, constraints, LeetCode examples
+
+- **Files changed:**
+  - Created: 10 solution files in leetcode-playground/
+  - Created: 10 test files in leetcode-playground/tests/
+
+- **Learnings:**
+  - Clone graph tests that access properties on the result should guard against undefined (stub returns undefined causing TypeError, which is still a test failure as expected)
+  - Blind 75 txt files are in blind_75/ folder, not scripts/ralph/
+  - reverseBits tests: JavaScript uses signed 32-bit integers, use >>> for unsigned right shift when needed in implementation
+
+---
+
 ## 2026-03-14 - US-004
 - **What was implemented:**
   - Created blank solution stubs and comprehensive test files for Blind 75 problems 21-30
