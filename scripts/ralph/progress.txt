@@ -1,3 +1,28 @@
+## 2026-03-14 - US-009
+- **What was implemented:**
+  - Created blank solution stubs and comprehensive test files for Blind 75 problems 71-75
+  - 5 new problems created:
+    - 0424-longest-repeating-character-replacement.js
+    - 0435-non-overlapping-intervals.js
+    - 0572-subtree-of-another-tree.js (exports TreeNode + isSubtree)
+    - 0647-palindromic-substrings.js
+    - 1143-longest-common-subsequence.js
+  - Each solution file has JSDoc header with LeetCode URL and function stub
+  - Tree problems export TreeNode class alongside main function
+  - Test files have comprehensive coverage: edge cases, constraints, LeetCode examples
+
+- **Files changed:**
+  - Created: 5 solution files in leetcode-playground/
+  - Created: 5 test files in leetcode-playground/tests/
+
+- **Learnings:**
+  - isSubtree tests: use `if (result !== undefined)` guard so guarded tests pass even with stub returning undefined
+  - countSubstrings ("racecar"): count is 10 — verify with expand-around-center logic mentally before writing test
+  - eraseOverlapIntervals: touching intervals (end=start) are NOT overlapping per LeetCode definition
+  - longestCommonSubsequence: "aaaaaa" vs "aaaa" LCS is 4 (min of repeated char count)
+
+---
+
 ## Codebase Patterns
 - Jest configuration: Use default jest config in package.json scripts
 - LeetCode file naming: [number]-[problem-name].js (e.g., 0001-two-sum.js)
