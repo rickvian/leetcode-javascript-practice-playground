@@ -29,6 +29,17 @@ you can start exercise of solving problem.
 - test grouped under `/tests` folder.
 - run the test your own way, e.g npm run test "testname".
 
+# Performance Profiling (optional)
+- run `npm run test:perf` to enable execution time and memory tracking for every test automatically
+- no changes needed in test files — it applies globally via Jest setup
+- output example:
+  ```
+    [PERF] should return [0, 1] for nums = [2, 7, 11, 15], target = 9
+      time:   0.041ms
+      memory: +0.12KB
+  ```
+- uses `PERF=true` env flag under the hood, so you can also run a single file: `PERF=true npm test -- 0001`
+
 # Attach debugger
 - running you script in debugmode is very important for process of learning
 - attach breakpoint, and run test in debug mode.

@@ -13,6 +13,7 @@ All JavaScript files and tests in this project use **ES Modules (ESM)** as speci
 2. **All tests**: Must be written as ES Modules with proper import statements
 3. **All JS files**: Must use ES Module syntax
 4. **Test files**: Use `.test.js` extension and import the modules being tested as ES Modules
+5. include basic test scenarios and extreme case scenarios (such as long sized input)
 
 ### Examples
 
