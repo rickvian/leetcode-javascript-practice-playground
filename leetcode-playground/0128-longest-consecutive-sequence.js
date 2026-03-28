@@ -7,7 +7,6 @@
  * @param {number[]} nums
  * @return {number}
  */
-var longestConsecutive = function(nums) {
-};
+var longestConsecutive = function (nums) {};
 
 export { longestConsecutive };
