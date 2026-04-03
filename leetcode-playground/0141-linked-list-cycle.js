@@ -16,7 +16,19 @@ class ListNode {
     }
 }
 
-var hasCycle = function(head) {
+var hasCycle = function (head) {
+    // initialze slow and fast pointer
+    let slowPointer = head
+    let fastPointer = head?.next
+
+
+    while (fastPointer?.next) {
+        if (slowPointer == fastPointer) return true
+        slowPointer = slowPointer.next
+        fastPointer = fastPointer.next.next
+    }
+
+    return false // end reached, no cycle.
 };
 
 export { hasCycle, ListNode };
