@@ -1,4 +1,4 @@
-import { LRUCache } from "../../0146-LRU-cache-map-implementation";
+import { LRUCache } from "../0146-LRU-cache";
 
 describe("146 LRU Cache", () => {
   test("Example 1: basic get and put operations", () => {

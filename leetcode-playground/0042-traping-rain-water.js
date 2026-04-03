@@ -89,3 +89,10 @@ export var trap = function (height) {
   // calculation operation =
   // 3 times N o(3n) -> o(n) linear
 };
+/**
+ * @param {number[]} height
+ * @return {number}
+ */
+export var trap = function (height) {
+  // implementation
+};
