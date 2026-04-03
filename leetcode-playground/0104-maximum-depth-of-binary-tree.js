@@ -17,8 +17,13 @@ class TreeNode {
     }
 }
 
-var maxDepth = function(root) {
-    // Solution implementation
+var maxDepth = function (root) {
+    // so every depth we will add 1 as the depth, 
+    // then we want to check left and right which one is deeper, and add it to the depth count
+
+    if (!root) return 0
+
+    return 1 + Math.max(maxDepth(root.left), maxDepth(root.right))
 };
 
 export { maxDepth, TreeNode }
