@@ -1,5 +1,10 @@
 # Claude Code Guidelines
 
+## Important Note
+
+This is playground repository, please provide test case only unless prompted to provide solution, solution should not be provided.
+leave the solution empty with // implement
+
 ## Module Type Configuration
 
 All JavaScript files and tests in this project use **ES Modules (ESM)** as specified in `package.json`:
@@ -42,6 +47,7 @@ Jest is configured to work with ES Modules. When writing tests:
 - Always import test utilities from `@jest/globals` if needed
 - Do not use `require()` or CommonJS syntax
 - Jest will handle the module resolution automatically
+
 
 ## Creating New Problems
 
