@@ -12,7 +12,40 @@
  * @return {number} - Length of the diameter (number of edges)
  */
 var diameterOfBinaryTree = function (root) {
-    // implement
+    /**
+     * Definition for a binary tree node.
+     * function TreeNode(val, left, right) {
+     *     this.val = (val===undefined ? 0 : val)
+     *     this.left = (left===undefined ? null : left)
+     *     this.right = (right===undefined ? null : right)
+     * }
+     */
+    /**
+     * @param {TreeNode} root
+     * @return {number}
+     */
+
+    let maxDiameter = 0
+    // we want to check the height of left and height of right, plus current one
+
+    function dfs(node) {
+        if (node === null) return 0
+
+        // else - node exist
+        const heightLeft = dfs(node.left)
+        const heightRight = dfs(node.right)
+
+        maxDiameter = Math.max(maxDiameter, heightLeft + heightRight) // diameter is height left + height right
+
+        return 1 + Math.max(heightLeft, heightRight)
+    }
+
+    dfs(root) // find the max diameter
+
+    return maxDiameter
+
 };
 
 export { diameterOfBinaryTree };
+
+
