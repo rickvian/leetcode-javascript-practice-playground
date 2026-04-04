@@ -22,22 +22,27 @@ describe('0543-diameter-of-binary-tree', () => {
     });
 
     it('should return diameter when it does not pass through root', () => {
-        //       1
-        //      / \
-        //     2   3
-        //    /
-        //   4
-        //  /
-        // 5
+        //            1 (Root)
+        //           / \
+        //          2   3
+        //         / \
+        //        4   5
+        //       /     \
+        //      6       7
+        //     /         \
+        //    8           9
+
         const root = new TreeNode(1,
             new TreeNode(2,
-                new TreeNode(4,
-                    new TreeNode(5)
-                )
+                new TreeNode(4, new TreeNode(8)),
+                new TreeNode(5, null, new TreeNode(7, null, new TreeNode(9)))
             ),
             new TreeNode(3)
         );
-        expect(diameterOfBinaryTree(root)).toBe(3);
+
+        // Path through root (8 to 3): 5 edges
+        // Path within left subtree (8 to 9): 6 edges (8-4-2-5-7-9)
+        expect(diameterOfBinaryTree(root)).toBe(6);
     });
 
     it('should handle single node tree', () => {
