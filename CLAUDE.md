@@ -13,12 +13,19 @@ All JavaScript files and tests in this project use **ES Modules (ESM)** as speci
 ```
 
 ### Guidelines for the Agent
-
 1. **All imports**: Use ES Module syntax (`import`/`export`) instead of CommonJS (`require`/`module.exports`)
 2. **All tests**: Must be written as ES Modules with proper import statements
 3. **All JS files**: Must use ES Module syntax
 4. **Test files**: Use `.test.js` extension and import the modules being tested as ES Modules
-5. include basic test scenarios and extreme case scenarios (such as long sized input)
+5. test case:
+- Adversarial Edge Cases: You must include tests for the following "hidden" scenarios:
+- Empty/Minimum: Empty strings "", empty arrays [], or single-element inputs.
+- Type Nuance: Handling null, undefined, and unexpected data types.
+- Whitespace: Leading, trailing, and internal whitespace (tabs, newlines).
+- Repetitive Data: Long sequences of identical characters/values.
+- Range Limits: Inputs at the exact threshold of defined constraints (e.g., first and last indices).
+- No Happy-Path Bias: Do not just test "clean" inputs; generate cases specifically designed to trigger off-by-one errors or null-pointer exceptions.
+6. if the js placeholder files not exist, generate it.
 
 ### Examples
 
