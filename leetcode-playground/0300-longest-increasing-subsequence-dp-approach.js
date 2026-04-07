@@ -8,7 +8,7 @@
  */
 var lengthOfLIS = function (nums) {
     // stub
-    /[0, 1, 0, 3, 2, 3]
+    // [0, 1, 0, 3, 2, 3]
     // 0 -> we have choice for each value, include / not include
     // include : 0 ->
     // not include: ->
