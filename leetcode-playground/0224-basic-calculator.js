@@ -8,55 +8,67 @@
  * @return {number}
  */
 var calculate = function (s) {
-    // implement
+    // we could process the number as we go, so it can have complexity of o(N)
 
-    let curr = 0
-    let output = 0
-    let stack = []
-    let sign = 1
+    let output = 0 // result so far
+    let curr = 0 // helper to process digit // e.g [123], 123
+    let stack = [] // process task before parentheses close
+    let signMultiplier = 1 // keep on track current sign we working on // 1-(1+1) or 1+(1-1)
 
     for (let c of s) {
-        // digits
-        if (/\d/.test(c)) {
-            // 2
-            // shift existing number in case its other digits
-            curr = (curr * 10) + Number(c)
-            // 💡 You do not add curr to the output immediately because you don't know if the number is finished yet.
-        } else if (/\+|-/.test(c)) {
-            // Add the completed number to the running total.
-            output = output + (curr * sign)
-            curr = 0 // reset
+        // digit
 
-            // process the sign for next number
+        // 123+3
+        //   ^
+        if (/\d/.test(c)) {
+            curr = (curr * 10) + Number(c)
+        } else if (/\+|-/.test(c)) {
+            output = output + (curr * signMultiplier)
+            curr = 0 // reset, job done
+
             if (c === "+") {
-                sign = 1
+                signMultiplier = 1 // prepare sign for next token
             } else {
-                sign = -1
+                signMultiplier = -1
             }
         } else if (c === "(") {
-            // we want to remember previous number and sign to be processed later
-            stack.push(output) // pushing completed work from previous
-            stack.push(sign) // cater last work's sign
+            // we have progress so far.
+            stack.push(output)
+            stack.push(signMultiplier)
 
-            // prepare for next token inner parentheses
-            output = 0
-            sign = 1
-        } else if (c === ")") { // important to make this elseif, cos we possibly have whitespace
-            // conclude the items in parentheses
-            output = output + (curr * sign)
-            curr = 0 // reset current for next
+            // resets the context so the code inside the brackets behaves like a brand-new expression.
+            output = 0 // reset
+            signMultiplier = 1 // reset
 
-            // process the stack (previous result before parentheses)
-            output *= stack.pop() // process sign
-            output += stack.pop() // process number
+            // no need reset current cos + - already handle it, ( will be always followed by + or - in valid case
+        } else if (c === ")") {
+            // process numbers inside
+            output = output + (curr * signMultiplier)
+
+            curr = 0 // reset curr
+
+            output *= stack.pop() // process sign before the parentheses
+            output += stack.pop() // process output result before parentheses
+
         }
+        // whitespaces etc, ignore case
     }
 
-    // [1+ 1] so far we only perform output calculation when meeting sign or parentheses
-    // last digit is never touched, so handle it here
-
-    const lastDigit = curr * sign
+    // Handle the final number in the string.
+    // Since the loop only adds curr to output when it encounters an operator or a closing parenthesis, 
+    // the very last number parsed needs to be manually added to the result."
+    const lastDigit = curr * signMultiplier
     return output + lastDigit
+
+
+    // complexity (o(n))
+
+    // memory O(N) , cos it will never more than the characters
+
+    // hint to memorize
+    // - curr will always multiply with signMultiplier before added to output
+    // - curr will always reset when concluded, when +- is met, or ) is met
+    // pay attention to push order, push the number then sign, later pop sign then number
 };
 
 export { calculate };
