@@ -39,6 +39,10 @@ you can start exercise of solving problem.
 - Solution list are located in separate repository to prevent you from unwanted accidental peeking during practice, 
 - repo link coming soon.
 
+# Contributing
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to add new problems or test cases.
+
+
 you can also look at existing references of leetcode answers in js
 
 https://github.com/JoshCrozier/leetcode-javascript/blob/master/solutions/0464-can-i-win.js
