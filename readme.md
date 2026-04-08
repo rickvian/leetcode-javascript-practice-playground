@@ -16,37 +16,30 @@ Clone this repo
 
 run `npm install`
 
-this repo contains practice problem playground you can run uder
+this repo contains practice problem playground you can run under
 /leetcode-playground/
   - /[problemsname].js
 
-opening the .js file,
+open the .js file,
 you can start exercise of solving problem.
 
 # Run test
 - every problem has respective test case you can run using `jest`
-- It contains test scenarios ready to battle test your solution
+- It contains test scenarios ready to battle test your solution (You can contribute test case!)
 - test grouped under `/tests` folder.
 - run the test your own way, e.g npm run test "testname".
 
-# Performance Profiling (optional)
-- run `npm run test:perf` to enable execution time and memory tracking for every test automatically
-- no changes needed in test files — it applies globally via Jest setup
-- output example:
-  ```
-    [PERF] should return [0, 1] for nums = [2, 7, 11, 15], target = 9
-      time:   0.041ms
-      memory: +0.12KB
-  ```
-- uses `PERF=true` env flag under the hood, so you can also run a single file: `PERF=true npm test -- 0001`
-
 # Attach debugger
-- running you script in debugmode is very important for process of learning
+- To assist your learning, debugging mode is useful.
 - attach breakpoint, and run test in debug mode.
 
-# Tips
-- i use vscode extension "Jest run it" when you open the file, you simply click 🏃 emoji to run specific test or describe block.
-- with "Jest run it" debug icon will appear in the test, you can click on it, it will run your test in debug mode.
+# Tips for debugging
+- I personally use VScode extension "JEST/ Vitest runner by firsttris". When you open the file, you simply click 'debug' to run specific test or describe block. it will run your test in debug mode.
+
+
+# Performance Profiling (optional)
+- run `npm run test:perf` to enable execution time and memory tracking for every test automatically
+
 
 
 # Solution list
