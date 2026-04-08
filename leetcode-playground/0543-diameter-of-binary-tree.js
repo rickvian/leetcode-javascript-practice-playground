@@ -13,6 +13,7 @@
  */
 var diameterOfBinaryTree = function (root) {
     // implement
+    return false
 };
 
 export { diameterOfBinaryTree };
