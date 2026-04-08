@@ -44,6 +44,7 @@ var diameterOfBinaryTree = function (root) {
 
     return maxDiameter
 
+    return false
 };
 
 export { diameterOfBinaryTree };
