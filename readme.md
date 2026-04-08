@@ -25,6 +25,10 @@ you can start exercise of solving problem.
 - It contains test scenarios ready to battle test your solution (You can contribute test case!)
 - Tests grouped under `/tests` folder.
 
+<p align="center">
+  <img src="assets/debug-mode-yourself" width="600" alt="debug mode">
+</p>
+
 
 # Tips for debugging
 - To assist your learning, debugging mode is useful to understand why your code does not work, 
