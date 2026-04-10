@@ -1,7 +1,7 @@
 {
   "name": "leetcode-javascript-practice-playground",
   "version": "1.0.0",
-  "description": "LeetCode JavaScript practice problems with Jest tests scenarios",
+  "description": "LeetCode JavaScript practice problems with Vitest test scenarios",
   "main": "index.js",
   "scripts": {
     "test": "vitest run",
@@ -11,12 +11,11 @@
   "keywords": [
     "leetcode",
     "javascript",
-    "jest"
+    "vitest"
   ],
   "author": "rickvian",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^29.0.0",
     "vitest": "^4.1.3"
   },
   "type": "module"
