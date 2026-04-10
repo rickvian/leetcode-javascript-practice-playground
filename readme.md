@@ -3,7 +3,9 @@
 </p>
 
 # JS Leetcode practice ground
-Contains Unit test ready for you to use on leetcode problems (may include premium questions.)
+Collection of leetcode test case scenarios for practice.
+These Unit test ready for you to use on leetcode problems (may include premium questions.)
+You run the javascript leetcode test in your IDE with debug mode without paying leetcode premium
 
 # How to use this repo
 
