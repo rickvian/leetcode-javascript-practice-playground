@@ -1,6 +1,6 @@
 {
   "name": "Node.js",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24-bullseye",
   "postCreateCommand": "npm install -g @anthropic-ai/claude-code && git config --global --unset-all credential.helper || true",
   "remoteEnv": {
     "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}"
@@ -9,7 +9,7 @@
     "vscode": {
       "extensions": [
         "dbaeumer.vscode-eslint",
-        "vespa-dev-works.jestRunIt"
+        "firsttris.vscode-jest-runner"
       ],
       "settings": {
         "git.terminalAuthentication": false,
