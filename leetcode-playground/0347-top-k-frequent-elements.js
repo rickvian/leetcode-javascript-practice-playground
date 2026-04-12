@@ -17,58 +17,73 @@
  * @return {number[]}
  */
 var topKFrequent = function (nums, k) {
-  // Step 1: Count frequencies - O(n)
-  // Example: nums = [1, 1, 1, 2, 2, 3], k = 2
-  const count = new Map();
-  let maxFreq = 0;
+  // intuition
 
-  for (let num of nums) {
-    const freq = (count.get(num) || 0) + 1;
-    count.set(num, freq);
-    maxFreq = Math.max(maxFreq, freq);  // Track max frequency to avoid sparse array iteration
-  }
+  // need gather frequency info,
+  // could be few ways, lest make a map
 
-  // After step 1:
-  // count = Map { 1 => 3, 2 => 2, 3 => 1 }
-  // maxFreq = 3
-
-  // Step 2: Create buckets indexed by frequency - O(unique elements) ≤ O(n)
-  // Use Map to avoid allocating n+1 empty arrays
-  // Group numbers by their frequency
-  const freq = new Map();
-
-  for (let [num, numFreq] of count) {
-    if (!freq.has(numFreq)) {
-      freq.set(numFreq, []);
-    }
-    freq.get(numFreq).push(num);
-  }
-
-  // After step 2:
-  // freq = Map {
-  //   3 => [1],      (frequency 3: number 1 appears 3 times)
-  //   2 => [2],      (frequency 2: number 2 appears 2 times)
-  //   1 => [3]       (frequency 1: number 3 appears 1 time)
+  // {
+  //   1:2,
+  //   2:2,
+  //   3:1,
+  //   4:1,
   // }
 
-  // Step 3: Collect k most frequent elements - O(maxFreq + k)
-  // Iterate from highest frequency down (only up to maxFreq, not n)
-  // Example: k = 2
-  // i = 3: freq.has(3) = true, add 1 to result → result = [1]
-  // i = 2: freq.has(2) = true, add 2 to result → result = [1, 2] (done, length === k)
-  const result = [];
-  for (let i = maxFreq; i > 0 && result.length < k; i--) {
-    if (freq.has(i)) {
-      for (let num of freq.get(i)) {
-        result.push(num);
-        if (result.length === k) {
-          return result;  // Early return when we have k elements
-        }
-      }
+  // from the frequency, we can make kind of array, where frequency is sorted, 
+  // so we can go from the largest item to the smallest, but only pick K times
+
+  //            v v
+  // freq  [1,1,2,3]
+  //  value 3,4,2  1
+  // k 2
+
+  // -> [1, 2]
+
+  // on paper we get the idea, but how does we solve this in code?
+
+  // involve sorting the frequency, and retain the mapping, when we find largest freq, we collect the value, pick K times, we get the answer
+
+  let freq = new Map() // { actualValue: freq }
+
+  for (let num of nums) {
+    freq.set(num, (freq.get(num) || 0) + 1); // if empty, initialize 0 and add 1 counter, otherwise increment existing.
+  }
+
+  // we have the frequency map
+
+  // now we need to sort the freq.
+
+  // we can create new sortedArray, do the .sort, but that will be (uN log uN) extra loop,
+
+  // lets try bucket sort, it has o N
+
+  let bucket = Array.from({ length: nums.length + 1 }, () => []); // bucket mapping index as the frequency, value as the value [ , , ,]
+  //  value [  3,2,1] times
+  // index  [0,1,2,3]
+  // but there could be collision, so we made array in the bucket
+
+  // index  [0  , 1   ,   2,    3  ]  times
+  //  value [    [3,4] , [2] , [1] ] 
+
+
+  // this can be useful if we go from back iterate n times. so bucket sorting N + n picking item, 2n, still linear
+
+  for (let [nValue, nFreq] of freq) {
+    bucket[nFreq].push(nValue)
+  }
+
+  // then pick the top k from bucket.
+
+  let result = []
+  for (let i = nums.length; i > 0; i--) { // cos bucket is extended to cover +1 edge case
+    // bucket[i] // [3,4] content is array
+    for (let item of bucket[i]) {
+      result.push(item);
+      if (result.length === k) return result // stop early
     }
   }
 
-  // Final result: [1, 2] (the 2 most frequent elements)
+  return result
 };
 
 export { topKFrequent };
