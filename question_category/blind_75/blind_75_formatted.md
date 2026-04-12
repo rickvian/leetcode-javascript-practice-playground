@@ -1,3 +1,5 @@
+reference: https://leetcode.com/problem-list/oizxjoit/
+
 0001 - two sum
 0003 - longest substring without repeating characters
 0005 - longest palindromic substring
