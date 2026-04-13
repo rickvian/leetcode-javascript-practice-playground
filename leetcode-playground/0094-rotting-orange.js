@@ -4,83 +4,80 @@
  */
 var orangesRotting = function (grid) {
 
-  // [x] [v] []
-  // [v] [v] []
-  // [v] [] [v]
+  // [R2] [F1] [F1]
+  // [F1] [F1] [  ]
+  // [  ] [F1] [F1]
 
-  // intuition, we perform Bfs on rotting orange per minute,
-  // we traverse fresh oranges touched by the rotten one, put it in queue
-  // we traverse closest ones, process them first, hence breath first search.
 
-  // when do we stop? 
+  // neighbour infect, process adjacent orange.
+  // collect fresh orange count, useful for us to know when to stop when processing rotting expansion
 
-  if (!grid || grid.length === 0) return 0;
-
-  let orangeQueue = []; // BFS use queue.
   let freshOrangeCount = 0;
 
-  let [rowsLen, colsLen] = [grid.length, grid[0].length]
+  let orangeQueue = []; // queue of rotten orange [row, index] to process rotting neighbour
+  let [rowLen, colLen] = [grid.length, grid[0].length]
 
-  // Gather all rotten oranges and put it into stack
-  // gather all information of fresh orange count, this will be used to track whether orange is rotten or not.
-  for (let rowI = 0; rowI < rowsLen; rowI++) {
-    for (let colI = 0; colI < colsLen; colI++) {
-
-      if (grid[rowI][colI] === 1) {
+  for (let i = 0; i < grid.length; i++) {
+    for (let j = 0; j < grid[0].length; j++) {
+      if (grid[i][j] === 1) {
         freshOrangeCount++
       }
-      if (grid[rowI][colI] === 2) {
-        // orange is rotten, put into queue
-        orangeQueue.push([rowI, colI]);
+      if (grid[i][j] === 2) {
+        orangeQueue.push([i, j]);
       }
-
     }
   }
 
-  // by now we should have all rotten orange coordinates, and total fresh orange in all grid.
+  // now process rotting orange in queue, we infect all orange in 4 direction
+  // those infected orange need will be queued to processed in next minute.
+  let time = 0
+  let directions = [[0, 1], [1, 0], [-1, 0], [0, -1]]
+  while (orangeQueue.length > 0 && freshOrangeCount > 0) { // when no fresh orange left, skips process last rotten batches
+    // [0,1], [1,0]
 
-  // now perform Bfs upon all rotten orange,
-  // we want to check adjacent fresh orange, turn it into rotten orange,
-  // put it into queue to process next.
+    const countOrangeToProcess = orangeQueue.length // snapshot of queue before start
 
+    for (let i = 0; i < countOrangeToProcess; i++) { // does it use moving bucket?
+      // shift orange from queue, start process itt 4 direction
+      const [orangeRow, orangeCol] = orangeQueue.shift()
 
-  // when searching BFS we will look to 4 directions
-  let directions = [[0, 1], [0, -1], [1, 0], [-1, 0]]
+      for (let [dr, dc] of directions) {
+        const [row, col] = [orangeRow + dr, orangeCol + dc]
 
-  let time = 0// minute
-
-  // when we still have orange queue
-  while (orangeQueue.length > 0 && freshOrangeCount > 0) { // freshOrangeCount > 0 is optimization so you don't need to process last batch of orange queue.
-    let orangeQueueThisMinute = orangeQueue.length
-
-    for (let i = 0; i < orangeQueueThisMinute; i++) {
-      // iterate over all orange to process in this minute.
-
-      let [r, c] = orangeQueue.shift() // current orange to process.
-
-      for (let [dr, dc] of directions) { // search through all direction
-        let [row, col] = [r + dr, c + dc]
-
-        // ensure the target is within boundary, and fresh ready for infect
-        if (row >= 0 && row < rowsLen && col >= 0 && col < colsLen && grid[row][col] === 1) {
-          grid[row][col] = 2 // make it rotten
-          orangeQueue.push([row, col]) // push the index into the queue, for next process
+        // check if adjacent orange valid for infect
+        if (row >= 0 && col >= 0 && row < rowLen && col < colLen && grid[row][col] === 1) {
+          grid[row][col] = 2 // rot it
+          orangeQueue.push([row, col]) // push to queue for next minute processing.
           freshOrangeCount--
         }
+      } // all direction processed
+    } // orange queue processed
 
-      }
-    }
-    // after all direction of rotten orange processed and rotted, time passes 1 minute
     time++
   }
 
   if (freshOrangeCount === 0) {
     return time
   } else {
-    return -1 // not all orange can be rotten
+    // not all can be processed
+    return -1
   }
 
+
 };
+
+// brute force way:
+// loop, every minute, check all orange
+// check all direction for that orange,
+// turn it into rotten if it is adjacent to rotten orange
+// in next minute to the same
+
+// we will count total of rotten oranges.
+
+// process MXN oranges, 4 direction
+// for every minute it has to process again mxn4 direction, at worts case if rot spreads slowly through the board, it took m x n time in minute (imagine orange all in edges.)
+
+// this BFS efficient way:
 // Time Complexity: O(N x M)
 // The time complexity is proportional to the number of cells in the grid, where $N$ is the number of rows and $M$ is the number of columns.
 // Initialization: You traverse the entire grid once to find the initial rotten oranges and count the fresh ones.This takes O(N xM).
