@@ -3,7 +3,9 @@
 </p>
 
 # JS Leetcode practice ground
-Contains Unit test ready for you to use on leetcode problems (may include premium questions.)
+Collection of leetcode test case scenarios for practice.
+These Unit test ready for you to use on leetcode problems (may include premium questions.)
+You run the javascript leetcode test in your IDE with debug mode without paying leetcode premium
 
 # How to use this repo
 
@@ -24,6 +26,10 @@ you can start exercise of solving problem.
 - every problem has respective test case you can run using `Vitest
 - It contains test scenarios ready to battle test your solution (You can contribute test case!)
 - Tests grouped under `/tests` folder.
+
+<p align="center">
+  <img src="assets/debug-mode-yourself" width="600" alt="debug mode">
+</p>
 
 
 # Tips for debugging
