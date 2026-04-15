@@ -101,3 +101,76 @@ userStories:
     priority: 2
     passes: true
     notes: "Final batch of Blind 75 problems - retrieve from 8-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+
+  # -------------------------------------------------------------------------
+  # Backfill phase: US-002..US-009 generated ~3k stub test files, but many
+  # contain placeholder/dummy cases rather than real LeetCode examples.
+  # The stories below iteratively replace those placeholders with real,
+  # high-quality test cases. Small batches keep each US's `passes` signal
+  # meaningful and let the ralph loop show visible progress.
+  # -------------------------------------------------------------------------
+
+  - id: US-010
+    title: Mark all placeholder test files with a detectable sentinel
+    acceptanceCriteria:
+      - Scan leetcode-playground/tests/*.test.js for files whose test bodies are dummy/placeholder (e.g. single trivial it block, comment-only, or auto-generated boilerplate without real LeetCode examples)
+      - Insert a single sentinel line `// TODO(backfill): replace with real LeetCode cases` at the top of every such file (just below the import)
+      - Skip files that already have real cases (heuristic, verify a sample by hand before bulk run)
+      - Add scripts/backfill/list-backfill-todos.sh that prints counts by marker type (backfill, community, done)
+      - Commit the sentinel insertion as one discrete commit so it can be reverted if the heuristic was wrong
+    priority: 3
+    passes: false
+    notes: "One-time prep pass. Enables all downstream backfill stories by making the worklist grep-able. Run grep -l 'TODO(backfill)' to get the live queue."
+
+  # Scope note: Blind 75 (US-002..US-009) is considered covered. The backfill
+  # phase targets the ~2925 non-Blind-75 stub files. Ralph owns 100% of this
+  # work - no human/community escape hatch. Every file must end up with real,
+  # high-quality test cases before its batch story can pass.
+
+  - id: US-011
+    title: Generate tiered batch worklists for non-Blind-75 backfill
+    acceptanceCriteria:
+      - Add scripts/backfill/gen-batches.sh that reads fetch-scrap-leetcode-problem/responseArchive/full_leetcode_problems_response.json
+      - Exclude all Blind 75 problem IDs (union of 1-blind_75.txt through 8-blind_75.txt) from every batch
+      - Include only files that currently contain the TODO(backfill) sentinel from US-010
+      - Group by difficulty (easy / medium / hard), sort each tier by acRate DESC so the most-familiar problems are addressed first
+      - Emit batches of ~100 files each to scripts/backfill/batches/{easy,medium,hard}-batch-NN.txt
+      - Emit scripts/backfill/batches/INDEX.md listing every batch file with its problem count and frontend-ID range
+      - Runs once; commit the generated batch files so downstream stories have stable worklists to reference
+    priority: 3
+    passes: false
+    notes: "Foundation for all backfill work. Batch files are the stable, grep-able worklists each materialized US references."
+
+  - id: US-012
+    title: Materialize backfill user stories from generated batches
+    acceptanceCriteria:
+      - For each batch file produced by US-011, append a concrete user story to this PRD (US-013, US-014, ..., one per batch) using the template block at the bottom of this file
+      - Materialization order - all easy-batch-* first, then medium-batch-*, then hard-batch-*
+      - Per-iteration batch size - 10 files for easy-batch-*, 5 files for medium-batch-* and hard-batch-*
+      - Do NOT materialize every batch at once - keep at most the next 2-3 unstarted batch stories present in the PRD ahead of the loop's current position
+      - When a materialized story flips to `passes: true`, materialize the next batch story in order
+      - `passes: true` when every batch file produced by US-011 has a corresponding closed (`passes: true`) user story
+    priority: 3
+    passes: false
+    notes: "Meta story that paces PRD growth. Keeps the file readable while ensuring the ralph loop is always fed with the next batch of work."
+
+  # -------------------------------------------------------------------------
+  # Template for every materialized backfill story (US-013 and beyond).
+  # US-012 copies this block, substitutes the batch file name and per-iter
+  # count, and appends it above this comment. Do NOT edit the template in
+  # place for a specific batch - copy-then-fill.
+  # -------------------------------------------------------------------------
+  #
+  #   - id: US-0XX
+  #     title: Backfill real test cases - <batch file name>
+  #     acceptanceCriteria:
+  #       - Worklist = every file listed in scripts/backfill/batches/<batch>.txt that still contains the TODO(backfill) sentinel
+  #       - Process N files per iteration (10 for easy, 5 for medium/hard)
+  #       - For each file, read the JSDoc LeetCode URL from the paired solution file to identify the problem
+  #       - Author test cases covering CLAUDE.md adversarial rules (empty/min, type nuance, whitespace, repetitive data, range limits)
+  #       - Remove the TODO(backfill) sentinel once real cases are written
+  #       - Ralph must complete every file in the batch - no deferral, no skipping
+  #       - `passes: true` when zero files in this batch still contain TODO(backfill)
+  #     priority: 3
+  #     passes: false
+  #     notes: "<tier> tier, batch <NN>"

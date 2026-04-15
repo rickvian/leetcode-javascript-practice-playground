@@ -1,0 +1,2056 @@
+# Topic: Matrix
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+matrix:
+  - id: 1
+    number: "0036"
+    name: valid-sudoku
+    difficulty: medium
+    solution: ./leetcode-playground/0036-valid-sudoku.js
+    test: ./leetcode-playground/tests/0036-valid-sudoku.test.js
+    leetcode_url: https://leetcode.com/problems/valid-sudoku/
+    notes: ""
+
+  - id: 2
+    number: "0037"
+    name: sudoku-solver
+    difficulty: hard
+    solution: ./leetcode-playground/0037-sudoku-solver.js
+    test: ./leetcode-playground/tests/0037-sudoku-solver.test.js
+    leetcode_url: https://leetcode.com/problems/sudoku-solver/
+    notes: ""
+
+  - id: 3
+    number: "0048"
+    name: rotate-image
+    difficulty: medium
+    solution: ./leetcode-playground/0048-rotate-image.js
+    test: ./leetcode-playground/tests/0048-rotate-image.test.js
+    leetcode_url: https://leetcode.com/problems/rotate-image/
+    notes: ""
+
+  - id: 4
+    number: "0054"
+    name: spiral-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/0054-spiral-matrix.js
+    test: ./leetcode-playground/tests/0054-spiral-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/spiral-matrix/
+    notes: ""
+
+  - id: 5
+    number: "0059"
+    name: spiral-matrix-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0059-spiral-matrix-ii.js
+    test: ./leetcode-playground/tests/0059-spiral-matrix-ii.test.js
+    leetcode_url: https://leetcode.com/problems/spiral-matrix-ii/
+    notes: ""
+
+  - id: 6
+    number: "0063"
+    name: unique-paths-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0063-unique-paths-ii.js
+    test: ./leetcode-playground/tests/0063-unique-paths-ii.test.js
+    leetcode_url: https://leetcode.com/problems/unique-paths-ii/
+    notes: ""
+
+  - id: 7
+    number: "0064"
+    name: minimum-path-sum
+    difficulty: medium
+    solution: ./leetcode-playground/0064-minimum-path-sum.js
+    test: ./leetcode-playground/tests/0064-minimum-path-sum.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-path-sum/
+    notes: ""
+
+  - id: 8
+    number: "0073"
+    name: set-matrix-zeroes
+    difficulty: medium
+    solution: ./leetcode-playground/0073-set-matrix-zeroes.js
+    test: ./leetcode-playground/tests/0073-set-matrix-zeroes.test.js
+    leetcode_url: https://leetcode.com/problems/set-matrix-zeroes/
+    notes: ""
+
+  - id: 9
+    number: "0074"
+    name: search-a-2d-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/0074-search-a-2d-matrix.js
+    test: ./leetcode-playground/tests/0074-search-a-2d-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/search-a-2d-matrix/
+    notes: ""
+
+  - id: 10
+    number: "0079"
+    name: word-search
+    difficulty: medium
+    solution: ./leetcode-playground/0079-word-search.js
+    test: ./leetcode-playground/tests/0079-word-search.test.js
+    leetcode_url: https://leetcode.com/problems/word-search/
+    notes: ""
+
+  - id: 11
+    number: "0085"
+    name: maximal-rectangle
+    difficulty: hard
+    solution: ./leetcode-playground/0085-maximal-rectangle.js
+    test: ./leetcode-playground/tests/0085-maximal-rectangle.test.js
+    leetcode_url: https://leetcode.com/problems/maximal-rectangle/
+    notes: ""
+
+  - id: 12
+    number: "0130"
+    name: surrounded-regions
+    difficulty: medium
+    solution: ./leetcode-playground/0130-surrounded-regions.js
+    test: ./leetcode-playground/tests/0130-surrounded-regions.test.js
+    leetcode_url: https://leetcode.com/problems/surrounded-regions/
+    notes: ""
+
+  - id: 13
+    number: "0174"
+    name: dungeon-game
+    difficulty: hard
+    solution: ./leetcode-playground/0174-dungeon-game.js
+    test: ./leetcode-playground/tests/0174-dungeon-game.test.js
+    leetcode_url: https://leetcode.com/problems/dungeon-game/
+    notes: ""
+
+  - id: 14
+    number: "0200"
+    name: number-of-islands
+    difficulty: medium
+    solution: ./leetcode-playground/0200-number-of-islands.js
+    test: ./leetcode-playground/tests/0200-number-of-islands.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-islands/
+    notes: ""
+
+  - id: 15
+    number: "0212"
+    name: word-search-ii
+    difficulty: hard
+    solution: ./leetcode-playground/0212-word-search-ii.js
+    test: ./leetcode-playground/tests/0212-word-search-ii.test.js
+    leetcode_url: https://leetcode.com/problems/word-search-ii/
+    notes: ""
+
+  - id: 16
+    number: "0221"
+    name: maximal-square
+    difficulty: medium
+    solution: ./leetcode-playground/0221-maximal-square.js
+    test: ./leetcode-playground/tests/0221-maximal-square.test.js
+    leetcode_url: https://leetcode.com/problems/maximal-square/
+    notes: ""
+
+  - id: 17
+    number: "0240"
+    name: search-a-2d-matrix-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0240-search-a-2d-matrix-ii.js
+    test: ./leetcode-playground/tests/0240-search-a-2d-matrix-ii.test.js
+    leetcode_url: https://leetcode.com/problems/search-a-2d-matrix-ii/
+    notes: ""
+
+  - id: 18
+    number: "0289"
+    name: game-of-life
+    difficulty: medium
+    solution: ./leetcode-playground/0289-game-of-life.js
+    test: ./leetcode-playground/tests/0289-game-of-life.test.js
+    leetcode_url: https://leetcode.com/problems/game-of-life/
+    notes: ""
+
+  - id: 19
+    number: "0304"
+    name: range-sum-query-2d-immutable
+    difficulty: medium
+    solution: ./leetcode-playground/0304-range-sum-query-2d-immutable.js
+    test: ./leetcode-playground/tests/0304-range-sum-query-2d-immutable.test.js
+    leetcode_url: https://leetcode.com/problems/range-sum-query-2d-immutable/
+    notes: ""
+
+  - id: 20
+    number: "0329"
+    name: longest-increasing-path-in-a-matrix
+    difficulty: hard
+    solution: ./leetcode-playground/0329-longest-increasing-path-in-a-matrix.js
+    test: ./leetcode-playground/tests/0329-longest-increasing-path-in-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+    notes: ""
+
+  - id: 21
+    number: "0363"
+    name: max-sum-of-rectangle-no-larger-than-k
+    difficulty: hard
+    solution: ./leetcode-playground/0363-max-sum-of-rectangle-no-larger-than-k.js
+    test: ./leetcode-playground/tests/0363-max-sum-of-rectangle-no-larger-than-k.test.js
+    leetcode_url: https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+    notes: ""
+
+  - id: 22
+    number: "0378"
+    name: kth-smallest-element-in-a-sorted-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/0378-kth-smallest-element-in-a-sorted-matrix.js
+    test: ./leetcode-playground/tests/0378-kth-smallest-element-in-a-sorted-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+    notes: ""
+
+  - id: 23
+    number: "0407"
+    name: trapping-rain-water-ii
+    difficulty: hard
+    solution: ./leetcode-playground/0407-trapping-rain-water-ii.js
+    test: ./leetcode-playground/tests/0407-trapping-rain-water-ii.test.js
+    leetcode_url: https://leetcode.com/problems/trapping-rain-water-ii/
+    notes: ""
+
+  - id: 24
+    number: "0417"
+    name: pacific-atlantic-water-flow
+    difficulty: medium
+    solution: ./leetcode-playground/0417-pacific-atlantic-water-flow.js
+    test: ./leetcode-playground/tests/0417-pacific-atlantic-water-flow.test.js
+    leetcode_url: https://leetcode.com/problems/pacific-atlantic-water-flow/
+    notes: ""
+
+  - id: 25
+    number: "0419"
+    name: battleships-in-a-board
+    difficulty: medium
+    solution: ./leetcode-playground/0419-battleships-in-a-board.js
+    test: ./leetcode-playground/tests/0419-battleships-in-a-board.test.js
+    leetcode_url: https://leetcode.com/problems/battleships-in-a-board/
+    notes: ""
+
+  - id: 26
+    number: "0427"
+    name: construct-quad-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0427-construct-quad-tree.js
+    test: ./leetcode-playground/tests/0427-construct-quad-tree.test.js
+    leetcode_url: https://leetcode.com/problems/construct-quad-tree/
+    notes: ""
+
+  - id: 27
+    number: "0463"
+    name: island-perimeter
+    difficulty: easy
+    solution: ./leetcode-playground/0463-island-perimeter.js
+    test: ./leetcode-playground/tests/0463-island-perimeter.test.js
+    leetcode_url: https://leetcode.com/problems/island-perimeter/
+    notes: ""
+
+  - id: 28
+    number: "0498"
+    name: diagonal-traverse
+    difficulty: medium
+    solution: ./leetcode-playground/0498-diagonal-traverse.js
+    test: ./leetcode-playground/tests/0498-diagonal-traverse.test.js
+    leetcode_url: https://leetcode.com/problems/diagonal-traverse/
+    notes: ""
+
+  - id: 29
+    number: "0529"
+    name: minesweeper
+    difficulty: medium
+    solution: ./leetcode-playground/0529-minesweeper.js
+    test: ./leetcode-playground/tests/0529-minesweeper.test.js
+    leetcode_url: https://leetcode.com/problems/minesweeper/
+    notes: ""
+
+  - id: 30
+    number: "0542"
+    name: 01-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/0542-01-matrix.js
+    test: ./leetcode-playground/tests/0542-01-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/01-matrix/
+    notes: ""
+
+  - id: 31
+    number: "0566"
+    name: reshape-the-matrix
+    difficulty: easy
+    solution: ./leetcode-playground/0566-reshape-the-matrix.js
+    test: ./leetcode-playground/tests/0566-reshape-the-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/reshape-the-matrix/
+    notes: ""
+
+  - id: 32
+    number: "0661"
+    name: image-smoother
+    difficulty: easy
+    solution: ./leetcode-playground/0661-image-smoother.js
+    test: ./leetcode-playground/tests/0661-image-smoother.test.js
+    leetcode_url: https://leetcode.com/problems/image-smoother/
+    notes: ""
+
+  - id: 33
+    number: "0675"
+    name: cut-off-trees-for-golf-event
+    difficulty: hard
+    solution: ./leetcode-playground/0675-cut-off-trees-for-golf-event.js
+    test: ./leetcode-playground/tests/0675-cut-off-trees-for-golf-event.test.js
+    leetcode_url: https://leetcode.com/problems/cut-off-trees-for-golf-event/
+    notes: ""
+
+  - id: 34
+    number: "0695"
+    name: max-area-of-island
+    difficulty: medium
+    solution: ./leetcode-playground/0695-max-area-of-island.js
+    test: ./leetcode-playground/tests/0695-max-area-of-island.test.js
+    leetcode_url: https://leetcode.com/problems/max-area-of-island/
+    notes: ""
+
+  - id: 35
+    number: "0733"
+    name: flood-fill
+    difficulty: easy
+    solution: ./leetcode-playground/0733-flood-fill.js
+    test: ./leetcode-playground/tests/0733-flood-fill.test.js
+    leetcode_url: https://leetcode.com/problems/flood-fill/
+    notes: ""
+
+  - id: 36
+    number: "0741"
+    name: cherry-pickup
+    difficulty: hard
+    solution: ./leetcode-playground/0741-cherry-pickup.js
+    test: ./leetcode-playground/tests/0741-cherry-pickup.test.js
+    leetcode_url: https://leetcode.com/problems/cherry-pickup/
+    notes: ""
+
+  - id: 37
+    number: "0749"
+    name: contain-virus
+    difficulty: hard
+    solution: ./leetcode-playground/0749-contain-virus.js
+    test: ./leetcode-playground/tests/0749-contain-virus.test.js
+    leetcode_url: https://leetcode.com/problems/contain-virus/
+    notes: ""
+
+  - id: 38
+    number: "0766"
+    name: toeplitz-matrix
+    difficulty: easy
+    solution: ./leetcode-playground/0766-toeplitz-matrix.js
+    test: ./leetcode-playground/tests/0766-toeplitz-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/toeplitz-matrix/
+    notes: ""
+
+  - id: 39
+    number: "0773"
+    name: sliding-puzzle
+    difficulty: hard
+    solution: ./leetcode-playground/0773-sliding-puzzle.js
+    test: ./leetcode-playground/tests/0773-sliding-puzzle.test.js
+    leetcode_url: https://leetcode.com/problems/sliding-puzzle/
+    notes: ""
+
+  - id: 40
+    number: "0778"
+    name: swim-in-rising-water
+    difficulty: hard
+    solution: ./leetcode-playground/0778-swim-in-rising-water.js
+    test: ./leetcode-playground/tests/0778-swim-in-rising-water.test.js
+    leetcode_url: https://leetcode.com/problems/swim-in-rising-water/
+    notes: ""
+
+  - id: 41
+    number: "0782"
+    name: transform-to-chessboard
+    difficulty: hard
+    solution: ./leetcode-playground/0782-transform-to-chessboard.js
+    test: ./leetcode-playground/tests/0782-transform-to-chessboard.test.js
+    leetcode_url: https://leetcode.com/problems/transform-to-chessboard/
+    notes: ""
+
+  - id: 42
+    number: "0794"
+    name: valid-tic-tac-toe-state
+    difficulty: medium
+    solution: ./leetcode-playground/0794-valid-tic-tac-toe-state.js
+    test: ./leetcode-playground/tests/0794-valid-tic-tac-toe-state.test.js
+    leetcode_url: https://leetcode.com/problems/valid-tic-tac-toe-state/
+    notes: ""
+
+  - id: 43
+    number: "0803"
+    name: bricks-falling-when-hit
+    difficulty: hard
+    solution: ./leetcode-playground/0803-bricks-falling-when-hit.js
+    test: ./leetcode-playground/tests/0803-bricks-falling-when-hit.test.js
+    leetcode_url: https://leetcode.com/problems/bricks-falling-when-hit/
+    notes: ""
+
+  - id: 44
+    number: "0807"
+    name: max-increase-to-keep-city-skyline
+    difficulty: medium
+    solution: ./leetcode-playground/0807-max-increase-to-keep-city-skyline.js
+    test: ./leetcode-playground/tests/0807-max-increase-to-keep-city-skyline.test.js
+    leetcode_url: https://leetcode.com/problems/max-increase-to-keep-city-skyline/
+    notes: ""
+
+  - id: 45
+    number: "0827"
+    name: making-a-large-island
+    difficulty: hard
+    solution: ./leetcode-playground/0827-making-a-large-island.js
+    test: ./leetcode-playground/tests/0827-making-a-large-island.test.js
+    leetcode_url: https://leetcode.com/problems/making-a-large-island/
+    notes: ""
+
+  - id: 46
+    number: "0832"
+    name: flipping-an-image
+    difficulty: easy
+    solution: ./leetcode-playground/0832-flipping-an-image.js
+    test: ./leetcode-playground/tests/0832-flipping-an-image.test.js
+    leetcode_url: https://leetcode.com/problems/flipping-an-image/
+    notes: ""
+
+  - id: 47
+    number: "0835"
+    name: image-overlap
+    difficulty: medium
+    solution: ./leetcode-playground/0835-image-overlap.js
+    test: ./leetcode-playground/tests/0835-image-overlap.test.js
+    leetcode_url: https://leetcode.com/problems/image-overlap/
+    notes: ""
+
+  - id: 48
+    number: "0840"
+    name: magic-squares-in-grid
+    difficulty: medium
+    solution: ./leetcode-playground/0840-magic-squares-in-grid.js
+    test: ./leetcode-playground/tests/0840-magic-squares-in-grid.test.js
+    leetcode_url: https://leetcode.com/problems/magic-squares-in-grid/
+    notes: ""
+
+  - id: 49
+    number: "0861"
+    name: score-after-flipping-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/0861-score-after-flipping-matrix.js
+    test: ./leetcode-playground/tests/0861-score-after-flipping-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/score-after-flipping-matrix/
+    notes: ""
+
+  - id: 50
+    number: "0864"
+    name: shortest-path-to-get-all-keys
+    difficulty: hard
+    solution: ./leetcode-playground/0864-shortest-path-to-get-all-keys.js
+    test: ./leetcode-playground/tests/0864-shortest-path-to-get-all-keys.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-path-to-get-all-keys/
+    notes: ""
+
+  - id: 51
+    number: "0867"
+    name: transpose-matrix
+    difficulty: easy
+    solution: ./leetcode-playground/0867-transpose-matrix.js
+    test: ./leetcode-playground/tests/0867-transpose-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/transpose-matrix/
+    notes: ""
+
+  - id: 52
+    number: "0883"
+    name: projection-area-of-3d-shapes
+    difficulty: easy
+    solution: ./leetcode-playground/0883-projection-area-of-3d-shapes.js
+    test: ./leetcode-playground/tests/0883-projection-area-of-3d-shapes.test.js
+    leetcode_url: https://leetcode.com/problems/projection-area-of-3d-shapes/
+    notes: ""
+
+  - id: 53
+    number: "0885"
+    name: spiral-matrix-iii
+    difficulty: medium
+    solution: ./leetcode-playground/0885-spiral-matrix-iii.js
+    test: ./leetcode-playground/tests/0885-spiral-matrix-iii.test.js
+    leetcode_url: https://leetcode.com/problems/spiral-matrix-iii/
+    notes: ""
+
+  - id: 54
+    number: "0892"
+    name: surface-area-of-3d-shapes
+    difficulty: easy
+    solution: ./leetcode-playground/0892-surface-area-of-3d-shapes.js
+    test: ./leetcode-playground/tests/0892-surface-area-of-3d-shapes.test.js
+    leetcode_url: https://leetcode.com/problems/surface-area-of-3d-shapes/
+    notes: ""
+
+  - id: 55
+    number: "0909"
+    name: snakes-and-ladders
+    difficulty: medium
+    solution: ./leetcode-playground/0909-snakes-and-ladders.js
+    test: ./leetcode-playground/tests/0909-snakes-and-ladders.test.js
+    leetcode_url: https://leetcode.com/problems/snakes-and-ladders/
+    notes: ""
+
+  - id: 56
+    number: "0931"
+    name: minimum-falling-path-sum
+    difficulty: medium
+    solution: ./leetcode-playground/0931-minimum-falling-path-sum.js
+    test: ./leetcode-playground/tests/0931-minimum-falling-path-sum.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-falling-path-sum/
+    notes: ""
+
+  - id: 57
+    number: "0934"
+    name: shortest-bridge
+    difficulty: medium
+    solution: ./leetcode-playground/0934-shortest-bridge.js
+    test: ./leetcode-playground/tests/0934-shortest-bridge.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-bridge/
+    notes: ""
+
+  - id: 58
+    number: "0959"
+    name: regions-cut-by-slashes
+    difficulty: medium
+    solution: ./leetcode-playground/0959-regions-cut-by-slashes.js
+    test: ./leetcode-playground/tests/0959-regions-cut-by-slashes.test.js
+    leetcode_url: https://leetcode.com/problems/regions-cut-by-slashes/
+    notes: ""
+
+  - id: 59
+    number: "0980"
+    name: unique-paths-iii
+    difficulty: hard
+    solution: ./leetcode-playground/0980-unique-paths-iii.js
+    test: ./leetcode-playground/tests/0980-unique-paths-iii.test.js
+    leetcode_url: https://leetcode.com/problems/unique-paths-iii/
+    notes: ""
+
+  - id: 60
+    number: "0994"
+    name: rotting-oranges
+    difficulty: medium
+    solution: ./leetcode-playground/0994-rotting-oranges.js
+    test: ./leetcode-playground/tests/0994-rotting-oranges.test.js
+    leetcode_url: https://leetcode.com/problems/rotting-oranges/
+    notes: ""
+
+  - id: 61
+    number: "0999"
+    name: available-captures-for-rook
+    difficulty: easy
+    solution: ./leetcode-playground/0999-available-captures-for-rook.js
+    test: ./leetcode-playground/tests/0999-available-captures-for-rook.test.js
+    leetcode_url: https://leetcode.com/problems/available-captures-for-rook/
+    notes: ""
+
+  - id: 62
+    number: "1020"
+    name: number-of-enclaves
+    difficulty: medium
+    solution: ./leetcode-playground/1020-number-of-enclaves.js
+    test: ./leetcode-playground/tests/1020-number-of-enclaves.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-enclaves/
+    notes: ""
+
+  - id: 63
+    number: "1030"
+    name: matrix-cells-in-distance-order
+    difficulty: easy
+    solution: ./leetcode-playground/1030-matrix-cells-in-distance-order.js
+    test: ./leetcode-playground/tests/1030-matrix-cells-in-distance-order.test.js
+    leetcode_url: https://leetcode.com/problems/matrix-cells-in-distance-order/
+    notes: ""
+
+  - id: 64
+    number: "1034"
+    name: coloring-a-border
+    difficulty: medium
+    solution: ./leetcode-playground/1034-coloring-a-border.js
+    test: ./leetcode-playground/tests/1034-coloring-a-border.test.js
+    leetcode_url: https://leetcode.com/problems/coloring-a-border/
+    notes: ""
+
+  - id: 65
+    number: "1072"
+    name: flip-columns-for-maximum-number-of-equal-rows
+    difficulty: medium
+    solution: ./leetcode-playground/1072-flip-columns-for-maximum-number-of-equal-rows.js
+    test: ./leetcode-playground/tests/1072-flip-columns-for-maximum-number-of-equal-rows.test.js
+    leetcode_url: https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/
+    notes: ""
+
+  - id: 66
+    number: "1074"
+    name: number-of-submatrices-that-sum-to-target
+    difficulty: hard
+    solution: ./leetcode-playground/1074-number-of-submatrices-that-sum-to-target.js
+    test: ./leetcode-playground/tests/1074-number-of-submatrices-that-sum-to-target.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
+    notes: ""
+
+  - id: 67
+    number: "1091"
+    name: shortest-path-in-binary-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/1091-shortest-path-in-binary-matrix.js
+    test: ./leetcode-playground/tests/1091-shortest-path-in-binary-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-path-in-binary-matrix/
+    notes: ""
+
+  - id: 68
+    number: "1139"
+    name: largest-1-bordered-square
+    difficulty: medium
+    solution: ./leetcode-playground/1139-largest-1-bordered-square.js
+    test: ./leetcode-playground/tests/1139-largest-1-bordered-square.test.js
+    leetcode_url: https://leetcode.com/problems/largest-1-bordered-square/
+    notes: ""
+
+  - id: 69
+    number: "1162"
+    name: as-far-from-land-as-possible
+    difficulty: medium
+    solution: ./leetcode-playground/1162-as-far-from-land-as-possible.js
+    test: ./leetcode-playground/tests/1162-as-far-from-land-as-possible.test.js
+    leetcode_url: https://leetcode.com/problems/as-far-from-land-as-possible/
+    notes: ""
+
+  - id: 70
+    number: "1210"
+    name: minimum-moves-to-reach-target-with-rotations
+    difficulty: hard
+    solution: ./leetcode-playground/1210-minimum-moves-to-reach-target-with-rotations.js
+    test: ./leetcode-playground/tests/1210-minimum-moves-to-reach-target-with-rotations.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/
+    notes: ""
+
+  - id: 71
+    number: "1219"
+    name: path-with-maximum-gold
+    difficulty: medium
+    solution: ./leetcode-playground/1219-path-with-maximum-gold.js
+    test: ./leetcode-playground/tests/1219-path-with-maximum-gold.test.js
+    leetcode_url: https://leetcode.com/problems/path-with-maximum-gold/
+    notes: ""
+
+  - id: 72
+    number: "1222"
+    name: queens-that-can-attack-the-king
+    difficulty: medium
+    solution: ./leetcode-playground/1222-queens-that-can-attack-the-king.js
+    test: ./leetcode-playground/tests/1222-queens-that-can-attack-the-king.test.js
+    leetcode_url: https://leetcode.com/problems/queens-that-can-attack-the-king/
+    notes: ""
+
+  - id: 73
+    number: "1253"
+    name: reconstruct-a-2-row-binary-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/1253-reconstruct-a-2-row-binary-matrix.js
+    test: ./leetcode-playground/tests/1253-reconstruct-a-2-row-binary-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/
+    notes: ""
+
+  - id: 74
+    number: "1254"
+    name: number-of-closed-islands
+    difficulty: medium
+    solution: ./leetcode-playground/1254-number-of-closed-islands.js
+    test: ./leetcode-playground/tests/1254-number-of-closed-islands.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-closed-islands/
+    notes: ""
+
+  - id: 75
+    number: "1260"
+    name: shift-2d-grid
+    difficulty: easy
+    solution: ./leetcode-playground/1260-shift-2d-grid.js
+    test: ./leetcode-playground/tests/1260-shift-2d-grid.test.js
+    leetcode_url: https://leetcode.com/problems/shift-2d-grid/
+    notes: ""
+
+  - id: 76
+    number: "1263"
+    name: minimum-moves-to-move-a-box-to-their-target-location
+    difficulty: hard
+    solution: ./leetcode-playground/1263-minimum-moves-to-move-a-box-to-their-target-location.js
+    test: ./leetcode-playground/tests/1263-minimum-moves-to-move-a-box-to-their-target-location.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/
+    notes: ""
+
+  - id: 77
+    number: "1267"
+    name: count-servers-that-communicate
+    difficulty: medium
+    solution: ./leetcode-playground/1267-count-servers-that-communicate.js
+    test: ./leetcode-playground/tests/1267-count-servers-that-communicate.test.js
+    leetcode_url: https://leetcode.com/problems/count-servers-that-communicate/
+    notes: ""
+
+  - id: 78
+    number: "1275"
+    name: find-winner-on-a-tic-tac-toe-game
+    difficulty: easy
+    solution: ./leetcode-playground/1275-find-winner-on-a-tic-tac-toe-game.js
+    test: ./leetcode-playground/tests/1275-find-winner-on-a-tic-tac-toe-game.test.js
+    leetcode_url: https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
+    notes: ""
+
+  - id: 79
+    number: "1277"
+    name: count-square-submatrices-with-all-ones
+    difficulty: medium
+    solution: ./leetcode-playground/1277-count-square-submatrices-with-all-ones.js
+    test: ./leetcode-playground/tests/1277-count-square-submatrices-with-all-ones.test.js
+    leetcode_url: https://leetcode.com/problems/count-square-submatrices-with-all-ones/
+    notes: ""
+
+  - id: 80
+    number: "1284"
+    name: minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix
+    difficulty: hard
+    solution: ./leetcode-playground/1284-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.js
+    test: ./leetcode-playground/tests/1284-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/
+    notes: ""
+
+  - id: 81
+    number: "1289"
+    name: minimum-falling-path-sum-ii
+    difficulty: hard
+    solution: ./leetcode-playground/1289-minimum-falling-path-sum-ii.js
+    test: ./leetcode-playground/tests/1289-minimum-falling-path-sum-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-falling-path-sum-ii/
+    notes: ""
+
+  - id: 82
+    number: "1292"
+    name: maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold
+    difficulty: medium
+    solution: ./leetcode-playground/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.js
+    test: ./leetcode-playground/tests/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+    notes: ""
+
+  - id: 83
+    number: "1293"
+    name: shortest-path-in-a-grid-with-obstacles-elimination
+    difficulty: hard
+    solution: ./leetcode-playground/1293-shortest-path-in-a-grid-with-obstacles-elimination.js
+    test: ./leetcode-playground/tests/1293-shortest-path-in-a-grid-with-obstacles-elimination.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
+    notes: ""
+
+  - id: 84
+    number: "1301"
+    name: number-of-paths-with-max-score
+    difficulty: hard
+    solution: ./leetcode-playground/1301-number-of-paths-with-max-score.js
+    test: ./leetcode-playground/tests/1301-number-of-paths-with-max-score.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-paths-with-max-score/
+    notes: ""
+
+  - id: 85
+    number: "1314"
+    name: matrix-block-sum
+    difficulty: medium
+    solution: ./leetcode-playground/1314-matrix-block-sum.js
+    test: ./leetcode-playground/tests/1314-matrix-block-sum.test.js
+    leetcode_url: https://leetcode.com/problems/matrix-block-sum/
+    notes: ""
+
+  - id: 86
+    number: "1329"
+    name: sort-the-matrix-diagonally
+    difficulty: medium
+    solution: ./leetcode-playground/1329-sort-the-matrix-diagonally.js
+    test: ./leetcode-playground/tests/1329-sort-the-matrix-diagonally.test.js
+    leetcode_url: https://leetcode.com/problems/sort-the-matrix-diagonally/
+    notes: ""
+
+  - id: 87
+    number: "1337"
+    name: the-k-weakest-rows-in-a-matrix
+    difficulty: easy
+    solution: ./leetcode-playground/1337-the-k-weakest-rows-in-a-matrix.js
+    test: ./leetcode-playground/tests/1337-the-k-weakest-rows-in-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
+    notes: ""
+
+  - id: 88
+    number: "1349"
+    name: maximum-students-taking-exam
+    difficulty: hard
+    solution: ./leetcode-playground/1349-maximum-students-taking-exam.js
+    test: ./leetcode-playground/tests/1349-maximum-students-taking-exam.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-students-taking-exam/
+    notes: ""
+
+  - id: 89
+    number: "1351"
+    name: count-negative-numbers-in-a-sorted-matrix
+    difficulty: easy
+    solution: ./leetcode-playground/1351-count-negative-numbers-in-a-sorted-matrix.js
+    test: ./leetcode-playground/tests/1351-count-negative-numbers-in-a-sorted-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
+    notes: ""
+
+  - id: 90
+    number: "1368"
+    name: minimum-cost-to-make-at-least-one-valid-path-in-a-grid
+    difficulty: hard
+    solution: ./leetcode-playground/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid.js
+    test: ./leetcode-playground/tests/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
+    notes: ""
+
+  - id: 91
+    number: "1380"
+    name: lucky-numbers-in-a-matrix
+    difficulty: easy
+    solution: ./leetcode-playground/1380-lucky-numbers-in-a-matrix.js
+    test: ./leetcode-playground/tests/1380-lucky-numbers-in-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/lucky-numbers-in-a-matrix/
+    notes: ""
+
+  - id: 92
+    number: "1391"
+    name: check-if-there-is-a-valid-path-in-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/1391-check-if-there-is-a-valid-path-in-a-grid.js
+    test: ./leetcode-playground/tests/1391-check-if-there-is-a-valid-path-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
+    notes: ""
+
+  - id: 93
+    number: "1439"
+    name: find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows
+    difficulty: hard
+    solution: ./leetcode-playground/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows.js
+    test: ./leetcode-playground/tests/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
+    notes: ""
+
+  - id: 94
+    number: "1444"
+    name: number-of-ways-of-cutting-a-pizza
+    difficulty: hard
+    solution: ./leetcode-playground/1444-number-of-ways-of-cutting-a-pizza.js
+    test: ./leetcode-playground/tests/1444-number-of-ways-of-cutting-a-pizza.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
+    notes: ""
+
+  - id: 95
+    number: "1463"
+    name: cherry-pickup-ii
+    difficulty: hard
+    solution: ./leetcode-playground/1463-cherry-pickup-ii.js
+    test: ./leetcode-playground/tests/1463-cherry-pickup-ii.test.js
+    leetcode_url: https://leetcode.com/problems/cherry-pickup-ii/
+    notes: ""
+
+  - id: 96
+    number: "1476"
+    name: subrectangle-queries
+    difficulty: medium
+    solution: ./leetcode-playground/1476-subrectangle-queries.js
+    test: ./leetcode-playground/tests/1476-subrectangle-queries.test.js
+    leetcode_url: https://leetcode.com/problems/subrectangle-queries/
+    notes: ""
+
+  - id: 97
+    number: "1504"
+    name: count-submatrices-with-all-ones
+    difficulty: medium
+    solution: ./leetcode-playground/1504-count-submatrices-with-all-ones.js
+    test: ./leetcode-playground/tests/1504-count-submatrices-with-all-ones.test.js
+    leetcode_url: https://leetcode.com/problems/count-submatrices-with-all-ones/
+    notes: ""
+
+  - id: 98
+    number: "1536"
+    name: minimum-swaps-to-arrange-a-binary-grid
+    difficulty: medium
+    solution: ./leetcode-playground/1536-minimum-swaps-to-arrange-a-binary-grid.js
+    test: ./leetcode-playground/tests/1536-minimum-swaps-to-arrange-a-binary-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/
+    notes: ""
+
+  - id: 99
+    number: "1559"
+    name: detect-cycles-in-2d-grid
+    difficulty: medium
+    solution: ./leetcode-playground/1559-detect-cycles-in-2d-grid.js
+    test: ./leetcode-playground/tests/1559-detect-cycles-in-2d-grid.test.js
+    leetcode_url: https://leetcode.com/problems/detect-cycles-in-2d-grid/
+    notes: ""
+
+  - id: 100
+    number: "1568"
+    name: minimum-number-of-days-to-disconnect-island
+    difficulty: hard
+    solution: ./leetcode-playground/1568-minimum-number-of-days-to-disconnect-island.js
+    test: ./leetcode-playground/tests/1568-minimum-number-of-days-to-disconnect-island.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/
+    notes: ""
+
+  - id: 101
+    number: "1572"
+    name: matrix-diagonal-sum
+    difficulty: easy
+    solution: ./leetcode-playground/1572-matrix-diagonal-sum.js
+    test: ./leetcode-playground/tests/1572-matrix-diagonal-sum.test.js
+    leetcode_url: https://leetcode.com/problems/matrix-diagonal-sum/
+    notes: ""
+
+  - id: 102
+    number: "1582"
+    name: special-positions-in-a-binary-matrix
+    difficulty: easy
+    solution: ./leetcode-playground/1582-special-positions-in-a-binary-matrix.js
+    test: ./leetcode-playground/tests/1582-special-positions-in-a-binary-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/special-positions-in-a-binary-matrix/
+    notes: ""
+
+  - id: 103
+    number: "1591"
+    name: strange-printer-ii
+    difficulty: hard
+    solution: ./leetcode-playground/1591-strange-printer-ii.js
+    test: ./leetcode-playground/tests/1591-strange-printer-ii.test.js
+    leetcode_url: https://leetcode.com/problems/strange-printer-ii/
+    notes: ""
+
+  - id: 104
+    number: "1594"
+    name: maximum-non-negative-product-in-a-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/1594-maximum-non-negative-product-in-a-matrix.js
+    test: ./leetcode-playground/tests/1594-maximum-non-negative-product-in-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
+    notes: ""
+
+  - id: 105
+    number: "1595"
+    name: minimum-cost-to-connect-two-groups-of-points
+    difficulty: hard
+    solution: ./leetcode-playground/1595-minimum-cost-to-connect-two-groups-of-points.js
+    test: ./leetcode-playground/tests/1595-minimum-cost-to-connect-two-groups-of-points.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/
+    notes: ""
+
+  - id: 106
+    number: "1605"
+    name: find-valid-matrix-given-row-and-column-sums
+    difficulty: medium
+    solution: ./leetcode-playground/1605-find-valid-matrix-given-row-and-column-sums.js
+    test: ./leetcode-playground/tests/1605-find-valid-matrix-given-row-and-column-sums.test.js
+    leetcode_url: https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/
+    notes: ""
+
+  - id: 107
+    number: "1631"
+    name: path-with-minimum-effort
+    difficulty: medium
+    solution: ./leetcode-playground/1631-path-with-minimum-effort.js
+    test: ./leetcode-playground/tests/1631-path-with-minimum-effort.test.js
+    leetcode_url: https://leetcode.com/problems/path-with-minimum-effort/
+    notes: ""
+
+  - id: 108
+    number: "1632"
+    name: rank-transform-of-a-matrix
+    difficulty: hard
+    solution: ./leetcode-playground/1632-rank-transform-of-a-matrix.js
+    test: ./leetcode-playground/tests/1632-rank-transform-of-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/rank-transform-of-a-matrix/
+    notes: ""
+
+  - id: 109
+    number: "1672"
+    name: richest-customer-wealth
+    difficulty: easy
+    solution: ./leetcode-playground/1672-richest-customer-wealth.js
+    test: ./leetcode-playground/tests/1672-richest-customer-wealth.test.js
+    leetcode_url: https://leetcode.com/problems/richest-customer-wealth/
+    notes: ""
+
+  - id: 110
+    number: "1706"
+    name: where-will-the-ball-fall
+    difficulty: medium
+    solution: ./leetcode-playground/1706-where-will-the-ball-fall.js
+    test: ./leetcode-playground/tests/1706-where-will-the-ball-fall.test.js
+    leetcode_url: https://leetcode.com/problems/where-will-the-ball-fall/
+    notes: ""
+
+  - id: 111
+    number: "1727"
+    name: largest-submatrix-with-rearrangements
+    difficulty: medium
+    solution: ./leetcode-playground/1727-largest-submatrix-with-rearrangements.js
+    test: ./leetcode-playground/tests/1727-largest-submatrix-with-rearrangements.test.js
+    leetcode_url: https://leetcode.com/problems/largest-submatrix-with-rearrangements/
+    notes: ""
+
+  - id: 112
+    number: "1728"
+    name: cat-and-mouse-ii
+    difficulty: hard
+    solution: ./leetcode-playground/1728-cat-and-mouse-ii.js
+    test: ./leetcode-playground/tests/1728-cat-and-mouse-ii.test.js
+    leetcode_url: https://leetcode.com/problems/cat-and-mouse-ii/
+    notes: ""
+
+  - id: 113
+    number: "1738"
+    name: find-kth-largest-xor-coordinate-value
+    difficulty: medium
+    solution: ./leetcode-playground/1738-find-kth-largest-xor-coordinate-value.js
+    test: ./leetcode-playground/tests/1738-find-kth-largest-xor-coordinate-value.test.js
+    leetcode_url: https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/
+    notes: ""
+
+  - id: 114
+    number: "1765"
+    name: map-of-highest-peak
+    difficulty: medium
+    solution: ./leetcode-playground/1765-map-of-highest-peak.js
+    test: ./leetcode-playground/tests/1765-map-of-highest-peak.test.js
+    leetcode_url: https://leetcode.com/problems/map-of-highest-peak/
+    notes: ""
+
+  - id: 115
+    number: "1861"
+    name: rotating-the-box
+    difficulty: medium
+    solution: ./leetcode-playground/1861-rotating-the-box.js
+    test: ./leetcode-playground/tests/1861-rotating-the-box.test.js
+    leetcode_url: https://leetcode.com/problems/rotating-the-box/
+    notes: ""
+
+  - id: 116
+    number: "1878"
+    name: get-biggest-three-rhombus-sums-in-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/1878-get-biggest-three-rhombus-sums-in-a-grid.js
+    test: ./leetcode-playground/tests/1878-get-biggest-three-rhombus-sums-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/
+    notes: ""
+
+  - id: 117
+    number: "1886"
+    name: determine-whether-matrix-can-be-obtained-by-rotation
+    difficulty: easy
+    solution: ./leetcode-playground/1886-determine-whether-matrix-can-be-obtained-by-rotation.js
+    test: ./leetcode-playground/tests/1886-determine-whether-matrix-can-be-obtained-by-rotation.test.js
+    leetcode_url: https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/
+    notes: ""
+
+  - id: 118
+    number: "1895"
+    name: largest-magic-square
+    difficulty: medium
+    solution: ./leetcode-playground/1895-largest-magic-square.js
+    test: ./leetcode-playground/tests/1895-largest-magic-square.test.js
+    leetcode_url: https://leetcode.com/problems/largest-magic-square/
+    notes: ""
+
+  - id: 119
+    number: "1901"
+    name: find-a-peak-element-ii
+    difficulty: medium
+    solution: ./leetcode-playground/1901-find-a-peak-element-ii.js
+    test: ./leetcode-playground/tests/1901-find-a-peak-element-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-a-peak-element-ii/
+    notes: ""
+
+  - id: 120
+    number: "1905"
+    name: count-sub-islands
+    difficulty: medium
+    solution: ./leetcode-playground/1905-count-sub-islands.js
+    test: ./leetcode-playground/tests/1905-count-sub-islands.test.js
+    leetcode_url: https://leetcode.com/problems/count-sub-islands/
+    notes: ""
+
+  - id: 121
+    number: "1914"
+    name: cyclically-rotating-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/1914-cyclically-rotating-a-grid.js
+    test: ./leetcode-playground/tests/1914-cyclically-rotating-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/cyclically-rotating-a-grid/
+    notes: ""
+
+  - id: 122
+    number: "1926"
+    name: nearest-exit-from-entrance-in-maze
+    difficulty: medium
+    solution: ./leetcode-playground/1926-nearest-exit-from-entrance-in-maze.js
+    test: ./leetcode-playground/tests/1926-nearest-exit-from-entrance-in-maze.test.js
+    leetcode_url: https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/
+    notes: ""
+
+  - id: 123
+    number: "1937"
+    name: maximum-number-of-points-with-cost
+    difficulty: medium
+    solution: ./leetcode-playground/1937-maximum-number-of-points-with-cost.js
+    test: ./leetcode-playground/tests/1937-maximum-number-of-points-with-cost.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-points-with-cost/
+    notes: ""
+
+  - id: 124
+    number: "1958"
+    name: check-if-move-is-legal
+    difficulty: medium
+    solution: ./leetcode-playground/1958-check-if-move-is-legal.js
+    test: ./leetcode-playground/tests/1958-check-if-move-is-legal.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-move-is-legal/
+    notes: ""
+
+  - id: 125
+    number: "1970"
+    name: last-day-where-you-can-still-cross
+    difficulty: hard
+    solution: ./leetcode-playground/1970-last-day-where-you-can-still-cross.js
+    test: ./leetcode-playground/tests/1970-last-day-where-you-can-still-cross.test.js
+    leetcode_url: https://leetcode.com/problems/last-day-where-you-can-still-cross/
+    notes: ""
+
+  - id: 126
+    number: "1975"
+    name: maximum-matrix-sum
+    difficulty: medium
+    solution: ./leetcode-playground/1975-maximum-matrix-sum.js
+    test: ./leetcode-playground/tests/1975-maximum-matrix-sum.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-matrix-sum/
+    notes: ""
+
+  - id: 127
+    number: "1981"
+    name: minimize-the-difference-between-target-and-chosen-elements
+    difficulty: medium
+    solution: ./leetcode-playground/1981-minimize-the-difference-between-target-and-chosen-elements.js
+    test: ./leetcode-playground/tests/1981-minimize-the-difference-between-target-and-chosen-elements.test.js
+    leetcode_url: https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/
+    notes: ""
+
+  - id: 128
+    number: "1992"
+    name: find-all-groups-of-farmland
+    difficulty: medium
+    solution: ./leetcode-playground/1992-find-all-groups-of-farmland.js
+    test: ./leetcode-playground/tests/1992-find-all-groups-of-farmland.test.js
+    leetcode_url: https://leetcode.com/problems/find-all-groups-of-farmland/
+    notes: ""
+
+  - id: 129
+    number: "2017"
+    name: grid-game
+    difficulty: medium
+    solution: ./leetcode-playground/2017-grid-game.js
+    test: ./leetcode-playground/tests/2017-grid-game.test.js
+    leetcode_url: https://leetcode.com/problems/grid-game/
+    notes: ""
+
+  - id: 130
+    number: "2018"
+    name: check-if-word-can-be-placed-in-crossword
+    difficulty: medium
+    solution: ./leetcode-playground/2018-check-if-word-can-be-placed-in-crossword.js
+    test: ./leetcode-playground/tests/2018-check-if-word-can-be-placed-in-crossword.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/
+    notes: ""
+
+  - id: 131
+    number: "2022"
+    name: convert-1d-array-into-2d-array
+    difficulty: easy
+    solution: ./leetcode-playground/2022-convert-1d-array-into-2d-array.js
+    test: ./leetcode-playground/tests/2022-convert-1d-array-into-2d-array.test.js
+    leetcode_url: https://leetcode.com/problems/convert-1d-array-into-2d-array/
+    notes: ""
+
+  - id: 132
+    number: "2033"
+    name: minimum-operations-to-make-a-uni-value-grid
+    difficulty: medium
+    solution: ./leetcode-playground/2033-minimum-operations-to-make-a-uni-value-grid.js
+    test: ./leetcode-playground/tests/2033-minimum-operations-to-make-a-uni-value-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/
+    notes: ""
+
+  - id: 133
+    number: "2088"
+    name: count-fertile-pyramids-in-a-land
+    difficulty: hard
+    solution: ./leetcode-playground/2088-count-fertile-pyramids-in-a-land.js
+    test: ./leetcode-playground/tests/2088-count-fertile-pyramids-in-a-land.test.js
+    leetcode_url: https://leetcode.com/problems/count-fertile-pyramids-in-a-land/
+    notes: ""
+
+  - id: 134
+    number: "2125"
+    name: number-of-laser-beams-in-a-bank
+    difficulty: medium
+    solution: ./leetcode-playground/2125-number-of-laser-beams-in-a-bank.js
+    test: ./leetcode-playground/tests/2125-number-of-laser-beams-in-a-bank.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
+    notes: ""
+
+  - id: 135
+    number: "2132"
+    name: stamping-the-grid
+    difficulty: hard
+    solution: ./leetcode-playground/2132-stamping-the-grid.js
+    test: ./leetcode-playground/tests/2132-stamping-the-grid.test.js
+    leetcode_url: https://leetcode.com/problems/stamping-the-grid/
+    notes: ""
+
+  - id: 136
+    number: "2133"
+    name: check-if-every-row-and-column-contains-all-numbers
+    difficulty: easy
+    solution: ./leetcode-playground/2133-check-if-every-row-and-column-contains-all-numbers.js
+    test: ./leetcode-playground/tests/2133-check-if-every-row-and-column-contains-all-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/
+    notes: ""
+
+  - id: 137
+    number: "2146"
+    name: k-highest-ranked-items-within-a-price-range
+    difficulty: medium
+    solution: ./leetcode-playground/2146-k-highest-ranked-items-within-a-price-range.js
+    test: ./leetcode-playground/tests/2146-k-highest-ranked-items-within-a-price-range.test.js
+    leetcode_url: https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/
+    notes: ""
+
+  - id: 138
+    number: "2245"
+    name: maximum-trailing-zeros-in-a-cornered-path
+    difficulty: medium
+    solution: ./leetcode-playground/2245-maximum-trailing-zeros-in-a-cornered-path.js
+    test: ./leetcode-playground/tests/2245-maximum-trailing-zeros-in-a-cornered-path.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path/
+    notes: ""
+
+  - id: 139
+    number: "2257"
+    name: count-unguarded-cells-in-the-grid
+    difficulty: medium
+    solution: ./leetcode-playground/2257-count-unguarded-cells-in-the-grid.js
+    test: ./leetcode-playground/tests/2257-count-unguarded-cells-in-the-grid.test.js
+    leetcode_url: https://leetcode.com/problems/count-unguarded-cells-in-the-grid/
+    notes: ""
+
+  - id: 140
+    number: "2258"
+    name: escape-the-spreading-fire
+    difficulty: hard
+    solution: ./leetcode-playground/2258-escape-the-spreading-fire.js
+    test: ./leetcode-playground/tests/2258-escape-the-spreading-fire.test.js
+    leetcode_url: https://leetcode.com/problems/escape-the-spreading-fire/
+    notes: ""
+
+  - id: 141
+    number: "2267"
+    name: check-if-there-is-a-valid-parentheses-string-path
+    difficulty: hard
+    solution: ./leetcode-playground/2267-check-if-there-is-a-valid-parentheses-string-path.js
+    test: ./leetcode-playground/tests/2267-check-if-there-is-a-valid-parentheses-string-path.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/
+    notes: ""
+
+  - id: 142
+    number: "2290"
+    name: minimum-obstacle-removal-to-reach-corner
+    difficulty: hard
+    solution: ./leetcode-playground/2290-minimum-obstacle-removal-to-reach-corner.js
+    test: ./leetcode-playground/tests/2290-minimum-obstacle-removal-to-reach-corner.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/
+    notes: ""
+
+  - id: 143
+    number: "2304"
+    name: minimum-path-cost-in-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/2304-minimum-path-cost-in-a-grid.js
+    test: ./leetcode-playground/tests/2304-minimum-path-cost-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-path-cost-in-a-grid/
+    notes: ""
+
+  - id: 144
+    number: "2319"
+    name: check-if-matrix-is-x-matrix
+    difficulty: easy
+    solution: ./leetcode-playground/2319-check-if-matrix-is-x-matrix.js
+    test: ./leetcode-playground/tests/2319-check-if-matrix-is-x-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-matrix-is-x-matrix/
+    notes: ""
+
+  - id: 145
+    number: "2326"
+    name: spiral-matrix-iv
+    difficulty: medium
+    solution: ./leetcode-playground/2326-spiral-matrix-iv.js
+    test: ./leetcode-playground/tests/2326-spiral-matrix-iv.test.js
+    leetcode_url: https://leetcode.com/problems/spiral-matrix-iv/
+    notes: ""
+
+  - id: 146
+    number: "2328"
+    name: number-of-increasing-paths-in-a-grid
+    difficulty: hard
+    solution: ./leetcode-playground/2328-number-of-increasing-paths-in-a-grid.js
+    test: ./leetcode-playground/tests/2328-number-of-increasing-paths-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/
+    notes: ""
+
+  - id: 147
+    number: "2352"
+    name: equal-row-and-column-pairs
+    difficulty: medium
+    solution: ./leetcode-playground/2352-equal-row-and-column-pairs.js
+    test: ./leetcode-playground/tests/2352-equal-row-and-column-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/equal-row-and-column-pairs/
+    notes: ""
+
+  - id: 148
+    number: "2373"
+    name: largest-local-values-in-a-matrix
+    difficulty: easy
+    solution: ./leetcode-playground/2373-largest-local-values-in-a-matrix.js
+    test: ./leetcode-playground/tests/2373-largest-local-values-in-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/largest-local-values-in-a-matrix/
+    notes: ""
+
+  - id: 149
+    number: "2392"
+    name: build-a-matrix-with-conditions
+    difficulty: hard
+    solution: ./leetcode-playground/2392-build-a-matrix-with-conditions.js
+    test: ./leetcode-playground/tests/2392-build-a-matrix-with-conditions.test.js
+    leetcode_url: https://leetcode.com/problems/build-a-matrix-with-conditions/
+    notes: ""
+
+  - id: 150
+    number: "2397"
+    name: maximum-rows-covered-by-columns
+    difficulty: medium
+    solution: ./leetcode-playground/2397-maximum-rows-covered-by-columns.js
+    test: ./leetcode-playground/tests/2397-maximum-rows-covered-by-columns.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-rows-covered-by-columns/
+    notes: ""
+
+  - id: 151
+    number: "2428"
+    name: maximum-sum-of-an-hourglass
+    difficulty: medium
+    solution: ./leetcode-playground/2428-maximum-sum-of-an-hourglass.js
+    test: ./leetcode-playground/tests/2428-maximum-sum-of-an-hourglass.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-of-an-hourglass/
+    notes: ""
+
+  - id: 152
+    number: "2435"
+    name: paths-in-matrix-whose-sum-is-divisible-by-k
+    difficulty: hard
+    solution: ./leetcode-playground/2435-paths-in-matrix-whose-sum-is-divisible-by-k.js
+    test: ./leetcode-playground/tests/2435-paths-in-matrix-whose-sum-is-divisible-by-k.test.js
+    leetcode_url: https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/
+    notes: ""
+
+  - id: 153
+    number: "2482"
+    name: difference-between-ones-and-zeros-in-row-and-column
+    difficulty: medium
+    solution: ./leetcode-playground/2482-difference-between-ones-and-zeros-in-row-and-column.js
+    test: ./leetcode-playground/tests/2482-difference-between-ones-and-zeros-in-row-and-column.test.js
+    leetcode_url: https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/
+    notes: ""
+
+  - id: 154
+    number: "2500"
+    name: delete-greatest-value-in-each-row
+    difficulty: easy
+    solution: ./leetcode-playground/2500-delete-greatest-value-in-each-row.js
+    test: ./leetcode-playground/tests/2500-delete-greatest-value-in-each-row.test.js
+    leetcode_url: https://leetcode.com/problems/delete-greatest-value-in-each-row/
+    notes: ""
+
+  - id: 155
+    number: "2503"
+    name: maximum-number-of-points-from-grid-queries
+    difficulty: hard
+    solution: ./leetcode-playground/2503-maximum-number-of-points-from-grid-queries.js
+    test: ./leetcode-playground/tests/2503-maximum-number-of-points-from-grid-queries.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/
+    notes: ""
+
+  - id: 156
+    number: "2536"
+    name: increment-submatrices-by-one
+    difficulty: medium
+    solution: ./leetcode-playground/2536-increment-submatrices-by-one.js
+    test: ./leetcode-playground/tests/2536-increment-submatrices-by-one.test.js
+    leetcode_url: https://leetcode.com/problems/increment-submatrices-by-one/
+    notes: ""
+
+  - id: 157
+    number: "2545"
+    name: sort-the-students-by-their-kth-score
+    difficulty: medium
+    solution: ./leetcode-playground/2545-sort-the-students-by-their-kth-score.js
+    test: ./leetcode-playground/tests/2545-sort-the-students-by-their-kth-score.test.js
+    leetcode_url: https://leetcode.com/problems/sort-the-students-by-their-kth-score/
+    notes: ""
+
+  - id: 158
+    number: "2556"
+    name: disconnect-path-in-a-binary-matrix-by-at-most-one-flip
+    difficulty: medium
+    solution: ./leetcode-playground/2556-disconnect-path-in-a-binary-matrix-by-at-most-one-flip.js
+    test: ./leetcode-playground/tests/2556-disconnect-path-in-a-binary-matrix-by-at-most-one-flip.test.js
+    leetcode_url: https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/
+    notes: ""
+
+  - id: 159
+    number: "2573"
+    name: find-the-string-with-lcp
+    difficulty: hard
+    solution: ./leetcode-playground/2573-find-the-string-with-lcp.js
+    test: ./leetcode-playground/tests/2573-find-the-string-with-lcp.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-string-with-lcp/
+    notes: ""
+
+  - id: 160
+    number: "2577"
+    name: minimum-time-to-visit-a-cell-in-a-grid
+    difficulty: hard
+    solution: ./leetcode-playground/2577-minimum-time-to-visit-a-cell-in-a-grid.js
+    test: ./leetcode-playground/tests/2577-minimum-time-to-visit-a-cell-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/
+    notes: ""
+
+  - id: 161
+    number: "2596"
+    name: check-knight-tour-configuration
+    difficulty: medium
+    solution: ./leetcode-playground/2596-check-knight-tour-configuration.js
+    test: ./leetcode-playground/tests/2596-check-knight-tour-configuration.test.js
+    leetcode_url: https://leetcode.com/problems/check-knight-tour-configuration/
+    notes: ""
+
+  - id: 162
+    number: "2614"
+    name: prime-in-diagonal
+    difficulty: easy
+    solution: ./leetcode-playground/2614-prime-in-diagonal.js
+    test: ./leetcode-playground/tests/2614-prime-in-diagonal.test.js
+    leetcode_url: https://leetcode.com/problems/prime-in-diagonal/
+    notes: ""
+
+  - id: 163
+    number: "2617"
+    name: minimum-number-of-visited-cells-in-a-grid
+    difficulty: hard
+    solution: ./leetcode-playground/2617-minimum-number-of-visited-cells-in-a-grid.js
+    test: ./leetcode-playground/tests/2617-minimum-number-of-visited-cells-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/
+    notes: ""
+
+  - id: 164
+    number: "2639"
+    name: find-the-width-of-columns-of-a-grid
+    difficulty: easy
+    solution: ./leetcode-playground/2639-find-the-width-of-columns-of-a-grid.js
+    test: ./leetcode-playground/tests/2639-find-the-width-of-columns-of-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/
+    notes: ""
+
+  - id: 165
+    number: "2643"
+    name: row-with-maximum-ones
+    difficulty: easy
+    solution: ./leetcode-playground/2643-row-with-maximum-ones.js
+    test: ./leetcode-playground/tests/2643-row-with-maximum-ones.test.js
+    leetcode_url: https://leetcode.com/problems/row-with-maximum-ones/
+    notes: ""
+
+  - id: 166
+    number: "2658"
+    name: maximum-number-of-fish-in-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/2658-maximum-number-of-fish-in-a-grid.js
+    test: ./leetcode-playground/tests/2658-maximum-number-of-fish-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/
+    notes: ""
+
+  - id: 167
+    number: "2661"
+    name: first-completely-painted-row-or-column
+    difficulty: medium
+    solution: ./leetcode-playground/2661-first-completely-painted-row-or-column.js
+    test: ./leetcode-playground/tests/2661-first-completely-painted-row-or-column.test.js
+    leetcode_url: https://leetcode.com/problems/first-completely-painted-row-or-column/
+    notes: ""
+
+  - id: 168
+    number: "2679"
+    name: sum-in-a-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/2679-sum-in-a-matrix.js
+    test: ./leetcode-playground/tests/2679-sum-in-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/sum-in-a-matrix/
+    notes: ""
+
+  - id: 169
+    number: "2684"
+    name: maximum-number-of-moves-in-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/2684-maximum-number-of-moves-in-a-grid.js
+    test: ./leetcode-playground/tests/2684-maximum-number-of-moves-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/
+    notes: ""
+
+  - id: 170
+    number: "2711"
+    name: difference-of-number-of-distinct-values-on-diagonals
+    difficulty: medium
+    solution: ./leetcode-playground/2711-difference-of-number-of-distinct-values-on-diagonals.js
+    test: ./leetcode-playground/tests/2711-difference-of-number-of-distinct-values-on-diagonals.test.js
+    leetcode_url: https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals/
+    notes: ""
+
+  - id: 171
+    number: "2713"
+    name: maximum-strictly-increasing-cells-in-a-matrix
+    difficulty: hard
+    solution: ./leetcode-playground/2713-maximum-strictly-increasing-cells-in-a-matrix.js
+    test: ./leetcode-playground/tests/2713-maximum-strictly-increasing-cells-in-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/
+    notes: ""
+
+  - id: 172
+    number: "2732"
+    name: find-a-good-subset-of-the-matrix
+    difficulty: hard
+    solution: ./leetcode-playground/2732-find-a-good-subset-of-the-matrix.js
+    test: ./leetcode-playground/tests/2732-find-a-good-subset-of-the-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/find-a-good-subset-of-the-matrix/
+    notes: ""
+
+  - id: 173
+    number: "2812"
+    name: find-the-safest-path-in-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/2812-find-the-safest-path-in-a-grid.js
+    test: ./leetcode-playground/tests/2812-find-the-safest-path-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-safest-path-in-a-grid/
+    notes: ""
+
+  - id: 174
+    number: "2850"
+    name: minimum-moves-to-spread-stones-over-grid
+    difficulty: medium
+    solution: ./leetcode-playground/2850-minimum-moves-to-spread-stones-over-grid.js
+    test: ./leetcode-playground/tests/2850-minimum-moves-to-spread-stones-over-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/
+    notes: ""
+
+  - id: 175
+    number: "2906"
+    name: construct-product-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/2906-construct-product-matrix.js
+    test: ./leetcode-playground/tests/2906-construct-product-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/construct-product-matrix/
+    notes: ""
+
+  - id: 176
+    number: "2923"
+    name: find-champion-i
+    difficulty: easy
+    solution: ./leetcode-playground/2923-find-champion-i.js
+    test: ./leetcode-playground/tests/2923-find-champion-i.test.js
+    leetcode_url: https://leetcode.com/problems/find-champion-i/
+    notes: ""
+
+  - id: 177
+    number: "2931"
+    name: maximum-spending-after-buying-items
+    difficulty: hard
+    solution: ./leetcode-playground/2931-maximum-spending-after-buying-items.js
+    test: ./leetcode-playground/tests/2931-maximum-spending-after-buying-items.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-spending-after-buying-items/
+    notes: ""
+
+  - id: 178
+    number: "2946"
+    name: matrix-similarity-after-cyclic-shifts
+    difficulty: easy
+    solution: ./leetcode-playground/2946-matrix-similarity-after-cyclic-shifts.js
+    test: ./leetcode-playground/tests/2946-matrix-similarity-after-cyclic-shifts.test.js
+    leetcode_url: https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/
+    notes: ""
+
+  - id: 179
+    number: "2965"
+    name: find-missing-and-repeated-values
+    difficulty: easy
+    solution: ./leetcode-playground/2965-find-missing-and-repeated-values.js
+    test: ./leetcode-playground/tests/2965-find-missing-and-repeated-values.test.js
+    leetcode_url: https://leetcode.com/problems/find-missing-and-repeated-values/
+    notes: ""
+
+  - id: 180
+    number: "3030"
+    name: find-the-grid-of-region-average
+    difficulty: medium
+    solution: ./leetcode-playground/3030-find-the-grid-of-region-average.js
+    test: ./leetcode-playground/tests/3030-find-the-grid-of-region-average.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-grid-of-region-average/
+    notes: ""
+
+  - id: 181
+    number: "3033"
+    name: modify-the-matrix
+    difficulty: easy
+    solution: ./leetcode-playground/3033-modify-the-matrix.js
+    test: ./leetcode-playground/tests/3033-modify-the-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/modify-the-matrix/
+    notes: ""
+
+  - id: 182
+    number: "3044"
+    name: most-frequent-prime
+    difficulty: medium
+    solution: ./leetcode-playground/3044-most-frequent-prime.js
+    test: ./leetcode-playground/tests/3044-most-frequent-prime.test.js
+    leetcode_url: https://leetcode.com/problems/most-frequent-prime/
+    notes: ""
+
+  - id: 183
+    number: "3070"
+    name: count-submatrices-with-top-left-element-and-sum-less-than-k
+    difficulty: medium
+    solution: ./leetcode-playground/3070-count-submatrices-with-top-left-element-and-sum-less-than-k.js
+    test: ./leetcode-playground/tests/3070-count-submatrices-with-top-left-element-and-sum-less-than-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/
+    notes: ""
+
+  - id: 184
+    number: "3071"
+    name: minimum-operations-to-write-the-letter-y-on-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/3071-minimum-operations-to-write-the-letter-y-on-a-grid.js
+    test: ./leetcode-playground/tests/3071-minimum-operations-to-write-the-letter-y-on-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/
+    notes: ""
+
+  - id: 185
+    number: "3122"
+    name: minimum-number-of-operations-to-satisfy-conditions
+    difficulty: medium
+    solution: ./leetcode-playground/3122-minimum-number-of-operations-to-satisfy-conditions.js
+    test: ./leetcode-playground/tests/3122-minimum-number-of-operations-to-satisfy-conditions.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/
+    notes: ""
+
+  - id: 186
+    number: "3127"
+    name: make-a-square-with-the-same-color
+    difficulty: easy
+    solution: ./leetcode-playground/3127-make-a-square-with-the-same-color.js
+    test: ./leetcode-playground/tests/3127-make-a-square-with-the-same-color.test.js
+    leetcode_url: https://leetcode.com/problems/make-a-square-with-the-same-color/
+    notes: ""
+
+  - id: 187
+    number: "3142"
+    name: check-if-grid-satisfies-conditions
+    difficulty: easy
+    solution: ./leetcode-playground/3142-check-if-grid-satisfies-conditions.js
+    test: ./leetcode-playground/tests/3142-check-if-grid-satisfies-conditions.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-grid-satisfies-conditions/
+    notes: ""
+
+  - id: 188
+    number: "3148"
+    name: maximum-difference-score-in-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/3148-maximum-difference-score-in-a-grid.js
+    test: ./leetcode-playground/tests/3148-maximum-difference-score-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-difference-score-in-a-grid/
+    notes: ""
+
+  - id: 189
+    number: "3195"
+    name: find-the-minimum-area-to-cover-all-ones-i
+    difficulty: medium
+    solution: ./leetcode-playground/3195-find-the-minimum-area-to-cover-all-ones-i.js
+    test: ./leetcode-playground/tests/3195-find-the-minimum-area-to-cover-all-ones-i.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/
+    notes: ""
+
+  - id: 190
+    number: "3197"
+    name: find-the-minimum-area-to-cover-all-ones-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3197-find-the-minimum-area-to-cover-all-ones-ii.js
+    test: ./leetcode-playground/tests/3197-find-the-minimum-area-to-cover-all-ones-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/
+    notes: ""
+
+  - id: 191
+    number: "3212"
+    name: count-submatrices-with-equal-frequency-of-x-and-y
+    difficulty: medium
+    solution: ./leetcode-playground/3212-count-submatrices-with-equal-frequency-of-x-and-y.js
+    test: ./leetcode-playground/tests/3212-count-submatrices-with-equal-frequency-of-x-and-y.test.js
+    leetcode_url: https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/
+    notes: ""
+
+  - id: 192
+    number: "3225"
+    name: maximum-score-from-grid-operations
+    difficulty: hard
+    solution: ./leetcode-playground/3225-maximum-score-from-grid-operations.js
+    test: ./leetcode-playground/tests/3225-maximum-score-from-grid-operations.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-score-from-grid-operations/
+    notes: ""
+
+  - id: 193
+    number: "3239"
+    name: minimum-number-of-flips-to-make-binary-grid-palindromic-i
+    difficulty: medium
+    solution: ./leetcode-playground/3239-minimum-number-of-flips-to-make-binary-grid-palindromic-i.js
+    test: ./leetcode-playground/tests/3239-minimum-number-of-flips-to-make-binary-grid-palindromic-i.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/
+    notes: ""
+
+  - id: 194
+    number: "3240"
+    name: minimum-number-of-flips-to-make-binary-grid-palindromic-ii
+    difficulty: medium
+    solution: ./leetcode-playground/3240-minimum-number-of-flips-to-make-binary-grid-palindromic-ii.js
+    test: ./leetcode-playground/tests/3240-minimum-number-of-flips-to-make-binary-grid-palindromic-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/
+    notes: ""
+
+  - id: 195
+    number: "3242"
+    name: design-neighbor-sum-service
+    difficulty: easy
+    solution: ./leetcode-playground/3242-design-neighbor-sum-service.js
+    test: ./leetcode-playground/tests/3242-design-neighbor-sum-service.test.js
+    leetcode_url: https://leetcode.com/problems/design-neighbor-sum-service/
+    notes: ""
+
+  - id: 196
+    number: "3256"
+    name: maximum-value-sum-by-placing-three-rooks-i
+    difficulty: hard
+    solution: ./leetcode-playground/3256-maximum-value-sum-by-placing-three-rooks-i.js
+    test: ./leetcode-playground/tests/3256-maximum-value-sum-by-placing-three-rooks-i.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-i/
+    notes: ""
+
+  - id: 197
+    number: "3257"
+    name: maximum-value-sum-by-placing-three-rooks-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3257-maximum-value-sum-by-placing-three-rooks-ii.js
+    test: ./leetcode-playground/tests/3257-maximum-value-sum-by-placing-three-rooks-ii.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/
+    notes: ""
+
+  - id: 198
+    number: "3276"
+    name: select-cells-in-grid-with-maximum-score
+    difficulty: hard
+    solution: ./leetcode-playground/3276-select-cells-in-grid-with-maximum-score.js
+    test: ./leetcode-playground/tests/3276-select-cells-in-grid-with-maximum-score.test.js
+    leetcode_url: https://leetcode.com/problems/select-cells-in-grid-with-maximum-score/
+    notes: ""
+
+  - id: 199
+    number: "3286"
+    name: find-a-safe-walk-through-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/3286-find-a-safe-walk-through-a-grid.js
+    test: ./leetcode-playground/tests/3286-find-a-safe-walk-through-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/find-a-safe-walk-through-a-grid/
+    notes: ""
+
+  - id: 200
+    number: "3311"
+    name: construct-2d-grid-matching-graph-layout
+    difficulty: hard
+    solution: ./leetcode-playground/3311-construct-2d-grid-matching-graph-layout.js
+    test: ./leetcode-playground/tests/3311-construct-2d-grid-matching-graph-layout.test.js
+    leetcode_url: https://leetcode.com/problems/construct-2d-grid-matching-graph-layout/
+    notes: ""
+
+  - id: 201
+    number: "3332"
+    name: maximum-points-tourist-can-earn
+    difficulty: medium
+    solution: ./leetcode-playground/3332-maximum-points-tourist-can-earn.js
+    test: ./leetcode-playground/tests/3332-maximum-points-tourist-can-earn.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-points-tourist-can-earn/
+    notes: ""
+
+  - id: 202
+    number: "3341"
+    name: find-minimum-time-to-reach-last-room-i
+    difficulty: medium
+    solution: ./leetcode-playground/3341-find-minimum-time-to-reach-last-room-i.js
+    test: ./leetcode-playground/tests/3341-find-minimum-time-to-reach-last-room-i.test.js
+    leetcode_url: https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/
+    notes: ""
+
+  - id: 203
+    number: "3342"
+    name: find-minimum-time-to-reach-last-room-ii
+    difficulty: medium
+    solution: ./leetcode-playground/3342-find-minimum-time-to-reach-last-room-ii.js
+    test: ./leetcode-playground/tests/3342-find-minimum-time-to-reach-last-room-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/
+    notes: ""
+
+  - id: 204
+    number: "3363"
+    name: find-the-maximum-number-of-fruits-collected
+    difficulty: hard
+    solution: ./leetcode-playground/3363-find-the-maximum-number-of-fruits-collected.js
+    test: ./leetcode-playground/tests/3363-find-the-maximum-number-of-fruits-collected.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected/
+    notes: ""
+
+  - id: 205
+    number: "3393"
+    name: count-paths-with-the-given-xor-value
+    difficulty: medium
+    solution: ./leetcode-playground/3393-count-paths-with-the-given-xor-value.js
+    test: ./leetcode-playground/tests/3393-count-paths-with-the-given-xor-value.test.js
+    leetcode_url: https://leetcode.com/problems/count-paths-with-the-given-xor-value/
+    notes: ""
+
+  - id: 206
+    number: "3402"
+    name: minimum-operations-to-make-columns-strictly-increasing
+    difficulty: easy
+    solution: ./leetcode-playground/3402-minimum-operations-to-make-columns-strictly-increasing.js
+    test: ./leetcode-playground/tests/3402-minimum-operations-to-make-columns-strictly-increasing.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/
+    notes: ""
+
+  - id: 207
+    number: "3417"
+    name: zigzag-grid-traversal-with-skip
+    difficulty: easy
+    solution: ./leetcode-playground/3417-zigzag-grid-traversal-with-skip.js
+    test: ./leetcode-playground/tests/3417-zigzag-grid-traversal-with-skip.test.js
+    leetcode_url: https://leetcode.com/problems/zigzag-grid-traversal-with-skip/
+    notes: ""
+
+  - id: 208
+    number: "3418"
+    name: maximum-amount-of-money-robot-can-earn
+    difficulty: medium
+    solution: ./leetcode-playground/3418-maximum-amount-of-money-robot-can-earn.js
+    test: ./leetcode-playground/tests/3418-maximum-amount-of-money-robot-can-earn.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/
+    notes: ""
+
+  - id: 209
+    number: "3446"
+    name: sort-matrix-by-diagonals
+    difficulty: medium
+    solution: ./leetcode-playground/3446-sort-matrix-by-diagonals.js
+    test: ./leetcode-playground/tests/3446-sort-matrix-by-diagonals.test.js
+    leetcode_url: https://leetcode.com/problems/sort-matrix-by-diagonals/
+    notes: ""
+
+  - id: 210
+    number: "3459"
+    name: length-of-longest-v-shaped-diagonal-segment
+    difficulty: hard
+    solution: ./leetcode-playground/3459-length-of-longest-v-shaped-diagonal-segment.js
+    test: ./leetcode-playground/tests/3459-length-of-longest-v-shaped-diagonal-segment.test.js
+    leetcode_url: https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/
+    notes: ""
+
+  - id: 211
+    number: "3462"
+    name: maximum-sum-with-at-most-k-elements
+    difficulty: medium
+    solution: ./leetcode-playground/3462-maximum-sum-with-at-most-k-elements.js
+    test: ./leetcode-playground/tests/3462-maximum-sum-with-at-most-k-elements.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/
+    notes: ""
+
+  - id: 212
+    number: "3484"
+    name: design-spreadsheet
+    difficulty: medium
+    solution: ./leetcode-playground/3484-design-spreadsheet.js
+    test: ./leetcode-playground/tests/3484-design-spreadsheet.test.js
+    leetcode_url: https://leetcode.com/problems/design-spreadsheet/
+    notes: ""
+
+  - id: 213
+    number: "3529"
+    name: count-cells-in-overlapping-horizontal-and-vertical-substrings
+    difficulty: medium
+    solution: ./leetcode-playground/3529-count-cells-in-overlapping-horizontal-and-vertical-substrings.js
+    test: ./leetcode-playground/tests/3529-count-cells-in-overlapping-horizontal-and-vertical-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/
+    notes: ""
+
+  - id: 214
+    number: "3537"
+    name: fill-a-special-grid
+    difficulty: medium
+    solution: ./leetcode-playground/3537-fill-a-special-grid.js
+    test: ./leetcode-playground/tests/3537-fill-a-special-grid.test.js
+    leetcode_url: https://leetcode.com/problems/fill-a-special-grid/
+    notes: ""
+
+  - id: 215
+    number: "3546"
+    name: equal-sum-grid-partition-i
+    difficulty: medium
+    solution: ./leetcode-playground/3546-equal-sum-grid-partition-i.js
+    test: ./leetcode-playground/tests/3546-equal-sum-grid-partition-i.test.js
+    leetcode_url: https://leetcode.com/problems/equal-sum-grid-partition-i/
+    notes: ""
+
+  - id: 216
+    number: "3548"
+    name: equal-sum-grid-partition-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3548-equal-sum-grid-partition-ii.js
+    test: ./leetcode-playground/tests/3548-equal-sum-grid-partition-ii.test.js
+    leetcode_url: https://leetcode.com/problems/equal-sum-grid-partition-ii/
+    notes: ""
+
+  - id: 217
+    number: "3552"
+    name: grid-teleportation-traversal
+    difficulty: medium
+    solution: ./leetcode-playground/3552-grid-teleportation-traversal.js
+    test: ./leetcode-playground/tests/3552-grid-teleportation-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/grid-teleportation-traversal/
+    notes: ""
+
+  - id: 218
+    number: "3567"
+    name: minimum-absolute-difference-in-sliding-submatrix
+    difficulty: medium
+    solution: ./leetcode-playground/3567-minimum-absolute-difference-in-sliding-submatrix.js
+    test: ./leetcode-playground/tests/3567-minimum-absolute-difference-in-sliding-submatrix.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/
+    notes: ""
+
+  - id: 219
+    number: "3568"
+    name: minimum-moves-to-clean-the-classroom
+    difficulty: medium
+    solution: ./leetcode-playground/3568-minimum-moves-to-clean-the-classroom.js
+    test: ./leetcode-playground/tests/3568-minimum-moves-to-clean-the-classroom.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/
+    notes: ""
+
+  - id: 220
+    number: "3603"
+    name: minimum-cost-path-with-alternating-directions-ii
+    difficulty: medium
+    solution: ./leetcode-playground/3603-minimum-cost-path-with-alternating-directions-ii.js
+    test: ./leetcode-playground/tests/3603-minimum-cost-path-with-alternating-directions-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/
+    notes: ""
+
+  - id: 221
+    number: "3619"
+    name: count-islands-with-total-value-divisible-by-k
+    difficulty: medium
+    solution: ./leetcode-playground/3619-count-islands-with-total-value-divisible-by-k.js
+    test: ./leetcode-playground/tests/3619-count-islands-with-total-value-divisible-by-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/
+    notes: ""
+
+  - id: 222
+    number: "3643"
+    name: flip-square-submatrix-vertically
+    difficulty: easy
+    solution: ./leetcode-playground/3643-flip-square-submatrix-vertically.js
+    test: ./leetcode-playground/tests/3643-flip-square-submatrix-vertically.test.js
+    leetcode_url: https://leetcode.com/problems/flip-square-submatrix-vertically/
+    notes: ""
+
+  - id: 223
+    number: "3651"
+    name: minimum-cost-path-with-teleportations
+    difficulty: hard
+    solution: ./leetcode-playground/3651-minimum-cost-path-with-teleportations.js
+    test: ./leetcode-playground/tests/3651-minimum-cost-path-with-teleportations.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-path-with-teleportations/
+    notes: ""
+
+  - id: 224
+    number: "3665"
+    name: twisted-mirror-path-count
+    difficulty: medium
+    solution: ./leetcode-playground/3665-twisted-mirror-path-count.js
+    test: ./leetcode-playground/tests/3665-twisted-mirror-path-count.test.js
+    leetcode_url: https://leetcode.com/problems/twisted-mirror-path-count/
+    notes: ""
+
+  - id: 225
+    number: "3725"
+    name: count-ways-to-choose-coprime-integers-from-rows
+    difficulty: hard
+    solution: ./leetcode-playground/3725-count-ways-to-choose-coprime-integers-from-rows.js
+    test: ./leetcode-playground/tests/3725-count-ways-to-choose-coprime-integers-from-rows.test.js
+    leetcode_url: https://leetcode.com/problems/count-ways-to-choose-coprime-integers-from-rows/
+    notes: ""
+
+  - id: 226
+    number: "3742"
+    name: maximum-path-score-in-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/3742-maximum-path-score-in-a-grid.js
+    test: ./leetcode-playground/tests/3742-maximum-path-score-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-path-score-in-a-grid/
+    notes: ""
+
+  - id: 227
+    number: "3797"
+    name: count-routes-to-climb-a-rectangular-grid
+    difficulty: hard
+    solution: ./leetcode-playground/3797-count-routes-to-climb-a-rectangular-grid.js
+    test: ./leetcode-playground/tests/3797-count-routes-to-climb-a-rectangular-grid.test.js
+    leetcode_url: https://leetcode.com/problems/count-routes-to-climb-a-rectangular-grid/
+    notes: ""
+
+  - id: 228
+    number: "3858"
+    name: minimum-bitwise-or-from-grid
+    difficulty: medium
+    solution: ./leetcode-playground/3858-minimum-bitwise-or-from-grid.js
+    test: ./leetcode-playground/tests/3858-minimum-bitwise-or-from-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-bitwise-or-from-grid/
+    notes: ""
+

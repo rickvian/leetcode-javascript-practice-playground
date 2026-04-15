@@ -1,0 +1,598 @@
+# Topic: Linked List
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+linked_list:
+  - id: 1
+    number: "0002"
+    name: add-two-numbers
+    difficulty: medium
+    solution: ./leetcode-playground/0002-add-two-numbers.js
+    test: ./leetcode-playground/tests/0002-add-two-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/add-two-numbers/
+    notes: ""
+
+  - id: 2
+    number: "0019"
+    name: remove-nth-node-from-end-of-list
+    difficulty: medium
+    solution: ./leetcode-playground/0019-remove-nth-node-from-end-of-list.js
+    test: ./leetcode-playground/tests/0019-remove-nth-node-from-end-of-list.test.js
+    leetcode_url: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+    notes: ""
+
+  - id: 3
+    number: "0021"
+    name: merge-two-sorted-lists
+    difficulty: easy
+    solution: ./leetcode-playground/0021-merge-two-sorted-lists.js
+    test: ./leetcode-playground/tests/0021-merge-two-sorted-lists.test.js
+    leetcode_url: https://leetcode.com/problems/merge-two-sorted-lists/
+    notes: ""
+
+  - id: 4
+    number: "0023"
+    name: merge-k-sorted-lists
+    difficulty: hard
+    solution: ./leetcode-playground/0023-merge-k-sorted-lists.js
+    test: ./leetcode-playground/tests/0023-merge-k-sorted-lists.test.js
+    leetcode_url: https://leetcode.com/problems/merge-k-sorted-lists/
+    notes: ""
+
+  - id: 5
+    number: "0024"
+    name: swap-nodes-in-pairs
+    difficulty: medium
+    solution: ./leetcode-playground/0024-swap-nodes-in-pairs.js
+    test: ./leetcode-playground/tests/0024-swap-nodes-in-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/swap-nodes-in-pairs/
+    notes: ""
+
+  - id: 6
+    number: "0025"
+    name: reverse-nodes-in-k-group
+    difficulty: hard
+    solution: ./leetcode-playground/0025-reverse-nodes-in-k-group.js
+    test: ./leetcode-playground/tests/0025-reverse-nodes-in-k-group.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-nodes-in-k-group/
+    notes: ""
+
+  - id: 7
+    number: "0061"
+    name: rotate-list
+    difficulty: medium
+    solution: ./leetcode-playground/0061-rotate-list.js
+    test: ./leetcode-playground/tests/0061-rotate-list.test.js
+    leetcode_url: https://leetcode.com/problems/rotate-list/
+    notes: ""
+
+  - id: 8
+    number: "0082"
+    name: remove-duplicates-from-sorted-list-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0082-remove-duplicates-from-sorted-list-ii.js
+    test: ./leetcode-playground/tests/0082-remove-duplicates-from-sorted-list-ii.test.js
+    leetcode_url: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+    notes: ""
+
+  - id: 9
+    number: "0083"
+    name: remove-duplicates-from-sorted-list
+    difficulty: easy
+    solution: ./leetcode-playground/0083-remove-duplicates-from-sorted-list.js
+    test: ./leetcode-playground/tests/0083-remove-duplicates-from-sorted-list.test.js
+    leetcode_url: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+    notes: ""
+
+  - id: 10
+    number: "0086"
+    name: partition-list
+    difficulty: medium
+    solution: ./leetcode-playground/0086-partition-list.js
+    test: ./leetcode-playground/tests/0086-partition-list.test.js
+    leetcode_url: https://leetcode.com/problems/partition-list/
+    notes: ""
+
+  - id: 11
+    number: "0092"
+    name: reverse-linked-list-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0092-reverse-linked-list-ii.js
+    test: ./leetcode-playground/tests/0092-reverse-linked-list-ii.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-linked-list-ii/
+    notes: ""
+
+  - id: 12
+    number: "0109"
+    name: convert-sorted-list-to-binary-search-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0109-convert-sorted-list-to-binary-search-tree.js
+    test: ./leetcode-playground/tests/0109-convert-sorted-list-to-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+    notes: ""
+
+  - id: 13
+    number: "0114"
+    name: flatten-binary-tree-to-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/0114-flatten-binary-tree-to-linked-list.js
+    test: ./leetcode-playground/tests/0114-flatten-binary-tree-to-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+    notes: ""
+
+  - id: 14
+    number: "0116"
+    name: populating-next-right-pointers-in-each-node
+    difficulty: medium
+    solution: ./leetcode-playground/0116-populating-next-right-pointers-in-each-node.js
+    test: ./leetcode-playground/tests/0116-populating-next-right-pointers-in-each-node.test.js
+    leetcode_url: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+    notes: ""
+
+  - id: 15
+    number: "0117"
+    name: populating-next-right-pointers-in-each-node-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0117-populating-next-right-pointers-in-each-node-ii.js
+    test: ./leetcode-playground/tests/0117-populating-next-right-pointers-in-each-node-ii.test.js
+    leetcode_url: https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+    notes: ""
+
+  - id: 16
+    number: "0138"
+    name: copy-list-with-random-pointer
+    difficulty: medium
+    solution: ./leetcode-playground/0138-copy-list-with-random-pointer.js
+    test: ./leetcode-playground/tests/0138-copy-list-with-random-pointer.test.js
+    leetcode_url: https://leetcode.com/problems/copy-list-with-random-pointer/
+    notes: ""
+
+  - id: 17
+    number: "0141"
+    name: linked-list-cycle
+    difficulty: easy
+    solution: ./leetcode-playground/0141-linked-list-cycle.js
+    test: ./leetcode-playground/tests/0141-linked-list-cycle.test.js
+    leetcode_url: https://leetcode.com/problems/linked-list-cycle/
+    notes: ""
+
+  - id: 18
+    number: "0142"
+    name: linked-list-cycle-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0142-linked-list-cycle-ii.js
+    test: ./leetcode-playground/tests/0142-linked-list-cycle-ii.test.js
+    leetcode_url: https://leetcode.com/problems/linked-list-cycle-ii/
+    notes: ""
+
+  - id: 19
+    number: "0143"
+    name: reorder-list
+    difficulty: medium
+    solution: ./leetcode-playground/0143-reorder-list.js
+    test: ./leetcode-playground/tests/0143-reorder-list.test.js
+    leetcode_url: https://leetcode.com/problems/reorder-list/
+    notes: ""
+
+  - id: 20
+    number: "0146"
+    name: lru-cache
+    difficulty: medium
+    solution: ./leetcode-playground/0146-lru-cache.js
+    test: ./leetcode-playground/tests/0146-lru-cache.test.js
+    leetcode_url: https://leetcode.com/problems/lru-cache/
+    notes: ""
+
+  - id: 21
+    number: "0147"
+    name: insertion-sort-list
+    difficulty: medium
+    solution: ./leetcode-playground/0147-insertion-sort-list.js
+    test: ./leetcode-playground/tests/0147-insertion-sort-list.test.js
+    leetcode_url: https://leetcode.com/problems/insertion-sort-list/
+    notes: ""
+
+  - id: 22
+    number: "0148"
+    name: sort-list
+    difficulty: medium
+    solution: ./leetcode-playground/0148-sort-list.js
+    test: ./leetcode-playground/tests/0148-sort-list.test.js
+    leetcode_url: https://leetcode.com/problems/sort-list/
+    notes: ""
+
+  - id: 23
+    number: "0160"
+    name: intersection-of-two-linked-lists
+    difficulty: easy
+    solution: ./leetcode-playground/0160-intersection-of-two-linked-lists.js
+    test: ./leetcode-playground/tests/0160-intersection-of-two-linked-lists.test.js
+    leetcode_url: https://leetcode.com/problems/intersection-of-two-linked-lists/
+    notes: ""
+
+  - id: 24
+    number: "0203"
+    name: remove-linked-list-elements
+    difficulty: easy
+    solution: ./leetcode-playground/0203-remove-linked-list-elements.js
+    test: ./leetcode-playground/tests/0203-remove-linked-list-elements.test.js
+    leetcode_url: https://leetcode.com/problems/remove-linked-list-elements/
+    notes: ""
+
+  - id: 25
+    number: "0206"
+    name: reverse-linked-list
+    difficulty: easy
+    solution: ./leetcode-playground/0206-reverse-linked-list.js
+    test: ./leetcode-playground/tests/0206-reverse-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-linked-list/
+    notes: ""
+
+  - id: 26
+    number: "0234"
+    name: palindrome-linked-list
+    difficulty: easy
+    solution: ./leetcode-playground/0234-palindrome-linked-list.js
+    test: ./leetcode-playground/tests/0234-palindrome-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/palindrome-linked-list/
+    notes: ""
+
+  - id: 27
+    number: "0237"
+    name: delete-node-in-a-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/0237-delete-node-in-a-linked-list.js
+    test: ./leetcode-playground/tests/0237-delete-node-in-a-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/delete-node-in-a-linked-list/
+    notes: ""
+
+  - id: 28
+    number: "0328"
+    name: odd-even-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/0328-odd-even-linked-list.js
+    test: ./leetcode-playground/tests/0328-odd-even-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/odd-even-linked-list/
+    notes: ""
+
+  - id: 29
+    number: "0355"
+    name: design-twitter
+    difficulty: medium
+    solution: ./leetcode-playground/0355-design-twitter.js
+    test: ./leetcode-playground/tests/0355-design-twitter.test.js
+    leetcode_url: https://leetcode.com/problems/design-twitter/
+    notes: ""
+
+  - id: 30
+    number: "0382"
+    name: linked-list-random-node
+    difficulty: medium
+    solution: ./leetcode-playground/0382-linked-list-random-node.js
+    test: ./leetcode-playground/tests/0382-linked-list-random-node.test.js
+    leetcode_url: https://leetcode.com/problems/linked-list-random-node/
+    notes: ""
+
+  - id: 31
+    number: "0430"
+    name: flatten-a-multilevel-doubly-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/0430-flatten-a-multilevel-doubly-linked-list.js
+    test: ./leetcode-playground/tests/0430-flatten-a-multilevel-doubly-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
+    notes: ""
+
+  - id: 32
+    number: "0432"
+    name: all-oone-data-structure
+    difficulty: hard
+    solution: ./leetcode-playground/0432-all-oone-data-structure.js
+    test: ./leetcode-playground/tests/0432-all-oone-data-structure.test.js
+    leetcode_url: https://leetcode.com/problems/all-oone-data-structure/
+    notes: ""
+
+  - id: 33
+    number: "0445"
+    name: add-two-numbers-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0445-add-two-numbers-ii.js
+    test: ./leetcode-playground/tests/0445-add-two-numbers-ii.test.js
+    leetcode_url: https://leetcode.com/problems/add-two-numbers-ii/
+    notes: ""
+
+  - id: 34
+    number: "0460"
+    name: lfu-cache
+    difficulty: hard
+    solution: ./leetcode-playground/0460-lfu-cache.js
+    test: ./leetcode-playground/tests/0460-lfu-cache.test.js
+    leetcode_url: https://leetcode.com/problems/lfu-cache/
+    notes: ""
+
+  - id: 35
+    number: "0622"
+    name: design-circular-queue
+    difficulty: medium
+    solution: ./leetcode-playground/0622-design-circular-queue.js
+    test: ./leetcode-playground/tests/0622-design-circular-queue.test.js
+    leetcode_url: https://leetcode.com/problems/design-circular-queue/
+    notes: ""
+
+  - id: 36
+    number: "0641"
+    name: design-circular-deque
+    difficulty: medium
+    solution: ./leetcode-playground/0641-design-circular-deque.js
+    test: ./leetcode-playground/tests/0641-design-circular-deque.test.js
+    leetcode_url: https://leetcode.com/problems/design-circular-deque/
+    notes: ""
+
+  - id: 37
+    number: "0705"
+    name: design-hashset
+    difficulty: easy
+    solution: ./leetcode-playground/0705-design-hashset.js
+    test: ./leetcode-playground/tests/0705-design-hashset.test.js
+    leetcode_url: https://leetcode.com/problems/design-hashset/
+    notes: ""
+
+  - id: 38
+    number: "0706"
+    name: design-hashmap
+    difficulty: easy
+    solution: ./leetcode-playground/0706-design-hashmap.js
+    test: ./leetcode-playground/tests/0706-design-hashmap.test.js
+    leetcode_url: https://leetcode.com/problems/design-hashmap/
+    notes: ""
+
+  - id: 39
+    number: "0707"
+    name: design-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/0707-design-linked-list.js
+    test: ./leetcode-playground/tests/0707-design-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/design-linked-list/
+    notes: ""
+
+  - id: 40
+    number: "0725"
+    name: split-linked-list-in-parts
+    difficulty: medium
+    solution: ./leetcode-playground/0725-split-linked-list-in-parts.js
+    test: ./leetcode-playground/tests/0725-split-linked-list-in-parts.test.js
+    leetcode_url: https://leetcode.com/problems/split-linked-list-in-parts/
+    notes: ""
+
+  - id: 41
+    number: "0817"
+    name: linked-list-components
+    difficulty: medium
+    solution: ./leetcode-playground/0817-linked-list-components.js
+    test: ./leetcode-playground/tests/0817-linked-list-components.test.js
+    leetcode_url: https://leetcode.com/problems/linked-list-components/
+    notes: ""
+
+  - id: 42
+    number: "0876"
+    name: middle-of-the-linked-list
+    difficulty: easy
+    solution: ./leetcode-playground/0876-middle-of-the-linked-list.js
+    test: ./leetcode-playground/tests/0876-middle-of-the-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/middle-of-the-linked-list/
+    notes: ""
+
+  - id: 43
+    number: "1019"
+    name: next-greater-node-in-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/1019-next-greater-node-in-linked-list.js
+    test: ./leetcode-playground/tests/1019-next-greater-node-in-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/next-greater-node-in-linked-list/
+    notes: ""
+
+  - id: 44
+    number: "1171"
+    name: remove-zero-sum-consecutive-nodes-from-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/1171-remove-zero-sum-consecutive-nodes-from-linked-list.js
+    test: ./leetcode-playground/tests/1171-remove-zero-sum-consecutive-nodes-from-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
+    notes: ""
+
+  - id: 45
+    number: "1206"
+    name: design-skiplist
+    difficulty: hard
+    solution: ./leetcode-playground/1206-design-skiplist.js
+    test: ./leetcode-playground/tests/1206-design-skiplist.test.js
+    leetcode_url: https://leetcode.com/problems/design-skiplist/
+    notes: ""
+
+  - id: 46
+    number: "1290"
+    name: convert-binary-number-in-a-linked-list-to-integer
+    difficulty: easy
+    solution: ./leetcode-playground/1290-convert-binary-number-in-a-linked-list-to-integer.js
+    test: ./leetcode-playground/tests/1290-convert-binary-number-in-a-linked-list-to-integer.test.js
+    leetcode_url: https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+    notes: ""
+
+  - id: 47
+    number: "1367"
+    name: linked-list-in-binary-tree
+    difficulty: medium
+    solution: ./leetcode-playground/1367-linked-list-in-binary-tree.js
+    test: ./leetcode-playground/tests/1367-linked-list-in-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/linked-list-in-binary-tree/
+    notes: ""
+
+  - id: 48
+    number: "1472"
+    name: design-browser-history
+    difficulty: medium
+    solution: ./leetcode-playground/1472-design-browser-history.js
+    test: ./leetcode-playground/tests/1472-design-browser-history.test.js
+    leetcode_url: https://leetcode.com/problems/design-browser-history/
+    notes: ""
+
+  - id: 49
+    number: "1669"
+    name: merge-in-between-linked-lists
+    difficulty: medium
+    solution: ./leetcode-playground/1669-merge-in-between-linked-lists.js
+    test: ./leetcode-playground/tests/1669-merge-in-between-linked-lists.test.js
+    leetcode_url: https://leetcode.com/problems/merge-in-between-linked-lists/
+    notes: ""
+
+  - id: 50
+    number: "1670"
+    name: design-front-middle-back-queue
+    difficulty: medium
+    solution: ./leetcode-playground/1670-design-front-middle-back-queue.js
+    test: ./leetcode-playground/tests/1670-design-front-middle-back-queue.test.js
+    leetcode_url: https://leetcode.com/problems/design-front-middle-back-queue/
+    notes: ""
+
+  - id: 51
+    number: "1721"
+    name: swapping-nodes-in-a-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/1721-swapping-nodes-in-a-linked-list.js
+    test: ./leetcode-playground/tests/1721-swapping-nodes-in-a-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/swapping-nodes-in-a-linked-list/
+    notes: ""
+
+  - id: 52
+    number: "1797"
+    name: design-authentication-manager
+    difficulty: medium
+    solution: ./leetcode-playground/1797-design-authentication-manager.js
+    test: ./leetcode-playground/tests/1797-design-authentication-manager.test.js
+    leetcode_url: https://leetcode.com/problems/design-authentication-manager/
+    notes: ""
+
+  - id: 53
+    number: "2058"
+    name: find-the-minimum-and-maximum-number-of-nodes-between-critical-points
+    difficulty: medium
+    solution: ./leetcode-playground/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points.js
+    test: ./leetcode-playground/tests/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/
+    notes: ""
+
+  - id: 54
+    number: "2074"
+    name: reverse-nodes-in-even-length-groups
+    difficulty: medium
+    solution: ./leetcode-playground/2074-reverse-nodes-in-even-length-groups.js
+    test: ./leetcode-playground/tests/2074-reverse-nodes-in-even-length-groups.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-nodes-in-even-length-groups/
+    notes: ""
+
+  - id: 55
+    number: "2095"
+    name: delete-the-middle-node-of-a-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2095-delete-the-middle-node-of-a-linked-list.js
+    test: ./leetcode-playground/tests/2095-delete-the-middle-node-of-a-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
+    notes: ""
+
+  - id: 56
+    number: "2130"
+    name: maximum-twin-sum-of-a-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2130-maximum-twin-sum-of-a-linked-list.js
+    test: ./leetcode-playground/tests/2130-maximum-twin-sum-of-a-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
+    notes: ""
+
+  - id: 57
+    number: "2181"
+    name: merge-nodes-in-between-zeros
+    difficulty: medium
+    solution: ./leetcode-playground/2181-merge-nodes-in-between-zeros.js
+    test: ./leetcode-playground/tests/2181-merge-nodes-in-between-zeros.test.js
+    leetcode_url: https://leetcode.com/problems/merge-nodes-in-between-zeros/
+    notes: ""
+
+  - id: 58
+    number: "2289"
+    name: steps-to-make-array-non-decreasing
+    difficulty: medium
+    solution: ./leetcode-playground/2289-steps-to-make-array-non-decreasing.js
+    test: ./leetcode-playground/tests/2289-steps-to-make-array-non-decreasing.test.js
+    leetcode_url: https://leetcode.com/problems/steps-to-make-array-non-decreasing/
+    notes: ""
+
+  - id: 59
+    number: "2296"
+    name: design-a-text-editor
+    difficulty: hard
+    solution: ./leetcode-playground/2296-design-a-text-editor.js
+    test: ./leetcode-playground/tests/2296-design-a-text-editor.test.js
+    leetcode_url: https://leetcode.com/problems/design-a-text-editor/
+    notes: ""
+
+  - id: 60
+    number: "2326"
+    name: spiral-matrix-iv
+    difficulty: medium
+    solution: ./leetcode-playground/2326-spiral-matrix-iv.js
+    test: ./leetcode-playground/tests/2326-spiral-matrix-iv.test.js
+    leetcode_url: https://leetcode.com/problems/spiral-matrix-iv/
+    notes: ""
+
+  - id: 61
+    number: "2487"
+    name: remove-nodes-from-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2487-remove-nodes-from-linked-list.js
+    test: ./leetcode-playground/tests/2487-remove-nodes-from-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/remove-nodes-from-linked-list/
+    notes: ""
+
+  - id: 62
+    number: "2807"
+    name: insert-greatest-common-divisors-in-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2807-insert-greatest-common-divisors-in-linked-list.js
+    test: ./leetcode-playground/tests/2807-insert-greatest-common-divisors-in-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/
+    notes: ""
+
+  - id: 63
+    number: "2816"
+    name: double-a-number-represented-as-a-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2816-double-a-number-represented-as-a-linked-list.js
+    test: ./leetcode-playground/tests/2816-double-a-number-represented-as-a-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/
+    notes: ""
+
+  - id: 64
+    number: "3217"
+    name: delete-nodes-from-linked-list-present-in-array
+    difficulty: medium
+    solution: ./leetcode-playground/3217-delete-nodes-from-linked-list-present-in-array.js
+    test: ./leetcode-playground/tests/3217-delete-nodes-from-linked-list-present-in-array.test.js
+    leetcode_url: https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/
+    notes: ""
+
+  - id: 65
+    number: "3507"
+    name: minimum-pair-removal-to-sort-array-i
+    difficulty: easy
+    solution: ./leetcode-playground/3507-minimum-pair-removal-to-sort-array-i.js
+    test: ./leetcode-playground/tests/3507-minimum-pair-removal-to-sort-array-i.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/
+    notes: ""
+
+  - id: 66
+    number: "3510"
+    name: minimum-pair-removal-to-sort-array-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3510-minimum-pair-removal-to-sort-array-ii.js
+    test: ./leetcode-playground/tests/3510-minimum-pair-removal-to-sort-array-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/
+    notes: ""
+

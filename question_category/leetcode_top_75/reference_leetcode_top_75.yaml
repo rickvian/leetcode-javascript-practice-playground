@@ -1,0 +1,680 @@
+# LeetCode Top 75 Reference
+# Ctrl+Click any solution/test path in VSCode to open the file directly.
+# Source: https://leetcode.com/studyplan/leetcode-75/
+
+leetcode_top_75:
+  - id: 1
+    number: "0011"
+    name: container-with-most-water
+    difficulty: medium
+    solution: ./leetcode-playground/0011-container-with-most-water.js
+    test: ./leetcode-playground/tests/0011-container-with-most-water.test.js
+    leetcode_url: https://leetcode.com/problems/container-with-most-water/
+    notes: ""
+
+  - id: 2
+    number: "0017"
+    name: letter-combinations-of-a-phone-number
+    difficulty: medium
+    solution: ./leetcode-playground/0017-letter-combinations-of-a-phone-number.js
+    test: ./leetcode-playground/tests/0017-letter-combinations-of-a-phone-number.test.js
+    leetcode_url: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+    notes: ""
+
+  - id: 3
+    number: "0062"
+    name: unique-paths
+    difficulty: medium
+    solution: ./leetcode-playground/0062-unique-paths.js
+    test: ./leetcode-playground/tests/0062-unique-paths.test.js
+    leetcode_url: https://leetcode.com/problems/unique-paths/
+    notes: ""
+
+  - id: 4
+    number: "0072"
+    name: edit-distance
+    difficulty: medium
+    solution: ./leetcode-playground/0072-edit-distance.js
+    test: ./leetcode-playground/tests/0072-edit-distance.test.js
+    leetcode_url: https://leetcode.com/problems/edit-distance/
+    notes: ""
+
+  - id: 5
+    number: "0104"
+    name: maximum-depth-of-binary-tree
+    difficulty: easy
+    solution: ./leetcode-playground/0104-maximum-depth-of-binary-tree.js
+    test: ./leetcode-playground/tests/0104-maximum-depth-of-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+    notes: ""
+
+  - id: 6
+    number: "0136"
+    name: single-number
+    difficulty: easy
+    solution: ./leetcode-playground/0136-single-number.js
+    test: ./leetcode-playground/tests/0136-single-number.test.js
+    leetcode_url: https://leetcode.com/problems/single-number/
+    notes: ""
+
+  - id: 7
+    number: "0151"
+    name: reverse-words-in-a-string
+    difficulty: medium
+    solution: ./leetcode-playground/0151-reverse-words-in-a-string.js
+    test: ./leetcode-playground/tests/0151-reverse-words-in-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-words-in-a-string/
+    notes: ""
+
+  - id: 8
+    number: "0162"
+    name: find-peak-element
+    difficulty: medium
+    solution: ./leetcode-playground/0162-find-peak-element.js
+    test: ./leetcode-playground/tests/0162-find-peak-element.test.js
+    leetcode_url: https://leetcode.com/problems/find-peak-element/
+    notes: ""
+
+  - id: 9
+    number: "0198"
+    name: house-robber
+    difficulty: medium
+    solution: ./leetcode-playground/0198-house-robber.js
+    test: ./leetcode-playground/tests/0198-house-robber.test.js
+    leetcode_url: https://leetcode.com/problems/house-robber/
+    notes: ""
+
+  - id: 10
+    number: "0199"
+    name: binary-tree-right-side-view
+    difficulty: medium
+    solution: ./leetcode-playground/0199-binary-tree-right-side-view.js
+    test: ./leetcode-playground/tests/0199-binary-tree-right-side-view.test.js
+    leetcode_url: https://leetcode.com/problems/binary-tree-right-side-view/
+    notes: ""
+
+  - id: 11
+    number: "0206"
+    name: reverse-linked-list
+    difficulty: easy
+    solution: ./leetcode-playground/0206-reverse-linked-list.js
+    test: ./leetcode-playground/tests/0206-reverse-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-linked-list/
+    notes: ""
+
+  - id: 12
+    number: "0208"
+    name: implement-trie-prefix-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0208-implement-trie-prefix-tree.js
+    test: ./leetcode-playground/tests/0208-implement-trie-prefix-tree.test.js
+    leetcode_url: https://leetcode.com/problems/implement-trie-prefix-tree/
+    notes: ""
+
+  - id: 13
+    number: "0215"
+    name: kth-largest-element-in-an-array
+    difficulty: medium
+    solution: ./leetcode-playground/0215-kth-largest-element-in-an-array.js
+    test: ./leetcode-playground/tests/0215-kth-largest-element-in-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/kth-largest-element-in-an-array/
+    notes: ""
+
+  - id: 14
+    number: "0216"
+    name: combination-sum-iii
+    difficulty: medium
+    solution: ./leetcode-playground/0216-combination-sum-iii.js
+    test: ./leetcode-playground/tests/0216-combination-sum-iii.test.js
+    leetcode_url: https://leetcode.com/problems/combination-sum-iii/
+    notes: ""
+
+  - id: 15
+    number: "0236"
+    name: lowest-common-ancestor-of-a-binary-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0236-lowest-common-ancestor-of-a-binary-tree.js
+    test: ./leetcode-playground/tests/0236-lowest-common-ancestor-of-a-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+    notes: ""
+
+  - id: 16
+    number: "0238"
+    name: product-of-array-except-self
+    difficulty: medium
+    solution: ./leetcode-playground/0238-product-of-array-except-self.js
+    test: ./leetcode-playground/tests/0238-product-of-array-except-self.test.js
+    leetcode_url: https://leetcode.com/problems/product-of-array-except-self/
+    notes: ""
+
+  - id: 17
+    number: "0283"
+    name: move-zeroes
+    difficulty: easy
+    solution: ./leetcode-playground/0283-move-zeroes.js
+    test: ./leetcode-playground/tests/0283-move-zeroes.test.js
+    leetcode_url: https://leetcode.com/problems/move-zeroes/
+    notes: ""
+
+  - id: 18
+    number: "0328"
+    name: odd-even-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/0328-odd-even-linked-list.js
+    test: ./leetcode-playground/tests/0328-odd-even-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/odd-even-linked-list/
+    notes: ""
+
+  - id: 19
+    number: "0334"
+    name: increasing-triplet-subsequence
+    difficulty: medium
+    solution: ./leetcode-playground/0334-increasing-triplet-subsequence.js
+    test: ./leetcode-playground/tests/0334-increasing-triplet-subsequence.test.js
+    leetcode_url: https://leetcode.com/problems/increasing-triplet-subsequence/
+    notes: ""
+
+  - id: 20
+    number: "0338"
+    name: counting-bits
+    difficulty: easy
+    solution: ./leetcode-playground/0338-counting-bits.js
+    test: ./leetcode-playground/tests/0338-counting-bits.test.js
+    leetcode_url: https://leetcode.com/problems/counting-bits/
+    notes: ""
+
+  - id: 21
+    number: "0345"
+    name: reverse-vowels-of-a-string
+    difficulty: easy
+    solution: ./leetcode-playground/0345-reverse-vowels-of-a-string.js
+    test: ./leetcode-playground/tests/0345-reverse-vowels-of-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-vowels-of-a-string/
+    notes: ""
+
+  - id: 22
+    number: "0374"
+    name: guess-number-higher-or-lower
+    difficulty: easy
+    solution: ./leetcode-playground/0374-guess-number-higher-or-lower.js
+    test: ./leetcode-playground/tests/0374-guess-number-higher-or-lower.test.js
+    leetcode_url: https://leetcode.com/problems/guess-number-higher-or-lower/
+    notes: ""
+
+  - id: 23
+    number: "0392"
+    name: is-subsequence
+    difficulty: easy
+    solution: ./leetcode-playground/0392-is-subsequence.js
+    test: ./leetcode-playground/tests/0392-is-subsequence.test.js
+    leetcode_url: https://leetcode.com/problems/is-subsequence/
+    notes: ""
+
+  - id: 24
+    number: "0394"
+    name: decode-string
+    difficulty: medium
+    solution: ./leetcode-playground/0394-decode-string.js
+    test: ./leetcode-playground/tests/0394-decode-string.test.js
+    leetcode_url: https://leetcode.com/problems/decode-string/
+    notes: ""
+
+  - id: 25
+    number: "0399"
+    name: evaluate-division
+    difficulty: medium
+    solution: ./leetcode-playground/0399-evaluate-division.js
+    test: ./leetcode-playground/tests/0399-evaluate-division.test.js
+    leetcode_url: https://leetcode.com/problems/evaluate-division/
+    notes: ""
+
+  - id: 26
+    number: "0435"
+    name: non-overlapping-intervals
+    difficulty: medium
+    solution: ./leetcode-playground/0435-non-overlapping-intervals.js
+    test: ./leetcode-playground/tests/0435-non-overlapping-intervals.test.js
+    leetcode_url: https://leetcode.com/problems/non-overlapping-intervals/
+    notes: ""
+
+  - id: 27
+    number: "0437"
+    name: path-sum-iii
+    difficulty: medium
+    solution: ./leetcode-playground/0437-path-sum-iii.js
+    test: ./leetcode-playground/tests/0437-path-sum-iii.test.js
+    leetcode_url: https://leetcode.com/problems/path-sum-iii/
+    notes: ""
+
+  - id: 28
+    number: "0443"
+    name: string-compression
+    difficulty: medium
+    solution: ./leetcode-playground/0443-string-compression.js
+    test: ./leetcode-playground/tests/0443-string-compression.test.js
+    leetcode_url: https://leetcode.com/problems/string-compression/
+    notes: ""
+
+  - id: 29
+    number: "0450"
+    name: delete-node-in-a-bst
+    difficulty: medium
+    solution: ./leetcode-playground/0450-delete-node-in-a-bst.js
+    test: ./leetcode-playground/tests/0450-delete-node-in-a-bst.test.js
+    leetcode_url: https://leetcode.com/problems/delete-node-in-a-bst/
+    notes: ""
+
+  - id: 30
+    number: "0452"
+    name: minimum-number-of-arrows-to-burst-balloons
+    difficulty: medium
+    solution: ./leetcode-playground/0452-minimum-number-of-arrows-to-burst-balloons.js
+    test: ./leetcode-playground/tests/0452-minimum-number-of-arrows-to-burst-balloons.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+    notes: ""
+
+  - id: 31
+    number: "0547"
+    name: number-of-provinces
+    difficulty: medium
+    solution: ./leetcode-playground/0547-number-of-provinces.js
+    test: ./leetcode-playground/tests/0547-number-of-provinces.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-provinces/
+    notes: ""
+
+  - id: 32
+    number: "0605"
+    name: can-place-flowers
+    difficulty: easy
+    solution: ./leetcode-playground/0605-can-place-flowers.js
+    test: ./leetcode-playground/tests/0605-can-place-flowers.test.js
+    leetcode_url: https://leetcode.com/problems/can-place-flowers/
+    notes: ""
+
+  - id: 33
+    number: "0643"
+    name: maximum-average-subarray-i
+    difficulty: easy
+    solution: ./leetcode-playground/0643-maximum-average-subarray-i.js
+    test: ./leetcode-playground/tests/0643-maximum-average-subarray-i.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-average-subarray-i/
+    notes: ""
+
+  - id: 34
+    number: "0649"
+    name: dota2-senate
+    difficulty: medium
+    solution: ./leetcode-playground/0649-dota2-senate.js
+    test: ./leetcode-playground/tests/0649-dota2-senate.test.js
+    leetcode_url: https://leetcode.com/problems/dota2-senate/
+    notes: ""
+
+  - id: 35
+    number: "0700"
+    name: search-in-a-binary-search-tree
+    difficulty: easy
+    solution: ./leetcode-playground/0700-search-in-a-binary-search-tree.js
+    test: ./leetcode-playground/tests/0700-search-in-a-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/search-in-a-binary-search-tree/
+    notes: ""
+
+  - id: 36
+    number: "0714"
+    name: best-time-to-buy-and-sell-stock-with-transaction-fee
+    difficulty: medium
+    solution: ./leetcode-playground/0714-best-time-to-buy-and-sell-stock-with-transaction-fee.js
+    test: ./leetcode-playground/tests/0714-best-time-to-buy-and-sell-stock-with-transaction-fee.test.js
+    leetcode_url: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+    notes: ""
+
+  - id: 37
+    number: "0724"
+    name: find-pivot-index
+    difficulty: easy
+    solution: ./leetcode-playground/0724-find-pivot-index.js
+    test: ./leetcode-playground/tests/0724-find-pivot-index.test.js
+    leetcode_url: https://leetcode.com/problems/find-pivot-index/
+    notes: ""
+
+  - id: 38
+    number: "0735"
+    name: asteroid-collision
+    difficulty: medium
+    solution: ./leetcode-playground/0735-asteroid-collision.js
+    test: ./leetcode-playground/tests/0735-asteroid-collision.test.js
+    leetcode_url: https://leetcode.com/problems/asteroid-collision/
+    notes: ""
+
+  - id: 39
+    number: "0739"
+    name: daily-temperatures
+    difficulty: medium
+    solution: ./leetcode-playground/0739-daily-temperatures.js
+    test: ./leetcode-playground/tests/0739-daily-temperatures.test.js
+    leetcode_url: https://leetcode.com/problems/daily-temperatures/
+    notes: ""
+
+  - id: 40
+    number: "0746"
+    name: min-cost-climbing-stairs
+    difficulty: easy
+    solution: ./leetcode-playground/0746-min-cost-climbing-stairs.js
+    test: ./leetcode-playground/tests/0746-min-cost-climbing-stairs.test.js
+    leetcode_url: https://leetcode.com/problems/min-cost-climbing-stairs/
+    notes: ""
+
+  - id: 41
+    number: "0790"
+    name: domino-and-tromino-tiling
+    difficulty: medium
+    solution: ./leetcode-playground/0790-domino-and-tromino-tiling.js
+    test: ./leetcode-playground/tests/0790-domino-and-tromino-tiling.test.js
+    leetcode_url: https://leetcode.com/problems/domino-and-tromino-tiling/
+    notes: ""
+
+  - id: 42
+    number: "0841"
+    name: keys-and-rooms
+    difficulty: medium
+    solution: ./leetcode-playground/0841-keys-and-rooms.js
+    test: ./leetcode-playground/tests/0841-keys-and-rooms.test.js
+    leetcode_url: https://leetcode.com/problems/keys-and-rooms/
+    notes: ""
+
+  - id: 43
+    number: "0872"
+    name: leaf-similar-trees
+    difficulty: easy
+    solution: ./leetcode-playground/0872-leaf-similar-trees.js
+    test: ./leetcode-playground/tests/0872-leaf-similar-trees.test.js
+    leetcode_url: https://leetcode.com/problems/leaf-similar-trees/
+    notes: ""
+
+  - id: 44
+    number: "0875"
+    name: koko-eating-bananas
+    difficulty: medium
+    solution: ./leetcode-playground/0875-koko-eating-bananas.js
+    test: ./leetcode-playground/tests/0875-koko-eating-bananas.test.js
+    leetcode_url: https://leetcode.com/problems/koko-eating-bananas/
+    notes: ""
+
+  - id: 45
+    number: "0901"
+    name: online-stock-span
+    difficulty: medium
+    solution: ./leetcode-playground/0901-online-stock-span.js
+    test: ./leetcode-playground/tests/0901-online-stock-span.test.js
+    leetcode_url: https://leetcode.com/problems/online-stock-span/
+    notes: ""
+
+  - id: 46
+    number: "0933"
+    name: number-of-recent-calls
+    difficulty: easy
+    solution: ./leetcode-playground/0933-number-of-recent-calls.js
+    test: ./leetcode-playground/tests/0933-number-of-recent-calls.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-recent-calls/
+    notes: ""
+
+  - id: 47
+    number: "0994"
+    name: rotting-oranges
+    difficulty: medium
+    solution: ./leetcode-playground/0994-rotting-oranges.js
+    test: ./leetcode-playground/tests/0994-rotting-oranges.test.js
+    leetcode_url: https://leetcode.com/problems/rotting-oranges/
+    notes: ""
+
+  - id: 48
+    number: "1004"
+    name: max-consecutive-ones-iii
+    difficulty: medium
+    solution: ./leetcode-playground/1004-max-consecutive-ones-iii.js
+    test: ./leetcode-playground/tests/1004-max-consecutive-ones-iii.test.js
+    leetcode_url: https://leetcode.com/problems/max-consecutive-ones-iii/
+    notes: ""
+
+  - id: 49
+    number: "1071"
+    name: greatest-common-divisor-of-strings
+    difficulty: easy
+    solution: ./leetcode-playground/1071-greatest-common-divisor-of-strings.js
+    test: ./leetcode-playground/tests/1071-greatest-common-divisor-of-strings.test.js
+    leetcode_url: https://leetcode.com/problems/greatest-common-divisor-of-strings/
+    notes: ""
+
+  - id: 50
+    number: "1137"
+    name: n-th-tribonacci-number
+    difficulty: easy
+    solution: ./leetcode-playground/1137-n-th-tribonacci-number.js
+    test: ./leetcode-playground/tests/1137-n-th-tribonacci-number.test.js
+    leetcode_url: https://leetcode.com/problems/n-th-tribonacci-number/
+    notes: ""
+
+  - id: 51
+    number: "1143"
+    name: longest-common-subsequence
+    difficulty: medium
+    solution: ./leetcode-playground/1143-longest-common-subsequence.js
+    test: ./leetcode-playground/tests/1143-longest-common-subsequence.test.js
+    leetcode_url: https://leetcode.com/problems/longest-common-subsequence/
+    notes: ""
+
+  - id: 52
+    number: "1161"
+    name: maximum-level-sum-of-a-binary-tree
+    difficulty: medium
+    solution: ./leetcode-playground/1161-maximum-level-sum-of-a-binary-tree.js
+    test: ./leetcode-playground/tests/1161-maximum-level-sum-of-a-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
+    notes: ""
+
+  - id: 53
+    number: "1207"
+    name: unique-number-of-occurrences
+    difficulty: easy
+    solution: ./leetcode-playground/1207-unique-number-of-occurrences.js
+    test: ./leetcode-playground/tests/1207-unique-number-of-occurrences.test.js
+    leetcode_url: https://leetcode.com/problems/unique-number-of-occurrences/
+    notes: ""
+
+  - id: 54
+    number: "1268"
+    name: search-suggestions-system
+    difficulty: medium
+    solution: ./leetcode-playground/1268-search-suggestions-system.js
+    test: ./leetcode-playground/tests/1268-search-suggestions-system.test.js
+    leetcode_url: https://leetcode.com/problems/search-suggestions-system/
+    notes: ""
+
+  - id: 55
+    number: "1318"
+    name: minimum-flips-to-make-a-or-b-equal-to-c
+    difficulty: medium
+    solution: ./leetcode-playground/1318-minimum-flips-to-make-a-or-b-equal-to-c.js
+    test: ./leetcode-playground/tests/1318-minimum-flips-to-make-a-or-b-equal-to-c.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/
+    notes: ""
+
+  - id: 56
+    number: "1372"
+    name: longest-zigzag-path-in-a-binary-tree
+    difficulty: medium
+    solution: ./leetcode-playground/1372-longest-zigzag-path-in-a-binary-tree.js
+    test: ./leetcode-playground/tests/1372-longest-zigzag-path-in-a-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
+    notes: ""
+
+  - id: 57
+    number: "1431"
+    name: kids-with-the-greatest-number-of-candies
+    difficulty: easy
+    solution: ./leetcode-playground/1431-kids-with-the-greatest-number-of-candies.js
+    test: ./leetcode-playground/tests/1431-kids-with-the-greatest-number-of-candies.test.js
+    leetcode_url: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+    notes: ""
+
+  - id: 58
+    number: "1448"
+    name: count-good-nodes-in-binary-tree
+    difficulty: medium
+    solution: ./leetcode-playground/1448-count-good-nodes-in-binary-tree.js
+    test: ./leetcode-playground/tests/1448-count-good-nodes-in-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+    notes: ""
+
+  - id: 59
+    number: "1456"
+    name: maximum-number-of-vowels-in-a-substring-of-given-length
+    difficulty: medium
+    solution: ./leetcode-playground/1456-maximum-number-of-vowels-in-a-substring-of-given-length.js
+    test: ./leetcode-playground/tests/1456-maximum-number-of-vowels-in-a-substring-of-given-length.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+    notes: ""
+
+  - id: 60
+    number: "1466"
+    name: reorder-routes-to-make-all-paths-lead-to-the-city-zero
+    difficulty: medium
+    solution: ./leetcode-playground/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero.js
+    test: ./leetcode-playground/tests/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero.test.js
+    leetcode_url: https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
+    notes: ""
+
+  - id: 61
+    number: "1493"
+    name: longest-subarray-of-1s-after-deleting-one-element
+    difficulty: medium
+    solution: ./leetcode-playground/1493-longest-subarray-of-1s-after-deleting-one-element.js
+    test: ./leetcode-playground/tests/1493-longest-subarray-of-1s-after-deleting-one-element.test.js
+    leetcode_url: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
+    notes: ""
+
+  - id: 62
+    number: "1657"
+    name: determine-if-two-strings-are-close
+    difficulty: medium
+    solution: ./leetcode-playground/1657-determine-if-two-strings-are-close.js
+    test: ./leetcode-playground/tests/1657-determine-if-two-strings-are-close.test.js
+    leetcode_url: https://leetcode.com/problems/determine-if-two-strings-are-close/
+    notes: ""
+
+  - id: 63
+    number: "1679"
+    name: max-number-of-k-sum-pairs
+    difficulty: medium
+    solution: ./leetcode-playground/1679-max-number-of-k-sum-pairs.js
+    test: ./leetcode-playground/tests/1679-max-number-of-k-sum-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/max-number-of-k-sum-pairs/
+    notes: ""
+
+  - id: 64
+    number: "1732"
+    name: find-the-highest-altitude
+    difficulty: easy
+    solution: ./leetcode-playground/1732-find-the-highest-altitude.js
+    test: ./leetcode-playground/tests/1732-find-the-highest-altitude.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-highest-altitude/
+    notes: ""
+
+  - id: 65
+    number: "1768"
+    name: merge-strings-alternately
+    difficulty: easy
+    solution: ./leetcode-playground/1768-merge-strings-alternately.js
+    test: ./leetcode-playground/tests/1768-merge-strings-alternately.test.js
+    leetcode_url: https://leetcode.com/problems/merge-strings-alternately/
+    notes: ""
+
+  - id: 66
+    number: "1926"
+    name: nearest-exit-from-entrance-in-maze
+    difficulty: medium
+    solution: ./leetcode-playground/1926-nearest-exit-from-entrance-in-maze.js
+    test: ./leetcode-playground/tests/1926-nearest-exit-from-entrance-in-maze.test.js
+    leetcode_url: https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/
+    notes: ""
+
+  - id: 67
+    number: "2095"
+    name: delete-the-middle-node-of-a-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2095-delete-the-middle-node-of-a-linked-list.js
+    test: ./leetcode-playground/tests/2095-delete-the-middle-node-of-a-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
+    notes: ""
+
+  - id: 68
+    number: "2130"
+    name: maximum-twin-sum-of-a-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2130-maximum-twin-sum-of-a-linked-list.js
+    test: ./leetcode-playground/tests/2130-maximum-twin-sum-of-a-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
+    notes: ""
+
+  - id: 69
+    number: "2215"
+    name: find-the-difference-of-two-arrays
+    difficulty: easy
+    solution: ./leetcode-playground/2215-find-the-difference-of-two-arrays.js
+    test: ./leetcode-playground/tests/2215-find-the-difference-of-two-arrays.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-difference-of-two-arrays/
+    notes: ""
+
+  - id: 70
+    number: "2300"
+    name: successful-pairs-of-spells-and-potions
+    difficulty: medium
+    solution: ./leetcode-playground/2300-successful-pairs-of-spells-and-potions.js
+    test: ./leetcode-playground/tests/2300-successful-pairs-of-spells-and-potions.test.js
+    leetcode_url: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
+    notes: ""
+
+  - id: 71
+    number: "2336"
+    name: smallest-number-in-infinite-set
+    difficulty: medium
+    solution: ./leetcode-playground/2336-smallest-number-in-infinite-set.js
+    test: ./leetcode-playground/tests/2336-smallest-number-in-infinite-set.test.js
+    leetcode_url: https://leetcode.com/problems/smallest-number-in-infinite-set/
+    notes: ""
+
+  - id: 72
+    number: "2352"
+    name: equal-row-and-column-pairs
+    difficulty: medium
+    solution: ./leetcode-playground/2352-equal-row-and-column-pairs.js
+    test: ./leetcode-playground/tests/2352-equal-row-and-column-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/equal-row-and-column-pairs/
+    notes: ""
+
+  - id: 73
+    number: "2390"
+    name: removing-stars-from-a-string
+    difficulty: medium
+    solution: ./leetcode-playground/2390-removing-stars-from-a-string.js
+    test: ./leetcode-playground/tests/2390-removing-stars-from-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/removing-stars-from-a-string/
+    notes: ""
+
+  - id: 74
+    number: "2462"
+    name: total-cost-to-hire-k-workers
+    difficulty: medium
+    solution: ./leetcode-playground/2462-total-cost-to-hire-k-workers.js
+    test: ./leetcode-playground/tests/2462-total-cost-to-hire-k-workers.test.js
+    leetcode_url: https://leetcode.com/problems/total-cost-to-hire-k-workers/
+    notes: ""
+
+  - id: 75
+    number: "2542"
+    name: maximum-subsequence-score
+    difficulty: medium
+    solution: ./leetcode-playground/2542-maximum-subsequence-score.js
+    test: ./leetcode-playground/tests/2542-maximum-subsequence-score.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-subsequence-score/
+    notes: ""
+

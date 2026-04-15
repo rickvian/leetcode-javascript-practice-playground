@@ -1,0 +1,1948 @@
+# Topic: Prefix Sum
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+prefix_sum:
+  - id: 1
+    number: "0209"
+    name: minimum-size-subarray-sum
+    difficulty: medium
+    solution: ./leetcode-playground/0209-minimum-size-subarray-sum.js
+    test: ./leetcode-playground/tests/0209-minimum-size-subarray-sum.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-size-subarray-sum/
+    notes: ""
+
+  - id: 2
+    number: "0238"
+    name: product-of-array-except-self
+    difficulty: medium
+    solution: ./leetcode-playground/0238-product-of-array-except-self.js
+    test: ./leetcode-playground/tests/0238-product-of-array-except-self.test.js
+    leetcode_url: https://leetcode.com/problems/product-of-array-except-self/
+    notes: ""
+
+  - id: 3
+    number: "0303"
+    name: range-sum-query-immutable
+    difficulty: easy
+    solution: ./leetcode-playground/0303-range-sum-query-immutable.js
+    test: ./leetcode-playground/tests/0303-range-sum-query-immutable.test.js
+    leetcode_url: https://leetcode.com/problems/range-sum-query-immutable/
+    notes: ""
+
+  - id: 4
+    number: "0304"
+    name: range-sum-query-2d-immutable
+    difficulty: medium
+    solution: ./leetcode-playground/0304-range-sum-query-2d-immutable.js
+    test: ./leetcode-playground/tests/0304-range-sum-query-2d-immutable.test.js
+    leetcode_url: https://leetcode.com/problems/range-sum-query-2d-immutable/
+    notes: ""
+
+  - id: 5
+    number: "0363"
+    name: max-sum-of-rectangle-no-larger-than-k
+    difficulty: hard
+    solution: ./leetcode-playground/0363-max-sum-of-rectangle-no-larger-than-k.js
+    test: ./leetcode-playground/tests/0363-max-sum-of-rectangle-no-larger-than-k.test.js
+    leetcode_url: https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+    notes: ""
+
+  - id: 6
+    number: "0410"
+    name: split-array-largest-sum
+    difficulty: hard
+    solution: ./leetcode-playground/0410-split-array-largest-sum.js
+    test: ./leetcode-playground/tests/0410-split-array-largest-sum.test.js
+    leetcode_url: https://leetcode.com/problems/split-array-largest-sum/
+    notes: ""
+
+  - id: 7
+    number: "0497"
+    name: random-point-in-non-overlapping-rectangles
+    difficulty: medium
+    solution: ./leetcode-playground/0497-random-point-in-non-overlapping-rectangles.js
+    test: ./leetcode-playground/tests/0497-random-point-in-non-overlapping-rectangles.test.js
+    leetcode_url: https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/
+    notes: ""
+
+  - id: 8
+    number: "0523"
+    name: continuous-subarray-sum
+    difficulty: medium
+    solution: ./leetcode-playground/0523-continuous-subarray-sum.js
+    test: ./leetcode-playground/tests/0523-continuous-subarray-sum.test.js
+    leetcode_url: https://leetcode.com/problems/continuous-subarray-sum/
+    notes: ""
+
+  - id: 9
+    number: "0525"
+    name: contiguous-array
+    difficulty: medium
+    solution: ./leetcode-playground/0525-contiguous-array.js
+    test: ./leetcode-playground/tests/0525-contiguous-array.test.js
+    leetcode_url: https://leetcode.com/problems/contiguous-array/
+    notes: ""
+
+  - id: 10
+    number: "0528"
+    name: random-pick-with-weight
+    difficulty: medium
+    solution: ./leetcode-playground/0528-random-pick-with-weight.js
+    test: ./leetcode-playground/tests/0528-random-pick-with-weight.test.js
+    leetcode_url: https://leetcode.com/problems/random-pick-with-weight/
+    notes: ""
+
+  - id: 11
+    number: "0560"
+    name: subarray-sum-equals-k
+    difficulty: medium
+    solution: ./leetcode-playground/0560-subarray-sum-equals-k.js
+    test: ./leetcode-playground/tests/0560-subarray-sum-equals-k.test.js
+    leetcode_url: https://leetcode.com/problems/subarray-sum-equals-k/
+    notes: ""
+
+  - id: 12
+    number: "0689"
+    name: maximum-sum-of-3-non-overlapping-subarrays
+    difficulty: hard
+    solution: ./leetcode-playground/0689-maximum-sum-of-3-non-overlapping-subarrays.js
+    test: ./leetcode-playground/tests/0689-maximum-sum-of-3-non-overlapping-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+    notes: ""
+
+  - id: 13
+    number: "0713"
+    name: subarray-product-less-than-k
+    difficulty: medium
+    solution: ./leetcode-playground/0713-subarray-product-less-than-k.js
+    test: ./leetcode-playground/tests/0713-subarray-product-less-than-k.test.js
+    leetcode_url: https://leetcode.com/problems/subarray-product-less-than-k/
+    notes: ""
+
+  - id: 14
+    number: "0724"
+    name: find-pivot-index
+    difficulty: easy
+    solution: ./leetcode-playground/0724-find-pivot-index.js
+    test: ./leetcode-playground/tests/0724-find-pivot-index.test.js
+    leetcode_url: https://leetcode.com/problems/find-pivot-index/
+    notes: ""
+
+  - id: 15
+    number: "0731"
+    name: my-calendar-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0731-my-calendar-ii.js
+    test: ./leetcode-playground/tests/0731-my-calendar-ii.test.js
+    leetcode_url: https://leetcode.com/problems/my-calendar-ii/
+    notes: ""
+
+  - id: 16
+    number: "0732"
+    name: my-calendar-iii
+    difficulty: hard
+    solution: ./leetcode-playground/0732-my-calendar-iii.js
+    test: ./leetcode-playground/tests/0732-my-calendar-iii.test.js
+    leetcode_url: https://leetcode.com/problems/my-calendar-iii/
+    notes: ""
+
+  - id: 17
+    number: "0798"
+    name: smallest-rotation-with-highest-score
+    difficulty: hard
+    solution: ./leetcode-playground/0798-smallest-rotation-with-highest-score.js
+    test: ./leetcode-playground/tests/0798-smallest-rotation-with-highest-score.test.js
+    leetcode_url: https://leetcode.com/problems/smallest-rotation-with-highest-score/
+    notes: ""
+
+  - id: 18
+    number: "0813"
+    name: largest-sum-of-averages
+    difficulty: medium
+    solution: ./leetcode-playground/0813-largest-sum-of-averages.js
+    test: ./leetcode-playground/tests/0813-largest-sum-of-averages.test.js
+    leetcode_url: https://leetcode.com/problems/largest-sum-of-averages/
+    notes: ""
+
+  - id: 19
+    number: "0848"
+    name: shifting-letters
+    difficulty: medium
+    solution: ./leetcode-playground/0848-shifting-letters.js
+    test: ./leetcode-playground/tests/0848-shifting-letters.test.js
+    leetcode_url: https://leetcode.com/problems/shifting-letters/
+    notes: ""
+
+  - id: 20
+    number: "0862"
+    name: shortest-subarray-with-sum-at-least-k
+    difficulty: hard
+    solution: ./leetcode-playground/0862-shortest-subarray-with-sum-at-least-k.js
+    test: ./leetcode-playground/tests/0862-shortest-subarray-with-sum-at-least-k.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+    notes: ""
+
+  - id: 21
+    number: "0903"
+    name: valid-permutations-for-di-sequence
+    difficulty: hard
+    solution: ./leetcode-playground/0903-valid-permutations-for-di-sequence.js
+    test: ./leetcode-playground/tests/0903-valid-permutations-for-di-sequence.test.js
+    leetcode_url: https://leetcode.com/problems/valid-permutations-for-di-sequence/
+    notes: ""
+
+  - id: 22
+    number: "0930"
+    name: binary-subarrays-with-sum
+    difficulty: medium
+    solution: ./leetcode-playground/0930-binary-subarrays-with-sum.js
+    test: ./leetcode-playground/tests/0930-binary-subarrays-with-sum.test.js
+    leetcode_url: https://leetcode.com/problems/binary-subarrays-with-sum/
+    notes: ""
+
+  - id: 23
+    number: "0974"
+    name: subarray-sums-divisible-by-k
+    difficulty: medium
+    solution: ./leetcode-playground/0974-subarray-sums-divisible-by-k.js
+    test: ./leetcode-playground/tests/0974-subarray-sums-divisible-by-k.test.js
+    leetcode_url: https://leetcode.com/problems/subarray-sums-divisible-by-k/
+    notes: ""
+
+  - id: 24
+    number: "0995"
+    name: minimum-number-of-k-consecutive-bit-flips
+    difficulty: hard
+    solution: ./leetcode-playground/0995-minimum-number-of-k-consecutive-bit-flips.js
+    test: ./leetcode-playground/tests/0995-minimum-number-of-k-consecutive-bit-flips.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
+    notes: ""
+
+  - id: 25
+    number: "1000"
+    name: minimum-cost-to-merge-stones
+    difficulty: hard
+    solution: ./leetcode-playground/1000-minimum-cost-to-merge-stones.js
+    test: ./leetcode-playground/tests/1000-minimum-cost-to-merge-stones.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-merge-stones/
+    notes: ""
+
+  - id: 26
+    number: "1004"
+    name: max-consecutive-ones-iii
+    difficulty: medium
+    solution: ./leetcode-playground/1004-max-consecutive-ones-iii.js
+    test: ./leetcode-playground/tests/1004-max-consecutive-ones-iii.test.js
+    leetcode_url: https://leetcode.com/problems/max-consecutive-ones-iii/
+    notes: ""
+
+  - id: 27
+    number: "1074"
+    name: number-of-submatrices-that-sum-to-target
+    difficulty: hard
+    solution: ./leetcode-playground/1074-number-of-submatrices-that-sum-to-target.js
+    test: ./leetcode-playground/tests/1074-number-of-submatrices-that-sum-to-target.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
+    notes: ""
+
+  - id: 28
+    number: "1094"
+    name: car-pooling
+    difficulty: medium
+    solution: ./leetcode-playground/1094-car-pooling.js
+    test: ./leetcode-playground/tests/1094-car-pooling.test.js
+    leetcode_url: https://leetcode.com/problems/car-pooling/
+    notes: ""
+
+  - id: 29
+    number: "1109"
+    name: corporate-flight-bookings
+    difficulty: medium
+    solution: ./leetcode-playground/1109-corporate-flight-bookings.js
+    test: ./leetcode-playground/tests/1109-corporate-flight-bookings.test.js
+    leetcode_url: https://leetcode.com/problems/corporate-flight-bookings/
+    notes: ""
+
+  - id: 30
+    number: "1124"
+    name: longest-well-performing-interval
+    difficulty: medium
+    solution: ./leetcode-playground/1124-longest-well-performing-interval.js
+    test: ./leetcode-playground/tests/1124-longest-well-performing-interval.test.js
+    leetcode_url: https://leetcode.com/problems/longest-well-performing-interval/
+    notes: ""
+
+  - id: 31
+    number: "1140"
+    name: stone-game-ii
+    difficulty: medium
+    solution: ./leetcode-playground/1140-stone-game-ii.js
+    test: ./leetcode-playground/tests/1140-stone-game-ii.test.js
+    leetcode_url: https://leetcode.com/problems/stone-game-ii/
+    notes: ""
+
+  - id: 32
+    number: "1177"
+    name: can-make-palindrome-from-substring
+    difficulty: medium
+    solution: ./leetcode-playground/1177-can-make-palindrome-from-substring.js
+    test: ./leetcode-playground/tests/1177-can-make-palindrome-from-substring.test.js
+    leetcode_url: https://leetcode.com/problems/can-make-palindrome-from-substring/
+    notes: ""
+
+  - id: 33
+    number: "1208"
+    name: get-equal-substrings-within-budget
+    difficulty: medium
+    solution: ./leetcode-playground/1208-get-equal-substrings-within-budget.js
+    test: ./leetcode-playground/tests/1208-get-equal-substrings-within-budget.test.js
+    leetcode_url: https://leetcode.com/problems/get-equal-substrings-within-budget/
+    notes: ""
+
+  - id: 34
+    number: "1248"
+    name: count-number-of-nice-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/1248-count-number-of-nice-subarrays.js
+    test: ./leetcode-playground/tests/1248-count-number-of-nice-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/count-number-of-nice-subarrays/
+    notes: ""
+
+  - id: 35
+    number: "1292"
+    name: maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold
+    difficulty: medium
+    solution: ./leetcode-playground/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.js
+    test: ./leetcode-playground/tests/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+    notes: ""
+
+  - id: 36
+    number: "1310"
+    name: xor-queries-of-a-subarray
+    difficulty: medium
+    solution: ./leetcode-playground/1310-xor-queries-of-a-subarray.js
+    test: ./leetcode-playground/tests/1310-xor-queries-of-a-subarray.test.js
+    leetcode_url: https://leetcode.com/problems/xor-queries-of-a-subarray/
+    notes: ""
+
+  - id: 37
+    number: "1314"
+    name: matrix-block-sum
+    difficulty: medium
+    solution: ./leetcode-playground/1314-matrix-block-sum.js
+    test: ./leetcode-playground/tests/1314-matrix-block-sum.test.js
+    leetcode_url: https://leetcode.com/problems/matrix-block-sum/
+    notes: ""
+
+  - id: 38
+    number: "1352"
+    name: product-of-the-last-k-numbers
+    difficulty: medium
+    solution: ./leetcode-playground/1352-product-of-the-last-k-numbers.js
+    test: ./leetcode-playground/tests/1352-product-of-the-last-k-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/product-of-the-last-k-numbers/
+    notes: ""
+
+  - id: 39
+    number: "1371"
+    name: find-the-longest-substring-containing-vowels-in-even-counts
+    difficulty: medium
+    solution: ./leetcode-playground/1371-find-the-longest-substring-containing-vowels-in-even-counts.js
+    test: ./leetcode-playground/tests/1371-find-the-longest-substring-containing-vowels-in-even-counts.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
+    notes: ""
+
+  - id: 40
+    number: "1413"
+    name: minimum-value-to-get-positive-step-by-step-sum
+    difficulty: easy
+    solution: ./leetcode-playground/1413-minimum-value-to-get-positive-step-by-step-sum.js
+    test: ./leetcode-playground/tests/1413-minimum-value-to-get-positive-step-by-step-sum.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/
+    notes: ""
+
+  - id: 41
+    number: "1420"
+    name: build-array-where-you-can-find-the-maximum-exactly-k-comparisons
+    difficulty: hard
+    solution: ./leetcode-playground/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons.js
+    test: ./leetcode-playground/tests/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons.test.js
+    leetcode_url: https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/
+    notes: ""
+
+  - id: 42
+    number: "1422"
+    name: maximum-score-after-splitting-a-string
+    difficulty: easy
+    solution: ./leetcode-playground/1422-maximum-score-after-splitting-a-string.js
+    test: ./leetcode-playground/tests/1422-maximum-score-after-splitting-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-score-after-splitting-a-string/
+    notes: ""
+
+  - id: 43
+    number: "1423"
+    name: maximum-points-you-can-obtain-from-cards
+    difficulty: medium
+    solution: ./leetcode-playground/1423-maximum-points-you-can-obtain-from-cards.js
+    test: ./leetcode-playground/tests/1423-maximum-points-you-can-obtain-from-cards.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
+    notes: ""
+
+  - id: 44
+    number: "1442"
+    name: count-triplets-that-can-form-two-arrays-of-equal-xor
+    difficulty: medium
+    solution: ./leetcode-playground/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.js
+    test: ./leetcode-playground/tests/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.test.js
+    leetcode_url: https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/
+    notes: ""
+
+  - id: 45
+    number: "1444"
+    name: number-of-ways-of-cutting-a-pizza
+    difficulty: hard
+    solution: ./leetcode-playground/1444-number-of-ways-of-cutting-a-pizza.js
+    test: ./leetcode-playground/tests/1444-number-of-ways-of-cutting-a-pizza.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
+    notes: ""
+
+  - id: 46
+    number: "1480"
+    name: running-sum-of-1d-array
+    difficulty: easy
+    solution: ./leetcode-playground/1480-running-sum-of-1d-array.js
+    test: ./leetcode-playground/tests/1480-running-sum-of-1d-array.test.js
+    leetcode_url: https://leetcode.com/problems/running-sum-of-1d-array/
+    notes: ""
+
+  - id: 47
+    number: "1508"
+    name: range-sum-of-sorted-subarray-sums
+    difficulty: medium
+    solution: ./leetcode-playground/1508-range-sum-of-sorted-subarray-sums.js
+    test: ./leetcode-playground/tests/1508-range-sum-of-sorted-subarray-sums.test.js
+    leetcode_url: https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/
+    notes: ""
+
+  - id: 48
+    number: "1524"
+    name: number-of-sub-arrays-with-odd-sum
+    difficulty: medium
+    solution: ./leetcode-playground/1524-number-of-sub-arrays-with-odd-sum.js
+    test: ./leetcode-playground/tests/1524-number-of-sub-arrays-with-odd-sum.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/
+    notes: ""
+
+  - id: 49
+    number: "1546"
+    name: maximum-number-of-non-overlapping-subarrays-with-sum-equals-target
+    difficulty: medium
+    solution: ./leetcode-playground/1546-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target.js
+    test: ./leetcode-playground/tests/1546-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
+    notes: ""
+
+  - id: 50
+    number: "1588"
+    name: sum-of-all-odd-length-subarrays
+    difficulty: easy
+    solution: ./leetcode-playground/1588-sum-of-all-odd-length-subarrays.js
+    test: ./leetcode-playground/tests/1588-sum-of-all-odd-length-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-all-odd-length-subarrays/
+    notes: ""
+
+  - id: 51
+    number: "1589"
+    name: maximum-sum-obtained-of-any-permutation
+    difficulty: medium
+    solution: ./leetcode-playground/1589-maximum-sum-obtained-of-any-permutation.js
+    test: ./leetcode-playground/tests/1589-maximum-sum-obtained-of-any-permutation.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/
+    notes: ""
+
+  - id: 52
+    number: "1590"
+    name: make-sum-divisible-by-p
+    difficulty: medium
+    solution: ./leetcode-playground/1590-make-sum-divisible-by-p.js
+    test: ./leetcode-playground/tests/1590-make-sum-divisible-by-p.test.js
+    leetcode_url: https://leetcode.com/problems/make-sum-divisible-by-p/
+    notes: ""
+
+  - id: 53
+    number: "1621"
+    name: number-of-sets-of-k-non-overlapping-line-segments
+    difficulty: medium
+    solution: ./leetcode-playground/1621-number-of-sets-of-k-non-overlapping-line-segments.js
+    test: ./leetcode-playground/tests/1621-number-of-sets-of-k-non-overlapping-line-segments.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/
+    notes: ""
+
+  - id: 54
+    number: "1658"
+    name: minimum-operations-to-reduce-x-to-zero
+    difficulty: medium
+    solution: ./leetcode-playground/1658-minimum-operations-to-reduce-x-to-zero.js
+    test: ./leetcode-playground/tests/1658-minimum-operations-to-reduce-x-to-zero.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
+    notes: ""
+
+  - id: 55
+    number: "1664"
+    name: ways-to-make-a-fair-array
+    difficulty: medium
+    solution: ./leetcode-playground/1664-ways-to-make-a-fair-array.js
+    test: ./leetcode-playground/tests/1664-ways-to-make-a-fair-array.test.js
+    leetcode_url: https://leetcode.com/problems/ways-to-make-a-fair-array/
+    notes: ""
+
+  - id: 56
+    number: "1674"
+    name: minimum-moves-to-make-array-complementary
+    difficulty: medium
+    solution: ./leetcode-playground/1674-minimum-moves-to-make-array-complementary.js
+    test: ./leetcode-playground/tests/1674-minimum-moves-to-make-array-complementary.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-moves-to-make-array-complementary/
+    notes: ""
+
+  - id: 57
+    number: "1685"
+    name: sum-of-absolute-differences-in-a-sorted-array
+    difficulty: medium
+    solution: ./leetcode-playground/1685-sum-of-absolute-differences-in-a-sorted-array.js
+    test: ./leetcode-playground/tests/1685-sum-of-absolute-differences-in-a-sorted-array.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/
+    notes: ""
+
+  - id: 58
+    number: "1687"
+    name: delivering-boxes-from-storage-to-ports
+    difficulty: hard
+    solution: ./leetcode-playground/1687-delivering-boxes-from-storage-to-ports.js
+    test: ./leetcode-playground/tests/1687-delivering-boxes-from-storage-to-ports.test.js
+    leetcode_url: https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/
+    notes: ""
+
+  - id: 59
+    number: "1703"
+    name: minimum-adjacent-swaps-for-k-consecutive-ones
+    difficulty: hard
+    solution: ./leetcode-playground/1703-minimum-adjacent-swaps-for-k-consecutive-ones.js
+    test: ./leetcode-playground/tests/1703-minimum-adjacent-swaps-for-k-consecutive-ones.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/
+    notes: ""
+
+  - id: 60
+    number: "1712"
+    name: ways-to-split-array-into-three-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/1712-ways-to-split-array-into-three-subarrays.js
+    test: ./leetcode-playground/tests/1712-ways-to-split-array-into-three-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/
+    notes: ""
+
+  - id: 61
+    number: "1732"
+    name: find-the-highest-altitude
+    difficulty: easy
+    solution: ./leetcode-playground/1732-find-the-highest-altitude.js
+    test: ./leetcode-playground/tests/1732-find-the-highest-altitude.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-highest-altitude/
+    notes: ""
+
+  - id: 62
+    number: "1737"
+    name: change-minimum-characters-to-satisfy-one-of-three-conditions
+    difficulty: medium
+    solution: ./leetcode-playground/1737-change-minimum-characters-to-satisfy-one-of-three-conditions.js
+    test: ./leetcode-playground/tests/1737-change-minimum-characters-to-satisfy-one-of-three-conditions.test.js
+    leetcode_url: https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/
+    notes: ""
+
+  - id: 63
+    number: "1738"
+    name: find-kth-largest-xor-coordinate-value
+    difficulty: medium
+    solution: ./leetcode-playground/1738-find-kth-largest-xor-coordinate-value.js
+    test: ./leetcode-playground/tests/1738-find-kth-largest-xor-coordinate-value.test.js
+    leetcode_url: https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/
+    notes: ""
+
+  - id: 64
+    number: "1744"
+    name: can-you-eat-your-favorite-candy-on-your-favorite-day
+    difficulty: medium
+    solution: ./leetcode-playground/1744-can-you-eat-your-favorite-candy-on-your-favorite-day.js
+    test: ./leetcode-playground/tests/1744-can-you-eat-your-favorite-candy-on-your-favorite-day.test.js
+    leetcode_url: https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/
+    notes: ""
+
+  - id: 65
+    number: "1769"
+    name: minimum-number-of-operations-to-move-all-balls-to-each-box
+    difficulty: medium
+    solution: ./leetcode-playground/1769-minimum-number-of-operations-to-move-all-balls-to-each-box.js
+    test: ./leetcode-playground/tests/1769-minimum-number-of-operations-to-move-all-balls-to-each-box.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
+    notes: ""
+
+  - id: 66
+    number: "1829"
+    name: maximum-xor-for-each-query
+    difficulty: medium
+    solution: ./leetcode-playground/1829-maximum-xor-for-each-query.js
+    test: ./leetcode-playground/tests/1829-maximum-xor-for-each-query.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-xor-for-each-query/
+    notes: ""
+
+  - id: 67
+    number: "1838"
+    name: frequency-of-the-most-frequent-element
+    difficulty: medium
+    solution: ./leetcode-playground/1838-frequency-of-the-most-frequent-element.js
+    test: ./leetcode-playground/tests/1838-frequency-of-the-most-frequent-element.test.js
+    leetcode_url: https://leetcode.com/problems/frequency-of-the-most-frequent-element/
+    notes: ""
+
+  - id: 68
+    number: "1854"
+    name: maximum-population-year
+    difficulty: easy
+    solution: ./leetcode-playground/1854-maximum-population-year.js
+    test: ./leetcode-playground/tests/1854-maximum-population-year.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-population-year/
+    notes: ""
+
+  - id: 69
+    number: "1856"
+    name: maximum-subarray-min-product
+    difficulty: medium
+    solution: ./leetcode-playground/1856-maximum-subarray-min-product.js
+    test: ./leetcode-playground/tests/1856-maximum-subarray-min-product.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-subarray-min-product/
+    notes: ""
+
+  - id: 70
+    number: "1862"
+    name: sum-of-floored-pairs
+    difficulty: hard
+    solution: ./leetcode-playground/1862-sum-of-floored-pairs.js
+    test: ./leetcode-playground/tests/1862-sum-of-floored-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-floored-pairs/
+    notes: ""
+
+  - id: 71
+    number: "1871"
+    name: jump-game-vii
+    difficulty: medium
+    solution: ./leetcode-playground/1871-jump-game-vii.js
+    test: ./leetcode-playground/tests/1871-jump-game-vii.test.js
+    leetcode_url: https://leetcode.com/problems/jump-game-vii/
+    notes: ""
+
+  - id: 72
+    number: "1872"
+    name: stone-game-viii
+    difficulty: hard
+    solution: ./leetcode-playground/1872-stone-game-viii.js
+    test: ./leetcode-playground/tests/1872-stone-game-viii.test.js
+    leetcode_url: https://leetcode.com/problems/stone-game-viii/
+    notes: ""
+
+  - id: 73
+    number: "1878"
+    name: get-biggest-three-rhombus-sums-in-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/1878-get-biggest-three-rhombus-sums-in-a-grid.js
+    test: ./leetcode-playground/tests/1878-get-biggest-three-rhombus-sums-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/
+    notes: ""
+
+  - id: 74
+    number: "1889"
+    name: minimum-space-wasted-from-packaging
+    difficulty: hard
+    solution: ./leetcode-playground/1889-minimum-space-wasted-from-packaging.js
+    test: ./leetcode-playground/tests/1889-minimum-space-wasted-from-packaging.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-space-wasted-from-packaging/
+    notes: ""
+
+  - id: 75
+    number: "1893"
+    name: check-if-all-the-integers-in-a-range-are-covered
+    difficulty: easy
+    solution: ./leetcode-playground/1893-check-if-all-the-integers-in-a-range-are-covered.js
+    test: ./leetcode-playground/tests/1893-check-if-all-the-integers-in-a-range-are-covered.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/
+    notes: ""
+
+  - id: 76
+    number: "1894"
+    name: find-the-student-that-will-replace-the-chalk
+    difficulty: medium
+    solution: ./leetcode-playground/1894-find-the-student-that-will-replace-the-chalk.js
+    test: ./leetcode-playground/tests/1894-find-the-student-that-will-replace-the-chalk.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/
+    notes: ""
+
+  - id: 77
+    number: "1895"
+    name: largest-magic-square
+    difficulty: medium
+    solution: ./leetcode-playground/1895-largest-magic-square.js
+    test: ./leetcode-playground/tests/1895-largest-magic-square.test.js
+    leetcode_url: https://leetcode.com/problems/largest-magic-square/
+    notes: ""
+
+  - id: 78
+    number: "1906"
+    name: minimum-absolute-difference-queries
+    difficulty: medium
+    solution: ./leetcode-playground/1906-minimum-absolute-difference-queries.js
+    test: ./leetcode-playground/tests/1906-minimum-absolute-difference-queries.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-absolute-difference-queries/
+    notes: ""
+
+  - id: 79
+    number: "1915"
+    name: number-of-wonderful-substrings
+    difficulty: medium
+    solution: ./leetcode-playground/1915-number-of-wonderful-substrings.js
+    test: ./leetcode-playground/tests/1915-number-of-wonderful-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-wonderful-substrings/
+    notes: ""
+
+  - id: 80
+    number: "1930"
+    name: unique-length-3-palindromic-subsequences
+    difficulty: medium
+    solution: ./leetcode-playground/1930-unique-length-3-palindromic-subsequences.js
+    test: ./leetcode-playground/tests/1930-unique-length-3-palindromic-subsequences.test.js
+    leetcode_url: https://leetcode.com/problems/unique-length-3-palindromic-subsequences/
+    notes: ""
+
+  - id: 81
+    number: "1943"
+    name: describe-the-painting
+    difficulty: medium
+    solution: ./leetcode-playground/1943-describe-the-painting.js
+    test: ./leetcode-playground/tests/1943-describe-the-painting.test.js
+    leetcode_url: https://leetcode.com/problems/describe-the-painting/
+    notes: ""
+
+  - id: 82
+    number: "1959"
+    name: minimum-total-space-wasted-with-k-resizing-operations
+    difficulty: medium
+    solution: ./leetcode-playground/1959-minimum-total-space-wasted-with-k-resizing-operations.js
+    test: ./leetcode-playground/tests/1959-minimum-total-space-wasted-with-k-resizing-operations.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations/
+    notes: ""
+
+  - id: 83
+    number: "1991"
+    name: find-the-middle-index-in-array
+    difficulty: easy
+    solution: ./leetcode-playground/1991-find-the-middle-index-in-array.js
+    test: ./leetcode-playground/tests/1991-find-the-middle-index-in-array.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-middle-index-in-array/
+    notes: ""
+
+  - id: 84
+    number: "2017"
+    name: grid-game
+    difficulty: medium
+    solution: ./leetcode-playground/2017-grid-game.js
+    test: ./leetcode-playground/tests/2017-grid-game.test.js
+    leetcode_url: https://leetcode.com/problems/grid-game/
+    notes: ""
+
+  - id: 85
+    number: "2024"
+    name: maximize-the-confusion-of-an-exam
+    difficulty: medium
+    solution: ./leetcode-playground/2024-maximize-the-confusion-of-an-exam.js
+    test: ./leetcode-playground/tests/2024-maximize-the-confusion-of-an-exam.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-the-confusion-of-an-exam/
+    notes: ""
+
+  - id: 86
+    number: "2025"
+    name: maximum-number-of-ways-to-partition-an-array
+    difficulty: hard
+    solution: ./leetcode-playground/2025-maximum-number-of-ways-to-partition-an-array.js
+    test: ./leetcode-playground/tests/2025-maximum-number-of-ways-to-partition-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/
+    notes: ""
+
+  - id: 87
+    number: "2055"
+    name: plates-between-candles
+    difficulty: medium
+    solution: ./leetcode-playground/2055-plates-between-candles.js
+    test: ./leetcode-playground/tests/2055-plates-between-candles.test.js
+    leetcode_url: https://leetcode.com/problems/plates-between-candles/
+    notes: ""
+
+  - id: 88
+    number: "2100"
+    name: find-good-days-to-rob-the-bank
+    difficulty: medium
+    solution: ./leetcode-playground/2100-find-good-days-to-rob-the-bank.js
+    test: ./leetcode-playground/tests/2100-find-good-days-to-rob-the-bank.test.js
+    leetcode_url: https://leetcode.com/problems/find-good-days-to-rob-the-bank/
+    notes: ""
+
+  - id: 89
+    number: "2106"
+    name: maximum-fruits-harvested-after-at-most-k-steps
+    difficulty: hard
+    solution: ./leetcode-playground/2106-maximum-fruits-harvested-after-at-most-k-steps.js
+    test: ./leetcode-playground/tests/2106-maximum-fruits-harvested-after-at-most-k-steps.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/
+    notes: ""
+
+  - id: 90
+    number: "2121"
+    name: intervals-between-identical-elements
+    difficulty: medium
+    solution: ./leetcode-playground/2121-intervals-between-identical-elements.js
+    test: ./leetcode-playground/tests/2121-intervals-between-identical-elements.test.js
+    leetcode_url: https://leetcode.com/problems/intervals-between-identical-elements/
+    notes: ""
+
+  - id: 91
+    number: "2132"
+    name: stamping-the-grid
+    difficulty: hard
+    solution: ./leetcode-playground/2132-stamping-the-grid.js
+    test: ./leetcode-playground/tests/2132-stamping-the-grid.test.js
+    leetcode_url: https://leetcode.com/problems/stamping-the-grid/
+    notes: ""
+
+  - id: 92
+    number: "2145"
+    name: count-the-hidden-sequences
+    difficulty: medium
+    solution: ./leetcode-playground/2145-count-the-hidden-sequences.js
+    test: ./leetcode-playground/tests/2145-count-the-hidden-sequences.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-hidden-sequences/
+    notes: ""
+
+  - id: 93
+    number: "2171"
+    name: removing-minimum-number-of-magic-beans
+    difficulty: medium
+    solution: ./leetcode-playground/2171-removing-minimum-number-of-magic-beans.js
+    test: ./leetcode-playground/tests/2171-removing-minimum-number-of-magic-beans.test.js
+    leetcode_url: https://leetcode.com/problems/removing-minimum-number-of-magic-beans/
+    notes: ""
+
+  - id: 94
+    number: "2207"
+    name: maximize-number-of-subsequences-in-a-string
+    difficulty: medium
+    solution: ./leetcode-playground/2207-maximize-number-of-subsequences-in-a-string.js
+    test: ./leetcode-playground/tests/2207-maximize-number-of-subsequences-in-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/
+    notes: ""
+
+  - id: 95
+    number: "2209"
+    name: minimum-white-tiles-after-covering-with-carpets
+    difficulty: hard
+    solution: ./leetcode-playground/2209-minimum-white-tiles-after-covering-with-carpets.js
+    test: ./leetcode-playground/tests/2209-minimum-white-tiles-after-covering-with-carpets.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets/
+    notes: ""
+
+  - id: 96
+    number: "2218"
+    name: maximum-value-of-k-coins-from-piles
+    difficulty: hard
+    solution: ./leetcode-playground/2218-maximum-value-of-k-coins-from-piles.js
+    test: ./leetcode-playground/tests/2218-maximum-value-of-k-coins-from-piles.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/
+    notes: ""
+
+  - id: 97
+    number: "2222"
+    name: number-of-ways-to-select-buildings
+    difficulty: medium
+    solution: ./leetcode-playground/2222-number-of-ways-to-select-buildings.js
+    test: ./leetcode-playground/tests/2222-number-of-ways-to-select-buildings.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-to-select-buildings/
+    notes: ""
+
+  - id: 98
+    number: "2234"
+    name: maximum-total-beauty-of-the-gardens
+    difficulty: hard
+    solution: ./leetcode-playground/2234-maximum-total-beauty-of-the-gardens.js
+    test: ./leetcode-playground/tests/2234-maximum-total-beauty-of-the-gardens.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/
+    notes: ""
+
+  - id: 99
+    number: "2245"
+    name: maximum-trailing-zeros-in-a-cornered-path
+    difficulty: medium
+    solution: ./leetcode-playground/2245-maximum-trailing-zeros-in-a-cornered-path.js
+    test: ./leetcode-playground/tests/2245-maximum-trailing-zeros-in-a-cornered-path.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path/
+    notes: ""
+
+  - id: 100
+    number: "2251"
+    name: number-of-flowers-in-full-bloom
+    difficulty: hard
+    solution: ./leetcode-playground/2251-number-of-flowers-in-full-bloom.js
+    test: ./leetcode-playground/tests/2251-number-of-flowers-in-full-bloom.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-flowers-in-full-bloom/
+    notes: ""
+
+  - id: 101
+    number: "2256"
+    name: minimum-average-difference
+    difficulty: medium
+    solution: ./leetcode-playground/2256-minimum-average-difference.js
+    test: ./leetcode-playground/tests/2256-minimum-average-difference.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-average-difference/
+    notes: ""
+
+  - id: 102
+    number: "2270"
+    name: number-of-ways-to-split-array
+    difficulty: medium
+    solution: ./leetcode-playground/2270-number-of-ways-to-split-array.js
+    test: ./leetcode-playground/tests/2270-number-of-ways-to-split-array.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-to-split-array/
+    notes: ""
+
+  - id: 103
+    number: "2271"
+    name: maximum-white-tiles-covered-by-a-carpet
+    difficulty: medium
+    solution: ./leetcode-playground/2271-maximum-white-tiles-covered-by-a-carpet.js
+    test: ./leetcode-playground/tests/2271-maximum-white-tiles-covered-by-a-carpet.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/
+    notes: ""
+
+  - id: 104
+    number: "2281"
+    name: sum-of-total-strength-of-wizards
+    difficulty: hard
+    solution: ./leetcode-playground/2281-sum-of-total-strength-of-wizards.js
+    test: ./leetcode-playground/tests/2281-sum-of-total-strength-of-wizards.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-total-strength-of-wizards/
+    notes: ""
+
+  - id: 105
+    number: "2302"
+    name: count-subarrays-with-score-less-than-k
+    difficulty: hard
+    solution: ./leetcode-playground/2302-count-subarrays-with-score-less-than-k.js
+    test: ./leetcode-playground/tests/2302-count-subarrays-with-score-less-than-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-subarrays-with-score-less-than-k/
+    notes: ""
+
+  - id: 106
+    number: "2381"
+    name: shifting-letters-ii
+    difficulty: medium
+    solution: ./leetcode-playground/2381-shifting-letters-ii.js
+    test: ./leetcode-playground/tests/2381-shifting-letters-ii.test.js
+    leetcode_url: https://leetcode.com/problems/shifting-letters-ii/
+    notes: ""
+
+  - id: 107
+    number: "2382"
+    name: maximum-segment-sum-after-removals
+    difficulty: hard
+    solution: ./leetcode-playground/2382-maximum-segment-sum-after-removals.js
+    test: ./leetcode-playground/tests/2382-maximum-segment-sum-after-removals.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-segment-sum-after-removals/
+    notes: ""
+
+  - id: 108
+    number: "2389"
+    name: longest-subsequence-with-limited-sum
+    difficulty: easy
+    solution: ./leetcode-playground/2389-longest-subsequence-with-limited-sum.js
+    test: ./leetcode-playground/tests/2389-longest-subsequence-with-limited-sum.test.js
+    leetcode_url: https://leetcode.com/problems/longest-subsequence-with-limited-sum/
+    notes: ""
+
+  - id: 109
+    number: "2391"
+    name: minimum-amount-of-time-to-collect-garbage
+    difficulty: medium
+    solution: ./leetcode-playground/2391-minimum-amount-of-time-to-collect-garbage.js
+    test: ./leetcode-playground/tests/2391-minimum-amount-of-time-to-collect-garbage.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/
+    notes: ""
+
+  - id: 110
+    number: "2398"
+    name: maximum-number-of-robots-within-budget
+    difficulty: hard
+    solution: ./leetcode-playground/2398-maximum-number-of-robots-within-budget.js
+    test: ./leetcode-playground/tests/2398-maximum-number-of-robots-within-budget.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-robots-within-budget/
+    notes: ""
+
+  - id: 111
+    number: "2406"
+    name: divide-intervals-into-minimum-number-of-groups
+    difficulty: medium
+    solution: ./leetcode-playground/2406-divide-intervals-into-minimum-number-of-groups.js
+    test: ./leetcode-playground/tests/2406-divide-intervals-into-minimum-number-of-groups.test.js
+    leetcode_url: https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/
+    notes: ""
+
+  - id: 112
+    number: "2420"
+    name: find-all-good-indices
+    difficulty: medium
+    solution: ./leetcode-playground/2420-find-all-good-indices.js
+    test: ./leetcode-playground/tests/2420-find-all-good-indices.test.js
+    leetcode_url: https://leetcode.com/problems/find-all-good-indices/
+    notes: ""
+
+  - id: 113
+    number: "2428"
+    name: maximum-sum-of-an-hourglass
+    difficulty: medium
+    solution: ./leetcode-playground/2428-maximum-sum-of-an-hourglass.js
+    test: ./leetcode-playground/tests/2428-maximum-sum-of-an-hourglass.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-of-an-hourglass/
+    notes: ""
+
+  - id: 114
+    number: "2438"
+    name: range-product-queries-of-powers
+    difficulty: medium
+    solution: ./leetcode-playground/2438-range-product-queries-of-powers.js
+    test: ./leetcode-playground/tests/2438-range-product-queries-of-powers.test.js
+    leetcode_url: https://leetcode.com/problems/range-product-queries-of-powers/
+    notes: ""
+
+  - id: 115
+    number: "2439"
+    name: minimize-maximum-of-array
+    difficulty: medium
+    solution: ./leetcode-playground/2439-minimize-maximum-of-array.js
+    test: ./leetcode-playground/tests/2439-minimize-maximum-of-array.test.js
+    leetcode_url: https://leetcode.com/problems/minimize-maximum-of-array/
+    notes: ""
+
+  - id: 116
+    number: "2448"
+    name: minimum-cost-to-make-array-equal
+    difficulty: hard
+    solution: ./leetcode-playground/2448-minimum-cost-to-make-array-equal.js
+    test: ./leetcode-playground/tests/2448-minimum-cost-to-make-array-equal.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-make-array-equal/
+    notes: ""
+
+  - id: 117
+    number: "2478"
+    name: number-of-beautiful-partitions
+    difficulty: hard
+    solution: ./leetcode-playground/2478-number-of-beautiful-partitions.js
+    test: ./leetcode-playground/tests/2478-number-of-beautiful-partitions.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-beautiful-partitions/
+    notes: ""
+
+  - id: 118
+    number: "2483"
+    name: minimum-penalty-for-a-shop
+    difficulty: medium
+    solution: ./leetcode-playground/2483-minimum-penalty-for-a-shop.js
+    test: ./leetcode-playground/tests/2483-minimum-penalty-for-a-shop.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-penalty-for-a-shop/
+    notes: ""
+
+  - id: 119
+    number: "2485"
+    name: find-the-pivot-integer
+    difficulty: easy
+    solution: ./leetcode-playground/2485-find-the-pivot-integer.js
+    test: ./leetcode-playground/tests/2485-find-the-pivot-integer.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-pivot-integer/
+    notes: ""
+
+  - id: 120
+    number: "2488"
+    name: count-subarrays-with-median-k
+    difficulty: hard
+    solution: ./leetcode-playground/2488-count-subarrays-with-median-k.js
+    test: ./leetcode-playground/tests/2488-count-subarrays-with-median-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-subarrays-with-median-k/
+    notes: ""
+
+  - id: 121
+    number: "2528"
+    name: maximize-the-minimum-powered-city
+    difficulty: hard
+    solution: ./leetcode-playground/2528-maximize-the-minimum-powered-city.js
+    test: ./leetcode-playground/tests/2528-maximize-the-minimum-powered-city.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-the-minimum-powered-city/
+    notes: ""
+
+  - id: 122
+    number: "2536"
+    name: increment-submatrices-by-one
+    difficulty: medium
+    solution: ./leetcode-playground/2536-increment-submatrices-by-one.js
+    test: ./leetcode-playground/tests/2536-increment-submatrices-by-one.test.js
+    leetcode_url: https://leetcode.com/problems/increment-submatrices-by-one/
+    notes: ""
+
+  - id: 123
+    number: "2552"
+    name: count-increasing-quadruplets
+    difficulty: hard
+    solution: ./leetcode-playground/2552-count-increasing-quadruplets.js
+    test: ./leetcode-playground/tests/2552-count-increasing-quadruplets.test.js
+    leetcode_url: https://leetcode.com/problems/count-increasing-quadruplets/
+    notes: ""
+
+  - id: 124
+    number: "2559"
+    name: count-vowel-strings-in-ranges
+    difficulty: medium
+    solution: ./leetcode-playground/2559-count-vowel-strings-in-ranges.js
+    test: ./leetcode-playground/tests/2559-count-vowel-strings-in-ranges.test.js
+    leetcode_url: https://leetcode.com/problems/count-vowel-strings-in-ranges/
+    notes: ""
+
+  - id: 125
+    number: "2574"
+    name: left-and-right-sum-differences
+    difficulty: easy
+    solution: ./leetcode-playground/2574-left-and-right-sum-differences.js
+    test: ./leetcode-playground/tests/2574-left-and-right-sum-differences.test.js
+    leetcode_url: https://leetcode.com/problems/left-and-right-sum-differences/
+    notes: ""
+
+  - id: 126
+    number: "2587"
+    name: rearrange-array-to-maximize-prefix-score
+    difficulty: medium
+    solution: ./leetcode-playground/2587-rearrange-array-to-maximize-prefix-score.js
+    test: ./leetcode-playground/tests/2587-rearrange-array-to-maximize-prefix-score.test.js
+    leetcode_url: https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/
+    notes: ""
+
+  - id: 127
+    number: "2588"
+    name: count-the-number-of-beautiful-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/2588-count-the-number-of-beautiful-subarrays.js
+    test: ./leetcode-playground/tests/2588-count-the-number-of-beautiful-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/
+    notes: ""
+
+  - id: 128
+    number: "2602"
+    name: minimum-operations-to-make-all-array-elements-equal
+    difficulty: medium
+    solution: ./leetcode-playground/2602-minimum-operations-to-make-all-array-elements-equal.js
+    test: ./leetcode-playground/tests/2602-minimum-operations-to-make-all-array-elements-equal.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/
+    notes: ""
+
+  - id: 129
+    number: "2615"
+    name: sum-of-distances
+    difficulty: medium
+    solution: ./leetcode-playground/2615-sum-of-distances.js
+    test: ./leetcode-playground/tests/2615-sum-of-distances.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-distances/
+    notes: ""
+
+  - id: 130
+    number: "2640"
+    name: find-the-score-of-all-prefixes-of-an-array
+    difficulty: medium
+    solution: ./leetcode-playground/2640-find-the-score-of-all-prefixes-of-an-array.js
+    test: ./leetcode-playground/tests/2640-find-the-score-of-all-prefixes-of-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/
+    notes: ""
+
+  - id: 131
+    number: "2680"
+    name: maximum-or
+    difficulty: medium
+    solution: ./leetcode-playground/2680-maximum-or.js
+    test: ./leetcode-playground/tests/2680-maximum-or.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-or/
+    notes: ""
+
+  - id: 132
+    number: "2681"
+    name: power-of-heroes
+    difficulty: hard
+    solution: ./leetcode-playground/2681-power-of-heroes.js
+    test: ./leetcode-playground/tests/2681-power-of-heroes.test.js
+    leetcode_url: https://leetcode.com/problems/power-of-heroes/
+    notes: ""
+
+  - id: 133
+    number: "2731"
+    name: movement-of-robots
+    difficulty: medium
+    solution: ./leetcode-playground/2731-movement-of-robots.js
+    test: ./leetcode-playground/tests/2731-movement-of-robots.test.js
+    leetcode_url: https://leetcode.com/problems/movement-of-robots/
+    notes: ""
+
+  - id: 134
+    number: "2772"
+    name: apply-operations-to-make-all-array-elements-equal-to-zero
+    difficulty: medium
+    solution: ./leetcode-playground/2772-apply-operations-to-make-all-array-elements-equal-to-zero.js
+    test: ./leetcode-playground/tests/2772-apply-operations-to-make-all-array-elements-equal-to-zero.test.js
+    leetcode_url: https://leetcode.com/problems/apply-operations-to-make-all-array-elements-equal-to-zero/
+    notes: ""
+
+  - id: 135
+    number: "2845"
+    name: count-of-interesting-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/2845-count-of-interesting-subarrays.js
+    test: ./leetcode-playground/tests/2845-count-of-interesting-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/count-of-interesting-subarrays/
+    notes: ""
+
+  - id: 136
+    number: "2848"
+    name: points-that-intersect-with-cars
+    difficulty: easy
+    solution: ./leetcode-playground/2848-points-that-intersect-with-cars.js
+    test: ./leetcode-playground/tests/2848-points-that-intersect-with-cars.test.js
+    leetcode_url: https://leetcode.com/problems/points-that-intersect-with-cars/
+    notes: ""
+
+  - id: 137
+    number: "2875"
+    name: minimum-size-subarray-in-infinite-array
+    difficulty: medium
+    solution: ./leetcode-playground/2875-minimum-size-subarray-in-infinite-array.js
+    test: ./leetcode-playground/tests/2875-minimum-size-subarray-in-infinite-array.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/
+    notes: ""
+
+  - id: 138
+    number: "2906"
+    name: construct-product-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/2906-construct-product-matrix.js
+    test: ./leetcode-playground/tests/2906-construct-product-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/construct-product-matrix/
+    notes: ""
+
+  - id: 139
+    number: "2947"
+    name: count-beautiful-substrings-i
+    difficulty: medium
+    solution: ./leetcode-playground/2947-count-beautiful-substrings-i.js
+    test: ./leetcode-playground/tests/2947-count-beautiful-substrings-i.test.js
+    leetcode_url: https://leetcode.com/problems/count-beautiful-substrings-i/
+    notes: ""
+
+  - id: 140
+    number: "2949"
+    name: count-beautiful-substrings-ii
+    difficulty: hard
+    solution: ./leetcode-playground/2949-count-beautiful-substrings-ii.js
+    test: ./leetcode-playground/tests/2949-count-beautiful-substrings-ii.test.js
+    leetcode_url: https://leetcode.com/problems/count-beautiful-substrings-ii/
+    notes: ""
+
+  - id: 141
+    number: "2968"
+    name: apply-operations-to-maximize-frequency-score
+    difficulty: hard
+    solution: ./leetcode-playground/2968-apply-operations-to-maximize-frequency-score.js
+    test: ./leetcode-playground/tests/2968-apply-operations-to-maximize-frequency-score.test.js
+    leetcode_url: https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/
+    notes: ""
+
+  - id: 142
+    number: "2971"
+    name: find-polygon-with-the-largest-perimeter
+    difficulty: medium
+    solution: ./leetcode-playground/2971-find-polygon-with-the-largest-perimeter.js
+    test: ./leetcode-playground/tests/2971-find-polygon-with-the-largest-perimeter.test.js
+    leetcode_url: https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/
+    notes: ""
+
+  - id: 143
+    number: "2983"
+    name: palindrome-rearrangement-queries
+    difficulty: hard
+    solution: ./leetcode-playground/2983-palindrome-rearrangement-queries.js
+    test: ./leetcode-playground/tests/2983-palindrome-rearrangement-queries.test.js
+    leetcode_url: https://leetcode.com/problems/palindrome-rearrangement-queries/
+    notes: ""
+
+  - id: 144
+    number: "3015"
+    name: count-the-number-of-houses-at-a-certain-distance-i
+    difficulty: medium
+    solution: ./leetcode-playground/3015-count-the-number-of-houses-at-a-certain-distance-i.js
+    test: ./leetcode-playground/tests/3015-count-the-number-of-houses-at-a-certain-distance-i.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/
+    notes: ""
+
+  - id: 145
+    number: "3017"
+    name: count-the-number-of-houses-at-a-certain-distance-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3017-count-the-number-of-houses-at-a-certain-distance-ii.js
+    test: ./leetcode-playground/tests/3017-count-the-number-of-houses-at-a-certain-distance-ii.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-ii/
+    notes: ""
+
+  - id: 146
+    number: "3026"
+    name: maximum-good-subarray-sum
+    difficulty: medium
+    solution: ./leetcode-playground/3026-maximum-good-subarray-sum.js
+    test: ./leetcode-playground/tests/3026-maximum-good-subarray-sum.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-good-subarray-sum/
+    notes: ""
+
+  - id: 147
+    number: "3028"
+    name: ant-on-the-boundary
+    difficulty: easy
+    solution: ./leetcode-playground/3028-ant-on-the-boundary.js
+    test: ./leetcode-playground/tests/3028-ant-on-the-boundary.test.js
+    leetcode_url: https://leetcode.com/problems/ant-on-the-boundary/
+    notes: ""
+
+  - id: 148
+    number: "3070"
+    name: count-submatrices-with-top-left-element-and-sum-less-than-k
+    difficulty: medium
+    solution: ./leetcode-playground/3070-count-submatrices-with-top-left-element-and-sum-less-than-k.js
+    test: ./leetcode-playground/tests/3070-count-submatrices-with-top-left-element-and-sum-less-than-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/
+    notes: ""
+
+  - id: 149
+    number: "3077"
+    name: maximum-strength-of-k-disjoint-subarrays
+    difficulty: hard
+    solution: ./leetcode-playground/3077-maximum-strength-of-k-disjoint-subarrays.js
+    test: ./leetcode-playground/tests/3077-maximum-strength-of-k-disjoint-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/
+    notes: ""
+
+  - id: 150
+    number: "3086"
+    name: minimum-moves-to-pick-k-ones
+    difficulty: hard
+    solution: ./leetcode-playground/3086-minimum-moves-to-pick-k-ones.js
+    test: ./leetcode-playground/tests/3086-minimum-moves-to-pick-k-ones.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-moves-to-pick-k-ones/
+    notes: ""
+
+  - id: 151
+    number: "3096"
+    name: minimum-levels-to-gain-more-points
+    difficulty: medium
+    solution: ./leetcode-playground/3096-minimum-levels-to-gain-more-points.js
+    test: ./leetcode-playground/tests/3096-minimum-levels-to-gain-more-points.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-levels-to-gain-more-points/
+    notes: ""
+
+  - id: 152
+    number: "3129"
+    name: find-all-possible-stable-binary-arrays-i
+    difficulty: medium
+    solution: ./leetcode-playground/3129-find-all-possible-stable-binary-arrays-i.js
+    test: ./leetcode-playground/tests/3129-find-all-possible-stable-binary-arrays-i.test.js
+    leetcode_url: https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/
+    notes: ""
+
+  - id: 153
+    number: "3130"
+    name: find-all-possible-stable-binary-arrays-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3130-find-all-possible-stable-binary-arrays-ii.js
+    test: ./leetcode-playground/tests/3130-find-all-possible-stable-binary-arrays-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/
+    notes: ""
+
+  - id: 154
+    number: "3147"
+    name: taking-maximum-energy-from-the-mystic-dungeon
+    difficulty: medium
+    solution: ./leetcode-playground/3147-taking-maximum-energy-from-the-mystic-dungeon.js
+    test: ./leetcode-playground/tests/3147-taking-maximum-energy-from-the-mystic-dungeon.test.js
+    leetcode_url: https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/
+    notes: ""
+
+  - id: 155
+    number: "3152"
+    name: special-array-ii
+    difficulty: medium
+    solution: ./leetcode-playground/3152-special-array-ii.js
+    test: ./leetcode-playground/tests/3152-special-array-ii.test.js
+    leetcode_url: https://leetcode.com/problems/special-array-ii/
+    notes: ""
+
+  - id: 156
+    number: "3179"
+    name: find-the-n-th-value-after-k-seconds
+    difficulty: medium
+    solution: ./leetcode-playground/3179-find-the-n-th-value-after-k-seconds.js
+    test: ./leetcode-playground/tests/3179-find-the-n-th-value-after-k-seconds.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/
+    notes: ""
+
+  - id: 157
+    number: "3191"
+    name: minimum-operations-to-make-binary-array-elements-equal-to-one-i
+    difficulty: medium
+    solution: ./leetcode-playground/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i.js
+    test: ./leetcode-playground/tests/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/
+    notes: ""
+
+  - id: 158
+    number: "3212"
+    name: count-submatrices-with-equal-frequency-of-x-and-y
+    difficulty: medium
+    solution: ./leetcode-playground/3212-count-submatrices-with-equal-frequency-of-x-and-y.js
+    test: ./leetcode-playground/tests/3212-count-submatrices-with-equal-frequency-of-x-and-y.test.js
+    leetcode_url: https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/
+    notes: ""
+
+  - id: 159
+    number: "3224"
+    name: minimum-array-changes-to-make-differences-equal
+    difficulty: medium
+    solution: ./leetcode-playground/3224-minimum-array-changes-to-make-differences-equal.js
+    test: ./leetcode-playground/tests/3224-minimum-array-changes-to-make-differences-equal.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/
+    notes: ""
+
+  - id: 160
+    number: "3225"
+    name: maximum-score-from-grid-operations
+    difficulty: hard
+    solution: ./leetcode-playground/3225-maximum-score-from-grid-operations.js
+    test: ./leetcode-playground/tests/3225-maximum-score-from-grid-operations.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-score-from-grid-operations/
+    notes: ""
+
+  - id: 161
+    number: "3250"
+    name: find-the-count-of-monotonic-pairs-i
+    difficulty: hard
+    solution: ./leetcode-playground/3250-find-the-count-of-monotonic-pairs-i.js
+    test: ./leetcode-playground/tests/3250-find-the-count-of-monotonic-pairs-i.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i/
+    notes: ""
+
+  - id: 162
+    number: "3251"
+    name: find-the-count-of-monotonic-pairs-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3251-find-the-count-of-monotonic-pairs-ii.js
+    test: ./leetcode-playground/tests/3251-find-the-count-of-monotonic-pairs-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii/
+    notes: ""
+
+  - id: 163
+    number: "3261"
+    name: count-substrings-that-satisfy-k-constraint-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3261-count-substrings-that-satisfy-k-constraint-ii.js
+    test: ./leetcode-playground/tests/3261-count-substrings-that-satisfy-k-constraint-ii.test.js
+    leetcode_url: https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/
+    notes: ""
+
+  - id: 164
+    number: "3312"
+    name: sorted-gcd-pair-queries
+    difficulty: hard
+    solution: ./leetcode-playground/3312-sorted-gcd-pair-queries.js
+    test: ./leetcode-playground/tests/3312-sorted-gcd-pair-queries.test.js
+    leetcode_url: https://leetcode.com/problems/sorted-gcd-pair-queries/
+    notes: ""
+
+  - id: 165
+    number: "3333"
+    name: find-the-original-typed-string-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3333-find-the-original-typed-string-ii.js
+    test: ./leetcode-playground/tests/3333-find-the-original-typed-string-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-original-typed-string-ii/
+    notes: ""
+
+  - id: 166
+    number: "3346"
+    name: maximum-frequency-of-an-element-after-performing-operations-i
+    difficulty: medium
+    solution: ./leetcode-playground/3346-maximum-frequency-of-an-element-after-performing-operations-i.js
+    test: ./leetcode-playground/tests/3346-maximum-frequency-of-an-element-after-performing-operations-i.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/
+    notes: ""
+
+  - id: 167
+    number: "3347"
+    name: maximum-frequency-of-an-element-after-performing-operations-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3347-maximum-frequency-of-an-element-after-performing-operations-ii.js
+    test: ./leetcode-playground/tests/3347-maximum-frequency-of-an-element-after-performing-operations-ii.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/
+    notes: ""
+
+  - id: 168
+    number: "3354"
+    name: make-array-elements-equal-to-zero
+    difficulty: easy
+    solution: ./leetcode-playground/3354-make-array-elements-equal-to-zero.js
+    test: ./leetcode-playground/tests/3354-make-array-elements-equal-to-zero.test.js
+    leetcode_url: https://leetcode.com/problems/make-array-elements-equal-to-zero/
+    notes: ""
+
+  - id: 169
+    number: "3355"
+    name: zero-array-transformation-i
+    difficulty: medium
+    solution: ./leetcode-playground/3355-zero-array-transformation-i.js
+    test: ./leetcode-playground/tests/3355-zero-array-transformation-i.test.js
+    leetcode_url: https://leetcode.com/problems/zero-array-transformation-i/
+    notes: ""
+
+  - id: 170
+    number: "3356"
+    name: zero-array-transformation-ii
+    difficulty: medium
+    solution: ./leetcode-playground/3356-zero-array-transformation-ii.js
+    test: ./leetcode-playground/tests/3356-zero-array-transformation-ii.test.js
+    leetcode_url: https://leetcode.com/problems/zero-array-transformation-ii/
+    notes: ""
+
+  - id: 171
+    number: "3361"
+    name: shift-distance-between-two-strings
+    difficulty: medium
+    solution: ./leetcode-playground/3361-shift-distance-between-two-strings.js
+    test: ./leetcode-playground/tests/3361-shift-distance-between-two-strings.test.js
+    leetcode_url: https://leetcode.com/problems/shift-distance-between-two-strings/
+    notes: ""
+
+  - id: 172
+    number: "3362"
+    name: zero-array-transformation-iii
+    difficulty: medium
+    solution: ./leetcode-playground/3362-zero-array-transformation-iii.js
+    test: ./leetcode-playground/tests/3362-zero-array-transformation-iii.test.js
+    leetcode_url: https://leetcode.com/problems/zero-array-transformation-iii/
+    notes: ""
+
+  - id: 173
+    number: "3364"
+    name: minimum-positive-sum-subarray
+    difficulty: easy
+    solution: ./leetcode-playground/3364-minimum-positive-sum-subarray.js
+    test: ./leetcode-playground/tests/3364-minimum-positive-sum-subarray.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-positive-sum-subarray/
+    notes: ""
+
+  - id: 174
+    number: "3381"
+    name: maximum-subarray-sum-with-length-divisible-by-k
+    difficulty: medium
+    solution: ./leetcode-playground/3381-maximum-subarray-sum-with-length-divisible-by-k.js
+    test: ./leetcode-playground/tests/3381-maximum-subarray-sum-with-length-divisible-by-k.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/
+    notes: ""
+
+  - id: 175
+    number: "3413"
+    name: maximum-coins-from-k-consecutive-bags
+    difficulty: medium
+    solution: ./leetcode-playground/3413-maximum-coins-from-k-consecutive-bags.js
+    test: ./leetcode-playground/tests/3413-maximum-coins-from-k-consecutive-bags.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags/
+    notes: ""
+
+  - id: 176
+    number: "3425"
+    name: longest-special-path
+    difficulty: hard
+    solution: ./leetcode-playground/3425-longest-special-path.js
+    test: ./leetcode-playground/tests/3425-longest-special-path.test.js
+    leetcode_url: https://leetcode.com/problems/longest-special-path/
+    notes: ""
+
+  - id: 177
+    number: "3427"
+    name: sum-of-variable-length-subarrays
+    difficulty: easy
+    solution: ./leetcode-playground/3427-sum-of-variable-length-subarrays.js
+    test: ./leetcode-playground/tests/3427-sum-of-variable-length-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-variable-length-subarrays/
+    notes: ""
+
+  - id: 178
+    number: "3432"
+    name: count-partitions-with-even-sum-difference
+    difficulty: easy
+    solution: ./leetcode-playground/3432-count-partitions-with-even-sum-difference.js
+    test: ./leetcode-playground/tests/3432-count-partitions-with-even-sum-difference.test.js
+    leetcode_url: https://leetcode.com/problems/count-partitions-with-even-sum-difference/
+    notes: ""
+
+  - id: 179
+    number: "3434"
+    name: maximum-frequency-after-subarray-operation
+    difficulty: medium
+    solution: ./leetcode-playground/3434-maximum-frequency-after-subarray-operation.js
+    test: ./leetcode-playground/tests/3434-maximum-frequency-after-subarray-operation.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-frequency-after-subarray-operation/
+    notes: ""
+
+  - id: 180
+    number: "3445"
+    name: maximum-difference-between-even-and-odd-frequency-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3445-maximum-difference-between-even-and-odd-frequency-ii.js
+    test: ./leetcode-playground/tests/3445-maximum-difference-between-even-and-odd-frequency-ii.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/
+    notes: ""
+
+  - id: 181
+    number: "3473"
+    name: sum-of-k-subarrays-with-length-at-least-m
+    difficulty: medium
+    solution: ./leetcode-playground/3473-sum-of-k-subarrays-with-length-at-least-m.js
+    test: ./leetcode-playground/tests/3473-sum-of-k-subarrays-with-length-at-least-m.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/
+    notes: ""
+
+  - id: 182
+    number: "3480"
+    name: maximize-subarrays-after-removing-one-conflicting-pair
+    difficulty: hard
+    solution: ./leetcode-playground/3480-maximize-subarrays-after-removing-one-conflicting-pair.js
+    test: ./leetcode-playground/tests/3480-maximize-subarrays-after-removing-one-conflicting-pair.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/
+    notes: ""
+
+  - id: 183
+    number: "3486"
+    name: longest-special-path-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3486-longest-special-path-ii.js
+    test: ./leetcode-playground/tests/3486-longest-special-path-ii.test.js
+    leetcode_url: https://leetcode.com/problems/longest-special-path-ii/
+    notes: ""
+
+  - id: 184
+    number: "3494"
+    name: find-the-minimum-amount-of-time-to-brew-potions
+    difficulty: medium
+    solution: ./leetcode-playground/3494-find-the-minimum-amount-of-time-to-brew-potions.js
+    test: ./leetcode-playground/tests/3494-find-the-minimum-amount-of-time-to-brew-potions.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/
+    notes: ""
+
+  - id: 185
+    number: "3500"
+    name: minimum-cost-to-divide-array-into-subarrays
+    difficulty: hard
+    solution: ./leetcode-playground/3500-minimum-cost-to-divide-array-into-subarrays.js
+    test: ./leetcode-playground/tests/3500-minimum-cost-to-divide-array-into-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-divide-array-into-subarrays/
+    notes: ""
+
+  - id: 186
+    number: "3538"
+    name: merge-operations-for-minimum-travel-time
+    difficulty: hard
+    solution: ./leetcode-playground/3538-merge-operations-for-minimum-travel-time.js
+    test: ./leetcode-playground/tests/3538-merge-operations-for-minimum-travel-time.test.js
+    leetcode_url: https://leetcode.com/problems/merge-operations-for-minimum-travel-time/
+    notes: ""
+
+  - id: 187
+    number: "3546"
+    name: equal-sum-grid-partition-i
+    difficulty: medium
+    solution: ./leetcode-playground/3546-equal-sum-grid-partition-i.js
+    test: ./leetcode-playground/tests/3546-equal-sum-grid-partition-i.test.js
+    leetcode_url: https://leetcode.com/problems/equal-sum-grid-partition-i/
+    notes: ""
+
+  - id: 188
+    number: "3548"
+    name: equal-sum-grid-partition-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3548-equal-sum-grid-partition-ii.js
+    test: ./leetcode-playground/tests/3548-equal-sum-grid-partition-ii.test.js
+    leetcode_url: https://leetcode.com/problems/equal-sum-grid-partition-ii/
+    notes: ""
+
+  - id: 189
+    number: "3578"
+    name: count-partitions-with-max-min-difference-at-most-k
+    difficulty: medium
+    solution: ./leetcode-playground/3578-count-partitions-with-max-min-difference-at-most-k.js
+    test: ./leetcode-playground/tests/3578-count-partitions-with-max-min-difference-at-most-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/
+    notes: ""
+
+  - id: 190
+    number: "3599"
+    name: partition-array-to-minimize-xor
+    difficulty: medium
+    solution: ./leetcode-playground/3599-partition-array-to-minimize-xor.js
+    test: ./leetcode-playground/tests/3599-partition-array-to-minimize-xor.test.js
+    leetcode_url: https://leetcode.com/problems/partition-array-to-minimize-xor/
+    notes: ""
+
+  - id: 191
+    number: "3628"
+    name: maximum-number-of-subsequences-after-one-inserting
+    difficulty: medium
+    solution: ./leetcode-playground/3628-maximum-number-of-subsequences-after-one-inserting.js
+    test: ./leetcode-playground/tests/3628-maximum-number-of-subsequences-after-one-inserting.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting/
+    notes: ""
+
+  - id: 192
+    number: "3636"
+    name: threshold-majority-queries
+    difficulty: hard
+    solution: ./leetcode-playground/3636-threshold-majority-queries.js
+    test: ./leetcode-playground/tests/3636-threshold-majority-queries.test.js
+    leetcode_url: https://leetcode.com/problems/threshold-majority-queries/
+    notes: ""
+
+  - id: 193
+    number: "3652"
+    name: best-time-to-buy-and-sell-stock-using-strategy
+    difficulty: medium
+    solution: ./leetcode-playground/3652-best-time-to-buy-and-sell-stock-using-strategy.js
+    test: ./leetcode-playground/tests/3652-best-time-to-buy-and-sell-stock-using-strategy.test.js
+    leetcode_url: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/
+    notes: ""
+
+  - id: 194
+    number: "3654"
+    name: minimum-sum-after-divisible-sum-deletions
+    difficulty: medium
+    solution: ./leetcode-playground/3654-minimum-sum-after-divisible-sum-deletions.js
+    test: ./leetcode-playground/tests/3654-minimum-sum-after-divisible-sum-deletions.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-sum-after-divisible-sum-deletions/
+    notes: ""
+
+  - id: 195
+    number: "3694"
+    name: distinct-points-reachable-after-substring-removal
+    difficulty: medium
+    solution: ./leetcode-playground/3694-distinct-points-reachable-after-substring-removal.js
+    test: ./leetcode-playground/tests/3694-distinct-points-reachable-after-substring-removal.test.js
+    leetcode_url: https://leetcode.com/problems/distinct-points-reachable-after-substring-removal/
+    notes: ""
+
+  - id: 196
+    number: "3698"
+    name: split-array-with-minimum-difference
+    difficulty: medium
+    solution: ./leetcode-playground/3698-split-array-with-minimum-difference.js
+    test: ./leetcode-playground/tests/3698-split-array-with-minimum-difference.test.js
+    leetcode_url: https://leetcode.com/problems/split-array-with-minimum-difference/
+    notes: ""
+
+  - id: 197
+    number: "3699"
+    name: number-of-zigzag-arrays-i
+    difficulty: hard
+    solution: ./leetcode-playground/3699-number-of-zigzag-arrays-i.js
+    test: ./leetcode-playground/tests/3699-number-of-zigzag-arrays-i.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-zigzag-arrays-i/
+    notes: ""
+
+  - id: 198
+    number: "3707"
+    name: equal-score-substrings
+    difficulty: easy
+    solution: ./leetcode-playground/3707-equal-score-substrings.js
+    test: ./leetcode-playground/tests/3707-equal-score-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/equal-score-substrings/
+    notes: ""
+
+  - id: 199
+    number: "3709"
+    name: design-exam-scores-tracker
+    difficulty: medium
+    solution: ./leetcode-playground/3709-design-exam-scores-tracker.js
+    test: ./leetcode-playground/tests/3709-design-exam-scores-tracker.test.js
+    leetcode_url: https://leetcode.com/problems/design-exam-scores-tracker/
+    notes: ""
+
+  - id: 200
+    number: "3714"
+    name: longest-balanced-substring-ii
+    difficulty: medium
+    solution: ./leetcode-playground/3714-longest-balanced-substring-ii.js
+    test: ./leetcode-playground/tests/3714-longest-balanced-substring-ii.test.js
+    leetcode_url: https://leetcode.com/problems/longest-balanced-substring-ii/
+    notes: ""
+
+  - id: 201
+    number: "3719"
+    name: longest-balanced-subarray-i
+    difficulty: medium
+    solution: ./leetcode-playground/3719-longest-balanced-subarray-i.js
+    test: ./leetcode-playground/tests/3719-longest-balanced-subarray-i.test.js
+    leetcode_url: https://leetcode.com/problems/longest-balanced-subarray-i/
+    notes: ""
+
+  - id: 202
+    number: "3721"
+    name: longest-balanced-subarray-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3721-longest-balanced-subarray-ii.js
+    test: ./leetcode-playground/tests/3721-longest-balanced-subarray-ii.test.js
+    leetcode_url: https://leetcode.com/problems/longest-balanced-subarray-ii/
+    notes: ""
+
+  - id: 203
+    number: "3728"
+    name: stable-subarrays-with-equal-boundary-and-interior-sum
+    difficulty: medium
+    solution: ./leetcode-playground/3728-stable-subarrays-with-equal-boundary-and-interior-sum.js
+    test: ./leetcode-playground/tests/3728-stable-subarrays-with-equal-boundary-and-interior-sum.test.js
+    leetcode_url: https://leetcode.com/problems/stable-subarrays-with-equal-boundary-and-interior-sum/
+    notes: ""
+
+  - id: 204
+    number: "3729"
+    name: count-distinct-subarrays-divisible-by-k-in-sorted-array
+    difficulty: hard
+    solution: ./leetcode-playground/3729-count-distinct-subarrays-divisible-by-k-in-sorted-array.js
+    test: ./leetcode-playground/tests/3729-count-distinct-subarrays-divisible-by-k-in-sorted-array.test.js
+    leetcode_url: https://leetcode.com/problems/count-distinct-subarrays-divisible-by-k-in-sorted-array/
+    notes: ""
+
+  - id: 205
+    number: "3737"
+    name: count-subarrays-with-majority-element-i
+    difficulty: medium
+    solution: ./leetcode-playground/3737-count-subarrays-with-majority-element-i.js
+    test: ./leetcode-playground/tests/3737-count-subarrays-with-majority-element-i.test.js
+    leetcode_url: https://leetcode.com/problems/count-subarrays-with-majority-element-i/
+    notes: ""
+
+  - id: 206
+    number: "3739"
+    name: count-subarrays-with-majority-element-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3739-count-subarrays-with-majority-element-ii.js
+    test: ./leetcode-playground/tests/3739-count-subarrays-with-majority-element-ii.test.js
+    leetcode_url: https://leetcode.com/problems/count-subarrays-with-majority-element-ii/
+    notes: ""
+
+  - id: 207
+    number: "3748"
+    name: count-stable-subarrays
+    difficulty: hard
+    solution: ./leetcode-playground/3748-count-stable-subarrays.js
+    test: ./leetcode-playground/tests/3748-count-stable-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/count-stable-subarrays/
+    notes: ""
+
+  - id: 208
+    number: "3755"
+    name: find-maximum-balanced-xor-subarray-length
+    difficulty: medium
+    solution: ./leetcode-playground/3755-find-maximum-balanced-xor-subarray-length.js
+    test: ./leetcode-playground/tests/3755-find-maximum-balanced-xor-subarray-length.test.js
+    leetcode_url: https://leetcode.com/problems/find-maximum-balanced-xor-subarray-length/
+    notes: ""
+
+  - id: 209
+    number: "3756"
+    name: concatenate-non-zero-digits-and-multiply-by-sum-ii
+    difficulty: medium
+    solution: ./leetcode-playground/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii.js
+    test: ./leetcode-playground/tests/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii.test.js
+    leetcode_url: https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/
+    notes: ""
+
+  - id: 210
+    number: "3771"
+    name: total-score-of-dungeon-runs
+    difficulty: medium
+    solution: ./leetcode-playground/3771-total-score-of-dungeon-runs.js
+    test: ./leetcode-playground/tests/3771-total-score-of-dungeon-runs.test.js
+    leetcode_url: https://leetcode.com/problems/total-score-of-dungeon-runs/
+    notes: ""
+
+  - id: 211
+    number: "3788"
+    name: maximum-score-of-a-split
+    difficulty: medium
+    solution: ./leetcode-playground/3788-maximum-score-of-a-split.js
+    test: ./leetcode-playground/tests/3788-maximum-score-of-a-split.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-score-of-a-split/
+    notes: ""
+
+  - id: 212
+    number: "3797"
+    name: count-routes-to-climb-a-rectangular-grid
+    difficulty: hard
+    solution: ./leetcode-playground/3797-count-routes-to-climb-a-rectangular-grid.js
+    test: ./leetcode-playground/tests/3797-count-routes-to-climb-a-rectangular-grid.test.js
+    leetcode_url: https://leetcode.com/problems/count-routes-to-climb-a-rectangular-grid/
+    notes: ""
+
+  - id: 213
+    number: "3826"
+    name: minimum-partition-score
+    difficulty: hard
+    solution: ./leetcode-playground/3826-minimum-partition-score.js
+    test: ./leetcode-playground/tests/3826-minimum-partition-score.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-partition-score/
+    notes: ""
+
+  - id: 214
+    number: "3845"
+    name: maximum-subarray-xor-with-bounded-range
+    difficulty: hard
+    solution: ./leetcode-playground/3845-maximum-subarray-xor-with-bounded-range.js
+    test: ./leetcode-playground/tests/3845-maximum-subarray-xor-with-bounded-range.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-subarray-xor-with-bounded-range/
+    notes: ""
+
+  - id: 215
+    number: "3862"
+    name: find-the-smallest-balanced-index
+    difficulty: medium
+    solution: ./leetcode-playground/3862-find-the-smallest-balanced-index.js
+    test: ./leetcode-playground/tests/3862-find-the-smallest-balanced-index.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-smallest-balanced-index/
+    notes: ""
+
+  - id: 216
+    number: "3864"
+    name: minimum-cost-to-partition-a-binary-string
+    difficulty: hard
+    solution: ./leetcode-playground/3864-minimum-cost-to-partition-a-binary-string.js
+    test: ./leetcode-playground/tests/3864-minimum-cost-to-partition-a-binary-string.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/
+    notes: ""
+

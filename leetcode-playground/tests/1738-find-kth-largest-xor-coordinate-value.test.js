@@ -1,0 +1,15 @@
+import { findKthLargestXorCoordinateValue } from '../1738-find-kth-largest-xor-coordinate-value.js';
+
+describe('1738-find-kth-largest-xor-coordinate-value', () => {
+    it('should handle basic case', () => {
+        // expect(findKthLargestXorCoordinateValue(...)).toEqual(...);
+    });
+
+    it('should handle empty / minimum input', () => {
+        // expect(findKthLargestXorCoordinateValue(...)).toEqual(...);
+    });
+
+    it('should handle edge case', () => {
+        // expect(findKthLargestXorCoordinateValue(...)).toEqual(...);
+    });
+});

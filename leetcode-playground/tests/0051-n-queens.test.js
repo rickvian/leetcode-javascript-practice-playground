@@ -1,0 +1,15 @@
+import { nQueens } from '../0051-n-queens.js';
+
+describe('0051-n-queens', () => {
+    it('should handle basic case', () => {
+        // expect(nQueens(...)).toEqual(...);
+    });
+
+    it('should handle empty / minimum input', () => {
+        // expect(nQueens(...)).toEqual(...);
+    });
+
+    it('should handle edge case', () => {
+        // expect(nQueens(...)).toEqual(...);
+    });
+});

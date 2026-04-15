@@ -1,0 +1,94 @@
+# Topic: Doubly Linked List
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+doubly_linked_list:
+  - id: 1
+    number: "0146"
+    name: lru-cache
+    difficulty: medium
+    solution: ./leetcode-playground/0146-lru-cache.js
+    test: ./leetcode-playground/tests/0146-lru-cache.test.js
+    leetcode_url: https://leetcode.com/problems/lru-cache/
+    notes: ""
+
+  - id: 2
+    number: "0430"
+    name: flatten-a-multilevel-doubly-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/0430-flatten-a-multilevel-doubly-linked-list.js
+    test: ./leetcode-playground/tests/0430-flatten-a-multilevel-doubly-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
+    notes: ""
+
+  - id: 3
+    number: "0432"
+    name: all-oone-data-structure
+    difficulty: hard
+    solution: ./leetcode-playground/0432-all-oone-data-structure.js
+    test: ./leetcode-playground/tests/0432-all-oone-data-structure.test.js
+    leetcode_url: https://leetcode.com/problems/all-oone-data-structure/
+    notes: ""
+
+  - id: 4
+    number: "0460"
+    name: lfu-cache
+    difficulty: hard
+    solution: ./leetcode-playground/0460-lfu-cache.js
+    test: ./leetcode-playground/tests/0460-lfu-cache.test.js
+    leetcode_url: https://leetcode.com/problems/lfu-cache/
+    notes: ""
+
+  - id: 5
+    number: "1472"
+    name: design-browser-history
+    difficulty: medium
+    solution: ./leetcode-playground/1472-design-browser-history.js
+    test: ./leetcode-playground/tests/1472-design-browser-history.test.js
+    leetcode_url: https://leetcode.com/problems/design-browser-history/
+    notes: ""
+
+  - id: 6
+    number: "1670"
+    name: design-front-middle-back-queue
+    difficulty: medium
+    solution: ./leetcode-playground/1670-design-front-middle-back-queue.js
+    test: ./leetcode-playground/tests/1670-design-front-middle-back-queue.test.js
+    leetcode_url: https://leetcode.com/problems/design-front-middle-back-queue/
+    notes: ""
+
+  - id: 7
+    number: "1797"
+    name: design-authentication-manager
+    difficulty: medium
+    solution: ./leetcode-playground/1797-design-authentication-manager.js
+    test: ./leetcode-playground/tests/1797-design-authentication-manager.test.js
+    leetcode_url: https://leetcode.com/problems/design-authentication-manager/
+    notes: ""
+
+  - id: 8
+    number: "2296"
+    name: design-a-text-editor
+    difficulty: hard
+    solution: ./leetcode-playground/2296-design-a-text-editor.js
+    test: ./leetcode-playground/tests/2296-design-a-text-editor.test.js
+    leetcode_url: https://leetcode.com/problems/design-a-text-editor/
+    notes: ""
+
+  - id: 9
+    number: "3507"
+    name: minimum-pair-removal-to-sort-array-i
+    difficulty: easy
+    solution: ./leetcode-playground/3507-minimum-pair-removal-to-sort-array-i.js
+    test: ./leetcode-playground/tests/3507-minimum-pair-removal-to-sort-array-i.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/
+    notes: ""
+
+  - id: 10
+    number: "3510"
+    name: minimum-pair-removal-to-sort-array-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3510-minimum-pair-removal-to-sort-array-ii.js
+    test: ./leetcode-playground/tests/3510-minimum-pair-removal-to-sort-array-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/
+    notes: ""
+

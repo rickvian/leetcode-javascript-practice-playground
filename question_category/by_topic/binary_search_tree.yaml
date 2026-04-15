@@ -1,0 +1,274 @@
+# Topic: Binary Search Tree
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+binary_search_tree:
+  - id: 1
+    number: "0095"
+    name: unique-binary-search-trees-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0095-unique-binary-search-trees-ii.js
+    test: ./leetcode-playground/tests/0095-unique-binary-search-trees-ii.test.js
+    leetcode_url: https://leetcode.com/problems/unique-binary-search-trees-ii/
+    notes: ""
+
+  - id: 2
+    number: "0096"
+    name: unique-binary-search-trees
+    difficulty: medium
+    solution: ./leetcode-playground/0096-unique-binary-search-trees.js
+    test: ./leetcode-playground/tests/0096-unique-binary-search-trees.test.js
+    leetcode_url: https://leetcode.com/problems/unique-binary-search-trees/
+    notes: ""
+
+  - id: 3
+    number: "0098"
+    name: validate-binary-search-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0098-validate-binary-search-tree.js
+    test: ./leetcode-playground/tests/0098-validate-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/validate-binary-search-tree/
+    notes: ""
+
+  - id: 4
+    number: "0099"
+    name: recover-binary-search-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0099-recover-binary-search-tree.js
+    test: ./leetcode-playground/tests/0099-recover-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/recover-binary-search-tree/
+    notes: ""
+
+  - id: 5
+    number: "0108"
+    name: convert-sorted-array-to-binary-search-tree
+    difficulty: easy
+    solution: ./leetcode-playground/0108-convert-sorted-array-to-binary-search-tree.js
+    test: ./leetcode-playground/tests/0108-convert-sorted-array-to-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+    notes: ""
+
+  - id: 6
+    number: "0109"
+    name: convert-sorted-list-to-binary-search-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0109-convert-sorted-list-to-binary-search-tree.js
+    test: ./leetcode-playground/tests/0109-convert-sorted-list-to-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+    notes: ""
+
+  - id: 7
+    number: "0173"
+    name: binary-search-tree-iterator
+    difficulty: medium
+    solution: ./leetcode-playground/0173-binary-search-tree-iterator.js
+    test: ./leetcode-playground/tests/0173-binary-search-tree-iterator.test.js
+    leetcode_url: https://leetcode.com/problems/binary-search-tree-iterator/
+    notes: ""
+
+  - id: 8
+    number: "0230"
+    name: kth-smallest-element-in-a-bst
+    difficulty: medium
+    solution: ./leetcode-playground/0230-kth-smallest-element-in-a-bst.js
+    test: ./leetcode-playground/tests/0230-kth-smallest-element-in-a-bst.test.js
+    leetcode_url: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+    notes: ""
+
+  - id: 9
+    number: "0235"
+    name: lowest-common-ancestor-of-a-binary-search-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0235-lowest-common-ancestor-of-a-binary-search-tree.js
+    test: ./leetcode-playground/tests/0235-lowest-common-ancestor-of-a-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+    notes: ""
+
+  - id: 10
+    number: "0449"
+    name: serialize-and-deserialize-bst
+    difficulty: medium
+    solution: ./leetcode-playground/0449-serialize-and-deserialize-bst.js
+    test: ./leetcode-playground/tests/0449-serialize-and-deserialize-bst.test.js
+    leetcode_url: https://leetcode.com/problems/serialize-and-deserialize-bst/
+    notes: ""
+
+  - id: 11
+    number: "0450"
+    name: delete-node-in-a-bst
+    difficulty: medium
+    solution: ./leetcode-playground/0450-delete-node-in-a-bst.js
+    test: ./leetcode-playground/tests/0450-delete-node-in-a-bst.test.js
+    leetcode_url: https://leetcode.com/problems/delete-node-in-a-bst/
+    notes: ""
+
+  - id: 12
+    number: "0501"
+    name: find-mode-in-binary-search-tree
+    difficulty: easy
+    solution: ./leetcode-playground/0501-find-mode-in-binary-search-tree.js
+    test: ./leetcode-playground/tests/0501-find-mode-in-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/find-mode-in-binary-search-tree/
+    notes: ""
+
+  - id: 13
+    number: "0530"
+    name: minimum-absolute-difference-in-bst
+    difficulty: easy
+    solution: ./leetcode-playground/0530-minimum-absolute-difference-in-bst.js
+    test: ./leetcode-playground/tests/0530-minimum-absolute-difference-in-bst.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+    notes: ""
+
+  - id: 14
+    number: "0538"
+    name: convert-bst-to-greater-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0538-convert-bst-to-greater-tree.js
+    test: ./leetcode-playground/tests/0538-convert-bst-to-greater-tree.test.js
+    leetcode_url: https://leetcode.com/problems/convert-bst-to-greater-tree/
+    notes: ""
+
+  - id: 15
+    number: "0653"
+    name: two-sum-iv-input-is-a-bst
+    difficulty: easy
+    solution: ./leetcode-playground/0653-two-sum-iv-input-is-a-bst.js
+    test: ./leetcode-playground/tests/0653-two-sum-iv-input-is-a-bst.test.js
+    leetcode_url: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+    notes: ""
+
+  - id: 16
+    number: "0669"
+    name: trim-a-binary-search-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0669-trim-a-binary-search-tree.js
+    test: ./leetcode-playground/tests/0669-trim-a-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/trim-a-binary-search-tree/
+    notes: ""
+
+  - id: 17
+    number: "0700"
+    name: search-in-a-binary-search-tree
+    difficulty: easy
+    solution: ./leetcode-playground/0700-search-in-a-binary-search-tree.js
+    test: ./leetcode-playground/tests/0700-search-in-a-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/search-in-a-binary-search-tree/
+    notes: ""
+
+  - id: 18
+    number: "0701"
+    name: insert-into-a-binary-search-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0701-insert-into-a-binary-search-tree.js
+    test: ./leetcode-playground/tests/0701-insert-into-a-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/insert-into-a-binary-search-tree/
+    notes: ""
+
+  - id: 19
+    number: "0703"
+    name: kth-largest-element-in-a-stream
+    difficulty: easy
+    solution: ./leetcode-playground/0703-kth-largest-element-in-a-stream.js
+    test: ./leetcode-playground/tests/0703-kth-largest-element-in-a-stream.test.js
+    leetcode_url: https://leetcode.com/problems/kth-largest-element-in-a-stream/
+    notes: ""
+
+  - id: 20
+    number: "0783"
+    name: minimum-distance-between-bst-nodes
+    difficulty: easy
+    solution: ./leetcode-playground/0783-minimum-distance-between-bst-nodes.js
+    test: ./leetcode-playground/tests/0783-minimum-distance-between-bst-nodes.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-distance-between-bst-nodes/
+    notes: ""
+
+  - id: 21
+    number: "0897"
+    name: increasing-order-search-tree
+    difficulty: easy
+    solution: ./leetcode-playground/0897-increasing-order-search-tree.js
+    test: ./leetcode-playground/tests/0897-increasing-order-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/increasing-order-search-tree/
+    notes: ""
+
+  - id: 22
+    number: "0938"
+    name: range-sum-of-bst
+    difficulty: easy
+    solution: ./leetcode-playground/0938-range-sum-of-bst.js
+    test: ./leetcode-playground/tests/0938-range-sum-of-bst.test.js
+    leetcode_url: https://leetcode.com/problems/range-sum-of-bst/
+    notes: ""
+
+  - id: 23
+    number: "1008"
+    name: construct-binary-search-tree-from-preorder-traversal
+    difficulty: medium
+    solution: ./leetcode-playground/1008-construct-binary-search-tree-from-preorder-traversal.js
+    test: ./leetcode-playground/tests/1008-construct-binary-search-tree-from-preorder-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+    notes: ""
+
+  - id: 24
+    number: "1038"
+    name: binary-search-tree-to-greater-sum-tree
+    difficulty: medium
+    solution: ./leetcode-playground/1038-binary-search-tree-to-greater-sum-tree.js
+    test: ./leetcode-playground/tests/1038-binary-search-tree-to-greater-sum-tree.test.js
+    leetcode_url: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+    notes: ""
+
+  - id: 25
+    number: "1305"
+    name: all-elements-in-two-binary-search-trees
+    difficulty: medium
+    solution: ./leetcode-playground/1305-all-elements-in-two-binary-search-trees.js
+    test: ./leetcode-playground/tests/1305-all-elements-in-two-binary-search-trees.test.js
+    leetcode_url: https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
+    notes: ""
+
+  - id: 26
+    number: "1373"
+    name: maximum-sum-bst-in-binary-tree
+    difficulty: hard
+    solution: ./leetcode-playground/1373-maximum-sum-bst-in-binary-tree.js
+    test: ./leetcode-playground/tests/1373-maximum-sum-bst-in-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
+    notes: ""
+
+  - id: 27
+    number: "1382"
+    name: balance-a-binary-search-tree
+    difficulty: medium
+    solution: ./leetcode-playground/1382-balance-a-binary-search-tree.js
+    test: ./leetcode-playground/tests/1382-balance-a-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/balance-a-binary-search-tree/
+    notes: ""
+
+  - id: 28
+    number: "1569"
+    name: number-of-ways-to-reorder-array-to-get-same-bst
+    difficulty: hard
+    solution: ./leetcode-playground/1569-number-of-ways-to-reorder-array-to-get-same-bst.js
+    test: ./leetcode-playground/tests/1569-number-of-ways-to-reorder-array-to-get-same-bst.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/
+    notes: ""
+
+  - id: 29
+    number: "1932"
+    name: merge-bsts-to-create-single-bst
+    difficulty: hard
+    solution: ./leetcode-playground/1932-merge-bsts-to-create-single-bst.js
+    test: ./leetcode-playground/tests/1932-merge-bsts-to-create-single-bst.test.js
+    leetcode_url: https://leetcode.com/problems/merge-bsts-to-create-single-bst/
+    notes: ""
+
+  - id: 30
+    number: "2476"
+    name: closest-nodes-queries-in-a-binary-search-tree
+    difficulty: medium
+    solution: ./leetcode-playground/2476-closest-nodes-queries-in-a-binary-search-tree.js
+    test: ./leetcode-playground/tests/2476-closest-nodes-queries-in-a-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/
+    notes: ""
+

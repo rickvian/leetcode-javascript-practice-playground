@@ -1,0 +1,274 @@
+# Topic: Shortest Path
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+shortest_path:
+  - id: 1
+    number: "0399"
+    name: evaluate-division
+    difficulty: medium
+    solution: ./leetcode-playground/0399-evaluate-division.js
+    test: ./leetcode-playground/tests/0399-evaluate-division.test.js
+    leetcode_url: https://leetcode.com/problems/evaluate-division/
+    notes: ""
+
+  - id: 2
+    number: "0743"
+    name: network-delay-time
+    difficulty: medium
+    solution: ./leetcode-playground/0743-network-delay-time.js
+    test: ./leetcode-playground/tests/0743-network-delay-time.test.js
+    leetcode_url: https://leetcode.com/problems/network-delay-time/
+    notes: ""
+
+  - id: 3
+    number: "0787"
+    name: cheapest-flights-within-k-stops
+    difficulty: medium
+    solution: ./leetcode-playground/0787-cheapest-flights-within-k-stops.js
+    test: ./leetcode-playground/tests/0787-cheapest-flights-within-k-stops.test.js
+    leetcode_url: https://leetcode.com/problems/cheapest-flights-within-k-stops/
+    notes: ""
+
+  - id: 4
+    number: "0882"
+    name: reachable-nodes-in-subdivided-graph
+    difficulty: hard
+    solution: ./leetcode-playground/0882-reachable-nodes-in-subdivided-graph.js
+    test: ./leetcode-playground/tests/0882-reachable-nodes-in-subdivided-graph.test.js
+    leetcode_url: https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/
+    notes: ""
+
+  - id: 5
+    number: "1334"
+    name: find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance
+    difficulty: medium
+    solution: ./leetcode-playground/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.js
+    test: ./leetcode-playground/tests/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/
+    notes: ""
+
+  - id: 6
+    number: "1368"
+    name: minimum-cost-to-make-at-least-one-valid-path-in-a-grid
+    difficulty: hard
+    solution: ./leetcode-playground/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid.js
+    test: ./leetcode-playground/tests/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
+    notes: ""
+
+  - id: 7
+    number: "1514"
+    name: path-with-maximum-probability
+    difficulty: medium
+    solution: ./leetcode-playground/1514-path-with-maximum-probability.js
+    test: ./leetcode-playground/tests/1514-path-with-maximum-probability.test.js
+    leetcode_url: https://leetcode.com/problems/path-with-maximum-probability/
+    notes: ""
+
+  - id: 8
+    number: "1786"
+    name: number-of-restricted-paths-from-first-to-last-node
+    difficulty: medium
+    solution: ./leetcode-playground/1786-number-of-restricted-paths-from-first-to-last-node.js
+    test: ./leetcode-playground/tests/1786-number-of-restricted-paths-from-first-to-last-node.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/
+    notes: ""
+
+  - id: 9
+    number: "1976"
+    name: number-of-ways-to-arrive-at-destination
+    difficulty: medium
+    solution: ./leetcode-playground/1976-number-of-ways-to-arrive-at-destination.js
+    test: ./leetcode-playground/tests/1976-number-of-ways-to-arrive-at-destination.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/
+    notes: ""
+
+  - id: 10
+    number: "2045"
+    name: second-minimum-time-to-reach-destination
+    difficulty: hard
+    solution: ./leetcode-playground/2045-second-minimum-time-to-reach-destination.js
+    test: ./leetcode-playground/tests/2045-second-minimum-time-to-reach-destination.test.js
+    leetcode_url: https://leetcode.com/problems/second-minimum-time-to-reach-destination/
+    notes: ""
+
+  - id: 11
+    number: "2203"
+    name: minimum-weighted-subgraph-with-the-required-paths
+    difficulty: hard
+    solution: ./leetcode-playground/2203-minimum-weighted-subgraph-with-the-required-paths.js
+    test: ./leetcode-playground/tests/2203-minimum-weighted-subgraph-with-the-required-paths.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/
+    notes: ""
+
+  - id: 12
+    number: "2290"
+    name: minimum-obstacle-removal-to-reach-corner
+    difficulty: hard
+    solution: ./leetcode-playground/2290-minimum-obstacle-removal-to-reach-corner.js
+    test: ./leetcode-playground/tests/2290-minimum-obstacle-removal-to-reach-corner.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/
+    notes: ""
+
+  - id: 13
+    number: "2577"
+    name: minimum-time-to-visit-a-cell-in-a-grid
+    difficulty: hard
+    solution: ./leetcode-playground/2577-minimum-time-to-visit-a-cell-in-a-grid.js
+    test: ./leetcode-playground/tests/2577-minimum-time-to-visit-a-cell-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/
+    notes: ""
+
+  - id: 14
+    number: "2642"
+    name: design-graph-with-shortest-path-calculator
+    difficulty: hard
+    solution: ./leetcode-playground/2642-design-graph-with-shortest-path-calculator.js
+    test: ./leetcode-playground/tests/2642-design-graph-with-shortest-path-calculator.test.js
+    leetcode_url: https://leetcode.com/problems/design-graph-with-shortest-path-calculator/
+    notes: ""
+
+  - id: 15
+    number: "2662"
+    name: minimum-cost-of-a-path-with-special-roads
+    difficulty: medium
+    solution: ./leetcode-playground/2662-minimum-cost-of-a-path-with-special-roads.js
+    test: ./leetcode-playground/tests/2662-minimum-cost-of-a-path-with-special-roads.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-of-a-path-with-special-roads/
+    notes: ""
+
+  - id: 16
+    number: "2699"
+    name: modify-graph-edge-weights
+    difficulty: hard
+    solution: ./leetcode-playground/2699-modify-graph-edge-weights.js
+    test: ./leetcode-playground/tests/2699-modify-graph-edge-weights.test.js
+    leetcode_url: https://leetcode.com/problems/modify-graph-edge-weights/
+    notes: ""
+
+  - id: 17
+    number: "2959"
+    name: number-of-possible-sets-of-closing-branches
+    difficulty: hard
+    solution: ./leetcode-playground/2959-number-of-possible-sets-of-closing-branches.js
+    test: ./leetcode-playground/tests/2959-number-of-possible-sets-of-closing-branches.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/
+    notes: ""
+
+  - id: 18
+    number: "2976"
+    name: minimum-cost-to-convert-string-i
+    difficulty: medium
+    solution: ./leetcode-playground/2976-minimum-cost-to-convert-string-i.js
+    test: ./leetcode-playground/tests/2976-minimum-cost-to-convert-string-i.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-convert-string-i/
+    notes: ""
+
+  - id: 19
+    number: "2977"
+    name: minimum-cost-to-convert-string-ii
+    difficulty: hard
+    solution: ./leetcode-playground/2977-minimum-cost-to-convert-string-ii.js
+    test: ./leetcode-playground/tests/2977-minimum-cost-to-convert-string-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-convert-string-ii/
+    notes: ""
+
+  - id: 20
+    number: "3112"
+    name: minimum-time-to-visit-disappearing-nodes
+    difficulty: medium
+    solution: ./leetcode-playground/3112-minimum-time-to-visit-disappearing-nodes.js
+    test: ./leetcode-playground/tests/3112-minimum-time-to-visit-disappearing-nodes.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/
+    notes: ""
+
+  - id: 21
+    number: "3123"
+    name: find-edges-in-shortest-paths
+    difficulty: hard
+    solution: ./leetcode-playground/3123-find-edges-in-shortest-paths.js
+    test: ./leetcode-playground/tests/3123-find-edges-in-shortest-paths.test.js
+    leetcode_url: https://leetcode.com/problems/find-edges-in-shortest-paths/
+    notes: ""
+
+  - id: 22
+    number: "3286"
+    name: find-a-safe-walk-through-a-grid
+    difficulty: medium
+    solution: ./leetcode-playground/3286-find-a-safe-walk-through-a-grid.js
+    test: ./leetcode-playground/tests/3286-find-a-safe-walk-through-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/find-a-safe-walk-through-a-grid/
+    notes: ""
+
+  - id: 23
+    number: "3341"
+    name: find-minimum-time-to-reach-last-room-i
+    difficulty: medium
+    solution: ./leetcode-playground/3341-find-minimum-time-to-reach-last-room-i.js
+    test: ./leetcode-playground/tests/3341-find-minimum-time-to-reach-last-room-i.test.js
+    leetcode_url: https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/
+    notes: ""
+
+  - id: 24
+    number: "3342"
+    name: find-minimum-time-to-reach-last-room-ii
+    difficulty: medium
+    solution: ./leetcode-playground/3342-find-minimum-time-to-reach-last-room-ii.js
+    test: ./leetcode-playground/tests/3342-find-minimum-time-to-reach-last-room-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/
+    notes: ""
+
+  - id: 25
+    number: "3377"
+    name: digit-operations-to-make-two-integers-equal
+    difficulty: medium
+    solution: ./leetcode-playground/3377-digit-operations-to-make-two-integers-equal.js
+    test: ./leetcode-playground/tests/3377-digit-operations-to-make-two-integers-equal.test.js
+    leetcode_url: https://leetcode.com/problems/digit-operations-to-make-two-integers-equal/
+    notes: ""
+
+  - id: 26
+    number: "3419"
+    name: minimize-the-maximum-edge-weight-of-graph
+    difficulty: medium
+    solution: ./leetcode-playground/3419-minimize-the-maximum-edge-weight-of-graph.js
+    test: ./leetcode-playground/tests/3419-minimize-the-maximum-edge-weight-of-graph.test.js
+    leetcode_url: https://leetcode.com/problems/minimize-the-maximum-edge-weight-of-graph/
+    notes: ""
+
+  - id: 27
+    number: "3594"
+    name: minimum-time-to-transport-all-individuals
+    difficulty: hard
+    solution: ./leetcode-playground/3594-minimum-time-to-transport-all-individuals.js
+    test: ./leetcode-playground/tests/3594-minimum-time-to-transport-all-individuals.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-time-to-transport-all-individuals/
+    notes: ""
+
+  - id: 28
+    number: "3604"
+    name: minimum-time-to-reach-destination-in-directed-graph
+    difficulty: medium
+    solution: ./leetcode-playground/3604-minimum-time-to-reach-destination-in-directed-graph.js
+    test: ./leetcode-playground/tests/3604-minimum-time-to-reach-destination-in-directed-graph.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-time-to-reach-destination-in-directed-graph/
+    notes: ""
+
+  - id: 29
+    number: "3620"
+    name: network-recovery-pathways
+    difficulty: hard
+    solution: ./leetcode-playground/3620-network-recovery-pathways.js
+    test: ./leetcode-playground/tests/3620-network-recovery-pathways.test.js
+    leetcode_url: https://leetcode.com/problems/network-recovery-pathways/
+    notes: ""
+
+  - id: 30
+    number: "3650"
+    name: minimum-cost-path-with-edge-reversals
+    difficulty: medium
+    solution: ./leetcode-playground/3650-minimum-cost-path-with-edge-reversals.js
+    test: ./leetcode-playground/tests/3650-minimum-cost-path-with-edge-reversals.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/
+    notes: ""
+

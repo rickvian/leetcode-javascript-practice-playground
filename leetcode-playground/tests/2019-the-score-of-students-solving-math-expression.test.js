@@ -1,0 +1,15 @@
+import { theScoreOfStudentsSolvingMathExpression } from '../2019-the-score-of-students-solving-math-expression.js';
+
+describe('2019-the-score-of-students-solving-math-expression', () => {
+    it('should handle basic case', () => {
+        // expect(theScoreOfStudentsSolvingMathExpression(...)).toEqual(...);
+    });
+
+    it('should handle empty / minimum input', () => {
+        // expect(theScoreOfStudentsSolvingMathExpression(...)).toEqual(...);
+    });
+
+    it('should handle edge case', () => {
+        // expect(theScoreOfStudentsSolvingMathExpression(...)).toEqual(...);
+    });
+});

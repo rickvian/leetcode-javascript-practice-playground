@@ -1,0 +1,319 @@
+# Topic: Binary Indexed Tree
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+binary_indexed_tree:
+  - id: 1
+    number: "0218"
+    name: the-skyline-problem
+    difficulty: hard
+    solution: ./leetcode-playground/0218-the-skyline-problem.js
+    test: ./leetcode-playground/tests/0218-the-skyline-problem.test.js
+    leetcode_url: https://leetcode.com/problems/the-skyline-problem/
+    notes: ""
+
+  - id: 2
+    number: "0307"
+    name: range-sum-query-mutable
+    difficulty: medium
+    solution: ./leetcode-playground/0307-range-sum-query-mutable.js
+    test: ./leetcode-playground/tests/0307-range-sum-query-mutable.test.js
+    leetcode_url: https://leetcode.com/problems/range-sum-query-mutable/
+    notes: ""
+
+  - id: 3
+    number: "0315"
+    name: count-of-smaller-numbers-after-self
+    difficulty: hard
+    solution: ./leetcode-playground/0315-count-of-smaller-numbers-after-self.js
+    test: ./leetcode-playground/tests/0315-count-of-smaller-numbers-after-self.test.js
+    leetcode_url: https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+    notes: ""
+
+  - id: 4
+    number: "0327"
+    name: count-of-range-sum
+    difficulty: hard
+    solution: ./leetcode-playground/0327-count-of-range-sum.js
+    test: ./leetcode-playground/tests/0327-count-of-range-sum.test.js
+    leetcode_url: https://leetcode.com/problems/count-of-range-sum/
+    notes: ""
+
+  - id: 5
+    number: "0406"
+    name: queue-reconstruction-by-height
+    difficulty: medium
+    solution: ./leetcode-playground/0406-queue-reconstruction-by-height.js
+    test: ./leetcode-playground/tests/0406-queue-reconstruction-by-height.test.js
+    leetcode_url: https://leetcode.com/problems/queue-reconstruction-by-height/
+    notes: ""
+
+  - id: 6
+    number: "0493"
+    name: reverse-pairs
+    difficulty: hard
+    solution: ./leetcode-playground/0493-reverse-pairs.js
+    test: ./leetcode-playground/tests/0493-reverse-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-pairs/
+    notes: ""
+
+  - id: 7
+    number: "0673"
+    name: number-of-longest-increasing-subsequence
+    difficulty: medium
+    solution: ./leetcode-playground/0673-number-of-longest-increasing-subsequence.js
+    test: ./leetcode-playground/tests/0673-number-of-longest-increasing-subsequence.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+    notes: ""
+
+  - id: 8
+    number: "1157"
+    name: online-majority-element-in-subarray
+    difficulty: hard
+    solution: ./leetcode-playground/1157-online-majority-element-in-subarray.js
+    test: ./leetcode-playground/tests/1157-online-majority-element-in-subarray.test.js
+    leetcode_url: https://leetcode.com/problems/online-majority-element-in-subarray/
+    notes: ""
+
+  - id: 9
+    number: "1395"
+    name: count-number-of-teams
+    difficulty: medium
+    solution: ./leetcode-playground/1395-count-number-of-teams.js
+    test: ./leetcode-playground/tests/1395-count-number-of-teams.test.js
+    leetcode_url: https://leetcode.com/problems/count-number-of-teams/
+    notes: ""
+
+  - id: 10
+    number: "1409"
+    name: queries-on-a-permutation-with-key
+    difficulty: medium
+    solution: ./leetcode-playground/1409-queries-on-a-permutation-with-key.js
+    test: ./leetcode-playground/tests/1409-queries-on-a-permutation-with-key.test.js
+    leetcode_url: https://leetcode.com/problems/queries-on-a-permutation-with-key/
+    notes: ""
+
+  - id: 11
+    number: "1505"
+    name: minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits
+    difficulty: hard
+    solution: ./leetcode-playground/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.js
+    test: ./leetcode-playground/tests/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/
+    notes: ""
+
+  - id: 12
+    number: "1649"
+    name: create-sorted-array-through-instructions
+    difficulty: hard
+    solution: ./leetcode-playground/1649-create-sorted-array-through-instructions.js
+    test: ./leetcode-playground/tests/1649-create-sorted-array-through-instructions.test.js
+    leetcode_url: https://leetcode.com/problems/create-sorted-array-through-instructions/
+    notes: ""
+
+  - id: 13
+    number: "1964"
+    name: find-the-longest-valid-obstacle-course-at-each-position
+    difficulty: hard
+    solution: ./leetcode-playground/1964-find-the-longest-valid-obstacle-course-at-each-position.js
+    test: ./leetcode-playground/tests/1964-find-the-longest-valid-obstacle-course-at-each-position.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/
+    notes: ""
+
+  - id: 14
+    number: "2179"
+    name: count-good-triplets-in-an-array
+    difficulty: hard
+    solution: ./leetcode-playground/2179-count-good-triplets-in-an-array.js
+    test: ./leetcode-playground/tests/2179-count-good-triplets-in-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/count-good-triplets-in-an-array/
+    notes: ""
+
+  - id: 15
+    number: "2193"
+    name: minimum-number-of-moves-to-make-palindrome
+    difficulty: hard
+    solution: ./leetcode-playground/2193-minimum-number-of-moves-to-make-palindrome.js
+    test: ./leetcode-playground/tests/2193-minimum-number-of-moves-to-make-palindrome.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/
+    notes: ""
+
+  - id: 16
+    number: "2250"
+    name: count-number-of-rectangles-containing-each-point
+    difficulty: medium
+    solution: ./leetcode-playground/2250-count-number-of-rectangles-containing-each-point.js
+    test: ./leetcode-playground/tests/2250-count-number-of-rectangles-containing-each-point.test.js
+    leetcode_url: https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/
+    notes: ""
+
+  - id: 17
+    number: "2286"
+    name: booking-concert-tickets-in-groups
+    difficulty: hard
+    solution: ./leetcode-playground/2286-booking-concert-tickets-in-groups.js
+    test: ./leetcode-playground/tests/2286-booking-concert-tickets-in-groups.test.js
+    leetcode_url: https://leetcode.com/problems/booking-concert-tickets-in-groups/
+    notes: ""
+
+  - id: 18
+    number: "2407"
+    name: longest-increasing-subsequence-ii
+    difficulty: hard
+    solution: ./leetcode-playground/2407-longest-increasing-subsequence-ii.js
+    test: ./leetcode-playground/tests/2407-longest-increasing-subsequence-ii.test.js
+    leetcode_url: https://leetcode.com/problems/longest-increasing-subsequence-ii/
+    notes: ""
+
+  - id: 19
+    number: "2424"
+    name: longest-uploaded-prefix
+    difficulty: medium
+    solution: ./leetcode-playground/2424-longest-uploaded-prefix.js
+    test: ./leetcode-playground/tests/2424-longest-uploaded-prefix.test.js
+    leetcode_url: https://leetcode.com/problems/longest-uploaded-prefix/
+    notes: ""
+
+  - id: 20
+    number: "2426"
+    name: number-of-pairs-satisfying-inequality
+    difficulty: hard
+    solution: ./leetcode-playground/2426-number-of-pairs-satisfying-inequality.js
+    test: ./leetcode-playground/tests/2426-number-of-pairs-satisfying-inequality.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-pairs-satisfying-inequality/
+    notes: ""
+
+  - id: 21
+    number: "2552"
+    name: count-increasing-quadruplets
+    difficulty: hard
+    solution: ./leetcode-playground/2552-count-increasing-quadruplets.js
+    test: ./leetcode-playground/tests/2552-count-increasing-quadruplets.test.js
+    leetcode_url: https://leetcode.com/problems/count-increasing-quadruplets/
+    notes: ""
+
+  - id: 22
+    number: "2659"
+    name: make-array-empty
+    difficulty: hard
+    solution: ./leetcode-playground/2659-make-array-empty.js
+    test: ./leetcode-playground/tests/2659-make-array-empty.test.js
+    leetcode_url: https://leetcode.com/problems/make-array-empty/
+    notes: ""
+
+  - id: 23
+    number: "2736"
+    name: maximum-sum-queries
+    difficulty: hard
+    solution: ./leetcode-playground/2736-maximum-sum-queries.js
+    test: ./leetcode-playground/tests/2736-maximum-sum-queries.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-queries/
+    notes: ""
+
+  - id: 24
+    number: "2916"
+    name: subarrays-distinct-element-sum-of-squares-ii
+    difficulty: hard
+    solution: ./leetcode-playground/2916-subarrays-distinct-element-sum-of-squares-ii.js
+    test: ./leetcode-playground/tests/2916-subarrays-distinct-element-sum-of-squares-ii.test.js
+    leetcode_url: https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/
+    notes: ""
+
+  - id: 25
+    number: "2926"
+    name: maximum-balanced-subsequence-sum
+    difficulty: hard
+    solution: ./leetcode-playground/2926-maximum-balanced-subsequence-sum.js
+    test: ./leetcode-playground/tests/2926-maximum-balanced-subsequence-sum.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-balanced-subsequence-sum/
+    notes: ""
+
+  - id: 26
+    number: "2940"
+    name: find-building-where-alice-and-bob-can-meet
+    difficulty: hard
+    solution: ./leetcode-playground/2940-find-building-where-alice-and-bob-can-meet.js
+    test: ./leetcode-playground/tests/2940-find-building-where-alice-and-bob-can-meet.test.js
+    leetcode_url: https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/
+    notes: ""
+
+  - id: 27
+    number: "3072"
+    name: distribute-elements-into-two-arrays-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3072-distribute-elements-into-two-arrays-ii.js
+    test: ./leetcode-playground/tests/3072-distribute-elements-into-two-arrays-ii.test.js
+    leetcode_url: https://leetcode.com/problems/distribute-elements-into-two-arrays-ii/
+    notes: ""
+
+  - id: 28
+    number: "3161"
+    name: block-placement-queries
+    difficulty: hard
+    solution: ./leetcode-playground/3161-block-placement-queries.js
+    test: ./leetcode-playground/tests/3161-block-placement-queries.test.js
+    leetcode_url: https://leetcode.com/problems/block-placement-queries/
+    notes: ""
+
+  - id: 29
+    number: "3187"
+    name: peaks-in-array
+    difficulty: hard
+    solution: ./leetcode-playground/3187-peaks-in-array.js
+    test: ./leetcode-playground/tests/3187-peaks-in-array.test.js
+    leetcode_url: https://leetcode.com/problems/peaks-in-array/
+    notes: ""
+
+  - id: 30
+    number: "3245"
+    name: alternating-groups-iii
+    difficulty: hard
+    solution: ./leetcode-playground/3245-alternating-groups-iii.js
+    test: ./leetcode-playground/tests/3245-alternating-groups-iii.test.js
+    leetcode_url: https://leetcode.com/problems/alternating-groups-iii/
+    notes: ""
+
+  - id: 31
+    number: "3380"
+    name: maximum-area-rectangle-with-point-constraints-i
+    difficulty: medium
+    solution: ./leetcode-playground/3380-maximum-area-rectangle-with-point-constraints-i.js
+    test: ./leetcode-playground/tests/3380-maximum-area-rectangle-with-point-constraints-i.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/
+    notes: ""
+
+  - id: 32
+    number: "3382"
+    name: maximum-area-rectangle-with-point-constraints-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3382-maximum-area-rectangle-with-point-constraints-ii.js
+    test: ./leetcode-playground/tests/3382-maximum-area-rectangle-with-point-constraints-ii.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii/
+    notes: ""
+
+  - id: 33
+    number: "3515"
+    name: shortest-path-in-a-weighted-tree
+    difficulty: hard
+    solution: ./leetcode-playground/3515-shortest-path-in-a-weighted-tree.js
+    test: ./leetcode-playground/tests/3515-shortest-path-in-a-weighted-tree.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-path-in-a-weighted-tree/
+    notes: ""
+
+  - id: 34
+    number: "3624"
+    name: number-of-integers-with-popcount-depth-equal-to-k-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3624-number-of-integers-with-popcount-depth-equal-to-k-ii.js
+    test: ./leetcode-playground/tests/3624-number-of-integers-with-popcount-depth-equal-to-k-ii.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-ii/
+    notes: ""
+
+  - id: 35
+    number: "3671"
+    name: sum-of-beautiful-subsequences
+    difficulty: hard
+    solution: ./leetcode-playground/3671-sum-of-beautiful-subsequences.js
+    test: ./leetcode-playground/tests/3671-sum-of-beautiful-subsequences.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-beautiful-subsequences/
+    notes: ""
+

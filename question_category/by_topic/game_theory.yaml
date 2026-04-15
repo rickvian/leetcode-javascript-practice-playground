@@ -1,0 +1,238 @@
+# Topic: Game Theory
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+game_theory:
+  - id: 1
+    number: "0292"
+    name: nim-game
+    difficulty: easy
+    solution: ./leetcode-playground/0292-nim-game.js
+    test: ./leetcode-playground/tests/0292-nim-game.test.js
+    leetcode_url: https://leetcode.com/problems/nim-game/
+    notes: ""
+
+  - id: 2
+    number: "0375"
+    name: guess-number-higher-or-lower-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0375-guess-number-higher-or-lower-ii.js
+    test: ./leetcode-playground/tests/0375-guess-number-higher-or-lower-ii.test.js
+    leetcode_url: https://leetcode.com/problems/guess-number-higher-or-lower-ii/
+    notes: ""
+
+  - id: 3
+    number: "0464"
+    name: can-i-win
+    difficulty: medium
+    solution: ./leetcode-playground/0464-can-i-win.js
+    test: ./leetcode-playground/tests/0464-can-i-win.test.js
+    leetcode_url: https://leetcode.com/problems/can-i-win/
+    notes: ""
+
+  - id: 4
+    number: "0486"
+    name: predict-the-winner
+    difficulty: medium
+    solution: ./leetcode-playground/0486-predict-the-winner.js
+    test: ./leetcode-playground/tests/0486-predict-the-winner.test.js
+    leetcode_url: https://leetcode.com/problems/predict-the-winner/
+    notes: ""
+
+  - id: 5
+    number: "0810"
+    name: chalkboard-xor-game
+    difficulty: hard
+    solution: ./leetcode-playground/0810-chalkboard-xor-game.js
+    test: ./leetcode-playground/tests/0810-chalkboard-xor-game.test.js
+    leetcode_url: https://leetcode.com/problems/chalkboard-xor-game/
+    notes: ""
+
+  - id: 6
+    number: "0843"
+    name: guess-the-word
+    difficulty: hard
+    solution: ./leetcode-playground/0843-guess-the-word.js
+    test: ./leetcode-playground/tests/0843-guess-the-word.test.js
+    leetcode_url: https://leetcode.com/problems/guess-the-word/
+    notes: ""
+
+  - id: 7
+    number: "0877"
+    name: stone-game
+    difficulty: medium
+    solution: ./leetcode-playground/0877-stone-game.js
+    test: ./leetcode-playground/tests/0877-stone-game.test.js
+    leetcode_url: https://leetcode.com/problems/stone-game/
+    notes: ""
+
+  - id: 8
+    number: "0913"
+    name: cat-and-mouse
+    difficulty: hard
+    solution: ./leetcode-playground/0913-cat-and-mouse.js
+    test: ./leetcode-playground/tests/0913-cat-and-mouse.test.js
+    leetcode_url: https://leetcode.com/problems/cat-and-mouse/
+    notes: ""
+
+  - id: 9
+    number: "1025"
+    name: divisor-game
+    difficulty: easy
+    solution: ./leetcode-playground/1025-divisor-game.js
+    test: ./leetcode-playground/tests/1025-divisor-game.test.js
+    leetcode_url: https://leetcode.com/problems/divisor-game/
+    notes: ""
+
+  - id: 10
+    number: "1140"
+    name: stone-game-ii
+    difficulty: medium
+    solution: ./leetcode-playground/1140-stone-game-ii.js
+    test: ./leetcode-playground/tests/1140-stone-game-ii.test.js
+    leetcode_url: https://leetcode.com/problems/stone-game-ii/
+    notes: ""
+
+  - id: 11
+    number: "1406"
+    name: stone-game-iii
+    difficulty: hard
+    solution: ./leetcode-playground/1406-stone-game-iii.js
+    test: ./leetcode-playground/tests/1406-stone-game-iii.test.js
+    leetcode_url: https://leetcode.com/problems/stone-game-iii/
+    notes: ""
+
+  - id: 12
+    number: "1510"
+    name: stone-game-iv
+    difficulty: hard
+    solution: ./leetcode-playground/1510-stone-game-iv.js
+    test: ./leetcode-playground/tests/1510-stone-game-iv.test.js
+    leetcode_url: https://leetcode.com/problems/stone-game-iv/
+    notes: ""
+
+  - id: 13
+    number: "1561"
+    name: maximum-number-of-coins-you-can-get
+    difficulty: medium
+    solution: ./leetcode-playground/1561-maximum-number-of-coins-you-can-get.js
+    test: ./leetcode-playground/tests/1561-maximum-number-of-coins-you-can-get.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-coins-you-can-get/
+    notes: ""
+
+  - id: 14
+    number: "1563"
+    name: stone-game-v
+    difficulty: hard
+    solution: ./leetcode-playground/1563-stone-game-v.js
+    test: ./leetcode-playground/tests/1563-stone-game-v.test.js
+    leetcode_url: https://leetcode.com/problems/stone-game-v/
+    notes: ""
+
+  - id: 15
+    number: "1686"
+    name: stone-game-vi
+    difficulty: medium
+    solution: ./leetcode-playground/1686-stone-game-vi.js
+    test: ./leetcode-playground/tests/1686-stone-game-vi.test.js
+    leetcode_url: https://leetcode.com/problems/stone-game-vi/
+    notes: ""
+
+  - id: 16
+    number: "1690"
+    name: stone-game-vii
+    difficulty: medium
+    solution: ./leetcode-playground/1690-stone-game-vii.js
+    test: ./leetcode-playground/tests/1690-stone-game-vii.test.js
+    leetcode_url: https://leetcode.com/problems/stone-game-vii/
+    notes: ""
+
+  - id: 17
+    number: "1728"
+    name: cat-and-mouse-ii
+    difficulty: hard
+    solution: ./leetcode-playground/1728-cat-and-mouse-ii.js
+    test: ./leetcode-playground/tests/1728-cat-and-mouse-ii.test.js
+    leetcode_url: https://leetcode.com/problems/cat-and-mouse-ii/
+    notes: ""
+
+  - id: 18
+    number: "1872"
+    name: stone-game-viii
+    difficulty: hard
+    solution: ./leetcode-playground/1872-stone-game-viii.js
+    test: ./leetcode-playground/tests/1872-stone-game-viii.test.js
+    leetcode_url: https://leetcode.com/problems/stone-game-viii/
+    notes: ""
+
+  - id: 19
+    number: "1927"
+    name: sum-game
+    difficulty: medium
+    solution: ./leetcode-playground/1927-sum-game.js
+    test: ./leetcode-playground/tests/1927-sum-game.test.js
+    leetcode_url: https://leetcode.com/problems/sum-game/
+    notes: ""
+
+  - id: 20
+    number: "2029"
+    name: stone-game-ix
+    difficulty: medium
+    solution: ./leetcode-playground/2029-stone-game-ix.js
+    test: ./leetcode-playground/tests/2029-stone-game-ix.test.js
+    leetcode_url: https://leetcode.com/problems/stone-game-ix/
+    notes: ""
+
+  - id: 21
+    number: "2038"
+    name: remove-colored-pieces-if-both-neighbors-are-the-same-color
+    difficulty: medium
+    solution: ./leetcode-playground/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color.js
+    test: ./leetcode-playground/tests/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color.test.js
+    leetcode_url: https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/
+    notes: ""
+
+  - id: 22
+    number: "3222"
+    name: find-the-winning-player-in-coin-game
+    difficulty: easy
+    solution: ./leetcode-playground/3222-find-the-winning-player-in-coin-game.js
+    test: ./leetcode-playground/tests/3222-find-the-winning-player-in-coin-game.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-winning-player-in-coin-game/
+    notes: ""
+
+  - id: 23
+    number: "3227"
+    name: vowels-game-in-a-string
+    difficulty: medium
+    solution: ./leetcode-playground/3227-vowels-game-in-a-string.js
+    test: ./leetcode-playground/tests/3227-vowels-game-in-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/vowels-game-in-a-string/
+    notes: ""
+
+  - id: 24
+    number: "3283"
+    name: maximum-number-of-moves-to-kill-all-pawns
+    difficulty: hard
+    solution: ./leetcode-playground/3283-maximum-number-of-moves-to-kill-all-pawns.js
+    test: ./leetcode-playground/tests/3283-maximum-number-of-moves-to-kill-all-pawns.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns/
+    notes: ""
+
+  - id: 25
+    number: "3627"
+    name: maximum-median-sum-of-subsequences-of-size-3
+    difficulty: medium
+    solution: ./leetcode-playground/3627-maximum-median-sum-of-subsequences-of-size-3.js
+    test: ./leetcode-playground/tests/3627-maximum-median-sum-of-subsequences-of-size-3.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-median-sum-of-subsequences-of-size-3/
+    notes: ""
+
+  - id: 26
+    number: "3828"
+    name: final-element-after-subarray-deletions
+    difficulty: medium
+    solution: ./leetcode-playground/3828-final-element-after-subarray-deletions.js
+    test: ./leetcode-playground/tests/3828-final-element-after-subarray-deletions.test.js
+    leetcode_url: https://leetcode.com/problems/final-element-after-subarray-deletions/
+    notes: ""
+

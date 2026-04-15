@@ -1,0 +1,15 @@
+import { countNumberOfMaximumBitwiseOrSubsets } from '../2044-count-number-of-maximum-bitwise-or-subsets.js';
+
+describe('2044-count-number-of-maximum-bitwise-or-subsets', () => {
+    it('should handle basic case', () => {
+        // expect(countNumberOfMaximumBitwiseOrSubsets(...)).toEqual(...);
+    });
+
+    it('should handle empty / minimum input', () => {
+        // expect(countNumberOfMaximumBitwiseOrSubsets(...)).toEqual(...);
+    });
+
+    it('should handle edge case', () => {
+        // expect(countNumberOfMaximumBitwiseOrSubsets(...)).toEqual(...);
+    });
+});

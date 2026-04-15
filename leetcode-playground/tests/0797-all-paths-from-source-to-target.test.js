@@ -1,0 +1,15 @@
+import { allPathsFromSourceToTarget } from '../0797-all-paths-from-source-to-target.js';
+
+describe('0797-all-paths-from-source-to-target', () => {
+    it('should handle basic case', () => {
+        // expect(allPathsFromSourceToTarget(...)).toEqual(...);
+    });
+
+    it('should handle empty / minimum input', () => {
+        // expect(allPathsFromSourceToTarget(...)).toEqual(...);
+    });
+
+    it('should handle edge case', () => {
+        // expect(allPathsFromSourceToTarget(...)).toEqual(...);
+    });
+});

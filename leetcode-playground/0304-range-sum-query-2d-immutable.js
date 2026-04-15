@@ -1,0 +1,13 @@
+/**
+ * Range Sum Query 2D - Immutable
+ *
+ * https://leetcode.com/problems/range-sum-query-2d-immutable/description/
+ *
+ * @param {*} param
+ * @return {*}
+ */
+var rangeSumQuery2dImmutable = function(param) {
+    // implement
+};
+
+export { rangeSumQuery2dImmutable };

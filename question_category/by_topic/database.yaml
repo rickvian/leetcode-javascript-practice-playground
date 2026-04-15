@@ -1,0 +1,850 @@
+# Topic: Database
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+database:
+  - id: 1
+    number: "0175"
+    name: combine-two-tables
+    difficulty: easy
+    solution: ./leetcode-playground/0175-combine-two-tables.js
+    test: ./leetcode-playground/tests/0175-combine-two-tables.test.js
+    leetcode_url: https://leetcode.com/problems/combine-two-tables/
+    notes: ""
+
+  - id: 2
+    number: "0176"
+    name: second-highest-salary
+    difficulty: medium
+    solution: ./leetcode-playground/0176-second-highest-salary.js
+    test: ./leetcode-playground/tests/0176-second-highest-salary.test.js
+    leetcode_url: https://leetcode.com/problems/second-highest-salary/
+    notes: ""
+
+  - id: 3
+    number: "0177"
+    name: nth-highest-salary
+    difficulty: medium
+    solution: ./leetcode-playground/0177-nth-highest-salary.js
+    test: ./leetcode-playground/tests/0177-nth-highest-salary.test.js
+    leetcode_url: https://leetcode.com/problems/nth-highest-salary/
+    notes: ""
+
+  - id: 4
+    number: "0178"
+    name: rank-scores
+    difficulty: medium
+    solution: ./leetcode-playground/0178-rank-scores.js
+    test: ./leetcode-playground/tests/0178-rank-scores.test.js
+    leetcode_url: https://leetcode.com/problems/rank-scores/
+    notes: ""
+
+  - id: 5
+    number: "0180"
+    name: consecutive-numbers
+    difficulty: medium
+    solution: ./leetcode-playground/0180-consecutive-numbers.js
+    test: ./leetcode-playground/tests/0180-consecutive-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/consecutive-numbers/
+    notes: ""
+
+  - id: 6
+    number: "0181"
+    name: employees-earning-more-than-their-managers
+    difficulty: easy
+    solution: ./leetcode-playground/0181-employees-earning-more-than-their-managers.js
+    test: ./leetcode-playground/tests/0181-employees-earning-more-than-their-managers.test.js
+    leetcode_url: https://leetcode.com/problems/employees-earning-more-than-their-managers/
+    notes: ""
+
+  - id: 7
+    number: "0182"
+    name: duplicate-emails
+    difficulty: easy
+    solution: ./leetcode-playground/0182-duplicate-emails.js
+    test: ./leetcode-playground/tests/0182-duplicate-emails.test.js
+    leetcode_url: https://leetcode.com/problems/duplicate-emails/
+    notes: ""
+
+  - id: 8
+    number: "0183"
+    name: customers-who-never-order
+    difficulty: easy
+    solution: ./leetcode-playground/0183-customers-who-never-order.js
+    test: ./leetcode-playground/tests/0183-customers-who-never-order.test.js
+    leetcode_url: https://leetcode.com/problems/customers-who-never-order/
+    notes: ""
+
+  - id: 9
+    number: "0184"
+    name: department-highest-salary
+    difficulty: medium
+    solution: ./leetcode-playground/0184-department-highest-salary.js
+    test: ./leetcode-playground/tests/0184-department-highest-salary.test.js
+    leetcode_url: https://leetcode.com/problems/department-highest-salary/
+    notes: ""
+
+  - id: 10
+    number: "0185"
+    name: department-top-three-salaries
+    difficulty: hard
+    solution: ./leetcode-playground/0185-department-top-three-salaries.js
+    test: ./leetcode-playground/tests/0185-department-top-three-salaries.test.js
+    leetcode_url: https://leetcode.com/problems/department-top-three-salaries/
+    notes: ""
+
+  - id: 11
+    number: "0196"
+    name: delete-duplicate-emails
+    difficulty: easy
+    solution: ./leetcode-playground/0196-delete-duplicate-emails.js
+    test: ./leetcode-playground/tests/0196-delete-duplicate-emails.test.js
+    leetcode_url: https://leetcode.com/problems/delete-duplicate-emails/
+    notes: ""
+
+  - id: 12
+    number: "0197"
+    name: rising-temperature
+    difficulty: easy
+    solution: ./leetcode-playground/0197-rising-temperature.js
+    test: ./leetcode-playground/tests/0197-rising-temperature.test.js
+    leetcode_url: https://leetcode.com/problems/rising-temperature/
+    notes: ""
+
+  - id: 13
+    number: "0262"
+    name: trips-and-users
+    difficulty: hard
+    solution: ./leetcode-playground/0262-trips-and-users.js
+    test: ./leetcode-playground/tests/0262-trips-and-users.test.js
+    leetcode_url: https://leetcode.com/problems/trips-and-users/
+    notes: ""
+
+  - id: 14
+    number: "0511"
+    name: game-play-analysis-i
+    difficulty: easy
+    solution: ./leetcode-playground/0511-game-play-analysis-i.js
+    test: ./leetcode-playground/tests/0511-game-play-analysis-i.test.js
+    leetcode_url: https://leetcode.com/problems/game-play-analysis-i/
+    notes: ""
+
+  - id: 15
+    number: "0550"
+    name: game-play-analysis-iv
+    difficulty: medium
+    solution: ./leetcode-playground/0550-game-play-analysis-iv.js
+    test: ./leetcode-playground/tests/0550-game-play-analysis-iv.test.js
+    leetcode_url: https://leetcode.com/problems/game-play-analysis-iv/
+    notes: ""
+
+  - id: 16
+    number: "0570"
+    name: managers-with-at-least-5-direct-reports
+    difficulty: medium
+    solution: ./leetcode-playground/0570-managers-with-at-least-5-direct-reports.js
+    test: ./leetcode-playground/tests/0570-managers-with-at-least-5-direct-reports.test.js
+    leetcode_url: https://leetcode.com/problems/managers-with-at-least-5-direct-reports/
+    notes: ""
+
+  - id: 17
+    number: "0577"
+    name: employee-bonus
+    difficulty: easy
+    solution: ./leetcode-playground/0577-employee-bonus.js
+    test: ./leetcode-playground/tests/0577-employee-bonus.test.js
+    leetcode_url: https://leetcode.com/problems/employee-bonus/
+    notes: ""
+
+  - id: 18
+    number: "0584"
+    name: find-customer-referee
+    difficulty: easy
+    solution: ./leetcode-playground/0584-find-customer-referee.js
+    test: ./leetcode-playground/tests/0584-find-customer-referee.test.js
+    leetcode_url: https://leetcode.com/problems/find-customer-referee/
+    notes: ""
+
+  - id: 19
+    number: "0585"
+    name: investments-in-2016
+    difficulty: medium
+    solution: ./leetcode-playground/0585-investments-in-2016.js
+    test: ./leetcode-playground/tests/0585-investments-in-2016.test.js
+    leetcode_url: https://leetcode.com/problems/investments-in-2016/
+    notes: ""
+
+  - id: 20
+    number: "0586"
+    name: customer-placing-the-largest-number-of-orders
+    difficulty: easy
+    solution: ./leetcode-playground/0586-customer-placing-the-largest-number-of-orders.js
+    test: ./leetcode-playground/tests/0586-customer-placing-the-largest-number-of-orders.test.js
+    leetcode_url: https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/
+    notes: ""
+
+  - id: 21
+    number: "0595"
+    name: big-countries
+    difficulty: easy
+    solution: ./leetcode-playground/0595-big-countries.js
+    test: ./leetcode-playground/tests/0595-big-countries.test.js
+    leetcode_url: https://leetcode.com/problems/big-countries/
+    notes: ""
+
+  - id: 22
+    number: "0596"
+    name: classes-with-at-least-5-students
+    difficulty: easy
+    solution: ./leetcode-playground/0596-classes-with-at-least-5-students.js
+    test: ./leetcode-playground/tests/0596-classes-with-at-least-5-students.test.js
+    leetcode_url: https://leetcode.com/problems/classes-with-at-least-5-students/
+    notes: ""
+
+  - id: 23
+    number: "0601"
+    name: human-traffic-of-stadium
+    difficulty: hard
+    solution: ./leetcode-playground/0601-human-traffic-of-stadium.js
+    test: ./leetcode-playground/tests/0601-human-traffic-of-stadium.test.js
+    leetcode_url: https://leetcode.com/problems/human-traffic-of-stadium/
+    notes: ""
+
+  - id: 24
+    number: "0602"
+    name: friend-requests-ii-who-has-the-most-friends
+    difficulty: medium
+    solution: ./leetcode-playground/0602-friend-requests-ii-who-has-the-most-friends.js
+    test: ./leetcode-playground/tests/0602-friend-requests-ii-who-has-the-most-friends.test.js
+    leetcode_url: https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/
+    notes: ""
+
+  - id: 25
+    number: "0607"
+    name: sales-person
+    difficulty: easy
+    solution: ./leetcode-playground/0607-sales-person.js
+    test: ./leetcode-playground/tests/0607-sales-person.test.js
+    leetcode_url: https://leetcode.com/problems/sales-person/
+    notes: ""
+
+  - id: 26
+    number: "0608"
+    name: tree-node
+    difficulty: medium
+    solution: ./leetcode-playground/0608-tree-node.js
+    test: ./leetcode-playground/tests/0608-tree-node.test.js
+    leetcode_url: https://leetcode.com/problems/tree-node/
+    notes: ""
+
+  - id: 27
+    number: "0610"
+    name: triangle-judgement
+    difficulty: easy
+    solution: ./leetcode-playground/0610-triangle-judgement.js
+    test: ./leetcode-playground/tests/0610-triangle-judgement.test.js
+    leetcode_url: https://leetcode.com/problems/triangle-judgement/
+    notes: ""
+
+  - id: 28
+    number: "0619"
+    name: biggest-single-number
+    difficulty: easy
+    solution: ./leetcode-playground/0619-biggest-single-number.js
+    test: ./leetcode-playground/tests/0619-biggest-single-number.test.js
+    leetcode_url: https://leetcode.com/problems/biggest-single-number/
+    notes: ""
+
+  - id: 29
+    number: "0620"
+    name: not-boring-movies
+    difficulty: easy
+    solution: ./leetcode-playground/0620-not-boring-movies.js
+    test: ./leetcode-playground/tests/0620-not-boring-movies.test.js
+    leetcode_url: https://leetcode.com/problems/not-boring-movies/
+    notes: ""
+
+  - id: 30
+    number: "0626"
+    name: exchange-seats
+    difficulty: medium
+    solution: ./leetcode-playground/0626-exchange-seats.js
+    test: ./leetcode-playground/tests/0626-exchange-seats.test.js
+    leetcode_url: https://leetcode.com/problems/exchange-seats/
+    notes: ""
+
+  - id: 31
+    number: "0627"
+    name: swap-sex-of-employees
+    difficulty: easy
+    solution: ./leetcode-playground/0627-swap-sex-of-employees.js
+    test: ./leetcode-playground/tests/0627-swap-sex-of-employees.test.js
+    leetcode_url: https://leetcode.com/problems/swap-sex-of-employees/
+    notes: ""
+
+  - id: 32
+    number: "1045"
+    name: customers-who-bought-all-products
+    difficulty: medium
+    solution: ./leetcode-playground/1045-customers-who-bought-all-products.js
+    test: ./leetcode-playground/tests/1045-customers-who-bought-all-products.test.js
+    leetcode_url: https://leetcode.com/problems/customers-who-bought-all-products/
+    notes: ""
+
+  - id: 33
+    number: "1050"
+    name: actors-and-directors-who-cooperated-at-least-three-times
+    difficulty: easy
+    solution: ./leetcode-playground/1050-actors-and-directors-who-cooperated-at-least-three-times.js
+    test: ./leetcode-playground/tests/1050-actors-and-directors-who-cooperated-at-least-three-times.test.js
+    leetcode_url: https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/
+    notes: ""
+
+  - id: 34
+    number: "1068"
+    name: product-sales-analysis-i
+    difficulty: easy
+    solution: ./leetcode-playground/1068-product-sales-analysis-i.js
+    test: ./leetcode-playground/tests/1068-product-sales-analysis-i.test.js
+    leetcode_url: https://leetcode.com/problems/product-sales-analysis-i/
+    notes: ""
+
+  - id: 35
+    number: "1070"
+    name: product-sales-analysis-iii
+    difficulty: medium
+    solution: ./leetcode-playground/1070-product-sales-analysis-iii.js
+    test: ./leetcode-playground/tests/1070-product-sales-analysis-iii.test.js
+    leetcode_url: https://leetcode.com/problems/product-sales-analysis-iii/
+    notes: ""
+
+  - id: 36
+    number: "1075"
+    name: project-employees-i
+    difficulty: easy
+    solution: ./leetcode-playground/1075-project-employees-i.js
+    test: ./leetcode-playground/tests/1075-project-employees-i.test.js
+    leetcode_url: https://leetcode.com/problems/project-employees-i/
+    notes: ""
+
+  - id: 37
+    number: "1084"
+    name: sales-analysis-iii
+    difficulty: easy
+    solution: ./leetcode-playground/1084-sales-analysis-iii.js
+    test: ./leetcode-playground/tests/1084-sales-analysis-iii.test.js
+    leetcode_url: https://leetcode.com/problems/sales-analysis-iii/
+    notes: ""
+
+  - id: 38
+    number: "1141"
+    name: user-activity-for-the-past-30-days-i
+    difficulty: easy
+    solution: ./leetcode-playground/1141-user-activity-for-the-past-30-days-i.js
+    test: ./leetcode-playground/tests/1141-user-activity-for-the-past-30-days-i.test.js
+    leetcode_url: https://leetcode.com/problems/user-activity-for-the-past-30-days-i/
+    notes: ""
+
+  - id: 39
+    number: "1148"
+    name: article-views-i
+    difficulty: easy
+    solution: ./leetcode-playground/1148-article-views-i.js
+    test: ./leetcode-playground/tests/1148-article-views-i.test.js
+    leetcode_url: https://leetcode.com/problems/article-views-i/
+    notes: ""
+
+  - id: 40
+    number: "1158"
+    name: market-analysis-i
+    difficulty: medium
+    solution: ./leetcode-playground/1158-market-analysis-i.js
+    test: ./leetcode-playground/tests/1158-market-analysis-i.test.js
+    leetcode_url: https://leetcode.com/problems/market-analysis-i/
+    notes: ""
+
+  - id: 41
+    number: "1164"
+    name: product-price-at-a-given-date
+    difficulty: medium
+    solution: ./leetcode-playground/1164-product-price-at-a-given-date.js
+    test: ./leetcode-playground/tests/1164-product-price-at-a-given-date.test.js
+    leetcode_url: https://leetcode.com/problems/product-price-at-a-given-date/
+    notes: ""
+
+  - id: 42
+    number: "1174"
+    name: immediate-food-delivery-ii
+    difficulty: medium
+    solution: ./leetcode-playground/1174-immediate-food-delivery-ii.js
+    test: ./leetcode-playground/tests/1174-immediate-food-delivery-ii.test.js
+    leetcode_url: https://leetcode.com/problems/immediate-food-delivery-ii/
+    notes: ""
+
+  - id: 43
+    number: "1179"
+    name: reformat-department-table
+    difficulty: easy
+    solution: ./leetcode-playground/1179-reformat-department-table.js
+    test: ./leetcode-playground/tests/1179-reformat-department-table.test.js
+    leetcode_url: https://leetcode.com/problems/reformat-department-table/
+    notes: ""
+
+  - id: 44
+    number: "1193"
+    name: monthly-transactions-i
+    difficulty: medium
+    solution: ./leetcode-playground/1193-monthly-transactions-i.js
+    test: ./leetcode-playground/tests/1193-monthly-transactions-i.test.js
+    leetcode_url: https://leetcode.com/problems/monthly-transactions-i/
+    notes: ""
+
+  - id: 45
+    number: "1204"
+    name: last-person-to-fit-in-the-bus
+    difficulty: medium
+    solution: ./leetcode-playground/1204-last-person-to-fit-in-the-bus.js
+    test: ./leetcode-playground/tests/1204-last-person-to-fit-in-the-bus.test.js
+    leetcode_url: https://leetcode.com/problems/last-person-to-fit-in-the-bus/
+    notes: ""
+
+  - id: 46
+    number: "1211"
+    name: queries-quality-and-percentage
+    difficulty: easy
+    solution: ./leetcode-playground/1211-queries-quality-and-percentage.js
+    test: ./leetcode-playground/tests/1211-queries-quality-and-percentage.test.js
+    leetcode_url: https://leetcode.com/problems/queries-quality-and-percentage/
+    notes: ""
+
+  - id: 47
+    number: "1251"
+    name: average-selling-price
+    difficulty: easy
+    solution: ./leetcode-playground/1251-average-selling-price.js
+    test: ./leetcode-playground/tests/1251-average-selling-price.test.js
+    leetcode_url: https://leetcode.com/problems/average-selling-price/
+    notes: ""
+
+  - id: 48
+    number: "1280"
+    name: students-and-examinations
+    difficulty: easy
+    solution: ./leetcode-playground/1280-students-and-examinations.js
+    test: ./leetcode-playground/tests/1280-students-and-examinations.test.js
+    leetcode_url: https://leetcode.com/problems/students-and-examinations/
+    notes: ""
+
+  - id: 49
+    number: "1321"
+    name: restaurant-growth
+    difficulty: medium
+    solution: ./leetcode-playground/1321-restaurant-growth.js
+    test: ./leetcode-playground/tests/1321-restaurant-growth.test.js
+    leetcode_url: https://leetcode.com/problems/restaurant-growth/
+    notes: ""
+
+  - id: 50
+    number: "1327"
+    name: list-the-products-ordered-in-a-period
+    difficulty: easy
+    solution: ./leetcode-playground/1327-list-the-products-ordered-in-a-period.js
+    test: ./leetcode-playground/tests/1327-list-the-products-ordered-in-a-period.test.js
+    leetcode_url: https://leetcode.com/problems/list-the-products-ordered-in-a-period/
+    notes: ""
+
+  - id: 51
+    number: "1341"
+    name: movie-rating
+    difficulty: medium
+    solution: ./leetcode-playground/1341-movie-rating.js
+    test: ./leetcode-playground/tests/1341-movie-rating.test.js
+    leetcode_url: https://leetcode.com/problems/movie-rating/
+    notes: ""
+
+  - id: 52
+    number: "1378"
+    name: replace-employee-id-with-the-unique-identifier
+    difficulty: easy
+    solution: ./leetcode-playground/1378-replace-employee-id-with-the-unique-identifier.js
+    test: ./leetcode-playground/tests/1378-replace-employee-id-with-the-unique-identifier.test.js
+    leetcode_url: https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/
+    notes: ""
+
+  - id: 53
+    number: "1393"
+    name: capital-gainloss
+    difficulty: medium
+    solution: ./leetcode-playground/1393-capital-gainloss.js
+    test: ./leetcode-playground/tests/1393-capital-gainloss.test.js
+    leetcode_url: https://leetcode.com/problems/capital-gainloss/
+    notes: ""
+
+  - id: 54
+    number: "1407"
+    name: top-travellers
+    difficulty: easy
+    solution: ./leetcode-playground/1407-top-travellers.js
+    test: ./leetcode-playground/tests/1407-top-travellers.test.js
+    leetcode_url: https://leetcode.com/problems/top-travellers/
+    notes: ""
+
+  - id: 55
+    number: "1484"
+    name: group-sold-products-by-the-date
+    difficulty: easy
+    solution: ./leetcode-playground/1484-group-sold-products-by-the-date.js
+    test: ./leetcode-playground/tests/1484-group-sold-products-by-the-date.test.js
+    leetcode_url: https://leetcode.com/problems/group-sold-products-by-the-date/
+    notes: ""
+
+  - id: 56
+    number: "1517"
+    name: find-users-with-valid-e-mails
+    difficulty: easy
+    solution: ./leetcode-playground/1517-find-users-with-valid-e-mails.js
+    test: ./leetcode-playground/tests/1517-find-users-with-valid-e-mails.test.js
+    leetcode_url: https://leetcode.com/problems/find-users-with-valid-e-mails/
+    notes: ""
+
+  - id: 57
+    number: "1527"
+    name: patients-with-a-condition
+    difficulty: easy
+    solution: ./leetcode-playground/1527-patients-with-a-condition.js
+    test: ./leetcode-playground/tests/1527-patients-with-a-condition.test.js
+    leetcode_url: https://leetcode.com/problems/patients-with-a-condition/
+    notes: ""
+
+  - id: 58
+    number: "1581"
+    name: customer-who-visited-but-did-not-make-any-transactions
+    difficulty: easy
+    solution: ./leetcode-playground/1581-customer-who-visited-but-did-not-make-any-transactions.js
+    test: ./leetcode-playground/tests/1581-customer-who-visited-but-did-not-make-any-transactions.test.js
+    leetcode_url: https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/
+    notes: ""
+
+  - id: 59
+    number: "1587"
+    name: bank-account-summary-ii
+    difficulty: easy
+    solution: ./leetcode-playground/1587-bank-account-summary-ii.js
+    test: ./leetcode-playground/tests/1587-bank-account-summary-ii.test.js
+    leetcode_url: https://leetcode.com/problems/bank-account-summary-ii/
+    notes: ""
+
+  - id: 60
+    number: "1633"
+    name: percentage-of-users-attended-a-contest
+    difficulty: easy
+    solution: ./leetcode-playground/1633-percentage-of-users-attended-a-contest.js
+    test: ./leetcode-playground/tests/1633-percentage-of-users-attended-a-contest.test.js
+    leetcode_url: https://leetcode.com/problems/percentage-of-users-attended-a-contest/
+    notes: ""
+
+  - id: 61
+    number: "1661"
+    name: average-time-of-process-per-machine
+    difficulty: easy
+    solution: ./leetcode-playground/1661-average-time-of-process-per-machine.js
+    test: ./leetcode-playground/tests/1661-average-time-of-process-per-machine.test.js
+    leetcode_url: https://leetcode.com/problems/average-time-of-process-per-machine/
+    notes: ""
+
+  - id: 62
+    number: "1667"
+    name: fix-names-in-a-table
+    difficulty: easy
+    solution: ./leetcode-playground/1667-fix-names-in-a-table.js
+    test: ./leetcode-playground/tests/1667-fix-names-in-a-table.test.js
+    leetcode_url: https://leetcode.com/problems/fix-names-in-a-table/
+    notes: ""
+
+  - id: 63
+    number: "1683"
+    name: invalid-tweets
+    difficulty: easy
+    solution: ./leetcode-playground/1683-invalid-tweets.js
+    test: ./leetcode-playground/tests/1683-invalid-tweets.test.js
+    leetcode_url: https://leetcode.com/problems/invalid-tweets/
+    notes: ""
+
+  - id: 64
+    number: "1693"
+    name: daily-leads-and-partners
+    difficulty: easy
+    solution: ./leetcode-playground/1693-daily-leads-and-partners.js
+    test: ./leetcode-playground/tests/1693-daily-leads-and-partners.test.js
+    leetcode_url: https://leetcode.com/problems/daily-leads-and-partners/
+    notes: ""
+
+  - id: 65
+    number: "1729"
+    name: find-followers-count
+    difficulty: easy
+    solution: ./leetcode-playground/1729-find-followers-count.js
+    test: ./leetcode-playground/tests/1729-find-followers-count.test.js
+    leetcode_url: https://leetcode.com/problems/find-followers-count/
+    notes: ""
+
+  - id: 66
+    number: "1731"
+    name: the-number-of-employees-which-report-to-each-employee
+    difficulty: easy
+    solution: ./leetcode-playground/1731-the-number-of-employees-which-report-to-each-employee.js
+    test: ./leetcode-playground/tests/1731-the-number-of-employees-which-report-to-each-employee.test.js
+    leetcode_url: https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/
+    notes: ""
+
+  - id: 67
+    number: "1741"
+    name: find-total-time-spent-by-each-employee
+    difficulty: easy
+    solution: ./leetcode-playground/1741-find-total-time-spent-by-each-employee.js
+    test: ./leetcode-playground/tests/1741-find-total-time-spent-by-each-employee.test.js
+    leetcode_url: https://leetcode.com/problems/find-total-time-spent-by-each-employee/
+    notes: ""
+
+  - id: 68
+    number: "1757"
+    name: recyclable-and-low-fat-products
+    difficulty: easy
+    solution: ./leetcode-playground/1757-recyclable-and-low-fat-products.js
+    test: ./leetcode-playground/tests/1757-recyclable-and-low-fat-products.test.js
+    leetcode_url: https://leetcode.com/problems/recyclable-and-low-fat-products/
+    notes: ""
+
+  - id: 69
+    number: "1789"
+    name: primary-department-for-each-employee
+    difficulty: easy
+    solution: ./leetcode-playground/1789-primary-department-for-each-employee.js
+    test: ./leetcode-playground/tests/1789-primary-department-for-each-employee.test.js
+    leetcode_url: https://leetcode.com/problems/primary-department-for-each-employee/
+    notes: ""
+
+  - id: 70
+    number: "1795"
+    name: rearrange-products-table
+    difficulty: easy
+    solution: ./leetcode-playground/1795-rearrange-products-table.js
+    test: ./leetcode-playground/tests/1795-rearrange-products-table.test.js
+    leetcode_url: https://leetcode.com/problems/rearrange-products-table/
+    notes: ""
+
+  - id: 71
+    number: "1873"
+    name: calculate-special-bonus
+    difficulty: easy
+    solution: ./leetcode-playground/1873-calculate-special-bonus.js
+    test: ./leetcode-playground/tests/1873-calculate-special-bonus.test.js
+    leetcode_url: https://leetcode.com/problems/calculate-special-bonus/
+    notes: ""
+
+  - id: 72
+    number: "1890"
+    name: the-latest-login-in-2020
+    difficulty: easy
+    solution: ./leetcode-playground/1890-the-latest-login-in-2020.js
+    test: ./leetcode-playground/tests/1890-the-latest-login-in-2020.test.js
+    leetcode_url: https://leetcode.com/problems/the-latest-login-in-2020/
+    notes: ""
+
+  - id: 73
+    number: "1907"
+    name: count-salary-categories
+    difficulty: medium
+    solution: ./leetcode-playground/1907-count-salary-categories.js
+    test: ./leetcode-playground/tests/1907-count-salary-categories.test.js
+    leetcode_url: https://leetcode.com/problems/count-salary-categories/
+    notes: ""
+
+  - id: 74
+    number: "1934"
+    name: confirmation-rate
+    difficulty: medium
+    solution: ./leetcode-playground/1934-confirmation-rate.js
+    test: ./leetcode-playground/tests/1934-confirmation-rate.test.js
+    leetcode_url: https://leetcode.com/problems/confirmation-rate/
+    notes: ""
+
+  - id: 75
+    number: "1965"
+    name: employees-with-missing-information
+    difficulty: easy
+    solution: ./leetcode-playground/1965-employees-with-missing-information.js
+    test: ./leetcode-playground/tests/1965-employees-with-missing-information.test.js
+    leetcode_url: https://leetcode.com/problems/employees-with-missing-information/
+    notes: ""
+
+  - id: 76
+    number: "1978"
+    name: employees-whose-manager-left-the-company
+    difficulty: easy
+    solution: ./leetcode-playground/1978-employees-whose-manager-left-the-company.js
+    test: ./leetcode-playground/tests/1978-employees-whose-manager-left-the-company.test.js
+    leetcode_url: https://leetcode.com/problems/employees-whose-manager-left-the-company/
+    notes: ""
+
+  - id: 77
+    number: "2356"
+    name: number-of-unique-subjects-taught-by-each-teacher
+    difficulty: easy
+    solution: ./leetcode-playground/2356-number-of-unique-subjects-taught-by-each-teacher.js
+    test: ./leetcode-playground/tests/2356-number-of-unique-subjects-taught-by-each-teacher.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/
+    notes: ""
+
+  - id: 78
+    number: "3220"
+    name: odd-and-even-transactions
+    difficulty: medium
+    solution: ./leetcode-playground/3220-odd-and-even-transactions.js
+    test: ./leetcode-playground/tests/3220-odd-and-even-transactions.test.js
+    leetcode_url: https://leetcode.com/problems/odd-and-even-transactions/
+    notes: ""
+
+  - id: 79
+    number: "3374"
+    name: first-letter-capitalization-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3374-first-letter-capitalization-ii.js
+    test: ./leetcode-playground/tests/3374-first-letter-capitalization-ii.test.js
+    leetcode_url: https://leetcode.com/problems/first-letter-capitalization-ii/
+    notes: ""
+
+  - id: 80
+    number: "3421"
+    name: find-students-who-improved
+    difficulty: medium
+    solution: ./leetcode-playground/3421-find-students-who-improved.js
+    test: ./leetcode-playground/tests/3421-find-students-who-improved.test.js
+    leetcode_url: https://leetcode.com/problems/find-students-who-improved/
+    notes: ""
+
+  - id: 81
+    number: "3436"
+    name: find-valid-emails
+    difficulty: easy
+    solution: ./leetcode-playground/3436-find-valid-emails.js
+    test: ./leetcode-playground/tests/3436-find-valid-emails.test.js
+    leetcode_url: https://leetcode.com/problems/find-valid-emails/
+    notes: ""
+
+  - id: 82
+    number: "3451"
+    name: find-invalid-ip-addresses
+    difficulty: hard
+    solution: ./leetcode-playground/3451-find-invalid-ip-addresses.js
+    test: ./leetcode-playground/tests/3451-find-invalid-ip-addresses.test.js
+    leetcode_url: https://leetcode.com/problems/find-invalid-ip-addresses/
+    notes: ""
+
+  - id: 83
+    number: "3465"
+    name: find-products-with-valid-serial-numbers
+    difficulty: easy
+    solution: ./leetcode-playground/3465-find-products-with-valid-serial-numbers.js
+    test: ./leetcode-playground/tests/3465-find-products-with-valid-serial-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/find-products-with-valid-serial-numbers/
+    notes: ""
+
+  - id: 84
+    number: "3475"
+    name: dna-pattern-recognition
+    difficulty: medium
+    solution: ./leetcode-playground/3475-dna-pattern-recognition.js
+    test: ./leetcode-playground/tests/3475-dna-pattern-recognition.test.js
+    leetcode_url: https://leetcode.com/problems/dna-pattern-recognition/
+    notes: ""
+
+  - id: 85
+    number: "3482"
+    name: analyze-organization-hierarchy
+    difficulty: hard
+    solution: ./leetcode-playground/3482-analyze-organization-hierarchy.js
+    test: ./leetcode-playground/tests/3482-analyze-organization-hierarchy.test.js
+    leetcode_url: https://leetcode.com/problems/analyze-organization-hierarchy/
+    notes: ""
+
+  - id: 86
+    number: "3497"
+    name: analyze-subscription-conversion
+    difficulty: medium
+    solution: ./leetcode-playground/3497-analyze-subscription-conversion.js
+    test: ./leetcode-playground/tests/3497-analyze-subscription-conversion.test.js
+    leetcode_url: https://leetcode.com/problems/analyze-subscription-conversion/
+    notes: ""
+
+  - id: 87
+    number: "3521"
+    name: find-product-recommendation-pairs
+    difficulty: medium
+    solution: ./leetcode-playground/3521-find-product-recommendation-pairs.js
+    test: ./leetcode-playground/tests/3521-find-product-recommendation-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/find-product-recommendation-pairs/
+    notes: ""
+
+  - id: 88
+    number: "3554"
+    name: find-category-recommendation-pairs
+    difficulty: hard
+    solution: ./leetcode-playground/3554-find-category-recommendation-pairs.js
+    test: ./leetcode-playground/tests/3554-find-category-recommendation-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/find-category-recommendation-pairs/
+    notes: ""
+
+  - id: 89
+    number: "3564"
+    name: seasonal-sales-analysis
+    difficulty: medium
+    solution: ./leetcode-playground/3564-seasonal-sales-analysis.js
+    test: ./leetcode-playground/tests/3564-seasonal-sales-analysis.test.js
+    leetcode_url: https://leetcode.com/problems/seasonal-sales-analysis/
+    notes: ""
+
+  - id: 90
+    number: "3570"
+    name: find-books-with-no-available-copies
+    difficulty: easy
+    solution: ./leetcode-playground/3570-find-books-with-no-available-copies.js
+    test: ./leetcode-playground/tests/3570-find-books-with-no-available-copies.test.js
+    leetcode_url: https://leetcode.com/problems/find-books-with-no-available-copies/
+    notes: ""
+
+  - id: 91
+    number: "3580"
+    name: find-consistently-improving-employees
+    difficulty: medium
+    solution: ./leetcode-playground/3580-find-consistently-improving-employees.js
+    test: ./leetcode-playground/tests/3580-find-consistently-improving-employees.test.js
+    leetcode_url: https://leetcode.com/problems/find-consistently-improving-employees/
+    notes: ""
+
+  - id: 92
+    number: "3586"
+    name: find-covid-recovery-patients
+    difficulty: medium
+    solution: ./leetcode-playground/3586-find-covid-recovery-patients.js
+    test: ./leetcode-playground/tests/3586-find-covid-recovery-patients.test.js
+    leetcode_url: https://leetcode.com/problems/find-covid-recovery-patients/
+    notes: ""
+
+  - id: 93
+    number: "3601"
+    name: find-drivers-with-improved-fuel-efficiency
+    difficulty: medium
+    solution: ./leetcode-playground/3601-find-drivers-with-improved-fuel-efficiency.js
+    test: ./leetcode-playground/tests/3601-find-drivers-with-improved-fuel-efficiency.test.js
+    leetcode_url: https://leetcode.com/problems/find-drivers-with-improved-fuel-efficiency/
+    notes: ""
+
+  - id: 94
+    number: "3611"
+    name: find-overbooked-employees
+    difficulty: medium
+    solution: ./leetcode-playground/3611-find-overbooked-employees.js
+    test: ./leetcode-playground/tests/3611-find-overbooked-employees.test.js
+    leetcode_url: https://leetcode.com/problems/find-overbooked-employees/
+    notes: ""
+

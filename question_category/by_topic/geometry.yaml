@@ -1,0 +1,355 @@
+# Topic: Geometry
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+geometry:
+  - id: 1
+    number: "0149"
+    name: max-points-on-a-line
+    difficulty: hard
+    solution: ./leetcode-playground/0149-max-points-on-a-line.js
+    test: ./leetcode-playground/tests/0149-max-points-on-a-line.test.js
+    leetcode_url: https://leetcode.com/problems/max-points-on-a-line/
+    notes: ""
+
+  - id: 2
+    number: "0223"
+    name: rectangle-area
+    difficulty: medium
+    solution: ./leetcode-playground/0223-rectangle-area.js
+    test: ./leetcode-playground/tests/0223-rectangle-area.test.js
+    leetcode_url: https://leetcode.com/problems/rectangle-area/
+    notes: ""
+
+  - id: 3
+    number: "0335"
+    name: self-crossing
+    difficulty: hard
+    solution: ./leetcode-playground/0335-self-crossing.js
+    test: ./leetcode-playground/tests/0335-self-crossing.test.js
+    leetcode_url: https://leetcode.com/problems/self-crossing/
+    notes: ""
+
+  - id: 4
+    number: "0391"
+    name: perfect-rectangle
+    difficulty: hard
+    solution: ./leetcode-playground/0391-perfect-rectangle.js
+    test: ./leetcode-playground/tests/0391-perfect-rectangle.test.js
+    leetcode_url: https://leetcode.com/problems/perfect-rectangle/
+    notes: ""
+
+  - id: 5
+    number: "0478"
+    name: generate-random-point-in-a-circle
+    difficulty: medium
+    solution: ./leetcode-playground/0478-generate-random-point-in-a-circle.js
+    test: ./leetcode-playground/tests/0478-generate-random-point-in-a-circle.test.js
+    leetcode_url: https://leetcode.com/problems/generate-random-point-in-a-circle/
+    notes: ""
+
+  - id: 6
+    number: "0587"
+    name: erect-the-fence
+    difficulty: hard
+    solution: ./leetcode-playground/0587-erect-the-fence.js
+    test: ./leetcode-playground/tests/0587-erect-the-fence.test.js
+    leetcode_url: https://leetcode.com/problems/erect-the-fence/
+    notes: ""
+
+  - id: 7
+    number: "0593"
+    name: valid-square
+    difficulty: medium
+    solution: ./leetcode-playground/0593-valid-square.js
+    test: ./leetcode-playground/tests/0593-valid-square.test.js
+    leetcode_url: https://leetcode.com/problems/valid-square/
+    notes: ""
+
+  - id: 8
+    number: "0812"
+    name: largest-triangle-area
+    difficulty: easy
+    solution: ./leetcode-playground/0812-largest-triangle-area.js
+    test: ./leetcode-playground/tests/0812-largest-triangle-area.test.js
+    leetcode_url: https://leetcode.com/problems/largest-triangle-area/
+    notes: ""
+
+  - id: 9
+    number: "0836"
+    name: rectangle-overlap
+    difficulty: easy
+    solution: ./leetcode-playground/0836-rectangle-overlap.js
+    test: ./leetcode-playground/tests/0836-rectangle-overlap.test.js
+    leetcode_url: https://leetcode.com/problems/rectangle-overlap/
+    notes: ""
+
+  - id: 10
+    number: "0858"
+    name: mirror-reflection
+    difficulty: medium
+    solution: ./leetcode-playground/0858-mirror-reflection.js
+    test: ./leetcode-playground/tests/0858-mirror-reflection.test.js
+    leetcode_url: https://leetcode.com/problems/mirror-reflection/
+    notes: ""
+
+  - id: 11
+    number: "0883"
+    name: projection-area-of-3d-shapes
+    difficulty: easy
+    solution: ./leetcode-playground/0883-projection-area-of-3d-shapes.js
+    test: ./leetcode-playground/tests/0883-projection-area-of-3d-shapes.test.js
+    leetcode_url: https://leetcode.com/problems/projection-area-of-3d-shapes/
+    notes: ""
+
+  - id: 12
+    number: "0892"
+    name: surface-area-of-3d-shapes
+    difficulty: easy
+    solution: ./leetcode-playground/0892-surface-area-of-3d-shapes.js
+    test: ./leetcode-playground/tests/0892-surface-area-of-3d-shapes.test.js
+    leetcode_url: https://leetcode.com/problems/surface-area-of-3d-shapes/
+    notes: ""
+
+  - id: 13
+    number: "0939"
+    name: minimum-area-rectangle
+    difficulty: medium
+    solution: ./leetcode-playground/0939-minimum-area-rectangle.js
+    test: ./leetcode-playground/tests/0939-minimum-area-rectangle.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-area-rectangle/
+    notes: ""
+
+  - id: 14
+    number: "0963"
+    name: minimum-area-rectangle-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0963-minimum-area-rectangle-ii.js
+    test: ./leetcode-playground/tests/0963-minimum-area-rectangle-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-area-rectangle-ii/
+    notes: ""
+
+  - id: 15
+    number: "0973"
+    name: k-closest-points-to-origin
+    difficulty: medium
+    solution: ./leetcode-playground/0973-k-closest-points-to-origin.js
+    test: ./leetcode-playground/tests/0973-k-closest-points-to-origin.test.js
+    leetcode_url: https://leetcode.com/problems/k-closest-points-to-origin/
+    notes: ""
+
+  - id: 16
+    number: "1030"
+    name: matrix-cells-in-distance-order
+    difficulty: easy
+    solution: ./leetcode-playground/1030-matrix-cells-in-distance-order.js
+    test: ./leetcode-playground/tests/1030-matrix-cells-in-distance-order.test.js
+    leetcode_url: https://leetcode.com/problems/matrix-cells-in-distance-order/
+    notes: ""
+
+  - id: 17
+    number: "1037"
+    name: valid-boomerang
+    difficulty: easy
+    solution: ./leetcode-playground/1037-valid-boomerang.js
+    test: ./leetcode-playground/tests/1037-valid-boomerang.test.js
+    leetcode_url: https://leetcode.com/problems/valid-boomerang/
+    notes: ""
+
+  - id: 18
+    number: "1232"
+    name: check-if-it-is-a-straight-line
+    difficulty: easy
+    solution: ./leetcode-playground/1232-check-if-it-is-a-straight-line.js
+    test: ./leetcode-playground/tests/1232-check-if-it-is-a-straight-line.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-it-is-a-straight-line/
+    notes: ""
+
+  - id: 19
+    number: "1266"
+    name: minimum-time-visiting-all-points
+    difficulty: easy
+    solution: ./leetcode-playground/1266-minimum-time-visiting-all-points.js
+    test: ./leetcode-playground/tests/1266-minimum-time-visiting-all-points.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-time-visiting-all-points/
+    notes: ""
+
+  - id: 20
+    number: "1401"
+    name: circle-and-rectangle-overlapping
+    difficulty: medium
+    solution: ./leetcode-playground/1401-circle-and-rectangle-overlapping.js
+    test: ./leetcode-playground/tests/1401-circle-and-rectangle-overlapping.test.js
+    leetcode_url: https://leetcode.com/problems/circle-and-rectangle-overlapping/
+    notes: ""
+
+  - id: 21
+    number: "1453"
+    name: maximum-number-of-darts-inside-of-a-circular-dartboard
+    difficulty: hard
+    solution: ./leetcode-playground/1453-maximum-number-of-darts-inside-of-a-circular-dartboard.js
+    test: ./leetcode-playground/tests/1453-maximum-number-of-darts-inside-of-a-circular-dartboard.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/
+    notes: ""
+
+  - id: 22
+    number: "1515"
+    name: best-position-for-a-service-centre
+    difficulty: hard
+    solution: ./leetcode-playground/1515-best-position-for-a-service-centre.js
+    test: ./leetcode-playground/tests/1515-best-position-for-a-service-centre.test.js
+    leetcode_url: https://leetcode.com/problems/best-position-for-a-service-centre/
+    notes: ""
+
+  - id: 23
+    number: "1610"
+    name: maximum-number-of-visible-points
+    difficulty: hard
+    solution: ./leetcode-playground/1610-maximum-number-of-visible-points.js
+    test: ./leetcode-playground/tests/1610-maximum-number-of-visible-points.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-visible-points/
+    notes: ""
+
+  - id: 24
+    number: "1828"
+    name: queries-on-number-of-points-inside-a-circle
+    difficulty: medium
+    solution: ./leetcode-playground/1828-queries-on-number-of-points-inside-a-circle.js
+    test: ./leetcode-playground/tests/1828-queries-on-number-of-points-inside-a-circle.test.js
+    leetcode_url: https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
+    notes: ""
+
+  - id: 25
+    number: "2101"
+    name: detonate-the-maximum-bombs
+    difficulty: medium
+    solution: ./leetcode-playground/2101-detonate-the-maximum-bombs.js
+    test: ./leetcode-playground/tests/2101-detonate-the-maximum-bombs.test.js
+    leetcode_url: https://leetcode.com/problems/detonate-the-maximum-bombs/
+    notes: ""
+
+  - id: 26
+    number: "2249"
+    name: count-lattice-points-inside-a-circle
+    difficulty: medium
+    solution: ./leetcode-playground/2249-count-lattice-points-inside-a-circle.js
+    test: ./leetcode-playground/tests/2249-count-lattice-points-inside-a-circle.test.js
+    leetcode_url: https://leetcode.com/problems/count-lattice-points-inside-a-circle/
+    notes: ""
+
+  - id: 27
+    number: "2280"
+    name: minimum-lines-to-represent-a-line-chart
+    difficulty: medium
+    solution: ./leetcode-playground/2280-minimum-lines-to-represent-a-line-chart.js
+    test: ./leetcode-playground/tests/2280-minimum-lines-to-represent-a-line-chart.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/
+    notes: ""
+
+  - id: 28
+    number: "2481"
+    name: minimum-cuts-to-divide-a-circle
+    difficulty: easy
+    solution: ./leetcode-playground/2481-minimum-cuts-to-divide-a-circle.js
+    test: ./leetcode-playground/tests/2481-minimum-cuts-to-divide-a-circle.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/
+    notes: ""
+
+  - id: 29
+    number: "3025"
+    name: find-the-number-of-ways-to-place-people-i
+    difficulty: medium
+    solution: ./leetcode-playground/3025-find-the-number-of-ways-to-place-people-i.js
+    test: ./leetcode-playground/tests/3025-find-the-number-of-ways-to-place-people-i.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/
+    notes: ""
+
+  - id: 30
+    number: "3027"
+    name: find-the-number-of-ways-to-place-people-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3027-find-the-number-of-ways-to-place-people-ii.js
+    test: ./leetcode-playground/tests/3027-find-the-number-of-ways-to-place-people-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/
+    notes: ""
+
+  - id: 31
+    number: "3047"
+    name: find-the-largest-area-of-square-inside-two-rectangles
+    difficulty: medium
+    solution: ./leetcode-playground/3047-find-the-largest-area-of-square-inside-two-rectangles.js
+    test: ./leetcode-playground/tests/3047-find-the-largest-area-of-square-inside-two-rectangles.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/
+    notes: ""
+
+  - id: 32
+    number: "3102"
+    name: minimize-manhattan-distances
+    difficulty: hard
+    solution: ./leetcode-playground/3102-minimize-manhattan-distances.js
+    test: ./leetcode-playground/tests/3102-minimize-manhattan-distances.test.js
+    leetcode_url: https://leetcode.com/problems/minimize-manhattan-distances/
+    notes: ""
+
+  - id: 33
+    number: "3235"
+    name: check-if-the-rectangle-corner-is-reachable
+    difficulty: hard
+    solution: ./leetcode-playground/3235-check-if-the-rectangle-corner-is-reachable.js
+    test: ./leetcode-playground/tests/3235-check-if-the-rectangle-corner-is-reachable.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable/
+    notes: ""
+
+  - id: 34
+    number: "3380"
+    name: maximum-area-rectangle-with-point-constraints-i
+    difficulty: medium
+    solution: ./leetcode-playground/3380-maximum-area-rectangle-with-point-constraints-i.js
+    test: ./leetcode-playground/tests/3380-maximum-area-rectangle-with-point-constraints-i.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/
+    notes: ""
+
+  - id: 35
+    number: "3382"
+    name: maximum-area-rectangle-with-point-constraints-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3382-maximum-area-rectangle-with-point-constraints-ii.js
+    test: ./leetcode-playground/tests/3382-maximum-area-rectangle-with-point-constraints-ii.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii/
+    notes: ""
+
+  - id: 36
+    number: "3464"
+    name: maximize-the-distance-between-points-on-a-square
+    difficulty: hard
+    solution: ./leetcode-playground/3464-maximize-the-distance-between-points-on-a-square.js
+    test: ./leetcode-playground/tests/3464-maximize-the-distance-between-points-on-a-square.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/
+    notes: ""
+
+  - id: 37
+    number: "3588"
+    name: find-maximum-area-of-a-triangle
+    difficulty: medium
+    solution: ./leetcode-playground/3588-find-maximum-area-of-a-triangle.js
+    test: ./leetcode-playground/tests/3588-find-maximum-area-of-a-triangle.test.js
+    leetcode_url: https://leetcode.com/problems/find-maximum-area-of-a-triangle/
+    notes: ""
+
+  - id: 38
+    number: "3623"
+    name: count-number-of-trapezoids-i
+    difficulty: medium
+    solution: ./leetcode-playground/3623-count-number-of-trapezoids-i.js
+    test: ./leetcode-playground/tests/3623-count-number-of-trapezoids-i.test.js
+    leetcode_url: https://leetcode.com/problems/count-number-of-trapezoids-i/
+    notes: ""
+
+  - id: 39
+    number: "3625"
+    name: count-number-of-trapezoids-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3625-count-number-of-trapezoids-ii.js
+    test: ./leetcode-playground/tests/3625-count-number-of-trapezoids-ii.test.js
+    leetcode_url: https://leetcode.com/problems/count-number-of-trapezoids-ii/
+    notes: ""
+

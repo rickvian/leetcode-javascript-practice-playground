@@ -1,0 +1,13 @@
+/**
+ * Minimum Cost to Cut a Stick
+ *
+ * https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/
+ *
+ * @param {*} param
+ * @return {*}
+ */
+var minimumCostToCutAStick = function(param) {
+    // implement
+};
+
+export { minimumCostToCutAStick };

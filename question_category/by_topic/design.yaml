@@ -1,0 +1,877 @@
+# Topic: Design
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+design:
+  - id: 1
+    number: "0146"
+    name: lru-cache
+    difficulty: medium
+    solution: ./leetcode-playground/0146-lru-cache.js
+    test: ./leetcode-playground/tests/0146-lru-cache.test.js
+    leetcode_url: https://leetcode.com/problems/lru-cache/
+    notes: ""
+
+  - id: 2
+    number: "0155"
+    name: min-stack
+    difficulty: medium
+    solution: ./leetcode-playground/0155-min-stack.js
+    test: ./leetcode-playground/tests/0155-min-stack.test.js
+    leetcode_url: https://leetcode.com/problems/min-stack/
+    notes: ""
+
+  - id: 3
+    number: "0173"
+    name: binary-search-tree-iterator
+    difficulty: medium
+    solution: ./leetcode-playground/0173-binary-search-tree-iterator.js
+    test: ./leetcode-playground/tests/0173-binary-search-tree-iterator.test.js
+    leetcode_url: https://leetcode.com/problems/binary-search-tree-iterator/
+    notes: ""
+
+  - id: 4
+    number: "0208"
+    name: implement-trie-prefix-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0208-implement-trie-prefix-tree.js
+    test: ./leetcode-playground/tests/0208-implement-trie-prefix-tree.test.js
+    leetcode_url: https://leetcode.com/problems/implement-trie-prefix-tree/
+    notes: ""
+
+  - id: 5
+    number: "0211"
+    name: design-add-and-search-words-data-structure
+    difficulty: medium
+    solution: ./leetcode-playground/0211-design-add-and-search-words-data-structure.js
+    test: ./leetcode-playground/tests/0211-design-add-and-search-words-data-structure.test.js
+    leetcode_url: https://leetcode.com/problems/design-add-and-search-words-data-structure/
+    notes: ""
+
+  - id: 6
+    number: "0225"
+    name: implement-stack-using-queues
+    difficulty: easy
+    solution: ./leetcode-playground/0225-implement-stack-using-queues.js
+    test: ./leetcode-playground/tests/0225-implement-stack-using-queues.test.js
+    leetcode_url: https://leetcode.com/problems/implement-stack-using-queues/
+    notes: ""
+
+  - id: 7
+    number: "0232"
+    name: implement-queue-using-stacks
+    difficulty: easy
+    solution: ./leetcode-playground/0232-implement-queue-using-stacks.js
+    test: ./leetcode-playground/tests/0232-implement-queue-using-stacks.test.js
+    leetcode_url: https://leetcode.com/problems/implement-queue-using-stacks/
+    notes: ""
+
+  - id: 8
+    number: "0284"
+    name: peeking-iterator
+    difficulty: medium
+    solution: ./leetcode-playground/0284-peeking-iterator.js
+    test: ./leetcode-playground/tests/0284-peeking-iterator.test.js
+    leetcode_url: https://leetcode.com/problems/peeking-iterator/
+    notes: ""
+
+  - id: 9
+    number: "0295"
+    name: find-median-from-data-stream
+    difficulty: hard
+    solution: ./leetcode-playground/0295-find-median-from-data-stream.js
+    test: ./leetcode-playground/tests/0295-find-median-from-data-stream.test.js
+    leetcode_url: https://leetcode.com/problems/find-median-from-data-stream/
+    notes: ""
+
+  - id: 10
+    number: "0297"
+    name: serialize-and-deserialize-binary-tree
+    difficulty: hard
+    solution: ./leetcode-playground/0297-serialize-and-deserialize-binary-tree.js
+    test: ./leetcode-playground/tests/0297-serialize-and-deserialize-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+    notes: ""
+
+  - id: 11
+    number: "0303"
+    name: range-sum-query-immutable
+    difficulty: easy
+    solution: ./leetcode-playground/0303-range-sum-query-immutable.js
+    test: ./leetcode-playground/tests/0303-range-sum-query-immutable.test.js
+    leetcode_url: https://leetcode.com/problems/range-sum-query-immutable/
+    notes: ""
+
+  - id: 12
+    number: "0304"
+    name: range-sum-query-2d-immutable
+    difficulty: medium
+    solution: ./leetcode-playground/0304-range-sum-query-2d-immutable.js
+    test: ./leetcode-playground/tests/0304-range-sum-query-2d-immutable.test.js
+    leetcode_url: https://leetcode.com/problems/range-sum-query-2d-immutable/
+    notes: ""
+
+  - id: 13
+    number: "0307"
+    name: range-sum-query-mutable
+    difficulty: medium
+    solution: ./leetcode-playground/0307-range-sum-query-mutable.js
+    test: ./leetcode-playground/tests/0307-range-sum-query-mutable.test.js
+    leetcode_url: https://leetcode.com/problems/range-sum-query-mutable/
+    notes: ""
+
+  - id: 14
+    number: "0341"
+    name: flatten-nested-list-iterator
+    difficulty: medium
+    solution: ./leetcode-playground/0341-flatten-nested-list-iterator.js
+    test: ./leetcode-playground/tests/0341-flatten-nested-list-iterator.test.js
+    leetcode_url: https://leetcode.com/problems/flatten-nested-list-iterator/
+    notes: ""
+
+  - id: 15
+    number: "0352"
+    name: data-stream-as-disjoint-intervals
+    difficulty: hard
+    solution: ./leetcode-playground/0352-data-stream-as-disjoint-intervals.js
+    test: ./leetcode-playground/tests/0352-data-stream-as-disjoint-intervals.test.js
+    leetcode_url: https://leetcode.com/problems/data-stream-as-disjoint-intervals/
+    notes: ""
+
+  - id: 16
+    number: "0355"
+    name: design-twitter
+    difficulty: medium
+    solution: ./leetcode-playground/0355-design-twitter.js
+    test: ./leetcode-playground/tests/0355-design-twitter.test.js
+    leetcode_url: https://leetcode.com/problems/design-twitter/
+    notes: ""
+
+  - id: 17
+    number: "0380"
+    name: insert-delete-getrandom-o1
+    difficulty: medium
+    solution: ./leetcode-playground/0380-insert-delete-getrandom-o1.js
+    test: ./leetcode-playground/tests/0380-insert-delete-getrandom-o1.test.js
+    leetcode_url: https://leetcode.com/problems/insert-delete-getrandom-o1/
+    notes: ""
+
+  - id: 18
+    number: "0381"
+    name: insert-delete-getrandom-o1-duplicates-allowed
+    difficulty: hard
+    solution: ./leetcode-playground/0381-insert-delete-getrandom-o1-duplicates-allowed.js
+    test: ./leetcode-playground/tests/0381-insert-delete-getrandom-o1-duplicates-allowed.test.js
+    leetcode_url: https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
+    notes: ""
+
+  - id: 19
+    number: "0384"
+    name: shuffle-an-array
+    difficulty: medium
+    solution: ./leetcode-playground/0384-shuffle-an-array.js
+    test: ./leetcode-playground/tests/0384-shuffle-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/shuffle-an-array/
+    notes: ""
+
+  - id: 20
+    number: "0432"
+    name: all-oone-data-structure
+    difficulty: hard
+    solution: ./leetcode-playground/0432-all-oone-data-structure.js
+    test: ./leetcode-playground/tests/0432-all-oone-data-structure.test.js
+    leetcode_url: https://leetcode.com/problems/all-oone-data-structure/
+    notes: ""
+
+  - id: 21
+    number: "0449"
+    name: serialize-and-deserialize-bst
+    difficulty: medium
+    solution: ./leetcode-playground/0449-serialize-and-deserialize-bst.js
+    test: ./leetcode-playground/tests/0449-serialize-and-deserialize-bst.test.js
+    leetcode_url: https://leetcode.com/problems/serialize-and-deserialize-bst/
+    notes: ""
+
+  - id: 22
+    number: "0460"
+    name: lfu-cache
+    difficulty: hard
+    solution: ./leetcode-playground/0460-lfu-cache.js
+    test: ./leetcode-playground/tests/0460-lfu-cache.test.js
+    leetcode_url: https://leetcode.com/problems/lfu-cache/
+    notes: ""
+
+  - id: 23
+    number: "0535"
+    name: encode-and-decode-tinyurl
+    difficulty: medium
+    solution: ./leetcode-playground/0535-encode-and-decode-tinyurl.js
+    test: ./leetcode-playground/tests/0535-encode-and-decode-tinyurl.test.js
+    leetcode_url: https://leetcode.com/problems/encode-and-decode-tinyurl/
+    notes: ""
+
+  - id: 24
+    number: "0622"
+    name: design-circular-queue
+    difficulty: medium
+    solution: ./leetcode-playground/0622-design-circular-queue.js
+    test: ./leetcode-playground/tests/0622-design-circular-queue.test.js
+    leetcode_url: https://leetcode.com/problems/design-circular-queue/
+    notes: ""
+
+  - id: 25
+    number: "0641"
+    name: design-circular-deque
+    difficulty: medium
+    solution: ./leetcode-playground/0641-design-circular-deque.js
+    test: ./leetcode-playground/tests/0641-design-circular-deque.test.js
+    leetcode_url: https://leetcode.com/problems/design-circular-deque/
+    notes: ""
+
+  - id: 26
+    number: "0676"
+    name: implement-magic-dictionary
+    difficulty: medium
+    solution: ./leetcode-playground/0676-implement-magic-dictionary.js
+    test: ./leetcode-playground/tests/0676-implement-magic-dictionary.test.js
+    leetcode_url: https://leetcode.com/problems/implement-magic-dictionary/
+    notes: ""
+
+  - id: 27
+    number: "0677"
+    name: map-sum-pairs
+    difficulty: medium
+    solution: ./leetcode-playground/0677-map-sum-pairs.js
+    test: ./leetcode-playground/tests/0677-map-sum-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/map-sum-pairs/
+    notes: ""
+
+  - id: 28
+    number: "0703"
+    name: kth-largest-element-in-a-stream
+    difficulty: easy
+    solution: ./leetcode-playground/0703-kth-largest-element-in-a-stream.js
+    test: ./leetcode-playground/tests/0703-kth-largest-element-in-a-stream.test.js
+    leetcode_url: https://leetcode.com/problems/kth-largest-element-in-a-stream/
+    notes: ""
+
+  - id: 29
+    number: "0705"
+    name: design-hashset
+    difficulty: easy
+    solution: ./leetcode-playground/0705-design-hashset.js
+    test: ./leetcode-playground/tests/0705-design-hashset.test.js
+    leetcode_url: https://leetcode.com/problems/design-hashset/
+    notes: ""
+
+  - id: 30
+    number: "0706"
+    name: design-hashmap
+    difficulty: easy
+    solution: ./leetcode-playground/0706-design-hashmap.js
+    test: ./leetcode-playground/tests/0706-design-hashmap.test.js
+    leetcode_url: https://leetcode.com/problems/design-hashmap/
+    notes: ""
+
+  - id: 31
+    number: "0707"
+    name: design-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/0707-design-linked-list.js
+    test: ./leetcode-playground/tests/0707-design-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/design-linked-list/
+    notes: ""
+
+  - id: 32
+    number: "0715"
+    name: range-module
+    difficulty: hard
+    solution: ./leetcode-playground/0715-range-module.js
+    test: ./leetcode-playground/tests/0715-range-module.test.js
+    leetcode_url: https://leetcode.com/problems/range-module/
+    notes: ""
+
+  - id: 33
+    number: "0729"
+    name: my-calendar-i
+    difficulty: medium
+    solution: ./leetcode-playground/0729-my-calendar-i.js
+    test: ./leetcode-playground/tests/0729-my-calendar-i.test.js
+    leetcode_url: https://leetcode.com/problems/my-calendar-i/
+    notes: ""
+
+  - id: 34
+    number: "0731"
+    name: my-calendar-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0731-my-calendar-ii.js
+    test: ./leetcode-playground/tests/0731-my-calendar-ii.test.js
+    leetcode_url: https://leetcode.com/problems/my-calendar-ii/
+    notes: ""
+
+  - id: 35
+    number: "0732"
+    name: my-calendar-iii
+    difficulty: hard
+    solution: ./leetcode-playground/0732-my-calendar-iii.js
+    test: ./leetcode-playground/tests/0732-my-calendar-iii.test.js
+    leetcode_url: https://leetcode.com/problems/my-calendar-iii/
+    notes: ""
+
+  - id: 36
+    number: "0745"
+    name: prefix-and-suffix-search
+    difficulty: hard
+    solution: ./leetcode-playground/0745-prefix-and-suffix-search.js
+    test: ./leetcode-playground/tests/0745-prefix-and-suffix-search.test.js
+    leetcode_url: https://leetcode.com/problems/prefix-and-suffix-search/
+    notes: ""
+
+  - id: 37
+    number: "0855"
+    name: exam-room
+    difficulty: medium
+    solution: ./leetcode-playground/0855-exam-room.js
+    test: ./leetcode-playground/tests/0855-exam-room.test.js
+    leetcode_url: https://leetcode.com/problems/exam-room/
+    notes: ""
+
+  - id: 38
+    number: "0895"
+    name: maximum-frequency-stack
+    difficulty: hard
+    solution: ./leetcode-playground/0895-maximum-frequency-stack.js
+    test: ./leetcode-playground/tests/0895-maximum-frequency-stack.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-frequency-stack/
+    notes: ""
+
+  - id: 39
+    number: "0900"
+    name: rle-iterator
+    difficulty: medium
+    solution: ./leetcode-playground/0900-rle-iterator.js
+    test: ./leetcode-playground/tests/0900-rle-iterator.test.js
+    leetcode_url: https://leetcode.com/problems/rle-iterator/
+    notes: ""
+
+  - id: 40
+    number: "0901"
+    name: online-stock-span
+    difficulty: medium
+    solution: ./leetcode-playground/0901-online-stock-span.js
+    test: ./leetcode-playground/tests/0901-online-stock-span.test.js
+    leetcode_url: https://leetcode.com/problems/online-stock-span/
+    notes: ""
+
+  - id: 41
+    number: "0911"
+    name: online-election
+    difficulty: medium
+    solution: ./leetcode-playground/0911-online-election.js
+    test: ./leetcode-playground/tests/0911-online-election.test.js
+    leetcode_url: https://leetcode.com/problems/online-election/
+    notes: ""
+
+  - id: 42
+    number: "0919"
+    name: complete-binary-tree-inserter
+    difficulty: medium
+    solution: ./leetcode-playground/0919-complete-binary-tree-inserter.js
+    test: ./leetcode-playground/tests/0919-complete-binary-tree-inserter.test.js
+    leetcode_url: https://leetcode.com/problems/complete-binary-tree-inserter/
+    notes: ""
+
+  - id: 43
+    number: "0933"
+    name: number-of-recent-calls
+    difficulty: easy
+    solution: ./leetcode-playground/0933-number-of-recent-calls.js
+    test: ./leetcode-playground/tests/0933-number-of-recent-calls.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-recent-calls/
+    notes: ""
+
+  - id: 44
+    number: "0981"
+    name: time-based-key-value-store
+    difficulty: medium
+    solution: ./leetcode-playground/0981-time-based-key-value-store.js
+    test: ./leetcode-playground/tests/0981-time-based-key-value-store.test.js
+    leetcode_url: https://leetcode.com/problems/time-based-key-value-store/
+    notes: ""
+
+  - id: 45
+    number: "1032"
+    name: stream-of-characters
+    difficulty: hard
+    solution: ./leetcode-playground/1032-stream-of-characters.js
+    test: ./leetcode-playground/tests/1032-stream-of-characters.test.js
+    leetcode_url: https://leetcode.com/problems/stream-of-characters/
+    notes: ""
+
+  - id: 46
+    number: "1146"
+    name: snapshot-array
+    difficulty: medium
+    solution: ./leetcode-playground/1146-snapshot-array.js
+    test: ./leetcode-playground/tests/1146-snapshot-array.test.js
+    leetcode_url: https://leetcode.com/problems/snapshot-array/
+    notes: ""
+
+  - id: 47
+    number: "1157"
+    name: online-majority-element-in-subarray
+    difficulty: hard
+    solution: ./leetcode-playground/1157-online-majority-element-in-subarray.js
+    test: ./leetcode-playground/tests/1157-online-majority-element-in-subarray.test.js
+    leetcode_url: https://leetcode.com/problems/online-majority-element-in-subarray/
+    notes: ""
+
+  - id: 48
+    number: "1172"
+    name: dinner-plate-stacks
+    difficulty: hard
+    solution: ./leetcode-playground/1172-dinner-plate-stacks.js
+    test: ./leetcode-playground/tests/1172-dinner-plate-stacks.test.js
+    leetcode_url: https://leetcode.com/problems/dinner-plate-stacks/
+    notes: ""
+
+  - id: 49
+    number: "1206"
+    name: design-skiplist
+    difficulty: hard
+    solution: ./leetcode-playground/1206-design-skiplist.js
+    test: ./leetcode-playground/tests/1206-design-skiplist.test.js
+    leetcode_url: https://leetcode.com/problems/design-skiplist/
+    notes: ""
+
+  - id: 50
+    number: "1261"
+    name: find-elements-in-a-contaminated-binary-tree
+    difficulty: medium
+    solution: ./leetcode-playground/1261-find-elements-in-a-contaminated-binary-tree.js
+    test: ./leetcode-playground/tests/1261-find-elements-in-a-contaminated-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/
+    notes: ""
+
+  - id: 51
+    number: "1286"
+    name: iterator-for-combination
+    difficulty: medium
+    solution: ./leetcode-playground/1286-iterator-for-combination.js
+    test: ./leetcode-playground/tests/1286-iterator-for-combination.test.js
+    leetcode_url: https://leetcode.com/problems/iterator-for-combination/
+    notes: ""
+
+  - id: 52
+    number: "1348"
+    name: tweet-counts-per-frequency
+    difficulty: medium
+    solution: ./leetcode-playground/1348-tweet-counts-per-frequency.js
+    test: ./leetcode-playground/tests/1348-tweet-counts-per-frequency.test.js
+    leetcode_url: https://leetcode.com/problems/tweet-counts-per-frequency/
+    notes: ""
+
+  - id: 53
+    number: "1352"
+    name: product-of-the-last-k-numbers
+    difficulty: medium
+    solution: ./leetcode-playground/1352-product-of-the-last-k-numbers.js
+    test: ./leetcode-playground/tests/1352-product-of-the-last-k-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/product-of-the-last-k-numbers/
+    notes: ""
+
+  - id: 54
+    number: "1357"
+    name: apply-discount-every-n-orders
+    difficulty: medium
+    solution: ./leetcode-playground/1357-apply-discount-every-n-orders.js
+    test: ./leetcode-playground/tests/1357-apply-discount-every-n-orders.test.js
+    leetcode_url: https://leetcode.com/problems/apply-discount-every-n-orders/
+    notes: ""
+
+  - id: 55
+    number: "1381"
+    name: design-a-stack-with-increment-operation
+    difficulty: medium
+    solution: ./leetcode-playground/1381-design-a-stack-with-increment-operation.js
+    test: ./leetcode-playground/tests/1381-design-a-stack-with-increment-operation.test.js
+    leetcode_url: https://leetcode.com/problems/design-a-stack-with-increment-operation/
+    notes: ""
+
+  - id: 56
+    number: "1396"
+    name: design-underground-system
+    difficulty: medium
+    solution: ./leetcode-playground/1396-design-underground-system.js
+    test: ./leetcode-playground/tests/1396-design-underground-system.test.js
+    leetcode_url: https://leetcode.com/problems/design-underground-system/
+    notes: ""
+
+  - id: 57
+    number: "1472"
+    name: design-browser-history
+    difficulty: medium
+    solution: ./leetcode-playground/1472-design-browser-history.js
+    test: ./leetcode-playground/tests/1472-design-browser-history.test.js
+    leetcode_url: https://leetcode.com/problems/design-browser-history/
+    notes: ""
+
+  - id: 58
+    number: "1476"
+    name: subrectangle-queries
+    difficulty: medium
+    solution: ./leetcode-playground/1476-subrectangle-queries.js
+    test: ./leetcode-playground/tests/1476-subrectangle-queries.test.js
+    leetcode_url: https://leetcode.com/problems/subrectangle-queries/
+    notes: ""
+
+  - id: 59
+    number: "1483"
+    name: kth-ancestor-of-a-tree-node
+    difficulty: hard
+    solution: ./leetcode-playground/1483-kth-ancestor-of-a-tree-node.js
+    test: ./leetcode-playground/tests/1483-kth-ancestor-of-a-tree-node.test.js
+    leetcode_url: https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
+    notes: ""
+
+  - id: 60
+    number: "1600"
+    name: throne-inheritance
+    difficulty: medium
+    solution: ./leetcode-playground/1600-throne-inheritance.js
+    test: ./leetcode-playground/tests/1600-throne-inheritance.test.js
+    leetcode_url: https://leetcode.com/problems/throne-inheritance/
+    notes: ""
+
+  - id: 61
+    number: "1603"
+    name: design-parking-system
+    difficulty: easy
+    solution: ./leetcode-playground/1603-design-parking-system.js
+    test: ./leetcode-playground/tests/1603-design-parking-system.test.js
+    leetcode_url: https://leetcode.com/problems/design-parking-system/
+    notes: ""
+
+  - id: 62
+    number: "1622"
+    name: fancy-sequence
+    difficulty: hard
+    solution: ./leetcode-playground/1622-fancy-sequence.js
+    test: ./leetcode-playground/tests/1622-fancy-sequence.test.js
+    leetcode_url: https://leetcode.com/problems/fancy-sequence/
+    notes: ""
+
+  - id: 63
+    number: "1656"
+    name: design-an-ordered-stream
+    difficulty: easy
+    solution: ./leetcode-playground/1656-design-an-ordered-stream.js
+    test: ./leetcode-playground/tests/1656-design-an-ordered-stream.test.js
+    leetcode_url: https://leetcode.com/problems/design-an-ordered-stream/
+    notes: ""
+
+  - id: 64
+    number: "1670"
+    name: design-front-middle-back-queue
+    difficulty: medium
+    solution: ./leetcode-playground/1670-design-front-middle-back-queue.js
+    test: ./leetcode-playground/tests/1670-design-front-middle-back-queue.test.js
+    leetcode_url: https://leetcode.com/problems/design-front-middle-back-queue/
+    notes: ""
+
+  - id: 65
+    number: "1797"
+    name: design-authentication-manager
+    difficulty: medium
+    solution: ./leetcode-playground/1797-design-authentication-manager.js
+    test: ./leetcode-playground/tests/1797-design-authentication-manager.test.js
+    leetcode_url: https://leetcode.com/problems/design-authentication-manager/
+    notes: ""
+
+  - id: 66
+    number: "1825"
+    name: finding-mk-average
+    difficulty: hard
+    solution: ./leetcode-playground/1825-finding-mk-average.js
+    test: ./leetcode-playground/tests/1825-finding-mk-average.test.js
+    leetcode_url: https://leetcode.com/problems/finding-mk-average/
+    notes: ""
+
+  - id: 67
+    number: "1845"
+    name: seat-reservation-manager
+    difficulty: medium
+    solution: ./leetcode-playground/1845-seat-reservation-manager.js
+    test: ./leetcode-playground/tests/1845-seat-reservation-manager.test.js
+    leetcode_url: https://leetcode.com/problems/seat-reservation-manager/
+    notes: ""
+
+  - id: 68
+    number: "1865"
+    name: finding-pairs-with-a-certain-sum
+    difficulty: medium
+    solution: ./leetcode-playground/1865-finding-pairs-with-a-certain-sum.js
+    test: ./leetcode-playground/tests/1865-finding-pairs-with-a-certain-sum.test.js
+    leetcode_url: https://leetcode.com/problems/finding-pairs-with-a-certain-sum/
+    notes: ""
+
+  - id: 69
+    number: "1912"
+    name: design-movie-rental-system
+    difficulty: hard
+    solution: ./leetcode-playground/1912-design-movie-rental-system.js
+    test: ./leetcode-playground/tests/1912-design-movie-rental-system.test.js
+    leetcode_url: https://leetcode.com/problems/design-movie-rental-system/
+    notes: ""
+
+  - id: 70
+    number: "1993"
+    name: operations-on-tree
+    difficulty: medium
+    solution: ./leetcode-playground/1993-operations-on-tree.js
+    test: ./leetcode-playground/tests/1993-operations-on-tree.test.js
+    leetcode_url: https://leetcode.com/problems/operations-on-tree/
+    notes: ""
+
+  - id: 71
+    number: "2013"
+    name: detect-squares
+    difficulty: medium
+    solution: ./leetcode-playground/2013-detect-squares.js
+    test: ./leetcode-playground/tests/2013-detect-squares.test.js
+    leetcode_url: https://leetcode.com/problems/detect-squares/
+    notes: ""
+
+  - id: 72
+    number: "2034"
+    name: stock-price-fluctuation
+    difficulty: medium
+    solution: ./leetcode-playground/2034-stock-price-fluctuation.js
+    test: ./leetcode-playground/tests/2034-stock-price-fluctuation.test.js
+    leetcode_url: https://leetcode.com/problems/stock-price-fluctuation/
+    notes: ""
+
+  - id: 73
+    number: "2043"
+    name: simple-bank-system
+    difficulty: medium
+    solution: ./leetcode-playground/2043-simple-bank-system.js
+    test: ./leetcode-playground/tests/2043-simple-bank-system.test.js
+    leetcode_url: https://leetcode.com/problems/simple-bank-system/
+    notes: ""
+
+  - id: 74
+    number: "2069"
+    name: walking-robot-simulation-ii
+    difficulty: medium
+    solution: ./leetcode-playground/2069-walking-robot-simulation-ii.js
+    test: ./leetcode-playground/tests/2069-walking-robot-simulation-ii.test.js
+    leetcode_url: https://leetcode.com/problems/walking-robot-simulation-ii/
+    notes: ""
+
+  - id: 75
+    number: "2080"
+    name: range-frequency-queries
+    difficulty: medium
+    solution: ./leetcode-playground/2080-range-frequency-queries.js
+    test: ./leetcode-playground/tests/2080-range-frequency-queries.test.js
+    leetcode_url: https://leetcode.com/problems/range-frequency-queries/
+    notes: ""
+
+  - id: 76
+    number: "2102"
+    name: sequentially-ordinal-rank-tracker
+    difficulty: hard
+    solution: ./leetcode-playground/2102-sequentially-ordinal-rank-tracker.js
+    test: ./leetcode-playground/tests/2102-sequentially-ordinal-rank-tracker.test.js
+    leetcode_url: https://leetcode.com/problems/sequentially-ordinal-rank-tracker/
+    notes: ""
+
+  - id: 77
+    number: "2166"
+    name: design-bitset
+    difficulty: medium
+    solution: ./leetcode-playground/2166-design-bitset.js
+    test: ./leetcode-playground/tests/2166-design-bitset.test.js
+    leetcode_url: https://leetcode.com/problems/design-bitset/
+    notes: ""
+
+  - id: 78
+    number: "2227"
+    name: encrypt-and-decrypt-strings
+    difficulty: hard
+    solution: ./leetcode-playground/2227-encrypt-and-decrypt-strings.js
+    test: ./leetcode-playground/tests/2227-encrypt-and-decrypt-strings.test.js
+    leetcode_url: https://leetcode.com/problems/encrypt-and-decrypt-strings/
+    notes: ""
+
+  - id: 79
+    number: "2241"
+    name: design-an-atm-machine
+    difficulty: medium
+    solution: ./leetcode-playground/2241-design-an-atm-machine.js
+    test: ./leetcode-playground/tests/2241-design-an-atm-machine.test.js
+    leetcode_url: https://leetcode.com/problems/design-an-atm-machine/
+    notes: ""
+
+  - id: 80
+    number: "2276"
+    name: count-integers-in-intervals
+    difficulty: hard
+    solution: ./leetcode-playground/2276-count-integers-in-intervals.js
+    test: ./leetcode-playground/tests/2276-count-integers-in-intervals.test.js
+    leetcode_url: https://leetcode.com/problems/count-integers-in-intervals/
+    notes: ""
+
+  - id: 81
+    number: "2286"
+    name: booking-concert-tickets-in-groups
+    difficulty: hard
+    solution: ./leetcode-playground/2286-booking-concert-tickets-in-groups.js
+    test: ./leetcode-playground/tests/2286-booking-concert-tickets-in-groups.test.js
+    leetcode_url: https://leetcode.com/problems/booking-concert-tickets-in-groups/
+    notes: ""
+
+  - id: 82
+    number: "2296"
+    name: design-a-text-editor
+    difficulty: hard
+    solution: ./leetcode-playground/2296-design-a-text-editor.js
+    test: ./leetcode-playground/tests/2296-design-a-text-editor.test.js
+    leetcode_url: https://leetcode.com/problems/design-a-text-editor/
+    notes: ""
+
+  - id: 83
+    number: "2336"
+    name: smallest-number-in-infinite-set
+    difficulty: medium
+    solution: ./leetcode-playground/2336-smallest-number-in-infinite-set.js
+    test: ./leetcode-playground/tests/2336-smallest-number-in-infinite-set.test.js
+    leetcode_url: https://leetcode.com/problems/smallest-number-in-infinite-set/
+    notes: ""
+
+  - id: 84
+    number: "2349"
+    name: design-a-number-container-system
+    difficulty: medium
+    solution: ./leetcode-playground/2349-design-a-number-container-system.js
+    test: ./leetcode-playground/tests/2349-design-a-number-container-system.test.js
+    leetcode_url: https://leetcode.com/problems/design-a-number-container-system/
+    notes: ""
+
+  - id: 85
+    number: "2353"
+    name: design-a-food-rating-system
+    difficulty: medium
+    solution: ./leetcode-playground/2353-design-a-food-rating-system.js
+    test: ./leetcode-playground/tests/2353-design-a-food-rating-system.test.js
+    leetcode_url: https://leetcode.com/problems/design-a-food-rating-system/
+    notes: ""
+
+  - id: 86
+    number: "2424"
+    name: longest-uploaded-prefix
+    difficulty: medium
+    solution: ./leetcode-playground/2424-longest-uploaded-prefix.js
+    test: ./leetcode-playground/tests/2424-longest-uploaded-prefix.test.js
+    leetcode_url: https://leetcode.com/problems/longest-uploaded-prefix/
+    notes: ""
+
+  - id: 87
+    number: "2502"
+    name: design-memory-allocator
+    difficulty: medium
+    solution: ./leetcode-playground/2502-design-memory-allocator.js
+    test: ./leetcode-playground/tests/2502-design-memory-allocator.test.js
+    leetcode_url: https://leetcode.com/problems/design-memory-allocator/
+    notes: ""
+
+  - id: 88
+    number: "2526"
+    name: find-consecutive-integers-from-a-data-stream
+    difficulty: medium
+    solution: ./leetcode-playground/2526-find-consecutive-integers-from-a-data-stream.js
+    test: ./leetcode-playground/tests/2526-find-consecutive-integers-from-a-data-stream.test.js
+    leetcode_url: https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/
+    notes: ""
+
+  - id: 89
+    number: "2642"
+    name: design-graph-with-shortest-path-calculator
+    difficulty: hard
+    solution: ./leetcode-playground/2642-design-graph-with-shortest-path-calculator.js
+    test: ./leetcode-playground/tests/2642-design-graph-with-shortest-path-calculator.test.js
+    leetcode_url: https://leetcode.com/problems/design-graph-with-shortest-path-calculator/
+    notes: ""
+
+  - id: 90
+    number: "2671"
+    name: frequency-tracker
+    difficulty: medium
+    solution: ./leetcode-playground/2671-frequency-tracker.js
+    test: ./leetcode-playground/tests/2671-frequency-tracker.test.js
+    leetcode_url: https://leetcode.com/problems/frequency-tracker/
+    notes: ""
+
+  - id: 91
+    number: "3242"
+    name: design-neighbor-sum-service
+    difficulty: easy
+    solution: ./leetcode-playground/3242-design-neighbor-sum-service.js
+    test: ./leetcode-playground/tests/3242-design-neighbor-sum-service.test.js
+    leetcode_url: https://leetcode.com/problems/design-neighbor-sum-service/
+    notes: ""
+
+  - id: 92
+    number: "3408"
+    name: design-task-manager
+    difficulty: medium
+    solution: ./leetcode-playground/3408-design-task-manager.js
+    test: ./leetcode-playground/tests/3408-design-task-manager.test.js
+    leetcode_url: https://leetcode.com/problems/design-task-manager/
+    notes: ""
+
+  - id: 93
+    number: "3484"
+    name: design-spreadsheet
+    difficulty: medium
+    solution: ./leetcode-playground/3484-design-spreadsheet.js
+    test: ./leetcode-playground/tests/3484-design-spreadsheet.test.js
+    leetcode_url: https://leetcode.com/problems/design-spreadsheet/
+    notes: ""
+
+  - id: 94
+    number: "3508"
+    name: implement-router
+    difficulty: medium
+    solution: ./leetcode-playground/3508-implement-router.js
+    test: ./leetcode-playground/tests/3508-implement-router.test.js
+    leetcode_url: https://leetcode.com/problems/implement-router/
+    notes: ""
+
+  - id: 95
+    number: "3709"
+    name: design-exam-scores-tracker
+    difficulty: medium
+    solution: ./leetcode-playground/3709-design-exam-scores-tracker.js
+    test: ./leetcode-playground/tests/3709-design-exam-scores-tracker.test.js
+    leetcode_url: https://leetcode.com/problems/design-exam-scores-tracker/
+    notes: ""
+
+  - id: 96
+    number: "3815"
+    name: design-auction-system
+    difficulty: medium
+    solution: ./leetcode-playground/3815-design-auction-system.js
+    test: ./leetcode-playground/tests/3815-design-auction-system.test.js
+    leetcode_url: https://leetcode.com/problems/design-auction-system/
+    notes: ""
+
+  - id: 97
+    number: "3829"
+    name: design-ride-sharing-system
+    difficulty: medium
+    solution: ./leetcode-playground/3829-design-ride-sharing-system.js
+    test: ./leetcode-playground/tests/3829-design-ride-sharing-system.test.js
+    leetcode_url: https://leetcode.com/problems/design-ride-sharing-system/
+    notes: ""
+

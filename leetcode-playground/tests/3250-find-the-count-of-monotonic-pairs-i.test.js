@@ -1,0 +1,15 @@
+import { findTheCountOfMonotonicPairsI } from '../3250-find-the-count-of-monotonic-pairs-i.js';
+
+describe('3250-find-the-count-of-monotonic-pairs-i', () => {
+    it('should handle basic case', () => {
+        // expect(findTheCountOfMonotonicPairsI(...)).toEqual(...);
+    });
+
+    it('should handle empty / minimum input', () => {
+        // expect(findTheCountOfMonotonicPairsI(...)).toEqual(...);
+    });
+
+    it('should handle edge case', () => {
+        // expect(findTheCountOfMonotonicPairsI(...)).toEqual(...);
+    });
+});

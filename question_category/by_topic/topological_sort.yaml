@@ -1,0 +1,274 @@
+# Topic: Topological Sort
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+topological_sort:
+  - id: 1
+    number: "0207"
+    name: course-schedule
+    difficulty: medium
+    solution: ./leetcode-playground/0207-course-schedule.js
+    test: ./leetcode-playground/tests/0207-course-schedule.test.js
+    leetcode_url: https://leetcode.com/problems/course-schedule/
+    notes: ""
+
+  - id: 2
+    number: "0210"
+    name: course-schedule-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0210-course-schedule-ii.js
+    test: ./leetcode-playground/tests/0210-course-schedule-ii.test.js
+    leetcode_url: https://leetcode.com/problems/course-schedule-ii/
+    notes: ""
+
+  - id: 3
+    number: "0310"
+    name: minimum-height-trees
+    difficulty: medium
+    solution: ./leetcode-playground/0310-minimum-height-trees.js
+    test: ./leetcode-playground/tests/0310-minimum-height-trees.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-height-trees/
+    notes: ""
+
+  - id: 4
+    number: "0329"
+    name: longest-increasing-path-in-a-matrix
+    difficulty: hard
+    solution: ./leetcode-playground/0329-longest-increasing-path-in-a-matrix.js
+    test: ./leetcode-playground/tests/0329-longest-increasing-path-in-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+    notes: ""
+
+  - id: 5
+    number: "0802"
+    name: find-eventual-safe-states
+    difficulty: medium
+    solution: ./leetcode-playground/0802-find-eventual-safe-states.js
+    test: ./leetcode-playground/tests/0802-find-eventual-safe-states.test.js
+    leetcode_url: https://leetcode.com/problems/find-eventual-safe-states/
+    notes: ""
+
+  - id: 6
+    number: "0851"
+    name: loud-and-rich
+    difficulty: medium
+    solution: ./leetcode-playground/0851-loud-and-rich.js
+    test: ./leetcode-playground/tests/0851-loud-and-rich.test.js
+    leetcode_url: https://leetcode.com/problems/loud-and-rich/
+    notes: ""
+
+  - id: 7
+    number: "0913"
+    name: cat-and-mouse
+    difficulty: hard
+    solution: ./leetcode-playground/0913-cat-and-mouse.js
+    test: ./leetcode-playground/tests/0913-cat-and-mouse.test.js
+    leetcode_url: https://leetcode.com/problems/cat-and-mouse/
+    notes: ""
+
+  - id: 8
+    number: "1203"
+    name: sort-items-by-groups-respecting-dependencies
+    difficulty: hard
+    solution: ./leetcode-playground/1203-sort-items-by-groups-respecting-dependencies.js
+    test: ./leetcode-playground/tests/1203-sort-items-by-groups-respecting-dependencies.test.js
+    leetcode_url: https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
+    notes: ""
+
+  - id: 9
+    number: "1462"
+    name: course-schedule-iv
+    difficulty: medium
+    solution: ./leetcode-playground/1462-course-schedule-iv.js
+    test: ./leetcode-playground/tests/1462-course-schedule-iv.test.js
+    leetcode_url: https://leetcode.com/problems/course-schedule-iv/
+    notes: ""
+
+  - id: 10
+    number: "1591"
+    name: strange-printer-ii
+    difficulty: hard
+    solution: ./leetcode-playground/1591-strange-printer-ii.js
+    test: ./leetcode-playground/tests/1591-strange-printer-ii.test.js
+    leetcode_url: https://leetcode.com/problems/strange-printer-ii/
+    notes: ""
+
+  - id: 11
+    number: "1632"
+    name: rank-transform-of-a-matrix
+    difficulty: hard
+    solution: ./leetcode-playground/1632-rank-transform-of-a-matrix.js
+    test: ./leetcode-playground/tests/1632-rank-transform-of-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/rank-transform-of-a-matrix/
+    notes: ""
+
+  - id: 12
+    number: "1728"
+    name: cat-and-mouse-ii
+    difficulty: hard
+    solution: ./leetcode-playground/1728-cat-and-mouse-ii.js
+    test: ./leetcode-playground/tests/1728-cat-and-mouse-ii.test.js
+    leetcode_url: https://leetcode.com/problems/cat-and-mouse-ii/
+    notes: ""
+
+  - id: 13
+    number: "1786"
+    name: number-of-restricted-paths-from-first-to-last-node
+    difficulty: medium
+    solution: ./leetcode-playground/1786-number-of-restricted-paths-from-first-to-last-node.js
+    test: ./leetcode-playground/tests/1786-number-of-restricted-paths-from-first-to-last-node.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/
+    notes: ""
+
+  - id: 14
+    number: "1857"
+    name: largest-color-value-in-a-directed-graph
+    difficulty: hard
+    solution: ./leetcode-playground/1857-largest-color-value-in-a-directed-graph.js
+    test: ./leetcode-playground/tests/1857-largest-color-value-in-a-directed-graph.test.js
+    leetcode_url: https://leetcode.com/problems/largest-color-value-in-a-directed-graph/
+    notes: ""
+
+  - id: 15
+    number: "1916"
+    name: count-ways-to-build-rooms-in-an-ant-colony
+    difficulty: hard
+    solution: ./leetcode-playground/1916-count-ways-to-build-rooms-in-an-ant-colony.js
+    test: ./leetcode-playground/tests/1916-count-ways-to-build-rooms-in-an-ant-colony.test.js
+    leetcode_url: https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/
+    notes: ""
+
+  - id: 16
+    number: "1976"
+    name: number-of-ways-to-arrive-at-destination
+    difficulty: medium
+    solution: ./leetcode-playground/1976-number-of-ways-to-arrive-at-destination.js
+    test: ./leetcode-playground/tests/1976-number-of-ways-to-arrive-at-destination.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/
+    notes: ""
+
+  - id: 17
+    number: "2050"
+    name: parallel-courses-iii
+    difficulty: hard
+    solution: ./leetcode-playground/2050-parallel-courses-iii.js
+    test: ./leetcode-playground/tests/2050-parallel-courses-iii.test.js
+    leetcode_url: https://leetcode.com/problems/parallel-courses-iii/
+    notes: ""
+
+  - id: 18
+    number: "2115"
+    name: find-all-possible-recipes-from-given-supplies
+    difficulty: medium
+    solution: ./leetcode-playground/2115-find-all-possible-recipes-from-given-supplies.js
+    test: ./leetcode-playground/tests/2115-find-all-possible-recipes-from-given-supplies.test.js
+    leetcode_url: https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/
+    notes: ""
+
+  - id: 19
+    number: "2127"
+    name: maximum-employees-to-be-invited-to-a-meeting
+    difficulty: hard
+    solution: ./leetcode-playground/2127-maximum-employees-to-be-invited-to-a-meeting.js
+    test: ./leetcode-playground/tests/2127-maximum-employees-to-be-invited-to-a-meeting.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/
+    notes: ""
+
+  - id: 20
+    number: "2192"
+    name: all-ancestors-of-a-node-in-a-directed-acyclic-graph
+    difficulty: medium
+    solution: ./leetcode-playground/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph.js
+    test: ./leetcode-playground/tests/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph.test.js
+    leetcode_url: https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/
+    notes: ""
+
+  - id: 21
+    number: "2246"
+    name: longest-path-with-different-adjacent-characters
+    difficulty: hard
+    solution: ./leetcode-playground/2246-longest-path-with-different-adjacent-characters.js
+    test: ./leetcode-playground/tests/2246-longest-path-with-different-adjacent-characters.test.js
+    leetcode_url: https://leetcode.com/problems/longest-path-with-different-adjacent-characters/
+    notes: ""
+
+  - id: 22
+    number: "2328"
+    name: number-of-increasing-paths-in-a-grid
+    difficulty: hard
+    solution: ./leetcode-playground/2328-number-of-increasing-paths-in-a-grid.js
+    test: ./leetcode-playground/tests/2328-number-of-increasing-paths-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/
+    notes: ""
+
+  - id: 23
+    number: "2360"
+    name: longest-cycle-in-a-graph
+    difficulty: hard
+    solution: ./leetcode-playground/2360-longest-cycle-in-a-graph.js
+    test: ./leetcode-playground/tests/2360-longest-cycle-in-a-graph.test.js
+    leetcode_url: https://leetcode.com/problems/longest-cycle-in-a-graph/
+    notes: ""
+
+  - id: 24
+    number: "2392"
+    name: build-a-matrix-with-conditions
+    difficulty: hard
+    solution: ./leetcode-playground/2392-build-a-matrix-with-conditions.js
+    test: ./leetcode-playground/tests/2392-build-a-matrix-with-conditions.test.js
+    leetcode_url: https://leetcode.com/problems/build-a-matrix-with-conditions/
+    notes: ""
+
+  - id: 25
+    number: "2603"
+    name: collect-coins-in-a-tree
+    difficulty: hard
+    solution: ./leetcode-playground/2603-collect-coins-in-a-tree.js
+    test: ./leetcode-playground/tests/2603-collect-coins-in-a-tree.test.js
+    leetcode_url: https://leetcode.com/problems/collect-coins-in-a-tree/
+    notes: ""
+
+  - id: 26
+    number: "2876"
+    name: count-visited-nodes-in-a-directed-graph
+    difficulty: hard
+    solution: ./leetcode-playground/2876-count-visited-nodes-in-a-directed-graph.js
+    test: ./leetcode-playground/tests/2876-count-visited-nodes-in-a-directed-graph.test.js
+    leetcode_url: https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/
+    notes: ""
+
+  - id: 27
+    number: "3435"
+    name: frequencies-of-shortest-supersequences
+    difficulty: hard
+    solution: ./leetcode-playground/3435-frequencies-of-shortest-supersequences.js
+    test: ./leetcode-playground/tests/3435-frequencies-of-shortest-supersequences.test.js
+    leetcode_url: https://leetcode.com/problems/frequencies-of-shortest-supersequences/
+    notes: ""
+
+  - id: 28
+    number: "3530"
+    name: maximum-profit-from-valid-topological-order-in-dag
+    difficulty: hard
+    solution: ./leetcode-playground/3530-maximum-profit-from-valid-topological-order-in-dag.js
+    test: ./leetcode-playground/tests/3530-maximum-profit-from-valid-topological-order-in-dag.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-profit-from-valid-topological-order-in-dag/
+    notes: ""
+
+  - id: 29
+    number: "3620"
+    name: network-recovery-pathways
+    difficulty: hard
+    solution: ./leetcode-playground/3620-network-recovery-pathways.js
+    test: ./leetcode-playground/tests/3620-network-recovery-pathways.test.js
+    leetcode_url: https://leetcode.com/problems/network-recovery-pathways/
+    notes: ""
+
+  - id: 30
+    number: "3812"
+    name: minimum-edge-toggles-on-a-tree
+    difficulty: hard
+    solution: ./leetcode-playground/3812-minimum-edge-toggles-on-a-tree.js
+    test: ./leetcode-playground/tests/3812-minimum-edge-toggles-on-a-tree.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-edge-toggles-on-a-tree/
+    notes: ""
+

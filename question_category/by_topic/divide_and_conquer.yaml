@@ -1,0 +1,508 @@
+# Topic: Divide And Conquer
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+divide_and_conquer:
+  - id: 1
+    number: "0004"
+    name: median-of-two-sorted-arrays
+    difficulty: hard
+    solution: ./leetcode-playground/0004-median-of-two-sorted-arrays.js
+    test: ./leetcode-playground/tests/0004-median-of-two-sorted-arrays.test.js
+    leetcode_url: https://leetcode.com/problems/median-of-two-sorted-arrays/
+    notes: ""
+
+  - id: 2
+    number: "0023"
+    name: merge-k-sorted-lists
+    difficulty: hard
+    solution: ./leetcode-playground/0023-merge-k-sorted-lists.js
+    test: ./leetcode-playground/tests/0023-merge-k-sorted-lists.test.js
+    leetcode_url: https://leetcode.com/problems/merge-k-sorted-lists/
+    notes: ""
+
+  - id: 3
+    number: "0053"
+    name: maximum-subarray
+    difficulty: medium
+    solution: ./leetcode-playground/0053-maximum-subarray.js
+    test: ./leetcode-playground/tests/0053-maximum-subarray.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-subarray/
+    notes: ""
+
+  - id: 4
+    number: "0105"
+    name: construct-binary-tree-from-preorder-and-inorder-traversal
+    difficulty: medium
+    solution: ./leetcode-playground/0105-construct-binary-tree-from-preorder-and-inorder-traversal.js
+    test: ./leetcode-playground/tests/0105-construct-binary-tree-from-preorder-and-inorder-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+    notes: ""
+
+  - id: 5
+    number: "0106"
+    name: construct-binary-tree-from-inorder-and-postorder-traversal
+    difficulty: medium
+    solution: ./leetcode-playground/0106-construct-binary-tree-from-inorder-and-postorder-traversal.js
+    test: ./leetcode-playground/tests/0106-construct-binary-tree-from-inorder-and-postorder-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+    notes: ""
+
+  - id: 6
+    number: "0108"
+    name: convert-sorted-array-to-binary-search-tree
+    difficulty: easy
+    solution: ./leetcode-playground/0108-convert-sorted-array-to-binary-search-tree.js
+    test: ./leetcode-playground/tests/0108-convert-sorted-array-to-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+    notes: ""
+
+  - id: 7
+    number: "0109"
+    name: convert-sorted-list-to-binary-search-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0109-convert-sorted-list-to-binary-search-tree.js
+    test: ./leetcode-playground/tests/0109-convert-sorted-list-to-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+    notes: ""
+
+  - id: 8
+    number: "0148"
+    name: sort-list
+    difficulty: medium
+    solution: ./leetcode-playground/0148-sort-list.js
+    test: ./leetcode-playground/tests/0148-sort-list.test.js
+    leetcode_url: https://leetcode.com/problems/sort-list/
+    notes: ""
+
+  - id: 9
+    number: "0169"
+    name: majority-element
+    difficulty: easy
+    solution: ./leetcode-playground/0169-majority-element.js
+    test: ./leetcode-playground/tests/0169-majority-element.test.js
+    leetcode_url: https://leetcode.com/problems/majority-element/
+    notes: ""
+
+  - id: 10
+    number: "0190"
+    name: reverse-bits
+    difficulty: easy
+    solution: ./leetcode-playground/0190-reverse-bits.js
+    test: ./leetcode-playground/tests/0190-reverse-bits.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-bits/
+    notes: ""
+
+  - id: 11
+    number: "0191"
+    name: number-of-1-bits
+    difficulty: easy
+    solution: ./leetcode-playground/0191-number-of-1-bits.js
+    test: ./leetcode-playground/tests/0191-number-of-1-bits.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-1-bits/
+    notes: ""
+
+  - id: 12
+    number: "0215"
+    name: kth-largest-element-in-an-array
+    difficulty: medium
+    solution: ./leetcode-playground/0215-kth-largest-element-in-an-array.js
+    test: ./leetcode-playground/tests/0215-kth-largest-element-in-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/kth-largest-element-in-an-array/
+    notes: ""
+
+  - id: 13
+    number: "0218"
+    name: the-skyline-problem
+    difficulty: hard
+    solution: ./leetcode-playground/0218-the-skyline-problem.js
+    test: ./leetcode-playground/tests/0218-the-skyline-problem.test.js
+    leetcode_url: https://leetcode.com/problems/the-skyline-problem/
+    notes: ""
+
+  - id: 14
+    number: "0240"
+    name: search-a-2d-matrix-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0240-search-a-2d-matrix-ii.js
+    test: ./leetcode-playground/tests/0240-search-a-2d-matrix-ii.test.js
+    leetcode_url: https://leetcode.com/problems/search-a-2d-matrix-ii/
+    notes: ""
+
+  - id: 15
+    number: "0307"
+    name: range-sum-query-mutable
+    difficulty: medium
+    solution: ./leetcode-playground/0307-range-sum-query-mutable.js
+    test: ./leetcode-playground/tests/0307-range-sum-query-mutable.test.js
+    leetcode_url: https://leetcode.com/problems/range-sum-query-mutable/
+    notes: ""
+
+  - id: 16
+    number: "0315"
+    name: count-of-smaller-numbers-after-self
+    difficulty: hard
+    solution: ./leetcode-playground/0315-count-of-smaller-numbers-after-self.js
+    test: ./leetcode-playground/tests/0315-count-of-smaller-numbers-after-self.test.js
+    leetcode_url: https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+    notes: ""
+
+  - id: 17
+    number: "0324"
+    name: wiggle-sort-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0324-wiggle-sort-ii.js
+    test: ./leetcode-playground/tests/0324-wiggle-sort-ii.test.js
+    leetcode_url: https://leetcode.com/problems/wiggle-sort-ii/
+    notes: ""
+
+  - id: 18
+    number: "0327"
+    name: count-of-range-sum
+    difficulty: hard
+    solution: ./leetcode-playground/0327-count-of-range-sum.js
+    test: ./leetcode-playground/tests/0327-count-of-range-sum.test.js
+    leetcode_url: https://leetcode.com/problems/count-of-range-sum/
+    notes: ""
+
+  - id: 19
+    number: "0347"
+    name: top-k-frequent-elements
+    difficulty: medium
+    solution: ./leetcode-playground/0347-top-k-frequent-elements.js
+    test: ./leetcode-playground/tests/0347-top-k-frequent-elements.test.js
+    leetcode_url: https://leetcode.com/problems/top-k-frequent-elements/
+    notes: ""
+
+  - id: 20
+    number: "0372"
+    name: super-pow
+    difficulty: medium
+    solution: ./leetcode-playground/0372-super-pow.js
+    test: ./leetcode-playground/tests/0372-super-pow.test.js
+    leetcode_url: https://leetcode.com/problems/super-pow/
+    notes: ""
+
+  - id: 21
+    number: "0395"
+    name: longest-substring-with-at-least-k-repeating-characters
+    difficulty: medium
+    solution: ./leetcode-playground/0395-longest-substring-with-at-least-k-repeating-characters.js
+    test: ./leetcode-playground/tests/0395-longest-substring-with-at-least-k-repeating-characters.test.js
+    leetcode_url: https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
+    notes: ""
+
+  - id: 22
+    number: "0427"
+    name: construct-quad-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0427-construct-quad-tree.js
+    test: ./leetcode-playground/tests/0427-construct-quad-tree.test.js
+    leetcode_url: https://leetcode.com/problems/construct-quad-tree/
+    notes: ""
+
+  - id: 23
+    number: "0493"
+    name: reverse-pairs
+    difficulty: hard
+    solution: ./leetcode-playground/0493-reverse-pairs.js
+    test: ./leetcode-playground/tests/0493-reverse-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-pairs/
+    notes: ""
+
+  - id: 24
+    number: "0558"
+    name: logical-or-of-two-binary-grids-represented-as-quad-trees
+    difficulty: medium
+    solution: ./leetcode-playground/0558-logical-or-of-two-binary-grids-represented-as-quad-trees.js
+    test: ./leetcode-playground/tests/0558-logical-or-of-two-binary-grids-represented-as-quad-trees.test.js
+    leetcode_url: https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/
+    notes: ""
+
+  - id: 25
+    number: "0654"
+    name: maximum-binary-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0654-maximum-binary-tree.js
+    test: ./leetcode-playground/tests/0654-maximum-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-binary-tree/
+    notes: ""
+
+  - id: 26
+    number: "0761"
+    name: special-binary-string
+    difficulty: hard
+    solution: ./leetcode-playground/0761-special-binary-string.js
+    test: ./leetcode-playground/tests/0761-special-binary-string.test.js
+    leetcode_url: https://leetcode.com/problems/special-binary-string/
+    notes: ""
+
+  - id: 27
+    number: "0889"
+    name: construct-binary-tree-from-preorder-and-postorder-traversal
+    difficulty: medium
+    solution: ./leetcode-playground/0889-construct-binary-tree-from-preorder-and-postorder-traversal.js
+    test: ./leetcode-playground/tests/0889-construct-binary-tree-from-preorder-and-postorder-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
+    notes: ""
+
+  - id: 28
+    number: "0912"
+    name: sort-an-array
+    difficulty: medium
+    solution: ./leetcode-playground/0912-sort-an-array.js
+    test: ./leetcode-playground/tests/0912-sort-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/sort-an-array/
+    notes: ""
+
+  - id: 29
+    number: "0918"
+    name: maximum-sum-circular-subarray
+    difficulty: medium
+    solution: ./leetcode-playground/0918-maximum-sum-circular-subarray.js
+    test: ./leetcode-playground/tests/0918-maximum-sum-circular-subarray.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-circular-subarray/
+    notes: ""
+
+  - id: 30
+    number: "0932"
+    name: beautiful-array
+    difficulty: medium
+    solution: ./leetcode-playground/0932-beautiful-array.js
+    test: ./leetcode-playground/tests/0932-beautiful-array.test.js
+    leetcode_url: https://leetcode.com/problems/beautiful-array/
+    notes: ""
+
+  - id: 31
+    number: "0973"
+    name: k-closest-points-to-origin
+    difficulty: medium
+    solution: ./leetcode-playground/0973-k-closest-points-to-origin.js
+    test: ./leetcode-playground/tests/0973-k-closest-points-to-origin.test.js
+    leetcode_url: https://leetcode.com/problems/k-closest-points-to-origin/
+    notes: ""
+
+  - id: 32
+    number: "1382"
+    name: balance-a-binary-search-tree
+    difficulty: medium
+    solution: ./leetcode-playground/1382-balance-a-binary-search-tree.js
+    test: ./leetcode-playground/tests/1382-balance-a-binary-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/balance-a-binary-search-tree/
+    notes: ""
+
+  - id: 33
+    number: "1569"
+    name: number-of-ways-to-reorder-array-to-get-same-bst
+    difficulty: hard
+    solution: ./leetcode-playground/1569-number-of-ways-to-reorder-array-to-get-same-bst.js
+    test: ./leetcode-playground/tests/1569-number-of-ways-to-reorder-array-to-get-same-bst.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/
+    notes: ""
+
+  - id: 34
+    number: "1649"
+    name: create-sorted-array-through-instructions
+    difficulty: hard
+    solution: ./leetcode-playground/1649-create-sorted-array-through-instructions.js
+    test: ./leetcode-playground/tests/1649-create-sorted-array-through-instructions.test.js
+    leetcode_url: https://leetcode.com/problems/create-sorted-array-through-instructions/
+    notes: ""
+
+  - id: 35
+    number: "1738"
+    name: find-kth-largest-xor-coordinate-value
+    difficulty: medium
+    solution: ./leetcode-playground/1738-find-kth-largest-xor-coordinate-value.js
+    test: ./leetcode-playground/tests/1738-find-kth-largest-xor-coordinate-value.test.js
+    leetcode_url: https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/
+    notes: ""
+
+  - id: 36
+    number: "1763"
+    name: longest-nice-substring
+    difficulty: easy
+    solution: ./leetcode-playground/1763-longest-nice-substring.js
+    test: ./leetcode-playground/tests/1763-longest-nice-substring.test.js
+    leetcode_url: https://leetcode.com/problems/longest-nice-substring/
+    notes: ""
+
+  - id: 37
+    number: "1982"
+    name: find-array-given-subset-sums
+    difficulty: hard
+    solution: ./leetcode-playground/1982-find-array-given-subset-sums.js
+    test: ./leetcode-playground/tests/1982-find-array-given-subset-sums.test.js
+    leetcode_url: https://leetcode.com/problems/find-array-given-subset-sums/
+    notes: ""
+
+  - id: 38
+    number: "1985"
+    name: find-the-kth-largest-integer-in-the-array
+    difficulty: medium
+    solution: ./leetcode-playground/1985-find-the-kth-largest-integer-in-the-array.js
+    test: ./leetcode-playground/tests/1985-find-the-kth-largest-integer-in-the-array.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/
+    notes: ""
+
+  - id: 39
+    number: "2179"
+    name: count-good-triplets-in-an-array
+    difficulty: hard
+    solution: ./leetcode-playground/2179-count-good-triplets-in-an-array.js
+    test: ./leetcode-playground/tests/2179-count-good-triplets-in-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/count-good-triplets-in-an-array/
+    notes: ""
+
+  - id: 40
+    number: "2343"
+    name: query-kth-smallest-trimmed-number
+    difficulty: medium
+    solution: ./leetcode-playground/2343-query-kth-smallest-trimmed-number.js
+    test: ./leetcode-playground/tests/2343-query-kth-smallest-trimmed-number.test.js
+    leetcode_url: https://leetcode.com/problems/query-kth-smallest-trimmed-number/
+    notes: ""
+
+  - id: 41
+    number: "2407"
+    name: longest-increasing-subsequence-ii
+    difficulty: hard
+    solution: ./leetcode-playground/2407-longest-increasing-subsequence-ii.js
+    test: ./leetcode-playground/tests/2407-longest-increasing-subsequence-ii.test.js
+    leetcode_url: https://leetcode.com/problems/longest-increasing-subsequence-ii/
+    notes: ""
+
+  - id: 42
+    number: "2426"
+    name: number-of-pairs-satisfying-inequality
+    difficulty: hard
+    solution: ./leetcode-playground/2426-number-of-pairs-satisfying-inequality.js
+    test: ./leetcode-playground/tests/2426-number-of-pairs-satisfying-inequality.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-pairs-satisfying-inequality/
+    notes: ""
+
+  - id: 43
+    number: "3165"
+    name: maximum-sum-of-subsequence-with-non-adjacent-elements
+    difficulty: hard
+    solution: ./leetcode-playground/3165-maximum-sum-of-subsequence-with-non-adjacent-elements.js
+    test: ./leetcode-playground/tests/3165-maximum-sum-of-subsequence-with-non-adjacent-elements.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/
+    notes: ""
+
+  - id: 44
+    number: "3537"
+    name: fill-a-special-grid
+    difficulty: medium
+    solution: ./leetcode-playground/3537-fill-a-special-grid.js
+    test: ./leetcode-playground/tests/3537-fill-a-special-grid.test.js
+    leetcode_url: https://leetcode.com/problems/fill-a-special-grid/
+    notes: ""
+
+  - id: 45
+    number: "3624"
+    name: number-of-integers-with-popcount-depth-equal-to-k-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3624-number-of-integers-with-popcount-depth-equal-to-k-ii.js
+    test: ./leetcode-playground/tests/3624-number-of-integers-with-popcount-depth-equal-to-k-ii.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-ii/
+    notes: ""
+
+  - id: 46
+    number: "3636"
+    name: threshold-majority-queries
+    difficulty: hard
+    solution: ./leetcode-playground/3636-threshold-majority-queries.js
+    test: ./leetcode-playground/tests/3636-threshold-majority-queries.test.js
+    leetcode_url: https://leetcode.com/problems/threshold-majority-queries/
+    notes: ""
+
+  - id: 47
+    number: "3653"
+    name: xor-after-range-multiplication-queries-i
+    difficulty: medium
+    solution: ./leetcode-playground/3653-xor-after-range-multiplication-queries-i.js
+    test: ./leetcode-playground/tests/3653-xor-after-range-multiplication-queries-i.test.js
+    leetcode_url: https://leetcode.com/problems/xor-after-range-multiplication-queries-i/
+    notes: ""
+
+  - id: 48
+    number: "3655"
+    name: xor-after-range-multiplication-queries-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3655-xor-after-range-multiplication-queries-ii.js
+    test: ./leetcode-playground/tests/3655-xor-after-range-multiplication-queries-ii.test.js
+    leetcode_url: https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/
+    notes: ""
+
+  - id: 49
+    number: "3719"
+    name: longest-balanced-subarray-i
+    difficulty: medium
+    solution: ./leetcode-playground/3719-longest-balanced-subarray-i.js
+    test: ./leetcode-playground/tests/3719-longest-balanced-subarray-i.test.js
+    leetcode_url: https://leetcode.com/problems/longest-balanced-subarray-i/
+    notes: ""
+
+  - id: 50
+    number: "3721"
+    name: longest-balanced-subarray-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3721-longest-balanced-subarray-ii.js
+    test: ./leetcode-playground/tests/3721-longest-balanced-subarray-ii.test.js
+    leetcode_url: https://leetcode.com/problems/longest-balanced-subarray-ii/
+    notes: ""
+
+  - id: 51
+    number: "3737"
+    name: count-subarrays-with-majority-element-i
+    difficulty: medium
+    solution: ./leetcode-playground/3737-count-subarrays-with-majority-element-i.js
+    test: ./leetcode-playground/tests/3737-count-subarrays-with-majority-element-i.test.js
+    leetcode_url: https://leetcode.com/problems/count-subarrays-with-majority-element-i/
+    notes: ""
+
+  - id: 52
+    number: "3739"
+    name: count-subarrays-with-majority-element-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3739-count-subarrays-with-majority-element-ii.js
+    test: ./leetcode-playground/tests/3739-count-subarrays-with-majority-element-ii.test.js
+    leetcode_url: https://leetcode.com/problems/count-subarrays-with-majority-element-ii/
+    notes: ""
+
+  - id: 53
+    number: "3759"
+    name: count-elements-with-at-least-k-greater-values
+    difficulty: medium
+    solution: ./leetcode-playground/3759-count-elements-with-at-least-k-greater-values.js
+    test: ./leetcode-playground/tests/3759-count-elements-with-at-least-k-greater-values.test.js
+    leetcode_url: https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/
+    notes: ""
+
+  - id: 54
+    number: "3826"
+    name: minimum-partition-score
+    difficulty: hard
+    solution: ./leetcode-playground/3826-minimum-partition-score.js
+    test: ./leetcode-playground/tests/3826-minimum-partition-score.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-partition-score/
+    notes: ""
+
+  - id: 55
+    number: "3841"
+    name: palindromic-path-queries-in-a-tree
+    difficulty: hard
+    solution: ./leetcode-playground/3841-palindromic-path-queries-in-a-tree.js
+    test: ./leetcode-playground/tests/3841-palindromic-path-queries-in-a-tree.test.js
+    leetcode_url: https://leetcode.com/problems/palindromic-path-queries-in-a-tree/
+    notes: ""
+
+  - id: 56
+    number: "3864"
+    name: minimum-cost-to-partition-a-binary-string
+    difficulty: hard
+    solution: ./leetcode-playground/3864-minimum-cost-to-partition-a-binary-string.js
+    test: ./leetcode-playground/tests/3864-minimum-cost-to-partition-a-binary-string.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/
+    notes: ""
+

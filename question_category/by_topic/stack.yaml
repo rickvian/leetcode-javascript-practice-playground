@@ -1,0 +1,1318 @@
+# Topic: Stack
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+stack:
+  - id: 1
+    number: "0020"
+    name: valid-parentheses
+    difficulty: easy
+    solution: ./leetcode-playground/0020-valid-parentheses.js
+    test: ./leetcode-playground/tests/0020-valid-parentheses.test.js
+    leetcode_url: https://leetcode.com/problems/valid-parentheses/
+    notes: ""
+
+  - id: 2
+    number: "0032"
+    name: longest-valid-parentheses
+    difficulty: hard
+    solution: ./leetcode-playground/0032-longest-valid-parentheses.js
+    test: ./leetcode-playground/tests/0032-longest-valid-parentheses.test.js
+    leetcode_url: https://leetcode.com/problems/longest-valid-parentheses/
+    notes: ""
+
+  - id: 3
+    number: "0042"
+    name: trapping-rain-water
+    difficulty: hard
+    solution: ./leetcode-playground/0042-trapping-rain-water.js
+    test: ./leetcode-playground/tests/0042-trapping-rain-water.test.js
+    leetcode_url: https://leetcode.com/problems/trapping-rain-water/
+    notes: ""
+
+  - id: 4
+    number: "0071"
+    name: simplify-path
+    difficulty: medium
+    solution: ./leetcode-playground/0071-simplify-path.js
+    test: ./leetcode-playground/tests/0071-simplify-path.test.js
+    leetcode_url: https://leetcode.com/problems/simplify-path/
+    notes: ""
+
+  - id: 5
+    number: "0084"
+    name: largest-rectangle-in-histogram
+    difficulty: hard
+    solution: ./leetcode-playground/0084-largest-rectangle-in-histogram.js
+    test: ./leetcode-playground/tests/0084-largest-rectangle-in-histogram.test.js
+    leetcode_url: https://leetcode.com/problems/largest-rectangle-in-histogram/
+    notes: ""
+
+  - id: 6
+    number: "0085"
+    name: maximal-rectangle
+    difficulty: hard
+    solution: ./leetcode-playground/0085-maximal-rectangle.js
+    test: ./leetcode-playground/tests/0085-maximal-rectangle.test.js
+    leetcode_url: https://leetcode.com/problems/maximal-rectangle/
+    notes: ""
+
+  - id: 7
+    number: "0094"
+    name: binary-tree-inorder-traversal
+    difficulty: easy
+    solution: ./leetcode-playground/0094-binary-tree-inorder-traversal.js
+    test: ./leetcode-playground/tests/0094-binary-tree-inorder-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/binary-tree-inorder-traversal/
+    notes: ""
+
+  - id: 8
+    number: "0114"
+    name: flatten-binary-tree-to-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/0114-flatten-binary-tree-to-linked-list.js
+    test: ./leetcode-playground/tests/0114-flatten-binary-tree-to-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+    notes: ""
+
+  - id: 9
+    number: "0143"
+    name: reorder-list
+    difficulty: medium
+    solution: ./leetcode-playground/0143-reorder-list.js
+    test: ./leetcode-playground/tests/0143-reorder-list.test.js
+    leetcode_url: https://leetcode.com/problems/reorder-list/
+    notes: ""
+
+  - id: 10
+    number: "0144"
+    name: binary-tree-preorder-traversal
+    difficulty: easy
+    solution: ./leetcode-playground/0144-binary-tree-preorder-traversal.js
+    test: ./leetcode-playground/tests/0144-binary-tree-preorder-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/binary-tree-preorder-traversal/
+    notes: ""
+
+  - id: 11
+    number: "0145"
+    name: binary-tree-postorder-traversal
+    difficulty: easy
+    solution: ./leetcode-playground/0145-binary-tree-postorder-traversal.js
+    test: ./leetcode-playground/tests/0145-binary-tree-postorder-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/binary-tree-postorder-traversal/
+    notes: ""
+
+  - id: 12
+    number: "0150"
+    name: evaluate-reverse-polish-notation
+    difficulty: medium
+    solution: ./leetcode-playground/0150-evaluate-reverse-polish-notation.js
+    test: ./leetcode-playground/tests/0150-evaluate-reverse-polish-notation.test.js
+    leetcode_url: https://leetcode.com/problems/evaluate-reverse-polish-notation/
+    notes: ""
+
+  - id: 13
+    number: "0155"
+    name: min-stack
+    difficulty: medium
+    solution: ./leetcode-playground/0155-min-stack.js
+    test: ./leetcode-playground/tests/0155-min-stack.test.js
+    leetcode_url: https://leetcode.com/problems/min-stack/
+    notes: ""
+
+  - id: 14
+    number: "0173"
+    name: binary-search-tree-iterator
+    difficulty: medium
+    solution: ./leetcode-playground/0173-binary-search-tree-iterator.js
+    test: ./leetcode-playground/tests/0173-binary-search-tree-iterator.test.js
+    leetcode_url: https://leetcode.com/problems/binary-search-tree-iterator/
+    notes: ""
+
+  - id: 15
+    number: "0224"
+    name: basic-calculator
+    difficulty: hard
+    solution: ./leetcode-playground/0224-basic-calculator.js
+    test: ./leetcode-playground/tests/0224-basic-calculator.test.js
+    leetcode_url: https://leetcode.com/problems/basic-calculator/
+    notes: ""
+
+  - id: 16
+    number: "0225"
+    name: implement-stack-using-queues
+    difficulty: easy
+    solution: ./leetcode-playground/0225-implement-stack-using-queues.js
+    test: ./leetcode-playground/tests/0225-implement-stack-using-queues.test.js
+    leetcode_url: https://leetcode.com/problems/implement-stack-using-queues/
+    notes: ""
+
+  - id: 17
+    number: "0227"
+    name: basic-calculator-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0227-basic-calculator-ii.js
+    test: ./leetcode-playground/tests/0227-basic-calculator-ii.test.js
+    leetcode_url: https://leetcode.com/problems/basic-calculator-ii/
+    notes: ""
+
+  - id: 18
+    number: "0232"
+    name: implement-queue-using-stacks
+    difficulty: easy
+    solution: ./leetcode-playground/0232-implement-queue-using-stacks.js
+    test: ./leetcode-playground/tests/0232-implement-queue-using-stacks.test.js
+    leetcode_url: https://leetcode.com/problems/implement-queue-using-stacks/
+    notes: ""
+
+  - id: 19
+    number: "0234"
+    name: palindrome-linked-list
+    difficulty: easy
+    solution: ./leetcode-playground/0234-palindrome-linked-list.js
+    test: ./leetcode-playground/tests/0234-palindrome-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/palindrome-linked-list/
+    notes: ""
+
+  - id: 20
+    number: "0316"
+    name: remove-duplicate-letters
+    difficulty: medium
+    solution: ./leetcode-playground/0316-remove-duplicate-letters.js
+    test: ./leetcode-playground/tests/0316-remove-duplicate-letters.test.js
+    leetcode_url: https://leetcode.com/problems/remove-duplicate-letters/
+    notes: ""
+
+  - id: 21
+    number: "0321"
+    name: create-maximum-number
+    difficulty: hard
+    solution: ./leetcode-playground/0321-create-maximum-number.js
+    test: ./leetcode-playground/tests/0321-create-maximum-number.test.js
+    leetcode_url: https://leetcode.com/problems/create-maximum-number/
+    notes: ""
+
+  - id: 22
+    number: "0331"
+    name: verify-preorder-serialization-of-a-binary-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0331-verify-preorder-serialization-of-a-binary-tree.js
+    test: ./leetcode-playground/tests/0331-verify-preorder-serialization-of-a-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/
+    notes: ""
+
+  - id: 23
+    number: "0341"
+    name: flatten-nested-list-iterator
+    difficulty: medium
+    solution: ./leetcode-playground/0341-flatten-nested-list-iterator.js
+    test: ./leetcode-playground/tests/0341-flatten-nested-list-iterator.test.js
+    leetcode_url: https://leetcode.com/problems/flatten-nested-list-iterator/
+    notes: ""
+
+  - id: 24
+    number: "0385"
+    name: mini-parser
+    difficulty: medium
+    solution: ./leetcode-playground/0385-mini-parser.js
+    test: ./leetcode-playground/tests/0385-mini-parser.test.js
+    leetcode_url: https://leetcode.com/problems/mini-parser/
+    notes: ""
+
+  - id: 25
+    number: "0388"
+    name: longest-absolute-file-path
+    difficulty: medium
+    solution: ./leetcode-playground/0388-longest-absolute-file-path.js
+    test: ./leetcode-playground/tests/0388-longest-absolute-file-path.test.js
+    leetcode_url: https://leetcode.com/problems/longest-absolute-file-path/
+    notes: ""
+
+  - id: 26
+    number: "0394"
+    name: decode-string
+    difficulty: medium
+    solution: ./leetcode-playground/0394-decode-string.js
+    test: ./leetcode-playground/tests/0394-decode-string.test.js
+    leetcode_url: https://leetcode.com/problems/decode-string/
+    notes: ""
+
+  - id: 27
+    number: "0402"
+    name: remove-k-digits
+    difficulty: medium
+    solution: ./leetcode-playground/0402-remove-k-digits.js
+    test: ./leetcode-playground/tests/0402-remove-k-digits.test.js
+    leetcode_url: https://leetcode.com/problems/remove-k-digits/
+    notes: ""
+
+  - id: 28
+    number: "0445"
+    name: add-two-numbers-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0445-add-two-numbers-ii.js
+    test: ./leetcode-playground/tests/0445-add-two-numbers-ii.test.js
+    leetcode_url: https://leetcode.com/problems/add-two-numbers-ii/
+    notes: ""
+
+  - id: 29
+    number: "0456"
+    name: 132-pattern
+    difficulty: medium
+    solution: ./leetcode-playground/0456-132-pattern.js
+    test: ./leetcode-playground/tests/0456-132-pattern.test.js
+    leetcode_url: https://leetcode.com/problems/132-pattern/
+    notes: ""
+
+  - id: 30
+    number: "0488"
+    name: zuma-game
+    difficulty: hard
+    solution: ./leetcode-playground/0488-zuma-game.js
+    test: ./leetcode-playground/tests/0488-zuma-game.test.js
+    leetcode_url: https://leetcode.com/problems/zuma-game/
+    notes: ""
+
+  - id: 31
+    number: "0496"
+    name: next-greater-element-i
+    difficulty: easy
+    solution: ./leetcode-playground/0496-next-greater-element-i.js
+    test: ./leetcode-playground/tests/0496-next-greater-element-i.test.js
+    leetcode_url: https://leetcode.com/problems/next-greater-element-i/
+    notes: ""
+
+  - id: 32
+    number: "0503"
+    name: next-greater-element-ii
+    difficulty: medium
+    solution: ./leetcode-playground/0503-next-greater-element-ii.js
+    test: ./leetcode-playground/tests/0503-next-greater-element-ii.test.js
+    leetcode_url: https://leetcode.com/problems/next-greater-element-ii/
+    notes: ""
+
+  - id: 33
+    number: "0581"
+    name: shortest-unsorted-continuous-subarray
+    difficulty: medium
+    solution: ./leetcode-playground/0581-shortest-unsorted-continuous-subarray.js
+    test: ./leetcode-playground/tests/0581-shortest-unsorted-continuous-subarray.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+    notes: ""
+
+  - id: 34
+    number: "0589"
+    name: n-ary-tree-preorder-traversal
+    difficulty: easy
+    solution: ./leetcode-playground/0589-n-ary-tree-preorder-traversal.js
+    test: ./leetcode-playground/tests/0589-n-ary-tree-preorder-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+    notes: ""
+
+  - id: 35
+    number: "0590"
+    name: n-ary-tree-postorder-traversal
+    difficulty: easy
+    solution: ./leetcode-playground/0590-n-ary-tree-postorder-traversal.js
+    test: ./leetcode-playground/tests/0590-n-ary-tree-postorder-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+    notes: ""
+
+  - id: 36
+    number: "0591"
+    name: tag-validator
+    difficulty: hard
+    solution: ./leetcode-playground/0591-tag-validator.js
+    test: ./leetcode-playground/tests/0591-tag-validator.test.js
+    leetcode_url: https://leetcode.com/problems/tag-validator/
+    notes: ""
+
+  - id: 37
+    number: "0636"
+    name: exclusive-time-of-functions
+    difficulty: medium
+    solution: ./leetcode-playground/0636-exclusive-time-of-functions.js
+    test: ./leetcode-playground/tests/0636-exclusive-time-of-functions.test.js
+    leetcode_url: https://leetcode.com/problems/exclusive-time-of-functions/
+    notes: ""
+
+  - id: 38
+    number: "0654"
+    name: maximum-binary-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0654-maximum-binary-tree.js
+    test: ./leetcode-playground/tests/0654-maximum-binary-tree.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-binary-tree/
+    notes: ""
+
+  - id: 39
+    number: "0678"
+    name: valid-parenthesis-string
+    difficulty: medium
+    solution: ./leetcode-playground/0678-valid-parenthesis-string.js
+    test: ./leetcode-playground/tests/0678-valid-parenthesis-string.test.js
+    leetcode_url: https://leetcode.com/problems/valid-parenthesis-string/
+    notes: ""
+
+  - id: 40
+    number: "0682"
+    name: baseball-game
+    difficulty: easy
+    solution: ./leetcode-playground/0682-baseball-game.js
+    test: ./leetcode-playground/tests/0682-baseball-game.test.js
+    leetcode_url: https://leetcode.com/problems/baseball-game/
+    notes: ""
+
+  - id: 41
+    number: "0726"
+    name: number-of-atoms
+    difficulty: hard
+    solution: ./leetcode-playground/0726-number-of-atoms.js
+    test: ./leetcode-playground/tests/0726-number-of-atoms.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-atoms/
+    notes: ""
+
+  - id: 42
+    number: "0735"
+    name: asteroid-collision
+    difficulty: medium
+    solution: ./leetcode-playground/0735-asteroid-collision.js
+    test: ./leetcode-playground/tests/0735-asteroid-collision.test.js
+    leetcode_url: https://leetcode.com/problems/asteroid-collision/
+    notes: ""
+
+  - id: 43
+    number: "0736"
+    name: parse-lisp-expression
+    difficulty: hard
+    solution: ./leetcode-playground/0736-parse-lisp-expression.js
+    test: ./leetcode-playground/tests/0736-parse-lisp-expression.test.js
+    leetcode_url: https://leetcode.com/problems/parse-lisp-expression/
+    notes: ""
+
+  - id: 44
+    number: "0739"
+    name: daily-temperatures
+    difficulty: medium
+    solution: ./leetcode-playground/0739-daily-temperatures.js
+    test: ./leetcode-playground/tests/0739-daily-temperatures.test.js
+    leetcode_url: https://leetcode.com/problems/daily-temperatures/
+    notes: ""
+
+  - id: 45
+    number: "0768"
+    name: max-chunks-to-make-sorted-ii
+    difficulty: hard
+    solution: ./leetcode-playground/0768-max-chunks-to-make-sorted-ii.js
+    test: ./leetcode-playground/tests/0768-max-chunks-to-make-sorted-ii.test.js
+    leetcode_url: https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
+    notes: ""
+
+  - id: 46
+    number: "0769"
+    name: max-chunks-to-make-sorted
+    difficulty: medium
+    solution: ./leetcode-playground/0769-max-chunks-to-make-sorted.js
+    test: ./leetcode-playground/tests/0769-max-chunks-to-make-sorted.test.js
+    leetcode_url: https://leetcode.com/problems/max-chunks-to-make-sorted/
+    notes: ""
+
+  - id: 47
+    number: "0770"
+    name: basic-calculator-iv
+    difficulty: hard
+    solution: ./leetcode-playground/0770-basic-calculator-iv.js
+    test: ./leetcode-playground/tests/0770-basic-calculator-iv.test.js
+    leetcode_url: https://leetcode.com/problems/basic-calculator-iv/
+    notes: ""
+
+  - id: 48
+    number: "0844"
+    name: backspace-string-compare
+    difficulty: easy
+    solution: ./leetcode-playground/0844-backspace-string-compare.js
+    test: ./leetcode-playground/tests/0844-backspace-string-compare.test.js
+    leetcode_url: https://leetcode.com/problems/backspace-string-compare/
+    notes: ""
+
+  - id: 49
+    number: "0853"
+    name: car-fleet
+    difficulty: medium
+    solution: ./leetcode-playground/0853-car-fleet.js
+    test: ./leetcode-playground/tests/0853-car-fleet.test.js
+    leetcode_url: https://leetcode.com/problems/car-fleet/
+    notes: ""
+
+  - id: 50
+    number: "0856"
+    name: score-of-parentheses
+    difficulty: medium
+    solution: ./leetcode-playground/0856-score-of-parentheses.js
+    test: ./leetcode-playground/tests/0856-score-of-parentheses.test.js
+    leetcode_url: https://leetcode.com/problems/score-of-parentheses/
+    notes: ""
+
+  - id: 51
+    number: "0880"
+    name: decoded-string-at-index
+    difficulty: medium
+    solution: ./leetcode-playground/0880-decoded-string-at-index.js
+    test: ./leetcode-playground/tests/0880-decoded-string-at-index.test.js
+    leetcode_url: https://leetcode.com/problems/decoded-string-at-index/
+    notes: ""
+
+  - id: 52
+    number: "0895"
+    name: maximum-frequency-stack
+    difficulty: hard
+    solution: ./leetcode-playground/0895-maximum-frequency-stack.js
+    test: ./leetcode-playground/tests/0895-maximum-frequency-stack.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-frequency-stack/
+    notes: ""
+
+  - id: 53
+    number: "0897"
+    name: increasing-order-search-tree
+    difficulty: easy
+    solution: ./leetcode-playground/0897-increasing-order-search-tree.js
+    test: ./leetcode-playground/tests/0897-increasing-order-search-tree.test.js
+    leetcode_url: https://leetcode.com/problems/increasing-order-search-tree/
+    notes: ""
+
+  - id: 54
+    number: "0901"
+    name: online-stock-span
+    difficulty: medium
+    solution: ./leetcode-playground/0901-online-stock-span.js
+    test: ./leetcode-playground/tests/0901-online-stock-span.test.js
+    leetcode_url: https://leetcode.com/problems/online-stock-span/
+    notes: ""
+
+  - id: 55
+    number: "0907"
+    name: sum-of-subarray-minimums
+    difficulty: medium
+    solution: ./leetcode-playground/0907-sum-of-subarray-minimums.js
+    test: ./leetcode-playground/tests/0907-sum-of-subarray-minimums.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-subarray-minimums/
+    notes: ""
+
+  - id: 56
+    number: "0921"
+    name: minimum-add-to-make-parentheses-valid
+    difficulty: medium
+    solution: ./leetcode-playground/0921-minimum-add-to-make-parentheses-valid.js
+    test: ./leetcode-playground/tests/0921-minimum-add-to-make-parentheses-valid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+    notes: ""
+
+  - id: 57
+    number: "0936"
+    name: stamping-the-sequence
+    difficulty: hard
+    solution: ./leetcode-playground/0936-stamping-the-sequence.js
+    test: ./leetcode-playground/tests/0936-stamping-the-sequence.test.js
+    leetcode_url: https://leetcode.com/problems/stamping-the-sequence/
+    notes: ""
+
+  - id: 58
+    number: "0946"
+    name: validate-stack-sequences
+    difficulty: medium
+    solution: ./leetcode-playground/0946-validate-stack-sequences.js
+    test: ./leetcode-playground/tests/0946-validate-stack-sequences.test.js
+    leetcode_url: https://leetcode.com/problems/validate-stack-sequences/
+    notes: ""
+
+  - id: 59
+    number: "0962"
+    name: maximum-width-ramp
+    difficulty: medium
+    solution: ./leetcode-playground/0962-maximum-width-ramp.js
+    test: ./leetcode-playground/tests/0962-maximum-width-ramp.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-width-ramp/
+    notes: ""
+
+  - id: 60
+    number: "0975"
+    name: odd-even-jump
+    difficulty: hard
+    solution: ./leetcode-playground/0975-odd-even-jump.js
+    test: ./leetcode-playground/tests/0975-odd-even-jump.test.js
+    leetcode_url: https://leetcode.com/problems/odd-even-jump/
+    notes: ""
+
+  - id: 61
+    number: "1003"
+    name: check-if-word-is-valid-after-substitutions
+    difficulty: medium
+    solution: ./leetcode-playground/1003-check-if-word-is-valid-after-substitutions.js
+    test: ./leetcode-playground/tests/1003-check-if-word-is-valid-after-substitutions.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/
+    notes: ""
+
+  - id: 62
+    number: "1006"
+    name: clumsy-factorial
+    difficulty: medium
+    solution: ./leetcode-playground/1006-clumsy-factorial.js
+    test: ./leetcode-playground/tests/1006-clumsy-factorial.test.js
+    leetcode_url: https://leetcode.com/problems/clumsy-factorial/
+    notes: ""
+
+  - id: 63
+    number: "1008"
+    name: construct-binary-search-tree-from-preorder-traversal
+    difficulty: medium
+    solution: ./leetcode-playground/1008-construct-binary-search-tree-from-preorder-traversal.js
+    test: ./leetcode-playground/tests/1008-construct-binary-search-tree-from-preorder-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+    notes: ""
+
+  - id: 64
+    number: "1019"
+    name: next-greater-node-in-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/1019-next-greater-node-in-linked-list.js
+    test: ./leetcode-playground/tests/1019-next-greater-node-in-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/next-greater-node-in-linked-list/
+    notes: ""
+
+  - id: 65
+    number: "1021"
+    name: remove-outermost-parentheses
+    difficulty: easy
+    solution: ./leetcode-playground/1021-remove-outermost-parentheses.js
+    test: ./leetcode-playground/tests/1021-remove-outermost-parentheses.test.js
+    leetcode_url: https://leetcode.com/problems/remove-outermost-parentheses/
+    notes: ""
+
+  - id: 66
+    number: "1047"
+    name: remove-all-adjacent-duplicates-in-string
+    difficulty: easy
+    solution: ./leetcode-playground/1047-remove-all-adjacent-duplicates-in-string.js
+    test: ./leetcode-playground/tests/1047-remove-all-adjacent-duplicates-in-string.test.js
+    leetcode_url: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+    notes: ""
+
+  - id: 67
+    number: "1081"
+    name: smallest-subsequence-of-distinct-characters
+    difficulty: medium
+    solution: ./leetcode-playground/1081-smallest-subsequence-of-distinct-characters.js
+    test: ./leetcode-playground/tests/1081-smallest-subsequence-of-distinct-characters.test.js
+    leetcode_url: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
+    notes: ""
+
+  - id: 68
+    number: "1096"
+    name: brace-expansion-ii
+    difficulty: hard
+    solution: ./leetcode-playground/1096-brace-expansion-ii.js
+    test: ./leetcode-playground/tests/1096-brace-expansion-ii.test.js
+    leetcode_url: https://leetcode.com/problems/brace-expansion-ii/
+    notes: ""
+
+  - id: 69
+    number: "1106"
+    name: parsing-a-boolean-expression
+    difficulty: hard
+    solution: ./leetcode-playground/1106-parsing-a-boolean-expression.js
+    test: ./leetcode-playground/tests/1106-parsing-a-boolean-expression.test.js
+    leetcode_url: https://leetcode.com/problems/parsing-a-boolean-expression/
+    notes: ""
+
+  - id: 70
+    number: "1111"
+    name: maximum-nesting-depth-of-two-valid-parentheses-strings
+    difficulty: medium
+    solution: ./leetcode-playground/1111-maximum-nesting-depth-of-two-valid-parentheses-strings.js
+    test: ./leetcode-playground/tests/1111-maximum-nesting-depth-of-two-valid-parentheses-strings.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
+    notes: ""
+
+  - id: 71
+    number: "1124"
+    name: longest-well-performing-interval
+    difficulty: medium
+    solution: ./leetcode-playground/1124-longest-well-performing-interval.js
+    test: ./leetcode-playground/tests/1124-longest-well-performing-interval.test.js
+    leetcode_url: https://leetcode.com/problems/longest-well-performing-interval/
+    notes: ""
+
+  - id: 72
+    number: "1130"
+    name: minimum-cost-tree-from-leaf-values
+    difficulty: medium
+    solution: ./leetcode-playground/1130-minimum-cost-tree-from-leaf-values.js
+    test: ./leetcode-playground/tests/1130-minimum-cost-tree-from-leaf-values.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
+    notes: ""
+
+  - id: 73
+    number: "1172"
+    name: dinner-plate-stacks
+    difficulty: hard
+    solution: ./leetcode-playground/1172-dinner-plate-stacks.js
+    test: ./leetcode-playground/tests/1172-dinner-plate-stacks.test.js
+    leetcode_url: https://leetcode.com/problems/dinner-plate-stacks/
+    notes: ""
+
+  - id: 74
+    number: "1190"
+    name: reverse-substrings-between-each-pair-of-parentheses
+    difficulty: medium
+    solution: ./leetcode-playground/1190-reverse-substrings-between-each-pair-of-parentheses.js
+    test: ./leetcode-playground/tests/1190-reverse-substrings-between-each-pair-of-parentheses.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/
+    notes: ""
+
+  - id: 75
+    number: "1209"
+    name: remove-all-adjacent-duplicates-in-string-ii
+    difficulty: medium
+    solution: ./leetcode-playground/1209-remove-all-adjacent-duplicates-in-string-ii.js
+    test: ./leetcode-playground/tests/1209-remove-all-adjacent-duplicates-in-string-ii.test.js
+    leetcode_url: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
+    notes: ""
+
+  - id: 76
+    number: "1249"
+    name: minimum-remove-to-make-valid-parentheses
+    difficulty: medium
+    solution: ./leetcode-playground/1249-minimum-remove-to-make-valid-parentheses.js
+    test: ./leetcode-playground/tests/1249-minimum-remove-to-make-valid-parentheses.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+    notes: ""
+
+  - id: 77
+    number: "1381"
+    name: design-a-stack-with-increment-operation
+    difficulty: medium
+    solution: ./leetcode-playground/1381-design-a-stack-with-increment-operation.js
+    test: ./leetcode-playground/tests/1381-design-a-stack-with-increment-operation.test.js
+    leetcode_url: https://leetcode.com/problems/design-a-stack-with-increment-operation/
+    notes: ""
+
+  - id: 78
+    number: "1441"
+    name: build-an-array-with-stack-operations
+    difficulty: medium
+    solution: ./leetcode-playground/1441-build-an-array-with-stack-operations.js
+    test: ./leetcode-playground/tests/1441-build-an-array-with-stack-operations.test.js
+    leetcode_url: https://leetcode.com/problems/build-an-array-with-stack-operations/
+    notes: ""
+
+  - id: 79
+    number: "1472"
+    name: design-browser-history
+    difficulty: medium
+    solution: ./leetcode-playground/1472-design-browser-history.js
+    test: ./leetcode-playground/tests/1472-design-browser-history.test.js
+    leetcode_url: https://leetcode.com/problems/design-browser-history/
+    notes: ""
+
+  - id: 80
+    number: "1475"
+    name: final-prices-with-a-special-discount-in-a-shop
+    difficulty: easy
+    solution: ./leetcode-playground/1475-final-prices-with-a-special-discount-in-a-shop.js
+    test: ./leetcode-playground/tests/1475-final-prices-with-a-special-discount-in-a-shop.test.js
+    leetcode_url: https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/
+    notes: ""
+
+  - id: 81
+    number: "1504"
+    name: count-submatrices-with-all-ones
+    difficulty: medium
+    solution: ./leetcode-playground/1504-count-submatrices-with-all-ones.js
+    test: ./leetcode-playground/tests/1504-count-submatrices-with-all-ones.test.js
+    leetcode_url: https://leetcode.com/problems/count-submatrices-with-all-ones/
+    notes: ""
+
+  - id: 82
+    number: "1526"
+    name: minimum-number-of-increments-on-subarrays-to-form-a-target-array
+    difficulty: hard
+    solution: ./leetcode-playground/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array.js
+    test: ./leetcode-playground/tests/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/
+    notes: ""
+
+  - id: 83
+    number: "1541"
+    name: minimum-insertions-to-balance-a-parentheses-string
+    difficulty: medium
+    solution: ./leetcode-playground/1541-minimum-insertions-to-balance-a-parentheses-string.js
+    test: ./leetcode-playground/tests/1541-minimum-insertions-to-balance-a-parentheses-string.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/
+    notes: ""
+
+  - id: 84
+    number: "1544"
+    name: make-the-string-great
+    difficulty: easy
+    solution: ./leetcode-playground/1544-make-the-string-great.js
+    test: ./leetcode-playground/tests/1544-make-the-string-great.test.js
+    leetcode_url: https://leetcode.com/problems/make-the-string-great/
+    notes: ""
+
+  - id: 85
+    number: "1574"
+    name: shortest-subarray-to-be-removed-to-make-array-sorted
+    difficulty: medium
+    solution: ./leetcode-playground/1574-shortest-subarray-to-be-removed-to-make-array-sorted.js
+    test: ./leetcode-playground/tests/1574-shortest-subarray-to-be-removed-to-make-array-sorted.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/
+    notes: ""
+
+  - id: 86
+    number: "1598"
+    name: crawler-log-folder
+    difficulty: easy
+    solution: ./leetcode-playground/1598-crawler-log-folder.js
+    test: ./leetcode-playground/tests/1598-crawler-log-folder.test.js
+    leetcode_url: https://leetcode.com/problems/crawler-log-folder/
+    notes: ""
+
+  - id: 87
+    number: "1614"
+    name: maximum-nesting-depth-of-the-parentheses
+    difficulty: easy
+    solution: ./leetcode-playground/1614-maximum-nesting-depth-of-the-parentheses.js
+    test: ./leetcode-playground/tests/1614-maximum-nesting-depth-of-the-parentheses.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
+    notes: ""
+
+  - id: 88
+    number: "1653"
+    name: minimum-deletions-to-make-string-balanced
+    difficulty: medium
+    solution: ./leetcode-playground/1653-minimum-deletions-to-make-string-balanced.js
+    test: ./leetcode-playground/tests/1653-minimum-deletions-to-make-string-balanced.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/
+    notes: ""
+
+  - id: 89
+    number: "1673"
+    name: find-the-most-competitive-subsequence
+    difficulty: medium
+    solution: ./leetcode-playground/1673-find-the-most-competitive-subsequence.js
+    test: ./leetcode-playground/tests/1673-find-the-most-competitive-subsequence.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-most-competitive-subsequence/
+    notes: ""
+
+  - id: 90
+    number: "1700"
+    name: number-of-students-unable-to-eat-lunch
+    difficulty: easy
+    solution: ./leetcode-playground/1700-number-of-students-unable-to-eat-lunch.js
+    test: ./leetcode-playground/tests/1700-number-of-students-unable-to-eat-lunch.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/
+    notes: ""
+
+  - id: 91
+    number: "1717"
+    name: maximum-score-from-removing-substrings
+    difficulty: medium
+    solution: ./leetcode-playground/1717-maximum-score-from-removing-substrings.js
+    test: ./leetcode-playground/tests/1717-maximum-score-from-removing-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-score-from-removing-substrings/
+    notes: ""
+
+  - id: 92
+    number: "1776"
+    name: car-fleet-ii
+    difficulty: hard
+    solution: ./leetcode-playground/1776-car-fleet-ii.js
+    test: ./leetcode-playground/tests/1776-car-fleet-ii.test.js
+    leetcode_url: https://leetcode.com/problems/car-fleet-ii/
+    notes: ""
+
+  - id: 93
+    number: "1793"
+    name: maximum-score-of-a-good-subarray
+    difficulty: hard
+    solution: ./leetcode-playground/1793-maximum-score-of-a-good-subarray.js
+    test: ./leetcode-playground/tests/1793-maximum-score-of-a-good-subarray.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-score-of-a-good-subarray/
+    notes: ""
+
+  - id: 94
+    number: "1856"
+    name: maximum-subarray-min-product
+    difficulty: medium
+    solution: ./leetcode-playground/1856-maximum-subarray-min-product.js
+    test: ./leetcode-playground/tests/1856-maximum-subarray-min-product.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-subarray-min-product/
+    notes: ""
+
+  - id: 95
+    number: "1896"
+    name: minimum-cost-to-change-the-final-value-of-expression
+    difficulty: hard
+    solution: ./leetcode-playground/1896-minimum-cost-to-change-the-final-value-of-expression.js
+    test: ./leetcode-playground/tests/1896-minimum-cost-to-change-the-final-value-of-expression.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression/
+    notes: ""
+
+  - id: 96
+    number: "1910"
+    name: remove-all-occurrences-of-a-substring
+    difficulty: medium
+    solution: ./leetcode-playground/1910-remove-all-occurrences-of-a-substring.js
+    test: ./leetcode-playground/tests/1910-remove-all-occurrences-of-a-substring.test.js
+    leetcode_url: https://leetcode.com/problems/remove-all-occurrences-of-a-substring/
+    notes: ""
+
+  - id: 97
+    number: "1944"
+    name: number-of-visible-people-in-a-queue
+    difficulty: hard
+    solution: ./leetcode-playground/1944-number-of-visible-people-in-a-queue.js
+    test: ./leetcode-playground/tests/1944-number-of-visible-people-in-a-queue.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-visible-people-in-a-queue/
+    notes: ""
+
+  - id: 98
+    number: "1963"
+    name: minimum-number-of-swaps-to-make-the-string-balanced
+    difficulty: medium
+    solution: ./leetcode-playground/1963-minimum-number-of-swaps-to-make-the-string-balanced.js
+    test: ./leetcode-playground/tests/1963-minimum-number-of-swaps-to-make-the-string-balanced.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/
+    notes: ""
+
+  - id: 99
+    number: "1996"
+    name: the-number-of-weak-characters-in-the-game
+    difficulty: medium
+    solution: ./leetcode-playground/1996-the-number-of-weak-characters-in-the-game.js
+    test: ./leetcode-playground/tests/1996-the-number-of-weak-characters-in-the-game.test.js
+    leetcode_url: https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/
+    notes: ""
+
+  - id: 100
+    number: "2000"
+    name: reverse-prefix-of-word
+    difficulty: easy
+    solution: ./leetcode-playground/2000-reverse-prefix-of-word.js
+    test: ./leetcode-playground/tests/2000-reverse-prefix-of-word.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-prefix-of-word/
+    notes: ""
+
+  - id: 101
+    number: "2019"
+    name: the-score-of-students-solving-math-expression
+    difficulty: hard
+    solution: ./leetcode-playground/2019-the-score-of-students-solving-math-expression.js
+    test: ./leetcode-playground/tests/2019-the-score-of-students-solving-math-expression.test.js
+    leetcode_url: https://leetcode.com/problems/the-score-of-students-solving-math-expression/
+    notes: ""
+
+  - id: 102
+    number: "2030"
+    name: smallest-k-length-subsequence-with-occurrences-of-a-letter
+    difficulty: hard
+    solution: ./leetcode-playground/2030-smallest-k-length-subsequence-with-occurrences-of-a-letter.js
+    test: ./leetcode-playground/tests/2030-smallest-k-length-subsequence-with-occurrences-of-a-letter.test.js
+    leetcode_url: https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/
+    notes: ""
+
+  - id: 103
+    number: "2104"
+    name: sum-of-subarray-ranges
+    difficulty: medium
+    solution: ./leetcode-playground/2104-sum-of-subarray-ranges.js
+    test: ./leetcode-playground/tests/2104-sum-of-subarray-ranges.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-subarray-ranges/
+    notes: ""
+
+  - id: 104
+    number: "2116"
+    name: check-if-a-parentheses-string-can-be-valid
+    difficulty: medium
+    solution: ./leetcode-playground/2116-check-if-a-parentheses-string-can-be-valid.js
+    test: ./leetcode-playground/tests/2116-check-if-a-parentheses-string-can-be-valid.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/
+    notes: ""
+
+  - id: 105
+    number: "2130"
+    name: maximum-twin-sum-of-a-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2130-maximum-twin-sum-of-a-linked-list.js
+    test: ./leetcode-playground/tests/2130-maximum-twin-sum-of-a-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
+    notes: ""
+
+  - id: 106
+    number: "2197"
+    name: replace-non-coprime-numbers-in-array
+    difficulty: hard
+    solution: ./leetcode-playground/2197-replace-non-coprime-numbers-in-array.js
+    test: ./leetcode-playground/tests/2197-replace-non-coprime-numbers-in-array.test.js
+    leetcode_url: https://leetcode.com/problems/replace-non-coprime-numbers-in-array/
+    notes: ""
+
+  - id: 107
+    number: "2211"
+    name: count-collisions-on-a-road
+    difficulty: medium
+    solution: ./leetcode-playground/2211-count-collisions-on-a-road.js
+    test: ./leetcode-playground/tests/2211-count-collisions-on-a-road.test.js
+    leetcode_url: https://leetcode.com/problems/count-collisions-on-a-road/
+    notes: ""
+
+  - id: 108
+    number: "2216"
+    name: minimum-deletions-to-make-array-beautiful
+    difficulty: medium
+    solution: ./leetcode-playground/2216-minimum-deletions-to-make-array-beautiful.js
+    test: ./leetcode-playground/tests/2216-minimum-deletions-to-make-array-beautiful.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/
+    notes: ""
+
+  - id: 109
+    number: "2281"
+    name: sum-of-total-strength-of-wizards
+    difficulty: hard
+    solution: ./leetcode-playground/2281-sum-of-total-strength-of-wizards.js
+    test: ./leetcode-playground/tests/2281-sum-of-total-strength-of-wizards.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-total-strength-of-wizards/
+    notes: ""
+
+  - id: 110
+    number: "2289"
+    name: steps-to-make-array-non-decreasing
+    difficulty: medium
+    solution: ./leetcode-playground/2289-steps-to-make-array-non-decreasing.js
+    test: ./leetcode-playground/tests/2289-steps-to-make-array-non-decreasing.test.js
+    leetcode_url: https://leetcode.com/problems/steps-to-make-array-non-decreasing/
+    notes: ""
+
+  - id: 111
+    number: "2296"
+    name: design-a-text-editor
+    difficulty: hard
+    solution: ./leetcode-playground/2296-design-a-text-editor.js
+    test: ./leetcode-playground/tests/2296-design-a-text-editor.test.js
+    leetcode_url: https://leetcode.com/problems/design-a-text-editor/
+    notes: ""
+
+  - id: 112
+    number: "2334"
+    name: subarray-with-elements-greater-than-varying-threshold
+    difficulty: hard
+    solution: ./leetcode-playground/2334-subarray-with-elements-greater-than-varying-threshold.js
+    test: ./leetcode-playground/tests/2334-subarray-with-elements-greater-than-varying-threshold.test.js
+    leetcode_url: https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/
+    notes: ""
+
+  - id: 113
+    number: "2375"
+    name: construct-smallest-number-from-di-string
+    difficulty: medium
+    solution: ./leetcode-playground/2375-construct-smallest-number-from-di-string.js
+    test: ./leetcode-playground/tests/2375-construct-smallest-number-from-di-string.test.js
+    leetcode_url: https://leetcode.com/problems/construct-smallest-number-from-di-string/
+    notes: ""
+
+  - id: 114
+    number: "2390"
+    name: removing-stars-from-a-string
+    difficulty: medium
+    solution: ./leetcode-playground/2390-removing-stars-from-a-string.js
+    test: ./leetcode-playground/tests/2390-removing-stars-from-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/removing-stars-from-a-string/
+    notes: ""
+
+  - id: 115
+    number: "2434"
+    name: using-a-robot-to-print-the-lexicographically-smallest-string
+    difficulty: medium
+    solution: ./leetcode-playground/2434-using-a-robot-to-print-the-lexicographically-smallest-string.js
+    test: ./leetcode-playground/tests/2434-using-a-robot-to-print-the-lexicographically-smallest-string.test.js
+    leetcode_url: https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/
+    notes: ""
+
+  - id: 116
+    number: "2454"
+    name: next-greater-element-iv
+    difficulty: hard
+    solution: ./leetcode-playground/2454-next-greater-element-iv.js
+    test: ./leetcode-playground/tests/2454-next-greater-element-iv.test.js
+    leetcode_url: https://leetcode.com/problems/next-greater-element-iv/
+    notes: ""
+
+  - id: 117
+    number: "2487"
+    name: remove-nodes-from-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2487-remove-nodes-from-linked-list.js
+    test: ./leetcode-playground/tests/2487-remove-nodes-from-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/remove-nodes-from-linked-list/
+    notes: ""
+
+  - id: 118
+    number: "2589"
+    name: minimum-time-to-complete-all-tasks
+    difficulty: hard
+    solution: ./leetcode-playground/2589-minimum-time-to-complete-all-tasks.js
+    test: ./leetcode-playground/tests/2589-minimum-time-to-complete-all-tasks.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-time-to-complete-all-tasks/
+    notes: ""
+
+  - id: 119
+    number: "2617"
+    name: minimum-number-of-visited-cells-in-a-grid
+    difficulty: hard
+    solution: ./leetcode-playground/2617-minimum-number-of-visited-cells-in-a-grid.js
+    test: ./leetcode-playground/tests/2617-minimum-number-of-visited-cells-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/
+    notes: ""
+
+  - id: 120
+    number: "2645"
+    name: minimum-additions-to-make-valid-string
+    difficulty: medium
+    solution: ./leetcode-playground/2645-minimum-additions-to-make-valid-string.js
+    test: ./leetcode-playground/tests/2645-minimum-additions-to-make-valid-string.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-additions-to-make-valid-string/
+    notes: ""
+
+  - id: 121
+    number: "2696"
+    name: minimum-string-length-after-removing-substrings
+    difficulty: easy
+    solution: ./leetcode-playground/2696-minimum-string-length-after-removing-substrings.js
+    test: ./leetcode-playground/tests/2696-minimum-string-length-after-removing-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-string-length-after-removing-substrings/
+    notes: ""
+
+  - id: 122
+    number: "2736"
+    name: maximum-sum-queries
+    difficulty: hard
+    solution: ./leetcode-playground/2736-maximum-sum-queries.js
+    test: ./leetcode-playground/tests/2736-maximum-sum-queries.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-queries/
+    notes: ""
+
+  - id: 123
+    number: "2751"
+    name: robot-collisions
+    difficulty: hard
+    solution: ./leetcode-playground/2751-robot-collisions.js
+    test: ./leetcode-playground/tests/2751-robot-collisions.test.js
+    leetcode_url: https://leetcode.com/problems/robot-collisions/
+    notes: ""
+
+  - id: 124
+    number: "2813"
+    name: maximum-elegance-of-a-k-length-subsequence
+    difficulty: hard
+    solution: ./leetcode-playground/2813-maximum-elegance-of-a-k-length-subsequence.js
+    test: ./leetcode-playground/tests/2813-maximum-elegance-of-a-k-length-subsequence.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/
+    notes: ""
+
+  - id: 125
+    number: "2816"
+    name: double-a-number-represented-as-a-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2816-double-a-number-represented-as-a-linked-list.js
+    test: ./leetcode-playground/tests/2816-double-a-number-represented-as-a-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/
+    notes: ""
+
+  - id: 126
+    number: "2818"
+    name: apply-operations-to-maximize-score
+    difficulty: hard
+    solution: ./leetcode-playground/2818-apply-operations-to-maximize-score.js
+    test: ./leetcode-playground/tests/2818-apply-operations-to-maximize-score.test.js
+    leetcode_url: https://leetcode.com/problems/apply-operations-to-maximize-score/
+    notes: ""
+
+  - id: 127
+    number: "2865"
+    name: beautiful-towers-i
+    difficulty: medium
+    solution: ./leetcode-playground/2865-beautiful-towers-i.js
+    test: ./leetcode-playground/tests/2865-beautiful-towers-i.test.js
+    leetcode_url: https://leetcode.com/problems/beautiful-towers-i/
+    notes: ""
+
+  - id: 128
+    number: "2866"
+    name: beautiful-towers-ii
+    difficulty: medium
+    solution: ./leetcode-playground/2866-beautiful-towers-ii.js
+    test: ./leetcode-playground/tests/2866-beautiful-towers-ii.test.js
+    leetcode_url: https://leetcode.com/problems/beautiful-towers-ii/
+    notes: ""
+
+  - id: 129
+    number: "2940"
+    name: find-building-where-alice-and-bob-can-meet
+    difficulty: hard
+    solution: ./leetcode-playground/2940-find-building-where-alice-and-bob-can-meet.js
+    test: ./leetcode-playground/tests/2940-find-building-where-alice-and-bob-can-meet.test.js
+    leetcode_url: https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/
+    notes: ""
+
+  - id: 130
+    number: "2945"
+    name: find-maximum-non-decreasing-array-length
+    difficulty: hard
+    solution: ./leetcode-playground/2945-find-maximum-non-decreasing-array-length.js
+    test: ./leetcode-playground/tests/2945-find-maximum-non-decreasing-array-length.test.js
+    leetcode_url: https://leetcode.com/problems/find-maximum-non-decreasing-array-length/
+    notes: ""
+
+  - id: 131
+    number: "3113"
+    name: find-the-number-of-subarrays-where-boundary-elements-are-maximum
+    difficulty: hard
+    solution: ./leetcode-playground/3113-find-the-number-of-subarrays-where-boundary-elements-are-maximum.js
+    test: ./leetcode-playground/tests/3113-find-the-number-of-subarrays-where-boundary-elements-are-maximum.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-number-of-subarrays-where-boundary-elements-are-maximum/
+    notes: ""
+
+  - id: 132
+    number: "3170"
+    name: lexicographically-minimum-string-after-removing-stars
+    difficulty: medium
+    solution: ./leetcode-playground/3170-lexicographically-minimum-string-after-removing-stars.js
+    test: ./leetcode-playground/tests/3170-lexicographically-minimum-string-after-removing-stars.test.js
+    leetcode_url: https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/
+    notes: ""
+
+  - id: 133
+    number: "3174"
+    name: clear-digits
+    difficulty: easy
+    solution: ./leetcode-playground/3174-clear-digits.js
+    test: ./leetcode-playground/tests/3174-clear-digits.test.js
+    leetcode_url: https://leetcode.com/problems/clear-digits/
+    notes: ""
+
+  - id: 134
+    number: "3229"
+    name: minimum-operations-to-make-array-equal-to-target
+    difficulty: hard
+    solution: ./leetcode-playground/3229-minimum-operations-to-make-array-equal-to-target.js
+    test: ./leetcode-playground/tests/3229-minimum-operations-to-make-array-equal-to-target.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/
+    notes: ""
+
+  - id: 135
+    number: "3412"
+    name: find-mirror-score-of-a-string
+    difficulty: medium
+    solution: ./leetcode-playground/3412-find-mirror-score-of-a-string.js
+    test: ./leetcode-playground/tests/3412-find-mirror-score-of-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/find-mirror-score-of-a-string/
+    notes: ""
+
+  - id: 136
+    number: "3420"
+    name: count-non-decreasing-subarrays-after-k-operations
+    difficulty: hard
+    solution: ./leetcode-playground/3420-count-non-decreasing-subarrays-after-k-operations.js
+    test: ./leetcode-playground/tests/3420-count-non-decreasing-subarrays-after-k-operations.test.js
+    leetcode_url: https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/
+    notes: ""
+
+  - id: 137
+    number: "3430"
+    name: maximum-and-minimum-sums-of-at-most-size-k-subarrays
+    difficulty: hard
+    solution: ./leetcode-playground/3430-maximum-and-minimum-sums-of-at-most-size-k-subarrays.js
+    test: ./leetcode-playground/tests/3430-maximum-and-minimum-sums-of-at-most-size-k-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-and-minimum-sums-of-at-most-size-k-subarrays/
+    notes: ""
+
+  - id: 138
+    number: "3523"
+    name: make-array-non-decreasing
+    difficulty: medium
+    solution: ./leetcode-playground/3523-make-array-non-decreasing.js
+    test: ./leetcode-playground/tests/3523-make-array-non-decreasing.test.js
+    leetcode_url: https://leetcode.com/problems/make-array-non-decreasing/
+    notes: ""
+
+  - id: 139
+    number: "3542"
+    name: minimum-operations-to-convert-all-elements-to-zero
+    difficulty: medium
+    solution: ./leetcode-playground/3542-minimum-operations-to-convert-all-elements-to-zero.js
+    test: ./leetcode-playground/tests/3542-minimum-operations-to-convert-all-elements-to-zero.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/
+    notes: ""
+
+  - id: 140
+    number: "3561"
+    name: resulting-string-after-adjacent-removals
+    difficulty: medium
+    solution: ./leetcode-playground/3561-resulting-string-after-adjacent-removals.js
+    test: ./leetcode-playground/tests/3561-resulting-string-after-adjacent-removals.test.js
+    leetcode_url: https://leetcode.com/problems/resulting-string-after-adjacent-removals/
+    notes: ""
+
+  - id: 141
+    number: "3638"
+    name: maximum-balanced-shipments
+    difficulty: medium
+    solution: ./leetcode-playground/3638-maximum-balanced-shipments.js
+    test: ./leetcode-playground/tests/3638-maximum-balanced-shipments.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-balanced-shipments/
+    notes: ""
+
+  - id: 142
+    number: "3676"
+    name: count-bowl-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/3676-count-bowl-subarrays.js
+    test: ./leetcode-playground/tests/3676-count-bowl-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/count-bowl-subarrays/
+    notes: ""
+
+  - id: 143
+    number: "3703"
+    name: remove-k-balanced-substrings
+    difficulty: medium
+    solution: ./leetcode-playground/3703-remove-k-balanced-substrings.js
+    test: ./leetcode-playground/tests/3703-remove-k-balanced-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/remove-k-balanced-substrings/
+    notes: ""
+
+  - id: 144
+    number: "3746"
+    name: minimum-string-length-after-balanced-removals
+    difficulty: medium
+    solution: ./leetcode-playground/3746-minimum-string-length-after-balanced-removals.js
+    test: ./leetcode-playground/tests/3746-minimum-string-length-after-balanced-removals.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-string-length-after-balanced-removals/
+    notes: ""
+
+  - id: 145
+    number: "3816"
+    name: lexicographically-smallest-string-after-deleting-duplicate-characters
+    difficulty: hard
+    solution: ./leetcode-playground/3816-lexicographically-smallest-string-after-deleting-duplicate-characters.js
+    test: ./leetcode-playground/tests/3816-lexicographically-smallest-string-after-deleting-duplicate-characters.test.js
+    leetcode_url: https://leetcode.com/problems/lexicographically-smallest-string-after-deleting-duplicate-characters/
+    notes: ""
+
+  - id: 146
+    number: "3834"
+    name: merge-adjacent-equal-elements
+    difficulty: medium
+    solution: ./leetcode-playground/3834-merge-adjacent-equal-elements.js
+    test: ./leetcode-playground/tests/3834-merge-adjacent-equal-elements.test.js
+    leetcode_url: https://leetcode.com/problems/merge-adjacent-equal-elements/
+    notes: ""
+

@@ -1,0 +1,418 @@
+# Topic: Trie
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+trie:
+  - id: 1
+    number: "0014"
+    name: longest-common-prefix
+    difficulty: easy
+    solution: ./leetcode-playground/0014-longest-common-prefix.js
+    test: ./leetcode-playground/tests/0014-longest-common-prefix.test.js
+    leetcode_url: https://leetcode.com/problems/longest-common-prefix/
+    notes: ""
+
+  - id: 2
+    number: "0139"
+    name: word-break
+    difficulty: medium
+    solution: ./leetcode-playground/0139-word-break.js
+    test: ./leetcode-playground/tests/0139-word-break.test.js
+    leetcode_url: https://leetcode.com/problems/word-break/
+    notes: ""
+
+  - id: 3
+    number: "0140"
+    name: word-break-ii
+    difficulty: hard
+    solution: ./leetcode-playground/0140-word-break-ii.js
+    test: ./leetcode-playground/tests/0140-word-break-ii.test.js
+    leetcode_url: https://leetcode.com/problems/word-break-ii/
+    notes: ""
+
+  - id: 4
+    number: "0208"
+    name: implement-trie-prefix-tree
+    difficulty: medium
+    solution: ./leetcode-playground/0208-implement-trie-prefix-tree.js
+    test: ./leetcode-playground/tests/0208-implement-trie-prefix-tree.test.js
+    leetcode_url: https://leetcode.com/problems/implement-trie-prefix-tree/
+    notes: ""
+
+  - id: 5
+    number: "0211"
+    name: design-add-and-search-words-data-structure
+    difficulty: medium
+    solution: ./leetcode-playground/0211-design-add-and-search-words-data-structure.js
+    test: ./leetcode-playground/tests/0211-design-add-and-search-words-data-structure.test.js
+    leetcode_url: https://leetcode.com/problems/design-add-and-search-words-data-structure/
+    notes: ""
+
+  - id: 6
+    number: "0212"
+    name: word-search-ii
+    difficulty: hard
+    solution: ./leetcode-playground/0212-word-search-ii.js
+    test: ./leetcode-playground/tests/0212-word-search-ii.test.js
+    leetcode_url: https://leetcode.com/problems/word-search-ii/
+    notes: ""
+
+  - id: 7
+    number: "0336"
+    name: palindrome-pairs
+    difficulty: hard
+    solution: ./leetcode-playground/0336-palindrome-pairs.js
+    test: ./leetcode-playground/tests/0336-palindrome-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/palindrome-pairs/
+    notes: ""
+
+  - id: 8
+    number: "0386"
+    name: lexicographical-numbers
+    difficulty: medium
+    solution: ./leetcode-playground/0386-lexicographical-numbers.js
+    test: ./leetcode-playground/tests/0386-lexicographical-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/lexicographical-numbers/
+    notes: ""
+
+  - id: 9
+    number: "0421"
+    name: maximum-xor-of-two-numbers-in-an-array
+    difficulty: medium
+    solution: ./leetcode-playground/0421-maximum-xor-of-two-numbers-in-an-array.js
+    test: ./leetcode-playground/tests/0421-maximum-xor-of-two-numbers-in-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
+    notes: ""
+
+  - id: 10
+    number: "0440"
+    name: k-th-smallest-in-lexicographical-order
+    difficulty: hard
+    solution: ./leetcode-playground/0440-k-th-smallest-in-lexicographical-order.js
+    test: ./leetcode-playground/tests/0440-k-th-smallest-in-lexicographical-order.test.js
+    leetcode_url: https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/
+    notes: ""
+
+  - id: 11
+    number: "0472"
+    name: concatenated-words
+    difficulty: hard
+    solution: ./leetcode-playground/0472-concatenated-words.js
+    test: ./leetcode-playground/tests/0472-concatenated-words.test.js
+    leetcode_url: https://leetcode.com/problems/concatenated-words/
+    notes: ""
+
+  - id: 12
+    number: "0648"
+    name: replace-words
+    difficulty: medium
+    solution: ./leetcode-playground/0648-replace-words.js
+    test: ./leetcode-playground/tests/0648-replace-words.test.js
+    leetcode_url: https://leetcode.com/problems/replace-words/
+    notes: ""
+
+  - id: 13
+    number: "0676"
+    name: implement-magic-dictionary
+    difficulty: medium
+    solution: ./leetcode-playground/0676-implement-magic-dictionary.js
+    test: ./leetcode-playground/tests/0676-implement-magic-dictionary.test.js
+    leetcode_url: https://leetcode.com/problems/implement-magic-dictionary/
+    notes: ""
+
+  - id: 14
+    number: "0677"
+    name: map-sum-pairs
+    difficulty: medium
+    solution: ./leetcode-playground/0677-map-sum-pairs.js
+    test: ./leetcode-playground/tests/0677-map-sum-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/map-sum-pairs/
+    notes: ""
+
+  - id: 15
+    number: "0692"
+    name: top-k-frequent-words
+    difficulty: medium
+    solution: ./leetcode-playground/0692-top-k-frequent-words.js
+    test: ./leetcode-playground/tests/0692-top-k-frequent-words.test.js
+    leetcode_url: https://leetcode.com/problems/top-k-frequent-words/
+    notes: ""
+
+  - id: 16
+    number: "0720"
+    name: longest-word-in-dictionary
+    difficulty: medium
+    solution: ./leetcode-playground/0720-longest-word-in-dictionary.js
+    test: ./leetcode-playground/tests/0720-longest-word-in-dictionary.test.js
+    leetcode_url: https://leetcode.com/problems/longest-word-in-dictionary/
+    notes: ""
+
+  - id: 17
+    number: "0745"
+    name: prefix-and-suffix-search
+    difficulty: hard
+    solution: ./leetcode-playground/0745-prefix-and-suffix-search.js
+    test: ./leetcode-playground/tests/0745-prefix-and-suffix-search.test.js
+    leetcode_url: https://leetcode.com/problems/prefix-and-suffix-search/
+    notes: ""
+
+  - id: 18
+    number: "0792"
+    name: number-of-matching-subsequences
+    difficulty: medium
+    solution: ./leetcode-playground/0792-number-of-matching-subsequences.js
+    test: ./leetcode-playground/tests/0792-number-of-matching-subsequences.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-matching-subsequences/
+    notes: ""
+
+  - id: 19
+    number: "0820"
+    name: short-encoding-of-words
+    difficulty: medium
+    solution: ./leetcode-playground/0820-short-encoding-of-words.js
+    test: ./leetcode-playground/tests/0820-short-encoding-of-words.test.js
+    leetcode_url: https://leetcode.com/problems/short-encoding-of-words/
+    notes: ""
+
+  - id: 20
+    number: "1023"
+    name: camelcase-matching
+    difficulty: medium
+    solution: ./leetcode-playground/1023-camelcase-matching.js
+    test: ./leetcode-playground/tests/1023-camelcase-matching.test.js
+    leetcode_url: https://leetcode.com/problems/camelcase-matching/
+    notes: ""
+
+  - id: 21
+    number: "1032"
+    name: stream-of-characters
+    difficulty: hard
+    solution: ./leetcode-playground/1032-stream-of-characters.js
+    test: ./leetcode-playground/tests/1032-stream-of-characters.test.js
+    leetcode_url: https://leetcode.com/problems/stream-of-characters/
+    notes: ""
+
+  - id: 22
+    number: "1178"
+    name: number-of-valid-words-for-each-puzzle
+    difficulty: hard
+    solution: ./leetcode-playground/1178-number-of-valid-words-for-each-puzzle.js
+    test: ./leetcode-playground/tests/1178-number-of-valid-words-for-each-puzzle.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/
+    notes: ""
+
+  - id: 23
+    number: "1233"
+    name: remove-sub-folders-from-the-filesystem
+    difficulty: medium
+    solution: ./leetcode-playground/1233-remove-sub-folders-from-the-filesystem.js
+    test: ./leetcode-playground/tests/1233-remove-sub-folders-from-the-filesystem.test.js
+    leetcode_url: https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
+    notes: ""
+
+  - id: 24
+    number: "1268"
+    name: search-suggestions-system
+    difficulty: medium
+    solution: ./leetcode-playground/1268-search-suggestions-system.js
+    test: ./leetcode-playground/tests/1268-search-suggestions-system.test.js
+    leetcode_url: https://leetcode.com/problems/search-suggestions-system/
+    notes: ""
+
+  - id: 25
+    number: "1316"
+    name: distinct-echo-substrings
+    difficulty: hard
+    solution: ./leetcode-playground/1316-distinct-echo-substrings.js
+    test: ./leetcode-playground/tests/1316-distinct-echo-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/distinct-echo-substrings/
+    notes: ""
+
+  - id: 26
+    number: "1707"
+    name: maximum-xor-with-an-element-from-array
+    difficulty: hard
+    solution: ./leetcode-playground/1707-maximum-xor-with-an-element-from-array.js
+    test: ./leetcode-playground/tests/1707-maximum-xor-with-an-element-from-array.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-xor-with-an-element-from-array/
+    notes: ""
+
+  - id: 27
+    number: "1803"
+    name: count-pairs-with-xor-in-a-range
+    difficulty: hard
+    solution: ./leetcode-playground/1803-count-pairs-with-xor-in-a-range.js
+    test: ./leetcode-playground/tests/1803-count-pairs-with-xor-in-a-range.test.js
+    leetcode_url: https://leetcode.com/problems/count-pairs-with-xor-in-a-range/
+    notes: ""
+
+  - id: 28
+    number: "1938"
+    name: maximum-genetic-difference-query
+    difficulty: hard
+    solution: ./leetcode-playground/1938-maximum-genetic-difference-query.js
+    test: ./leetcode-playground/tests/1938-maximum-genetic-difference-query.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-genetic-difference-query/
+    notes: ""
+
+  - id: 29
+    number: "1948"
+    name: delete-duplicate-folders-in-system
+    difficulty: hard
+    solution: ./leetcode-playground/1948-delete-duplicate-folders-in-system.js
+    test: ./leetcode-playground/tests/1948-delete-duplicate-folders-in-system.test.js
+    leetcode_url: https://leetcode.com/problems/delete-duplicate-folders-in-system/
+    notes: ""
+
+  - id: 30
+    number: "2227"
+    name: encrypt-and-decrypt-strings
+    difficulty: hard
+    solution: ./leetcode-playground/2227-encrypt-and-decrypt-strings.js
+    test: ./leetcode-playground/tests/2227-encrypt-and-decrypt-strings.test.js
+    leetcode_url: https://leetcode.com/problems/encrypt-and-decrypt-strings/
+    notes: ""
+
+  - id: 31
+    number: "2261"
+    name: k-divisible-elements-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/2261-k-divisible-elements-subarrays.js
+    test: ./leetcode-playground/tests/2261-k-divisible-elements-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/k-divisible-elements-subarrays/
+    notes: ""
+
+  - id: 32
+    number: "2416"
+    name: sum-of-prefix-scores-of-strings
+    difficulty: hard
+    solution: ./leetcode-playground/2416-sum-of-prefix-scores-of-strings.js
+    test: ./leetcode-playground/tests/2416-sum-of-prefix-scores-of-strings.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-prefix-scores-of-strings/
+    notes: ""
+
+  - id: 33
+    number: "2452"
+    name: words-within-two-edits-of-dictionary
+    difficulty: medium
+    solution: ./leetcode-playground/2452-words-within-two-edits-of-dictionary.js
+    test: ./leetcode-playground/tests/2452-words-within-two-edits-of-dictionary.test.js
+    leetcode_url: https://leetcode.com/problems/words-within-two-edits-of-dictionary/
+    notes: ""
+
+  - id: 34
+    number: "2707"
+    name: extra-characters-in-a-string
+    difficulty: medium
+    solution: ./leetcode-playground/2707-extra-characters-in-a-string.js
+    test: ./leetcode-playground/tests/2707-extra-characters-in-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/extra-characters-in-a-string/
+    notes: ""
+
+  - id: 35
+    number: "2932"
+    name: maximum-strong-pair-xor-i
+    difficulty: easy
+    solution: ./leetcode-playground/2932-maximum-strong-pair-xor-i.js
+    test: ./leetcode-playground/tests/2932-maximum-strong-pair-xor-i.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-strong-pair-xor-i/
+    notes: ""
+
+  - id: 36
+    number: "2935"
+    name: maximum-strong-pair-xor-ii
+    difficulty: hard
+    solution: ./leetcode-playground/2935-maximum-strong-pair-xor-ii.js
+    test: ./leetcode-playground/tests/2935-maximum-strong-pair-xor-ii.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-strong-pair-xor-ii/
+    notes: ""
+
+  - id: 37
+    number: "2977"
+    name: minimum-cost-to-convert-string-ii
+    difficulty: hard
+    solution: ./leetcode-playground/2977-minimum-cost-to-convert-string-ii.js
+    test: ./leetcode-playground/tests/2977-minimum-cost-to-convert-string-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-cost-to-convert-string-ii/
+    notes: ""
+
+  - id: 38
+    number: "3042"
+    name: count-prefix-and-suffix-pairs-i
+    difficulty: easy
+    solution: ./leetcode-playground/3042-count-prefix-and-suffix-pairs-i.js
+    test: ./leetcode-playground/tests/3042-count-prefix-and-suffix-pairs-i.test.js
+    leetcode_url: https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/
+    notes: ""
+
+  - id: 39
+    number: "3043"
+    name: find-the-length-of-the-longest-common-prefix
+    difficulty: medium
+    solution: ./leetcode-playground/3043-find-the-length-of-the-longest-common-prefix.js
+    test: ./leetcode-playground/tests/3043-find-the-length-of-the-longest-common-prefix.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/
+    notes: ""
+
+  - id: 40
+    number: "3045"
+    name: count-prefix-and-suffix-pairs-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3045-count-prefix-and-suffix-pairs-ii.js
+    test: ./leetcode-playground/tests/3045-count-prefix-and-suffix-pairs-ii.test.js
+    leetcode_url: https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/
+    notes: ""
+
+  - id: 41
+    number: "3076"
+    name: shortest-uncommon-substring-in-an-array
+    difficulty: medium
+    solution: ./leetcode-playground/3076-shortest-uncommon-substring-in-an-array.js
+    test: ./leetcode-playground/tests/3076-shortest-uncommon-substring-in-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/
+    notes: ""
+
+  - id: 42
+    number: "3093"
+    name: longest-common-suffix-queries
+    difficulty: hard
+    solution: ./leetcode-playground/3093-longest-common-suffix-queries.js
+    test: ./leetcode-playground/tests/3093-longest-common-suffix-queries.test.js
+    leetcode_url: https://leetcode.com/problems/longest-common-suffix-queries/
+    notes: ""
+
+  - id: 43
+    number: "3291"
+    name: minimum-number-of-valid-strings-to-form-target-i
+    difficulty: medium
+    solution: ./leetcode-playground/3291-minimum-number-of-valid-strings-to-form-target-i.js
+    test: ./leetcode-playground/tests/3291-minimum-number-of-valid-strings-to-form-target-i.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i/
+    notes: ""
+
+  - id: 44
+    number: "3485"
+    name: longest-common-prefix-of-k-strings-after-removal
+    difficulty: hard
+    solution: ./leetcode-playground/3485-longest-common-prefix-of-k-strings-after-removal.js
+    test: ./leetcode-playground/tests/3485-longest-common-prefix-of-k-strings-after-removal.test.js
+    leetcode_url: https://leetcode.com/problems/longest-common-prefix-of-k-strings-after-removal/
+    notes: ""
+
+  - id: 45
+    number: "3597"
+    name: partition-string
+    difficulty: medium
+    solution: ./leetcode-playground/3597-partition-string.js
+    test: ./leetcode-playground/tests/3597-partition-string.test.js
+    leetcode_url: https://leetcode.com/problems/partition-string/
+    notes: ""
+
+  - id: 46
+    number: "3845"
+    name: maximum-subarray-xor-with-bounded-range
+    difficulty: hard
+    solution: ./leetcode-playground/3845-maximum-subarray-xor-with-bounded-range.js
+    test: ./leetcode-playground/tests/3845-maximum-subarray-xor-with-bounded-range.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-subarray-xor-with-bounded-range/
+    notes: ""
+

@@ -1,0 +1,301 @@
+# Topic: String Matching
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+string_matching:
+  - id: 1
+    number: "0028"
+    name: find-the-index-of-the-first-occurrence-in-a-string
+    difficulty: easy
+    solution: ./leetcode-playground/0028-find-the-index-of-the-first-occurrence-in-a-string.js
+    test: ./leetcode-playground/tests/0028-find-the-index-of-the-first-occurrence-in-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+    notes: ""
+
+  - id: 2
+    number: "0214"
+    name: shortest-palindrome
+    difficulty: hard
+    solution: ./leetcode-playground/0214-shortest-palindrome.js
+    test: ./leetcode-playground/tests/0214-shortest-palindrome.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-palindrome/
+    notes: ""
+
+  - id: 3
+    number: "0459"
+    name: repeated-substring-pattern
+    difficulty: easy
+    solution: ./leetcode-playground/0459-repeated-substring-pattern.js
+    test: ./leetcode-playground/tests/0459-repeated-substring-pattern.test.js
+    leetcode_url: https://leetcode.com/problems/repeated-substring-pattern/
+    notes: ""
+
+  - id: 4
+    number: "0572"
+    name: subtree-of-another-tree
+    difficulty: easy
+    solution: ./leetcode-playground/0572-subtree-of-another-tree.js
+    test: ./leetcode-playground/tests/0572-subtree-of-another-tree.test.js
+    leetcode_url: https://leetcode.com/problems/subtree-of-another-tree/
+    notes: ""
+
+  - id: 5
+    number: "0686"
+    name: repeated-string-match
+    difficulty: medium
+    solution: ./leetcode-playground/0686-repeated-string-match.js
+    test: ./leetcode-playground/tests/0686-repeated-string-match.test.js
+    leetcode_url: https://leetcode.com/problems/repeated-string-match/
+    notes: ""
+
+  - id: 6
+    number: "0796"
+    name: rotate-string
+    difficulty: easy
+    solution: ./leetcode-playground/0796-rotate-string.js
+    test: ./leetcode-playground/tests/0796-rotate-string.test.js
+    leetcode_url: https://leetcode.com/problems/rotate-string/
+    notes: ""
+
+  - id: 7
+    number: "1023"
+    name: camelcase-matching
+    difficulty: medium
+    solution: ./leetcode-playground/1023-camelcase-matching.js
+    test: ./leetcode-playground/tests/1023-camelcase-matching.test.js
+    leetcode_url: https://leetcode.com/problems/camelcase-matching/
+    notes: ""
+
+  - id: 8
+    number: "1392"
+    name: longest-happy-prefix
+    difficulty: hard
+    solution: ./leetcode-playground/1392-longest-happy-prefix.js
+    test: ./leetcode-playground/tests/1392-longest-happy-prefix.test.js
+    leetcode_url: https://leetcode.com/problems/longest-happy-prefix/
+    notes: ""
+
+  - id: 9
+    number: "1397"
+    name: find-all-good-strings
+    difficulty: hard
+    solution: ./leetcode-playground/1397-find-all-good-strings.js
+    test: ./leetcode-playground/tests/1397-find-all-good-strings.test.js
+    leetcode_url: https://leetcode.com/problems/find-all-good-strings/
+    notes: ""
+
+  - id: 10
+    number: "1408"
+    name: string-matching-in-an-array
+    difficulty: easy
+    solution: ./leetcode-playground/1408-string-matching-in-an-array.js
+    test: ./leetcode-playground/tests/1408-string-matching-in-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/string-matching-in-an-array/
+    notes: ""
+
+  - id: 11
+    number: "1455"
+    name: check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence
+    difficulty: easy
+    solution: ./leetcode-playground/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence.js
+    test: ./leetcode-playground/tests/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/
+    notes: ""
+
+  - id: 12
+    number: "1668"
+    name: maximum-repeating-substring
+    difficulty: easy
+    solution: ./leetcode-playground/1668-maximum-repeating-substring.js
+    test: ./leetcode-playground/tests/1668-maximum-repeating-substring.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-repeating-substring/
+    notes: ""
+
+  - id: 13
+    number: "1764"
+    name: form-array-by-concatenating-subarrays-of-another-array
+    difficulty: medium
+    solution: ./leetcode-playground/1764-form-array-by-concatenating-subarrays-of-another-array.js
+    test: ./leetcode-playground/tests/1764-form-array-by-concatenating-subarrays-of-another-array.test.js
+    leetcode_url: https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/
+    notes: ""
+
+  - id: 14
+    number: "2185"
+    name: counting-words-with-a-given-prefix
+    difficulty: easy
+    solution: ./leetcode-playground/2185-counting-words-with-a-given-prefix.js
+    test: ./leetcode-playground/tests/2185-counting-words-with-a-given-prefix.test.js
+    leetcode_url: https://leetcode.com/problems/counting-words-with-a-given-prefix/
+    notes: ""
+
+  - id: 15
+    number: "2223"
+    name: sum-of-scores-of-built-strings
+    difficulty: hard
+    solution: ./leetcode-playground/2223-sum-of-scores-of-built-strings.js
+    test: ./leetcode-playground/tests/2223-sum-of-scores-of-built-strings.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-scores-of-built-strings/
+    notes: ""
+
+  - id: 16
+    number: "2301"
+    name: match-substring-after-replacement
+    difficulty: hard
+    solution: ./leetcode-playground/2301-match-substring-after-replacement.js
+    test: ./leetcode-playground/tests/2301-match-substring-after-replacement.test.js
+    leetcode_url: https://leetcode.com/problems/match-substring-after-replacement/
+    notes: ""
+
+  - id: 17
+    number: "2430"
+    name: maximum-deletions-on-a-string
+    difficulty: hard
+    solution: ./leetcode-playground/2430-maximum-deletions-on-a-string.js
+    test: ./leetcode-playground/tests/2430-maximum-deletions-on-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-deletions-on-a-string/
+    notes: ""
+
+  - id: 18
+    number: "2851"
+    name: string-transformation
+    difficulty: hard
+    solution: ./leetcode-playground/2851-string-transformation.js
+    test: ./leetcode-playground/tests/2851-string-transformation.test.js
+    leetcode_url: https://leetcode.com/problems/string-transformation/
+    notes: ""
+
+  - id: 19
+    number: "3006"
+    name: find-beautiful-indices-in-the-given-array-i
+    difficulty: medium
+    solution: ./leetcode-playground/3006-find-beautiful-indices-in-the-given-array-i.js
+    test: ./leetcode-playground/tests/3006-find-beautiful-indices-in-the-given-array-i.test.js
+    leetcode_url: https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/
+    notes: ""
+
+  - id: 20
+    number: "3008"
+    name: find-beautiful-indices-in-the-given-array-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3008-find-beautiful-indices-in-the-given-array-ii.js
+    test: ./leetcode-playground/tests/3008-find-beautiful-indices-in-the-given-array-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/
+    notes: ""
+
+  - id: 21
+    number: "3029"
+    name: minimum-time-to-revert-word-to-initial-state-i
+    difficulty: medium
+    solution: ./leetcode-playground/3029-minimum-time-to-revert-word-to-initial-state-i.js
+    test: ./leetcode-playground/tests/3029-minimum-time-to-revert-word-to-initial-state-i.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i/
+    notes: ""
+
+  - id: 22
+    number: "3031"
+    name: minimum-time-to-revert-word-to-initial-state-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3031-minimum-time-to-revert-word-to-initial-state-ii.js
+    test: ./leetcode-playground/tests/3031-minimum-time-to-revert-word-to-initial-state-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii/
+    notes: ""
+
+  - id: 23
+    number: "3034"
+    name: number-of-subarrays-that-match-a-pattern-i
+    difficulty: medium
+    solution: ./leetcode-playground/3034-number-of-subarrays-that-match-a-pattern-i.js
+    test: ./leetcode-playground/tests/3034-number-of-subarrays-that-match-a-pattern-i.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/
+    notes: ""
+
+  - id: 24
+    number: "3036"
+    name: number-of-subarrays-that-match-a-pattern-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3036-number-of-subarrays-that-match-a-pattern-ii.js
+    test: ./leetcode-playground/tests/3036-number-of-subarrays-that-match-a-pattern-ii.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/
+    notes: ""
+
+  - id: 25
+    number: "3042"
+    name: count-prefix-and-suffix-pairs-i
+    difficulty: easy
+    solution: ./leetcode-playground/3042-count-prefix-and-suffix-pairs-i.js
+    test: ./leetcode-playground/tests/3042-count-prefix-and-suffix-pairs-i.test.js
+    leetcode_url: https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/
+    notes: ""
+
+  - id: 26
+    number: "3045"
+    name: count-prefix-and-suffix-pairs-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3045-count-prefix-and-suffix-pairs-ii.js
+    test: ./leetcode-playground/tests/3045-count-prefix-and-suffix-pairs-ii.test.js
+    leetcode_url: https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/
+    notes: ""
+
+  - id: 27
+    number: "3291"
+    name: minimum-number-of-valid-strings-to-form-target-i
+    difficulty: medium
+    solution: ./leetcode-playground/3291-minimum-number-of-valid-strings-to-form-target-i.js
+    test: ./leetcode-playground/tests/3291-minimum-number-of-valid-strings-to-form-target-i.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i/
+    notes: ""
+
+  - id: 28
+    number: "3292"
+    name: minimum-number-of-valid-strings-to-form-target-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3292-minimum-number-of-valid-strings-to-form-target-ii.js
+    test: ./leetcode-playground/tests/3292-minimum-number-of-valid-strings-to-form-target-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/
+    notes: ""
+
+  - id: 29
+    number: "3303"
+    name: find-the-occurrence-of-first-almost-equal-substring
+    difficulty: hard
+    solution: ./leetcode-playground/3303-find-the-occurrence-of-first-almost-equal-substring.js
+    test: ./leetcode-playground/tests/3303-find-the-occurrence-of-first-almost-equal-substring.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-occurrence-of-first-almost-equal-substring/
+    notes: ""
+
+  - id: 30
+    number: "3407"
+    name: substring-matching-pattern
+    difficulty: easy
+    solution: ./leetcode-playground/3407-substring-matching-pattern.js
+    test: ./leetcode-playground/tests/3407-substring-matching-pattern.test.js
+    leetcode_url: https://leetcode.com/problems/substring-matching-pattern/
+    notes: ""
+
+  - id: 31
+    number: "3455"
+    name: shortest-matching-substring
+    difficulty: hard
+    solution: ./leetcode-playground/3455-shortest-matching-substring.js
+    test: ./leetcode-playground/tests/3455-shortest-matching-substring.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-matching-substring/
+    notes: ""
+
+  - id: 32
+    number: "3474"
+    name: lexicographically-smallest-generated-string
+    difficulty: hard
+    solution: ./leetcode-playground/3474-lexicographically-smallest-generated-string.js
+    test: ./leetcode-playground/tests/3474-lexicographically-smallest-generated-string.test.js
+    leetcode_url: https://leetcode.com/problems/lexicographically-smallest-generated-string/
+    notes: ""
+
+  - id: 33
+    number: "3529"
+    name: count-cells-in-overlapping-horizontal-and-vertical-substrings
+    difficulty: medium
+    solution: ./leetcode-playground/3529-count-cells-in-overlapping-horizontal-and-vertical-substrings.js
+    test: ./leetcode-playground/tests/3529-count-cells-in-overlapping-horizontal-and-vertical-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/
+    notes: ""
+

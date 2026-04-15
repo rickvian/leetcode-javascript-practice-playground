@@ -1,0 +1,15 @@
+import { greatestCommonDivisorTraversal } from '../2709-greatest-common-divisor-traversal.js';
+
+describe('2709-greatest-common-divisor-traversal', () => {
+    it('should handle basic case', () => {
+        // expect(greatestCommonDivisorTraversal(...)).toEqual(...);
+    });
+
+    it('should handle empty / minimum input', () => {
+        // expect(greatestCommonDivisorTraversal(...)).toEqual(...);
+    });
+
+    it('should handle edge case', () => {
+        // expect(greatestCommonDivisorTraversal(...)).toEqual(...);
+    });
+});

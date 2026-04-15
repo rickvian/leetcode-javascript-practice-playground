@@ -1,0 +1,15 @@
+import { maximizeSubarrayGcdScore } from '../3574-maximize-subarray-gcd-score.js';
+
+describe('3574-maximize-subarray-gcd-score', () => {
+    it('should handle basic case', () => {
+        // expect(maximizeSubarrayGcdScore(...)).toEqual(...);
+    });
+
+    it('should handle empty / minimum input', () => {
+        // expect(maximizeSubarrayGcdScore(...)).toEqual(...);
+    });
+
+    it('should handle edge case', () => {
+        // expect(maximizeSubarrayGcdScore(...)).toEqual(...);
+    });
+});

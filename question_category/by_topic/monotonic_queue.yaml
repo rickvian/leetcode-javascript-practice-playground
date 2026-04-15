@@ -1,0 +1,193 @@
+# Topic: Monotonic Queue
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+monotonic_queue:
+  - id: 1
+    number: "0239"
+    name: sliding-window-maximum
+    difficulty: hard
+    solution: ./leetcode-playground/0239-sliding-window-maximum.js
+    test: ./leetcode-playground/tests/0239-sliding-window-maximum.test.js
+    leetcode_url: https://leetcode.com/problems/sliding-window-maximum/
+    notes: ""
+
+  - id: 2
+    number: "0862"
+    name: shortest-subarray-with-sum-at-least-k
+    difficulty: hard
+    solution: ./leetcode-playground/0862-shortest-subarray-with-sum-at-least-k.js
+    test: ./leetcode-playground/tests/0862-shortest-subarray-with-sum-at-least-k.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+    notes: ""
+
+  - id: 3
+    number: "0918"
+    name: maximum-sum-circular-subarray
+    difficulty: medium
+    solution: ./leetcode-playground/0918-maximum-sum-circular-subarray.js
+    test: ./leetcode-playground/tests/0918-maximum-sum-circular-subarray.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-circular-subarray/
+    notes: ""
+
+  - id: 4
+    number: "1425"
+    name: constrained-subsequence-sum
+    difficulty: hard
+    solution: ./leetcode-playground/1425-constrained-subsequence-sum.js
+    test: ./leetcode-playground/tests/1425-constrained-subsequence-sum.test.js
+    leetcode_url: https://leetcode.com/problems/constrained-subsequence-sum/
+    notes: ""
+
+  - id: 5
+    number: "1438"
+    name: longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
+    difficulty: medium
+    solution: ./leetcode-playground/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.js
+    test: ./leetcode-playground/tests/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.test.js
+    leetcode_url: https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
+    notes: ""
+
+  - id: 6
+    number: "1499"
+    name: max-value-of-equation
+    difficulty: hard
+    solution: ./leetcode-playground/1499-max-value-of-equation.js
+    test: ./leetcode-playground/tests/1499-max-value-of-equation.test.js
+    leetcode_url: https://leetcode.com/problems/max-value-of-equation/
+    notes: ""
+
+  - id: 7
+    number: "1687"
+    name: delivering-boxes-from-storage-to-ports
+    difficulty: hard
+    solution: ./leetcode-playground/1687-delivering-boxes-from-storage-to-ports.js
+    test: ./leetcode-playground/tests/1687-delivering-boxes-from-storage-to-ports.test.js
+    leetcode_url: https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/
+    notes: ""
+
+  - id: 8
+    number: "1696"
+    name: jump-game-vi
+    difficulty: medium
+    solution: ./leetcode-playground/1696-jump-game-vi.js
+    test: ./leetcode-playground/tests/1696-jump-game-vi.test.js
+    leetcode_url: https://leetcode.com/problems/jump-game-vi/
+    notes: ""
+
+  - id: 9
+    number: "2071"
+    name: maximum-number-of-tasks-you-can-assign
+    difficulty: hard
+    solution: ./leetcode-playground/2071-maximum-number-of-tasks-you-can-assign.js
+    test: ./leetcode-playground/tests/2071-maximum-number-of-tasks-you-can-assign.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/
+    notes: ""
+
+  - id: 10
+    number: "2398"
+    name: maximum-number-of-robots-within-budget
+    difficulty: hard
+    solution: ./leetcode-playground/2398-maximum-number-of-robots-within-budget.js
+    test: ./leetcode-playground/tests/2398-maximum-number-of-robots-within-budget.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-robots-within-budget/
+    notes: ""
+
+  - id: 11
+    number: "2407"
+    name: longest-increasing-subsequence-ii
+    difficulty: hard
+    solution: ./leetcode-playground/2407-longest-increasing-subsequence-ii.js
+    test: ./leetcode-playground/tests/2407-longest-increasing-subsequence-ii.test.js
+    leetcode_url: https://leetcode.com/problems/longest-increasing-subsequence-ii/
+    notes: ""
+
+  - id: 12
+    number: "2444"
+    name: count-subarrays-with-fixed-bounds
+    difficulty: hard
+    solution: ./leetcode-playground/2444-count-subarrays-with-fixed-bounds.js
+    test: ./leetcode-playground/tests/2444-count-subarrays-with-fixed-bounds.test.js
+    leetcode_url: https://leetcode.com/problems/count-subarrays-with-fixed-bounds/
+    notes: ""
+
+  - id: 13
+    number: "2762"
+    name: continuous-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/2762-continuous-subarrays.js
+    test: ./leetcode-playground/tests/2762-continuous-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/continuous-subarrays/
+    notes: ""
+
+  - id: 14
+    number: "2944"
+    name: minimum-number-of-coins-for-fruits
+    difficulty: medium
+    solution: ./leetcode-playground/2944-minimum-number-of-coins-for-fruits.js
+    test: ./leetcode-playground/tests/2944-minimum-number-of-coins-for-fruits.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-coins-for-fruits/
+    notes: ""
+
+  - id: 15
+    number: "2945"
+    name: find-maximum-non-decreasing-array-length
+    difficulty: hard
+    solution: ./leetcode-playground/2945-find-maximum-non-decreasing-array-length.js
+    test: ./leetcode-playground/tests/2945-find-maximum-non-decreasing-array-length.test.js
+    leetcode_url: https://leetcode.com/problems/find-maximum-non-decreasing-array-length/
+    notes: ""
+
+  - id: 16
+    number: "3420"
+    name: count-non-decreasing-subarrays-after-k-operations
+    difficulty: hard
+    solution: ./leetcode-playground/3420-count-non-decreasing-subarrays-after-k-operations.js
+    test: ./leetcode-playground/tests/3420-count-non-decreasing-subarrays-after-k-operations.test.js
+    leetcode_url: https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/
+    notes: ""
+
+  - id: 17
+    number: "3578"
+    name: count-partitions-with-max-min-difference-at-most-k
+    difficulty: medium
+    solution: ./leetcode-playground/3578-count-partitions-with-max-min-difference-at-most-k.js
+    test: ./leetcode-playground/tests/3578-count-partitions-with-max-min-difference-at-most-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/
+    notes: ""
+
+  - id: 18
+    number: "3589"
+    name: count-prime-gap-balanced-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/3589-count-prime-gap-balanced-subarrays.js
+    test: ./leetcode-playground/tests/3589-count-prime-gap-balanced-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/count-prime-gap-balanced-subarrays/
+    notes: ""
+
+  - id: 19
+    number: "3826"
+    name: minimum-partition-score
+    difficulty: hard
+    solution: ./leetcode-playground/3826-minimum-partition-score.js
+    test: ./leetcode-playground/tests/3826-minimum-partition-score.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-partition-score/
+    notes: ""
+
+  - id: 20
+    number: "3835"
+    name: count-subarrays-with-cost-less-than-or-equal-to-k
+    difficulty: medium
+    solution: ./leetcode-playground/3835-count-subarrays-with-cost-less-than-or-equal-to-k.js
+    test: ./leetcode-playground/tests/3835-count-subarrays-with-cost-less-than-or-equal-to-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/
+    notes: ""
+
+  - id: 21
+    number: "3845"
+    name: maximum-subarray-xor-with-bounded-range
+    difficulty: hard
+    solution: ./leetcode-playground/3845-maximum-subarray-xor-with-bounded-range.js
+    test: ./leetcode-playground/tests/3845-maximum-subarray-xor-with-bounded-range.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-subarray-xor-with-bounded-range/
+    notes: ""
+

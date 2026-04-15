@@ -1,0 +1,15 @@
+import { countSpecialSubsequences } from '../3404-count-special-subsequences.js';
+
+describe('3404-count-special-subsequences', () => {
+    it('should handle basic case', () => {
+        // expect(countSpecialSubsequences(...)).toEqual(...);
+    });
+
+    it('should handle empty / minimum input', () => {
+        // expect(countSpecialSubsequences(...)).toEqual(...);
+    });
+
+    it('should handle edge case', () => {
+        // expect(countSpecialSubsequences(...)).toEqual(...);
+    });
+});

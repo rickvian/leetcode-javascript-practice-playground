@@ -1,0 +1,166 @@
+# Topic: Brainteaser
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+brainteaser:
+  - id: 1
+    number: "0292"
+    name: nim-game
+    difficulty: easy
+    solution: ./leetcode-playground/0292-nim-game.js
+    test: ./leetcode-playground/tests/0292-nim-game.test.js
+    leetcode_url: https://leetcode.com/problems/nim-game/
+    notes: ""
+
+  - id: 2
+    number: "0319"
+    name: bulb-switcher
+    difficulty: medium
+    solution: ./leetcode-playground/0319-bulb-switcher.js
+    test: ./leetcode-playground/tests/0319-bulb-switcher.test.js
+    leetcode_url: https://leetcode.com/problems/bulb-switcher/
+    notes: ""
+
+  - id: 3
+    number: "0810"
+    name: chalkboard-xor-game
+    difficulty: hard
+    solution: ./leetcode-playground/0810-chalkboard-xor-game.js
+    test: ./leetcode-playground/tests/0810-chalkboard-xor-game.test.js
+    leetcode_url: https://leetcode.com/problems/chalkboard-xor-game/
+    notes: ""
+
+  - id: 4
+    number: "1025"
+    name: divisor-game
+    difficulty: easy
+    solution: ./leetcode-playground/1025-divisor-game.js
+    test: ./leetcode-playground/tests/1025-divisor-game.test.js
+    leetcode_url: https://leetcode.com/problems/divisor-game/
+    notes: ""
+
+  - id: 5
+    number: "1033"
+    name: moving-stones-until-consecutive
+    difficulty: medium
+    solution: ./leetcode-playground/1033-moving-stones-until-consecutive.js
+    test: ./leetcode-playground/tests/1033-moving-stones-until-consecutive.test.js
+    leetcode_url: https://leetcode.com/problems/moving-stones-until-consecutive/
+    notes: ""
+
+  - id: 6
+    number: "1227"
+    name: airplane-seat-assignment-probability
+    difficulty: medium
+    solution: ./leetcode-playground/1227-airplane-seat-assignment-probability.js
+    test: ./leetcode-playground/tests/1227-airplane-seat-assignment-probability.test.js
+    leetcode_url: https://leetcode.com/problems/airplane-seat-assignment-probability/
+    notes: ""
+
+  - id: 7
+    number: "1503"
+    name: last-moment-before-all-ants-fall-out-of-a-plank
+    difficulty: medium
+    solution: ./leetcode-playground/1503-last-moment-before-all-ants-fall-out-of-a-plank.js
+    test: ./leetcode-playground/tests/1503-last-moment-before-all-ants-fall-out-of-a-plank.test.js
+    leetcode_url: https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/
+    notes: ""
+
+  - id: 8
+    number: "2396"
+    name: strictly-palindromic-number
+    difficulty: medium
+    solution: ./leetcode-playground/2396-strictly-palindromic-number.js
+    test: ./leetcode-playground/tests/2396-strictly-palindromic-number.test.js
+    leetcode_url: https://leetcode.com/problems/strictly-palindromic-number/
+    notes: ""
+
+  - id: 9
+    number: "2419"
+    name: longest-subarray-with-maximum-bitwise-and
+    difficulty: medium
+    solution: ./leetcode-playground/2419-longest-subarray-with-maximum-bitwise-and.js
+    test: ./leetcode-playground/tests/2419-longest-subarray-with-maximum-bitwise-and.test.js
+    leetcode_url: https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/
+    notes: ""
+
+  - id: 10
+    number: "2425"
+    name: bitwise-xor-of-all-pairings
+    difficulty: medium
+    solution: ./leetcode-playground/2425-bitwise-xor-of-all-pairings.js
+    test: ./leetcode-playground/tests/2425-bitwise-xor-of-all-pairings.test.js
+    leetcode_url: https://leetcode.com/problems/bitwise-xor-of-all-pairings/
+    notes: ""
+
+  - id: 11
+    number: "2568"
+    name: minimum-impossible-or
+    difficulty: medium
+    solution: ./leetcode-playground/2568-minimum-impossible-or.js
+    test: ./leetcode-playground/tests/2568-minimum-impossible-or.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-impossible-or/
+    notes: ""
+
+  - id: 12
+    number: "2731"
+    name: movement-of-robots
+    difficulty: medium
+    solution: ./leetcode-playground/2731-movement-of-robots.js
+    test: ./leetcode-playground/tests/2731-movement-of-robots.test.js
+    leetcode_url: https://leetcode.com/problems/movement-of-robots/
+    notes: ""
+
+  - id: 13
+    number: "2745"
+    name: construct-the-longest-new-string
+    difficulty: medium
+    solution: ./leetcode-playground/2745-construct-the-longest-new-string.js
+    test: ./leetcode-playground/tests/2745-construct-the-longest-new-string.test.js
+    leetcode_url: https://leetcode.com/problems/construct-the-longest-new-string/
+    notes: ""
+
+  - id: 14
+    number: "2749"
+    name: minimum-operations-to-make-the-integer-zero
+    difficulty: medium
+    solution: ./leetcode-playground/2749-minimum-operations-to-make-the-integer-zero.js
+    test: ./leetcode-playground/tests/2749-minimum-operations-to-make-the-integer-zero.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/
+    notes: ""
+
+  - id: 15
+    number: "3227"
+    name: vowels-game-in-a-string
+    difficulty: medium
+    solution: ./leetcode-playground/3227-vowels-game-in-a-string.js
+    test: ./leetcode-playground/tests/3227-vowels-game-in-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/vowels-game-in-a-string/
+    notes: ""
+
+  - id: 16
+    number: "3577"
+    name: count-the-number-of-computer-unlocking-permutations
+    difficulty: medium
+    solution: ./leetcode-playground/3577-count-the-number-of-computer-unlocking-permutations.js
+    test: ./leetcode-playground/tests/3577-count-the-number-of-computer-unlocking-permutations.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/
+    notes: ""
+
+  - id: 17
+    number: "3674"
+    name: minimum-operations-to-equalize-array
+    difficulty: easy
+    solution: ./leetcode-playground/3674-minimum-operations-to-equalize-array.js
+    test: ./leetcode-playground/tests/3674-minimum-operations-to-equalize-array.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-operations-to-equalize-array/
+    notes: ""
+
+  - id: 18
+    number: "3828"
+    name: final-element-after-subarray-deletions
+    difficulty: medium
+    solution: ./leetcode-playground/3828-final-element-after-subarray-deletions.js
+    test: ./leetcode-playground/tests/3828-final-element-after-subarray-deletions.test.js
+    leetcode_url: https://leetcode.com/problems/final-element-after-subarray-deletions/
+    notes: ""
+

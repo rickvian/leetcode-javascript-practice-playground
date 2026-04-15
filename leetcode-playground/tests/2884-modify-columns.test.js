@@ -1,0 +1,15 @@
+import { modifyColumns } from '../2884-modify-columns.js';
+
+describe('2884-modify-columns', () => {
+    it('should handle basic case', () => {
+        // expect(modifyColumns(...)).toEqual(...);
+    });
+
+    it('should handle empty / minimum input', () => {
+        // expect(modifyColumns(...)).toEqual(...);
+    });
+
+    it('should handle edge case', () => {
+        // expect(modifyColumns(...)).toEqual(...);
+    });
+});

@@ -1,0 +1,382 @@
+# Topic: Recursion
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+recursion:
+  - id: 1
+    number: "0002"
+    name: add-two-numbers
+    difficulty: medium
+    solution: ./leetcode-playground/0002-add-two-numbers.js
+    test: ./leetcode-playground/tests/0002-add-two-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/add-two-numbers/
+    notes: ""
+
+  - id: 2
+    number: "0010"
+    name: regular-expression-matching
+    difficulty: hard
+    solution: ./leetcode-playground/0010-regular-expression-matching.js
+    test: ./leetcode-playground/tests/0010-regular-expression-matching.test.js
+    leetcode_url: https://leetcode.com/problems/regular-expression-matching/
+    notes: ""
+
+  - id: 3
+    number: "0021"
+    name: merge-two-sorted-lists
+    difficulty: easy
+    solution: ./leetcode-playground/0021-merge-two-sorted-lists.js
+    test: ./leetcode-playground/tests/0021-merge-two-sorted-lists.test.js
+    leetcode_url: https://leetcode.com/problems/merge-two-sorted-lists/
+    notes: ""
+
+  - id: 4
+    number: "0024"
+    name: swap-nodes-in-pairs
+    difficulty: medium
+    solution: ./leetcode-playground/0024-swap-nodes-in-pairs.js
+    test: ./leetcode-playground/tests/0024-swap-nodes-in-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/swap-nodes-in-pairs/
+    notes: ""
+
+  - id: 5
+    number: "0025"
+    name: reverse-nodes-in-k-group
+    difficulty: hard
+    solution: ./leetcode-playground/0025-reverse-nodes-in-k-group.js
+    test: ./leetcode-playground/tests/0025-reverse-nodes-in-k-group.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-nodes-in-k-group/
+    notes: ""
+
+  - id: 6
+    number: "0044"
+    name: wildcard-matching
+    difficulty: hard
+    solution: ./leetcode-playground/0044-wildcard-matching.js
+    test: ./leetcode-playground/tests/0044-wildcard-matching.test.js
+    leetcode_url: https://leetcode.com/problems/wildcard-matching/
+    notes: ""
+
+  - id: 7
+    number: "0050"
+    name: powx-n
+    difficulty: medium
+    solution: ./leetcode-playground/0050-powx-n.js
+    test: ./leetcode-playground/tests/0050-powx-n.test.js
+    leetcode_url: https://leetcode.com/problems/powx-n/
+    notes: ""
+
+  - id: 8
+    number: "0060"
+    name: permutation-sequence
+    difficulty: hard
+    solution: ./leetcode-playground/0060-permutation-sequence.js
+    test: ./leetcode-playground/tests/0060-permutation-sequence.test.js
+    leetcode_url: https://leetcode.com/problems/permutation-sequence/
+    notes: ""
+
+  - id: 9
+    number: "0143"
+    name: reorder-list
+    difficulty: medium
+    solution: ./leetcode-playground/0143-reorder-list.js
+    test: ./leetcode-playground/tests/0143-reorder-list.test.js
+    leetcode_url: https://leetcode.com/problems/reorder-list/
+    notes: ""
+
+  - id: 10
+    number: "0203"
+    name: remove-linked-list-elements
+    difficulty: easy
+    solution: ./leetcode-playground/0203-remove-linked-list-elements.js
+    test: ./leetcode-playground/tests/0203-remove-linked-list-elements.test.js
+    leetcode_url: https://leetcode.com/problems/remove-linked-list-elements/
+    notes: ""
+
+  - id: 11
+    number: "0206"
+    name: reverse-linked-list
+    difficulty: easy
+    solution: ./leetcode-playground/0206-reverse-linked-list.js
+    test: ./leetcode-playground/tests/0206-reverse-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/reverse-linked-list/
+    notes: ""
+
+  - id: 12
+    number: "0224"
+    name: basic-calculator
+    difficulty: hard
+    solution: ./leetcode-playground/0224-basic-calculator.js
+    test: ./leetcode-playground/tests/0224-basic-calculator.test.js
+    leetcode_url: https://leetcode.com/problems/basic-calculator/
+    notes: ""
+
+  - id: 13
+    number: "0231"
+    name: power-of-two
+    difficulty: easy
+    solution: ./leetcode-playground/0231-power-of-two.js
+    test: ./leetcode-playground/tests/0231-power-of-two.test.js
+    leetcode_url: https://leetcode.com/problems/power-of-two/
+    notes: ""
+
+  - id: 14
+    number: "0233"
+    name: number-of-digit-one
+    difficulty: hard
+    solution: ./leetcode-playground/0233-number-of-digit-one.js
+    test: ./leetcode-playground/tests/0233-number-of-digit-one.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-digit-one/
+    notes: ""
+
+  - id: 15
+    number: "0234"
+    name: palindrome-linked-list
+    difficulty: easy
+    solution: ./leetcode-playground/0234-palindrome-linked-list.js
+    test: ./leetcode-playground/tests/0234-palindrome-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/palindrome-linked-list/
+    notes: ""
+
+  - id: 16
+    number: "0241"
+    name: different-ways-to-add-parentheses
+    difficulty: medium
+    solution: ./leetcode-playground/0241-different-ways-to-add-parentheses.js
+    test: ./leetcode-playground/tests/0241-different-ways-to-add-parentheses.test.js
+    leetcode_url: https://leetcode.com/problems/different-ways-to-add-parentheses/
+    notes: ""
+
+  - id: 17
+    number: "0273"
+    name: integer-to-english-words
+    difficulty: hard
+    solution: ./leetcode-playground/0273-integer-to-english-words.js
+    test: ./leetcode-playground/tests/0273-integer-to-english-words.test.js
+    leetcode_url: https://leetcode.com/problems/integer-to-english-words/
+    notes: ""
+
+  - id: 18
+    number: "0326"
+    name: power-of-three
+    difficulty: easy
+    solution: ./leetcode-playground/0326-power-of-three.js
+    test: ./leetcode-playground/tests/0326-power-of-three.test.js
+    leetcode_url: https://leetcode.com/problems/power-of-three/
+    notes: ""
+
+  - id: 19
+    number: "0342"
+    name: power-of-four
+    difficulty: easy
+    solution: ./leetcode-playground/0342-power-of-four.js
+    test: ./leetcode-playground/tests/0342-power-of-four.test.js
+    leetcode_url: https://leetcode.com/problems/power-of-four/
+    notes: ""
+
+  - id: 20
+    number: "0390"
+    name: elimination-game
+    difficulty: medium
+    solution: ./leetcode-playground/0390-elimination-game.js
+    test: ./leetcode-playground/tests/0390-elimination-game.test.js
+    leetcode_url: https://leetcode.com/problems/elimination-game/
+    notes: ""
+
+  - id: 21
+    number: "0394"
+    name: decode-string
+    difficulty: medium
+    solution: ./leetcode-playground/0394-decode-string.js
+    test: ./leetcode-playground/tests/0394-decode-string.test.js
+    leetcode_url: https://leetcode.com/problems/decode-string/
+    notes: ""
+
+  - id: 22
+    number: "0486"
+    name: predict-the-winner
+    difficulty: medium
+    solution: ./leetcode-playground/0486-predict-the-winner.js
+    test: ./leetcode-playground/tests/0486-predict-the-winner.test.js
+    leetcode_url: https://leetcode.com/problems/predict-the-winner/
+    notes: ""
+
+  - id: 23
+    number: "0509"
+    name: fibonacci-number
+    difficulty: easy
+    solution: ./leetcode-playground/0509-fibonacci-number.js
+    test: ./leetcode-playground/tests/0509-fibonacci-number.test.js
+    leetcode_url: https://leetcode.com/problems/fibonacci-number/
+    notes: ""
+
+  - id: 24
+    number: "0736"
+    name: parse-lisp-expression
+    difficulty: hard
+    solution: ./leetcode-playground/0736-parse-lisp-expression.js
+    test: ./leetcode-playground/tests/0736-parse-lisp-expression.test.js
+    leetcode_url: https://leetcode.com/problems/parse-lisp-expression/
+    notes: ""
+
+  - id: 25
+    number: "0770"
+    name: basic-calculator-iv
+    difficulty: hard
+    solution: ./leetcode-playground/0770-basic-calculator-iv.js
+    test: ./leetcode-playground/tests/0770-basic-calculator-iv.test.js
+    leetcode_url: https://leetcode.com/problems/basic-calculator-iv/
+    notes: ""
+
+  - id: 26
+    number: "0779"
+    name: k-th-symbol-in-grammar
+    difficulty: medium
+    solution: ./leetcode-playground/0779-k-th-symbol-in-grammar.js
+    test: ./leetcode-playground/tests/0779-k-th-symbol-in-grammar.test.js
+    leetcode_url: https://leetcode.com/problems/k-th-symbol-in-grammar/
+    notes: ""
+
+  - id: 27
+    number: "0894"
+    name: all-possible-full-binary-trees
+    difficulty: medium
+    solution: ./leetcode-playground/0894-all-possible-full-binary-trees.js
+    test: ./leetcode-playground/tests/0894-all-possible-full-binary-trees.test.js
+    leetcode_url: https://leetcode.com/problems/all-possible-full-binary-trees/
+    notes: ""
+
+  - id: 28
+    number: "1106"
+    name: parsing-a-boolean-expression
+    difficulty: hard
+    solution: ./leetcode-playground/1106-parsing-a-boolean-expression.js
+    test: ./leetcode-playground/tests/1106-parsing-a-boolean-expression.test.js
+    leetcode_url: https://leetcode.com/problems/parsing-a-boolean-expression/
+    notes: ""
+
+  - id: 29
+    number: "1545"
+    name: find-kth-bit-in-nth-binary-string
+    difficulty: medium
+    solution: ./leetcode-playground/1545-find-kth-bit-in-nth-binary-string.js
+    test: ./leetcode-playground/tests/1545-find-kth-bit-in-nth-binary-string.test.js
+    leetcode_url: https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/
+    notes: ""
+
+  - id: 30
+    number: "1611"
+    name: minimum-one-bit-operations-to-make-integers-zero
+    difficulty: hard
+    solution: ./leetcode-playground/1611-minimum-one-bit-operations-to-make-integers-zero.js
+    test: ./leetcode-playground/tests/1611-minimum-one-bit-operations-to-make-integers-zero.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/
+    notes: ""
+
+  - id: 31
+    number: "1808"
+    name: maximize-number-of-nice-divisors
+    difficulty: hard
+    solution: ./leetcode-playground/1808-maximize-number-of-nice-divisors.js
+    test: ./leetcode-playground/tests/1808-maximize-number-of-nice-divisors.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-number-of-nice-divisors/
+    notes: ""
+
+  - id: 32
+    number: "1823"
+    name: find-the-winner-of-the-circular-game
+    difficulty: medium
+    solution: ./leetcode-playground/1823-find-the-winner-of-the-circular-game.js
+    test: ./leetcode-playground/tests/1823-find-the-winner-of-the-circular-game.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-winner-of-the-circular-game/
+    notes: ""
+
+  - id: 33
+    number: "1922"
+    name: count-good-numbers
+    difficulty: medium
+    solution: ./leetcode-playground/1922-count-good-numbers.js
+    test: ./leetcode-playground/tests/1922-count-good-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/count-good-numbers/
+    notes: ""
+
+  - id: 34
+    number: "1969"
+    name: minimum-non-zero-product-of-the-array-elements
+    difficulty: medium
+    solution: ./leetcode-playground/1969-minimum-non-zero-product-of-the-array-elements.js
+    test: ./leetcode-playground/tests/1969-minimum-non-zero-product-of-the-array-elements.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/
+    notes: ""
+
+  - id: 35
+    number: "2094"
+    name: finding-3-digit-even-numbers
+    difficulty: easy
+    solution: ./leetcode-playground/2094-finding-3-digit-even-numbers.js
+    test: ./leetcode-playground/tests/2094-finding-3-digit-even-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/finding-3-digit-even-numbers/
+    notes: ""
+
+  - id: 36
+    number: "2487"
+    name: remove-nodes-from-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2487-remove-nodes-from-linked-list.js
+    test: ./leetcode-playground/tests/2487-remove-nodes-from-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/remove-nodes-from-linked-list/
+    notes: ""
+
+  - id: 37
+    number: "2550"
+    name: count-collisions-of-monkeys-on-a-polygon
+    difficulty: medium
+    solution: ./leetcode-playground/2550-count-collisions-of-monkeys-on-a-polygon.js
+    test: ./leetcode-playground/tests/2550-count-collisions-of-monkeys-on-a-polygon.test.js
+    leetcode_url: https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/
+    notes: ""
+
+  - id: 38
+    number: "3304"
+    name: find-the-k-th-character-in-string-game-i
+    difficulty: easy
+    solution: ./leetcode-playground/3304-find-the-k-th-character-in-string-game-i.js
+    test: ./leetcode-playground/tests/3304-find-the-k-th-character-in-string-game-i.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/
+    notes: ""
+
+  - id: 39
+    number: "3307"
+    name: find-the-k-th-character-in-string-game-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3307-find-the-k-th-character-in-string-game-ii.js
+    test: ./leetcode-playground/tests/3307-find-the-k-th-character-in-string-game-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/
+    notes: ""
+
+  - id: 40
+    number: "3483"
+    name: unique-3-digit-even-numbers
+    difficulty: easy
+    solution: ./leetcode-playground/3483-unique-3-digit-even-numbers.js
+    test: ./leetcode-playground/tests/3483-unique-3-digit-even-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/unique-3-digit-even-numbers/
+    notes: ""
+
+  - id: 41
+    number: "3566"
+    name: partition-array-into-two-equal-product-subsets
+    difficulty: medium
+    solution: ./leetcode-playground/3566-partition-array-into-two-equal-product-subsets.js
+    test: ./leetcode-playground/tests/3566-partition-array-into-two-equal-product-subsets.test.js
+    leetcode_url: https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/
+    notes: ""
+
+  - id: 42
+    number: "3782"
+    name: last-remaining-integer-after-alternating-deletion-operations
+    difficulty: hard
+    solution: ./leetcode-playground/3782-last-remaining-integer-after-alternating-deletion-operations.js
+    test: ./leetcode-playground/tests/3782-last-remaining-integer-after-alternating-deletion-operations.test.js
+    leetcode_url: https://leetcode.com/problems/last-remaining-integer-after-alternating-deletion-operations/
+    notes: ""
+

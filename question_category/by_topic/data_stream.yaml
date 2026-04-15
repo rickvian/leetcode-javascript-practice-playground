@@ -1,0 +1,148 @@
+# Topic: Data Stream
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+data_stream:
+  - id: 1
+    number: "0295"
+    name: find-median-from-data-stream
+    difficulty: hard
+    solution: ./leetcode-playground/0295-find-median-from-data-stream.js
+    test: ./leetcode-playground/tests/0295-find-median-from-data-stream.test.js
+    leetcode_url: https://leetcode.com/problems/find-median-from-data-stream/
+    notes: ""
+
+  - id: 2
+    number: "0352"
+    name: data-stream-as-disjoint-intervals
+    difficulty: hard
+    solution: ./leetcode-playground/0352-data-stream-as-disjoint-intervals.js
+    test: ./leetcode-playground/tests/0352-data-stream-as-disjoint-intervals.test.js
+    leetcode_url: https://leetcode.com/problems/data-stream-as-disjoint-intervals/
+    notes: ""
+
+  - id: 3
+    number: "0703"
+    name: kth-largest-element-in-a-stream
+    difficulty: easy
+    solution: ./leetcode-playground/0703-kth-largest-element-in-a-stream.js
+    test: ./leetcode-playground/tests/0703-kth-largest-element-in-a-stream.test.js
+    leetcode_url: https://leetcode.com/problems/kth-largest-element-in-a-stream/
+    notes: ""
+
+  - id: 4
+    number: "0901"
+    name: online-stock-span
+    difficulty: medium
+    solution: ./leetcode-playground/0901-online-stock-span.js
+    test: ./leetcode-playground/tests/0901-online-stock-span.test.js
+    leetcode_url: https://leetcode.com/problems/online-stock-span/
+    notes: ""
+
+  - id: 5
+    number: "0933"
+    name: number-of-recent-calls
+    difficulty: easy
+    solution: ./leetcode-playground/0933-number-of-recent-calls.js
+    test: ./leetcode-playground/tests/0933-number-of-recent-calls.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-recent-calls/
+    notes: ""
+
+  - id: 6
+    number: "1032"
+    name: stream-of-characters
+    difficulty: hard
+    solution: ./leetcode-playground/1032-stream-of-characters.js
+    test: ./leetcode-playground/tests/1032-stream-of-characters.test.js
+    leetcode_url: https://leetcode.com/problems/stream-of-characters/
+    notes: ""
+
+  - id: 7
+    number: "1352"
+    name: product-of-the-last-k-numbers
+    difficulty: medium
+    solution: ./leetcode-playground/1352-product-of-the-last-k-numbers.js
+    test: ./leetcode-playground/tests/1352-product-of-the-last-k-numbers.test.js
+    leetcode_url: https://leetcode.com/problems/product-of-the-last-k-numbers/
+    notes: ""
+
+  - id: 8
+    number: "1472"
+    name: design-browser-history
+    difficulty: medium
+    solution: ./leetcode-playground/1472-design-browser-history.js
+    test: ./leetcode-playground/tests/1472-design-browser-history.test.js
+    leetcode_url: https://leetcode.com/problems/design-browser-history/
+    notes: ""
+
+  - id: 9
+    number: "1656"
+    name: design-an-ordered-stream
+    difficulty: easy
+    solution: ./leetcode-playground/1656-design-an-ordered-stream.js
+    test: ./leetcode-playground/tests/1656-design-an-ordered-stream.test.js
+    leetcode_url: https://leetcode.com/problems/design-an-ordered-stream/
+    notes: ""
+
+  - id: 10
+    number: "1670"
+    name: design-front-middle-back-queue
+    difficulty: medium
+    solution: ./leetcode-playground/1670-design-front-middle-back-queue.js
+    test: ./leetcode-playground/tests/1670-design-front-middle-back-queue.test.js
+    leetcode_url: https://leetcode.com/problems/design-front-middle-back-queue/
+    notes: ""
+
+  - id: 11
+    number: "1825"
+    name: finding-mk-average
+    difficulty: hard
+    solution: ./leetcode-playground/1825-finding-mk-average.js
+    test: ./leetcode-playground/tests/1825-finding-mk-average.test.js
+    leetcode_url: https://leetcode.com/problems/finding-mk-average/
+    notes: ""
+
+  - id: 12
+    number: "2013"
+    name: detect-squares
+    difficulty: medium
+    solution: ./leetcode-playground/2013-detect-squares.js
+    test: ./leetcode-playground/tests/2013-detect-squares.test.js
+    leetcode_url: https://leetcode.com/problems/detect-squares/
+    notes: ""
+
+  - id: 13
+    number: "2034"
+    name: stock-price-fluctuation
+    difficulty: medium
+    solution: ./leetcode-playground/2034-stock-price-fluctuation.js
+    test: ./leetcode-playground/tests/2034-stock-price-fluctuation.test.js
+    leetcode_url: https://leetcode.com/problems/stock-price-fluctuation/
+    notes: ""
+
+  - id: 14
+    number: "2102"
+    name: sequentially-ordinal-rank-tracker
+    difficulty: hard
+    solution: ./leetcode-playground/2102-sequentially-ordinal-rank-tracker.js
+    test: ./leetcode-playground/tests/2102-sequentially-ordinal-rank-tracker.test.js
+    leetcode_url: https://leetcode.com/problems/sequentially-ordinal-rank-tracker/
+    notes: ""
+
+  - id: 15
+    number: "2526"
+    name: find-consecutive-integers-from-a-data-stream
+    difficulty: medium
+    solution: ./leetcode-playground/2526-find-consecutive-integers-from-a-data-stream.js
+    test: ./leetcode-playground/tests/2526-find-consecutive-integers-from-a-data-stream.test.js
+    leetcode_url: https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/
+    notes: ""
+
+  - id: 16
+    number: "3829"
+    name: design-ride-sharing-system
+    difficulty: medium
+    solution: ./leetcode-playground/3829-design-ride-sharing-system.js
+    test: ./leetcode-playground/tests/3829-design-ride-sharing-system.test.js
+    leetcode_url: https://leetcode.com/problems/design-ride-sharing-system/
+    notes: ""
+

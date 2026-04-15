@@ -1,0 +1,382 @@
+# Topic: Memoization
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+memoization:
+  - id: 1
+    number: "0070"
+    name: climbing-stairs
+    difficulty: easy
+    solution: ./leetcode-playground/0070-climbing-stairs.js
+    test: ./leetcode-playground/tests/0070-climbing-stairs.test.js
+    leetcode_url: https://leetcode.com/problems/climbing-stairs/
+    notes: ""
+
+  - id: 2
+    number: "0139"
+    name: word-break
+    difficulty: medium
+    solution: ./leetcode-playground/0139-word-break.js
+    test: ./leetcode-playground/tests/0139-word-break.test.js
+    leetcode_url: https://leetcode.com/problems/word-break/
+    notes: ""
+
+  - id: 3
+    number: "0140"
+    name: word-break-ii
+    difficulty: hard
+    solution: ./leetcode-playground/0140-word-break-ii.js
+    test: ./leetcode-playground/tests/0140-word-break-ii.test.js
+    leetcode_url: https://leetcode.com/problems/word-break-ii/
+    notes: ""
+
+  - id: 4
+    number: "0241"
+    name: different-ways-to-add-parentheses
+    difficulty: medium
+    solution: ./leetcode-playground/0241-different-ways-to-add-parentheses.js
+    test: ./leetcode-playground/tests/0241-different-ways-to-add-parentheses.test.js
+    leetcode_url: https://leetcode.com/problems/different-ways-to-add-parentheses/
+    notes: ""
+
+  - id: 5
+    number: "0329"
+    name: longest-increasing-path-in-a-matrix
+    difficulty: hard
+    solution: ./leetcode-playground/0329-longest-increasing-path-in-a-matrix.js
+    test: ./leetcode-playground/tests/0329-longest-increasing-path-in-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+    notes: ""
+
+  - id: 6
+    number: "0397"
+    name: integer-replacement
+    difficulty: medium
+    solution: ./leetcode-playground/0397-integer-replacement.js
+    test: ./leetcode-playground/tests/0397-integer-replacement.test.js
+    leetcode_url: https://leetcode.com/problems/integer-replacement/
+    notes: ""
+
+  - id: 7
+    number: "0464"
+    name: can-i-win
+    difficulty: medium
+    solution: ./leetcode-playground/0464-can-i-win.js
+    test: ./leetcode-playground/tests/0464-can-i-win.test.js
+    leetcode_url: https://leetcode.com/problems/can-i-win/
+    notes: ""
+
+  - id: 8
+    number: "0488"
+    name: zuma-game
+    difficulty: hard
+    solution: ./leetcode-playground/0488-zuma-game.js
+    test: ./leetcode-playground/tests/0488-zuma-game.test.js
+    leetcode_url: https://leetcode.com/problems/zuma-game/
+    notes: ""
+
+  - id: 9
+    number: "0509"
+    name: fibonacci-number
+    difficulty: easy
+    solution: ./leetcode-playground/0509-fibonacci-number.js
+    test: ./leetcode-playground/tests/0509-fibonacci-number.test.js
+    leetcode_url: https://leetcode.com/problems/fibonacci-number/
+    notes: ""
+
+  - id: 10
+    number: "0546"
+    name: remove-boxes
+    difficulty: hard
+    solution: ./leetcode-playground/0546-remove-boxes.js
+    test: ./leetcode-playground/tests/0546-remove-boxes.test.js
+    leetcode_url: https://leetcode.com/problems/remove-boxes/
+    notes: ""
+
+  - id: 11
+    number: "0638"
+    name: shopping-offers
+    difficulty: medium
+    solution: ./leetcode-playground/0638-shopping-offers.js
+    test: ./leetcode-playground/tests/0638-shopping-offers.test.js
+    leetcode_url: https://leetcode.com/problems/shopping-offers/
+    notes: ""
+
+  - id: 12
+    number: "0691"
+    name: stickers-to-spell-word
+    difficulty: hard
+    solution: ./leetcode-playground/0691-stickers-to-spell-word.js
+    test: ./leetcode-playground/tests/0691-stickers-to-spell-word.test.js
+    leetcode_url: https://leetcode.com/problems/stickers-to-spell-word/
+    notes: ""
+
+  - id: 13
+    number: "0698"
+    name: partition-to-k-equal-sum-subsets
+    difficulty: medium
+    solution: ./leetcode-playground/0698-partition-to-k-equal-sum-subsets.js
+    test: ./leetcode-playground/tests/0698-partition-to-k-equal-sum-subsets.test.js
+    leetcode_url: https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+    notes: ""
+
+  - id: 14
+    number: "0773"
+    name: sliding-puzzle
+    difficulty: hard
+    solution: ./leetcode-playground/0773-sliding-puzzle.js
+    test: ./leetcode-playground/tests/0773-sliding-puzzle.test.js
+    leetcode_url: https://leetcode.com/problems/sliding-puzzle/
+    notes: ""
+
+  - id: 15
+    number: "0894"
+    name: all-possible-full-binary-trees
+    difficulty: medium
+    solution: ./leetcode-playground/0894-all-possible-full-binary-trees.js
+    test: ./leetcode-playground/tests/0894-all-possible-full-binary-trees.test.js
+    leetcode_url: https://leetcode.com/problems/all-possible-full-binary-trees/
+    notes: ""
+
+  - id: 16
+    number: "0913"
+    name: cat-and-mouse
+    difficulty: hard
+    solution: ./leetcode-playground/0913-cat-and-mouse.js
+    test: ./leetcode-playground/tests/0913-cat-and-mouse.test.js
+    leetcode_url: https://leetcode.com/problems/cat-and-mouse/
+    notes: ""
+
+  - id: 17
+    number: "0964"
+    name: least-operators-to-express-number
+    difficulty: hard
+    solution: ./leetcode-playground/0964-least-operators-to-express-number.js
+    test: ./leetcode-playground/tests/0964-least-operators-to-express-number.test.js
+    leetcode_url: https://leetcode.com/problems/least-operators-to-express-number/
+    notes: ""
+
+  - id: 18
+    number: "1137"
+    name: n-th-tribonacci-number
+    difficulty: easy
+    solution: ./leetcode-playground/1137-n-th-tribonacci-number.js
+    test: ./leetcode-playground/tests/1137-n-th-tribonacci-number.test.js
+    leetcode_url: https://leetcode.com/problems/n-th-tribonacci-number/
+    notes: ""
+
+  - id: 19
+    number: "1387"
+    name: sort-integers-by-the-power-value
+    difficulty: medium
+    solution: ./leetcode-playground/1387-sort-integers-by-the-power-value.js
+    test: ./leetcode-playground/tests/1387-sort-integers-by-the-power-value.test.js
+    leetcode_url: https://leetcode.com/problems/sort-integers-by-the-power-value/
+    notes: ""
+
+  - id: 20
+    number: "1444"
+    name: number-of-ways-of-cutting-a-pizza
+    difficulty: hard
+    solution: ./leetcode-playground/1444-number-of-ways-of-cutting-a-pizza.js
+    test: ./leetcode-playground/tests/1444-number-of-ways-of-cutting-a-pizza.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
+    notes: ""
+
+  - id: 21
+    number: "1553"
+    name: minimum-number-of-days-to-eat-n-oranges
+    difficulty: hard
+    solution: ./leetcode-playground/1553-minimum-number-of-days-to-eat-n-oranges.js
+    test: ./leetcode-playground/tests/1553-minimum-number-of-days-to-eat-n-oranges.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
+    notes: ""
+
+  - id: 22
+    number: "1569"
+    name: number-of-ways-to-reorder-array-to-get-same-bst
+    difficulty: hard
+    solution: ./leetcode-playground/1569-number-of-ways-to-reorder-array-to-get-same-bst.js
+    test: ./leetcode-playground/tests/1569-number-of-ways-to-reorder-array-to-get-same-bst.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/
+    notes: ""
+
+  - id: 23
+    number: "1575"
+    name: count-all-possible-routes
+    difficulty: hard
+    solution: ./leetcode-playground/1575-count-all-possible-routes.js
+    test: ./leetcode-playground/tests/1575-count-all-possible-routes.test.js
+    leetcode_url: https://leetcode.com/problems/count-all-possible-routes/
+    notes: ""
+
+  - id: 24
+    number: "1611"
+    name: minimum-one-bit-operations-to-make-integers-zero
+    difficulty: hard
+    solution: ./leetcode-playground/1611-minimum-one-bit-operations-to-make-integers-zero.js
+    test: ./leetcode-playground/tests/1611-minimum-one-bit-operations-to-make-integers-zero.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/
+    notes: ""
+
+  - id: 25
+    number: "1659"
+    name: maximize-grid-happiness
+    difficulty: hard
+    solution: ./leetcode-playground/1659-maximize-grid-happiness.js
+    test: ./leetcode-playground/tests/1659-maximize-grid-happiness.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-grid-happiness/
+    notes: ""
+
+  - id: 26
+    number: "1728"
+    name: cat-and-mouse-ii
+    difficulty: hard
+    solution: ./leetcode-playground/1728-cat-and-mouse-ii.js
+    test: ./leetcode-playground/tests/1728-cat-and-mouse-ii.test.js
+    leetcode_url: https://leetcode.com/problems/cat-and-mouse-ii/
+    notes: ""
+
+  - id: 27
+    number: "1815"
+    name: maximum-number-of-groups-getting-fresh-donuts
+    difficulty: hard
+    solution: ./leetcode-playground/1815-maximum-number-of-groups-getting-fresh-donuts.js
+    test: ./leetcode-playground/tests/1815-maximum-number-of-groups-getting-fresh-donuts.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/
+    notes: ""
+
+  - id: 28
+    number: "1857"
+    name: largest-color-value-in-a-directed-graph
+    difficulty: hard
+    solution: ./leetcode-playground/1857-largest-color-value-in-a-directed-graph.js
+    test: ./leetcode-playground/tests/1857-largest-color-value-in-a-directed-graph.test.js
+    leetcode_url: https://leetcode.com/problems/largest-color-value-in-a-directed-graph/
+    notes: ""
+
+  - id: 29
+    number: "1900"
+    name: the-earliest-and-latest-rounds-where-players-compete
+    difficulty: hard
+    solution: ./leetcode-playground/1900-the-earliest-and-latest-rounds-where-players-compete.js
+    test: ./leetcode-playground/tests/1900-the-earliest-and-latest-rounds-where-players-compete.test.js
+    leetcode_url: https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/
+    notes: ""
+
+  - id: 30
+    number: "2019"
+    name: the-score-of-students-solving-math-expression
+    difficulty: hard
+    solution: ./leetcode-playground/2019-the-score-of-students-solving-math-expression.js
+    test: ./leetcode-playground/tests/2019-the-score-of-students-solving-math-expression.test.js
+    leetcode_url: https://leetcode.com/problems/the-score-of-students-solving-math-expression/
+    notes: ""
+
+  - id: 31
+    number: "2311"
+    name: longest-binary-subsequence-less-than-or-equal-to-k
+    difficulty: medium
+    solution: ./leetcode-playground/2311-longest-binary-subsequence-less-than-or-equal-to-k.js
+    test: ./leetcode-playground/tests/2311-longest-binary-subsequence-less-than-or-equal-to-k.test.js
+    leetcode_url: https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/
+    notes: ""
+
+  - id: 32
+    number: "2312"
+    name: selling-pieces-of-wood
+    difficulty: hard
+    solution: ./leetcode-playground/2312-selling-pieces-of-wood.js
+    test: ./leetcode-playground/tests/2312-selling-pieces-of-wood.test.js
+    leetcode_url: https://leetcode.com/problems/selling-pieces-of-wood/
+    notes: ""
+
+  - id: 33
+    number: "2318"
+    name: number-of-distinct-roll-sequences
+    difficulty: hard
+    solution: ./leetcode-playground/2318-number-of-distinct-roll-sequences.js
+    test: ./leetcode-playground/tests/2318-number-of-distinct-roll-sequences.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-distinct-roll-sequences/
+    notes: ""
+
+  - id: 34
+    number: "2328"
+    name: number-of-increasing-paths-in-a-grid
+    difficulty: hard
+    solution: ./leetcode-playground/2328-number-of-increasing-paths-in-a-grid.js
+    test: ./leetcode-playground/tests/2328-number-of-increasing-paths-in-a-grid.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/
+    notes: ""
+
+  - id: 35
+    number: "2713"
+    name: maximum-strictly-increasing-cells-in-a-matrix
+    difficulty: hard
+    solution: ./leetcode-playground/2713-maximum-strictly-increasing-cells-in-a-matrix.js
+    test: ./leetcode-playground/tests/2713-maximum-strictly-increasing-cells-in-a-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/
+    notes: ""
+
+  - id: 36
+    number: "2876"
+    name: count-visited-nodes-in-a-directed-graph
+    difficulty: hard
+    solution: ./leetcode-playground/2876-count-visited-nodes-in-a-directed-graph.js
+    test: ./leetcode-playground/tests/2876-count-visited-nodes-in-a-directed-graph.test.js
+    leetcode_url: https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/
+    notes: ""
+
+  - id: 37
+    number: "2920"
+    name: maximum-points-after-collecting-coins-from-all-nodes
+    difficulty: hard
+    solution: ./leetcode-playground/2920-maximum-points-after-collecting-coins-from-all-nodes.js
+    test: ./leetcode-playground/tests/2920-maximum-points-after-collecting-coins-from-all-nodes.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-points-after-collecting-coins-from-all-nodes/
+    notes: ""
+
+  - id: 38
+    number: "2998"
+    name: minimum-number-of-operations-to-make-x-and-y-equal
+    difficulty: medium
+    solution: ./leetcode-playground/2998-minimum-number-of-operations-to-make-x-and-y-equal.js
+    test: ./leetcode-playground/tests/2998-minimum-number-of-operations-to-make-x-and-y-equal.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/
+    notes: ""
+
+  - id: 39
+    number: "3040"
+    name: maximum-number-of-operations-with-the-same-score-ii
+    difficulty: medium
+    solution: ./leetcode-playground/3040-maximum-number-of-operations-with-the-same-score-ii.js
+    test: ./leetcode-playground/tests/3040-maximum-number-of-operations-with-the-same-score-ii.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/
+    notes: ""
+
+  - id: 40
+    number: "3154"
+    name: find-number-of-ways-to-reach-the-k-th-stair
+    difficulty: hard
+    solution: ./leetcode-playground/3154-find-number-of-ways-to-reach-the-k-th-stair.js
+    test: ./leetcode-playground/tests/3154-find-number-of-ways-to-reach-the-k-th-stair.test.js
+    leetcode_url: https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/
+    notes: ""
+
+  - id: 41
+    number: "3459"
+    name: length-of-longest-v-shaped-diagonal-segment
+    difficulty: hard
+    solution: ./leetcode-playground/3459-length-of-longest-v-shaped-diagonal-segment.js
+    test: ./leetcode-playground/tests/3459-length-of-longest-v-shaped-diagonal-segment.test.js
+    leetcode_url: https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/
+    notes: ""
+
+  - id: 42
+    number: "3850"
+    name: count-sequences-to-k
+    difficulty: hard
+    solution: ./leetcode-playground/3850-count-sequences-to-k.js
+    test: ./leetcode-playground/tests/3850-count-sequences-to-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-sequences-to-k/
+    notes: ""
+

@@ -1,0 +1,283 @@
+# Topic: Hash Function
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+hash_function:
+  - id: 1
+    number: "0187"
+    name: repeated-dna-sequences
+    difficulty: medium
+    solution: ./leetcode-playground/0187-repeated-dna-sequences.js
+    test: ./leetcode-playground/tests/0187-repeated-dna-sequences.test.js
+    leetcode_url: https://leetcode.com/problems/repeated-dna-sequences/
+    notes: ""
+
+  - id: 2
+    number: "0214"
+    name: shortest-palindrome
+    difficulty: hard
+    solution: ./leetcode-playground/0214-shortest-palindrome.js
+    test: ./leetcode-playground/tests/0214-shortest-palindrome.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-palindrome/
+    notes: ""
+
+  - id: 3
+    number: "0535"
+    name: encode-and-decode-tinyurl
+    difficulty: medium
+    solution: ./leetcode-playground/0535-encode-and-decode-tinyurl.js
+    test: ./leetcode-playground/tests/0535-encode-and-decode-tinyurl.test.js
+    leetcode_url: https://leetcode.com/problems/encode-and-decode-tinyurl/
+    notes: ""
+
+  - id: 4
+    number: "0572"
+    name: subtree-of-another-tree
+    difficulty: easy
+    solution: ./leetcode-playground/0572-subtree-of-another-tree.js
+    test: ./leetcode-playground/tests/0572-subtree-of-another-tree.test.js
+    leetcode_url: https://leetcode.com/problems/subtree-of-another-tree/
+    notes: ""
+
+  - id: 5
+    number: "0705"
+    name: design-hashset
+    difficulty: easy
+    solution: ./leetcode-playground/0705-design-hashset.js
+    test: ./leetcode-playground/tests/0705-design-hashset.test.js
+    leetcode_url: https://leetcode.com/problems/design-hashset/
+    notes: ""
+
+  - id: 6
+    number: "0706"
+    name: design-hashmap
+    difficulty: easy
+    solution: ./leetcode-playground/0706-design-hashmap.js
+    test: ./leetcode-playground/tests/0706-design-hashmap.test.js
+    leetcode_url: https://leetcode.com/problems/design-hashmap/
+    notes: ""
+
+  - id: 7
+    number: "0718"
+    name: maximum-length-of-repeated-subarray
+    difficulty: medium
+    solution: ./leetcode-playground/0718-maximum-length-of-repeated-subarray.js
+    test: ./leetcode-playground/tests/0718-maximum-length-of-repeated-subarray.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+    notes: ""
+
+  - id: 8
+    number: "1044"
+    name: longest-duplicate-substring
+    difficulty: hard
+    solution: ./leetcode-playground/1044-longest-duplicate-substring.js
+    test: ./leetcode-playground/tests/1044-longest-duplicate-substring.test.js
+    leetcode_url: https://leetcode.com/problems/longest-duplicate-substring/
+    notes: ""
+
+  - id: 9
+    number: "1147"
+    name: longest-chunked-palindrome-decomposition
+    difficulty: hard
+    solution: ./leetcode-playground/1147-longest-chunked-palindrome-decomposition.js
+    test: ./leetcode-playground/tests/1147-longest-chunked-palindrome-decomposition.test.js
+    leetcode_url: https://leetcode.com/problems/longest-chunked-palindrome-decomposition/
+    notes: ""
+
+  - id: 10
+    number: "1316"
+    name: distinct-echo-substrings
+    difficulty: hard
+    solution: ./leetcode-playground/1316-distinct-echo-substrings.js
+    test: ./leetcode-playground/tests/1316-distinct-echo-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/distinct-echo-substrings/
+    notes: ""
+
+  - id: 11
+    number: "1392"
+    name: longest-happy-prefix
+    difficulty: hard
+    solution: ./leetcode-playground/1392-longest-happy-prefix.js
+    test: ./leetcode-playground/tests/1392-longest-happy-prefix.test.js
+    leetcode_url: https://leetcode.com/problems/longest-happy-prefix/
+    notes: ""
+
+  - id: 12
+    number: "1461"
+    name: check-if-a-string-contains-all-binary-codes-of-size-k
+    difficulty: medium
+    solution: ./leetcode-playground/1461-check-if-a-string-contains-all-binary-codes-of-size-k.js
+    test: ./leetcode-playground/tests/1461-check-if-a-string-contains-all-binary-codes-of-size-k.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/
+    notes: ""
+
+  - id: 13
+    number: "1923"
+    name: longest-common-subpath
+    difficulty: hard
+    solution: ./leetcode-playground/1923-longest-common-subpath.js
+    test: ./leetcode-playground/tests/1923-longest-common-subpath.test.js
+    leetcode_url: https://leetcode.com/problems/longest-common-subpath/
+    notes: ""
+
+  - id: 14
+    number: "1948"
+    name: delete-duplicate-folders-in-system
+    difficulty: hard
+    solution: ./leetcode-playground/1948-delete-duplicate-folders-in-system.js
+    test: ./leetcode-playground/tests/1948-delete-duplicate-folders-in-system.test.js
+    leetcode_url: https://leetcode.com/problems/delete-duplicate-folders-in-system/
+    notes: ""
+
+  - id: 15
+    number: "1960"
+    name: maximum-product-of-the-length-of-two-palindromic-substrings
+    difficulty: hard
+    solution: ./leetcode-playground/1960-maximum-product-of-the-length-of-two-palindromic-substrings.js
+    test: ./leetcode-playground/tests/1960-maximum-product-of-the-length-of-two-palindromic-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-substrings/
+    notes: ""
+
+  - id: 16
+    number: "2156"
+    name: find-substring-with-given-hash-value
+    difficulty: hard
+    solution: ./leetcode-playground/2156-find-substring-with-given-hash-value.js
+    test: ./leetcode-playground/tests/2156-find-substring-with-given-hash-value.test.js
+    leetcode_url: https://leetcode.com/problems/find-substring-with-given-hash-value/
+    notes: ""
+
+  - id: 17
+    number: "2223"
+    name: sum-of-scores-of-built-strings
+    difficulty: hard
+    solution: ./leetcode-playground/2223-sum-of-scores-of-built-strings.js
+    test: ./leetcode-playground/tests/2223-sum-of-scores-of-built-strings.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-scores-of-built-strings/
+    notes: ""
+
+  - id: 18
+    number: "2261"
+    name: k-divisible-elements-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/2261-k-divisible-elements-subarrays.js
+    test: ./leetcode-playground/tests/2261-k-divisible-elements-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/k-divisible-elements-subarrays/
+    notes: ""
+
+  - id: 19
+    number: "2430"
+    name: maximum-deletions-on-a-string
+    difficulty: hard
+    solution: ./leetcode-playground/2430-maximum-deletions-on-a-string.js
+    test: ./leetcode-playground/tests/2430-maximum-deletions-on-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-deletions-on-a-string/
+    notes: ""
+
+  - id: 20
+    number: "3006"
+    name: find-beautiful-indices-in-the-given-array-i
+    difficulty: medium
+    solution: ./leetcode-playground/3006-find-beautiful-indices-in-the-given-array-i.js
+    test: ./leetcode-playground/tests/3006-find-beautiful-indices-in-the-given-array-i.test.js
+    leetcode_url: https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/
+    notes: ""
+
+  - id: 21
+    number: "3008"
+    name: find-beautiful-indices-in-the-given-array-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3008-find-beautiful-indices-in-the-given-array-ii.js
+    test: ./leetcode-playground/tests/3008-find-beautiful-indices-in-the-given-array-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/
+    notes: ""
+
+  - id: 22
+    number: "3029"
+    name: minimum-time-to-revert-word-to-initial-state-i
+    difficulty: medium
+    solution: ./leetcode-playground/3029-minimum-time-to-revert-word-to-initial-state-i.js
+    test: ./leetcode-playground/tests/3029-minimum-time-to-revert-word-to-initial-state-i.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i/
+    notes: ""
+
+  - id: 23
+    number: "3031"
+    name: minimum-time-to-revert-word-to-initial-state-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3031-minimum-time-to-revert-word-to-initial-state-ii.js
+    test: ./leetcode-playground/tests/3031-minimum-time-to-revert-word-to-initial-state-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii/
+    notes: ""
+
+  - id: 24
+    number: "3034"
+    name: number-of-subarrays-that-match-a-pattern-i
+    difficulty: medium
+    solution: ./leetcode-playground/3034-number-of-subarrays-that-match-a-pattern-i.js
+    test: ./leetcode-playground/tests/3034-number-of-subarrays-that-match-a-pattern-i.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/
+    notes: ""
+
+  - id: 25
+    number: "3036"
+    name: number-of-subarrays-that-match-a-pattern-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3036-number-of-subarrays-that-match-a-pattern-ii.js
+    test: ./leetcode-playground/tests/3036-number-of-subarrays-that-match-a-pattern-ii.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/
+    notes: ""
+
+  - id: 26
+    number: "3042"
+    name: count-prefix-and-suffix-pairs-i
+    difficulty: easy
+    solution: ./leetcode-playground/3042-count-prefix-and-suffix-pairs-i.js
+    test: ./leetcode-playground/tests/3042-count-prefix-and-suffix-pairs-i.test.js
+    leetcode_url: https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/
+    notes: ""
+
+  - id: 27
+    number: "3045"
+    name: count-prefix-and-suffix-pairs-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3045-count-prefix-and-suffix-pairs-ii.js
+    test: ./leetcode-playground/tests/3045-count-prefix-and-suffix-pairs-ii.test.js
+    leetcode_url: https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/
+    notes: ""
+
+  - id: 28
+    number: "3291"
+    name: minimum-number-of-valid-strings-to-form-target-i
+    difficulty: medium
+    solution: ./leetcode-playground/3291-minimum-number-of-valid-strings-to-form-target-i.js
+    test: ./leetcode-playground/tests/3291-minimum-number-of-valid-strings-to-form-target-i.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i/
+    notes: ""
+
+  - id: 29
+    number: "3292"
+    name: minimum-number-of-valid-strings-to-form-target-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3292-minimum-number-of-valid-strings-to-form-target-ii.js
+    test: ./leetcode-playground/tests/3292-minimum-number-of-valid-strings-to-form-target-ii.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/
+    notes: ""
+
+  - id: 30
+    number: "3327"
+    name: check-if-dfs-strings-are-palindromes
+    difficulty: hard
+    solution: ./leetcode-playground/3327-check-if-dfs-strings-are-palindromes.js
+    test: ./leetcode-playground/tests/3327-check-if-dfs-strings-are-palindromes.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-dfs-strings-are-palindromes/
+    notes: ""
+
+  - id: 31
+    number: "3529"
+    name: count-cells-in-overlapping-horizontal-and-vertical-substrings
+    difficulty: medium
+    solution: ./leetcode-playground/3529-count-cells-in-overlapping-horizontal-and-vertical-substrings.js
+    test: ./leetcode-playground/tests/3529-count-cells-in-overlapping-horizontal-and-vertical-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/
+    notes: ""
+

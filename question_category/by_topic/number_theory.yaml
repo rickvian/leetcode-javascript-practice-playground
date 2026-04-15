@@ -1,0 +1,769 @@
+# Topic: Number Theory
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+number_theory:
+  - id: 1
+    number: "0204"
+    name: count-primes
+    difficulty: medium
+    solution: ./leetcode-playground/0204-count-primes.js
+    test: ./leetcode-playground/tests/0204-count-primes.test.js
+    leetcode_url: https://leetcode.com/problems/count-primes/
+    notes: ""
+
+  - id: 2
+    number: "0258"
+    name: add-digits
+    difficulty: easy
+    solution: ./leetcode-playground/0258-add-digits.js
+    test: ./leetcode-playground/tests/0258-add-digits.test.js
+    leetcode_url: https://leetcode.com/problems/add-digits/
+    notes: ""
+
+  - id: 3
+    number: "0858"
+    name: mirror-reflection
+    difficulty: medium
+    solution: ./leetcode-playground/0858-mirror-reflection.js
+    test: ./leetcode-playground/tests/0858-mirror-reflection.test.js
+    leetcode_url: https://leetcode.com/problems/mirror-reflection/
+    notes: ""
+
+  - id: 4
+    number: "0866"
+    name: prime-palindrome
+    difficulty: medium
+    solution: ./leetcode-playground/0866-prime-palindrome.js
+    test: ./leetcode-playground/tests/0866-prime-palindrome.test.js
+    leetcode_url: https://leetcode.com/problems/prime-palindrome/
+    notes: ""
+
+  - id: 5
+    number: "0914"
+    name: x-of-a-kind-in-a-deck-of-cards
+    difficulty: easy
+    solution: ./leetcode-playground/0914-x-of-a-kind-in-a-deck-of-cards.js
+    test: ./leetcode-playground/tests/0914-x-of-a-kind-in-a-deck-of-cards.test.js
+    leetcode_url: https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/
+    notes: ""
+
+  - id: 6
+    number: "0952"
+    name: largest-component-size-by-common-factor
+    difficulty: hard
+    solution: ./leetcode-playground/0952-largest-component-size-by-common-factor.js
+    test: ./leetcode-playground/tests/0952-largest-component-size-by-common-factor.test.js
+    leetcode_url: https://leetcode.com/problems/largest-component-size-by-common-factor/
+    notes: ""
+
+  - id: 7
+    number: "1201"
+    name: ugly-number-iii
+    difficulty: medium
+    solution: ./leetcode-playground/1201-ugly-number-iii.js
+    test: ./leetcode-playground/tests/1201-ugly-number-iii.test.js
+    leetcode_url: https://leetcode.com/problems/ugly-number-iii/
+    notes: ""
+
+  - id: 8
+    number: "1250"
+    name: check-if-it-is-a-good-array
+    difficulty: hard
+    solution: ./leetcode-playground/1250-check-if-it-is-a-good-array.js
+    test: ./leetcode-playground/tests/1250-check-if-it-is-a-good-array.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-it-is-a-good-array/
+    notes: ""
+
+  - id: 9
+    number: "1447"
+    name: simplified-fractions
+    difficulty: medium
+    solution: ./leetcode-playground/1447-simplified-fractions.js
+    test: ./leetcode-playground/tests/1447-simplified-fractions.test.js
+    leetcode_url: https://leetcode.com/problems/simplified-fractions/
+    notes: ""
+
+  - id: 10
+    number: "1492"
+    name: the-kth-factor-of-n
+    difficulty: medium
+    solution: ./leetcode-playground/1492-the-kth-factor-of-n.js
+    test: ./leetcode-playground/tests/1492-the-kth-factor-of-n.test.js
+    leetcode_url: https://leetcode.com/problems/the-kth-factor-of-n/
+    notes: ""
+
+  - id: 11
+    number: "1627"
+    name: graph-connectivity-with-threshold
+    difficulty: hard
+    solution: ./leetcode-playground/1627-graph-connectivity-with-threshold.js
+    test: ./leetcode-playground/tests/1627-graph-connectivity-with-threshold.test.js
+    leetcode_url: https://leetcode.com/problems/graph-connectivity-with-threshold/
+    notes: ""
+
+  - id: 12
+    number: "1735"
+    name: count-ways-to-make-array-with-product
+    difficulty: hard
+    solution: ./leetcode-playground/1735-count-ways-to-make-array-with-product.js
+    test: ./leetcode-playground/tests/1735-count-ways-to-make-array-with-product.test.js
+    leetcode_url: https://leetcode.com/problems/count-ways-to-make-array-with-product/
+    notes: ""
+
+  - id: 13
+    number: "1766"
+    name: tree-of-coprimes
+    difficulty: hard
+    solution: ./leetcode-playground/1766-tree-of-coprimes.js
+    test: ./leetcode-playground/tests/1766-tree-of-coprimes.test.js
+    leetcode_url: https://leetcode.com/problems/tree-of-coprimes/
+    notes: ""
+
+  - id: 14
+    number: "1799"
+    name: maximize-score-after-n-operations
+    difficulty: hard
+    solution: ./leetcode-playground/1799-maximize-score-after-n-operations.js
+    test: ./leetcode-playground/tests/1799-maximize-score-after-n-operations.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-score-after-n-operations/
+    notes: ""
+
+  - id: 15
+    number: "1808"
+    name: maximize-number-of-nice-divisors
+    difficulty: hard
+    solution: ./leetcode-playground/1808-maximize-number-of-nice-divisors.js
+    test: ./leetcode-playground/tests/1808-maximize-number-of-nice-divisors.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-number-of-nice-divisors/
+    notes: ""
+
+  - id: 16
+    number: "1819"
+    name: number-of-different-subsequences-gcds
+    difficulty: hard
+    solution: ./leetcode-playground/1819-number-of-different-subsequences-gcds.js
+    test: ./leetcode-playground/tests/1819-number-of-different-subsequences-gcds.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-different-subsequences-gcds/
+    notes: ""
+
+  - id: 17
+    number: "1952"
+    name: three-divisors
+    difficulty: easy
+    solution: ./leetcode-playground/1952-three-divisors.js
+    test: ./leetcode-playground/tests/1952-three-divisors.test.js
+    leetcode_url: https://leetcode.com/problems/three-divisors/
+    notes: ""
+
+  - id: 18
+    number: "1979"
+    name: find-greatest-common-divisor-of-array
+    difficulty: easy
+    solution: ./leetcode-playground/1979-find-greatest-common-divisor-of-array.js
+    test: ./leetcode-playground/tests/1979-find-greatest-common-divisor-of-array.test.js
+    leetcode_url: https://leetcode.com/problems/find-greatest-common-divisor-of-array/
+    notes: ""
+
+  - id: 19
+    number: "1994"
+    name: the-number-of-good-subsets
+    difficulty: hard
+    solution: ./leetcode-playground/1994-the-number-of-good-subsets.js
+    test: ./leetcode-playground/tests/1994-the-number-of-good-subsets.test.js
+    leetcode_url: https://leetcode.com/problems/the-number-of-good-subsets/
+    notes: ""
+
+  - id: 20
+    number: "1998"
+    name: gcd-sort-of-an-array
+    difficulty: hard
+    solution: ./leetcode-playground/1998-gcd-sort-of-an-array.js
+    test: ./leetcode-playground/tests/1998-gcd-sort-of-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/gcd-sort-of-an-array/
+    notes: ""
+
+  - id: 21
+    number: "2001"
+    name: number-of-pairs-of-interchangeable-rectangles
+    difficulty: medium
+    solution: ./leetcode-playground/2001-number-of-pairs-of-interchangeable-rectangles.js
+    test: ./leetcode-playground/tests/2001-number-of-pairs-of-interchangeable-rectangles.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/
+    notes: ""
+
+  - id: 22
+    number: "2117"
+    name: abbreviating-the-product-of-a-range
+    difficulty: hard
+    solution: ./leetcode-playground/2117-abbreviating-the-product-of-a-range.js
+    test: ./leetcode-playground/tests/2117-abbreviating-the-product-of-a-range.test.js
+    leetcode_url: https://leetcode.com/problems/abbreviating-the-product-of-a-range/
+    notes: ""
+
+  - id: 23
+    number: "2183"
+    name: count-array-pairs-divisible-by-k
+    difficulty: hard
+    solution: ./leetcode-playground/2183-count-array-pairs-divisible-by-k.js
+    test: ./leetcode-playground/tests/2183-count-array-pairs-divisible-by-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-array-pairs-divisible-by-k/
+    notes: ""
+
+  - id: 24
+    number: "2197"
+    name: replace-non-coprime-numbers-in-array
+    difficulty: hard
+    solution: ./leetcode-playground/2197-replace-non-coprime-numbers-in-array.js
+    test: ./leetcode-playground/tests/2197-replace-non-coprime-numbers-in-array.test.js
+    leetcode_url: https://leetcode.com/problems/replace-non-coprime-numbers-in-array/
+    notes: ""
+
+  - id: 25
+    number: "2221"
+    name: find-triangular-sum-of-an-array
+    difficulty: medium
+    solution: ./leetcode-playground/2221-find-triangular-sum-of-an-array.js
+    test: ./leetcode-playground/tests/2221-find-triangular-sum-of-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/find-triangular-sum-of-an-array/
+    notes: ""
+
+  - id: 26
+    number: "2280"
+    name: minimum-lines-to-represent-a-line-chart
+    difficulty: medium
+    solution: ./leetcode-playground/2280-minimum-lines-to-represent-a-line-chart.js
+    test: ./leetcode-playground/tests/2280-minimum-lines-to-represent-a-line-chart.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/
+    notes: ""
+
+  - id: 27
+    number: "2338"
+    name: count-the-number-of-ideal-arrays
+    difficulty: hard
+    solution: ./leetcode-playground/2338-count-the-number-of-ideal-arrays.js
+    test: ./leetcode-playground/tests/2338-count-the-number-of-ideal-arrays.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-number-of-ideal-arrays/
+    notes: ""
+
+  - id: 28
+    number: "2344"
+    name: minimum-deletions-to-make-array-divisible
+    difficulty: hard
+    solution: ./leetcode-playground/2344-minimum-deletions-to-make-array-divisible.js
+    test: ./leetcode-playground/tests/2344-minimum-deletions-to-make-array-divisible.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/
+    notes: ""
+
+  - id: 29
+    number: "2413"
+    name: smallest-even-multiple
+    difficulty: easy
+    solution: ./leetcode-playground/2413-smallest-even-multiple.js
+    test: ./leetcode-playground/tests/2413-smallest-even-multiple.test.js
+    leetcode_url: https://leetcode.com/problems/smallest-even-multiple/
+    notes: ""
+
+  - id: 30
+    number: "2427"
+    name: number-of-common-factors
+    difficulty: easy
+    solution: ./leetcode-playground/2427-number-of-common-factors.js
+    test: ./leetcode-playground/tests/2427-number-of-common-factors.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-common-factors/
+    notes: ""
+
+  - id: 31
+    number: "2447"
+    name: number-of-subarrays-with-gcd-equal-to-k
+    difficulty: medium
+    solution: ./leetcode-playground/2447-number-of-subarrays-with-gcd-equal-to-k.js
+    test: ./leetcode-playground/tests/2447-number-of-subarrays-with-gcd-equal-to-k.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/
+    notes: ""
+
+  - id: 32
+    number: "2470"
+    name: number-of-subarrays-with-lcm-equal-to-k
+    difficulty: medium
+    solution: ./leetcode-playground/2470-number-of-subarrays-with-lcm-equal-to-k.js
+    test: ./leetcode-playground/tests/2470-number-of-subarrays-with-lcm-equal-to-k.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/
+    notes: ""
+
+  - id: 33
+    number: "2507"
+    name: smallest-value-after-replacing-with-sum-of-prime-factors
+    difficulty: medium
+    solution: ./leetcode-playground/2507-smallest-value-after-replacing-with-sum-of-prime-factors.js
+    test: ./leetcode-playground/tests/2507-smallest-value-after-replacing-with-sum-of-prime-factors.test.js
+    leetcode_url: https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/
+    notes: ""
+
+  - id: 34
+    number: "2513"
+    name: minimize-the-maximum-of-two-arrays
+    difficulty: medium
+    solution: ./leetcode-playground/2513-minimize-the-maximum-of-two-arrays.js
+    test: ./leetcode-playground/tests/2513-minimize-the-maximum-of-two-arrays.test.js
+    leetcode_url: https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/
+    notes: ""
+
+  - id: 35
+    number: "2521"
+    name: distinct-prime-factors-of-product-of-array
+    difficulty: medium
+    solution: ./leetcode-playground/2521-distinct-prime-factors-of-product-of-array.js
+    test: ./leetcode-playground/tests/2521-distinct-prime-factors-of-product-of-array.test.js
+    leetcode_url: https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/
+    notes: ""
+
+  - id: 36
+    number: "2523"
+    name: closest-prime-numbers-in-range
+    difficulty: medium
+    solution: ./leetcode-playground/2523-closest-prime-numbers-in-range.js
+    test: ./leetcode-playground/tests/2523-closest-prime-numbers-in-range.test.js
+    leetcode_url: https://leetcode.com/problems/closest-prime-numbers-in-range/
+    notes: ""
+
+  - id: 37
+    number: "2543"
+    name: check-if-point-is-reachable
+    difficulty: hard
+    solution: ./leetcode-playground/2543-check-if-point-is-reachable.js
+    test: ./leetcode-playground/tests/2543-check-if-point-is-reachable.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-point-is-reachable/
+    notes: ""
+
+  - id: 38
+    number: "2572"
+    name: count-the-number-of-square-free-subsets
+    difficulty: medium
+    solution: ./leetcode-playground/2572-count-the-number-of-square-free-subsets.js
+    test: ./leetcode-playground/tests/2572-count-the-number-of-square-free-subsets.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-number-of-square-free-subsets/
+    notes: ""
+
+  - id: 39
+    number: "2584"
+    name: split-the-array-to-make-coprime-products
+    difficulty: hard
+    solution: ./leetcode-playground/2584-split-the-array-to-make-coprime-products.js
+    test: ./leetcode-playground/tests/2584-split-the-array-to-make-coprime-products.test.js
+    leetcode_url: https://leetcode.com/problems/split-the-array-to-make-coprime-products/
+    notes: ""
+
+  - id: 40
+    number: "2601"
+    name: prime-subtraction-operation
+    difficulty: medium
+    solution: ./leetcode-playground/2601-prime-subtraction-operation.js
+    test: ./leetcode-playground/tests/2601-prime-subtraction-operation.test.js
+    leetcode_url: https://leetcode.com/problems/prime-subtraction-operation/
+    notes: ""
+
+  - id: 41
+    number: "2607"
+    name: make-k-subarray-sums-equal
+    difficulty: medium
+    solution: ./leetcode-playground/2607-make-k-subarray-sums-equal.js
+    test: ./leetcode-playground/tests/2607-make-k-subarray-sums-equal.test.js
+    leetcode_url: https://leetcode.com/problems/make-k-subarray-sums-equal/
+    notes: ""
+
+  - id: 42
+    number: "2614"
+    name: prime-in-diagonal
+    difficulty: easy
+    solution: ./leetcode-playground/2614-prime-in-diagonal.js
+    test: ./leetcode-playground/tests/2614-prime-in-diagonal.test.js
+    leetcode_url: https://leetcode.com/problems/prime-in-diagonal/
+    notes: ""
+
+  - id: 43
+    number: "2654"
+    name: minimum-number-of-operations-to-make-all-array-elements-equal-to-1
+    difficulty: medium
+    solution: ./leetcode-playground/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1.js
+    test: ./leetcode-playground/tests/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/
+    notes: ""
+
+  - id: 44
+    number: "2709"
+    name: greatest-common-divisor-traversal
+    difficulty: hard
+    solution: ./leetcode-playground/2709-greatest-common-divisor-traversal.js
+    test: ./leetcode-playground/tests/2709-greatest-common-divisor-traversal.test.js
+    leetcode_url: https://leetcode.com/problems/greatest-common-divisor-traversal/
+    notes: ""
+
+  - id: 45
+    number: "2748"
+    name: number-of-beautiful-pairs
+    difficulty: easy
+    solution: ./leetcode-playground/2748-number-of-beautiful-pairs.js
+    test: ./leetcode-playground/tests/2748-number-of-beautiful-pairs.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-beautiful-pairs/
+    notes: ""
+
+  - id: 46
+    number: "2761"
+    name: prime-pairs-with-target-sum
+    difficulty: medium
+    solution: ./leetcode-playground/2761-prime-pairs-with-target-sum.js
+    test: ./leetcode-playground/tests/2761-prime-pairs-with-target-sum.test.js
+    leetcode_url: https://leetcode.com/problems/prime-pairs-with-target-sum/
+    notes: ""
+
+  - id: 47
+    number: "2807"
+    name: insert-greatest-common-divisors-in-linked-list
+    difficulty: medium
+    solution: ./leetcode-playground/2807-insert-greatest-common-divisors-in-linked-list.js
+    test: ./leetcode-playground/tests/2807-insert-greatest-common-divisors-in-linked-list.test.js
+    leetcode_url: https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/
+    notes: ""
+
+  - id: 48
+    number: "2818"
+    name: apply-operations-to-maximize-score
+    difficulty: hard
+    solution: ./leetcode-playground/2818-apply-operations-to-maximize-score.js
+    test: ./leetcode-playground/tests/2818-apply-operations-to-maximize-score.test.js
+    leetcode_url: https://leetcode.com/problems/apply-operations-to-maximize-score/
+    notes: ""
+
+  - id: 49
+    number: "2862"
+    name: maximum-element-sum-of-a-complete-subset-of-indices
+    difficulty: hard
+    solution: ./leetcode-playground/2862-maximum-element-sum-of-a-complete-subset-of-indices.js
+    test: ./leetcode-playground/tests/2862-maximum-element-sum-of-a-complete-subset-of-indices.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-element-sum-of-a-complete-subset-of-indices/
+    notes: ""
+
+  - id: 50
+    number: "2867"
+    name: count-valid-paths-in-a-tree
+    difficulty: hard
+    solution: ./leetcode-playground/2867-count-valid-paths-in-a-tree.js
+    test: ./leetcode-playground/tests/2867-count-valid-paths-in-a-tree.test.js
+    leetcode_url: https://leetcode.com/problems/count-valid-paths-in-a-tree/
+    notes: ""
+
+  - id: 51
+    number: "2947"
+    name: count-beautiful-substrings-i
+    difficulty: medium
+    solution: ./leetcode-playground/2947-count-beautiful-substrings-i.js
+    test: ./leetcode-playground/tests/2947-count-beautiful-substrings-i.test.js
+    leetcode_url: https://leetcode.com/problems/count-beautiful-substrings-i/
+    notes: ""
+
+  - id: 52
+    number: "2949"
+    name: count-beautiful-substrings-ii
+    difficulty: hard
+    solution: ./leetcode-playground/2949-count-beautiful-substrings-ii.js
+    test: ./leetcode-playground/tests/2949-count-beautiful-substrings-ii.test.js
+    leetcode_url: https://leetcode.com/problems/count-beautiful-substrings-ii/
+    notes: ""
+
+  - id: 53
+    number: "3012"
+    name: minimize-length-of-array-using-operations
+    difficulty: medium
+    solution: ./leetcode-playground/3012-minimize-length-of-array-using-operations.js
+    test: ./leetcode-playground/tests/3012-minimize-length-of-array-using-operations.test.js
+    leetcode_url: https://leetcode.com/problems/minimize-length-of-array-using-operations/
+    notes: ""
+
+  - id: 54
+    number: "3044"
+    name: most-frequent-prime
+    difficulty: medium
+    solution: ./leetcode-playground/3044-most-frequent-prime.js
+    test: ./leetcode-playground/tests/3044-most-frequent-prime.test.js
+    leetcode_url: https://leetcode.com/problems/most-frequent-prime/
+    notes: ""
+
+  - id: 55
+    number: "3115"
+    name: maximum-prime-difference
+    difficulty: medium
+    solution: ./leetcode-playground/3115-maximum-prime-difference.js
+    test: ./leetcode-playground/tests/3115-maximum-prime-difference.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-prime-difference/
+    notes: ""
+
+  - id: 56
+    number: "3116"
+    name: kth-smallest-amount-with-single-denomination-combination
+    difficulty: hard
+    solution: ./leetcode-playground/3116-kth-smallest-amount-with-single-denomination-combination.js
+    test: ./leetcode-playground/tests/3116-kth-smallest-amount-with-single-denomination-combination.test.js
+    leetcode_url: https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/
+    notes: ""
+
+  - id: 57
+    number: "3233"
+    name: find-the-count-of-numbers-which-are-not-special
+    difficulty: medium
+    solution: ./leetcode-playground/3233-find-the-count-of-numbers-which-are-not-special.js
+    test: ./leetcode-playground/tests/3233-find-the-count-of-numbers-which-are-not-special.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/
+    notes: ""
+
+  - id: 58
+    number: "3260"
+    name: find-the-largest-palindrome-divisible-by-k
+    difficulty: hard
+    solution: ./leetcode-playground/3260-find-the-largest-palindrome-divisible-by-k.js
+    test: ./leetcode-playground/tests/3260-find-the-largest-palindrome-divisible-by-k.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/
+    notes: ""
+
+  - id: 59
+    number: "3312"
+    name: sorted-gcd-pair-queries
+    difficulty: hard
+    solution: ./leetcode-playground/3312-sorted-gcd-pair-queries.js
+    test: ./leetcode-playground/tests/3312-sorted-gcd-pair-queries.test.js
+    leetcode_url: https://leetcode.com/problems/sorted-gcd-pair-queries/
+    notes: ""
+
+  - id: 60
+    number: "3326"
+    name: minimum-division-operations-to-make-array-non-decreasing
+    difficulty: medium
+    solution: ./leetcode-playground/3326-minimum-division-operations-to-make-array-non-decreasing.js
+    test: ./leetcode-playground/tests/3326-minimum-division-operations-to-make-array-non-decreasing.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-division-operations-to-make-array-non-decreasing/
+    notes: ""
+
+  - id: 61
+    number: "3334"
+    name: find-the-maximum-factor-score-of-array
+    difficulty: medium
+    solution: ./leetcode-playground/3334-find-the-maximum-factor-score-of-array.js
+    test: ./leetcode-playground/tests/3334-find-the-maximum-factor-score-of-array.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-maximum-factor-score-of-array/
+    notes: ""
+
+  - id: 62
+    number: "3336"
+    name: find-the-number-of-subsequences-with-equal-gcd
+    difficulty: hard
+    solution: ./leetcode-playground/3336-find-the-number-of-subsequences-with-equal-gcd.js
+    test: ./leetcode-playground/tests/3336-find-the-number-of-subsequences-with-equal-gcd.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/
+    notes: ""
+
+  - id: 63
+    number: "3348"
+    name: smallest-divisible-digit-product-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3348-smallest-divisible-digit-product-ii.js
+    test: ./leetcode-playground/tests/3348-smallest-divisible-digit-product-ii.test.js
+    leetcode_url: https://leetcode.com/problems/smallest-divisible-digit-product-ii/
+    notes: ""
+
+  - id: 64
+    number: "3377"
+    name: digit-operations-to-make-two-integers-equal
+    difficulty: medium
+    solution: ./leetcode-playground/3377-digit-operations-to-make-two-integers-equal.js
+    test: ./leetcode-playground/tests/3377-digit-operations-to-make-two-integers-equal.test.js
+    leetcode_url: https://leetcode.com/problems/digit-operations-to-make-two-integers-equal/
+    notes: ""
+
+  - id: 65
+    number: "3378"
+    name: count-connected-components-in-lcm-graph
+    difficulty: hard
+    solution: ./leetcode-playground/3378-count-connected-components-in-lcm-graph.js
+    test: ./leetcode-playground/tests/3378-count-connected-components-in-lcm-graph.test.js
+    leetcode_url: https://leetcode.com/problems/count-connected-components-in-lcm-graph/
+    notes: ""
+
+  - id: 66
+    number: "3411"
+    name: maximum-subarray-with-equal-products
+    difficulty: easy
+    solution: ./leetcode-playground/3411-maximum-subarray-with-equal-products.js
+    test: ./leetcode-playground/tests/3411-maximum-subarray-with-equal-products.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-subarray-with-equal-products/
+    notes: ""
+
+  - id: 67
+    number: "3444"
+    name: minimum-increments-for-target-multiples-in-an-array
+    difficulty: hard
+    solution: ./leetcode-playground/3444-minimum-increments-for-target-multiples-in-an-array.js
+    test: ./leetcode-playground/tests/3444-minimum-increments-for-target-multiples-in-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-increments-for-target-multiples-in-an-array/
+    notes: ""
+
+  - id: 68
+    number: "3461"
+    name: check-if-digits-are-equal-in-string-after-operations-i
+    difficulty: easy
+    solution: ./leetcode-playground/3461-check-if-digits-are-equal-in-string-after-operations-i.js
+    test: ./leetcode-playground/tests/3461-check-if-digits-are-equal-in-string-after-operations-i.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/
+    notes: ""
+
+  - id: 69
+    number: "3463"
+    name: check-if-digits-are-equal-in-string-after-operations-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3463-check-if-digits-are-equal-in-string-after-operations-ii.js
+    test: ./leetcode-playground/tests/3463-check-if-digits-are-equal-in-string-after-operations-ii.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-ii/
+    notes: ""
+
+  - id: 70
+    number: "3556"
+    name: sum-of-largest-prime-substrings
+    difficulty: medium
+    solution: ./leetcode-playground/3556-sum-of-largest-prime-substrings.js
+    test: ./leetcode-playground/tests/3556-sum-of-largest-prime-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-largest-prime-substrings/
+    notes: ""
+
+  - id: 71
+    number: "3569"
+    name: maximize-count-of-distinct-primes-after-split
+    difficulty: hard
+    solution: ./leetcode-playground/3569-maximize-count-of-distinct-primes-after-split.js
+    test: ./leetcode-playground/tests/3569-maximize-count-of-distinct-primes-after-split.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-count-of-distinct-primes-after-split/
+    notes: ""
+
+  - id: 72
+    number: "3574"
+    name: maximize-subarray-gcd-score
+    difficulty: hard
+    solution: ./leetcode-playground/3574-maximize-subarray-gcd-score.js
+    test: ./leetcode-playground/tests/3574-maximize-subarray-gcd-score.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-subarray-gcd-score/
+    notes: ""
+
+  - id: 73
+    number: "3589"
+    name: count-prime-gap-balanced-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/3589-count-prime-gap-balanced-subarrays.js
+    test: ./leetcode-playground/tests/3589-count-prime-gap-balanced-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/count-prime-gap-balanced-subarrays/
+    notes: ""
+
+  - id: 74
+    number: "3591"
+    name: check-if-any-element-has-prime-frequency
+    difficulty: easy
+    solution: ./leetcode-playground/3591-check-if-any-element-has-prime-frequency.js
+    test: ./leetcode-playground/tests/3591-check-if-any-element-has-prime-frequency.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-any-element-has-prime-frequency/
+    notes: ""
+
+  - id: 75
+    number: "3605"
+    name: minimum-stability-factor-of-array
+    difficulty: hard
+    solution: ./leetcode-playground/3605-minimum-stability-factor-of-array.js
+    test: ./leetcode-playground/tests/3605-minimum-stability-factor-of-array.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-stability-factor-of-array/
+    notes: ""
+
+  - id: 76
+    number: "3618"
+    name: split-array-by-prime-indices
+    difficulty: medium
+    solution: ./leetcode-playground/3618-split-array-by-prime-indices.js
+    test: ./leetcode-playground/tests/3618-split-array-by-prime-indices.test.js
+    leetcode_url: https://leetcode.com/problems/split-array-by-prime-indices/
+    notes: ""
+
+  - id: 77
+    number: "3629"
+    name: minimum-jumps-to-reach-end-via-prime-teleportation
+    difficulty: medium
+    solution: ./leetcode-playground/3629-minimum-jumps-to-reach-end-via-prime-teleportation.js
+    test: ./leetcode-playground/tests/3629-minimum-jumps-to-reach-end-via-prime-teleportation.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/
+    notes: ""
+
+  - id: 78
+    number: "3658"
+    name: gcd-of-odd-and-even-sums
+    difficulty: easy
+    solution: ./leetcode-playground/3658-gcd-of-odd-and-even-sums.js
+    test: ./leetcode-playground/tests/3658-gcd-of-odd-and-even-sums.test.js
+    leetcode_url: https://leetcode.com/problems/gcd-of-odd-and-even-sums/
+    notes: ""
+
+  - id: 79
+    number: "3669"
+    name: balanced-k-factor-decomposition
+    difficulty: medium
+    solution: ./leetcode-playground/3669-balanced-k-factor-decomposition.js
+    test: ./leetcode-playground/tests/3669-balanced-k-factor-decomposition.test.js
+    leetcode_url: https://leetcode.com/problems/balanced-k-factor-decomposition/
+    notes: ""
+
+  - id: 80
+    number: "3671"
+    name: sum-of-beautiful-subsequences
+    difficulty: hard
+    solution: ./leetcode-playground/3671-sum-of-beautiful-subsequences.js
+    test: ./leetcode-playground/tests/3671-sum-of-beautiful-subsequences.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-beautiful-subsequences/
+    notes: ""
+
+  - id: 81
+    number: "3715"
+    name: sum-of-perfect-square-ancestors
+    difficulty: hard
+    solution: ./leetcode-playground/3715-sum-of-perfect-square-ancestors.js
+    test: ./leetcode-playground/tests/3715-sum-of-perfect-square-ancestors.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-perfect-square-ancestors/
+    notes: ""
+
+  - id: 82
+    number: "3725"
+    name: count-ways-to-choose-coprime-integers-from-rows
+    difficulty: hard
+    solution: ./leetcode-playground/3725-count-ways-to-choose-coprime-integers-from-rows.js
+    test: ./leetcode-playground/tests/3725-count-ways-to-choose-coprime-integers-from-rows.test.js
+    leetcode_url: https://leetcode.com/problems/count-ways-to-choose-coprime-integers-from-rows/
+    notes: ""
+
+  - id: 83
+    number: "3765"
+    name: complete-prime-number
+    difficulty: medium
+    solution: ./leetcode-playground/3765-complete-prime-number.js
+    test: ./leetcode-playground/tests/3765-complete-prime-number.test.js
+    leetcode_url: https://leetcode.com/problems/complete-prime-number/
+    notes: ""
+
+  - id: 84
+    number: "3770"
+    name: largest-prime-from-consecutive-prime-sum
+    difficulty: medium
+    solution: ./leetcode-playground/3770-largest-prime-from-consecutive-prime-sum.js
+    test: ./leetcode-playground/tests/3770-largest-prime-from-consecutive-prime-sum.test.js
+    leetcode_url: https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/
+    notes: ""
+
+  - id: 85
+    number: "3850"
+    name: count-sequences-to-k
+    difficulty: hard
+    solution: ./leetcode-playground/3850-count-sequences-to-k.js
+    test: ./leetcode-playground/tests/3850-count-sequences-to-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-sequences-to-k/
+    notes: ""
+

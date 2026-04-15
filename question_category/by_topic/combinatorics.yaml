@@ -1,0 +1,472 @@
+# Topic: Combinatorics
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+combinatorics:
+  - id: 1
+    number: "0062"
+    name: unique-paths
+    difficulty: medium
+    solution: ./leetcode-playground/0062-unique-paths.js
+    test: ./leetcode-playground/tests/0062-unique-paths.test.js
+    leetcode_url: https://leetcode.com/problems/unique-paths/
+    notes: ""
+
+  - id: 2
+    number: "0458"
+    name: poor-pigs
+    difficulty: hard
+    solution: ./leetcode-playground/0458-poor-pigs.js
+    test: ./leetcode-playground/tests/0458-poor-pigs.test.js
+    leetcode_url: https://leetcode.com/problems/poor-pigs/
+    notes: ""
+
+  - id: 3
+    number: "0920"
+    name: number-of-music-playlists
+    difficulty: hard
+    solution: ./leetcode-playground/0920-number-of-music-playlists.js
+    test: ./leetcode-playground/tests/0920-number-of-music-playlists.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-music-playlists/
+    notes: ""
+
+  - id: 4
+    number: "1201"
+    name: ugly-number-iii
+    difficulty: medium
+    solution: ./leetcode-playground/1201-ugly-number-iii.js
+    test: ./leetcode-playground/tests/1201-ugly-number-iii.test.js
+    leetcode_url: https://leetcode.com/problems/ugly-number-iii/
+    notes: ""
+
+  - id: 5
+    number: "1359"
+    name: count-all-valid-pickup-and-delivery-options
+    difficulty: hard
+    solution: ./leetcode-playground/1359-count-all-valid-pickup-and-delivery-options.js
+    test: ./leetcode-playground/tests/1359-count-all-valid-pickup-and-delivery-options.test.js
+    leetcode_url: https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/
+    notes: ""
+
+  - id: 6
+    number: "1467"
+    name: probability-of-a-two-boxes-having-the-same-number-of-distinct-balls
+    difficulty: hard
+    solution: ./leetcode-playground/1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls.js
+    test: ./leetcode-playground/tests/1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls.test.js
+    leetcode_url: https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/
+    notes: ""
+
+  - id: 7
+    number: "1569"
+    name: number-of-ways-to-reorder-array-to-get-same-bst
+    difficulty: hard
+    solution: ./leetcode-playground/1569-number-of-ways-to-reorder-array-to-get-same-bst.js
+    test: ./leetcode-playground/tests/1569-number-of-ways-to-reorder-array-to-get-same-bst.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/
+    notes: ""
+
+  - id: 8
+    number: "1621"
+    name: number-of-sets-of-k-non-overlapping-line-segments
+    difficulty: medium
+    solution: ./leetcode-playground/1621-number-of-sets-of-k-non-overlapping-line-segments.js
+    test: ./leetcode-playground/tests/1621-number-of-sets-of-k-non-overlapping-line-segments.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/
+    notes: ""
+
+  - id: 9
+    number: "1641"
+    name: count-sorted-vowel-strings
+    difficulty: medium
+    solution: ./leetcode-playground/1641-count-sorted-vowel-strings.js
+    test: ./leetcode-playground/tests/1641-count-sorted-vowel-strings.test.js
+    leetcode_url: https://leetcode.com/problems/count-sorted-vowel-strings/
+    notes: ""
+
+  - id: 10
+    number: "1643"
+    name: kth-smallest-instructions
+    difficulty: hard
+    solution: ./leetcode-playground/1643-kth-smallest-instructions.js
+    test: ./leetcode-playground/tests/1643-kth-smallest-instructions.test.js
+    leetcode_url: https://leetcode.com/problems/kth-smallest-instructions/
+    notes: ""
+
+  - id: 11
+    number: "1735"
+    name: count-ways-to-make-array-with-product
+    difficulty: hard
+    solution: ./leetcode-playground/1735-count-ways-to-make-array-with-product.js
+    test: ./leetcode-playground/tests/1735-count-ways-to-make-array-with-product.test.js
+    leetcode_url: https://leetcode.com/problems/count-ways-to-make-array-with-product/
+    notes: ""
+
+  - id: 12
+    number: "1830"
+    name: minimum-number-of-operations-to-make-string-sorted
+    difficulty: hard
+    solution: ./leetcode-playground/1830-minimum-number-of-operations-to-make-string-sorted.js
+    test: ./leetcode-playground/tests/1830-minimum-number-of-operations-to-make-string-sorted.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/
+    notes: ""
+
+  - id: 13
+    number: "1863"
+    name: sum-of-all-subset-xor-totals
+    difficulty: easy
+    solution: ./leetcode-playground/1863-sum-of-all-subset-xor-totals.js
+    test: ./leetcode-playground/tests/1863-sum-of-all-subset-xor-totals.test.js
+    leetcode_url: https://leetcode.com/problems/sum-of-all-subset-xor-totals/
+    notes: ""
+
+  - id: 14
+    number: "1866"
+    name: number-of-ways-to-rearrange-sticks-with-k-sticks-visible
+    difficulty: hard
+    solution: ./leetcode-playground/1866-number-of-ways-to-rearrange-sticks-with-k-sticks-visible.js
+    test: ./leetcode-playground/tests/1866-number-of-ways-to-rearrange-sticks-with-k-sticks-visible.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/
+    notes: ""
+
+  - id: 15
+    number: "1916"
+    name: count-ways-to-build-rooms-in-an-ant-colony
+    difficulty: hard
+    solution: ./leetcode-playground/1916-count-ways-to-build-rooms-in-an-ant-colony.js
+    test: ./leetcode-playground/tests/1916-count-ways-to-build-rooms-in-an-ant-colony.test.js
+    leetcode_url: https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/
+    notes: ""
+
+  - id: 16
+    number: "2063"
+    name: vowels-of-all-substrings
+    difficulty: medium
+    solution: ./leetcode-playground/2063-vowels-of-all-substrings.js
+    test: ./leetcode-playground/tests/2063-vowels-of-all-substrings.test.js
+    leetcode_url: https://leetcode.com/problems/vowels-of-all-substrings/
+    notes: ""
+
+  - id: 17
+    number: "2221"
+    name: find-triangular-sum-of-an-array
+    difficulty: medium
+    solution: ./leetcode-playground/2221-find-triangular-sum-of-an-array.js
+    test: ./leetcode-playground/tests/2221-find-triangular-sum-of-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/find-triangular-sum-of-an-array/
+    notes: ""
+
+  - id: 18
+    number: "2338"
+    name: count-the-number-of-ideal-arrays
+    difficulty: hard
+    solution: ./leetcode-playground/2338-count-the-number-of-ideal-arrays.js
+    test: ./leetcode-playground/tests/2338-count-the-number-of-ideal-arrays.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-number-of-ideal-arrays/
+    notes: ""
+
+  - id: 19
+    number: "2400"
+    name: number-of-ways-to-reach-a-position-after-exactly-k-steps
+    difficulty: medium
+    solution: ./leetcode-playground/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps.js
+    test: ./leetcode-playground/tests/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/
+    notes: ""
+
+  - id: 20
+    number: "2514"
+    name: count-anagrams
+    difficulty: hard
+    solution: ./leetcode-playground/2514-count-anagrams.js
+    test: ./leetcode-playground/tests/2514-count-anagrams.test.js
+    leetcode_url: https://leetcode.com/problems/count-anagrams/
+    notes: ""
+
+  - id: 21
+    number: "2597"
+    name: the-number-of-beautiful-subsets
+    difficulty: medium
+    solution: ./leetcode-playground/2597-the-number-of-beautiful-subsets.js
+    test: ./leetcode-playground/tests/2597-the-number-of-beautiful-subsets.test.js
+    leetcode_url: https://leetcode.com/problems/the-number-of-beautiful-subsets/
+    notes: ""
+
+  - id: 22
+    number: "2842"
+    name: count-k-subsequences-of-a-string-with-maximum-beauty
+    difficulty: hard
+    solution: ./leetcode-playground/2842-count-k-subsequences-of-a-string-with-maximum-beauty.js
+    test: ./leetcode-playground/tests/2842-count-k-subsequences-of-a-string-with-maximum-beauty.test.js
+    leetcode_url: https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty/
+    notes: ""
+
+  - id: 23
+    number: "2928"
+    name: distribute-candies-among-children-i
+    difficulty: easy
+    solution: ./leetcode-playground/2928-distribute-candies-among-children-i.js
+    test: ./leetcode-playground/tests/2928-distribute-candies-among-children-i.test.js
+    leetcode_url: https://leetcode.com/problems/distribute-candies-among-children-i/
+    notes: ""
+
+  - id: 24
+    number: "2929"
+    name: distribute-candies-among-children-ii
+    difficulty: medium
+    solution: ./leetcode-playground/2929-distribute-candies-among-children-ii.js
+    test: ./leetcode-playground/tests/2929-distribute-candies-among-children-ii.test.js
+    leetcode_url: https://leetcode.com/problems/distribute-candies-among-children-ii/
+    notes: ""
+
+  - id: 25
+    number: "2930"
+    name: number-of-strings-which-can-be-rearranged-to-contain-substring
+    difficulty: medium
+    solution: ./leetcode-playground/2930-number-of-strings-which-can-be-rearranged-to-contain-substring.js
+    test: ./leetcode-playground/tests/2930-number-of-strings-which-can-be-rearranged-to-contain-substring.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/
+    notes: ""
+
+  - id: 26
+    number: "2954"
+    name: count-the-number-of-infection-sequences
+    difficulty: hard
+    solution: ./leetcode-playground/2954-count-the-number-of-infection-sequences.js
+    test: ./leetcode-playground/tests/2954-count-the-number-of-infection-sequences.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-number-of-infection-sequences/
+    notes: ""
+
+  - id: 27
+    number: "2963"
+    name: count-the-number-of-good-partitions
+    difficulty: hard
+    solution: ./leetcode-playground/2963-count-the-number-of-good-partitions.js
+    test: ./leetcode-playground/tests/2963-count-the-number-of-good-partitions.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-number-of-good-partitions/
+    notes: ""
+
+  - id: 28
+    number: "3116"
+    name: kth-smallest-amount-with-single-denomination-combination
+    difficulty: hard
+    solution: ./leetcode-playground/3116-kth-smallest-amount-with-single-denomination-combination.js
+    test: ./leetcode-playground/tests/3116-kth-smallest-amount-with-single-denomination-combination.test.js
+    leetcode_url: https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/
+    notes: ""
+
+  - id: 29
+    number: "3128"
+    name: right-triangles
+    difficulty: medium
+    solution: ./leetcode-playground/3128-right-triangles.js
+    test: ./leetcode-playground/tests/3128-right-triangles.test.js
+    leetcode_url: https://leetcode.com/problems/right-triangles/
+    notes: ""
+
+  - id: 30
+    number: "3154"
+    name: find-number-of-ways-to-reach-the-k-th-stair
+    difficulty: hard
+    solution: ./leetcode-playground/3154-find-number-of-ways-to-reach-the-k-th-stair.js
+    test: ./leetcode-playground/tests/3154-find-number-of-ways-to-reach-the-k-th-stair.test.js
+    leetcode_url: https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/
+    notes: ""
+
+  - id: 31
+    number: "3179"
+    name: find-the-n-th-value-after-k-seconds
+    difficulty: medium
+    solution: ./leetcode-playground/3179-find-the-n-th-value-after-k-seconds.js
+    test: ./leetcode-playground/tests/3179-find-the-n-th-value-after-k-seconds.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/
+    notes: ""
+
+  - id: 32
+    number: "3250"
+    name: find-the-count-of-monotonic-pairs-i
+    difficulty: hard
+    solution: ./leetcode-playground/3250-find-the-count-of-monotonic-pairs-i.js
+    test: ./leetcode-playground/tests/3250-find-the-count-of-monotonic-pairs-i.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i/
+    notes: ""
+
+  - id: 33
+    number: "3251"
+    name: find-the-count-of-monotonic-pairs-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3251-find-the-count-of-monotonic-pairs-ii.js
+    test: ./leetcode-playground/tests/3251-find-the-count-of-monotonic-pairs-ii.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii/
+    notes: ""
+
+  - id: 34
+    number: "3272"
+    name: find-the-count-of-good-integers
+    difficulty: hard
+    solution: ./leetcode-playground/3272-find-the-count-of-good-integers.js
+    test: ./leetcode-playground/tests/3272-find-the-count-of-good-integers.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-count-of-good-integers/
+    notes: ""
+
+  - id: 35
+    number: "3312"
+    name: sorted-gcd-pair-queries
+    difficulty: hard
+    solution: ./leetcode-playground/3312-sorted-gcd-pair-queries.js
+    test: ./leetcode-playground/tests/3312-sorted-gcd-pair-queries.test.js
+    leetcode_url: https://leetcode.com/problems/sorted-gcd-pair-queries/
+    notes: ""
+
+  - id: 36
+    number: "3317"
+    name: find-the-number-of-possible-ways-for-an-event
+    difficulty: hard
+    solution: ./leetcode-playground/3317-find-the-number-of-possible-ways-for-an-event.js
+    test: ./leetcode-playground/tests/3317-find-the-number-of-possible-ways-for-an-event.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-number-of-possible-ways-for-an-event/
+    notes: ""
+
+  - id: 37
+    number: "3343"
+    name: count-number-of-balanced-permutations
+    difficulty: hard
+    solution: ./leetcode-playground/3343-count-number-of-balanced-permutations.js
+    test: ./leetcode-playground/tests/3343-count-number-of-balanced-permutations.test.js
+    leetcode_url: https://leetcode.com/problems/count-number-of-balanced-permutations/
+    notes: ""
+
+  - id: 38
+    number: "3352"
+    name: count-k-reducible-numbers-less-than-n
+    difficulty: hard
+    solution: ./leetcode-playground/3352-count-k-reducible-numbers-less-than-n.js
+    test: ./leetcode-playground/tests/3352-count-k-reducible-numbers-less-than-n.test.js
+    leetcode_url: https://leetcode.com/problems/count-k-reducible-numbers-less-than-n/
+    notes: ""
+
+  - id: 39
+    number: "3395"
+    name: subsequences-with-a-unique-middle-mode-i
+    difficulty: hard
+    solution: ./leetcode-playground/3395-subsequences-with-a-unique-middle-mode-i.js
+    test: ./leetcode-playground/tests/3395-subsequences-with-a-unique-middle-mode-i.test.js
+    leetcode_url: https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/
+    notes: ""
+
+  - id: 40
+    number: "3405"
+    name: count-the-number-of-arrays-with-k-matching-adjacent-elements
+    difficulty: hard
+    solution: ./leetcode-playground/3405-count-the-number-of-arrays-with-k-matching-adjacent-elements.js
+    test: ./leetcode-playground/tests/3405-count-the-number-of-arrays-with-k-matching-adjacent-elements.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/
+    notes: ""
+
+  - id: 41
+    number: "3426"
+    name: manhattan-distances-of-all-arrangements-of-pieces
+    difficulty: hard
+    solution: ./leetcode-playground/3426-manhattan-distances-of-all-arrangements-of-pieces.js
+    test: ./leetcode-playground/tests/3426-manhattan-distances-of-all-arrangements-of-pieces.test.js
+    leetcode_url: https://leetcode.com/problems/manhattan-distances-of-all-arrangements-of-pieces/
+    notes: ""
+
+  - id: 42
+    number: "3428"
+    name: maximum-and-minimum-sums-of-at-most-size-k-subsequences
+    difficulty: medium
+    solution: ./leetcode-playground/3428-maximum-and-minimum-sums-of-at-most-size-k-subsequences.js
+    test: ./leetcode-playground/tests/3428-maximum-and-minimum-sums-of-at-most-size-k-subsequences.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-and-minimum-sums-of-at-most-size-k-subsequences/
+    notes: ""
+
+  - id: 43
+    number: "3461"
+    name: check-if-digits-are-equal-in-string-after-operations-i
+    difficulty: easy
+    solution: ./leetcode-playground/3461-check-if-digits-are-equal-in-string-after-operations-i.js
+    test: ./leetcode-playground/tests/3461-check-if-digits-are-equal-in-string-after-operations-i.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/
+    notes: ""
+
+  - id: 44
+    number: "3463"
+    name: check-if-digits-are-equal-in-string-after-operations-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3463-check-if-digits-are-equal-in-string-after-operations-ii.js
+    test: ./leetcode-playground/tests/3463-check-if-digits-are-equal-in-string-after-operations-ii.test.js
+    leetcode_url: https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-ii/
+    notes: ""
+
+  - id: 45
+    number: "3470"
+    name: permutations-iv
+    difficulty: hard
+    solution: ./leetcode-playground/3470-permutations-iv.js
+    test: ./leetcode-playground/tests/3470-permutations-iv.test.js
+    leetcode_url: https://leetcode.com/problems/permutations-iv/
+    notes: ""
+
+  - id: 46
+    number: "3518"
+    name: smallest-palindromic-rearrangement-ii
+    difficulty: hard
+    solution: ./leetcode-playground/3518-smallest-palindromic-rearrangement-ii.js
+    test: ./leetcode-playground/tests/3518-smallest-palindromic-rearrangement-ii.test.js
+    leetcode_url: https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/
+    notes: ""
+
+  - id: 47
+    number: "3539"
+    name: find-sum-of-array-product-of-magical-sequences
+    difficulty: hard
+    solution: ./leetcode-playground/3539-find-sum-of-array-product-of-magical-sequences.js
+    test: ./leetcode-playground/tests/3539-find-sum-of-array-product-of-magical-sequences.test.js
+    leetcode_url: https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/
+    notes: ""
+
+  - id: 48
+    number: "3577"
+    name: count-the-number-of-computer-unlocking-permutations
+    difficulty: medium
+    solution: ./leetcode-playground/3577-count-the-number-of-computer-unlocking-permutations.js
+    test: ./leetcode-playground/tests/3577-count-the-number-of-computer-unlocking-permutations.test.js
+    leetcode_url: https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/
+    notes: ""
+
+  - id: 49
+    number: "3621"
+    name: number-of-integers-with-popcount-depth-equal-to-k-i
+    difficulty: hard
+    solution: ./leetcode-playground/3621-number-of-integers-with-popcount-depth-equal-to-k-i.js
+    test: ./leetcode-playground/tests/3621-number-of-integers-with-popcount-depth-equal-to-k-i.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-i/
+    notes: ""
+
+  - id: 50
+    number: "3725"
+    name: count-ways-to-choose-coprime-integers-from-rows
+    difficulty: hard
+    solution: ./leetcode-playground/3725-count-ways-to-choose-coprime-integers-from-rows.js
+    test: ./leetcode-playground/tests/3725-count-ways-to-choose-coprime-integers-from-rows.test.js
+    leetcode_url: https://leetcode.com/problems/count-ways-to-choose-coprime-integers-from-rows/
+    notes: ""
+
+  - id: 51
+    number: "3757"
+    name: number-of-effective-subsequences
+    difficulty: hard
+    solution: ./leetcode-playground/3757-number-of-effective-subsequences.js
+    test: ./leetcode-playground/tests/3757-number-of-effective-subsequences.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-effective-subsequences/
+    notes: ""
+
+  - id: 52
+    number: "3821"
+    name: find-nth-smallest-integer-with-k-one-bits
+    difficulty: hard
+    solution: ./leetcode-playground/3821-find-nth-smallest-integer-with-k-one-bits.js
+    test: ./leetcode-playground/tests/3821-find-nth-smallest-integer-with-k-one-bits.test.js
+    leetcode_url: https://leetcode.com/problems/find-nth-smallest-integer-with-k-one-bits/
+    notes: ""
+

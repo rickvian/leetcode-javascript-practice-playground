@@ -1,0 +1,112 @@
+# Topic: Randomized
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+randomized:
+  - id: 1
+    number: "0380"
+    name: insert-delete-getrandom-o1
+    difficulty: medium
+    solution: ./leetcode-playground/0380-insert-delete-getrandom-o1.js
+    test: ./leetcode-playground/tests/0380-insert-delete-getrandom-o1.test.js
+    leetcode_url: https://leetcode.com/problems/insert-delete-getrandom-o1/
+    notes: ""
+
+  - id: 2
+    number: "0381"
+    name: insert-delete-getrandom-o1-duplicates-allowed
+    difficulty: hard
+    solution: ./leetcode-playground/0381-insert-delete-getrandom-o1-duplicates-allowed.js
+    test: ./leetcode-playground/tests/0381-insert-delete-getrandom-o1-duplicates-allowed.test.js
+    leetcode_url: https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
+    notes: ""
+
+  - id: 3
+    number: "0382"
+    name: linked-list-random-node
+    difficulty: medium
+    solution: ./leetcode-playground/0382-linked-list-random-node.js
+    test: ./leetcode-playground/tests/0382-linked-list-random-node.test.js
+    leetcode_url: https://leetcode.com/problems/linked-list-random-node/
+    notes: ""
+
+  - id: 4
+    number: "0384"
+    name: shuffle-an-array
+    difficulty: medium
+    solution: ./leetcode-playground/0384-shuffle-an-array.js
+    test: ./leetcode-playground/tests/0384-shuffle-an-array.test.js
+    leetcode_url: https://leetcode.com/problems/shuffle-an-array/
+    notes: ""
+
+  - id: 5
+    number: "0398"
+    name: random-pick-index
+    difficulty: medium
+    solution: ./leetcode-playground/0398-random-pick-index.js
+    test: ./leetcode-playground/tests/0398-random-pick-index.test.js
+    leetcode_url: https://leetcode.com/problems/random-pick-index/
+    notes: ""
+
+  - id: 6
+    number: "0470"
+    name: implement-rand10-using-rand7
+    difficulty: medium
+    solution: ./leetcode-playground/0470-implement-rand10-using-rand7.js
+    test: ./leetcode-playground/tests/0470-implement-rand10-using-rand7.test.js
+    leetcode_url: https://leetcode.com/problems/implement-rand10-using-rand7/
+    notes: ""
+
+  - id: 7
+    number: "0478"
+    name: generate-random-point-in-a-circle
+    difficulty: medium
+    solution: ./leetcode-playground/0478-generate-random-point-in-a-circle.js
+    test: ./leetcode-playground/tests/0478-generate-random-point-in-a-circle.test.js
+    leetcode_url: https://leetcode.com/problems/generate-random-point-in-a-circle/
+    notes: ""
+
+  - id: 8
+    number: "0497"
+    name: random-point-in-non-overlapping-rectangles
+    difficulty: medium
+    solution: ./leetcode-playground/0497-random-point-in-non-overlapping-rectangles.js
+    test: ./leetcode-playground/tests/0497-random-point-in-non-overlapping-rectangles.test.js
+    leetcode_url: https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/
+    notes: ""
+
+  - id: 9
+    number: "0519"
+    name: random-flip-matrix
+    difficulty: medium
+    solution: ./leetcode-playground/0519-random-flip-matrix.js
+    test: ./leetcode-playground/tests/0519-random-flip-matrix.test.js
+    leetcode_url: https://leetcode.com/problems/random-flip-matrix/
+    notes: ""
+
+  - id: 10
+    number: "0528"
+    name: random-pick-with-weight
+    difficulty: medium
+    solution: ./leetcode-playground/0528-random-pick-with-weight.js
+    test: ./leetcode-playground/tests/0528-random-pick-with-weight.test.js
+    leetcode_url: https://leetcode.com/problems/random-pick-with-weight/
+    notes: ""
+
+  - id: 11
+    number: "0710"
+    name: random-pick-with-blacklist
+    difficulty: hard
+    solution: ./leetcode-playground/0710-random-pick-with-blacklist.js
+    test: ./leetcode-playground/tests/0710-random-pick-with-blacklist.test.js
+    leetcode_url: https://leetcode.com/problems/random-pick-with-blacklist/
+    notes: ""
+
+  - id: 12
+    number: "1515"
+    name: best-position-for-a-service-centre
+    difficulty: hard
+    solution: ./leetcode-playground/1515-best-position-for-a-service-centre.js
+    test: ./leetcode-playground/tests/1515-best-position-for-a-service-centre.test.js
+    leetcode_url: https://leetcode.com/problems/best-position-for-a-service-centre/
+    notes: ""
+

@@ -1,0 +1,400 @@
+# Topic: Queue
+# Auto-generated from LeetCode topic tags. Free problems only.
+
+queue:
+  - id: 1
+    number: "0225"
+    name: implement-stack-using-queues
+    difficulty: easy
+    solution: ./leetcode-playground/0225-implement-stack-using-queues.js
+    test: ./leetcode-playground/tests/0225-implement-stack-using-queues.test.js
+    leetcode_url: https://leetcode.com/problems/implement-stack-using-queues/
+    notes: ""
+
+  - id: 2
+    number: "0232"
+    name: implement-queue-using-stacks
+    difficulty: easy
+    solution: ./leetcode-playground/0232-implement-queue-using-stacks.js
+    test: ./leetcode-playground/tests/0232-implement-queue-using-stacks.test.js
+    leetcode_url: https://leetcode.com/problems/implement-queue-using-stacks/
+    notes: ""
+
+  - id: 3
+    number: "0239"
+    name: sliding-window-maximum
+    difficulty: hard
+    solution: ./leetcode-playground/0239-sliding-window-maximum.js
+    test: ./leetcode-playground/tests/0239-sliding-window-maximum.test.js
+    leetcode_url: https://leetcode.com/problems/sliding-window-maximum/
+    notes: ""
+
+  - id: 4
+    number: "0341"
+    name: flatten-nested-list-iterator
+    difficulty: medium
+    solution: ./leetcode-playground/0341-flatten-nested-list-iterator.js
+    test: ./leetcode-playground/tests/0341-flatten-nested-list-iterator.test.js
+    leetcode_url: https://leetcode.com/problems/flatten-nested-list-iterator/
+    notes: ""
+
+  - id: 5
+    number: "0387"
+    name: first-unique-character-in-a-string
+    difficulty: easy
+    solution: ./leetcode-playground/0387-first-unique-character-in-a-string.js
+    test: ./leetcode-playground/tests/0387-first-unique-character-in-a-string.test.js
+    leetcode_url: https://leetcode.com/problems/first-unique-character-in-a-string/
+    notes: ""
+
+  - id: 6
+    number: "0622"
+    name: design-circular-queue
+    difficulty: medium
+    solution: ./leetcode-playground/0622-design-circular-queue.js
+    test: ./leetcode-playground/tests/0622-design-circular-queue.test.js
+    leetcode_url: https://leetcode.com/problems/design-circular-queue/
+    notes: ""
+
+  - id: 7
+    number: "0641"
+    name: design-circular-deque
+    difficulty: medium
+    solution: ./leetcode-playground/0641-design-circular-deque.js
+    test: ./leetcode-playground/tests/0641-design-circular-deque.test.js
+    leetcode_url: https://leetcode.com/problems/design-circular-deque/
+    notes: ""
+
+  - id: 8
+    number: "0649"
+    name: dota2-senate
+    difficulty: medium
+    solution: ./leetcode-playground/0649-dota2-senate.js
+    test: ./leetcode-playground/tests/0649-dota2-senate.test.js
+    leetcode_url: https://leetcode.com/problems/dota2-senate/
+    notes: ""
+
+  - id: 9
+    number: "0862"
+    name: shortest-subarray-with-sum-at-least-k
+    difficulty: hard
+    solution: ./leetcode-playground/0862-shortest-subarray-with-sum-at-least-k.js
+    test: ./leetcode-playground/tests/0862-shortest-subarray-with-sum-at-least-k.test.js
+    leetcode_url: https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+    notes: ""
+
+  - id: 10
+    number: "0918"
+    name: maximum-sum-circular-subarray
+    difficulty: medium
+    solution: ./leetcode-playground/0918-maximum-sum-circular-subarray.js
+    test: ./leetcode-playground/tests/0918-maximum-sum-circular-subarray.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-sum-circular-subarray/
+    notes: ""
+
+  - id: 11
+    number: "0933"
+    name: number-of-recent-calls
+    difficulty: easy
+    solution: ./leetcode-playground/0933-number-of-recent-calls.js
+    test: ./leetcode-playground/tests/0933-number-of-recent-calls.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-recent-calls/
+    notes: ""
+
+  - id: 12
+    number: "0936"
+    name: stamping-the-sequence
+    difficulty: hard
+    solution: ./leetcode-playground/0936-stamping-the-sequence.js
+    test: ./leetcode-playground/tests/0936-stamping-the-sequence.test.js
+    leetcode_url: https://leetcode.com/problems/stamping-the-sequence/
+    notes: ""
+
+  - id: 13
+    number: "0950"
+    name: reveal-cards-in-increasing-order
+    difficulty: medium
+    solution: ./leetcode-playground/0950-reveal-cards-in-increasing-order.js
+    test: ./leetcode-playground/tests/0950-reveal-cards-in-increasing-order.test.js
+    leetcode_url: https://leetcode.com/problems/reveal-cards-in-increasing-order/
+    notes: ""
+
+  - id: 14
+    number: "0995"
+    name: minimum-number-of-k-consecutive-bit-flips
+    difficulty: hard
+    solution: ./leetcode-playground/0995-minimum-number-of-k-consecutive-bit-flips.js
+    test: ./leetcode-playground/tests/0995-minimum-number-of-k-consecutive-bit-flips.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
+    notes: ""
+
+  - id: 15
+    number: "1425"
+    name: constrained-subsequence-sum
+    difficulty: hard
+    solution: ./leetcode-playground/1425-constrained-subsequence-sum.js
+    test: ./leetcode-playground/tests/1425-constrained-subsequence-sum.test.js
+    leetcode_url: https://leetcode.com/problems/constrained-subsequence-sum/
+    notes: ""
+
+  - id: 16
+    number: "1438"
+    name: longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
+    difficulty: medium
+    solution: ./leetcode-playground/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.js
+    test: ./leetcode-playground/tests/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.test.js
+    leetcode_url: https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
+    notes: ""
+
+  - id: 17
+    number: "1499"
+    name: max-value-of-equation
+    difficulty: hard
+    solution: ./leetcode-playground/1499-max-value-of-equation.js
+    test: ./leetcode-playground/tests/1499-max-value-of-equation.test.js
+    leetcode_url: https://leetcode.com/problems/max-value-of-equation/
+    notes: ""
+
+  - id: 18
+    number: "1670"
+    name: design-front-middle-back-queue
+    difficulty: medium
+    solution: ./leetcode-playground/1670-design-front-middle-back-queue.js
+    test: ./leetcode-playground/tests/1670-design-front-middle-back-queue.test.js
+    leetcode_url: https://leetcode.com/problems/design-front-middle-back-queue/
+    notes: ""
+
+  - id: 19
+    number: "1687"
+    name: delivering-boxes-from-storage-to-ports
+    difficulty: hard
+    solution: ./leetcode-playground/1687-delivering-boxes-from-storage-to-ports.js
+    test: ./leetcode-playground/tests/1687-delivering-boxes-from-storage-to-ports.test.js
+    leetcode_url: https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/
+    notes: ""
+
+  - id: 20
+    number: "1696"
+    name: jump-game-vi
+    difficulty: medium
+    solution: ./leetcode-playground/1696-jump-game-vi.js
+    test: ./leetcode-playground/tests/1696-jump-game-vi.test.js
+    leetcode_url: https://leetcode.com/problems/jump-game-vi/
+    notes: ""
+
+  - id: 21
+    number: "1700"
+    name: number-of-students-unable-to-eat-lunch
+    difficulty: easy
+    solution: ./leetcode-playground/1700-number-of-students-unable-to-eat-lunch.js
+    test: ./leetcode-playground/tests/1700-number-of-students-unable-to-eat-lunch.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/
+    notes: ""
+
+  - id: 22
+    number: "1823"
+    name: find-the-winner-of-the-circular-game
+    difficulty: medium
+    solution: ./leetcode-playground/1823-find-the-winner-of-the-circular-game.js
+    test: ./leetcode-playground/tests/1823-find-the-winner-of-the-circular-game.test.js
+    leetcode_url: https://leetcode.com/problems/find-the-winner-of-the-circular-game/
+    notes: ""
+
+  - id: 23
+    number: "1825"
+    name: finding-mk-average
+    difficulty: hard
+    solution: ./leetcode-playground/1825-finding-mk-average.js
+    test: ./leetcode-playground/tests/1825-finding-mk-average.test.js
+    leetcode_url: https://leetcode.com/problems/finding-mk-average/
+    notes: ""
+
+  - id: 24
+    number: "2071"
+    name: maximum-number-of-tasks-you-can-assign
+    difficulty: hard
+    solution: ./leetcode-playground/2071-maximum-number-of-tasks-you-can-assign.js
+    test: ./leetcode-playground/tests/2071-maximum-number-of-tasks-you-can-assign.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/
+    notes: ""
+
+  - id: 25
+    number: "2073"
+    name: time-needed-to-buy-tickets
+    difficulty: easy
+    solution: ./leetcode-playground/2073-time-needed-to-buy-tickets.js
+    test: ./leetcode-playground/tests/2073-time-needed-to-buy-tickets.test.js
+    leetcode_url: https://leetcode.com/problems/time-needed-to-buy-tickets/
+    notes: ""
+
+  - id: 26
+    number: "2327"
+    name: number-of-people-aware-of-a-secret
+    difficulty: medium
+    solution: ./leetcode-playground/2327-number-of-people-aware-of-a-secret.js
+    test: ./leetcode-playground/tests/2327-number-of-people-aware-of-a-secret.test.js
+    leetcode_url: https://leetcode.com/problems/number-of-people-aware-of-a-secret/
+    notes: ""
+
+  - id: 27
+    number: "2398"
+    name: maximum-number-of-robots-within-budget
+    difficulty: hard
+    solution: ./leetcode-playground/2398-maximum-number-of-robots-within-budget.js
+    test: ./leetcode-playground/tests/2398-maximum-number-of-robots-within-budget.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-number-of-robots-within-budget/
+    notes: ""
+
+  - id: 28
+    number: "2407"
+    name: longest-increasing-subsequence-ii
+    difficulty: hard
+    solution: ./leetcode-playground/2407-longest-increasing-subsequence-ii.js
+    test: ./leetcode-playground/tests/2407-longest-increasing-subsequence-ii.test.js
+    leetcode_url: https://leetcode.com/problems/longest-increasing-subsequence-ii/
+    notes: ""
+
+  - id: 29
+    number: "2444"
+    name: count-subarrays-with-fixed-bounds
+    difficulty: hard
+    solution: ./leetcode-playground/2444-count-subarrays-with-fixed-bounds.js
+    test: ./leetcode-playground/tests/2444-count-subarrays-with-fixed-bounds.test.js
+    leetcode_url: https://leetcode.com/problems/count-subarrays-with-fixed-bounds/
+    notes: ""
+
+  - id: 30
+    number: "2526"
+    name: find-consecutive-integers-from-a-data-stream
+    difficulty: medium
+    solution: ./leetcode-playground/2526-find-consecutive-integers-from-a-data-stream.js
+    test: ./leetcode-playground/tests/2526-find-consecutive-integers-from-a-data-stream.test.js
+    leetcode_url: https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/
+    notes: ""
+
+  - id: 31
+    number: "2528"
+    name: maximize-the-minimum-powered-city
+    difficulty: hard
+    solution: ./leetcode-playground/2528-maximize-the-minimum-powered-city.js
+    test: ./leetcode-playground/tests/2528-maximize-the-minimum-powered-city.test.js
+    leetcode_url: https://leetcode.com/problems/maximize-the-minimum-powered-city/
+    notes: ""
+
+  - id: 32
+    number: "2762"
+    name: continuous-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/2762-continuous-subarrays.js
+    test: ./leetcode-playground/tests/2762-continuous-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/continuous-subarrays/
+    notes: ""
+
+  - id: 33
+    number: "2944"
+    name: minimum-number-of-coins-for-fruits
+    difficulty: medium
+    solution: ./leetcode-playground/2944-minimum-number-of-coins-for-fruits.js
+    test: ./leetcode-playground/tests/2944-minimum-number-of-coins-for-fruits.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-number-of-coins-for-fruits/
+    notes: ""
+
+  - id: 34
+    number: "2945"
+    name: find-maximum-non-decreasing-array-length
+    difficulty: hard
+    solution: ./leetcode-playground/2945-find-maximum-non-decreasing-array-length.js
+    test: ./leetcode-playground/tests/2945-find-maximum-non-decreasing-array-length.test.js
+    leetcode_url: https://leetcode.com/problems/find-maximum-non-decreasing-array-length/
+    notes: ""
+
+  - id: 35
+    number: "3117"
+    name: minimum-sum-of-values-by-dividing-array
+    difficulty: hard
+    solution: ./leetcode-playground/3117-minimum-sum-of-values-by-dividing-array.js
+    test: ./leetcode-playground/tests/3117-minimum-sum-of-values-by-dividing-array.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/
+    notes: ""
+
+  - id: 36
+    number: "3191"
+    name: minimum-operations-to-make-binary-array-elements-equal-to-one-i
+    difficulty: medium
+    solution: ./leetcode-playground/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i.js
+    test: ./leetcode-playground/tests/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/
+    notes: ""
+
+  - id: 37
+    number: "3420"
+    name: count-non-decreasing-subarrays-after-k-operations
+    difficulty: hard
+    solution: ./leetcode-playground/3420-count-non-decreasing-subarrays-after-k-operations.js
+    test: ./leetcode-playground/tests/3420-count-non-decreasing-subarrays-after-k-operations.test.js
+    leetcode_url: https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/
+    notes: ""
+
+  - id: 38
+    number: "3508"
+    name: implement-router
+    difficulty: medium
+    solution: ./leetcode-playground/3508-implement-router.js
+    test: ./leetcode-playground/tests/3508-implement-router.test.js
+    leetcode_url: https://leetcode.com/problems/implement-router/
+    notes: ""
+
+  - id: 39
+    number: "3578"
+    name: count-partitions-with-max-min-difference-at-most-k
+    difficulty: medium
+    solution: ./leetcode-playground/3578-count-partitions-with-max-min-difference-at-most-k.js
+    test: ./leetcode-playground/tests/3578-count-partitions-with-max-min-difference-at-most-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/
+    notes: ""
+
+  - id: 40
+    number: "3589"
+    name: count-prime-gap-balanced-subarrays
+    difficulty: medium
+    solution: ./leetcode-playground/3589-count-prime-gap-balanced-subarrays.js
+    test: ./leetcode-playground/tests/3589-count-prime-gap-balanced-subarrays.test.js
+    leetcode_url: https://leetcode.com/problems/count-prime-gap-balanced-subarrays/
+    notes: ""
+
+  - id: 41
+    number: "3826"
+    name: minimum-partition-score
+    difficulty: hard
+    solution: ./leetcode-playground/3826-minimum-partition-score.js
+    test: ./leetcode-playground/tests/3826-minimum-partition-score.test.js
+    leetcode_url: https://leetcode.com/problems/minimum-partition-score/
+    notes: ""
+
+  - id: 42
+    number: "3829"
+    name: design-ride-sharing-system
+    difficulty: medium
+    solution: ./leetcode-playground/3829-design-ride-sharing-system.js
+    test: ./leetcode-playground/tests/3829-design-ride-sharing-system.test.js
+    leetcode_url: https://leetcode.com/problems/design-ride-sharing-system/
+    notes: ""
+
+  - id: 43
+    number: "3835"
+    name: count-subarrays-with-cost-less-than-or-equal-to-k
+    difficulty: medium
+    solution: ./leetcode-playground/3835-count-subarrays-with-cost-less-than-or-equal-to-k.js
+    test: ./leetcode-playground/tests/3835-count-subarrays-with-cost-less-than-or-equal-to-k.test.js
+    leetcode_url: https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/
+    notes: ""
+
+  - id: 44
+    number: "3845"
+    name: maximum-subarray-xor-with-bounded-range
+    difficulty: hard
+    solution: ./leetcode-playground/3845-maximum-subarray-xor-with-bounded-range.js
+    test: ./leetcode-playground/tests/3845-maximum-subarray-xor-with-bounded-range.test.js
+    leetcode_url: https://leetcode.com/problems/maximum-subarray-xor-with-bounded-range/
+    notes: ""
+
