@@ -1,4 +1,5 @@
 import { binarySearch } from '../0704-binary-search.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0704-binary-search', () => {
     it('should handle basic case', () => {

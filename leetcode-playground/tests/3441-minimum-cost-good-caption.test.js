@@ -1,4 +1,5 @@
 import { minimumCostGoodCaption } from '../3441-minimum-cost-good-caption.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3441-minimum-cost-good-caption', () => {
     it('should handle basic case', () => {

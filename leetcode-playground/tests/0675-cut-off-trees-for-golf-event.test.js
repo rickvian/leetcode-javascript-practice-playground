@@ -1,4 +1,5 @@
 import { cutOffTreesForGolfEvent } from '../0675-cut-off-trees-for-golf-event.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0675-cut-off-trees-for-golf-event', () => {
     it('should handle basic case', () => {

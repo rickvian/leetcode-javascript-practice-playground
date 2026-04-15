@@ -1,4 +1,5 @@
 import { shortEncodingOfWords } from '../0820-short-encoding-of-words.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0820-short-encoding-of-words', () => {
     it('should handle basic case', () => {

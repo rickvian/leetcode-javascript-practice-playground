@@ -1,4 +1,5 @@
 import { countSquareSumTriples } from '../1925-count-square-sum-triples.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1925-count-square-sum-triples', () => {
     it('should handle basic case', () => {

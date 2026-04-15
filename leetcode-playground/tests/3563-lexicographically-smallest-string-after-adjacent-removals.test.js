@@ -1,4 +1,5 @@
 import { lexicographicallySmallestStringAfterAdjacentRemovals } from '../3563-lexicographically-smallest-string-after-adjacent-removals.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3563-lexicographically-smallest-string-after-adjacent-removals', () => {
     it('should handle basic case', () => {

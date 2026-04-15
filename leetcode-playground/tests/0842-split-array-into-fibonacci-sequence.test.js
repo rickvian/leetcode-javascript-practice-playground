@@ -1,4 +1,5 @@
 import { splitArrayIntoFibonacciSequence } from '../0842-split-array-into-fibonacci-sequence.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0842-split-array-into-fibonacci-sequence', () => {
     it('should handle basic case', () => {

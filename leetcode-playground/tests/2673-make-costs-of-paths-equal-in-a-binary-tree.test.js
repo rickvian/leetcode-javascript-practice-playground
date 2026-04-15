@@ -1,4 +1,5 @@
 import { makeCostsOfPathsEqualInABinaryTree } from '../2673-make-costs-of-paths-equal-in-a-binary-tree.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2673-make-costs-of-paths-equal-in-a-binary-tree', () => {
     it('should handle basic case', () => {

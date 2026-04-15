@@ -1,4 +1,5 @@
 import { minimumCostToMakeArraysIdentical } from '../3424-minimum-cost-to-make-arrays-identical.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3424-minimum-cost-to-make-arrays-identical', () => {
     it('should handle basic case', () => {

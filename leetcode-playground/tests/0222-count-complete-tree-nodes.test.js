@@ -1,4 +1,5 @@
 import { countCompleteTreeNodes } from '../0222-count-complete-tree-nodes.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0222-count-complete-tree-nodes', () => {
     it('should handle basic case', () => {

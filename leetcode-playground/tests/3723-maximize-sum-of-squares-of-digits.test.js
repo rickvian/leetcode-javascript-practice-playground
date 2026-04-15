@@ -1,4 +1,5 @@
 import { maximizeSumOfSquaresOfDigits } from '../3723-maximize-sum-of-squares-of-digits.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3723-maximize-sum-of-squares-of-digits', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { deleteNodeInALinkedList } from '../0237-delete-node-in-a-linked-list.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0237-delete-node-in-a-linked-list', () => {
     it('should handle basic case', () => {

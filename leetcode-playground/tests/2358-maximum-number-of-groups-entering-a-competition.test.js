@@ -1,4 +1,5 @@
 import { maximumNumberOfGroupsEnteringACompetition } from '../2358-maximum-number-of-groups-entering-a-competition.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2358-maximum-number-of-groups-entering-a-competition', () => {
     it('should handle basic case', () => {

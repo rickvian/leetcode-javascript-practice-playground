@@ -1,4 +1,5 @@
 import { convertANumberToHexadecimal } from '../0405-convert-a-number-to-hexadecimal.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0405-convert-a-number-to-hexadecimal', () => {
     it('should handle basic case', () => {

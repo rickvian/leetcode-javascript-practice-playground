@@ -1,4 +1,5 @@
 import { romanToInteger } from '../0013-roman-to-integer.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0013-roman-to-integer', () => {
     it('should handle basic case', () => {

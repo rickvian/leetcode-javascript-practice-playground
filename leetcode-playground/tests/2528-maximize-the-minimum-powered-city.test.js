@@ -1,4 +1,5 @@
 import { maximizeTheMinimumPoweredCity } from '../2528-maximize-the-minimum-powered-city.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2528-maximize-the-minimum-powered-city', () => {
     it('should handle basic case', () => {

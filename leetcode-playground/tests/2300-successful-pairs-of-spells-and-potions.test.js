@@ -1,4 +1,5 @@
 import { successfulPairsOfSpellsAndPotions } from '../2300-successful-pairs-of-spells-and-potions.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2300-successful-pairs-of-spells-and-potions', () => {
     it('should handle basic case', () => {

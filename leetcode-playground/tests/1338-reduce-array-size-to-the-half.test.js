@@ -1,4 +1,5 @@
 import { reduceArraySizeToTheHalf } from '../1338-reduce-array-size-to-the-half.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1338-reduce-array-size-to-the-half', () => {
     it('should handle basic case', () => {

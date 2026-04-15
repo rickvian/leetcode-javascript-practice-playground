@@ -1,4 +1,5 @@
 import { sumOfDistances } from '../2615-sum-of-distances.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2615-sum-of-distances', () => {
     it('should handle basic case', () => {

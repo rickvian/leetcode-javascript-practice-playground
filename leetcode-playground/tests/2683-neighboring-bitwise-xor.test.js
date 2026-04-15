@@ -1,4 +1,5 @@
 import { neighboringBitwiseXor } from '../2683-neighboring-bitwise-xor.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2683-neighboring-bitwise-xor', () => {
     it('should handle basic case', () => {

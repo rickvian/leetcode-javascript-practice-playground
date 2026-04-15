@@ -1,4 +1,5 @@
 import { shortestBridge } from '../0934-shortest-bridge.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0934-shortest-bridge', () => {
     it('should handle basic case', () => {

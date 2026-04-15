@@ -1,4 +1,5 @@
 import { minimumCostToMakeAllCharactersEqual } from '../2712-minimum-cost-to-make-all-characters-equal.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2712-minimum-cost-to-make-all-characters-equal', () => {
     it('should handle basic case', () => {

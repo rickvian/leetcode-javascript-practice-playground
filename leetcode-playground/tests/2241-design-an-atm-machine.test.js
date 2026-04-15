@@ -1,4 +1,5 @@
 import { designAnAtmMachine } from '../2241-design-an-atm-machine.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2241-design-an-atm-machine', () => {
     it('should handle basic case', () => {

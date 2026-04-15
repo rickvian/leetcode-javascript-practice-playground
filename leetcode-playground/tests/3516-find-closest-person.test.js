@@ -1,4 +1,5 @@
 import { findClosestPerson } from '../3516-find-closest-person.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3516-find-closest-person', () => {
     it('should handle basic case', () => {

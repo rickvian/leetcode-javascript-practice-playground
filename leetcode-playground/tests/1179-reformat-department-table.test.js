@@ -1,4 +1,5 @@
 import { reformatDepartmentTable } from '../1179-reformat-department-table.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1179-reformat-department-table', () => {
     it('should handle basic case', () => {

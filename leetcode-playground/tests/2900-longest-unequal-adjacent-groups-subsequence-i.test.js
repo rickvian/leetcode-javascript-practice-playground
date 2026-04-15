@@ -1,4 +1,5 @@
 import { longestUnequalAdjacentGroupsSubsequenceI } from '../2900-longest-unequal-adjacent-groups-subsequence-i.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2900-longest-unequal-adjacent-groups-subsequence-i', () => {
     it('should handle basic case', () => {

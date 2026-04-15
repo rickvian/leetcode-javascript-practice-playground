@@ -1,4 +1,5 @@
 import { mapSumPairs } from '../0677-map-sum-pairs.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0677-map-sum-pairs', () => {
     it('should handle basic case', () => {

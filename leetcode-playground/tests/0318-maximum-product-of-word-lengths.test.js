@@ -1,4 +1,5 @@
 import { maximumProductOfWordLengths } from '../0318-maximum-product-of-word-lengths.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0318-maximum-product-of-word-lengths', () => {
     it('should handle basic case', () => {

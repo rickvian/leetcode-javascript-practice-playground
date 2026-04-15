@@ -1,4 +1,5 @@
 import { richestCustomerWealth } from '../1672-richest-customer-wealth.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1672-richest-customer-wealth', () => {
     it('should handle basic case', () => {

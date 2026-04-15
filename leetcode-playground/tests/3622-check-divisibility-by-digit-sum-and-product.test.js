@@ -1,4 +1,5 @@
 import { checkDivisibilityByDigitSumAndProduct } from '../3622-check-divisibility-by-digit-sum-and-product.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3622-check-divisibility-by-digit-sum-and-product', () => {
     it('should handle basic case', () => {

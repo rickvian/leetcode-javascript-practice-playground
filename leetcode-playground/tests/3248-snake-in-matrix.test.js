@@ -1,4 +1,5 @@
 import { snakeInMatrix } from '../3248-snake-in-matrix.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3248-snake-in-matrix', () => {
     it('should handle basic case', () => {

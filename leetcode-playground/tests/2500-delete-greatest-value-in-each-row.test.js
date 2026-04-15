@@ -1,4 +1,5 @@
 import { deleteGreatestValueInEachRow } from '../2500-delete-greatest-value-in-each-row.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2500-delete-greatest-value-in-each-row', () => {
     it('should handle basic case', () => {

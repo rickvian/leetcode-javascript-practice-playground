@@ -1,4 +1,5 @@
 import { decodeXoredPermutation } from '../1734-decode-xored-permutation.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1734-decode-xored-permutation', () => {
     it('should handle basic case', () => {

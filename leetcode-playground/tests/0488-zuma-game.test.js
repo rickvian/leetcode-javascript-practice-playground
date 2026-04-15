@@ -1,4 +1,5 @@
 import { zumaGame } from '../0488-zuma-game.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0488-zuma-game', () => {
     it('should handle basic case', () => {

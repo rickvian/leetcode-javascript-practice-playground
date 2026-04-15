@@ -1,4 +1,5 @@
 import { designHashset } from '../0705-design-hashset.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0705-design-hashset', () => {
     it('should handle basic case', () => {

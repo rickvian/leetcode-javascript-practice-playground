@@ -1,4 +1,5 @@
 import { maximumXorProduct } from '../2939-maximum-xor-product.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2939-maximum-xor-product', () => {
     it('should handle basic case', () => {

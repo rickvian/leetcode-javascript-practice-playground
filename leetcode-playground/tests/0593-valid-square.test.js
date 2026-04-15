@@ -1,4 +1,5 @@
 import { validSquare } from '../0593-valid-square.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0593-valid-square', () => {
     it('should handle basic case', () => {

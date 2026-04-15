@@ -1,4 +1,5 @@
 import { sumOfAbsoluteDifferencesInASortedArray } from '../1685-sum-of-absolute-differences-in-a-sorted-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1685-sum-of-absolute-differences-in-a-sorted-array', () => {
     it('should handle basic case', () => {

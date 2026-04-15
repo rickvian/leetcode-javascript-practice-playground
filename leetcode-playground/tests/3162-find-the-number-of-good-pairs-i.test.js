@@ -1,4 +1,5 @@
 import { findTheNumberOfGoodPairsI } from '../3162-find-the-number-of-good-pairs-i.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3162-find-the-number-of-good-pairs-i', () => {
     it('should handle basic case', () => {

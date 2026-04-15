@@ -1,4 +1,5 @@
 import { countPairsWhoseSumIsLessThanTarget } from '../2824-count-pairs-whose-sum-is-less-than-target.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2824-count-pairs-whose-sum-is-less-than-target', () => {
     it('should handle basic case', () => {

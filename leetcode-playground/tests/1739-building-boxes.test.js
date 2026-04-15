@@ -1,4 +1,5 @@
 import { buildingBoxes } from '../1739-building-boxes.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1739-building-boxes', () => {
     it('should handle basic case', () => {

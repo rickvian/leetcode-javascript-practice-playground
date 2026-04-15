@@ -1,4 +1,5 @@
 import { maximumProductDifferenceBetweenTwoPairs } from '../1913-maximum-product-difference-between-two-pairs.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1913-maximum-product-difference-between-two-pairs', () => {
     it('should handle basic case', () => {

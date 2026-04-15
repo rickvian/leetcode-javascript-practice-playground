@@ -1,4 +1,5 @@
 import { shortestMatchingSubstring } from '../3455-shortest-matching-substring.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3455-shortest-matching-substring', () => {
     it('should handle basic case', () => {

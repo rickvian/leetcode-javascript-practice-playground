@@ -1,4 +1,5 @@
 import { maximumPointsTouristCanEarn } from '../3332-maximum-points-tourist-can-earn.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3332-maximum-points-tourist-can-earn', () => {
     it('should handle basic case', () => {

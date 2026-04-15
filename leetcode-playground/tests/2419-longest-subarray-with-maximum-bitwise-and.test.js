@@ -1,4 +1,5 @@
 import { longestSubarrayWithMaximumBitwiseAnd } from '../2419-longest-subarray-with-maximum-bitwise-and.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2419-longest-subarray-with-maximum-bitwise-and', () => {
     it('should handle basic case', () => {

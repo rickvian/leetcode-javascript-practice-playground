@@ -1,4 +1,5 @@
 import { firstBadVersion } from '../0278-first-bad-version.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0278-first-bad-version', () => {
     it('should handle basic case', () => {

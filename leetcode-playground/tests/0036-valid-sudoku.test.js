@@ -1,4 +1,5 @@
 import { validSudoku } from '../0036-valid-sudoku.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0036-valid-sudoku', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { zigzagGridTraversalWithSkip } from '../3417-zigzag-grid-traversal-with-skip.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3417-zigzag-grid-traversal-with-skip', () => {
     it('should handle basic case', () => {

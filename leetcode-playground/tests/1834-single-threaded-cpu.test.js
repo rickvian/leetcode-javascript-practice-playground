@@ -1,4 +1,5 @@
 import { singleThreadedCpu } from '../1834-single-threaded-cpu.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1834-single-threaded-cpu', () => {
     it('should handle basic case', () => {

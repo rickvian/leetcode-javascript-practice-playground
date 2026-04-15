@@ -1,4 +1,5 @@
 import { maximumValueOfAStringInAnArray } from '../2496-maximum-value-of-a-string-in-an-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2496-maximum-value-of-a-string-in-an-array', () => {
     it('should handle basic case', () => {

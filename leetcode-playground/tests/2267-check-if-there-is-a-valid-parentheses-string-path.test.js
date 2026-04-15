@@ -1,4 +1,5 @@
 import { checkIfThereIsAValidParenthesesStringPath } from '../2267-check-if-there-is-a-valid-parentheses-string-path.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2267-check-if-there-is-a-valid-parentheses-string-path', () => {
     it('should handle basic case', () => {

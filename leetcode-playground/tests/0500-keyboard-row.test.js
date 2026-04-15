@@ -1,4 +1,5 @@
 import { keyboardRow } from '../0500-keyboard-row.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0500-keyboard-row', () => {
     it('should handle basic case', () => {

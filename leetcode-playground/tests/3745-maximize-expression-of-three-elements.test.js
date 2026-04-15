@@ -1,4 +1,5 @@
 import { maximizeExpressionOfThreeElements } from '../3745-maximize-expression-of-three-elements.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3745-maximize-expression-of-three-elements', () => {
     it('should handle basic case', () => {

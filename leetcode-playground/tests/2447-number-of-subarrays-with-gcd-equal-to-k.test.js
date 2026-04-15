@@ -1,4 +1,5 @@
 import { numberOfSubarraysWithGcdEqualToK } from '../2447-number-of-subarrays-with-gcd-equal-to-k.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2447-number-of-subarrays-with-gcd-equal-to-k', () => {
     it('should handle basic case', () => {

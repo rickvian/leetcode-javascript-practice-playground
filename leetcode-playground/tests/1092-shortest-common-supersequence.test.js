@@ -1,4 +1,5 @@
 import { shortestCommonSupersequence } from '../1092-shortest-common-supersequence.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1092-shortest-common-supersequence', () => {
     it('should handle basic case', () => {

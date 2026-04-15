@@ -1,4 +1,5 @@
 import { minimumScoreOfAPathBetweenTwoCities } from '../2492-minimum-score-of-a-path-between-two-cities.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2492-minimum-score-of-a-path-between-two-cities', () => {
     it('should handle basic case', () => {

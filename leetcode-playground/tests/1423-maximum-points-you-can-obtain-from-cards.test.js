@@ -1,4 +1,5 @@
 import { maximumPointsYouCanObtainFromCards } from '../1423-maximum-points-you-can-obtain-from-cards.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1423-maximum-points-you-can-obtain-from-cards', () => {
     it('should handle basic case', () => {

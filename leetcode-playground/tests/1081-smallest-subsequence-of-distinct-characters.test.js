@@ -1,4 +1,5 @@
 import { smallestSubsequenceOfDistinctCharacters } from '../1081-smallest-subsequence-of-distinct-characters.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1081-smallest-subsequence-of-distinct-characters', () => {
     it('should handle basic case', () => {

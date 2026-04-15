@@ -1,4 +1,5 @@
 import { replaceAllSToAvoidConsecutiveRepeatingCharacters } from '../1576-replace-all-s-to-avoid-consecutive-repeating-characters.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1576-replace-all-s-to-avoid-consecutive-repeating-characters', () => {
     it('should handle basic case', () => {

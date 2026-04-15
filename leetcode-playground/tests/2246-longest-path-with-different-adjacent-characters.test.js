@@ -1,4 +1,5 @@
 import { longestPathWithDifferentAdjacentCharacters } from '../2246-longest-path-with-different-adjacent-characters.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2246-longest-path-with-different-adjacent-characters', () => {
     it('should handle basic case', () => {

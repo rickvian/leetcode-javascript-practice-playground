@@ -1,4 +1,5 @@
 import { integerBreak } from '../0343-integer-break.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0343-integer-break', () => {
     it('should handle basic case', () => {

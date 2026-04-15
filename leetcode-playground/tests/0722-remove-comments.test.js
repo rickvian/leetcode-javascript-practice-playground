@@ -1,4 +1,5 @@
 import { removeComments } from '../0722-remove-comments.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0722-remove-comments', () => {
     it('should handle basic case', () => {

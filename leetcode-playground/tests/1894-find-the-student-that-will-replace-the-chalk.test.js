@@ -1,4 +1,5 @@
 import { findTheStudentThatWillReplaceTheChalk } from '../1894-find-the-student-that-will-replace-the-chalk.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1894-find-the-student-that-will-replace-the-chalk', () => {
     it('should handle basic case', () => {

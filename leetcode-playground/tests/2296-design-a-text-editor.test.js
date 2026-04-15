@@ -1,4 +1,5 @@
 import { designATextEditor } from '../2296-design-a-text-editor.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2296-design-a-text-editor', () => {
     it('should handle basic case', () => {

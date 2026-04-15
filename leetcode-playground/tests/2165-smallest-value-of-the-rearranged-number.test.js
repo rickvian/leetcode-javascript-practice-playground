@@ -1,4 +1,5 @@
 import { smallestValueOfTheRearrangedNumber } from '../2165-smallest-value-of-the-rearranged-number.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2165-smallest-value-of-the-rearranged-number', () => {
     it('should handle basic case', () => {

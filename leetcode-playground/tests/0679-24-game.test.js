@@ -1,4 +1,5 @@
 import { 24Game } from '../0679-24-game.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0679-24-game', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { burstBalloons } from '../0312-burst-balloons.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0312-burst-balloons', () => {
     it('should handle basic case', () => {

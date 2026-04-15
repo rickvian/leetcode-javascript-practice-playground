@@ -1,4 +1,5 @@
 import { maximumAndSumOfArray } from '../2172-maximum-and-sum-of-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2172-maximum-and-sum-of-array', () => {
     it('should handle basic case', () => {

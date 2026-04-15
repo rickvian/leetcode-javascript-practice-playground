@@ -1,4 +1,5 @@
 import { nthDigit } from '../0400-nth-digit.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0400-nth-digit', () => {
     it('should handle basic case', () => {

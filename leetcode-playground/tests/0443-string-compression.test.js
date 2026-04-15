@@ -1,4 +1,5 @@
 import { stringCompression } from '../0443-string-compression.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0443-string-compression', () => {
     it('should handle basic case', () => {

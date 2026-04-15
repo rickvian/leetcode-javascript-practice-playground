@@ -1,4 +1,5 @@
 import { gridIllumination } from '../1001-grid-illumination.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1001-grid-illumination', () => {
     it('should handle basic case', () => {

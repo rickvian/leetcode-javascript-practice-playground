@@ -1,4 +1,5 @@
 import { numberOfArithmeticTriplets } from '../2367-number-of-arithmetic-triplets.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2367-number-of-arithmetic-triplets', () => {
     it('should handle basic case', () => {

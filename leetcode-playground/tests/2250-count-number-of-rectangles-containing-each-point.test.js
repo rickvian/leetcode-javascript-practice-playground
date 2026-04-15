@@ -1,4 +1,5 @@
 import { countNumberOfRectanglesContainingEachPoint } from '../2250-count-number-of-rectangles-containing-each-point.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2250-count-number-of-rectangles-containing-each-point', () => {
     it('should handle basic case', () => {

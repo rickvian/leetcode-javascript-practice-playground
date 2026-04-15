@@ -1,4 +1,5 @@
 import { maximumSubarrayWithEqualProducts } from '../3411-maximum-subarray-with-equal-products.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3411-maximum-subarray-with-equal-products', () => {
     it('should handle basic case', () => {

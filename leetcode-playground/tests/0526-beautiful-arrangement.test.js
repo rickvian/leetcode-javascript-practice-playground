@@ -1,4 +1,5 @@
 import { beautifulArrangement } from '../0526-beautiful-arrangement.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0526-beautiful-arrangement', () => {
     it('should handle basic case', () => {

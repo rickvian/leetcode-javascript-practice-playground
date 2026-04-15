@@ -1,4 +1,5 @@
 import { stoneGameVii } from '../1690-stone-game-vii.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1690-stone-game-vii', () => {
     it('should handle basic case', () => {

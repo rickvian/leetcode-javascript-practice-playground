@@ -1,4 +1,5 @@
 import { minimumSizeSubarrayInInfiniteArray } from '../2875-minimum-size-subarray-in-infinite-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2875-minimum-size-subarray-in-infinite-array', () => {
     it('should handle basic case', () => {

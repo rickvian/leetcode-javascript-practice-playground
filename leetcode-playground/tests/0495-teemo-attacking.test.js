@@ -1,4 +1,5 @@
 import { teemoAttacking } from '../0495-teemo-attacking.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0495-teemo-attacking', () => {
     it('should handle basic case', () => {

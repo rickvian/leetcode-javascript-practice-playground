@@ -1,4 +1,5 @@
 import { sortThePeople } from '../2418-sort-the-people.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2418-sort-the-people', () => {
     it('should handle basic case', () => {

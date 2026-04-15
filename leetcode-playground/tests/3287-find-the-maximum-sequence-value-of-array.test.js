@@ -1,4 +1,5 @@
 import { findTheMaximumSequenceValueOfArray } from '../3287-find-the-maximum-sequence-value-of-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3287-find-the-maximum-sequence-value-of-array', () => {
     it('should handle basic case', () => {

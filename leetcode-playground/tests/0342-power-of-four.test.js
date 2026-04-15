@@ -1,4 +1,5 @@
 import { powerOfFour } from '../0342-power-of-four.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0342-power-of-four', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { countSalaryCategories } from '../1907-count-salary-categories.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1907-count-salary-categories', () => {
     it('should handle basic case', () => {

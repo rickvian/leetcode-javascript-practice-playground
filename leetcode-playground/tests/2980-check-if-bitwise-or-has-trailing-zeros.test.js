@@ -1,4 +1,5 @@
 import { checkIfBitwiseOrHasTrailingZeros } from '../2980-check-if-bitwise-or-has-trailing-zeros.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2980-check-if-bitwise-or-has-trailing-zeros', () => {
     it('should handle basic case', () => {

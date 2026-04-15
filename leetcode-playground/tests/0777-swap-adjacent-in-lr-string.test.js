@@ -1,4 +1,5 @@
 import { swapAdjacentInLrString } from '../0777-swap-adjacent-in-lr-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0777-swap-adjacent-in-lr-string', () => {
     it('should handle basic case', () => {

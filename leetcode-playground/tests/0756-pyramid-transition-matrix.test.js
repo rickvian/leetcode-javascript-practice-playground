@@ -1,4 +1,5 @@
 import { pyramidTransitionMatrix } from '../0756-pyramid-transition-matrix.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0756-pyramid-transition-matrix', () => {
     it('should handle basic case', () => {

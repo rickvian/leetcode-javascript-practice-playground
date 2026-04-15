@@ -1,4 +1,5 @@
 import { findSpecialSubstringOfLengthK } from '../3456-find-special-substring-of-length-k.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3456-find-special-substring-of-length-k', () => {
     it('should handle basic case', () => {

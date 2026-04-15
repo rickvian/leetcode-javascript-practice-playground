@@ -1,4 +1,5 @@
 import { maximumSubsequenceScore } from '../2542-maximum-subsequence-score.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2542-maximum-subsequence-score', () => {
     it('should handle basic case', () => {

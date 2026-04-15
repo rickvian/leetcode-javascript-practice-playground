@@ -1,4 +1,5 @@
 import { maximizeTheProfitAsTheSalesman } from '../2830-maximize-the-profit-as-the-salesman.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2830-maximize-the-profit-as-the-salesman', () => {
     it('should handle basic case', () => {

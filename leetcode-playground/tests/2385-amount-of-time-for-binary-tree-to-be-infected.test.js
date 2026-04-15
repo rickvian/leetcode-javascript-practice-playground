@@ -1,4 +1,5 @@
 import { amountOfTimeForBinaryTreeToBeInfected } from '../2385-amount-of-time-for-binary-tree-to-be-infected.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2385-amount-of-time-for-binary-tree-to-be-infected', () => {
     it('should handle basic case', () => {

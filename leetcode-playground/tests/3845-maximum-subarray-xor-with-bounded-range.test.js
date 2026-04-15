@@ -1,4 +1,5 @@
 import { maximumSubarrayXorWithBoundedRange } from '../3845-maximum-subarray-xor-with-bounded-range.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3845-maximum-subarray-xor-with-bounded-range', () => {
     it('should handle basic case', () => {

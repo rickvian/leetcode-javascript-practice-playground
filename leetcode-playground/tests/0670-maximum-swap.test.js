@@ -1,4 +1,5 @@
 import { maximumSwap } from '../0670-maximum-swap.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0670-maximum-swap', () => {
     it('should handle basic case', () => {

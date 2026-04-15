@@ -1,4 +1,5 @@
 import { maximizeGreatnessOfAnArray } from '../2592-maximize-greatness-of-an-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2592-maximize-greatness-of-an-array', () => {
     it('should handle basic case', () => {

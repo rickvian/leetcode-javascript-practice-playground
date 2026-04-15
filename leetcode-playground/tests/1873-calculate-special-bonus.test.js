@@ -1,4 +1,5 @@
 import { calculateSpecialBonus } from '../1873-calculate-special-bonus.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1873-calculate-special-bonus', () => {
     it('should handle basic case', () => {

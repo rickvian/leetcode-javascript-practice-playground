@@ -1,4 +1,5 @@
 import { coloringABorder } from '../1034-coloring-a-border.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1034-coloring-a-border', () => {
     it('should handle basic case', () => {

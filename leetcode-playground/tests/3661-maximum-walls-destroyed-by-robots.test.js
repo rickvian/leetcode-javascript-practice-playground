@@ -1,4 +1,5 @@
 import { maximumWallsDestroyedByRobots } from '../3661-maximum-walls-destroyed-by-robots.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3661-maximum-walls-destroyed-by-robots', () => {
     it('should handle basic case', () => {

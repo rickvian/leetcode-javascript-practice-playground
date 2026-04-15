@@ -1,4 +1,5 @@
 import { lexicographicallySmallestPalindrome } from '../2697-lexicographically-smallest-palindrome.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2697-lexicographically-smallest-palindrome', () => {
     it('should handle basic case', () => {

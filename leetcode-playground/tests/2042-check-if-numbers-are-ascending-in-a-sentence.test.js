@@ -1,4 +1,5 @@
 import { checkIfNumbersAreAscendingInASentence } from '../2042-check-if-numbers-are-ascending-in-a-sentence.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2042-check-if-numbers-are-ascending-in-a-sentence', () => {
     it('should handle basic case', () => {

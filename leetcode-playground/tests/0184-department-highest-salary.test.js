@@ -1,4 +1,5 @@
 import { departmentHighestSalary } from '../0184-department-highest-salary.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0184-department-highest-salary', () => {
     it('should handle basic case', () => {

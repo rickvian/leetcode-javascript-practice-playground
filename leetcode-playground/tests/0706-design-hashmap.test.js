@@ -1,4 +1,5 @@
 import { designHashmap } from '../0706-design-hashmap.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0706-design-hashmap', () => {
     it('should handle basic case', () => {

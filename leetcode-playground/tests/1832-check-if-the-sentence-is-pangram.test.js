@@ -1,4 +1,5 @@
 import { checkIfTheSentenceIsPangram } from '../1832-check-if-the-sentence-is-pangram.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1832-check-if-the-sentence-is-pangram', () => {
     it('should handle basic case', () => {

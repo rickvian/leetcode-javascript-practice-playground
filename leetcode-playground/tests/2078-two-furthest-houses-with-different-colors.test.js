@@ -1,4 +1,5 @@
 import { twoFurthestHousesWithDifferentColors } from '../2078-two-furthest-houses-with-different-colors.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2078-two-furthest-houses-with-different-colors', () => {
     it('should handle basic case', () => {

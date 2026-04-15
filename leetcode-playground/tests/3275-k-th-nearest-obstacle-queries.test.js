@@ -1,4 +1,5 @@
 import { kThNearestObstacleQueries } from '../3275-k-th-nearest-obstacle-queries.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3275-k-th-nearest-obstacle-queries', () => {
     it('should handle basic case', () => {

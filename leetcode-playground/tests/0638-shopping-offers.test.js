@@ -1,4 +1,5 @@
 import { shoppingOffers } from '../0638-shopping-offers.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0638-shopping-offers', () => {
     it('should handle basic case', () => {

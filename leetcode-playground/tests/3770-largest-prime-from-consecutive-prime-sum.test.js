@@ -1,4 +1,5 @@
 import { largestPrimeFromConsecutivePrimeSum } from '../3770-largest-prime-from-consecutive-prime-sum.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3770-largest-prime-from-consecutive-prime-sum', () => {
     it('should handle basic case', () => {

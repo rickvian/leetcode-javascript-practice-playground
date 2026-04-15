@@ -1,4 +1,5 @@
 import { findProductRecommendationPairs } from '../3521-find-product-recommendation-pairs.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3521-find-product-recommendation-pairs', () => {
     it('should handle basic case', () => {

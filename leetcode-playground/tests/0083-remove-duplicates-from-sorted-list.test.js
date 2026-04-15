@@ -1,4 +1,5 @@
 import { removeDuplicatesFromSortedList } from '../0083-remove-duplicates-from-sorted-list.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0083-remove-duplicates-from-sorted-list', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { determineTheWinnerOfABowlingGame } from '../2660-determine-the-winner-of-a-bowling-game.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2660-determine-the-winner-of-a-bowling-game', () => {
     it('should handle basic case', () => {

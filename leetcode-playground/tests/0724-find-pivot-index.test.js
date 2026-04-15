@@ -1,4 +1,5 @@
 import { findPivotIndex } from '../0724-find-pivot-index.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0724-find-pivot-index', () => {
     it('should handle basic case', () => {

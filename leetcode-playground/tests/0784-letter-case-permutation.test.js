@@ -1,4 +1,5 @@
 import { letterCasePermutation } from '../0784-letter-case-permutation.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0784-letter-case-permutation', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { findLuckyIntegerInAnArray } from '../1394-find-lucky-integer-in-an-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1394-find-lucky-integer-in-an-array', () => {
     it('should handle basic case', () => {

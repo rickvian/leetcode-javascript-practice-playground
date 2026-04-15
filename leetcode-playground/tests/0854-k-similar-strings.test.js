@@ -1,4 +1,5 @@
 import { kSimilarStrings } from '../0854-k-similar-strings.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0854-k-similar-strings', () => {
     it('should handle basic case', () => {

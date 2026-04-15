@@ -1,4 +1,5 @@
 import { divideArrayIntoArraysWithMaxDifference } from '../2966-divide-array-into-arrays-with-max-difference.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2966-divide-array-into-arrays-with-max-difference', () => {
     it('should handle basic case', () => {

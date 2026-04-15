@@ -1,4 +1,5 @@
 import { renameColumns } from '../2885-rename-columns.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2885-rename-columns', () => {
     it('should handle basic case', () => {

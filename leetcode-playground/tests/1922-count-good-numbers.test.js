@@ -1,4 +1,5 @@
 import { countGoodNumbers } from '../1922-count-good-numbers.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1922-count-good-numbers', () => {
     it('should handle basic case', () => {

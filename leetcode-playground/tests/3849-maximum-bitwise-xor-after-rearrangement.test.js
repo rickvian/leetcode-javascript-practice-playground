@@ -1,4 +1,5 @@
 import { maximumBitwiseXorAfterRearrangement } from '../3849-maximum-bitwise-xor-after-rearrangement.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3849-maximum-bitwise-xor-after-rearrangement', () => {
     it('should handle basic case', () => {

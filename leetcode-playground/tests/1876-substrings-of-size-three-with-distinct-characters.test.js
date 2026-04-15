@@ -1,4 +1,5 @@
 import { substringsOfSizeThreeWithDistinctCharacters } from '../1876-substrings-of-size-three-with-distinct-characters.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1876-substrings-of-size-three-with-distinct-characters', () => {
     it('should handle basic case', () => {

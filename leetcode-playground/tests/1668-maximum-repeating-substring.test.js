@@ -1,4 +1,5 @@
 import { maximumRepeatingSubstring } from '../1668-maximum-repeating-substring.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1668-maximum-repeating-substring', () => {
     it('should handle basic case', () => {

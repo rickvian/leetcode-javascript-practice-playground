@@ -1,4 +1,5 @@
 import { sortedGcdPairQueries } from '../3312-sorted-gcd-pair-queries.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3312-sorted-gcd-pair-queries', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { greatestCommonDivisorTraversal } from '../2709-greatest-common-divisor-traversal.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2709-greatest-common-divisor-traversal', () => {
     it('should handle basic case', () => {

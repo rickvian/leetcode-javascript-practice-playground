@@ -1,4 +1,5 @@
 import { maximumMultiplicationScore } from '../3290-maximum-multiplication-score.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3290-maximum-multiplication-score', () => {
     it('should handle basic case', () => {

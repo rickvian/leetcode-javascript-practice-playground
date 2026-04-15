@@ -1,4 +1,5 @@
 import { largest1BorderedSquare } from '../1139-largest-1-bordered-square.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1139-largest-1-bordered-square', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { grumpyBookstoreOwner } from '../1052-grumpy-bookstore-owner.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1052-grumpy-bookstore-owner', () => {
     it('should handle basic case', () => {

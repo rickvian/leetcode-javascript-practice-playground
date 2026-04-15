@@ -1,4 +1,5 @@
 import { findTheXorOfNumbersWhichAppearTwice } from '../3158-find-the-xor-of-numbers-which-appear-twice.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3158-find-the-xor-of-numbers-which-appear-twice', () => {
     it('should handle basic case', () => {

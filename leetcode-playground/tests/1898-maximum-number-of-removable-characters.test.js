@@ -1,4 +1,5 @@
 import { maximumNumberOfRemovableCharacters } from '../1898-maximum-number-of-removable-characters.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1898-maximum-number-of-removable-characters', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { countMonobitIntegers } from '../3827-count-monobit-integers.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3827-count-monobit-integers', () => {
     it('should handle basic case', () => {

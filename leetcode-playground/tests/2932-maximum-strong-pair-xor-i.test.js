@@ -1,4 +1,5 @@
 import { maximumStrongPairXorI } from '../2932-maximum-strong-pair-xor-i.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2932-maximum-strong-pair-xor-i', () => {
     it('should handle basic case', () => {

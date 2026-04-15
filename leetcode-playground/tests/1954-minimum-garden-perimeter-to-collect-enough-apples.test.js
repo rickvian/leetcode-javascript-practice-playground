@@ -1,4 +1,5 @@
 import { minimumGardenPerimeterToCollectEnoughApples } from '../1954-minimum-garden-perimeter-to-collect-enough-apples.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1954-minimum-garden-perimeter-to-collect-enough-apples', () => {
     it('should handle basic case', () => {

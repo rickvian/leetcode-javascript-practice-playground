@@ -1,4 +1,5 @@
 import { transformToChessboard } from '../0782-transform-to-chessboard.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0782-transform-to-chessboard', () => {
     it('should handle basic case', () => {

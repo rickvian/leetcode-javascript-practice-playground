@@ -1,4 +1,5 @@
 import { minimumAdjacentSwapsToAlternateParity } from '../3587-minimum-adjacent-swaps-to-alternate-parity.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3587-minimum-adjacent-swaps-to-alternate-parity', () => {
     it('should handle basic case', () => {

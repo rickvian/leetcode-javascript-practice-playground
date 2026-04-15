@@ -1,4 +1,5 @@
 import { minimumSensorsToCoverGrid } from '../3648-minimum-sensors-to-cover-grid.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3648-minimum-sensors-to-cover-grid', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { stringToIntegerAtoi } from '../0008-string-to-integer-atoi.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0008-string-to-integer-atoi', () => {
     it('should handle basic case', () => {

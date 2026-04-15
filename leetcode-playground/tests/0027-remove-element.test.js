@@ -1,4 +1,5 @@
 import { removeElement } from '../0027-remove-element.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0027-remove-element', () => {
     it('should handle basic case', () => {

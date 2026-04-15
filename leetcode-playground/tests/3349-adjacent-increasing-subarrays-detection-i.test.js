@@ -1,4 +1,5 @@
 import { adjacentIncreasingSubarraysDetectionI } from '../3349-adjacent-increasing-subarrays-detection-i.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3349-adjacent-increasing-subarrays-detection-i', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { finalElementAfterSubarrayDeletions } from '../3828-final-element-after-subarray-deletions.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3828-final-element-after-subarray-deletions', () => {
     it('should handle basic case', () => {

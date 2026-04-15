@@ -1,4 +1,5 @@
 import { lfuCache } from '../0460-lfu-cache.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0460-lfu-cache', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { maximumSizeOfASetAfterRemovals } from '../3002-maximum-size-of-a-set-after-removals.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3002-maximum-size-of-a-set-after-removals', () => {
     it('should handle basic case', () => {

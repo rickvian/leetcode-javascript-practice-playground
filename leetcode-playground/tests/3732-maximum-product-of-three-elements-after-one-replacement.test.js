@@ -1,4 +1,5 @@
 import { maximumProductOfThreeElementsAfterOneReplacement } from '../3732-maximum-product-of-three-elements-after-one-replacement.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3732-maximum-product-of-three-elements-after-one-replacement', () => {
     it('should handle basic case', () => {

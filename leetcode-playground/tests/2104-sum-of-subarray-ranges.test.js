@@ -1,4 +1,5 @@
 import { sumOfSubarrayRanges } from '../2104-sum-of-subarray-ranges.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2104-sum-of-subarray-ranges', () => {
     it('should handle basic case', () => {

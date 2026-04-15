@@ -1,4 +1,5 @@
 import { primeSubtractionOperation } from '../2601-prime-subtraction-operation.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2601-prime-subtraction-operation', () => {
     it('should handle basic case', () => {

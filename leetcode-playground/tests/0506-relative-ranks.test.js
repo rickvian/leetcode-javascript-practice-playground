@@ -1,4 +1,5 @@
 import { relativeRanks } from '../0506-relative-ranks.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0506-relative-ranks', () => {
     it('should handle basic case', () => {

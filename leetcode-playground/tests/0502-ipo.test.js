@@ -1,4 +1,5 @@
 import { ipo } from '../0502-ipo.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0502-ipo', () => {
     it('should handle basic case', () => {

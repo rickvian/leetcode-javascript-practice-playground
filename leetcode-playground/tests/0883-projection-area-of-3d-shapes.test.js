@@ -1,4 +1,5 @@
 import { projectionAreaOf3dShapes } from '../0883-projection-area-of-3d-shapes.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0883-projection-area-of-3d-shapes', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { totalSumOfInteractionCostInTreeGroups } from '../3786-total-sum-of-interaction-cost-in-tree-groups.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3786-total-sum-of-interaction-cost-in-tree-groups', () => {
     it('should handle basic case', () => {

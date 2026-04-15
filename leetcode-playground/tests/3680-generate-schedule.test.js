@@ -1,4 +1,5 @@
 import { generateSchedule } from '../3680-generate-schedule.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3680-generate-schedule', () => {
     it('should handle basic case', () => {

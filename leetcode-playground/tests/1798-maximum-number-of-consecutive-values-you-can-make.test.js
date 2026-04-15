@@ -1,4 +1,5 @@
 import { maximumNumberOfConsecutiveValuesYouCanMake } from '../1798-maximum-number-of-consecutive-values-you-can-make.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1798-maximum-number-of-consecutive-values-you-can-make', () => {
     it('should handle basic case', () => {

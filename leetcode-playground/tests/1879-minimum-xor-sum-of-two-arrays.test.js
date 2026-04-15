@@ -1,4 +1,5 @@
 import { minimumXorSumOfTwoArrays } from '../1879-minimum-xor-sum-of-two-arrays.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1879-minimum-xor-sum-of-two-arrays', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { maximizeSpanningTreeStabilityWithUpgrades } from '../3600-maximize-spanning-tree-stability-with-upgrades.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3600-maximize-spanning-tree-stability-with-upgrades', () => {
     it('should handle basic case', () => {

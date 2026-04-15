@@ -1,4 +1,5 @@
 import { crackingTheSafe } from '../0753-cracking-the-safe.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0753-cracking-the-safe', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { smallestStringWithSwaps } from '../1202-smallest-string-with-swaps.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1202-smallest-string-with-swaps', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { rearrangeSpacesBetweenWords } from '../1592-rearrange-spaces-between-words.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1592-rearrange-spaces-between-words', () => {
     it('should handle basic case', () => {

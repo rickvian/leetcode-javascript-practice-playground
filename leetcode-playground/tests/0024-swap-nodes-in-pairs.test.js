@@ -1,4 +1,5 @@
 import { swapNodesInPairs } from '../0024-swap-nodes-in-pairs.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0024-swap-nodes-in-pairs', () => {
     it('should handle basic case', () => {

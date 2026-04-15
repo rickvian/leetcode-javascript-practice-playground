@@ -1,4 +1,5 @@
 import { blockPlacementQueries } from '../3161-block-placement-queries.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3161-block-placement-queries', () => {
     it('should handle basic case', () => {

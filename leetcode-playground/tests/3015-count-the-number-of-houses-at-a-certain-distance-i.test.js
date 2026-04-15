@@ -1,4 +1,5 @@
 import { countTheNumberOfHousesAtACertainDistanceI } from '../3015-count-the-number-of-houses-at-a-certain-distance-i.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3015-count-the-number-of-houses-at-a-certain-distance-i', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { numberOfValidWordsForEachPuzzle } from '../1178-number-of-valid-words-for-each-puzzle.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1178-number-of-valid-words-for-each-puzzle', () => {
     it('should handle basic case', () => {

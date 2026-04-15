@@ -1,4 +1,5 @@
 import { primePalindrome } from '../0866-prime-palindrome.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0866-prime-palindrome', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { maximizeSubarrayGcdScore } from '../3574-maximize-subarray-gcd-score.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3574-maximize-subarray-gcd-score', () => {
     it('should handle basic case', () => {

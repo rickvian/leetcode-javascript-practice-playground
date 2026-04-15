@@ -1,4 +1,5 @@
 import { sortIntegersByThePowerValue } from '../1387-sort-integers-by-the-power-value.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1387-sort-integers-by-the-power-value', () => {
     it('should handle basic case', () => {

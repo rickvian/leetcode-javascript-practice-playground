@@ -1,4 +1,5 @@
 import { longPressedName } from '../0925-long-pressed-name.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0925-long-pressed-name', () => {
     it('should handle basic case', () => {

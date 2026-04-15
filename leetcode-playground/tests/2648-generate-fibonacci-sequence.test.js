@@ -1,4 +1,5 @@
 import { generateFibonacciSequence } from '../2648-generate-fibonacci-sequence.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2648-generate-fibonacci-sequence', () => {
     it('should handle basic case', () => {

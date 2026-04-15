@@ -1,4 +1,5 @@
 import { canMakeArithmeticProgressionFromSequence } from '../1502-can-make-arithmetic-progression-from-sequence.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1502-can-make-arithmetic-progression-from-sequence', () => {
     it('should handle basic case', () => {

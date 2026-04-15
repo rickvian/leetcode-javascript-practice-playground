@@ -1,4 +1,5 @@
 import { findTheArrayConcatenationValue } from '../2562-find-the-array-concatenation-value.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2562-find-the-array-concatenation-value', () => {
     it('should handle basic case', () => {

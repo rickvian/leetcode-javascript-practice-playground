@@ -1,4 +1,5 @@
 import { minimizeTheMaximumDifferenceOfPairs } from '../2616-minimize-the-maximum-difference-of-pairs.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2616-minimize-the-maximum-difference-of-pairs', () => {
     it('should handle basic case', () => {

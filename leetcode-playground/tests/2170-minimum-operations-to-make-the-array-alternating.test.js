@@ -1,4 +1,5 @@
 import { minimumOperationsToMakeTheArrayAlternating } from '../2170-minimum-operations-to-make-the-array-alternating.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2170-minimum-operations-to-make-the-array-alternating', () => {
     it('should handle basic case', () => {

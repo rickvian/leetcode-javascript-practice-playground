@@ -1,4 +1,5 @@
 import { primeArrangements } from '../1175-prime-arrangements.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1175-prime-arrangements', () => {
     it('should handle basic case', () => {

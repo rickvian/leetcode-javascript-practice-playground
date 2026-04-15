@@ -1,4 +1,5 @@
 import { minimumCostToAcquireRequiredItems } from '../3789-minimum-cost-to-acquire-required-items.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3789-minimum-cost-to-acquire-required-items', () => {
     it('should handle basic case', () => {

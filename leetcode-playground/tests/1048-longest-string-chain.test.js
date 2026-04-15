@@ -1,4 +1,5 @@
 import { longestStringChain } from '../1048-longest-string-chain.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1048-longest-string-chain', () => {
     it('should handle basic case', () => {

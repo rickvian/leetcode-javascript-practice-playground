@@ -1,4 +1,5 @@
 import { oddStringDifference } from '../2451-odd-string-difference.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2451-odd-string-difference', () => {
     it('should handle basic case', () => {

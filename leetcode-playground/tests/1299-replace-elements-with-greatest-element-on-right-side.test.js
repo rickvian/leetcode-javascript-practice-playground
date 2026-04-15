@@ -1,4 +1,5 @@
 import { replaceElementsWithGreatestElementOnRightSide } from '../1299-replace-elements-with-greatest-element-on-right-side.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1299-replace-elements-with-greatest-element-on-right-side', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { findMinimumCostToRemoveArrayElements } from '../3469-find-minimum-cost-to-remove-array-elements.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3469-find-minimum-cost-to-remove-array-elements', () => {
     it('should handle basic case', () => {

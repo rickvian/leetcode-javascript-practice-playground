@@ -1,4 +1,5 @@
 import { reformatTheString } from '../1417-reformat-the-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1417-reformat-the-string', () => {
     it('should handle basic case', () => {

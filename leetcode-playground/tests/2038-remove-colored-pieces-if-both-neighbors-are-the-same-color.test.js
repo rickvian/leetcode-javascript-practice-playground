@@ -1,4 +1,5 @@
 import { removeColoredPiecesIfBothNeighborsAreTheSameColor } from '../2038-remove-colored-pieces-if-both-neighbors-are-the-same-color.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2038-remove-colored-pieces-if-both-neighbors-are-the-same-color', () => {
     it('should handle basic case', () => {

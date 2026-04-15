@@ -1,4 +1,5 @@
 import { removeStonesToMinimizeTheTotal } from '../1962-remove-stones-to-minimize-the-total.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1962-remove-stones-to-minimize-the-total', () => {
     it('should handle basic case', () => {

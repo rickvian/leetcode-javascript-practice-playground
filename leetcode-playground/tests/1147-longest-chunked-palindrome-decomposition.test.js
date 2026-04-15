@@ -1,4 +1,5 @@
 import { longestChunkedPalindromeDecomposition } from '../1147-longest-chunked-palindrome-decomposition.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1147-longest-chunked-palindrome-decomposition', () => {
     it('should handle basic case', () => {

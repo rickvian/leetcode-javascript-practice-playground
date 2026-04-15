@@ -1,4 +1,5 @@
 import { friendRequestsIiWhoHasTheMostFriends } from '../0602-friend-requests-ii-who-has-the-most-friends.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0602-friend-requests-ii-who-has-the-most-friends', () => {
     it('should handle basic case', () => {

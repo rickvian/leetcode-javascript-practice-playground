@@ -1,4 +1,5 @@
 import { removingStarsFromAString } from '../2390-removing-stars-from-a-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2390-removing-stars-from-a-string', () => {
     it('should handle basic case', () => {

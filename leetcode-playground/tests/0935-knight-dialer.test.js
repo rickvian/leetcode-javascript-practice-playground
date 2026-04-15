@@ -1,4 +1,5 @@
 import { knightDialer } from '../0935-knight-dialer.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0935-knight-dialer', () => {
     it('should handle basic case', () => {

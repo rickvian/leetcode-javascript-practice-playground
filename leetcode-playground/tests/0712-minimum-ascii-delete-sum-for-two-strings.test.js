@@ -1,4 +1,5 @@
 import { minimumAsciiDeleteSumForTwoStrings } from '../0712-minimum-ascii-delete-sum-for-two-strings.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0712-minimum-ascii-delete-sum-for-two-strings', () => {
     it('should handle basic case', () => {

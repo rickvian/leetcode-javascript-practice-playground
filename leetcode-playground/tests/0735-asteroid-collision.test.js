@@ -1,4 +1,5 @@
 import { asteroidCollision } from '../0735-asteroid-collision.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0735-asteroid-collision', () => {
     it('should handle basic case', () => {

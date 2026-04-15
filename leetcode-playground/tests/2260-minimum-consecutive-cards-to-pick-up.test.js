@@ -1,4 +1,5 @@
 import { minimumConsecutiveCardsToPickUp } from '../2260-minimum-consecutive-cards-to-pick-up.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2260-minimum-consecutive-cards-to-pick-up', () => {
     it('should handle basic case', () => {

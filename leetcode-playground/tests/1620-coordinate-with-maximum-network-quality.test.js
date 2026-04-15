@@ -1,4 +1,5 @@
 import { coordinateWithMaximumNetworkQuality } from '../1620-coordinate-with-maximum-network-quality.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1620-coordinate-with-maximum-network-quality', () => {
     it('should handle basic case', () => {

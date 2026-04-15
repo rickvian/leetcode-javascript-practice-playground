@@ -1,4 +1,5 @@
 import { generateRandomPointInACircle } from '../0478-generate-random-point-in-a-circle.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0478-generate-random-point-in-a-circle', () => {
     it('should handle basic case', () => {

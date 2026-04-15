@@ -1,4 +1,5 @@
 import { reformatPhoneNumber } from '../1694-reformat-phone-number.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1694-reformat-phone-number', () => {
     it('should handle basic case', () => {

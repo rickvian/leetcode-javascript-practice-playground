@@ -1,4 +1,5 @@
 import { consecutiveCharacters } from '../1446-consecutive-characters.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1446-consecutive-characters', () => {
     it('should handle basic case', () => {

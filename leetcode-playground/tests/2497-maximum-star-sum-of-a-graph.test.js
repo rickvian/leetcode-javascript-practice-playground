@@ -1,4 +1,5 @@
 import { maximumStarSumOfAGraph } from '../2497-maximum-star-sum-of-a-graph.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2497-maximum-star-sum-of-a-graph', () => {
     it('should handle basic case', () => {

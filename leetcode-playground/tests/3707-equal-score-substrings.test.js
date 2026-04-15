@@ -1,4 +1,5 @@
 import { equalScoreSubstrings } from '../3707-equal-score-substrings.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3707-equal-score-substrings', () => {
     it('should handle basic case', () => {

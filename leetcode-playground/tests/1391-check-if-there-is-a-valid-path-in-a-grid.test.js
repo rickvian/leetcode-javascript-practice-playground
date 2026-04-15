@@ -1,4 +1,5 @@
 import { checkIfThereIsAValidPathInAGrid } from '../1391-check-if-there-is-a-valid-path-in-a-grid.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1391-check-if-there-is-a-valid-path-in-a-grid', () => {
     it('should handle basic case', () => {

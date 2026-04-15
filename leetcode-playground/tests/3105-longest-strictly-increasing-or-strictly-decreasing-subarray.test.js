@@ -1,4 +1,5 @@
 import { longestStrictlyIncreasingOrStrictlyDecreasingSubarray } from '../3105-longest-strictly-increasing-or-strictly-decreasing-subarray.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3105-longest-strictly-increasing-or-strictly-decreasing-subarray', () => {
     it('should handle basic case', () => {

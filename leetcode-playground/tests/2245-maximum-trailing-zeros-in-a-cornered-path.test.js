@@ -1,4 +1,5 @@
 import { maximumTrailingZerosInACorneredPath } from '../2245-maximum-trailing-zeros-in-a-cornered-path.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2245-maximum-trailing-zeros-in-a-cornered-path', () => {
     it('should handle basic case', () => {

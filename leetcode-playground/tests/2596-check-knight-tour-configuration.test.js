@@ -1,4 +1,5 @@
 import { checkKnightTourConfiguration } from '../2596-check-knight-tour-configuration.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2596-check-knight-tour-configuration', () => {
     it('should handle basic case', () => {

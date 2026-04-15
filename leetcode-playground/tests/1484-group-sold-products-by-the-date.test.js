@@ -1,4 +1,5 @@
 import { groupSoldProductsByTheDate } from '../1484-group-sold-products-by-the-date.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1484-group-sold-products-by-the-date', () => {
     it('should handle basic case', () => {

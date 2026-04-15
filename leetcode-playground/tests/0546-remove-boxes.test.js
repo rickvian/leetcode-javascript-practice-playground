@@ -1,4 +1,5 @@
 import { removeBoxes } from '../0546-remove-boxes.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0546-remove-boxes', () => {
     it('should handle basic case', () => {

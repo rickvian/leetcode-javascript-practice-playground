@@ -1,4 +1,5 @@
 import { scoreOfParentheses } from '../0856-score-of-parentheses.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0856-score-of-parentheses', () => {
     it('should handle basic case', () => {

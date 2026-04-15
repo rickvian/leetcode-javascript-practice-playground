@@ -1,4 +1,5 @@
 import { numberOfSeniorCitizens } from '../2678-number-of-senior-citizens.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2678-number-of-senior-citizens', () => {
     it('should handle basic case', () => {

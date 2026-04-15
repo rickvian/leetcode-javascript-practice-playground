@@ -1,4 +1,5 @@
 import { numberOfProvinces } from '../0547-number-of-provinces.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0547-number-of-provinces', () => {
     it('should handle basic case', () => {

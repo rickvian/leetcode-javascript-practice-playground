@@ -1,4 +1,5 @@
 import { maximumWhiteTilesCoveredByACarpet } from '../2271-maximum-white-tiles-covered-by-a-carpet.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2271-maximum-white-tiles-covered-by-a-carpet', () => {
     it('should handle basic case', () => {

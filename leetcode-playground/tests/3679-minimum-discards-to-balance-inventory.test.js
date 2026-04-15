@@ -1,4 +1,5 @@
 import { minimumDiscardsToBalanceInventory } from '../3679-minimum-discards-to-balance-inventory.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3679-minimum-discards-to-balance-inventory', () => {
     it('should handle basic case', () => {

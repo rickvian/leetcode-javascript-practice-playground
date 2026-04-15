@@ -1,4 +1,5 @@
 import { countAsterisks } from '../2315-count-asterisks.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2315-count-asterisks', () => {
     it('should handle basic case', () => {

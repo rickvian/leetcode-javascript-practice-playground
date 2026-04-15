@@ -1,4 +1,5 @@
 import { isSubsequence } from '../0392-is-subsequence.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0392-is-subsequence', () => {
     it('should handle basic case', () => {

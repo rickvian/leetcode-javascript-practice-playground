@@ -1,4 +1,5 @@
 import { shortestPathInAGridWithObstaclesElimination } from '../1293-shortest-path-in-a-grid-with-obstacles-elimination.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1293-shortest-path-in-a-grid-with-obstacles-elimination', () => {
     it('should handle basic case', () => {

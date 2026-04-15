@@ -1,4 +1,5 @@
 import { visitArrayPositionsToMaximizeScore } from '../2786-visit-array-positions-to-maximize-score.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2786-visit-array-positions-to-maximize-score', () => {
     it('should handle basic case', () => {

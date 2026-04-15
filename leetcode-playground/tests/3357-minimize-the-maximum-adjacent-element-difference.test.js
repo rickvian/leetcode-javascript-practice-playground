@@ -1,4 +1,5 @@
 import { minimizeTheMaximumAdjacentElementDifference } from '../3357-minimize-the-maximum-adjacent-element-difference.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3357-minimize-the-maximum-adjacent-element-difference', () => {
     it('should handle basic case', () => {

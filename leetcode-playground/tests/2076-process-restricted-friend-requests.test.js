@@ -1,4 +1,5 @@
 import { processRestrictedFriendRequests } from '../2076-process-restricted-friend-requests.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2076-process-restricted-friend-requests', () => {
     it('should handle basic case', () => {

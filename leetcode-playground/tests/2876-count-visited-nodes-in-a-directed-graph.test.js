@@ -1,4 +1,5 @@
 import { countVisitedNodesInADirectedGraph } from '../2876-count-visited-nodes-in-a-directed-graph.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2876-count-visited-nodes-in-a-directed-graph', () => {
     it('should handle basic case', () => {

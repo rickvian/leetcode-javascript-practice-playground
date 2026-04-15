@@ -1,4 +1,5 @@
 import { dominoAndTrominoTiling } from '../0790-domino-and-tromino-tiling.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0790-domino-and-tromino-tiling', () => {
     it('should handle basic case', () => {

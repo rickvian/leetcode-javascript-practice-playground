@@ -1,4 +1,5 @@
 import { findTheLongestSemiRepetitiveSubstring } from '../2730-find-the-longest-semi-repetitive-substring.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2730-find-the-longest-semi-repetitive-substring', () => {
     it('should handle basic case', () => {

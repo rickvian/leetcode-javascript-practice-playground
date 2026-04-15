@@ -1,4 +1,5 @@
 import { longestCommonPrefixOfKStringsAfterRemoval } from '../3485-longest-common-prefix-of-k-strings-after-removal.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3485-longest-common-prefix-of-k-strings-after-removal', () => {
     it('should handle basic case', () => {

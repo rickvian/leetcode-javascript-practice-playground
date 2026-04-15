@@ -1,4 +1,5 @@
 import { replaceEmployeeIdWithTheUniqueIdentifier } from '../1378-replace-employee-id-with-the-unique-identifier.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1378-replace-employee-id-with-the-unique-identifier', () => {
     it('should handle basic case', () => {

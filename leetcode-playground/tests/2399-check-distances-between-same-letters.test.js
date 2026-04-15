@@ -1,4 +1,5 @@
 import { checkDistancesBetweenSameLetters } from '../2399-check-distances-between-same-letters.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2399-check-distances-between-same-letters', () => {
     it('should handle basic case', () => {

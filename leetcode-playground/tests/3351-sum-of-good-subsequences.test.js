@@ -1,4 +1,5 @@
 import { sumOfGoodSubsequences } from '../3351-sum-of-good-subsequences.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3351-sum-of-good-subsequences', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { rangeSumQuery2dImmutable } from '../0304-range-sum-query-2d-immutable.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0304-range-sum-query-2d-immutable', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { displayTableOfFoodOrdersInARestaurant } from '../1418-display-table-of-food-orders-in-a-restaurant.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1418-display-table-of-food-orders-in-a-restaurant', () => {
     it('should handle basic case', () => {

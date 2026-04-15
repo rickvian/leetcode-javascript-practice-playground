@@ -1,4 +1,5 @@
 import { minimumTimeToFinishTheRace } from '../2188-minimum-time-to-finish-the-race.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2188-minimum-time-to-finish-the-race', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { numberOfEnclaves } from '../1020-number-of-enclaves.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1020-number-of-enclaves', () => {
     it('should handle basic case', () => {

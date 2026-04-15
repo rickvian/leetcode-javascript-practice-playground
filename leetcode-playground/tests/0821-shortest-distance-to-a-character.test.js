@@ -1,4 +1,5 @@
 import { shortestDistanceToACharacter } from '../0821-shortest-distance-to-a-character.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0821-shortest-distance-to-a-character', () => {
     it('should handle basic case', () => {

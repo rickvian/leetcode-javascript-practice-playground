@@ -1,4 +1,5 @@
 import { maximumScoreOfNonOverlappingIntervals } from '../3414-maximum-score-of-non-overlapping-intervals.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3414-maximum-score-of-non-overlapping-intervals', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { maximumPointsInsideTheSquare } from '../3143-maximum-points-inside-the-square.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3143-maximum-points-inside-the-square', () => {
     it('should handle basic case', () => {

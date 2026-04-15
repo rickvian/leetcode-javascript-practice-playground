@@ -1,4 +1,5 @@
 import { designTwitter } from '../0355-design-twitter.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0355-design-twitter', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { countStableSubarrays } from '../3748-count-stable-subarrays.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3748-count-stable-subarrays', () => {
     it('should handle basic case', () => {

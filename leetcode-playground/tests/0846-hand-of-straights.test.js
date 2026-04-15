@@ -1,4 +1,5 @@
 import { handOfStraights } from '../0846-hand-of-straights.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0846-hand-of-straights', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { countAndSay } from '../0038-count-and-say.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0038-count-and-say', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { shortestPathWithAlternatingColors } from '../1129-shortest-path-with-alternating-colors.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1129-shortest-path-with-alternating-colors', () => {
     it('should handle basic case', () => {

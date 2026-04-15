@@ -1,4 +1,5 @@
 import { mirrorDistanceOfAnInteger } from '../3783-mirror-distance-of-an-integer.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3783-mirror-distance-of-an-integer', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { maximumScoreOfANodeSequence } from '../2242-maximum-score-of-a-node-sequence.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2242-maximum-score-of-a-node-sequence', () => {
     it('should handle basic case', () => {

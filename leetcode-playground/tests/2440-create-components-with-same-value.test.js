@@ -1,4 +1,5 @@
 import { createComponentsWithSameValue } from '../2440-create-components-with-same-value.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2440-create-components-with-same-value', () => {
     it('should handle basic case', () => {

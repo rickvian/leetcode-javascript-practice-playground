@@ -1,4 +1,5 @@
 import { allowOneFunctionCall } from '../2666-allow-one-function-call.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2666-allow-one-function-call', () => {
     it('should handle basic case', () => {

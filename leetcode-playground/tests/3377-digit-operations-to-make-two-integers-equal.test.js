@@ -1,4 +1,5 @@
 import { digitOperationsToMakeTwoIntegersEqual } from '../3377-digit-operations-to-make-two-integers-equal.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3377-digit-operations-to-make-two-integers-equal', () => {
     it('should handle basic case', () => {

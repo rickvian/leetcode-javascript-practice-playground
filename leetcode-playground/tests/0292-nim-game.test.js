@@ -1,4 +1,5 @@
 import { nimGame } from '../0292-nim-game.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0292-nim-game', () => {
     it('should handle basic case', () => {

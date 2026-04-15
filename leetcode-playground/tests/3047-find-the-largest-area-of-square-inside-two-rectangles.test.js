@@ -1,4 +1,5 @@
 import { findTheLargestAreaOfSquareInsideTwoRectangles } from '../3047-find-the-largest-area-of-square-inside-two-rectangles.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3047-find-the-largest-area-of-square-inside-two-rectangles', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { minimizeMaximumComponentCost } from '../3613-minimize-maximum-component-cost.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3613-minimize-maximum-component-cost', () => {
     it('should handle basic case', () => {

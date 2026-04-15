@@ -1,4 +1,5 @@
 import { maximumAscendingSubarraySum } from '../1800-maximum-ascending-subarray-sum.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1800-maximum-ascending-subarray-sum', () => {
     it('should handle basic case', () => {

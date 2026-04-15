@@ -1,4 +1,5 @@
 import { absoluteDifferenceBetweenMaximumAndMinimumKElements } from '../3774-absolute-difference-between-maximum-and-minimum-k-elements.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3774-absolute-difference-between-maximum-and-minimum-k-elements', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { allocateMailboxes } from '../1478-allocate-mailboxes.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1478-allocate-mailboxes', () => {
     it('should handle basic case', () => {

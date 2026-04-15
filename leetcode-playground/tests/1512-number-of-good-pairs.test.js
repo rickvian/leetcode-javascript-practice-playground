@@ -1,4 +1,5 @@
 import { numberOfGoodPairs } from '../1512-number-of-good-pairs.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1512-number-of-good-pairs', () => {
     it('should handle basic case', () => {

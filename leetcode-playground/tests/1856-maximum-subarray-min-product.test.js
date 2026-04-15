@@ -1,4 +1,5 @@
 import { maximumSubarrayMinProduct } from '../1856-maximum-subarray-min-product.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1856-maximum-subarray-min-product', () => {
     it('should handle basic case', () => {

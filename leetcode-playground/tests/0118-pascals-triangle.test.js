@@ -1,4 +1,5 @@
 import { pascalsTriangle } from '../0118-pascals-triangle.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0118-pascals-triangle', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { numberOfBurgersWithNoWasteOfIngredients } from '../1276-number-of-burgers-with-no-waste-of-ingredients.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1276-number-of-burgers-with-no-waste-of-ingredients', () => {
     it('should handle basic case', () => {

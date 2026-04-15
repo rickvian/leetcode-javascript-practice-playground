@@ -1,4 +1,5 @@
 import { designAuthenticationManager } from '../1797-design-authentication-manager.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1797-design-authentication-manager', () => {
     it('should handle basic case', () => {

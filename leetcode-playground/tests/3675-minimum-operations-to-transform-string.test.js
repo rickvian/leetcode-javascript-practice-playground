@@ -1,4 +1,5 @@
 import { minimumOperationsToTransformString } from '../3675-minimum-operations-to-transform-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3675-minimum-operations-to-transform-string', () => {
     it('should handle basic case', () => {

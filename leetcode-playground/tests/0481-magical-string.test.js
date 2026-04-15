@@ -1,4 +1,5 @@
 import { magicalString } from '../0481-magical-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0481-magical-string', () => {
     it('should handle basic case', () => {

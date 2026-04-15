@@ -1,4 +1,5 @@
 import { minCostClimbingStairs } from '../0746-min-cost-climbing-stairs.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0746-min-cost-climbing-stairs', () => {
     it('should handle basic case', () => {

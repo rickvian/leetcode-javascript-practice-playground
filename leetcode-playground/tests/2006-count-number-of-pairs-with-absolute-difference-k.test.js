@@ -1,4 +1,5 @@
 import { countNumberOfPairsWithAbsoluteDifferenceK } from '../2006-count-number-of-pairs-with-absolute-difference-k.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2006-count-number-of-pairs-with-absolute-difference-k', () => {
     it('should handle basic case', () => {

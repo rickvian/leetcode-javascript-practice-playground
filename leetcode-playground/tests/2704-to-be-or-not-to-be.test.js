@@ -1,4 +1,5 @@
 import { toBeOrNotToBe } from '../2704-to-be-or-not-to-be.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2704-to-be-or-not-to-be', () => {
     it('should handle basic case', () => {

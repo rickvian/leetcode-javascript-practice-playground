@@ -1,4 +1,5 @@
 import { findTheLengthOfTheLongestCommonPrefix } from '../3043-find-the-length-of-the-longest-common-prefix.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3043-find-the-length-of-the-longest-common-prefix', () => {
     it('should handle basic case', () => {

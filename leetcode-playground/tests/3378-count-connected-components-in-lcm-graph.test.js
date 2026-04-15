@@ -1,4 +1,5 @@
 import { countConnectedComponentsInLcmGraph } from '../3378-count-connected-components-in-lcm-graph.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3378-count-connected-components-in-lcm-graph', () => {
     it('should handle basic case', () => {

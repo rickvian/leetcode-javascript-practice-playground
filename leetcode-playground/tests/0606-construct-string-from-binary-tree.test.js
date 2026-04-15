@@ -1,4 +1,5 @@
 import { constructStringFromBinaryTree } from '../0606-construct-string-from-binary-tree.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0606-construct-string-from-binary-tree', () => {
     it('should handle basic case', () => {

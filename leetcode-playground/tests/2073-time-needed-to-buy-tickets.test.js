@@ -1,4 +1,5 @@
 import { timeNeededToBuyTickets } from '../2073-time-needed-to-buy-tickets.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2073-time-needed-to-buy-tickets', () => {
     it('should handle basic case', () => {

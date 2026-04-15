@@ -1,4 +1,5 @@
 import { symmetricTree } from '../0101-symmetric-tree.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0101-symmetric-tree', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { simplifiedFractions } from '../1447-simplified-fractions.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1447-simplified-fractions', () => {
     it('should handle basic case', () => {

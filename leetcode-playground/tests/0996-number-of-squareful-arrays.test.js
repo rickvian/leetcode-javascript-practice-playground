@@ -1,4 +1,5 @@
 import { numberOfSquarefulArrays } from '../0996-number-of-squareful-arrays.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0996-number-of-squareful-arrays', () => {
     it('should handle basic case', () => {

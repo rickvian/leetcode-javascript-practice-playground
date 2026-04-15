@@ -1,4 +1,5 @@
 import { lastStoneWeightIi } from '../1049-last-stone-weight-ii.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1049-last-stone-weight-ii', () => {
     it('should handle basic case', () => {

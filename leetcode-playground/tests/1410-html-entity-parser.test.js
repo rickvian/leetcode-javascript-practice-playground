@@ -1,4 +1,5 @@
 import { htmlEntityParser } from '../1410-html-entity-parser.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1410-html-entity-parser', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { minimumAmountOfDamageDealtToBob } from '../3273-minimum-amount-of-damage-dealt-to-bob.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3273-minimum-amount-of-damage-dealt-to-bob', () => {
     it('should handle basic case', () => {

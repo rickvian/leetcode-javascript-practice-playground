@@ -1,4 +1,5 @@
 import { countDistinctIntegersAfterRemovingZeros } from '../3747-count-distinct-integers-after-removing-zeros.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3747-count-distinct-integers-after-removing-zeros', () => {
     it('should handle basic case', () => {

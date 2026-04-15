@@ -1,4 +1,5 @@
 import { designGraphWithShortestPathCalculator } from '../2642-design-graph-with-shortest-path-calculator.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2642-design-graph-with-shortest-path-calculator', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { findTheScoreOfAllPrefixesOfAnArray } from '../2640-find-the-score-of-all-prefixes-of-an-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2640-find-the-score-of-all-prefixes-of-an-array', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { countBeautifulSplitsInAnArray } from '../3388-count-beautiful-splits-in-an-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3388-count-beautiful-splits-in-an-array', () => {
     it('should handle basic case', () => {

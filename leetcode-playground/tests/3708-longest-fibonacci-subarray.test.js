@@ -1,4 +1,5 @@
 import { longestFibonacciSubarray } from '../3708-longest-fibonacci-subarray.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3708-longest-fibonacci-subarray', () => {
     it('should handle basic case', () => {

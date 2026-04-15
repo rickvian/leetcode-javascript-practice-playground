@@ -1,4 +1,5 @@
 import { longestCommonSubpath } from '../1923-longest-common-subpath.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1923-longest-common-subpath', () => {
     it('should handle basic case', () => {

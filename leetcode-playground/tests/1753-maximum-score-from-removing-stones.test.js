@@ -1,4 +1,5 @@
 import { maximumScoreFromRemovingStones } from '../1753-maximum-score-from-removing-stones.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1753-maximum-score-from-removing-stones', () => {
     it('should handle basic case', () => {

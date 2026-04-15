@@ -1,4 +1,5 @@
 import { designSpreadsheet } from '../3484-design-spreadsheet.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3484-design-spreadsheet', () => {
     it('should handle basic case', () => {

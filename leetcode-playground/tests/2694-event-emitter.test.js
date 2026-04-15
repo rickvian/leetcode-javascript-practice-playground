@@ -1,4 +1,5 @@
 import { eventEmitter } from '../2694-event-emitter.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2694-event-emitter', () => {
     it('should handle basic case', () => {

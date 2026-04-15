@@ -1,4 +1,5 @@
 import { preimageSizeOfFactorialZeroesFunction } from '../0793-preimage-size-of-factorial-zeroes-function.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0793-preimage-size-of-factorial-zeroes-function', () => {
     it('should handle basic case', () => {

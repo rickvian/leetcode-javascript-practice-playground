@@ -1,4 +1,5 @@
 import { minimumCostToMakeTwoBinaryStringsEqual } from '../3800-minimum-cost-to-make-two-binary-strings-equal.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3800-minimum-cost-to-make-two-binary-strings-equal', () => {
     it('should handle basic case', () => {

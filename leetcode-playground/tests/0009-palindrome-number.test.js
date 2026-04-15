@@ -1,4 +1,5 @@
 import { palindromeNumber } from '../0009-palindrome-number.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0009-palindrome-number', () => {
     it('should handle basic case', () => {

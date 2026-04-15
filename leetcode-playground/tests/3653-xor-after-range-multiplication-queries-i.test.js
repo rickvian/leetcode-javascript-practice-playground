@@ -1,4 +1,5 @@
 import { xorAfterRangeMultiplicationQueriesI } from '../3653-xor-after-range-multiplication-queries-i.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3653-xor-after-range-multiplication-queries-i', () => {
     it('should handle basic case', () => {

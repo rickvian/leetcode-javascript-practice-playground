@@ -1,4 +1,5 @@
 import { minimumAdjacentSwapsForKConsecutiveOnes } from '../1703-minimum-adjacent-swaps-for-k-consecutive-ones.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1703-minimum-adjacent-swaps-for-k-consecutive-ones', () => {
     it('should handle basic case', () => {

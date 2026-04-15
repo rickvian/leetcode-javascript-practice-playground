@@ -1,4 +1,5 @@
 import { mergeCloseCharacters } from '../3853-merge-close-characters.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3853-merge-close-characters', () => {
     it('should handle basic case', () => {

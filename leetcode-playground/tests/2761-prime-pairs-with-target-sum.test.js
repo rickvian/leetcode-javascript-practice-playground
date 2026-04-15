@@ -1,4 +1,5 @@
 import { primePairsWithTargetSum } from '../2761-prime-pairs-with-target-sum.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2761-prime-pairs-with-target-sum', () => {
     it('should handle basic case', () => {

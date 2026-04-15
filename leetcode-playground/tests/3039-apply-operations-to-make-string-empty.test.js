@@ -1,4 +1,5 @@
 import { applyOperationsToMakeStringEmpty } from '../3039-apply-operations-to-make-string-empty.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3039-apply-operations-to-make-string-empty', () => {
     it('should handle basic case', () => {

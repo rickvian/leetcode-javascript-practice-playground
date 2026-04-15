@@ -1,4 +1,5 @@
 import { maximumScoreOfAGoodSubarray } from '../1793-maximum-score-of-a-good-subarray.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1793-maximum-score-of-a-good-subarray', () => {
     it('should handle basic case', () => {

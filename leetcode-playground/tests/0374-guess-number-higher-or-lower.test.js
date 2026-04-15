@@ -1,4 +1,5 @@
 import { guessNumberHigherOrLower } from '../0374-guess-number-higher-or-lower.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0374-guess-number-higher-or-lower', () => {
     it('should handle basic case', () => {

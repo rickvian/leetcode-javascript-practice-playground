@@ -1,4 +1,5 @@
 import { numberOfStringsThatAppearAsSubstringsInWord } from '../1967-number-of-strings-that-appear-as-substrings-in-word.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1967-number-of-strings-that-appear-as-substrings-in-word', () => {
     it('should handle basic case', () => {

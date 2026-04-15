@@ -1,4 +1,5 @@
 import { longestSpecialPath } from '../3425-longest-special-path.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3425-longest-special-path', () => {
     it('should handle basic case', () => {

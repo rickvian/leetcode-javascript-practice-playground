@@ -1,4 +1,5 @@
 import { robotCollisions } from '../2751-robot-collisions.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2751-robot-collisions', () => {
     it('should handle basic case', () => {

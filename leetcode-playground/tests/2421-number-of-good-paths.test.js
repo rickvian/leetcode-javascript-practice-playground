@@ -1,4 +1,5 @@
 import { numberOfGoodPaths } from '../2421-number-of-good-paths.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2421-number-of-good-paths', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { pathWithMaximumGold } from '../1219-path-with-maximum-gold.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1219-path-with-maximum-gold', () => {
     it('should handle basic case', () => {

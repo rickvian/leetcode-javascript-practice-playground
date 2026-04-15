@@ -1,4 +1,5 @@
 import { sumOfScoresOfBuiltStrings } from '../2223-sum-of-scores-of-built-strings.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2223-sum-of-scores-of-built-strings', () => {
     it('should handle basic case', () => {

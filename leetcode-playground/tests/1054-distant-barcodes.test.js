@@ -1,4 +1,5 @@
 import { distantBarcodes } from '../1054-distant-barcodes.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1054-distant-barcodes', () => {
     it('should handle basic case', () => {

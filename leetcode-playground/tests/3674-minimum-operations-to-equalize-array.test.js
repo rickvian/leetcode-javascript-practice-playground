@@ -1,4 +1,5 @@
 import { minimumOperationsToEqualizeArray } from '../3674-minimum-operations-to-equalize-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3674-minimum-operations-to-equalize-array', () => {
     it('should handle basic case', () => {

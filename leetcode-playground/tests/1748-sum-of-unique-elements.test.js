@@ -1,4 +1,5 @@
 import { sumOfUniqueElements } from '../1748-sum-of-unique-elements.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1748-sum-of-unique-elements', () => {
     it('should handle basic case', () => {

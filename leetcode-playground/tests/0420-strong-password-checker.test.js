@@ -1,4 +1,5 @@
 import { strongPasswordChecker } from '../0420-strong-password-checker.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0420-strong-password-checker', () => {
     it('should handle basic case', () => {

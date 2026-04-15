@@ -1,4 +1,5 @@
 import { minimumSpaceWastedFromPackaging } from '../1889-minimum-space-wasted-from-packaging.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1889-minimum-space-wasted-from-packaging', () => {
     it('should handle basic case', () => {

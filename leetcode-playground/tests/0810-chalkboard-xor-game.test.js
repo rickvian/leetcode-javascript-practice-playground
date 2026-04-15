@@ -1,4 +1,5 @@
 import { chalkboardXorGame } from '../0810-chalkboard-xor-game.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0810-chalkboard-xor-game', () => {
     it('should handle basic case', () => {

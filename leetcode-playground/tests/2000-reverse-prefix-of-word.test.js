@@ -1,4 +1,5 @@
 import { reversePrefixOfWord } from '../2000-reverse-prefix-of-word.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2000-reverse-prefix-of-word', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { customerWhoVisitedButDidNotMakeAnyTransactions } from '../1581-customer-who-visited-but-did-not-make-any-transactions.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1581-customer-who-visited-but-did-not-make-any-transactions', () => {
     it('should handle basic case', () => {

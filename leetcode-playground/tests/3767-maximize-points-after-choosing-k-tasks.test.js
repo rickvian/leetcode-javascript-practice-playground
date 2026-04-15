@@ -1,4 +1,5 @@
 import { maximizePointsAfterChoosingKTasks } from '../3767-maximize-points-after-choosing-k-tasks.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3767-maximize-points-after-choosing-k-tasks', () => {
     it('should handle basic case', () => {

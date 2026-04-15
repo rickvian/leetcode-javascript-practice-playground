@@ -1,4 +1,5 @@
 import { minimumNumberOfArrowsToBurstBalloons } from '../0452-minimum-number-of-arrows-to-burst-balloons.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0452-minimum-number-of-arrows-to-burst-balloons', () => {
     it('should handle basic case', () => {

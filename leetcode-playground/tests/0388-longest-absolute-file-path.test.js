@@ -1,4 +1,5 @@
 import { longestAbsoluteFilePath } from '../0388-longest-absolute-file-path.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0388-longest-absolute-file-path', () => {
     it('should handle basic case', () => {

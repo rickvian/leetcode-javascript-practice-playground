@@ -1,4 +1,5 @@
 import { sumGame } from '../1927-sum-game.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1927-sum-game', () => {
     it('should handle basic case', () => {

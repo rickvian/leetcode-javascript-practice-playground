@@ -1,4 +1,5 @@
 import { mergeAdjacentEqualElements } from '../3834-merge-adjacent-equal-elements.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3834-merge-adjacent-equal-elements', () => {
     it('should handle basic case', () => {

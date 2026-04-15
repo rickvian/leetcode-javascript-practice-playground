@@ -1,4 +1,5 @@
 import { maximumProfitFromTradingStocksWithDiscounts } from '../3562-maximum-profit-from-trading-stocks-with-discounts.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3562-maximum-profit-from-trading-stocks-with-discounts', () => {
     it('should handle basic case', () => {

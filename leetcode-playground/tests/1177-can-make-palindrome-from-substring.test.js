@@ -1,4 +1,5 @@
 import { canMakePalindromeFromSubstring } from '../1177-can-make-palindrome-from-substring.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1177-can-make-palindrome-from-substring', () => {
     it('should handle basic case', () => {

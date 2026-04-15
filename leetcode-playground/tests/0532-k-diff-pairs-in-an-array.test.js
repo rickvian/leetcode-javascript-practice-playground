@@ -1,4 +1,5 @@
 import { kDiffPairsInAnArray } from '../0532-k-diff-pairs-in-an-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0532-k-diff-pairs-in-an-array', () => {
     it('should handle basic case', () => {

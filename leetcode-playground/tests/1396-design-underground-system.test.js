@@ -1,4 +1,5 @@
 import { designUndergroundSystem } from '../1396-design-underground-system.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1396-design-underground-system', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { sumOfSquaresOfSpecialElements } from '../2778-sum-of-squares-of-special-elements.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2778-sum-of-squares-of-special-elements', () => {
     it('should handle basic case', () => {

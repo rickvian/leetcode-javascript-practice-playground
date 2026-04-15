@@ -1,4 +1,5 @@
 import { designBrowserHistory } from '../1472-design-browser-history.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1472-design-browser-history', () => {
     it('should handle basic case', () => {

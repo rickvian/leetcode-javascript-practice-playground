@@ -1,4 +1,5 @@
 import { escapeTheGhosts } from '../0789-escape-the-ghosts.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0789-escape-the-ghosts', () => {
     it('should handle basic case', () => {

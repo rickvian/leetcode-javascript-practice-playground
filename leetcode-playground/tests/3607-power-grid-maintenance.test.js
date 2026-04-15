@@ -1,4 +1,5 @@
 import { powerGridMaintenance } from '../3607-power-grid-maintenance.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3607-power-grid-maintenance', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { reducingDishes } from '../1402-reducing-dishes.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1402-reducing-dishes', () => {
     it('should handle basic case', () => {

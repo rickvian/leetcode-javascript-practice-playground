@@ -1,4 +1,5 @@
 import { findAllGoodIndices } from '../2420-find-all-good-indices.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2420-find-all-good-indices', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { rectangleOverlap } from '../0836-rectangle-overlap.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0836-rectangle-overlap', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { removeTrailingZerosFromAString } from '../2710-remove-trailing-zeros-from-a-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2710-remove-trailing-zeros-from-a-string', () => {
     it('should handle basic case', () => {

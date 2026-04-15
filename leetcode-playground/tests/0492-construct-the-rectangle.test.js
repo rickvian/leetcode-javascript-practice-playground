@@ -1,4 +1,5 @@
 import { constructTheRectangle } from '../0492-construct-the-rectangle.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0492-construct-the-rectangle', () => {
     it('should handle basic case', () => {

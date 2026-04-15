@@ -1,4 +1,5 @@
 import { rectangleArea } from '../0223-rectangle-area.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0223-rectangle-area', () => {
     it('should handle basic case', () => {

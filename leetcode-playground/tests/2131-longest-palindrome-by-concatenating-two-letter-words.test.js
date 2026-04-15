@@ -1,4 +1,5 @@
 import { longestPalindromeByConcatenatingTwoLetterWords } from '../2131-longest-palindrome-by-concatenating-two-letter-words.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2131-longest-palindrome-by-concatenating-two-letter-words', () => {
     it('should handle basic case', () => {

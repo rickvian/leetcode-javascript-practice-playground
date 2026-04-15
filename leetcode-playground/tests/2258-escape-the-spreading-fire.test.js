@@ -1,4 +1,5 @@
 import { escapeTheSpreadingFire } from '../2258-escape-the-spreading-fire.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2258-escape-the-spreading-fire', () => {
     it('should handle basic case', () => {

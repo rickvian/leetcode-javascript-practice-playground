@@ -1,4 +1,5 @@
 import { imageSmoother } from '../0661-image-smoother.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0661-image-smoother', () => {
     it('should handle basic case', () => {

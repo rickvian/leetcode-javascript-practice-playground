@@ -1,4 +1,5 @@
 import { maximumXorScoreSubarrayQueries } from '../3277-maximum-xor-score-subarray-queries.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3277-maximum-xor-score-subarray-queries', () => {
     it('should handle basic case', () => {

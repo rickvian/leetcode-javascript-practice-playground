@@ -1,4 +1,5 @@
 import { detectCapital } from '../0520-detect-capital.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0520-detect-capital', () => {
     it('should handle basic case', () => {

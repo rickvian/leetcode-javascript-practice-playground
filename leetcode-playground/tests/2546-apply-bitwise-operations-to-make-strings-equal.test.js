@@ -1,4 +1,5 @@
 import { applyBitwiseOperationsToMakeStringsEqual } from '../2546-apply-bitwise-operations-to-make-strings-equal.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2546-apply-bitwise-operations-to-make-strings-equal', () => {
     it('should handle basic case', () => {

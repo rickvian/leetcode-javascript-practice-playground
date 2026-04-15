@@ -1,4 +1,5 @@
 import { minimumMoneyRequiredBeforeTransactions } from '../2412-minimum-money-required-before-transactions.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2412-minimum-money-required-before-transactions', () => {
     it('should handle basic case', () => {

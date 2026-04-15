@@ -1,4 +1,5 @@
 import { minimumSwapsToAvoidForbiddenValues } from '../3785-minimum-swaps-to-avoid-forbidden-values.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3785-minimum-swaps-to-avoid-forbidden-values', () => {
     it('should handle basic case', () => {

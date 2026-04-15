@@ -1,4 +1,5 @@
 import { ringsAndRods } from '../2103-rings-and-rods.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2103-rings-and-rods', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { similarStringGroups } from '../0839-similar-string-groups.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0839-similar-string-groups', () => {
     it('should handle basic case', () => {

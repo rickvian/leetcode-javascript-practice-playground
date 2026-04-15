@@ -1,4 +1,5 @@
 import { trimABinarySearchTree } from '../0669-trim-a-binary-search-tree.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0669-trim-a-binary-search-tree', () => {
     it('should handle basic case', () => {

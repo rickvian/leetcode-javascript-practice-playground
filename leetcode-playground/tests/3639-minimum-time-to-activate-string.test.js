@@ -1,4 +1,5 @@
 import { minimumTimeToActivateString } from '../3639-minimum-time-to-activate-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3639-minimum-time-to-activate-string', () => {
     it('should handle basic case', () => {

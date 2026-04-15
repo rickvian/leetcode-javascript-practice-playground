@@ -1,4 +1,5 @@
 import { employeeBonus } from '../0577-employee-bonus.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0577-employee-bonus', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { sumOfGoodNumbers } from '../3452-sum-of-good-numbers.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3452-sum-of-good-numbers', () => {
     it('should handle basic case', () => {

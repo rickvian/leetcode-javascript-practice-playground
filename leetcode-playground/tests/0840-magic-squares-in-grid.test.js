@@ -1,4 +1,5 @@
 import { magicSquaresInGrid } from '../0840-magic-squares-in-grid.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0840-magic-squares-in-grid', () => {
     it('should handle basic case', () => {

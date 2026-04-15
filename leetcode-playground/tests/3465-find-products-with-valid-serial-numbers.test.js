@@ -1,4 +1,5 @@
 import { findProductsWithValidSerialNumbers } from '../3465-find-products-with-valid-serial-numbers.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3465-find-products-with-valid-serial-numbers', () => {
     it('should handle basic case', () => {

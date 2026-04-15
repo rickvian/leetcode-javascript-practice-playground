@@ -1,4 +1,5 @@
 import { checkIfTheRectangleCornerIsReachable } from '../3235-check-if-the-rectangle-corner-is-reachable.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3235-check-if-the-rectangle-corner-is-reachable', () => {
     it('should handle basic case', () => {

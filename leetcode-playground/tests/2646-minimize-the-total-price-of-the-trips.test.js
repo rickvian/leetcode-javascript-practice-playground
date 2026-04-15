@@ -1,4 +1,5 @@
 import { minimizeTheTotalPriceOfTheTrips } from '../2646-minimize-the-total-price-of-the-trips.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2646-minimize-the-total-price-of-the-trips', () => {
     it('should handle basic case', () => {

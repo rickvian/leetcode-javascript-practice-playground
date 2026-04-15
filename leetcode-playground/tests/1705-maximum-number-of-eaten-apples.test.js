@@ -1,4 +1,5 @@
 import { maximumNumberOfEatenApples } from '../1705-maximum-number-of-eaten-apples.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1705-maximum-number-of-eaten-apples', () => {
     it('should handle basic case', () => {

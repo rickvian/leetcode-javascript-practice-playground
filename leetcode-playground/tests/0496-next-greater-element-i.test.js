@@ -1,4 +1,5 @@
 import { nextGreaterElementI } from '../0496-next-greater-element-i.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0496-next-greater-element-i', () => {
     it('should handle basic case', () => {

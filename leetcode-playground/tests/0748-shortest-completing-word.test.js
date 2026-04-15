@@ -1,4 +1,5 @@
 import { shortestCompletingWord } from '../0748-shortest-completing-word.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0748-shortest-completing-word', () => {
     it('should handle basic case', () => {

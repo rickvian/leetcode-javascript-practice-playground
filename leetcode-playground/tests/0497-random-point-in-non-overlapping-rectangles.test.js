@@ -1,4 +1,5 @@
 import { randomPointInNonOverlappingRectangles } from '../0497-random-point-in-non-overlapping-rectangles.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0497-random-point-in-non-overlapping-rectangles', () => {
     it('should handle basic case', () => {

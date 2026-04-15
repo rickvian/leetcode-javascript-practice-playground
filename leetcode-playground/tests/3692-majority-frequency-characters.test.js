@@ -1,4 +1,5 @@
 import { majorityFrequencyCharacters } from '../3692-majority-frequency-characters.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3692-majority-frequency-characters', () => {
     it('should handle basic case', () => {

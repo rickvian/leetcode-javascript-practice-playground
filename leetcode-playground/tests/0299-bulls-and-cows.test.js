@@ -1,4 +1,5 @@
 import { bullsAndCows } from '../0299-bulls-and-cows.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0299-bulls-and-cows', () => {
     it('should handle basic case', () => {

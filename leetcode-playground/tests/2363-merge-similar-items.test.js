@@ -1,4 +1,5 @@
 import { mergeSimilarItems } from '../2363-merge-similar-items.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2363-merge-similar-items', () => {
     it('should handle basic case', () => {

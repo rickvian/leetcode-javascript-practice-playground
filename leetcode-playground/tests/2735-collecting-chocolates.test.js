@@ -1,4 +1,5 @@
 import { collectingChocolates } from '../2735-collecting-chocolates.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2735-collecting-chocolates', () => {
     it('should handle basic case', () => {

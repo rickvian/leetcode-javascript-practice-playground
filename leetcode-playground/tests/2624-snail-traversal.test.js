@@ -1,4 +1,5 @@
 import { snailTraversal } from '../2624-snail-traversal.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2624-snail-traversal', () => {
     it('should handle basic case', () => {

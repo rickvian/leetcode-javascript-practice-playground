@@ -1,4 +1,5 @@
 import { slidingPuzzle } from '../0773-sliding-puzzle.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0773-sliding-puzzle', () => {
     it('should handle basic case', () => {

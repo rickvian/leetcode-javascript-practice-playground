@@ -1,4 +1,5 @@
 import { firstUniqueCharacterInAString } from '../0387-first-unique-character-in-a-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0387-first-unique-character-in-a-string', () => {
     it('should handle basic case', () => {

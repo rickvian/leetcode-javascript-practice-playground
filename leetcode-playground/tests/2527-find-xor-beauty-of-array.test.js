@@ -1,4 +1,5 @@
 import { findXorBeautyOfArray } from '../2527-find-xor-beauty-of-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2527-find-xor-beauty-of-array', () => {
     it('should handle basic case', () => {

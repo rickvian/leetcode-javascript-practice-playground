@@ -1,4 +1,5 @@
 import { intervalsBetweenIdenticalElements } from '../2121-intervals-between-identical-elements.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2121-intervals-between-identical-elements', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { raceCar } from '../0818-race-car.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0818-race-car', () => {
     it('should handle basic case', () => {

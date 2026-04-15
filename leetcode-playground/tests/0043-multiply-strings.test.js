@@ -1,4 +1,5 @@
 import { multiplyStrings } from '../0043-multiply-strings.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0043-multiply-strings', () => {
     it('should handle basic case', () => {

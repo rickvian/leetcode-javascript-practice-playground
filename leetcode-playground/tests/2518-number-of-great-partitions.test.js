@@ -1,4 +1,5 @@
 import { numberOfGreatPartitions } from '../2518-number-of-great-partitions.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2518-number-of-great-partitions', () => {
     it('should handle basic case', () => {

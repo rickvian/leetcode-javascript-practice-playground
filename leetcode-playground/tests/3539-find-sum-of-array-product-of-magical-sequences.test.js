@@ -1,4 +1,5 @@
 import { findSumOfArrayProductOfMagicalSequences } from '../3539-find-sum-of-array-product-of-magical-sequences.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3539-find-sum-of-array-product-of-magical-sequences', () => {
     it('should handle basic case', () => {

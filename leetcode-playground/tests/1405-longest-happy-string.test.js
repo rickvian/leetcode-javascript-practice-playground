@@ -1,4 +1,5 @@
 import { longestHappyString } from '../1405-longest-happy-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1405-longest-happy-string', () => {
     it('should handle basic case', () => {

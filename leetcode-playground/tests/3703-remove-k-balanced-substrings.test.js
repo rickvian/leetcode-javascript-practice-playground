@@ -1,4 +1,5 @@
 import { removeKBalancedSubstrings } from '../3703-remove-k-balanced-substrings.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3703-remove-k-balanced-substrings', () => {
     it('should handle basic case', () => {

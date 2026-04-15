@@ -1,4 +1,5 @@
 import { balancedKFactorDecomposition } from '../3669-balanced-k-factor-decomposition.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3669-balanced-k-factor-decomposition', () => {
     it('should handle basic case', () => {

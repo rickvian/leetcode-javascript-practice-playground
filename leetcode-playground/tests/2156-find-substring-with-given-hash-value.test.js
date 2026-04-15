@@ -1,4 +1,5 @@
 import { findSubstringWithGivenHashValue } from '../2156-find-substring-with-given-hash-value.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2156-find-substring-with-given-hash-value', () => {
     it('should handle basic case', () => {

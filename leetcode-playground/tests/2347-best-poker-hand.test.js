@@ -1,4 +1,5 @@
 import { bestPokerHand } from '../2347-best-poker-hand.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2347-best-poker-hand', () => {
     it('should handle basic case', () => {

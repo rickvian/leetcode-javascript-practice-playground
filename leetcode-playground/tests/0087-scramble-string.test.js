@@ -1,4 +1,5 @@
 import { scrambleString } from '../0087-scramble-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0087-scramble-string', () => {
     it('should handle basic case', () => {

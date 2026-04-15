@@ -1,4 +1,5 @@
 import { minimumCostToSetCookingTime } from '../2162-minimum-cost-to-set-cooking-time.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2162-minimum-cost-to-set-cooking-time', () => {
     it('should handle basic case', () => {

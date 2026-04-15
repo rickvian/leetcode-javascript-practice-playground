@@ -1,4 +1,5 @@
 import { applyDiscountToPrices } from '../2288-apply-discount-to-prices.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2288-apply-discount-to-prices', () => {
     it('should handle basic case', () => {

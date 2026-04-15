@@ -1,4 +1,5 @@
 import { shortestAndLexicographicallySmallestBeautifulString } from '../2904-shortest-and-lexicographically-smallest-beautiful-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2904-shortest-and-lexicographically-smallest-beautiful-string', () => {
     it('should handle basic case', () => {

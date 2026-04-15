@@ -1,4 +1,5 @@
 import { longestCommonPrefix } from '../0014-longest-common-prefix.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0014-longest-common-prefix', () => {
     it('should handle basic case', () => {

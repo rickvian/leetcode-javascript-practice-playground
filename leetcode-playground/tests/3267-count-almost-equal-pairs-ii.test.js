@@ -1,4 +1,5 @@
 import { countAlmostEqualPairsIi } from '../3267-count-almost-equal-pairs-ii.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3267-count-almost-equal-pairs-ii', () => {
     it('should handle basic case', () => {

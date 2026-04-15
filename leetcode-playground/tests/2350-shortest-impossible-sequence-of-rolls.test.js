@@ -1,4 +1,5 @@
 import { shortestImpossibleSequenceOfRolls } from '../2350-shortest-impossible-sequence-of-rolls.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2350-shortest-impossible-sequence-of-rolls', () => {
     it('should handle basic case', () => {

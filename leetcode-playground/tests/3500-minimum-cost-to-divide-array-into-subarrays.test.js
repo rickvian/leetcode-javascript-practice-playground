@@ -1,4 +1,5 @@
 import { minimumCostToDivideArrayIntoSubarrays } from '../3500-minimum-cost-to-divide-array-into-subarrays.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3500-minimum-cost-to-divide-array-into-subarrays', () => {
     it('should handle basic case', () => {

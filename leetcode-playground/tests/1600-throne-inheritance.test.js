@@ -1,4 +1,5 @@
 import { throneInheritance } from '../1600-throne-inheritance.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1600-throne-inheritance', () => {
     it('should handle basic case', () => {

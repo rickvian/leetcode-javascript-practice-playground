@@ -1,4 +1,5 @@
 import { signOfTheProductOfAnArray } from '../1822-sign-of-the-product-of-an-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1822-sign-of-the-product-of-an-array', () => {
     it('should handle basic case', () => {

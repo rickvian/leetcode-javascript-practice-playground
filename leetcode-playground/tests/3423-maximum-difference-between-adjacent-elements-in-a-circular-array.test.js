@@ -1,4 +1,5 @@
 import { maximumDifferenceBetweenAdjacentElementsInACircularArray } from '../3423-maximum-difference-between-adjacent-elements-in-a-circular-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3423-maximum-difference-between-adjacent-elements-in-a-circular-array', () => {
     it('should handle basic case', () => {

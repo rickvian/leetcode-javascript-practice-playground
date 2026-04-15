@@ -1,4 +1,5 @@
 import { findingMkAverage } from '../1825-finding-mk-average.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1825-finding-mk-average', () => {
     it('should handle basic case', () => {

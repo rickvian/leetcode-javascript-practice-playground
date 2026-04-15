@@ -1,4 +1,5 @@
 import { maximumDifferenceBetweenNodeAndAncestor } from '../1026-maximum-difference-between-node-and-ancestor.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1026-maximum-difference-between-node-and-ancestor', () => {
     it('should handle basic case', () => {

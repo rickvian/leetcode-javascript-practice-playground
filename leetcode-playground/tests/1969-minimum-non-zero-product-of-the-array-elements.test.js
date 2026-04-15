@@ -1,4 +1,5 @@
 import { minimumNonZeroProductOfTheArrayElements } from '../1969-minimum-non-zero-product-of-the-array-elements.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1969-minimum-non-zero-product-of-the-array-elements', () => {
     it('should handle basic case', () => {

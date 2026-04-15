@@ -1,4 +1,5 @@
 import { reorganizeString } from '../0767-reorganize-string.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0767-reorganize-string', () => {
     it('should handle basic case', () => {

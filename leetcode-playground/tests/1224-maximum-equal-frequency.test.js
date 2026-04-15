@@ -1,4 +1,5 @@
 import { maximumEqualFrequency } from '../1224-maximum-equal-frequency.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1224-maximum-equal-frequency', () => {
     it('should handle basic case', () => {

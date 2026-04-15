@@ -1,4 +1,5 @@
 import { findTheKThCharacterInStringGameI } from '../3304-find-the-k-th-character-in-string-game-i.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3304-find-the-k-th-character-in-string-game-i', () => {
     it('should handle basic case', () => {

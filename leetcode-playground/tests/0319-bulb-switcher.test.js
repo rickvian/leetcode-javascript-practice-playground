@@ -1,4 +1,5 @@
 import { bulbSwitcher } from '../0319-bulb-switcher.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0319-bulb-switcher', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { makeASquareWithTheSameColor } from '../3127-make-a-square-with-the-same-color.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3127-make-a-square-with-the-same-color', () => {
     it('should handle basic case', () => {

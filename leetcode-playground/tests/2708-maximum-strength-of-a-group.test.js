@@ -1,4 +1,5 @@
 import { maximumStrengthOfAGroup } from '../2708-maximum-strength-of-a-group.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2708-maximum-strength-of-a-group', () => {
     it('should handle basic case', () => {

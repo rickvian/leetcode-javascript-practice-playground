@@ -1,4 +1,5 @@
 import { finalPricesWithASpecialDiscountInAShop } from '../1475-final-prices-with-a-special-discount-in-a-shop.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1475-final-prices-with-a-special-discount-in-a-shop', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { goatLatin } from '../0824-goat-latin.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0824-goat-latin', () => {
     it('should handle basic case', () => {

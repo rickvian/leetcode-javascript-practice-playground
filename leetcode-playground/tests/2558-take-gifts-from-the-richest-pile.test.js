@@ -1,4 +1,5 @@
 import { takeGiftsFromTheRichestPile } from '../2558-take-gifts-from-the-richest-pile.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2558-take-gifts-from-the-richest-pile', () => {
     it('should handle basic case', () => {

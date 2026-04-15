@@ -1,4 +1,5 @@
 import { maximumDifferenceByRemappingADigit } from '../2566-maximum-difference-by-remapping-a-digit.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2566-maximum-difference-by-remapping-a-digit', () => {
     it('should handle basic case', () => {

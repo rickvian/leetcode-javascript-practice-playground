@@ -1,4 +1,5 @@
 import { walkingRobotSimulation } from '../0874-walking-robot-simulation.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0874-walking-robot-simulation', () => {
     it('should handle basic case', () => {

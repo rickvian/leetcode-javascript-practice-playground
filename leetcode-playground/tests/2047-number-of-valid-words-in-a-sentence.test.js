@@ -1,4 +1,5 @@
 import { numberOfValidWordsInASentence } from '../2047-number-of-valid-words-in-a-sentence.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2047-number-of-valid-words-in-a-sentence', () => {
     it('should handle basic case', () => {

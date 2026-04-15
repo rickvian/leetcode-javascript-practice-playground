@@ -1,4 +1,5 @@
 import { numberOfPairsOfInterchangeableRectangles } from '../2001-number-of-pairs-of-interchangeable-rectangles.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2001-number-of-pairs-of-interchangeable-rectangles', () => {
     it('should handle basic case', () => {

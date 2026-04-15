@@ -1,4 +1,5 @@
 import { rotatingTheBox } from '../1861-rotating-the-box.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1861-rotating-the-box', () => {
     it('should handle basic case', () => {

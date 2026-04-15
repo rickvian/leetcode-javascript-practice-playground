@@ -1,4 +1,5 @@
 import { matchsticksToSquare } from '../0473-matchsticks-to-square.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0473-matchsticks-to-square', () => {
     it('should handle basic case', () => {

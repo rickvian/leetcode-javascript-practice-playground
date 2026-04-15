@@ -1,4 +1,5 @@
 import { minimumNumberOfOperationsToMakeArrayXorEqualToK } from '../2997-minimum-number-of-operations-to-make-array-xor-equal-to-k.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2997-minimum-number-of-operations-to-make-array-xor-equal-to-k', () => {
     it('should handle basic case', () => {

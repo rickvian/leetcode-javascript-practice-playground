@@ -1,4 +1,5 @@
 import { countBinaryPalindromicNumbers } from '../3677-count-binary-palindromic-numbers.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3677-count-binary-palindromic-numbers', () => {
     it('should handle basic case', () => {

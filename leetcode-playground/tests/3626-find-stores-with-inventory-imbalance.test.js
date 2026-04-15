@@ -1,4 +1,5 @@
 import { findStoresWithInventoryImbalance } from '../3626-find-stores-with-inventory-imbalance.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3626-find-stores-with-inventory-imbalance', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { maximumAlternatingSumOfSquares } from '../3727-maximum-alternating-sum-of-squares.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3727-maximum-alternating-sum-of-squares', () => {
     it('should handle basic case', () => {

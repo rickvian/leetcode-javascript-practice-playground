@@ -1,4 +1,5 @@
 import { findChurnRiskCustomers } from '../3716-find-churn-risk-customers.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3716-find-churn-risk-customers', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { longestWordInDictionaryThroughDeleting } from '../0524-longest-word-in-dictionary-through-deleting.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0524-longest-word-in-dictionary-through-deleting', () => {
     it('should handle basic case', () => {

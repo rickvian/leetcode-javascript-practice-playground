@@ -1,4 +1,5 @@
 import { shift2dGrid } from '../1260-shift-2d-grid.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1260-shift-2d-grid', () => {
     it('should handle basic case', () => {

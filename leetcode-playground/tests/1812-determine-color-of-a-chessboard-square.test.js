@@ -1,4 +1,5 @@
 import { determineColorOfAChessboardSquare } from '../1812-determine-color-of-a-chessboard-square.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1812-determine-color-of-a-chessboard-square', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { makeTheXorOfAllSegmentsEqualToZero } from '../1787-make-the-xor-of-all-segments-equal-to-zero.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1787-make-the-xor-of-all-segments-equal-to-zero', () => {
     it('should handle basic case', () => {

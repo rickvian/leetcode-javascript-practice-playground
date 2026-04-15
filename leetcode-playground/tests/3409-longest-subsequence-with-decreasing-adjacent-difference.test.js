@@ -1,4 +1,5 @@
 import { longestSubsequenceWithDecreasingAdjacentDifference } from '../3409-longest-subsequence-with-decreasing-adjacent-difference.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3409-longest-subsequence-with-decreasing-adjacent-difference', () => {
     it('should handle basic case', () => {

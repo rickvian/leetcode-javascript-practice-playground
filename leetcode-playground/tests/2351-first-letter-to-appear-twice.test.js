@@ -1,4 +1,5 @@
 import { firstLetterToAppearTwice } from '../2351-first-letter-to-appear-twice.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2351-first-letter-to-appear-twice', () => {
     it('should handle basic case', () => {

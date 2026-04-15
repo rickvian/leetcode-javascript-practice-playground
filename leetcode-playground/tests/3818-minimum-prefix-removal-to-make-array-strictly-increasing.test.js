@@ -1,4 +1,5 @@
 import { minimumPrefixRemovalToMakeArrayStrictlyIncreasing } from '../3818-minimum-prefix-removal-to-make-array-strictly-increasing.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3818-minimum-prefix-removal-to-make-array-strictly-increasing', () => {
     it('should handle basic case', () => {

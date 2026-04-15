@@ -1,4 +1,5 @@
 import { findDuplicateSubtrees } from '../0652-find-duplicate-subtrees.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0652-find-duplicate-subtrees', () => {
     it('should handle basic case', () => {

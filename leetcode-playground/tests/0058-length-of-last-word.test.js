@@ -1,4 +1,5 @@
 import { lengthOfLastWord } from '../0058-length-of-last-word.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0058-length-of-last-word', () => {
     it('should handle basic case', () => {

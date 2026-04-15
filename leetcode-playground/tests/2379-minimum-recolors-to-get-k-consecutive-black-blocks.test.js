@@ -1,4 +1,5 @@
 import { minimumRecolorsToGetKConsecutiveBlackBlocks } from '../2379-minimum-recolors-to-get-k-consecutive-black-blocks.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2379-minimum-recolors-to-get-k-consecutive-black-blocks', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { countPrefixAndSuffixPairsI } from '../3042-count-prefix-and-suffix-pairs-i.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3042-count-prefix-and-suffix-pairs-i', () => {
     it('should handle basic case', () => {

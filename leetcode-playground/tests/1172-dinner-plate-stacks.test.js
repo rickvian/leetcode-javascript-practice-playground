@@ -1,4 +1,5 @@
 import { dinnerPlateStacks } from '../1172-dinner-plate-stacks.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1172-dinner-plate-stacks', () => {
     it('should handle basic case', () => {

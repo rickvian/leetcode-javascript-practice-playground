@@ -1,4 +1,5 @@
 import { contiguousArray } from '../0525-contiguous-array.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0525-contiguous-array', () => {
     it('should handle basic case', () => {

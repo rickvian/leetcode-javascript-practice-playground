@@ -1,4 +1,5 @@
 import { smallestNumberWithAllSetBits } from '../3370-smallest-number-with-all-set-bits.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3370-smallest-number-with-all-set-bits', () => {
     it('should handle basic case', () => {

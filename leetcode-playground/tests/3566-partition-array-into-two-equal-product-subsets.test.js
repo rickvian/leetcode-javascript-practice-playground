@@ -1,4 +1,5 @@
 import { partitionArrayIntoTwoEqualProductSubsets } from '../3566-partition-array-into-two-equal-product-subsets.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3566-partition-array-into-two-equal-product-subsets', () => {
     it('should handle basic case', () => {

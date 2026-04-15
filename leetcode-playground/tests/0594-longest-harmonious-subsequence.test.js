@@ -1,4 +1,5 @@
 import { longestHarmoniousSubsequence } from '../0594-longest-harmonious-subsequence.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0594-longest-harmonious-subsequence', () => {
     it('should handle basic case', () => {

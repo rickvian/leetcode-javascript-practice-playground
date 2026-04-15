@@ -1,4 +1,5 @@
 import { checkIfWordCanBePlacedInCrossword } from '../2018-check-if-word-can-be-placed-in-crossword.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2018-check-if-word-can-be-placed-in-crossword', () => {
     it('should handle basic case', () => {

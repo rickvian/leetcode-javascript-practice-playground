@@ -1,4 +1,5 @@
 import { largestPalindromicNumber } from '../2384-largest-palindromic-number.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2384-largest-palindromic-number', () => {
     it('should handle basic case', () => {

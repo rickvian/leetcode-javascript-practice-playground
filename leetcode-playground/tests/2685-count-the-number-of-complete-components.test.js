@@ -1,4 +1,5 @@
 import { countTheNumberOfCompleteComponents } from '../2685-count-the-number-of-complete-components.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2685-count-the-number-of-complete-components', () => {
     it('should handle basic case', () => {

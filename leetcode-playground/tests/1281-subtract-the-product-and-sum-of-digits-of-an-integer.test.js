@@ -1,4 +1,5 @@
 import { subtractTheProductAndSumOfDigitsOfAnInteger } from '../1281-subtract-the-product-and-sum-of-digits-of-an-integer.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1281-subtract-the-product-and-sum-of-digits-of-an-integer', () => {
     it('should handle basic case', () => {

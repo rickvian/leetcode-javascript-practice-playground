@@ -1,4 +1,5 @@
 import { longestCommonPrefixBetweenAdjacentStringsAfterRemovals } from '../3598-longest-common-prefix-between-adjacent-strings-after-removals.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3598-longest-common-prefix-between-adjacent-strings-after-removals', () => {
     it('should handle basic case', () => {

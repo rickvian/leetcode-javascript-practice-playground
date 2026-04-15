@@ -1,4 +1,5 @@
 import { longestPalindromeAfterSubstringConcatenationIi } from '../3504-longest-palindrome-after-substring-concatenation-ii.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3504-longest-palindrome-after-substring-concatenation-ii', () => {
     it('should handle basic case', () => {

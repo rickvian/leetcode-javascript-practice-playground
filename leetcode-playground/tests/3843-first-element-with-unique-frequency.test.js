@@ -1,4 +1,5 @@
 import { firstElementWithUniqueFrequency } from '../3843-first-element-with-unique-frequency.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3843-first-element-with-unique-frequency', () => {
     it('should handle basic case', () => {

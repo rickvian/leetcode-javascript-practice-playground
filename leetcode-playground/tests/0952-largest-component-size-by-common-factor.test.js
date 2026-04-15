@@ -1,4 +1,5 @@
 import { largestComponentSizeByCommonFactor } from '../0952-largest-component-size-by-common-factor.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0952-largest-component-size-by-common-factor', () => {
     it('should handle basic case', () => {

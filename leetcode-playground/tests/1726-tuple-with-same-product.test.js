@@ -1,4 +1,5 @@
 import { tupleWithSameProduct } from '../1726-tuple-with-same-product.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1726-tuple-with-same-product', () => {
     it('should handle basic case', () => {

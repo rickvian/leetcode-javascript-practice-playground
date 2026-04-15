@@ -1,4 +1,5 @@
 import { wateringPlants } from '../2079-watering-plants.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2079-watering-plants', () => {
     it('should handle basic case', () => {

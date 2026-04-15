@@ -1,4 +1,5 @@
 import { removeSubFoldersFromTheFilesystem } from '../1233-remove-sub-folders-from-the-filesystem.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1233-remove-sub-folders-from-the-filesystem', () => {
     it('should handle basic case', () => {

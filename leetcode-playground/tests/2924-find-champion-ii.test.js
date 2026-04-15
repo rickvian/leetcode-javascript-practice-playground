@@ -1,4 +1,5 @@
 import { findChampionIi } from '../2924-find-champion-ii.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2924-find-champion-ii', () => {
     it('should handle basic case', () => {

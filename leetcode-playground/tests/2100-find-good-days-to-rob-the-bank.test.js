@@ -1,4 +1,5 @@
 import { findGoodDaysToRobTheBank } from '../2100-find-good-days-to-rob-the-bank.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('2100-find-good-days-to-rob-the-bank', () => {
     it('should handle basic case', () => {

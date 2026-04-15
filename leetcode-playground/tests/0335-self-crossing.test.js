@@ -1,4 +1,5 @@
 import { selfCrossing } from '../0335-self-crossing.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0335-self-crossing', () => {
     it('should handle basic case', () => {

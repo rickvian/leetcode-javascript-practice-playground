@@ -1,4 +1,5 @@
 import { deleteOperationForTwoStrings } from '../0583-delete-operation-for-two-strings.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0583-delete-operation-for-two-strings', () => {
     it('should handle basic case', () => {

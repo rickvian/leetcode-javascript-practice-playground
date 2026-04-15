@@ -1,4 +1,5 @@
 import { constructKPalindromeStrings } from '../1400-construct-k-palindrome-strings.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1400-construct-k-palindrome-strings', () => {
     it('should handle basic case', () => {

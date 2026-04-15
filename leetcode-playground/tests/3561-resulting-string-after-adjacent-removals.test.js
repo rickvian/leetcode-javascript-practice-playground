@@ -1,4 +1,5 @@
 import { resultingStringAfterAdjacentRemovals } from '../3561-resulting-string-after-adjacent-removals.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3561-resulting-string-after-adjacent-removals', () => {
     it('should handle basic case', () => {

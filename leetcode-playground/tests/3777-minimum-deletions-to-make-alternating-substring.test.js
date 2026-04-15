@@ -1,4 +1,5 @@
 import { minimumDeletionsToMakeAlternatingSubstring } from '../3777-minimum-deletions-to-make-alternating-substring.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3777-minimum-deletions-to-make-alternating-substring', () => {
     it('should handle basic case', () => {

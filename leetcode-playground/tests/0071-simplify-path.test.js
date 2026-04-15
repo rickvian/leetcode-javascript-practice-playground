@@ -1,4 +1,5 @@
 import { simplifyPath } from '../0071-simplify-path.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0071-simplify-path', () => {
     it('should handle basic case', () => {

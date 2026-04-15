@@ -1,4 +1,5 @@
 import { xorQueriesOfASubarray } from '../1310-xor-queries-of-a-subarray.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1310-xor-queries-of-a-subarray', () => {
     it('should handle basic case', () => {

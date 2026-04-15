@@ -1,4 +1,5 @@
 import { splitTwoStringsToMakePalindrome } from '../1616-split-two-strings-to-make-palindrome.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1616-split-two-strings-to-make-palindrome', () => {
     it('should handle basic case', () => {

@@ -1,4 +1,5 @@
 import { satisfiabilityOfEqualityEquations } from '../0990-satisfiability-of-equality-equations.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0990-satisfiability-of-equality-equations', () => {
     it('should handle basic case', () => {

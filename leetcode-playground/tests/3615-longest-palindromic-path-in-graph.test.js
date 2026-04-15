@@ -1,4 +1,5 @@
 import { longestPalindromicPathInGraph } from '../3615-longest-palindromic-path-in-graph.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('3615-longest-palindromic-path-in-graph', () => {
     it('should handle basic case', () => {

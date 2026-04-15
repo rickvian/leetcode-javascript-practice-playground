@@ -1,4 +1,5 @@
 import { mergeStringsAlternately } from '../1768-merge-strings-alternately.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1768-merge-strings-alternately', () => {
     it('should handle basic case', () => {

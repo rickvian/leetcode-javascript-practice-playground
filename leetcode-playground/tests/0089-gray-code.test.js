@@ -1,4 +1,5 @@
 import { grayCode } from '../0089-gray-code.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('0089-gray-code', () => {
     it('should handle basic case', () => {

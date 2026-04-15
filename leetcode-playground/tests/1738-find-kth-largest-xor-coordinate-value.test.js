@@ -1,4 +1,5 @@
 import { findKthLargestXorCoordinateValue } from '../1738-find-kth-largest-xor-coordinate-value.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1738-find-kth-largest-xor-coordinate-value', () => {
     it('should handle basic case', () => {

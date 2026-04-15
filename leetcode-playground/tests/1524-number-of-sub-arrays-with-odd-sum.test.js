@@ -1,4 +1,5 @@
 import { numberOfSubArraysWithOddSum } from '../1524-number-of-sub-arrays-with-odd-sum.js';
+// TODO(backfill): replace with real LeetCode cases
 
 describe('1524-number-of-sub-arrays-with-odd-sum', () => {
     it('should handle basic case', () => {
