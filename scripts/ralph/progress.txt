@@ -31,6 +31,29 @@
 - LinkedList operations: Create helper ListNode class for linked list problems
 - Tree problems: Export TreeNode class from solution file for use in tests
 - Stub tests: All tests "fail" for stub files (expected - implementations are blank)
+- Placeholder detection: Check for uncommented expect() statements - files with only commented-out expects are placeholders
+- Backfill sentinel insertion: Insert after import statement (line 2) as `// TODO(backfill): replace with real LeetCode cases`
+
+---
+
+## 2026-04-15 - US-010
+- **What was implemented:**
+  - Scanned all 3118 test files in leetcode-playground/tests/
+  - Identified placeholder files: those with only commented-out expect() statements
+  - Inserted sentinel `// TODO(backfill): replace with real LeetCode cases` into 3027 placeholder files
+  - Created scripts/backfill/list-backfill-todos.sh to report backfill queue status
+  - All tests still pass (3018 test files, 9067 passing tests)
+
+- **Files changed:**
+  - Modified: 3027 test files in leetcode-playground/tests/ (sentinel insertion)
+  - Created: scripts/backfill/list-backfill-todos.sh (status reporting)
+  - Modified: scripts/ralph/prd.yaml (marked US-010 as passes: true)
+
+- **Learnings:**
+  - Placeholder pattern: All test bodies are commented-out, no uncommented expect() statements
+  - Heuristic accuracy: 91 files have real cases (Blind 75 + initial samples), 3027 are placeholders
+  - Sentinel placement: Must go after the import statement (line 2) to preserve file structure
+  - Backfill queue: 3027 files tracked via grep -l 'TODO(backfill)' in tests/
 
 ---
 

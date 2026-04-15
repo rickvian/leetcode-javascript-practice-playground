@@ -119,7 +119,7 @@ userStories:
       - Add scripts/backfill/list-backfill-todos.sh that prints counts by marker type (backfill, community, done)
       - Commit the sentinel insertion as one discrete commit so it can be reverted if the heuristic was wrong
     priority: 3
-    passes: false
+    passes: true
     notes: "One-time prep pass. Enables all downstream backfill stories by making the worklist grep-able. Run grep -l 'TODO(backfill)' to get the live queue."
 
   # Scope note: Blind 75 (US-002..US-009) is considered covered. The backfill
