@@ -2,8 +2,7 @@
 
 ## Important Note
 
-This is playground repository, please provide test case only unless prompted to provide solution, solution should not be provided.
-leave the solution empty with // implement
+This is playground repository to mimic leetcode, please provide test case only with blank implementation, unless you explicitly requested to write the code solution, leave the solution empty with // implement
 
 ## Module Type Configuration
 
@@ -33,7 +32,6 @@ All JavaScript files and tests in this project use **ES Modules (ESM)** as speci
 ```javascript
 // test file
 import { addTwoNumbers } from '../index.js';
-import { describe, it, expect } from '@jest/globals';
 
 describe('addTwoNumbers', () => {
   it('should add two numbers', () => {
@@ -45,13 +43,11 @@ describe('addTwoNumbers', () => {
 ❌ Incorrect (CommonJS):
 ```javascript
 const { addTwoNumbers } = require('../index.js');
-const { describe, it, expect } = require('@jest/globals');
 ```
 
 ### Jest Configuration
 
 Jest is configured to work with ES Modules. When writing tests:
-- Always import test utilities from `@jest/globals` if needed
 - Do not use `require()` or CommonJS syntax
 - Jest will handle the module resolution automatically
 
@@ -125,3 +121,18 @@ describe('NNNN-problem-name', () => {
 3. Implement the solution using ES Module syntax
 4. Create test file: `leetcode-playground/tests/NNNN-problem-name.test.js`
 5. Run tests: `npm test` or `npm run test:watch`
+
+## Multiple Solution Approaches for the Same Problem
+
+When a problem has more than one solution approach, create separate files per approach using a `-[approach]` suffix on both the solution file and its test file.
+
+### File Structure
+
+```
+leetcode-playground/
+├── NNNN-problem-name-[approach1].js
+├── NNNN-problem-name-[approach2].js
+└── tests/
+    ├── NNNN-problem-name-[approach1].test.js
+    └── NNNN-problem-name-[approach2].test.js
+```
