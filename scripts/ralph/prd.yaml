@@ -1,11 +1,11 @@
-branchName: ralph/feature
+branchName: feature/populate-scenarios
 userStories:
   - id: US-001
     title: Setup node project with jest test
     acceptanceCriteria:
       - setup node project with jest
       - create folder with leetcode-playground, it contain tests/ folder
-      - each .js file inside leetcode-playground will have name format [number]-[problem-name].js e.g. 0002-add-two-numbers.js
+      - 'each .js file inside leetcode-playground will have name format [number]-[problem-name].js e.g. 0002-add-two-numbers.js'
       - they contain function name exactly defined in leetcode, and exported.
       - tests/file containing same forrmat
       - create 2 leetcode file sample and tests first.
@@ -14,4 +14,57 @@ userStories:
     passes: true
     notes: ""
 
-  
+  - id: US-002
+    title: Patch prompt.md for this project (remove AGENTS.md + typecheck references)
+    acceptanceCriteria:
+      - Remove the AGENTS.md update step from scripts/ralph/prompt.md (file does not exist in this repo)
+      - 'Replace any "Run typecheck and tests" step with "Run tests scoped to changed files via npx vitest run <paths>" (no typecheck script exists in this project)'
+      - Ensure the prompt instructs ralph to append learnings to scripts/ralph/progress.txt
+      - Keep all other steps intact
+      - 'Commit the updated prompt with message: feat [US-002] - Patch prompt.md for this project'
+    priority: 2
+    passes: false
+    notes: Must run first so subsequent iterations follow a prompt that matches this repo. Do not modify any other files.
+
+  - id: US-003
+    title: Rename 0042 typo (traping -> trapping)
+    acceptanceCriteria:
+      - Rename leetcode-playground/0042-traping-rain-water.js to leetcode-playground/0042-trapping-rain-water.js
+      - Rename leetcode-playground/tests/0042-traping-rain-water.test.js to leetcode-playground/tests/0042-trapping-rain-water.test.js
+      - Update the import path inside the renamed test file to point at ../0042-trapping-rain-water
+      - Run npx vitest run leetcode-playground/tests/0042-trapping-rain-water.test.js and confirm the file loads without import/syntax errors (red assertions are acceptable)
+      - 'Commit with message: feat [US-003] - Rename 0042 typo (traping -> trapping)'
+    priority: 3
+    passes: false
+    notes: Must run before US-004 so the prep script sees the corrected filename when excluding already-implemented problems.
+
+  - id: US-004
+    title: Generate batch manifest for 3000-scenario target
+    acceptanceCriteria:
+      - Create scripts/ralph/build_batches.py that loads fetch-scrap-leetcode-problem/responseArchive/full_leetcode_problems_response.json
+      - 'Script excludes problems already in leetcode-playground/ (match by 4-digit ID prefix from NNNN-*.js files); premium/paid problems are included'
+      - Script sorts the remaining pool ascending by int(questionFrontendId)
+      - Script caps the selection so existing + new lands within 3000 plus or minus 20 scenarios total
+      - 'Script tags classHeavy problems (slug starts with design- OR title/slug contains any of: cache, stack, queue, heap, trie, iterator, serialize, randomized, median-finder, lfu, lru, union-find)'
+      - Script enforces max 2 classHeavy problems per batch by overflowing extras into later batches
+      - 'Script writes scripts/ralph/batches/batch-NNN.json (zero-padded 3 digits) with up to 20 problems each, schema {batchId, problems:[{id, slug, title, difficulty, tags, classHeavy}]}'
+      - Script writes scripts/ralph/manifest.json index listing all batches in order with total problem count
+      - Script is idempotent (safe to re-run; overwrites existing batch + manifest files)
+      - Run python3 scripts/ralph/build_batches.py and verify scripts/ralph/batches/ contains batch-001.json .. batch-NNN.json plus manifest.json
+      - 'Append one new userStory entry to scripts/ralph/prd.yaml per generated batch (US-005 .. US-(004+N)) with title "Implement batch-NNN", priority 4+N, passes false, and the batch-story acceptance criteria template defined in the notes field below'
+      - 'Commit with message: feat [US-004] - Generate batch manifest for 3000-scenario target'
+    priority: 4
+    passes: false
+    notes: |
+      Prerequisite for all batch stories. Do NOT implement any LeetCode problems in this story - only the prep script + manifest + batch files + appended prd.yaml entries.
+
+      Batch-story acceptance criteria template (use verbatim for each appended US-005..US-N entry, swapping NNN for the batch number):
+        - For each problem in scripts/ralph/batches/batch-NNN.json:
+        - Skip if leetcode-playground/<id>-<slug>.js already exists (idempotent resume)
+        - Create leetcode-playground/<id>-<slug>.js with JSDoc (1-2 sentence problem description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function, "// implement" body, and export { fn }
+        - Create leetcode-playground/tests/<id>-<slug>.test.js with ES Module import from ../<id>-<slug>, describe('<id>-<slug>', ...), and 5-7 it() cases covering the adversarial edge cases from CLAUDE.md rule 5 (empty/min input, null/undefined, whitespace for strings, repetitive data, range-limit boundaries, off-by-one triggers)
+        - For LinkedList/Tree/Graph problems, export the helper class (ListNode/TreeNode/GraphNode) alongside the solution
+        - Guard assertions that depend on a real return value with if (result !== undefined)
+        - Run only the new test files via npx vitest run leetcode-playground/tests/<id>-<slug>.test.js ... (do NOT run the full suite); files must load without import/syntax errors
+        - Commit with message "feat [US-0XX] - Implement batch-NNN" even if assertions are red
+      Notes field for each appended entry: "Stubs intentionally fail assertions - red test output is the expected state and does NOT block the commit. Do not run the full test suite; scope to new files only."
