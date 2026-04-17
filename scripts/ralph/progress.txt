@@ -1,3 +1,34 @@
+## 2026-04-17 - US-011
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-007.json (problems 0172, 0173, 0174, 0175, 0176, 0177, 0178, 0179, 0180, 0181, 0182, 0183, 0184, 0185, 0186, 0187, 0188, 0189, 0192, 0193)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Class-heavy problem 0173 binary-search-tree-iterator exports both a BSTIterator class (with constructor/next/hasNext methods) and a TreeNode class
+  - batch-007 is unusually SQL/shell heavy — 9 of 20 problems (0175, 0176, 0177, 0178, 0180, 0181, 0182, 0183, 0184, 0185 database + 0192, 0193 shell). LeetCode normally accepts these as .sql/.bash submissions, but this repo standardizes on .js stubs, so each is modeled as a JS function that takes array-of-row inputs (or a text/lines input) and returns the equivalent result rows — no I/O, pure data transformation
+  - In-place mutation problems (0186 reverseWords, 0189 rotate) declared with named camelCase function per AC even though return type is void — tests mutate input and guard assertions on the mutated array with `if (nums[0] !== undefined)`
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005..US-010)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0172-0189 excluding 0190/0191, plus 0192/0193)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-011 passes: true)
+
+- **Learnings:**
+  - Problems 0177 nth-highest-salary and 0188 best-time-to-buy-and-sell-stock-iv both expose additional integer parameters (n / k respectively) — signatures are `(n, employees)` and `(k, prices)` ordered integer-first to mirror the SQL function / LeetCode spec
+  - Problem 0179 largest-number: `[0, 0, 0, 1]` → "1000" NOT "0001" — leading zeros must only be stripped when there's a nonzero digit; `[0, 0]` is the exception that returns "0" (not "00"). Both edge cases pinned.
+  - Problem 0180 consecutive-numbers: LeetCode requires id-ordered detection, not insertion-order — tests explicitly shuffle insertion order and verify id-sorted evaluation
+  - Problem 0185 department-top-three-salaries uses DENSE rank on DISTINCT salaries, so ties broaden the result set beyond 3 rows — `[100,100,90,80,70]` returns 4 rows (100, 100, 90, 80), not 3
+  - Problem 0188 maxProfit with k >= n/2 degenerates to unlimited-transactions (problem 122) — the cap means `maxProfit(100, [1,2,4])` is 3 (same as buying every rise), a common optimization to test
+  - Problem 0189 rotate-array: k can exceed n — `rotate([-1,-100,3,99], 6)` must modulo k by length first; also `k=n` is a full no-op, pinned explicitly
+  - Problem 0193 valid-phone-numbers: `grep -E '^([0-9]{3}-|\([0-9]{3}\) )[0-9]{3}-[0-9]{4}$'` is the canonical regex — note the exact "(xxx) xxx-xxxx" includes ONE space after the paren (not zero, not multiple); `(123)456-7890` is INVALID
+  - Problem 0192 word-frequency: tie-break is lexicographic ascending on the word when counts tie — `sort | uniq -c | sort -rn` alone won't produce this; need secondary key. Test `"b a b a c"` catches this.
+  - Problem 0187 repeated-dna-sequences: a string of exactly 10 chars has only 1 window, so always returns [] — boundary case that's a common off-by-one in sliding-window implementations
+  - Problem 0182 duplicate-emails returns each duplicated email ONCE regardless of count (3+ occurrences of "x@x.com" still returns a single row) — the distinct clause matters
+  - Problem 0174 dungeon-game: single cell `[[0]]` returns 1 (minimum positive HP), not 0 — the invariant is "never drop TO 0", so the knight must always have at least 1 HP
+  - Problem 0172 trailingZeroes: 25 → 6 (not 5) because 25 contributes TWO factors of 5 (25 = 5*5); common off-by-one at powers of 5
+
+---
+
 ## 2026-04-17 - US-010
 - **What was implemented:**
   - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-006.json (problems 0150, 0151, 0154, 0155, 0156, 0157, 0158, 0159, 0160, 0161, 0162, 0163, 0164, 0165, 0166, 0167, 0168, 0169, 0170, 0171)
