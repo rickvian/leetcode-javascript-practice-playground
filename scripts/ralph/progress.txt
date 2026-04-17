@@ -1,3 +1,27 @@
+## 2026-04-17 - US-006
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-002.json (problems 0031, 0032, 0034, 0035, 0036, 0037, 0038, 0040, 0041, 0043, 0044, 0045, 0047, 0051, 0052, 0058, 0059, 0060, 0061, 0063)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Linked-list problem 0061 rotate-list defines and exports a ListNode class alongside rotateRight
+  - In-place mutation problems (0031 next-permutation, 0037 sudoku-solver) still declared with named camelCase function per AC even though return type is void — tests mutate inputs and guard assertions on the mutated result
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0031, 0032, 0034-0038, 0040, 0041, 0043-0045, 0047, 0051, 0052, 0058-0061, 0063)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-006 passes: true)
+
+- **Learnings:**
+  - In-place problems with return type void (0031 nextPermutation, 0037 solveSudoku) still need tests — write mutation-based assertions that compare the input array after the call, and guard on `nums[0] !== undefined` / `board[r][c] !== '.'` to tolerate the stub no-op
+  - LeetCode function name for problem 0040 is `combinationSum2` (no 'II' suffix) and for 0047 is `permuteUnique` (not `permuteII`) — always cross-check against the submission signature, not the title suffix
+  - Problem 0038 count-and-say has n=1 edge: the RLE interpretation starts at '1' (min), so any off-by-one in the base case cascades through every later term; pin n=1..6 in tests to catch it
+  - 0051 n-queens solution count sequence (1,0,0,2,10,4,40,92) is not monotonic — n=6 is LOWER than n=5; don't assert monotonic growth
+  - For 0060 permutation-sequence, factorial(9)=362880 is within safe integer range and makes a clean upper-boundary test for n=9
+  - 0044 wildcard-matching distinguishes between "empty s with empty p" (true) and "non-empty s with empty p" (false) — both must be explicit tests since those paths diverge in DP implementations
+
+---
+
 ## 2026-04-17 - US-005
 - **What was implemented:**
   - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-001.json (problems 0004, 0006, 0007, 0008, 0009, 0010, 0012, 0013, 0014, 0016, 0017, 0018, 0022, 0024, 0025, 0026, 0027, 0028, 0029, 0030)
