@@ -1,3 +1,35 @@
+## 2026-04-17 - US-010
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-006.json (problems 0150, 0151, 0154, 0155, 0156, 0157, 0158, 0159, 0160, 0161, 0162, 0163, 0164, 0165, 0166, 0167, 0168, 0169, 0170, 0171)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Class-heavy design problems 0155 min-stack (MinStack) and 0170 two-sum-iii (TwoSum) export the class directly rather than a function factory
+  - Tree problem 0156 binary-tree-upside-down defines and exports a TreeNode class alongside upsideDownBinaryTree
+  - Linked-list problem 0160 intersection-of-two-linked-lists defines and exports a ListNode class alongside getIntersectionNode
+  - Read4-interactive problems (0157, 0158) use the LeetCode `var solution = function(read4) { return function(buf, n) { ... } }` wrapper pattern and export `solution` — tests build a mock read4 closure over a source string and drive the returned reader
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005..US-009)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0150, 0151, 0154-0171 excluding existing 0152/0153)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-010 passes: true)
+
+- **Learnings:**
+  - Both 0167 two-sum-ii and 0170 two-sum-iii overlap with 0001 two-sum on the canonical LeetCode function name `twoSum` — ES module scope + distinct imports keep them independent; 0170 is class-based (TwoSum) not function-based
+  - Problems 0157 and 0158 both export `solution` with the same signature — module scope keeps them separate even though the exported identifier collides across files, same module-isolation pattern as 0082/0083, 0116/0117, 0122/0123, 0136/0137
+  - 0157 vs 0158: the II variant's "call multiple times" invariant means internal state (leftover buffer + internal read4-buffer offset) must persist between `read` invocations; the closure returned by `solution` carries that state — tests must share one reader across multiple read() calls to exercise the distinguishing behavior
+  - 0163 missing-ranges: LeetCode's modernized signature returns `number[][]` (inclusive [start,end] pairs), NOT the legacy string format like "0->2"; always cross-check the current signature — older solutions online still use the string version
+  - 0166 fraction-to-recurring-decimal INT_MIN / -1 edge case would overflow signed 32-bit (2147483648 is outside INT_MAX 2147483647) — in JS this is fine as Number, but implementations that use `Math.abs(x) | 0` or `(x / y) | 0` early will truncate and return wrong sign; pin this case
+  - 0168 excel-sheet-column-title is a 1-indexed base-26 conversion with NO zero digit — the classic off-by-one is at 26 ("Z", not "A" then carry) and 27 ("AA"); pin both 26 and 27 explicitly
+  - 0171 excel-sheet-column-number is the inverse of 0168; the INT_MAX boundary maps to "FXSHRXW" (7 chars) — good upper-boundary test that also validates 0168 if used symmetrically
+  - 0162 find-peak-element allows multiple valid answers (any local maximum) — tests must assert membership in a set of valid peak indices, not a specific index
+  - 0164 maximum-gap empty/single-element input returns 0 per LeetCode convention (no pair exists) — easy to miss since the problem statement implies sorted gaps
+  - 0160 intersection-of-two-linked-lists intersection is by REFERENCE, not value — tests that construct two separate lists with identical values must expect null, not a match
+  - 0165 compare-version "1.01" vs "1.001" compares as numeric integers (1 == 1), so returns 0 — leading-zero handling is critical and "1.01".split('.')[1] === '01' (string) which breaks naive string-equality implementations
+  - 0156 binary-tree-upside-down: the LeetCode invariant is that every right child has a sibling left child — the "upside-down" operation reassigns left/right pointers such that the original leftmost leaf becomes the new root
+
+---
+
 ## 2026-04-17 - US-009
 - **What was implemented:**
   - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-005.json (problems 0120, 0122, 0123, 0126, 0127, 0129, 0130, 0131, 0132, 0134, 0135, 0136, 0137, 0138, 0140, 0142, 0144, 0145, 0147, 0149)
