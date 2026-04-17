@@ -1,3 +1,28 @@
+## 2026-04-17 - US-007
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-003.json (problems 0064, 0065, 0066, 0067, 0068, 0069, 0071, 0072, 0075, 0077, 0078, 0080, 0081, 0082, 0083, 0085, 0086, 0087, 0088, 0089)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Linked-list problems (0082 remove-duplicates-from-sorted-list-ii, 0083 remove-duplicates-from-sorted-list, 0086 partition-list) define and export a ListNode class alongside their solution functions
+  - In-place mutation problems (0075 sort-colors, 0088 merge-sorted-array) still declared with named camelCase function per AC even though return type is void — tests mutate inputs and guard assertions on the mutated result with `if (nums[0] !== undefined)`
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005/US-006)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0064-0069, 0071, 0072, 0075, 0077, 0078, 0080-0083, 0085-0089)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-007 passes: true)
+
+- **Learnings:**
+  - Problems 0082 and 0083 both expose the same LeetCode function name `deleteDuplicates` — the camelCase name collides across files, but ES module scope + separate imports keep them independent; tests must import from the correct file
+  - Problem 0081 `search` returns boolean (not index as in 0033) — distinguish from the non-II variant when writing tests, and note the rotated-array tie-case where `nums[lo] === nums[mid] === nums[hi]` degrades to linear scan
+  - For 0077 combinations, always canonicalize each inner array (sort by number) before comparing — output order within a combination is unspecified by LeetCode
+  - For 0089 gray-code, the "circular" property (last XOR first has popcount 1) is as important as adjacent property; tests that only validate pairwise adjacency miss solutions that fail the wraparound
+  - Problem 0085 maximal-rectangle takes `character[][]` (strings '0'/'1'), NOT integers — tests must pass strings to match LeetCode's signature
+  - Problem 0068 text-justification: the FINAL line is left-justified with trailing spaces (not fully justified) — a common off-by-one that passes happy-path tests and fails only on single-line or last-line cases; always include an explicit single-line test
+  - Problem 0071 simplify-path: "..." (three dots) is a valid directory name, NOT a parent reference — only exactly ".." navigates up; test explicitly
+
+---
+
 ## 2026-04-17 - US-006
 - **What was implemented:**
   - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-002.json (problems 0031, 0032, 0034, 0035, 0036, 0037, 0038, 0040, 0041, 0043, 0044, 0045, 0047, 0051, 0052, 0058, 0059, 0060, 0061, 0063)
