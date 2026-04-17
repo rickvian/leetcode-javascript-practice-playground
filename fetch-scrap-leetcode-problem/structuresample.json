@@ -1,0 +1,41 @@
+{
+    "data": {
+        "favoriteQuestionList": {
+            "questions": [
+                {
+                    "difficulty": "MEDIUM",
+                    "id": 128,
+                    "paidOnly": false,
+                    "questionFrontendId": "128",
+                    "status": "SOLVED",
+                    "title": "Longest Consecutive Sequence",
+                    "titleSlug": "longest-consecutive-sequence",
+                    "topicTags": [
+                        {
+                            "name": "Array",
+                            "slug": "array",
+                            "__typename": "CommonTagNode"
+                        },
+                        {
+                            "name": "Hash Table",
+                            "slug": "hash-table",
+                            "__typename": "CommonTagNode"
+                        },
+                        {
+                            "name": "Union-Find",
+                            "slug": "union-find",
+                            "__typename": "CommonTagNode"
+                        }
+                    ],
+                    "isInMyFavorites": false,
+                    "frequency": null,
+                    "acRate": 0.47022780515923934,
+                    "contestPoint": null,
+                    "__typename": "FavoriteQuestionNode"
+                }
+            ],
+            "totalLength": 75,
+            "hasMore": false
+        }
+    }
+}
