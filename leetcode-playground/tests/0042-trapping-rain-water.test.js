@@ -1,4 +1,4 @@
-import { trap } from "../0042-traping-rain-water";
+import { trap } from "../0042-trapping-rain-water";
 
 describe("42. Trapping Rain Water", () => {
   test("Example 1: [0,1,0,2,1,0,1,3,2,1,2,1] -> 6", () => {

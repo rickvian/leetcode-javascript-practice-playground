@@ -35,7 +35,7 @@ userStories:
       - Run npx vitest run leetcode-playground/tests/0042-trapping-rain-water.test.js and confirm the file loads without import/syntax errors (red assertions are acceptable)
       - 'Commit with message: feat [US-003] - Rename 0042 typo (traping -> trapping)'
     priority: 3
-    passes: false
+    passes: true
     notes: Must run before US-004 so the prep script sees the corrected filename when excluding already-implemented problems.
 
   - id: US-004
