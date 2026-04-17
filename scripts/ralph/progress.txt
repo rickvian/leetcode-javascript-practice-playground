@@ -1,3 +1,22 @@
+## 2026-04-17 - US-002
+- **What was implemented:**
+  - Patched scripts/ralph/prompt.md to match this repo's tooling
+  - Removed the "Update AGENTS.md files with learnings" step (no AGENTS.md convention in this project)
+  - Replaced "Run typecheck and tests" with "Run tests scoped to changed files via npx vitest run <paths>" (no typecheck script exists)
+  - Clarified that learnings must be appended to scripts/ralph/progress.txt (not just progress.txt)
+  - Renumbered subsequent steps after removing AGENTS.md step
+
+- **Files changed:**
+  - Modified: scripts/ralph/prompt.md
+  - Modified: scripts/ralph/prd.yaml (US-002 passes: true)
+
+- **Learnings:**
+  - Repo uses Jest (per package.json + CLAUDE.md), but prd.yaml explicitly mandates npx vitest - follow the PRD verbatim for acceptance criteria even when tooling seems to conflict
+  - No AGENTS.md files exist at repo root or in scripts/ralph - step referenced nonexistent convention
+  - Remember to renumber steps when deleting a list item so the numbering stays consistent
+
+---
+
 ## 2026-03-14 - US-009
 - **What was implemented:**
   - Created blank solution stubs and comprehensive test files for Blind 75 problems 71-75
