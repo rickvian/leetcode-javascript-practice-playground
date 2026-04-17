@@ -186,7 +186,7 @@ userStories:
       - "Run only the new test files via npx vitest run leetcode-playground/tests/<id>-<slug>.test.js ... (do NOT run the full suite); files must load without import/syntax errors"
       - 'Commit with message "feat [US-012] - Implement batch-008" even if assertions are red'
     priority: 12
-    passes: false
+    passes: true
     notes: "Stubs intentionally fail assertions - red test output is the expected state and does NOT block the commit. Do not run the full test suite; scope to new files only."
 
   - id: US-013

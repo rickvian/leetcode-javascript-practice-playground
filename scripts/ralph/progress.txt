@@ -1,3 +1,38 @@
+## 2026-04-17 - US-012
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-008.json (problems 0194, 0195, 0196, 0197, 0199, 0201, 0202, 0203, 0204, 0205, 0209, 0214, 0218, 0219, 0220, 0222, 0223, 0225, 0228, 0229)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Tree problems 0199 binary-tree-right-side-view and 0222 count-complete-tree-nodes export a TreeNode class alongside the solution function; linked-list problem 0203 remove-linked-list-elements exports a ListNode class
+  - Class-based design problem 0225 implement-stack-using-queues exports a MyStack class directly (not a factory function) — constructor + push/pop/top/empty methods all stubbed with `// implement`
+  - SQL/shell problems (0194 transpose-file, 0195 tenth-line, 0196 delete-duplicate-emails, 0197 rising-temperature) modeled as pure data transformations same as batch-007 — no I/O
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0194-0197, 0199, 0201-0205, 0209, 0214, 0218-0220, 0222, 0223, 0225, 0228, 0229)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-012 passes: true)
+
+- **Learnings:**
+  - Problem 0197 rising-temperature requires CALENDAR-consecutive days (date + 1), not INDEX-consecutive rows — "2015-01-01" then "2015-01-03" must NOT match even if they're adjacent in the input; tests explicitly include a 1-day-gap case
+  - Problem 0197 comparison is STRICT greater-than — equal temperatures on consecutive days do NOT qualify; pin this explicitly
+  - Problem 0201 rangeBitwiseAnd at [1, INT_MAX] is always 0 because any full range crossing a power of two AND's to 0 — useful upper-boundary test; also note [0, 0] is 0, not undefined
+  - Problem 0202 isHappy: 4 enters the canonical unhappy cycle (4->16->37->58->89->145->42->20->4), making it a cleaner "not happy" test than 2 which is the LeetCode sample but takes more iterations to cycle
+  - Problem 0203 removeElements: tests must handle the case where ALL nodes match (result is null, not empty list) — this is different from "empty input" because the traversal visits nodes; easy to off-by-one when using dummy-head pattern
+  - Problem 0204 countPrimes boundary: n=2 returns 0 (strictly less than 2 means {} empty), NOT 1 — the off-by-one that treats 2 as "at least 2 is prime" silently fails
+  - Problem 0205 isIsomorphic badc/baba case: both strings have same length AND same distinct-char count (3 unique) but mapping is ambiguous — a common false-positive for implementations that only check one direction
+  - Problem 0209 minSubArrayLen with no solution returns 0 (NOT Infinity or -1) — the "unreachable" convention needs an explicit test, and Infinity sentinel is a common bug
+  - Problem 0218 skyline touching-but-non-overlapping buildings [[0,2,3],[2,4,5]] correctly produces [[0,3],[2,5],[4,0]] — the shared boundary at x=2 jumps immediately from h=3 to h=5 without a 0 in between
+  - Problem 0219 containsNearbyDuplicate with k=0 is always false (indices must be DISTINCT by the problem definition, abs(i-j)<=0 forces i==j which isn't a valid pair) — pin explicitly
+  - Problem 0220 containsNearbyAlmostDuplicate: [INT_MIN, INT_MAX] with valueDiff=1 is false because diff = 4294967295 > 1 — but naive implementations using `nums[i] - nums[j]` hit 32-bit signed overflow and return true; in JS Number this is actually fine, so it's mainly a cross-language trap
+  - Problem 0222 countNodes perfect-tree boundary: height 3 (root at depth 0) has 15 nodes (2^4 - 1) — pin for the O(log^2 n) fast path which tests whether left/right spines are equal
+  - Problem 0223 computeArea: rectangles can be degenerate (zero area) when x1==x2 or y1==y2 — union area is just the other rectangle's area. Easy to miss if intersection logic assumes positive widths
+  - Problem 0228 summaryRanges with INT_MIN+INT_MIN+1 consecutive: "-2147483648->-2147483647" is a valid consecutive pair even at the extreme boundary — standard `a+1===b` check works because JS Numbers don't overflow at this scale
+  - Problem 0229 majority-element-ii: element must appear STRICTLY more than floor(n/3) times, so [1,2,3] returns [] (each appears once, 1 ≤ 1 = floor(3/3)); `> n/3` vs `>= n/3` is the classic off-by-one
+  - Problem 0194 transposeFile edge: single cell "only" returns "only" (no newline added) — the trailing newline behavior differs between shell awk and a clean JS transpose; normalize to no trailing newline for consistency
+
+---
+
 ## 2026-04-17 - US-011
 - **What was implemented:**
   - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-007.json (problems 0172, 0173, 0174, 0175, 0176, 0177, 0178, 0179, 0180, 0181, 0182, 0183, 0184, 0185, 0186, 0187, 0188, 0189, 0192, 0193)
