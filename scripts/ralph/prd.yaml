@@ -23,7 +23,7 @@ userStories:
       - Keep all other steps intact
       - 'Commit the updated prompt with message: feat [US-002] - Patch prompt.md for this project'
     priority: 2
-    passes: false
+    passes: true
     notes: Must run first so subsequent iterations follow a prompt that matches this repo. Do not modify any other files.
 
   - id: US-003
