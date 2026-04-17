@@ -1,3 +1,34 @@
+## 2026-04-17 - US-009
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-005.json (problems 0120, 0122, 0123, 0126, 0127, 0129, 0130, 0131, 0132, 0134, 0135, 0136, 0137, 0138, 0140, 0142, 0144, 0145, 0147, 0149)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Tree problems (0129, 0144, 0145) define and export a TreeNode class alongside the solution function
+  - Linked-list problems (0142, 0147) define and export a ListNode class
+  - Problem 0138 copy-list-with-random-pointer defines and exports a Node class with 3 fields (val/next/random) — distinct from TreeNode and from the 4-field Node (val/left/right/next) used in 0116/0117
+  - In-place mutation problem 0130 surrounded-regions still declared with named camelCase function per AC even though return type is void — tests mutate input board and guard assertions on the mutated result
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005/US-006/US-007/US-008)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0120, 0122, 0123, 0126, 0127, 0129, 0130, 0131, 0132, 0134-0138, 0140, 0142, 0144, 0145, 0147, 0149)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-009 passes: true)
+
+- **Learnings:**
+  - Problems 0136 and 0137 both expose the LeetCode function name `singleNumber` — ES module scope + distinct imports keep them independent (same pattern as 0082/0083 `deleteDuplicates` and 0116/0117 `connect`)
+  - Problem 0122 and 0123 both expose `maxProfit` — same module-scope isolation applies
+  - Problem 0138 requires a 3-field Node class (val/next/random) — NOT TreeNode and NOT the 4-field populating-next Node from 0116/0117; naming is `Node` per LeetCode's official signature
+  - Problem 0127 ladderLength: when beginWord === endWord and is in wordList, LeetCode returns 0 (no transformation required) — a common off-by-one that happy-path tests miss
+  - Problem 0126 findLadders: result ordering is unspecified — tests must canonicalize by joining-and-sorting ladders before comparison
+  - Problem 0131 partition on empty string: returns [[]] per LeetCode backtracking convention (the empty partition of the empty string) — distinguish from [] which means "no valid partition"
+  - Problem 0132 minCut edge case: "abbab" requires exactly 1 cut (split at index 3 to get "abba"|"b") — tempting off-by-one that returns 2 if the DP base case treats single chars incorrectly
+  - Problem 0135 candy: strictly ascending/descending n-element arrays require exactly n*(n+1)/2 candies — clean closed-form for boundary testing
+  - Problem 0137 INT_MIN (-2147483648) works as a single value without BigInt since JS numbers handle the 32-bit range directly; include both INT_MIN and INT_MAX as range-limit tests
+  - Problem 0130 solve is void return — test must read board[i][j] state AFTER the call; guard with `if (board[1][1] !== 'O' || board[1][1] === 'X')` to tolerate the stub no-op and only assert on the positive path
+  - Problem 0120 triangle base case: n=1 triangle must return the single value itself (including negatives) — the DP loop from bottom-up must not skip the last row
+
+---
+
 ## 2026-04-17 - US-008
 - **What was implemented:**
   - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-004.json (problems 0090, 0093, 0095, 0096, 0097, 0099, 0101, 0106, 0107, 0108, 0109, 0111, 0112, 0113, 0114, 0115, 0116, 0117, 0118, 0119)
