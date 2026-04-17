@@ -1,0 +1,253 @@
+{
+  "batchId": "batch-110",
+  "problems": [
+    {
+      "id": "2282",
+      "slug": "number-of-people-that-can-be-seen-in-a-grid",
+      "title": "Number of People That Can Be Seen in a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "matrix",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2283",
+      "slug": "check-if-number-has-equal-digit-count-and-digit-value",
+      "title": "Check if Number Has Equal Digit Count and Digit Value",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2284",
+      "slug": "sender-with-largest-word-count",
+      "title": "Sender With Largest Word Count",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2285",
+      "slug": "maximum-total-importance-of-roads",
+      "title": "Maximum Total Importance of Roads",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "greedy",
+        "graph",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2286",
+      "slug": "booking-concert-tickets-in-groups",
+      "title": "Booking Concert Tickets in Groups",
+      "difficulty": "HARD",
+      "tags": [
+        "binary-search",
+        "design",
+        "binary-indexed-tree",
+        "segment-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2287",
+      "slug": "rearrange-characters-to-make-target-string",
+      "title": "Rearrange Characters to Make Target String",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2288",
+      "slug": "apply-discount-to-prices",
+      "title": "Apply Discount to Prices",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2289",
+      "slug": "steps-to-make-array-non-decreasing",
+      "title": "Steps to Make Array Non-decreasing",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "linked-list",
+        "dynamic-programming",
+        "stack",
+        "monotonic-stack",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2290",
+      "slug": "minimum-obstacle-removal-to-reach-corner",
+      "title": "Minimum Obstacle Removal to Reach Corner",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "matrix",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2291",
+      "slug": "maximum-profit-from-trading-stocks",
+      "title": "Maximum Profit From Trading Stocks",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2292",
+      "slug": "products-with-three-or-more-orders-in-two-consecutive-years",
+      "title": "Products With Three or More Orders in Two Consecutive Years",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2293",
+      "slug": "min-max-game",
+      "title": "Min Max Game",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2294",
+      "slug": "partition-array-such-that-maximum-difference-is-k",
+      "title": "Partition Array Such That Maximum Difference Is K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2295",
+      "slug": "replace-elements-in-an-array",
+      "title": "Replace Elements in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2296",
+      "slug": "design-a-text-editor",
+      "title": "Design a Text Editor",
+      "difficulty": "HARD",
+      "tags": [
+        "linked-list",
+        "string",
+        "stack",
+        "design",
+        "simulation",
+        "doubly-linked-list"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "2297",
+      "slug": "jump-game-viii",
+      "title": "Jump Game VIII",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "graph",
+        "monotonic-stack",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2298",
+      "slug": "tasks-count-in-the-weekend",
+      "title": "Tasks Count in the Weekend",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2299",
+      "slug": "strong-password-checker-ii",
+      "title": "Strong Password Checker II",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2300",
+      "slug": "successful-pairs-of-spells-and-potions",
+      "title": "Successful Pairs of Spells and Potions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2301",
+      "slug": "match-substring-after-replacement",
+      "title": "Match Substring After Replacement",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "string-matching"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

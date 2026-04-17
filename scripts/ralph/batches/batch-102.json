@@ -1,0 +1,248 @@
+{
+  "batchId": "batch-102",
+  "problems": [
+    {
+      "id": "2122",
+      "slug": "recover-the-original-array",
+      "title": "Recover the Original Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "sorting",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2123",
+      "slug": "minimum-operations-to-remove-adjacent-ones-in-matrix",
+      "title": "Minimum Operations to Remove Adjacent Ones in Matrix",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "graph",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2124",
+      "slug": "check-if-all-as-appears-before-all-bs",
+      "title": "Check if All A's Appears Before All B's",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2125",
+      "slug": "number-of-laser-beams-in-a-bank",
+      "title": "Number of Laser Beams in a Bank",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "string",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2126",
+      "slug": "destroying-asteroids",
+      "title": "Destroying Asteroids",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2127",
+      "slug": "maximum-employees-to-be-invited-to-a-meeting",
+      "title": "Maximum Employees to Be Invited to a Meeting",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "depth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2128",
+      "slug": "remove-all-ones-with-row-and-column-flips",
+      "title": "Remove All Ones With Row and Column Flips",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "bit-manipulation",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2129",
+      "slug": "capitalize-the-title",
+      "title": "Capitalize the Title",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2130",
+      "slug": "maximum-twin-sum-of-a-linked-list",
+      "title": "Maximum Twin Sum of a Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2131",
+      "slug": "longest-palindrome-by-concatenating-two-letter-words",
+      "title": "Longest Palindrome by Concatenating Two Letter Words",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2132",
+      "slug": "stamping-the-grid",
+      "title": "Stamping the Grid",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2133",
+      "slug": "check-if-every-row-and-column-contains-all-numbers",
+      "title": "Check if Every Row and Column Contains All Numbers",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2134",
+      "slug": "minimum-swaps-to-group-all-1s-together-ii",
+      "title": "Minimum Swaps to Group All 1's Together II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2135",
+      "slug": "count-words-obtained-after-adding-a-letter",
+      "title": "Count Words Obtained After Adding a Letter",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2136",
+      "slug": "earliest-possible-day-of-full-bloom",
+      "title": "Earliest Possible Day of Full Bloom",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2137",
+      "slug": "pour-water-between-buckets-to-make-water-levels-equal",
+      "title": "Pour Water Between Buckets to Make Water Levels Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2138",
+      "slug": "divide-a-string-into-groups-of-size-k",
+      "title": "Divide a String Into Groups of Size k",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2139",
+      "slug": "minimum-moves-to-reach-target-score",
+      "title": "Minimum Moves to Reach Target Score",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2140",
+      "slug": "solving-questions-with-brainpower",
+      "title": "Solving Questions With Brainpower",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2141",
+      "slug": "maximum-running-time-of-n-computers",
+      "title": "Maximum Running Time of N Computers",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

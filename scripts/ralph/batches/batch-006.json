@@ -1,0 +1,240 @@
+{
+  "batchId": "batch-006",
+  "problems": [
+    {
+      "id": "0150",
+      "slug": "evaluate-reverse-polish-notation",
+      "title": "Evaluate Reverse Polish Notation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0151",
+      "slug": "reverse-words-in-a-string",
+      "title": "Reverse Words in a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0154",
+      "slug": "find-minimum-in-rotated-sorted-array-ii",
+      "title": "Find Minimum in Rotated Sorted Array II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0155",
+      "slug": "min-stack",
+      "title": "Min Stack",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "stack",
+        "design"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0156",
+      "slug": "binary-tree-upside-down",
+      "title": "Binary Tree Upside Down",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0157",
+      "slug": "read-n-characters-given-read4",
+      "title": "Read N Characters Given Read4",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0158",
+      "slug": "read-n-characters-given-read4-ii-call-multiple-times",
+      "title": "Read N Characters Given read4 II - Call Multiple Times",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "simulation",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0159",
+      "slug": "longest-substring-with-at-most-two-distinct-characters",
+      "title": "Longest Substring with At Most Two Distinct Characters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0160",
+      "slug": "intersection-of-two-linked-lists",
+      "title": "Intersection of Two Linked Lists",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0161",
+      "slug": "one-edit-distance",
+      "title": "One Edit Distance",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0162",
+      "slug": "find-peak-element",
+      "title": "Find Peak Element",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0163",
+      "slug": "missing-ranges",
+      "title": "Missing Ranges",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0164",
+      "slug": "maximum-gap",
+      "title": "Maximum Gap",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "bucket-sort",
+        "radix-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0165",
+      "slug": "compare-version-numbers",
+      "title": "Compare Version Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0166",
+      "slug": "fraction-to-recurring-decimal",
+      "title": "Fraction to Recurring Decimal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0167",
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "title": "Two Sum II - Input Array Is Sorted",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0168",
+      "slug": "excel-sheet-column-title",
+      "title": "Excel Sheet Column Title",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0169",
+      "slug": "majority-element",
+      "title": "Majority Element",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "divide-and-conquer",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0170",
+      "slug": "two-sum-iii-data-structure-design",
+      "title": "Two Sum III - Data structure design",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "design",
+        "data-stream"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0171",
+      "slug": "excel-sheet-column-number",
+      "title": "Excel Sheet Column Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

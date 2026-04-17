@@ -1,0 +1,250 @@
+{
+  "batchId": "batch-015",
+  "problems": [
+    {
+      "id": "0362",
+      "slug": "design-hit-counter",
+      "title": "Design Hit Counter",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "design",
+        "queue",
+        "data-stream"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0370",
+      "slug": "range-addition",
+      "title": "Range Addition",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0372",
+      "slug": "super-pow",
+      "title": "Super Pow",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "divide-and-conquer"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0373",
+      "slug": "find-k-pairs-with-smallest-sums",
+      "title": "Find K Pairs with Smallest Sums",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0374",
+      "slug": "guess-number-higher-or-lower",
+      "title": "Guess Number Higher or Lower",
+      "difficulty": "EASY",
+      "tags": [
+        "binary-search",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0375",
+      "slug": "guess-number-higher-or-lower-ii",
+      "title": "Guess Number Higher or Lower II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0376",
+      "slug": "wiggle-subsequence",
+      "title": "Wiggle Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0377",
+      "slug": "combination-sum-iv",
+      "title": "Combination Sum IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0378",
+      "slug": "kth-smallest-element-in-a-sorted-matrix",
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0379",
+      "slug": "design-phone-directory",
+      "title": "Design Phone Directory",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "linked-list",
+        "design",
+        "queue"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0381",
+      "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+      "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "design",
+        "randomized"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0382",
+      "slug": "linked-list-random-node",
+      "title": "Linked List Random Node",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "math",
+        "reservoir-sampling",
+        "randomized"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0383",
+      "slug": "ransom-note",
+      "title": "Ransom Note",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0384",
+      "slug": "shuffle-an-array",
+      "title": "Shuffle an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "design",
+        "randomized"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0385",
+      "slug": "mini-parser",
+      "title": "Mini Parser",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0386",
+      "slug": "lexicographical-numbers",
+      "title": "Lexicographical Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0387",
+      "slug": "first-unique-character-in-a-string",
+      "title": "First Unique Character in a String",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "queue",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0388",
+      "slug": "longest-absolute-file-path",
+      "title": "Longest Absolute File Path",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0389",
+      "slug": "find-the-difference",
+      "title": "Find the Difference",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0390",
+      "slug": "elimination-game",
+      "title": "Elimination Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "recursion"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "batchId": "batch-123",
+  "problems": [
+    {
+      "id": "2542",
+      "slug": "maximum-subsequence-score",
+      "title": "Maximum Subsequence Score",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2543",
+      "slug": "check-if-point-is-reachable",
+      "title": "Check if Point Is Reachable",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2544",
+      "slug": "alternating-digit-sum",
+      "title": "Alternating Digit Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2545",
+      "slug": "sort-the-students-by-their-kth-score",
+      "title": "Sort the Students by Their Kth Score",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2546",
+      "slug": "apply-bitwise-operations-to-make-strings-equal",
+      "title": "Apply Bitwise Operations to Make Strings Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2547",
+      "slug": "minimum-cost-to-split-an-array",
+      "title": "Minimum Cost to Split an Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "dynamic-programming",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2548",
+      "slug": "maximum-price-to-fill-a-bag",
+      "title": "Maximum Price to Fill a Bag",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2549",
+      "slug": "count-distinct-numbers-on-board",
+      "title": "Count Distinct Numbers on Board",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2550",
+      "slug": "count-collisions-of-monkeys-on-a-polygon",
+      "title": "Count Collisions of Monkeys on a Polygon",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2551",
+      "slug": "put-marbles-in-bags",
+      "title": "Put Marbles in Bags",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2552",
+      "slug": "count-increasing-quadruplets",
+      "title": "Count Increasing Quadruplets",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "binary-indexed-tree",
+        "enumeration",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2553",
+      "slug": "separate-the-digits-in-an-array",
+      "title": "Separate the Digits in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2554",
+      "slug": "maximum-number-of-integers-to-choose-from-a-range-i",
+      "title": "Maximum Number of Integers to Choose From a Range I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2555",
+      "slug": "maximize-win-from-two-segments",
+      "title": "Maximize Win From Two Segments",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2556",
+      "slug": "disconnect-path-in-a-binary-matrix-by-at-most-one-flip",
+      "title": "Disconnect Path in a Binary Matrix by at Most One Flip",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2557",
+      "slug": "maximum-number-of-integers-to-choose-from-a-range-ii",
+      "title": "Maximum Number of Integers to Choose From a Range II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2558",
+      "slug": "take-gifts-from-the-richest-pile",
+      "title": "Take Gifts From the Richest Pile",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "heap-priority-queue",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2559",
+      "slug": "count-vowel-strings-in-ranges",
+      "title": "Count Vowel Strings in Ranges",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2560",
+      "slug": "house-robber-iv",
+      "title": "House Robber IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2561",
+      "slug": "rearranging-fruits",
+      "title": "Rearranging Fruits",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sort"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

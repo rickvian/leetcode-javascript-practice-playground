@@ -1,0 +1,246 @@
+{
+  "batchId": "batch-036",
+  "problems": [
+    {
+      "id": "0799",
+      "slug": "champagne-tower",
+      "title": "Champagne Tower",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0800",
+      "slug": "similar-rgb-color",
+      "title": "Similar RGB Color",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0801",
+      "slug": "minimum-swaps-to-make-sequences-increasing",
+      "title": "Minimum Swaps To Make Sequences Increasing",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0802",
+      "slug": "find-eventual-safe-states",
+      "title": "Find Eventual Safe States",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0803",
+      "slug": "bricks-falling-when-hit",
+      "title": "Bricks Falling When Hit",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0804",
+      "slug": "unique-morse-code-words",
+      "title": "Unique Morse Code Words",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0805",
+      "slug": "split-array-with-same-average",
+      "title": "Split Array With Same Average",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0806",
+      "slug": "number-of-lines-to-write-string",
+      "title": "Number of Lines To Write String",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0807",
+      "slug": "max-increase-to-keep-city-skyline",
+      "title": "Max Increase to Keep City Skyline",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0808",
+      "slug": "soup-servings",
+      "title": "Soup Servings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "probability-and-statistics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0809",
+      "slug": "expressive-words",
+      "title": "Expressive Words",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0810",
+      "slug": "chalkboard-xor-game",
+      "title": "Chalkboard XOR Game",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "bit-manipulation",
+        "brainteaser",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0811",
+      "slug": "subdomain-visit-count",
+      "title": "Subdomain Visit Count",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0812",
+      "slug": "largest-triangle-area",
+      "title": "Largest Triangle Area",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0813",
+      "slug": "largest-sum-of-averages",
+      "title": "Largest Sum of Averages",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0814",
+      "slug": "binary-tree-pruning",
+      "title": "Binary Tree Pruning",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0815",
+      "slug": "bus-routes",
+      "title": "Bus Routes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0816",
+      "slug": "ambiguous-coordinates",
+      "title": "Ambiguous Coordinates",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0817",
+      "slug": "linked-list-components",
+      "title": "Linked List Components",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0818",
+      "slug": "race-car",
+      "title": "Race Car",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

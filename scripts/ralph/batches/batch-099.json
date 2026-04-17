@@ -1,0 +1,238 @@
+{
+  "batchId": "batch-099",
+  "problems": [
+    {
+      "id": "2062",
+      "slug": "count-vowel-substrings-of-a-string",
+      "title": "Count Vowel Substrings of a String",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2063",
+      "slug": "vowels-of-all-substrings",
+      "title": "Vowels of All Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2064",
+      "slug": "minimized-maximum-of-products-distributed-to-any-store",
+      "title": "Minimized Maximum of Products Distributed to Any Store",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2065",
+      "slug": "maximum-path-quality-of-a-graph",
+      "title": "Maximum Path Quality of a Graph",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "backtracking",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2066",
+      "slug": "account-balance",
+      "title": "Account Balance",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2067",
+      "slug": "number-of-equal-count-substrings",
+      "title": "Number of Equal Count Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2068",
+      "slug": "check-whether-two-strings-are-almost-equivalent",
+      "title": "Check Whether Two Strings are Almost Equivalent",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2069",
+      "slug": "walking-robot-simulation-ii",
+      "title": "Walking Robot Simulation II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "design",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2070",
+      "slug": "most-beautiful-item-for-each-query",
+      "title": "Most Beautiful Item for Each Query",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2071",
+      "slug": "maximum-number-of-tasks-you-can-assign",
+      "title": "Maximum Number of Tasks You Can Assign",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "greedy",
+        "queue",
+        "sorting",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2072",
+      "slug": "the-winner-university",
+      "title": "The Winner University",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2073",
+      "slug": "time-needed-to-buy-tickets",
+      "title": "Time Needed to Buy Tickets",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "queue",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2074",
+      "slug": "reverse-nodes-in-even-length-groups",
+      "title": "Reverse Nodes in Even Length Groups",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2075",
+      "slug": "decode-the-slanted-ciphertext",
+      "title": "Decode the Slanted Ciphertext",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2076",
+      "slug": "process-restricted-friend-requests",
+      "title": "Process Restricted Friend Requests",
+      "difficulty": "HARD",
+      "tags": [
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2077",
+      "slug": "paths-in-maze-that-lead-to-same-room",
+      "title": "Paths in Maze That Lead to Same Room",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2078",
+      "slug": "two-furthest-houses-with-different-colors",
+      "title": "Two Furthest Houses With Different Colors",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2079",
+      "slug": "watering-plants",
+      "title": "Watering Plants",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2080",
+      "slug": "range-frequency-queries",
+      "title": "Range Frequency Queries",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "design",
+        "segment-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2081",
+      "slug": "sum-of-k-mirror-numbers",
+      "title": "Sum of k-Mirror Numbers",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

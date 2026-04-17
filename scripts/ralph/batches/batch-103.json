@@ -1,0 +1,247 @@
+{
+  "batchId": "batch-103",
+  "problems": [
+    {
+      "id": "2142",
+      "slug": "the-number-of-passengers-in-each-bus-i",
+      "title": "The Number of Passengers in Each Bus I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2143",
+      "slug": "choose-numbers-from-two-arrays-in-range",
+      "title": "Choose Numbers From Two Arrays in Range",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2144",
+      "slug": "minimum-cost-of-buying-candies-with-discount",
+      "title": "Minimum Cost of Buying Candies With Discount",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2145",
+      "slug": "count-the-hidden-sequences",
+      "title": "Count the Hidden Sequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2146",
+      "slug": "k-highest-ranked-items-within-a-price-range",
+      "title": "K Highest Ranked Items Within a Price Range",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "sorting",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2147",
+      "slug": "number-of-ways-to-divide-a-long-corridor",
+      "title": "Number of Ways to Divide a Long Corridor",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2148",
+      "slug": "count-elements-with-strictly-smaller-and-greater-elements",
+      "title": "Count Elements With Strictly Smaller and Greater Elements ",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2149",
+      "slug": "rearrange-array-elements-by-sign",
+      "title": "Rearrange Array Elements by Sign",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2150",
+      "slug": "find-all-lonely-numbers-in-the-array",
+      "title": "Find All Lonely Numbers in the Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2151",
+      "slug": "maximum-good-people-based-on-statements",
+      "title": "Maximum Good People Based on Statements",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "backtracking",
+        "bit-manipulation",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2152",
+      "slug": "minimum-number-of-lines-to-cover-points",
+      "title": "Minimum Number of Lines to Cover Points",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "geometry",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2153",
+      "slug": "the-number-of-passengers-in-each-bus-ii",
+      "title": "The Number of Passengers in Each Bus II",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2154",
+      "slug": "keep-multiplying-found-values-by-two",
+      "title": "Keep Multiplying Found Values by Two",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2155",
+      "slug": "all-divisions-with-the-highest-score-of-a-binary-array",
+      "title": "All Divisions With the Highest Score of a Binary Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2156",
+      "slug": "find-substring-with-given-hash-value",
+      "title": "Find Substring With Given Hash Value",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "sliding-window",
+        "rolling-hash",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2157",
+      "slug": "groups-of-strings",
+      "title": "Groups of Strings",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "union-find"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2158",
+      "slug": "amount-of-new-area-painted-each-day",
+      "title": "Amount of New Area Painted Each Day",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "segment-tree",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2159",
+      "slug": "order-two-columns-independently",
+      "title": "Order Two Columns Independently",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2160",
+      "slug": "minimum-sum-of-four-digit-number-after-splitting-digits",
+      "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2161",
+      "slug": "partition-array-according-to-given-pivot",
+      "title": "Partition Array According to Given Pivot",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "simulation"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

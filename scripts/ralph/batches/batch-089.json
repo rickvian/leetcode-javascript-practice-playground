@@ -1,0 +1,246 @@
+{
+  "batchId": "batch-089",
+  "problems": [
+    {
+      "id": "1862",
+      "slug": "sum-of-floored-pairs",
+      "title": "Sum of Floored Pairs",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "binary-search",
+        "counting",
+        "enumeration",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1863",
+      "slug": "sum-of-all-subset-xor-totals",
+      "title": "Sum of All Subset XOR Totals",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "backtracking",
+        "bit-manipulation",
+        "combinatorics",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1864",
+      "slug": "minimum-number-of-swaps-to-make-the-binary-string-alternating",
+      "title": "Minimum Number of Swaps to Make the Binary String Alternating",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1865",
+      "slug": "finding-pairs-with-a-certain-sum",
+      "title": "Finding Pairs With a Certain Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "design"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1866",
+      "slug": "number-of-ways-to-rearrange-sticks-with-k-sticks-visible",
+      "title": "Number of Ways to Rearrange Sticks With K Sticks Visible",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1867",
+      "slug": "orders-with-maximum-quantity-above-average",
+      "title": "Orders With Maximum Quantity Above Average",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1868",
+      "slug": "product-of-two-run-length-encoded-arrays",
+      "title": "Product of Two Run-Length Encoded Arrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1869",
+      "slug": "longer-contiguous-segments-of-ones-than-zeros",
+      "title": "Longer Contiguous Segments of Ones than Zeros",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1870",
+      "slug": "minimum-speed-to-arrive-on-time",
+      "title": "Minimum Speed to Arrive on Time",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1871",
+      "slug": "jump-game-vii",
+      "title": "Jump Game VII",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1872",
+      "slug": "stone-game-viii",
+      "title": "Stone Game VIII",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "prefix-sum",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1873",
+      "slug": "calculate-special-bonus",
+      "title": "Calculate Special Bonus",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1874",
+      "slug": "minimize-product-sum-of-two-arrays",
+      "title": "Minimize Product Sum of Two Arrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1875",
+      "slug": "group-employees-of-the-same-salary",
+      "title": "Group Employees of the Same Salary",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1876",
+      "slug": "substrings-of-size-three-with-distinct-characters",
+      "title": "Substrings of Size Three with Distinct Characters",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1877",
+      "slug": "minimize-maximum-pair-sum-in-array",
+      "title": "Minimize Maximum Pair Sum in Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1878",
+      "slug": "get-biggest-three-rhombus-sums-in-a-grid",
+      "title": "Get Biggest Three Rhombus Sums in a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "sorting",
+        "heap-priority-queue",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1879",
+      "slug": "minimum-xor-sum-of-two-arrays",
+      "title": "Minimum XOR Sum of Two Arrays",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1880",
+      "slug": "check-if-word-equals-summation-of-two-words",
+      "title": "Check if Word Equals Summation of Two Words",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1881",
+      "slug": "maximum-value-after-insertion",
+      "title": "Maximum Value after Insertion",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

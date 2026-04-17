@@ -1,0 +1,243 @@
+{
+  "batchId": "batch-079",
+  "problems": [
+    {
+      "id": "1662",
+      "slug": "check-if-two-string-arrays-are-equivalent",
+      "title": "Check If Two String Arrays are Equivalent",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1663",
+      "slug": "smallest-string-with-a-given-numeric-value",
+      "title": "Smallest String With A Given Numeric Value",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1664",
+      "slug": "ways-to-make-a-fair-array",
+      "title": "Ways to Make a Fair Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1665",
+      "slug": "minimum-initial-energy-to-finish-tasks",
+      "title": "Minimum Initial Energy to Finish Tasks",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1666",
+      "slug": "change-the-root-of-a-binary-tree",
+      "title": "Change the Root of a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1667",
+      "slug": "fix-names-in-a-table",
+      "title": "Fix Names in a Table",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1668",
+      "slug": "maximum-repeating-substring",
+      "title": "Maximum Repeating Substring",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "string-matching"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1669",
+      "slug": "merge-in-between-linked-lists",
+      "title": "Merge In Between Linked Lists",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1670",
+      "slug": "design-front-middle-back-queue",
+      "title": "Design Front Middle Back Queue",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "linked-list",
+        "design",
+        "queue",
+        "doubly-linked-list",
+        "data-stream"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1671",
+      "slug": "minimum-number-of-removals-to-make-mountain-array",
+      "title": "Minimum Number of Removals to Make Mountain Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1672",
+      "slug": "richest-customer-wealth",
+      "title": "Richest Customer Wealth",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1673",
+      "slug": "find-the-most-competitive-subsequence",
+      "title": "Find the Most Competitive Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "greedy",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1674",
+      "slug": "minimum-moves-to-make-array-complementary",
+      "title": "Minimum Moves to Make Array Complementary",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1675",
+      "slug": "minimize-deviation-in-array",
+      "title": "Minimize Deviation in Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1676",
+      "slug": "lowest-common-ancestor-of-a-binary-tree-iv",
+      "title": "Lowest Common Ancestor of a Binary Tree IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1677",
+      "slug": "products-worth-over-invoices",
+      "title": "Product's Worth Over Invoices",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1678",
+      "slug": "goal-parser-interpretation",
+      "title": "Goal Parser Interpretation",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1679",
+      "slug": "max-number-of-k-sum-pairs",
+      "title": "Max Number of K-Sum Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1680",
+      "slug": "concatenation-of-consecutive-binary-numbers",
+      "title": "Concatenation of Consecutive Binary Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "bit-manipulation",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1681",
+      "slug": "minimum-incompatibility",
+      "title": "Minimum Incompatibility",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "batchId": "batch-052",
+  "problems": [
+    {
+      "id": "1121",
+      "slug": "divide-array-into-increasing-sequences",
+      "title": "Divide Array Into Increasing Sequences",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1122",
+      "slug": "relative-sort-array",
+      "title": "Relative Sort Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "counting-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1123",
+      "slug": "lowest-common-ancestor-of-deepest-leaves",
+      "title": "Lowest Common Ancestor of Deepest Leaves",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1124",
+      "slug": "longest-well-performing-interval",
+      "title": "Longest Well-Performing Interval",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "stack",
+        "monotonic-stack",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1125",
+      "slug": "smallest-sufficient-team",
+      "title": "Smallest Sufficient Team",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1126",
+      "slug": "active-businesses",
+      "title": "Active Businesses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1127",
+      "slug": "user-purchase-platform",
+      "title": "User Purchase Platform",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1128",
+      "slug": "number-of-equivalent-domino-pairs",
+      "title": "Number of Equivalent Domino Pairs",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1129",
+      "slug": "shortest-path-with-alternating-colors",
+      "title": "Shortest Path with Alternating Colors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1130",
+      "slug": "minimum-cost-tree-from-leaf-values",
+      "title": "Minimum Cost Tree From Leaf Values",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "greedy",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1131",
+      "slug": "maximum-of-absolute-value-expression",
+      "title": "Maximum of Absolute Value Expression",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1132",
+      "slug": "reported-posts-ii",
+      "title": "Reported Posts II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1133",
+      "slug": "largest-unique-number",
+      "title": "Largest Unique Number",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1134",
+      "slug": "armstrong-number",
+      "title": "Armstrong Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1135",
+      "slug": "connecting-cities-with-minimum-cost",
+      "title": "Connecting Cities With Minimum Cost",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "union-find",
+        "graph",
+        "heap-priority-queue",
+        "minimum-spanning-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1136",
+      "slug": "parallel-courses",
+      "title": "Parallel Courses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1137",
+      "slug": "n-th-tribonacci-number",
+      "title": "N-th Tribonacci Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1138",
+      "slug": "alphabet-board-path",
+      "title": "Alphabet Board Path",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1139",
+      "slug": "largest-1-bordered-square",
+      "title": "Largest 1-Bordered Square",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1140",
+      "slug": "stone-game-ii",
+      "title": "Stone Game II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "prefix-sum",
+        "game-theory"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

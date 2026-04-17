@@ -1,0 +1,248 @@
+{
+  "batchId": "batch-071",
+  "problems": [
+    {
+      "id": "1502",
+      "slug": "can-make-arithmetic-progression-from-sequence",
+      "title": "Can Make Arithmetic Progression From Sequence",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1503",
+      "slug": "last-moment-before-all-ants-fall-out-of-a-plank",
+      "title": "Last Moment Before All Ants Fall Out of a Plank",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "brainteaser",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1504",
+      "slug": "count-submatrices-with-all-ones",
+      "title": "Count Submatrices With All Ones",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "matrix",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1505",
+      "slug": "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+      "title": "Minimum Possible Integer After at Most K Adjacent Swaps On Digits",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "greedy",
+        "binary-indexed-tree",
+        "segment-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1506",
+      "slug": "find-root-of-n-ary-tree",
+      "title": "Find Root of N-Ary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "bit-manipulation",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1507",
+      "slug": "reformat-date",
+      "title": "Reformat Date",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1508",
+      "slug": "range-sum-of-sorted-subarray-sums",
+      "title": "Range Sum of Sorted Subarray Sums",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1509",
+      "slug": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
+      "title": "Minimum Difference Between Largest and Smallest Value in Three Moves",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1510",
+      "slug": "stone-game-iv",
+      "title": "Stone Game IV",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1511",
+      "slug": "customer-order-frequency",
+      "title": "Customer Order Frequency",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1512",
+      "slug": "number-of-good-pairs",
+      "title": "Number of Good Pairs",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1513",
+      "slug": "number-of-substrings-with-only-1s",
+      "title": "Number of Substrings With Only 1s",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1514",
+      "slug": "path-with-maximum-probability",
+      "title": "Path with Maximum Probability",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1515",
+      "slug": "best-position-for-a-service-centre",
+      "title": "Best Position for a Service Centre",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "geometry",
+        "randomized"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1516",
+      "slug": "move-sub-tree-of-n-ary-tree",
+      "title": "Move Sub-Tree of N-Ary Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1517",
+      "slug": "find-users-with-valid-e-mails",
+      "title": "Find Users With Valid E-Mails",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1518",
+      "slug": "water-bottles",
+      "title": "Water Bottles",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1519",
+      "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+      "title": "Number of Nodes in the Sub-Tree With the Same Label",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1520",
+      "slug": "maximum-number-of-non-overlapping-substrings",
+      "title": "Maximum Number of Non-Overlapping Substrings",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1521",
+      "slug": "find-a-value-of-a-mysterious-function-closest-to-target",
+      "title": "Find a Value of a Mysterious Function Closest to Target",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "bit-manipulation",
+        "segment-tree"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "batchId": "batch-031",
+  "problems": [
+    {
+      "id": "0698",
+      "slug": "partition-to-k-equal-sum-subsets",
+      "title": "Partition to K Equal Sum Subsets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "memoization",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0699",
+      "slug": "falling-squares",
+      "title": "Falling Squares",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "segment-tree",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0700",
+      "slug": "search-in-a-binary-search-tree",
+      "title": "Search in a Binary Search Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0701",
+      "slug": "insert-into-a-binary-search-tree",
+      "title": "Insert into a Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0702",
+      "slug": "search-in-a-sorted-array-of-unknown-size",
+      "title": "Search in a Sorted Array of Unknown Size",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0703",
+      "slug": "kth-largest-element-in-a-stream",
+      "title": "Kth Largest Element in a Stream",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "design",
+        "binary-search-tree",
+        "heap-priority-queue",
+        "binary-tree",
+        "data-stream"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0704",
+      "slug": "binary-search",
+      "title": "Binary Search",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0705",
+      "slug": "design-hashset",
+      "title": "Design HashSet",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "linked-list",
+        "design",
+        "hash-function"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0706",
+      "slug": "design-hashmap",
+      "title": "Design HashMap",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "linked-list",
+        "design",
+        "hash-function"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0708",
+      "slug": "insert-into-a-sorted-circular-linked-list",
+      "title": "Insert into a Sorted Circular Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0709",
+      "slug": "to-lower-case",
+      "title": "To Lower Case",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0710",
+      "slug": "random-pick-with-blacklist",
+      "title": "Random Pick with Blacklist",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "binary-search",
+        "sorting",
+        "randomized"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0711",
+      "slug": "number-of-distinct-islands-ii",
+      "title": "Number of Distinct Islands II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "sorting",
+        "matrix",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0712",
+      "slug": "minimum-ascii-delete-sum-for-two-strings",
+      "title": "Minimum ASCII Delete Sum for Two Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0713",
+      "slug": "subarray-product-less-than-k",
+      "title": "Subarray Product Less Than K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0714",
+      "slug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+      "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0715",
+      "slug": "range-module",
+      "title": "Range Module",
+      "difficulty": "HARD",
+      "tags": [
+        "design",
+        "segment-tree",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0717",
+      "slug": "1-bit-and-2-bit-characters",
+      "title": "1-bit and 2-bit Characters",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0718",
+      "slug": "maximum-length-of-repeated-subarray",
+      "title": "Maximum Length of Repeated Subarray",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "sliding-window",
+        "rolling-hash",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0719",
+      "slug": "find-k-th-smallest-pair-distance",
+      "title": "Find K-th Smallest Pair Distance",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

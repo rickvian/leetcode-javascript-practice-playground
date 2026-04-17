@@ -1,0 +1,267 @@
+{
+  "batchId": "batch-030",
+  "problems": [
+    {
+      "id": "0678",
+      "slug": "valid-parenthesis-string",
+      "title": "Valid Parenthesis String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0679",
+      "slug": "24-game",
+      "title": "24 Game",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0680",
+      "slug": "valid-palindrome-ii",
+      "title": "Valid Palindrome II",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0681",
+      "slug": "next-closest-time",
+      "title": "Next Closest Time",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0682",
+      "slug": "baseball-game",
+      "title": "Baseball Game",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0683",
+      "slug": "k-empty-slots",
+      "title": "K Empty Slots",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-indexed-tree",
+        "segment-tree",
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "ordered-set",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0684",
+      "slug": "redundant-connection",
+      "title": "Redundant Connection",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0685",
+      "slug": "redundant-connection-ii",
+      "title": "Redundant Connection II",
+      "difficulty": "HARD",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0686",
+      "slug": "repeated-string-match",
+      "title": "Repeated String Match",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "string-matching"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0687",
+      "slug": "longest-univalue-path",
+      "title": "Longest Univalue Path",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0688",
+      "slug": "knight-probability-in-chessboard",
+      "title": "Knight Probability in Chessboard",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0689",
+      "slug": "maximum-sum-of-3-non-overlapping-subarrays",
+      "title": "Maximum Sum of 3 Non-Overlapping Subarrays",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0690",
+      "slug": "employee-importance",
+      "title": "Employee Importance",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0691",
+      "slug": "stickers-to-spell-word",
+      "title": "Stickers to Spell Word",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "memoization",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0692",
+      "slug": "top-k-frequent-words",
+      "title": "Top K Frequent Words",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie",
+        "sorting",
+        "heap-priority-queue",
+        "bucket-sort",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0693",
+      "slug": "binary-number-with-alternating-bits",
+      "title": "Binary Number with Alternating Bits",
+      "difficulty": "EASY",
+      "tags": [
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0694",
+      "slug": "number-of-distinct-islands",
+      "title": "Number of Distinct Islands",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "sorting",
+        "matrix",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0695",
+      "slug": "max-area-of-island",
+      "title": "Max Area of Island",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0696",
+      "slug": "count-binary-substrings",
+      "title": "Count Binary Substrings",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0697",
+      "slug": "degree-of-an-array",
+      "title": "Degree of an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

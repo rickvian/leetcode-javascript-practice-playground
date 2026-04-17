@@ -1,0 +1,256 @@
+{
+  "batchId": "batch-096",
+  "problems": [
+    {
+      "id": "2002",
+      "slug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+      "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2003",
+      "slug": "smallest-missing-genetic-value-in-each-subtree",
+      "title": "Smallest Missing Genetic Value in Each Subtree",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "union-find"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2004",
+      "slug": "the-number-of-seniors-and-juniors-to-join-the-company",
+      "title": "The Number of Seniors and Juniors to Join the Company",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2005",
+      "slug": "subtree-removal-game-with-fibonacci-tree",
+      "title": "Subtree Removal Game with Fibonacci Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "tree",
+        "binary-tree",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2006",
+      "slug": "count-number-of-pairs-with-absolute-difference-k",
+      "title": "Count Number of Pairs With Absolute Difference K",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2007",
+      "slug": "find-original-array-from-doubled-array",
+      "title": "Find Original Array From Doubled Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2008",
+      "slug": "maximum-earnings-from-taxi",
+      "title": "Maximum Earnings From Taxi",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2009",
+      "slug": "minimum-number-of-operations-to-make-array-continuous",
+      "title": "Minimum Number of Operations to Make Array Continuous",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2010",
+      "slug": "the-number-of-seniors-and-juniors-to-join-the-company-ii",
+      "title": "The Number of Seniors and Juniors to Join the Company II",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2011",
+      "slug": "final-value-of-variable-after-performing-operations",
+      "title": "Final Value of Variable After Performing Operations",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2012",
+      "slug": "sum-of-beauty-in-the-array",
+      "title": "Sum of Beauty in the Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2013",
+      "slug": "detect-squares",
+      "title": "Detect Squares",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "design",
+        "counting",
+        "data-stream"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2014",
+      "slug": "longest-subsequence-repeated-k-times",
+      "title": "Longest Subsequence Repeated k Times",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "two-pointers",
+        "string",
+        "backtracking",
+        "counting",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2015",
+      "slug": "average-height-of-buildings-in-each-segment",
+      "title": "Average Height of Buildings in Each Segment",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2016",
+      "slug": "maximum-difference-between-increasing-elements",
+      "title": "Maximum Difference Between Increasing Elements",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2017",
+      "slug": "grid-game",
+      "title": "Grid Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2018",
+      "slug": "check-if-word-can-be-placed-in-crossword",
+      "title": "Check if Word Can Be Placed In Crossword",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2019",
+      "slug": "the-score-of-students-solving-math-expression",
+      "title": "The Score of Students Solving Math Expression",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "string",
+        "dynamic-programming",
+        "stack",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2020",
+      "slug": "number-of-accounts-that-did-not-stream",
+      "title": "Number of Accounts That Did Not Stream",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2021",
+      "slug": "brightest-position-on-street",
+      "title": "Brightest Position on Street",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "prefix-sum",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    }
+  ]
+}
