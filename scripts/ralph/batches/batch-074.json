@@ -1,0 +1,249 @@
+{
+  "batchId": "batch-074",
+  "problems": [
+    {
+      "id": "1562",
+      "slug": "find-latest-group-of-size-m",
+      "title": "Find Latest Group of Size M",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1563",
+      "slug": "stone-game-v",
+      "title": "Stone Game V",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1564",
+      "slug": "put-boxes-into-the-warehouse-i",
+      "title": "Put Boxes Into the Warehouse I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1565",
+      "slug": "unique-orders-and-customers-per-month",
+      "title": "Unique Orders and Customers Per Month",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1566",
+      "slug": "detect-pattern-of-length-m-repeated-k-or-more-times",
+      "title": "Detect Pattern of Length M Repeated K or More Times",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1567",
+      "slug": "maximum-length-of-subarray-with-positive-product",
+      "title": "Maximum Length of Subarray With Positive Product",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1568",
+      "slug": "minimum-number-of-days-to-disconnect-island",
+      "title": "Minimum Number of Days to Disconnect Island",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix",
+        "strongly-connected-component"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1569",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "divide-and-conquer",
+        "dynamic-programming",
+        "tree",
+        "union-find",
+        "binary-search-tree",
+        "memoization",
+        "combinatorics",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1570",
+      "slug": "dot-product-of-two-sparse-vectors",
+      "title": "Dot Product of Two Sparse Vectors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "design"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1571",
+      "slug": "warehouse-manager",
+      "title": "Warehouse Manager",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1572",
+      "slug": "matrix-diagonal-sum",
+      "title": "Matrix Diagonal Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1573",
+      "slug": "number-of-ways-to-split-a-string",
+      "title": "Number of Ways to Split a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1574",
+      "slug": "shortest-subarray-to-be-removed-to-make-array-sorted",
+      "title": "Shortest Subarray to be Removed to Make Array Sorted",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1575",
+      "slug": "count-all-possible-routes",
+      "title": "Count All Possible Routes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1576",
+      "slug": "replace-all-s-to-avoid-consecutive-repeating-characters",
+      "title": "Replace All ?'s to Avoid Consecutive Repeating Characters",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1577",
+      "slug": "number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers",
+      "title": "Number of Ways Where Square of Number Is Equal to Product of Two Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1578",
+      "slug": "minimum-time-to-make-rope-colorful",
+      "title": "Minimum Time to Make Rope Colorful",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1579",
+      "slug": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
+      "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+      "difficulty": "HARD",
+      "tags": [
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1580",
+      "slug": "put-boxes-into-the-warehouse-ii",
+      "title": "Put Boxes Into the Warehouse II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1581",
+      "slug": "customer-who-visited-but-did-not-make-any-transactions",
+      "title": "Customer Who Visited but Did Not Make Any Transactions",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

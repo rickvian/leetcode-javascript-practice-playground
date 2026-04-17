@@ -1,3 +1,27 @@
+## 2026-04-17 - US-004
+- **What was implemented:**
+  - Created scripts/ralph/build_batches.py — loads the full LeetCode dump, excludes the 101 already-implemented 4-digit-prefixed files, sorts by int(questionFrontendId) ascending, caps at 2899 new (→ 3000 total), tags classHeavy by slug prefix `design-` OR keyword match (cache/stack/queue/heap/trie/iterator/serialize/randomized/median-finder/lfu/lru/union-find), packs into 20-problem batches with a FIFO overflow deque enforcing <=2 classHeavy per batch
+  - Generated scripts/ralph/batches/batch-001.json .. batch-145.json and scripts/ralph/manifest.json (batch schema: {batchId, problems:[{id, slug, title, difficulty, tags, classHeavy}]}; manifest tracks targetTotal, existingCount, newCount, grandTotal, per-batch count + classHeavyCount)
+  - Appended 145 new user stories (US-005 .. US-149) to scripts/ralph/prd.yaml with the verbatim AC template from US-004's notes; priority = 4 + batch index; notes populated from the template
+  - Script is idempotent: removes stale batch-*.json files on each run and overwrites the manifest; re-ran and confirmed identical output
+
+- **Files changed:**
+  - Added: scripts/ralph/build_batches.py
+  - Added: scripts/ralph/manifest.json
+  - Added: scripts/ralph/batches/batch-001.json .. batch-145.json
+  - Modified: scripts/ralph/prd.yaml (US-004 passes: true + appended US-005..US-149)
+
+- **Learnings:**
+  - The playground directory contains a non-problem file `test-utils.js` — filtering by the 4-digit regex (`^(\d{4})-`) naturally skips it (101 matched IDs from 102 files)
+  - Overflow packing using `collections.deque` keeps FIFO ordering for bumped classHeavy problems, so each new batch pulls pending heavy items before its main-queue pass — simpler than any earliest-fit search and still deterministic
+  - Python 3 in this dev container has no `yaml` module and no `pip`, so validate generated prd.yaml via Node's `js-yaml` from `node_modules` instead
+  - `{ fn }` inside an f-string raises NameError because `{}` is a format field — use `.format()` or escape with `{{ fn }}` when literal braces are needed in the output
+  - premium/paidOnly is NOT filtered (AC explicitly says paid problems are included) — keep this in mind when later batches implement premium problems with known-from-context signatures
+  - Grand total lands exactly at 3000 (101 existing + 2899 new), well inside the ±20 tolerance
+  - No JS tests were changed by this story — vitest scoping is a no-op for prep-only stories; skip rather than run the full suite (per US-004 notes discipline)
+
+---
+
 ## 2026-04-17 - US-003
 - **What was implemented:**
   - Renamed leetcode-playground/0042-traping-rain-water.js -> 0042-trapping-rain-water.js (typo fix)

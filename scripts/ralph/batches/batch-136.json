@@ -1,0 +1,231 @@
+{
+  "batchId": "batch-136",
+  "problems": [
+    {
+      "id": "2802",
+      "slug": "find-the-k-th-lucky-number",
+      "title": "Find The K-th Lucky Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2803",
+      "slug": "factorial-generator",
+      "title": "Factorial Generator",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2804",
+      "slug": "array-prototype-foreach",
+      "title": "Array Prototype ForEach",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2805",
+      "slug": "custom-interval",
+      "title": "Custom Interval",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2806",
+      "slug": "account-balance-after-rounded-purchase",
+      "title": "Account Balance After Rounded Purchase",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2807",
+      "slug": "insert-greatest-common-divisors-in-linked-list",
+      "title": "Insert Greatest Common Divisors in Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2808",
+      "slug": "minimum-seconds-to-equalize-a-circular-array",
+      "title": "Minimum Seconds to Equalize a Circular Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2809",
+      "slug": "minimum-time-to-make-array-sum-at-most-x",
+      "title": "Minimum Time to Make Array Sum At Most x",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2810",
+      "slug": "faulty-keyboard",
+      "title": "Faulty Keyboard",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2811",
+      "slug": "check-if-it-is-possible-to-split-array",
+      "title": "Check if it is Possible to Split Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2812",
+      "slug": "find-the-safest-path-in-a-grid",
+      "title": "Find the Safest Path in a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "breadth-first-search",
+        "union-find",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2813",
+      "slug": "maximum-elegance-of-a-k-length-subsequence",
+      "title": "Maximum Elegance of a K-Length Subsequence",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "stack",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2814",
+      "slug": "minimum-time-takes-to-reach-destination-without-drowning",
+      "title": "Minimum Time Takes to Reach Destination Without Drowning",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2815",
+      "slug": "max-pair-sum-in-an-array",
+      "title": "Max Pair Sum in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2816",
+      "slug": "double-a-number-represented-as-a-linked-list",
+      "title": "Double a Number Represented as a Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "math",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2817",
+      "slug": "minimum-absolute-difference-between-elements-with-constraint",
+      "title": "Minimum Absolute Difference Between Elements With Constraint",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2818",
+      "slug": "apply-operations-to-maximize-score",
+      "title": "Apply Operations to Maximize Score",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "stack",
+        "greedy",
+        "sorting",
+        "monotonic-stack",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2819",
+      "slug": "minimum-relative-loss-after-buying-chocolates",
+      "title": "Minimum Relative Loss After Buying Chocolates",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2820",
+      "slug": "election-results",
+      "title": "Election Results",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2821",
+      "slug": "delay-the-resolution-of-each-promise",
+      "title": "Delay the Resolution of Each Promise",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "batchId": "batch-003",
+  "problems": [
+    {
+      "id": "0064",
+      "slug": "minimum-path-sum",
+      "title": "Minimum Path Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0065",
+      "slug": "valid-number",
+      "title": "Valid Number",
+      "difficulty": "HARD",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0066",
+      "slug": "plus-one",
+      "title": "Plus One",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0067",
+      "slug": "add-binary",
+      "title": "Add Binary",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string",
+        "bit-manipulation",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0068",
+      "slug": "text-justification",
+      "title": "Text Justification",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0069",
+      "slug": "sqrtx",
+      "title": "Sqrt(x)",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0071",
+      "slug": "simplify-path",
+      "title": "Simplify Path",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0072",
+      "slug": "edit-distance",
+      "title": "Edit Distance",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0075",
+      "slug": "sort-colors",
+      "title": "Sort Colors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0077",
+      "slug": "combinations",
+      "title": "Combinations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0078",
+      "slug": "subsets",
+      "title": "Subsets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0080",
+      "slug": "remove-duplicates-from-sorted-array-ii",
+      "title": "Remove Duplicates from Sorted Array II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0081",
+      "slug": "search-in-rotated-sorted-array-ii",
+      "title": "Search in Rotated Sorted Array II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0082",
+      "slug": "remove-duplicates-from-sorted-list-ii",
+      "title": "Remove Duplicates from Sorted List II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0083",
+      "slug": "remove-duplicates-from-sorted-list",
+      "title": "Remove Duplicates from Sorted List",
+      "difficulty": "EASY",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0085",
+      "slug": "maximal-rectangle",
+      "title": "Maximal Rectangle",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "matrix",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0086",
+      "slug": "partition-list",
+      "title": "Partition List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0087",
+      "slug": "scramble-string",
+      "title": "Scramble String",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0088",
+      "slug": "merge-sorted-array",
+      "title": "Merge Sorted Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0089",
+      "slug": "gray-code",
+      "title": "Gray Code",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

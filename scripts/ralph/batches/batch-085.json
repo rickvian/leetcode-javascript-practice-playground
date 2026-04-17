@@ -1,0 +1,247 @@
+{
+  "batchId": "batch-085",
+  "problems": [
+    {
+      "id": "1782",
+      "slug": "count-pairs-of-nodes",
+      "title": "Count Pairs Of Nodes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "binary-search",
+        "graph",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1783",
+      "slug": "grand-slam-titles",
+      "title": "Grand Slam Titles",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1784",
+      "slug": "check-if-binary-string-has-at-most-one-segment-of-ones",
+      "title": "Check if Binary String Has at Most One Segment of Ones",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1785",
+      "slug": "minimum-elements-to-add-to-form-a-given-sum",
+      "title": "Minimum Elements to Add to Form a Given Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1786",
+      "slug": "number-of-restricted-paths-from-first-to-last-node",
+      "title": "Number of Restricted Paths From First to Last Node",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "graph",
+        "topological-sort",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1787",
+      "slug": "make-the-xor-of-all-segments-equal-to-zero",
+      "title": "Make the XOR of All Segments Equal to Zero",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "dynamic-programming",
+        "bit-manipulation",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1788",
+      "slug": "maximize-the-beauty-of-the-garden",
+      "title": "Maximize the Beauty of the Garden",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1789",
+      "slug": "primary-department-for-each-employee",
+      "title": "Primary Department for Each Employee",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1790",
+      "slug": "check-if-one-string-swap-can-make-strings-equal",
+      "title": "Check if One String Swap Can Make Strings Equal",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1791",
+      "slug": "find-center-of-star-graph",
+      "title": "Find Center of Star Graph",
+      "difficulty": "EASY",
+      "tags": [
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1792",
+      "slug": "maximum-average-pass-ratio",
+      "title": "Maximum Average Pass Ratio",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1793",
+      "slug": "maximum-score-of-a-good-subarray",
+      "title": "Maximum Score of a Good Subarray",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1794",
+      "slug": "count-pairs-of-equal-substrings-with-minimum-difference",
+      "title": "Count Pairs of Equal Substrings With Minimum Difference",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1795",
+      "slug": "rearrange-products-table",
+      "title": "Rearrange Products Table",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1796",
+      "slug": "second-largest-digit-in-a-string",
+      "title": "Second Largest Digit in a String",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1797",
+      "slug": "design-authentication-manager",
+      "title": "Design Authentication Manager",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "linked-list",
+        "design",
+        "doubly-linked-list"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1798",
+      "slug": "maximum-number-of-consecutive-values-you-can-make",
+      "title": "Maximum Number of Consecutive Values You Can Make",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1799",
+      "slug": "maximize-score-after-n-operations",
+      "title": "Maximize Score After N Operations",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "number-theory",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1800",
+      "slug": "maximum-ascending-subarray-sum",
+      "title": "Maximum Ascending Subarray Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1801",
+      "slug": "number-of-orders-in-the-backlog",
+      "title": "Number of Orders in the Backlog",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "heap-priority-queue",
+        "simulation"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

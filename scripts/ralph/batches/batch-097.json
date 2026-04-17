@@ -1,0 +1,260 @@
+{
+  "batchId": "batch-097",
+  "problems": [
+    {
+      "id": "2022",
+      "slug": "convert-1d-array-into-2d-array",
+      "title": "Convert 1D Array Into 2D Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2023",
+      "slug": "number-of-pairs-of-strings-with-concatenation-equal-to-target",
+      "title": "Number of Pairs of Strings With Concatenation Equal to Target",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2024",
+      "slug": "maximize-the-confusion-of-an-exam",
+      "title": "Maximize the Confusion of an Exam",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "binary-search",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2025",
+      "slug": "maximum-number-of-ways-to-partition-an-array",
+      "title": "Maximum Number of Ways to Partition an Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting",
+        "enumeration",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2026",
+      "slug": "low-quality-problems",
+      "title": "Low-Quality Problems",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2027",
+      "slug": "minimum-moves-to-convert-string",
+      "title": "Minimum Moves to Convert String",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2028",
+      "slug": "find-missing-observations",
+      "title": "Find Missing Observations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2029",
+      "slug": "stone-game-ix",
+      "title": "Stone Game IX",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "greedy",
+        "counting",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2030",
+      "slug": "smallest-k-length-subsequence-with-occurrences-of-a-letter",
+      "title": "Smallest K-Length Subsequence With Occurrences of a Letter",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "stack",
+        "greedy",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2031",
+      "slug": "count-subarrays-with-more-ones-than-zeros",
+      "title": "Count Subarrays With More Ones Than Zeros",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2032",
+      "slug": "two-out-of-three",
+      "title": "Two Out of Three",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2033",
+      "slug": "minimum-operations-to-make-a-uni-value-grid",
+      "title": "Minimum Operations to Make a Uni-Value Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "sorting",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2034",
+      "slug": "stock-price-fluctuation",
+      "title": "Stock Price Fluctuation ",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "design",
+        "heap-priority-queue",
+        "data-stream",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2035",
+      "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+      "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "dynamic-programming",
+        "bit-manipulation",
+        "sorting",
+        "ordered-set",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2036",
+      "slug": "maximum-alternating-subarray-sum",
+      "title": "Maximum Alternating Subarray Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2037",
+      "slug": "minimum-number-of-moves-to-seat-everyone",
+      "title": "Minimum Number of Moves to Seat Everyone",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "counting-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2038",
+      "slug": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+      "title": "Remove Colored Pieces if Both Neighbors are the Same Color",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "greedy",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2039",
+      "slug": "the-time-when-the-network-becomes-idle",
+      "title": "The Time When the Network Becomes Idle",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2040",
+      "slug": "kth-smallest-product-of-two-sorted-arrays",
+      "title": "Kth Smallest Product of Two Sorted Arrays",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2041",
+      "slug": "accepted-candidates-from-the-interviews",
+      "title": "Accepted Candidates From the Interviews",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "batchId": "batch-120",
+  "problems": [
+    {
+      "id": "2482",
+      "slug": "difference-between-ones-and-zeros-in-row-and-column",
+      "title": "Difference Between Ones and Zeros in Row and Column",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2483",
+      "slug": "minimum-penalty-for-a-shop",
+      "title": "Minimum Penalty for a Shop",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2484",
+      "slug": "count-palindromic-subsequences",
+      "title": "Count Palindromic Subsequences",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2485",
+      "slug": "find-the-pivot-integer",
+      "title": "Find the Pivot Integer",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2486",
+      "slug": "append-characters-to-string-to-make-subsequence",
+      "title": "Append Characters to String to Make Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2487",
+      "slug": "remove-nodes-from-linked-list",
+      "title": "Remove Nodes From Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "stack",
+        "recursion",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2488",
+      "slug": "count-subarrays-with-median-k",
+      "title": "Count Subarrays With Median K",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2489",
+      "slug": "number-of-substrings-with-fixed-ratio",
+      "title": "Number of Substrings With Fixed Ratio",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2490",
+      "slug": "circular-sentence",
+      "title": "Circular Sentence",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2491",
+      "slug": "divide-players-into-teams-of-equal-skill",
+      "title": "Divide Players Into Teams of Equal Skill",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2492",
+      "slug": "minimum-score-of-a-path-between-two-cities",
+      "title": "Minimum Score of a Path Between Two Cities",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2493",
+      "slug": "divide-nodes-into-the-maximum-number-of-groups",
+      "title": "Divide Nodes Into the Maximum Number of Groups",
+      "difficulty": "HARD",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2494",
+      "slug": "merge-overlapping-events-in-the-same-hall",
+      "title": "Merge Overlapping Events in the Same Hall",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2495",
+      "slug": "number-of-subarrays-having-even-product",
+      "title": "Number of Subarrays Having Even Product",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2496",
+      "slug": "maximum-value-of-a-string-in-an-array",
+      "title": "Maximum Value of a String in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2497",
+      "slug": "maximum-star-sum-of-a-graph",
+      "title": "Maximum Star Sum of a Graph",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "graph",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2498",
+      "slug": "frog-jump-ii",
+      "title": "Frog Jump II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2499",
+      "slug": "minimum-total-cost-to-make-arrays-unequal",
+      "title": "Minimum Total Cost to Make Arrays Unequal",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2500",
+      "slug": "delete-greatest-value-in-each-row",
+      "title": "Delete Greatest Value in Each Row",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2501",
+      "slug": "longest-square-streak-in-an-array",
+      "title": "Longest Square Streak in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

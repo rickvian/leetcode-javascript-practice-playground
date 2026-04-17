@@ -1,0 +1,261 @@
+{
+  "batchId": "batch-041",
+  "problems": [
+    {
+      "id": "0900",
+      "slug": "rle-iterator",
+      "title": "RLE Iterator",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "design",
+        "counting",
+        "iterator"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0901",
+      "slug": "online-stock-span",
+      "title": "Online Stock Span",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "stack",
+        "design",
+        "monotonic-stack",
+        "data-stream"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0902",
+      "slug": "numbers-at-most-n-given-digit-set",
+      "title": "Numbers At Most N Given Digit Set",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "string",
+        "binary-search",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0903",
+      "slug": "valid-permutations-for-di-sequence",
+      "title": "Valid Permutations for DI Sequence",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0904",
+      "slug": "fruit-into-baskets",
+      "title": "Fruit Into Baskets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0905",
+      "slug": "sort-array-by-parity",
+      "title": "Sort Array By Parity",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0906",
+      "slug": "super-palindromes",
+      "title": "Super Palindromes",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0907",
+      "slug": "sum-of-subarray-minimums",
+      "title": "Sum of Subarray Minimums",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0908",
+      "slug": "smallest-range-i",
+      "title": "Smallest Range I",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0909",
+      "slug": "snakes-and-ladders",
+      "title": "Snakes and Ladders",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0910",
+      "slug": "smallest-range-ii",
+      "title": "Smallest Range II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0911",
+      "slug": "online-election",
+      "title": "Online Election",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "design"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0912",
+      "slug": "sort-an-array",
+      "title": "Sort an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "sorting",
+        "heap-priority-queue",
+        "merge-sort",
+        "bucket-sort",
+        "radix-sort",
+        "counting-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0913",
+      "slug": "cat-and-mouse",
+      "title": "Cat and Mouse",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "graph",
+        "topological-sort",
+        "memoization",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0914",
+      "slug": "x-of-a-kind-in-a-deck-of-cards",
+      "title": "X of a Kind in a Deck of Cards",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "counting",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0915",
+      "slug": "partition-array-into-disjoint-intervals",
+      "title": "Partition Array into Disjoint Intervals",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0916",
+      "slug": "word-subsets",
+      "title": "Word Subsets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0917",
+      "slug": "reverse-only-letters",
+      "title": "Reverse Only Letters",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0918",
+      "slug": "maximum-sum-circular-subarray",
+      "title": "Maximum Sum Circular Subarray",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "dynamic-programming",
+        "queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0919",
+      "slug": "complete-binary-tree-inserter",
+      "title": "Complete Binary Tree Inserter",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "breadth-first-search",
+        "design",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

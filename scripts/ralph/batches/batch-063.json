@@ -1,0 +1,249 @@
+{
+  "batchId": "batch-063",
+  "problems": [
+    {
+      "id": "1342",
+      "slug": "number-of-steps-to-reduce-a-number-to-zero",
+      "title": "Number of Steps to Reduce a Number to Zero",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1343",
+      "slug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+      "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1344",
+      "slug": "angle-between-hands-of-a-clock",
+      "title": "Angle Between Hands of a Clock",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1345",
+      "slug": "jump-game-iv",
+      "title": "Jump Game IV",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1346",
+      "slug": "check-if-n-and-its-double-exist",
+      "title": "Check If N and Its Double Exist",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1347",
+      "slug": "minimum-number-of-steps-to-make-two-strings-anagram",
+      "title": "Minimum Number of Steps to Make Two Strings Anagram",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1348",
+      "slug": "tweet-counts-per-frequency",
+      "title": "Tweet Counts Per Frequency",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "binary-search",
+        "design",
+        "sorting",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1349",
+      "slug": "maximum-students-taking-exam",
+      "title": "Maximum Students Taking Exam",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "matrix",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1350",
+      "slug": "students-with-invalid-departments",
+      "title": "Students With Invalid Departments",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1351",
+      "slug": "count-negative-numbers-in-a-sorted-matrix",
+      "title": "Count Negative Numbers in a Sorted Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1352",
+      "slug": "product-of-the-last-k-numbers",
+      "title": "Product of the Last K Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "design",
+        "data-stream",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1353",
+      "slug": "maximum-number-of-events-that-can-be-attended",
+      "title": "Maximum Number of Events That Can Be Attended",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1354",
+      "slug": "construct-target-array-with-multiple-sums",
+      "title": "Construct Target Array With Multiple Sums",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1355",
+      "slug": "activity-participants",
+      "title": "Activity Participants",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1356",
+      "slug": "sort-integers-by-the-number-of-1-bits",
+      "title": "Sort Integers by The Number of 1 Bits",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1357",
+      "slug": "apply-discount-every-n-orders",
+      "title": "Apply Discount Every n Orders",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "design"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1358",
+      "slug": "number-of-substrings-containing-all-three-characters",
+      "title": "Number of Substrings Containing All Three Characters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1359",
+      "slug": "count-all-valid-pickup-and-delivery-options",
+      "title": "Count All Valid Pickup and Delivery Options",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1360",
+      "slug": "number-of-days-between-two-dates",
+      "title": "Number of Days Between Two Dates",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1361",
+      "slug": "validate-binary-tree-nodes",
+      "title": "Validate Binary Tree Nodes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

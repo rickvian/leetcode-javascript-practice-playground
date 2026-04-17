@@ -1,0 +1,256 @@
+{
+  "batchId": "batch-095",
+  "problems": [
+    {
+      "id": "1982",
+      "slug": "find-array-given-subset-sums",
+      "title": "Find Array Given Subset Sums",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "divide-and-conquer"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1983",
+      "slug": "widest-pair-of-indices-with-equal-range-sum",
+      "title": "Widest Pair of Indices With Equal Range Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1984",
+      "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
+      "title": "Minimum Difference Between Highest and Lowest of K Scores",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sliding-window",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1985",
+      "slug": "find-the-kth-largest-integer-in-the-array",
+      "title": "Find the Kth Largest Integer in the Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "divide-and-conquer",
+        "sorting",
+        "heap-priority-queue",
+        "quickselect"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1986",
+      "slug": "minimum-number-of-work-sessions-to-finish-the-tasks",
+      "title": "Minimum Number of Work Sessions to Finish the Tasks",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1987",
+      "slug": "number-of-unique-good-subsequences",
+      "title": "Number of Unique Good Subsequences",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1988",
+      "slug": "find-cutoff-score-for-each-school",
+      "title": "Find Cutoff Score for Each School",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1989",
+      "slug": "maximum-number-of-people-that-can-be-caught-in-tag",
+      "title": "Maximum Number of People That Can Be Caught in Tag",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1990",
+      "slug": "count-the-number-of-experiments",
+      "title": "Count the Number of Experiments",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1991",
+      "slug": "find-the-middle-index-in-array",
+      "title": "Find the Middle Index in Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1992",
+      "slug": "find-all-groups-of-farmland",
+      "title": "Find All Groups of Farmland",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1993",
+      "slug": "operations-on-tree",
+      "title": "Operations on Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "design"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1994",
+      "slug": "the-number-of-good-subsets",
+      "title": "The Number of Good Subsets",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "dynamic-programming",
+        "bit-manipulation",
+        "counting",
+        "number-theory",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1995",
+      "slug": "count-special-quadruplets",
+      "title": "Count Special Quadruplets",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1996",
+      "slug": "the-number-of-weak-characters-in-the-game",
+      "title": "The Number of Weak Characters in the Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "greedy",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1997",
+      "slug": "first-day-where-you-have-been-in-all-the-rooms",
+      "title": "First Day Where You Have Been in All the Rooms",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1998",
+      "slug": "gcd-sort-of-an-array",
+      "title": "GCD Sort of an Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "union-find",
+        "sorting",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1999",
+      "slug": "smallest-greater-multiple-made-of-two-digits",
+      "title": "Smallest Greater Multiple Made of Two Digits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2000",
+      "slug": "reverse-prefix-of-word",
+      "title": "Reverse Prefix of Word",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2001",
+      "slug": "number-of-pairs-of-interchangeable-rectangles",
+      "title": "Number of Pairs of Interchangeable Rectangles",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "counting",
+        "number-theory"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

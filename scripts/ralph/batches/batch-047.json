@@ -1,0 +1,254 @@
+{
+  "batchId": "batch-047",
+  "problems": [
+    {
+      "id": "1021",
+      "slug": "remove-outermost-parentheses",
+      "title": "Remove Outermost Parentheses",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1022",
+      "slug": "sum-of-root-to-leaf-binary-numbers",
+      "title": "Sum of Root To Leaf Binary Numbers",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1023",
+      "slug": "camelcase-matching",
+      "title": "Camelcase Matching",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string",
+        "trie",
+        "string-matching"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1024",
+      "slug": "video-stitching",
+      "title": "Video Stitching",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1025",
+      "slug": "divisor-game",
+      "title": "Divisor Game",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "brainteaser",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1026",
+      "slug": "maximum-difference-between-node-and-ancestor",
+      "title": "Maximum Difference Between Node and Ancestor",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1027",
+      "slug": "longest-arithmetic-subsequence",
+      "title": "Longest Arithmetic Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1028",
+      "slug": "recover-a-tree-from-preorder-traversal",
+      "title": "Recover a Tree From Preorder Traversal",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1029",
+      "slug": "two-city-scheduling",
+      "title": "Two City Scheduling",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1030",
+      "slug": "matrix-cells-in-distance-order",
+      "title": "Matrix Cells in Distance Order",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "geometry",
+        "sorting",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1031",
+      "slug": "maximum-sum-of-two-non-overlapping-subarrays",
+      "title": "Maximum Sum of Two Non-Overlapping Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1032",
+      "slug": "stream-of-characters",
+      "title": "Stream of Characters",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "design",
+        "trie",
+        "data-stream"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1033",
+      "slug": "moving-stones-until-consecutive",
+      "title": "Moving Stones Until Consecutive",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "brainteaser"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1034",
+      "slug": "coloring-a-border",
+      "title": "Coloring A Border",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1035",
+      "slug": "uncrossed-lines",
+      "title": "Uncrossed Lines",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1036",
+      "slug": "escape-a-large-maze",
+      "title": "Escape a Large Maze",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1037",
+      "slug": "valid-boomerang",
+      "title": "Valid Boomerang",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1038",
+      "slug": "binary-search-tree-to-greater-sum-tree",
+      "title": "Binary Search Tree to Greater Sum Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1039",
+      "slug": "minimum-score-triangulation-of-polygon",
+      "title": "Minimum Score Triangulation of Polygon",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1040",
+      "slug": "moving-stones-until-consecutive-ii",
+      "title": "Moving Stones Until Consecutive II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "sliding-window",
+        "sorting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

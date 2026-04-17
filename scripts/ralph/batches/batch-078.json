@@ -1,0 +1,258 @@
+{
+  "batchId": "batch-078",
+  "problems": [
+    {
+      "id": "1642",
+      "slug": "furthest-building-you-can-reach",
+      "title": "Furthest Building You Can Reach",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1643",
+      "slug": "kth-smallest-instructions",
+      "title": "Kth Smallest Instructions",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1644",
+      "slug": "lowest-common-ancestor-of-a-binary-tree-ii",
+      "title": "Lowest Common Ancestor of a Binary Tree II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1645",
+      "slug": "hopper-company-queries-ii",
+      "title": "Hopper Company Queries II",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1646",
+      "slug": "get-maximum-in-generated-array",
+      "title": "Get Maximum in Generated Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1647",
+      "slug": "minimum-deletions-to-make-character-frequencies-unique",
+      "title": "Minimum Deletions to Make Character Frequencies Unique",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1648",
+      "slug": "sell-diminishing-valued-colored-balls",
+      "title": "Sell Diminishing-Valued Colored Balls",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "binary-search",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1649",
+      "slug": "create-sorted-array-through-instructions",
+      "title": "Create Sorted Array through Instructions",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1650",
+      "slug": "lowest-common-ancestor-of-a-binary-tree-iii",
+      "title": "Lowest Common Ancestor of a Binary Tree III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "two-pointers",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1651",
+      "slug": "hopper-company-queries-iii",
+      "title": "Hopper Company Queries III",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1652",
+      "slug": "defuse-the-bomb",
+      "title": "Defuse the Bomb",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1653",
+      "slug": "minimum-deletions-to-make-string-balanced",
+      "title": "Minimum Deletions to Make String Balanced",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1654",
+      "slug": "minimum-jumps-to-reach-home",
+      "title": "Minimum Jumps to Reach Home",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1655",
+      "slug": "distribute-repeating-integers",
+      "title": "Distribute Repeating Integers",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "counting",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1656",
+      "slug": "design-an-ordered-stream",
+      "title": "Design an Ordered Stream",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "design",
+        "data-stream"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1657",
+      "slug": "determine-if-two-strings-are-close",
+      "title": "Determine if Two Strings Are Close",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1658",
+      "slug": "minimum-operations-to-reduce-x-to-zero",
+      "title": "Minimum Operations to Reduce X to Zero",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1659",
+      "slug": "maximize-grid-happiness",
+      "title": "Maximize Grid Happiness",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "bit-manipulation",
+        "memoization",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1660",
+      "slug": "correct-a-binary-tree",
+      "title": "Correct a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1661",
+      "slug": "average-time-of-process-per-machine",
+      "title": "Average Time of Process per Machine",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

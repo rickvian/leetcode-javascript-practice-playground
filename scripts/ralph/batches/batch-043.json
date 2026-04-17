@@ -1,0 +1,255 @@
+{
+  "batchId": "batch-043",
+  "problems": [
+    {
+      "id": "0940",
+      "slug": "distinct-subsequences-ii",
+      "title": "Distinct Subsequences II",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0941",
+      "slug": "valid-mountain-array",
+      "title": "Valid Mountain Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0942",
+      "slug": "di-string-match",
+      "title": "DI String Match",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0943",
+      "slug": "find-the-shortest-superstring",
+      "title": "Find the Shortest Superstring",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0944",
+      "slug": "delete-columns-to-make-sorted",
+      "title": "Delete Columns to Make Sorted",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0945",
+      "slug": "minimum-increment-to-make-array-unique",
+      "title": "Minimum Increment to Make Array Unique",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0946",
+      "slug": "validate-stack-sequences",
+      "title": "Validate Stack Sequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0947",
+      "slug": "most-stones-removed-with-same-row-or-column",
+      "title": "Most Stones Removed with Same Row or Column",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "depth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0948",
+      "slug": "bag-of-tokens",
+      "title": "Bag of Tokens",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0949",
+      "slug": "largest-time-for-given-digits",
+      "title": "Largest Time for Given Digits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "backtracking",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0950",
+      "slug": "reveal-cards-in-increasing-order",
+      "title": "Reveal Cards In Increasing Order",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "queue",
+        "sorting",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0951",
+      "slug": "flip-equivalent-binary-trees",
+      "title": "Flip Equivalent Binary Trees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0952",
+      "slug": "largest-component-size-by-common-factor",
+      "title": "Largest Component Size by Common Factor",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "union-find",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0953",
+      "slug": "verifying-an-alien-dictionary",
+      "title": "Verifying an Alien Dictionary",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0954",
+      "slug": "array-of-doubled-pairs",
+      "title": "Array of Doubled Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0955",
+      "slug": "delete-columns-to-make-sorted-ii",
+      "title": "Delete Columns to Make Sorted II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0956",
+      "slug": "tallest-billboard",
+      "title": "Tallest Billboard",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0957",
+      "slug": "prison-cells-after-n-days",
+      "title": "Prison Cells After N Days",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0958",
+      "slug": "check-completeness-of-a-binary-tree",
+      "title": "Check Completeness of a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0959",
+      "slug": "regions-cut-by-slashes",
+      "title": "Regions Cut By Slashes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

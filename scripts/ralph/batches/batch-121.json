@@ -1,0 +1,256 @@
+{
+  "batchId": "batch-121",
+  "problems": [
+    {
+      "id": "2502",
+      "slug": "design-memory-allocator",
+      "title": "Design Memory Allocator",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "design",
+        "simulation"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "2503",
+      "slug": "maximum-number-of-points-from-grid-queries",
+      "title": "Maximum Number of Points From Grid Queries",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "breadth-first-search",
+        "union-find",
+        "sorting",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2504",
+      "slug": "concatenate-the-name-and-the-profession",
+      "title": "Concatenate the Name and the Profession",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2505",
+      "slug": "bitwise-or-of-all-subsequence-sums",
+      "title": "Bitwise OR of All Subsequence Sums",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "bit-manipulation",
+        "brainteaser",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2506",
+      "slug": "count-pairs-of-similar-strings",
+      "title": "Count Pairs Of Similar Strings",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2507",
+      "slug": "smallest-value-after-replacing-with-sum-of-prime-factors",
+      "title": "Smallest Value After Replacing With Sum of Prime Factors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "simulation",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2508",
+      "slug": "add-edges-to-make-degrees-of-all-nodes-even",
+      "title": "Add Edges to Make Degrees of All Nodes Even",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2509",
+      "slug": "cycle-length-queries-in-a-tree",
+      "title": "Cycle Length Queries in a Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2510",
+      "slug": "check-if-there-is-a-path-with-equal-number-of-0s-and-1s",
+      "title": "Check if There is a Path With Equal Number of 0's And 1's",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2511",
+      "slug": "maximum-enemy-forts-that-can-be-captured",
+      "title": "Maximum Enemy Forts That Can Be Captured",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2512",
+      "slug": "reward-top-k-students",
+      "title": "Reward Top K Students",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2513",
+      "slug": "minimize-the-maximum-of-two-arrays",
+      "title": "Minimize the Maximum of Two Arrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "binary-search",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2514",
+      "slug": "count-anagrams",
+      "title": "Count Anagrams",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "combinatorics",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2515",
+      "slug": "shortest-distance-to-target-string-in-a-circular-array",
+      "title": "Shortest Distance to Target String in a Circular Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2516",
+      "slug": "take-k-of-each-character-from-left-and-right",
+      "title": "Take K of Each Character From Left and Right",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2517",
+      "slug": "maximum-tastiness-of-candy-basket",
+      "title": "Maximum Tastiness of Candy Basket",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2518",
+      "slug": "number-of-great-partitions",
+      "title": "Number of Great Partitions",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2519",
+      "slug": "count-the-number-of-k-big-indices",
+      "title": "Count the Number of K-Big Indices",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2520",
+      "slug": "count-the-digits-that-divide-a-number",
+      "title": "Count the Digits That Divide a Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2521",
+      "slug": "distinct-prime-factors-of-product-of-array",
+      "title": "Distinct Prime Factors of Product of Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

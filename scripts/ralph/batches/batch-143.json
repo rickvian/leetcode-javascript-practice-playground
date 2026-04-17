@@ -1,0 +1,258 @@
+{
+  "batchId": "batch-143",
+  "problems": [
+    {
+      "id": "2942",
+      "slug": "find-words-containing-character",
+      "title": "Find Words Containing Character",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2943",
+      "slug": "maximize-area-of-square-hole-in-grid",
+      "title": "Maximize Area of Square Hole in Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2944",
+      "slug": "minimum-number-of-coins-for-fruits",
+      "title": "Minimum Number of Coins for Fruits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "queue",
+        "heap-priority-queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2945",
+      "slug": "find-maximum-non-decreasing-array-length",
+      "title": "Find Maximum Non-decreasing Array Length",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "stack",
+        "queue",
+        "monotonic-stack",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2946",
+      "slug": "matrix-similarity-after-cyclic-shifts",
+      "title": "Matrix Similarity After Cyclic Shifts",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2947",
+      "slug": "count-beautiful-substrings-i",
+      "title": "Count Beautiful Substrings I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "enumeration",
+        "number-theory",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2948",
+      "slug": "make-lexicographically-smallest-array-by-swapping-elements",
+      "title": "Make Lexicographically Smallest Array by Swapping Elements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "union-find",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2949",
+      "slug": "count-beautiful-substrings-ii",
+      "title": "Count Beautiful Substrings II",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "number-theory",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2950",
+      "slug": "number-of-divisible-substrings",
+      "title": "Number of Divisible Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2951",
+      "slug": "find-the-peaks",
+      "title": "Find the Peaks",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2952",
+      "slug": "minimum-number-of-coins-to-be-added",
+      "title": "Minimum Number of Coins to be Added",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2953",
+      "slug": "count-complete-substrings",
+      "title": "Count Complete Substrings",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2954",
+      "slug": "count-the-number-of-infection-sequences",
+      "title": "Count the Number of Infection Sequences",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2955",
+      "slug": "number-of-same-end-substrings",
+      "title": "Number of Same-End Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "counting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2956",
+      "slug": "find-common-elements-between-two-arrays",
+      "title": "Find Common Elements Between Two Arrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2957",
+      "slug": "remove-adjacent-almost-equal-characters",
+      "title": "Remove Adjacent Almost-Equal Characters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2958",
+      "slug": "length-of-longest-subarray-with-at-most-k-frequency",
+      "title": "Length of Longest Subarray With at Most K Frequency",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2959",
+      "slug": "number-of-possible-sets-of-closing-branches",
+      "title": "Number of Possible Sets of Closing Branches",
+      "difficulty": "HARD",
+      "tags": [
+        "bit-manipulation",
+        "graph",
+        "heap-priority-queue",
+        "enumeration",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2960",
+      "slug": "count-tested-devices-after-test-operations",
+      "title": "Count Tested Devices After Test Operations",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2961",
+      "slug": "double-modular-exponentiation",
+      "title": "Double Modular Exponentiation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

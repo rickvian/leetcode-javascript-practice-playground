@@ -1,0 +1,239 @@
+{
+  "batchId": "batch-101",
+  "problems": [
+    {
+      "id": "2102",
+      "slug": "sequentially-ordinal-rank-tracker",
+      "title": "Sequentially Ordinal Rank Tracker",
+      "difficulty": "HARD",
+      "tags": [
+        "design",
+        "heap-priority-queue",
+        "data-stream",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2103",
+      "slug": "rings-and-rods",
+      "title": "Rings and Rods",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2104",
+      "slug": "sum-of-subarray-ranges",
+      "title": "Sum of Subarray Ranges",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2105",
+      "slug": "watering-plants-ii",
+      "title": "Watering Plants II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2106",
+      "slug": "maximum-fruits-harvested-after-at-most-k-steps",
+      "title": "Maximum Fruits Harvested After at Most K Steps",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2107",
+      "slug": "number-of-unique-flavors-after-sharing-k-candies",
+      "title": "Number of Unique Flavors After Sharing K Candies",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2108",
+      "slug": "find-first-palindromic-string-in-the-array",
+      "title": "Find First Palindromic String in the Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2109",
+      "slug": "adding-spaces-to-a-string",
+      "title": "Adding Spaces to a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2110",
+      "slug": "number-of-smooth-descent-periods-of-a-stock",
+      "title": "Number of Smooth Descent Periods of a Stock",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "two-pointers",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2111",
+      "slug": "minimum-operations-to-make-the-array-k-increasing",
+      "title": "Minimum Operations to Make the Array K-Increasing",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2112",
+      "slug": "the-airport-with-the-most-traffic",
+      "title": "The Airport With the Most Traffic",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2113",
+      "slug": "elements-in-array-after-removing-and-replacing-elements",
+      "title": "Elements in Array After Removing and Replacing Elements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2114",
+      "slug": "maximum-number-of-words-found-in-sentences",
+      "title": "Maximum Number of Words Found in Sentences",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2115",
+      "slug": "find-all-possible-recipes-from-given-supplies",
+      "title": "Find All Possible Recipes from Given Supplies",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2116",
+      "slug": "check-if-a-parentheses-string-can-be-valid",
+      "title": "Check if a Parentheses String Can Be Valid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2117",
+      "slug": "abbreviating-the-product-of-a-range",
+      "title": "Abbreviating the Product of a Range",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2118",
+      "slug": "build-the-equation",
+      "title": "Build the Equation",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2119",
+      "slug": "a-number-after-a-double-reversal",
+      "title": "A Number After a Double Reversal",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2120",
+      "slug": "execution-of-all-suffix-instructions-staying-in-a-grid",
+      "title": "Execution of All Suffix Instructions Staying in a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2121",
+      "slug": "intervals-between-identical-elements",
+      "title": "Intervals Between Identical Elements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

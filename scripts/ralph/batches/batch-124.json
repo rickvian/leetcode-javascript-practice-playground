@@ -1,0 +1,254 @@
+{
+  "batchId": "batch-124",
+  "problems": [
+    {
+      "id": "2562",
+      "slug": "find-the-array-concatenation-value",
+      "title": "Find the Array Concatenation Value",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2563",
+      "slug": "count-the-number-of-fair-pairs",
+      "title": "Count the Number of Fair Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2564",
+      "slug": "substring-xor-queries",
+      "title": "Substring XOR Queries",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2565",
+      "slug": "subsequence-with-the-minimum-score",
+      "title": "Subsequence With the Minimum Score",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "string",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2566",
+      "slug": "maximum-difference-by-remapping-a-digit",
+      "title": "Maximum Difference by Remapping a Digit",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2567",
+      "slug": "minimum-score-by-changing-two-elements",
+      "title": "Minimum Score by Changing Two Elements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2568",
+      "slug": "minimum-impossible-or",
+      "title": "Minimum Impossible OR",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "brainteaser"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2569",
+      "slug": "handling-sum-queries-after-update",
+      "title": "Handling Sum Queries After Update",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "segment-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2570",
+      "slug": "merge-two-2d-arrays-by-summing-values",
+      "title": "Merge Two 2D Arrays by Summing Values",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2571",
+      "slug": "minimum-operations-to-reduce-an-integer-to-0",
+      "title": "Minimum Operations to Reduce an Integer to 0",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "greedy",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2572",
+      "slug": "count-the-number-of-square-free-subsets",
+      "title": "Count the Number of Square-Free Subsets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "bit-manipulation",
+        "number-theory",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2573",
+      "slug": "find-the-string-with-lcp",
+      "title": "Find the String with LCP",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming",
+        "greedy",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2574",
+      "slug": "left-and-right-sum-differences",
+      "title": "Left and Right Sum Differences",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2575",
+      "slug": "find-the-divisibility-array-of-a-string",
+      "title": "Find the Divisibility Array of a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2576",
+      "slug": "find-the-maximum-number-of-marked-indices",
+      "title": "Find the Maximum Number of Marked Indices",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2577",
+      "slug": "minimum-time-to-visit-a-cell-in-a-grid",
+      "title": "Minimum Time to Visit a Cell In a Grid",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "matrix",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2578",
+      "slug": "split-with-minimum-sum",
+      "title": "Split With Minimum Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2579",
+      "slug": "count-total-number-of-colored-cells",
+      "title": "Count Total Number of Colored Cells",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2580",
+      "slug": "count-ways-to-group-overlapping-ranges",
+      "title": "Count Ways to Group Overlapping Ranges",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2581",
+      "slug": "count-number-of-possible-root-nodes",
+      "title": "Count Number of Possible Root Nodes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "dynamic-programming",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    }
+  ]
+}
