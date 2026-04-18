@@ -54,4 +54,37 @@ describe('0271-encode-and-decode-strings', () => {
         const encoded = encode(strs);
         expect(decode(encoded)).toEqual(strs);
     });
+
+    it('should handle strings with whitespace (tabs, newlines)', () => {
+        const strs = ['hello\tworld', 'line1\nline2', ' leading', 'trailing '];
+        const encoded = encode(strs);
+        expect(decode(encoded)).toEqual(strs);
+    });
+
+    it('should handle very long strings', () => {
+        const longStr = 'a'.repeat(10000);
+        const strs = [longStr, 'short', longStr];
+        const encoded = encode(strs);
+        expect(decode(encoded)).toEqual(strs);
+    });
+
+    it('should handle consecutive empty strings', () => {
+        const strs = ['', '', '', 'content', ''];
+        const encoded = encode(strs);
+        expect(decode(encoded)).toEqual(strs);
+    });
+
+    it('should handle strings with numbers and symbols that could be misinterpreted', () => {
+        const strs = ['123', '#', '##', '123#456#789'];
+        const encoded = encode(strs);
+        expect(decode(encoded)).toEqual(strs);
+    });
+
+    it('should preserve exact string order and content', () => {
+        const strs = ['a', 'b', 'a', 'b'];  // repeated strings
+        const encoded = encode(strs);
+        const decoded = decode(encoded);
+        expect(decoded).toEqual(strs);
+        expect(decoded.length).toBe(4);
+    });
 });
