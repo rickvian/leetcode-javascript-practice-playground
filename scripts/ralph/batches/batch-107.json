@@ -1,0 +1,238 @@
+{
+  "batchId": "batch-107",
+  "problems": [
+    {
+      "id": "2222",
+      "slug": "number-of-ways-to-select-buildings",
+      "title": "Number of Ways to Select Buildings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2223",
+      "slug": "sum-of-scores-of-built-strings",
+      "title": "Sum of Scores of Built Strings",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "binary-search",
+        "rolling-hash",
+        "suffix-array",
+        "string-matching",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2224",
+      "slug": "minimum-number-of-operations-to-convert-time",
+      "title": "Minimum Number of Operations to Convert Time",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2225",
+      "slug": "find-players-with-zero-or-one-losses",
+      "title": "Find Players With Zero or One Losses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2226",
+      "slug": "maximum-candies-allocated-to-k-children",
+      "title": "Maximum Candies Allocated to K Children",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2227",
+      "slug": "encrypt-and-decrypt-strings",
+      "title": "Encrypt and Decrypt Strings",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "design",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2228",
+      "slug": "users-with-two-purchases-within-seven-days",
+      "title": "Users With Two Purchases Within Seven Days",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2229",
+      "slug": "check-if-an-array-is-consecutive",
+      "title": "Check if an Array Is Consecutive",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2230",
+      "slug": "the-users-that-are-eligible-for-discount",
+      "title": "The Users That Are Eligible for Discount",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2231",
+      "slug": "largest-number-after-digit-swaps-by-parity",
+      "title": "Largest Number After Digit Swaps by Parity",
+      "difficulty": "EASY",
+      "tags": [
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2232",
+      "slug": "minimize-result-by-adding-parentheses-to-expression",
+      "title": "Minimize Result by Adding Parentheses to Expression",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2233",
+      "slug": "maximum-product-after-k-increments",
+      "title": "Maximum Product After K Increments",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2234",
+      "slug": "maximum-total-beauty-of-the-gardens",
+      "title": "Maximum Total Beauty of the Gardens",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "greedy",
+        "sorting",
+        "enumeration",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2235",
+      "slug": "add-two-integers",
+      "title": "Add Two Integers",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2236",
+      "slug": "root-equals-sum-of-children",
+      "title": "Root Equals Sum of Children",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2237",
+      "slug": "count-positions-on-street-with-required-brightness",
+      "title": "Count Positions on Street With Required Brightness",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2238",
+      "slug": "number-of-times-a-driver-was-a-passenger",
+      "title": "Number of Times a Driver Was a Passenger",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2239",
+      "slug": "find-closest-number-to-zero",
+      "title": "Find Closest Number to Zero",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2240",
+      "slug": "number-of-ways-to-buy-pens-and-pencils",
+      "title": "Number of Ways to Buy Pens and Pencils",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2241",
+      "slug": "design-an-atm-machine",
+      "title": "Design an ATM Machine",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "design"
+      ],
+      "classHeavy": true
+    }
+  ]
+}

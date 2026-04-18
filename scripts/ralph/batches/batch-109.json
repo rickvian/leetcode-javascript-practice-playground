@@ -1,0 +1,253 @@
+{
+  "batchId": "batch-109",
+  "problems": [
+    {
+      "id": "2262",
+      "slug": "total-appeal-of-a-string",
+      "title": "Total Appeal of A String",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2263",
+      "slug": "make-array-non-decreasing-or-non-increasing",
+      "title": "Make Array Non-decreasing or Non-increasing",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2264",
+      "slug": "largest-3-same-digit-number-in-string",
+      "title": "Largest 3-Same-Digit Number in String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2265",
+      "slug": "count-nodes-equal-to-average-of-subtree",
+      "title": "Count Nodes Equal to Average of Subtree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2266",
+      "slug": "count-number-of-texts",
+      "title": "Count Number of Texts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2267",
+      "slug": "check-if-there-is-a-valid-parentheses-string-path",
+      "title": " Check if There Is a Valid Parentheses String Path",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2268",
+      "slug": "minimum-number-of-keypresses",
+      "title": "Minimum Number of Keypresses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2269",
+      "slug": "find-the-k-beauty-of-a-number",
+      "title": "Find the K-Beauty of a Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2270",
+      "slug": "number-of-ways-to-split-array",
+      "title": "Number of Ways to Split Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2271",
+      "slug": "maximum-white-tiles-covered-by-a-carpet",
+      "title": "Maximum White Tiles Covered by a Carpet",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "sliding-window",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2272",
+      "slug": "substring-with-largest-variance",
+      "title": "Substring With Largest Variance",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2273",
+      "slug": "find-resultant-array-after-removing-anagrams",
+      "title": "Find Resultant Array After Removing Anagrams",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2274",
+      "slug": "maximum-consecutive-floors-without-special-floors",
+      "title": "Maximum Consecutive Floors Without Special Floors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2275",
+      "slug": "largest-combination-with-bitwise-and-greater-than-zero",
+      "title": "Largest Combination With Bitwise AND Greater Than Zero",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2276",
+      "slug": "count-integers-in-intervals",
+      "title": "Count Integers in Intervals",
+      "difficulty": "HARD",
+      "tags": [
+        "design",
+        "segment-tree",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2277",
+      "slug": "closest-node-to-path-in-tree",
+      "title": "Closest Node to Path in Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2278",
+      "slug": "percentage-of-letter-in-string",
+      "title": "Percentage of Letter in String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2279",
+      "slug": "maximum-bags-with-full-capacity-of-rocks",
+      "title": "Maximum Bags With Full Capacity of Rocks",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2280",
+      "slug": "minimum-lines-to-represent-a-line-chart",
+      "title": "Minimum Lines to Represent a Line Chart",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "geometry",
+        "sorting",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2281",
+      "slug": "sum-of-total-strength-of-wizards",
+      "title": "Sum of Total Strength of Wizards",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

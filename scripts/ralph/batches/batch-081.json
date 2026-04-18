@@ -1,0 +1,236 @@
+{
+  "batchId": "batch-081",
+  "problems": [
+    {
+      "id": "1702",
+      "slug": "maximum-binary-string-after-change",
+      "title": "Maximum Binary String After Change",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1703",
+      "slug": "minimum-adjacent-swaps-for-k-consecutive-ones",
+      "title": "Minimum Adjacent Swaps for K Consecutive Ones",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1704",
+      "slug": "determine-if-string-halves-are-alike",
+      "title": "Determine if String Halves Are Alike",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1705",
+      "slug": "maximum-number-of-eaten-apples",
+      "title": "Maximum Number of Eaten Apples",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1706",
+      "slug": "where-will-the-ball-fall",
+      "title": "Where Will the Ball Fall",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1707",
+      "slug": "maximum-xor-with-an-element-from-array",
+      "title": "Maximum XOR With an Element From Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1708",
+      "slug": "largest-subarray-length-k",
+      "title": "Largest Subarray Length K",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1709",
+      "slug": "biggest-window-between-visits",
+      "title": "Biggest Window Between Visits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1710",
+      "slug": "maximum-units-on-a-truck",
+      "title": "Maximum Units on a Truck",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1711",
+      "slug": "count-good-meals",
+      "title": "Count Good Meals",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1712",
+      "slug": "ways-to-split-array-into-three-subarrays",
+      "title": "Ways to Split Array Into Three Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1713",
+      "slug": "minimum-operations-to-make-a-subsequence",
+      "title": "Minimum Operations to Make a Subsequence",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1714",
+      "slug": "sum-of-special-evenly-spaced-elements-in-array",
+      "title": "Sum Of Special Evenly-Spaced Elements In Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1715",
+      "slug": "count-apples-and-oranges",
+      "title": "Count Apples and Oranges",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1716",
+      "slug": "calculate-money-in-leetcode-bank",
+      "title": "Calculate Money in Leetcode Bank",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1717",
+      "slug": "maximum-score-from-removing-substrings",
+      "title": "Maximum Score From Removing Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1718",
+      "slug": "construct-the-lexicographically-largest-valid-sequence",
+      "title": "Construct the Lexicographically Largest Valid Sequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1719",
+      "slug": "number-of-ways-to-reconstruct-a-tree",
+      "title": "Number Of Ways To Reconstruct A Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "graph",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1720",
+      "slug": "decode-xored-array",
+      "title": "Decode XORed Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1721",
+      "slug": "swapping-nodes-in-a-linked-list",
+      "title": "Swapping Nodes in a Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

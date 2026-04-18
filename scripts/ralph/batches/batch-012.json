@@ -1,0 +1,257 @@
+{
+  "batchId": "batch-012",
+  "problems": [
+    {
+      "id": "0305",
+      "slug": "number-of-islands-ii",
+      "title": "Number of Islands II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "union-find"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0306",
+      "slug": "additive-number",
+      "title": "Additive Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0307",
+      "slug": "range-sum-query-mutable",
+      "title": "Range Sum Query - Mutable",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "design",
+        "binary-indexed-tree",
+        "segment-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0308",
+      "slug": "range-sum-query-2d-mutable",
+      "title": "Range Sum Query 2D - Mutable",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "design",
+        "binary-indexed-tree",
+        "segment-tree",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0309",
+      "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+      "title": "Best Time to Buy and Sell Stock with Cooldown",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0310",
+      "slug": "minimum-height-trees",
+      "title": "Minimum Height Trees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0311",
+      "slug": "sparse-matrix-multiplication",
+      "title": "Sparse Matrix Multiplication",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0312",
+      "slug": "burst-balloons",
+      "title": "Burst Balloons",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0313",
+      "slug": "super-ugly-number",
+      "title": "Super Ugly Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0314",
+      "slug": "binary-tree-vertical-order-traversal",
+      "title": "Binary Tree Vertical Order Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "sorting",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0315",
+      "slug": "count-of-smaller-numbers-after-self",
+      "title": "Count of Smaller Numbers After Self",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0316",
+      "slug": "remove-duplicate-letters",
+      "title": "Remove Duplicate Letters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "greedy",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0317",
+      "slug": "shortest-distance-from-all-buildings",
+      "title": "Shortest Distance from All Buildings",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0318",
+      "slug": "maximum-product-of-word-lengths",
+      "title": "Maximum Product of Word Lengths",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0319",
+      "slug": "bulb-switcher",
+      "title": "Bulb Switcher",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "brainteaser"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0320",
+      "slug": "generalized-abbreviation",
+      "title": "Generalized Abbreviation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0321",
+      "slug": "create-maximum-number",
+      "title": "Create Maximum Number",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "stack",
+        "greedy",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0324",
+      "slug": "wiggle-sort-ii",
+      "title": "Wiggle Sort II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "greedy",
+        "sorting",
+        "quickselect"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0325",
+      "slug": "maximum-size-subarray-sum-equals-k",
+      "title": "Maximum Size Subarray Sum Equals k",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0326",
+      "slug": "power-of-three",
+      "title": "Power of Three",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "recursion"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

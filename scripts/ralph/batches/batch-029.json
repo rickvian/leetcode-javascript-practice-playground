@@ -1,0 +1,249 @@
+{
+  "batchId": "batch-029",
+  "problems": [
+    {
+      "id": "0642",
+      "slug": "design-search-autocomplete-system",
+      "title": "Design Search Autocomplete System",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "depth-first-search",
+        "design",
+        "trie",
+        "sorting",
+        "heap-priority-queue",
+        "data-stream"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0659",
+      "slug": "split-array-into-consecutive-subsequences",
+      "title": "Split Array into Consecutive Subsequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0660",
+      "slug": "remove-9",
+      "title": "Remove 9",
+      "difficulty": "HARD",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0661",
+      "slug": "image-smoother",
+      "title": "Image Smoother",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0662",
+      "slug": "maximum-width-of-binary-tree",
+      "title": "Maximum Width of Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0663",
+      "slug": "equal-tree-partition",
+      "title": "Equal Tree Partition",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0664",
+      "slug": "strange-printer",
+      "title": "Strange Printer",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0665",
+      "slug": "non-decreasing-array",
+      "title": "Non-decreasing Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0666",
+      "slug": "path-sum-iv",
+      "title": "Path Sum IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0667",
+      "slug": "beautiful-arrangement-ii",
+      "title": "Beautiful Arrangement II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0668",
+      "slug": "kth-smallest-number-in-multiplication-table",
+      "title": "Kth Smallest Number in Multiplication Table",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0669",
+      "slug": "trim-a-binary-search-tree",
+      "title": "Trim a Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0670",
+      "slug": "maximum-swap",
+      "title": "Maximum Swap",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0671",
+      "slug": "second-minimum-node-in-a-binary-tree",
+      "title": "Second Minimum Node In a Binary Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0672",
+      "slug": "bulb-switcher-ii",
+      "title": "Bulb Switcher II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "bit-manipulation",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0673",
+      "slug": "number-of-longest-increasing-subsequence",
+      "title": "Number of Longest Increasing Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "binary-indexed-tree",
+        "segment-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0674",
+      "slug": "longest-continuous-increasing-subsequence",
+      "title": "Longest Continuous Increasing Subsequence",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0675",
+      "slug": "cut-off-trees-for-golf-event",
+      "title": "Cut Off Trees for Golf Event",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0676",
+      "slug": "implement-magic-dictionary",
+      "title": "Implement Magic Dictionary",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "depth-first-search",
+        "design",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0677",
+      "slug": "map-sum-pairs",
+      "title": "Map Sum Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "design",
+        "trie"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

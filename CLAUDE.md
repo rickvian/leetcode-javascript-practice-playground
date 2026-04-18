@@ -32,7 +32,6 @@ All JavaScript files and tests in this project use **ES Modules (ESM)** as speci
 ```javascript
 // test file
 import { addTwoNumbers } from '../index.js';
-import { describe, it, expect } from '@jest/globals';
 
 describe('addTwoNumbers', () => {
   it('should add two numbers', () => {
@@ -44,13 +43,11 @@ describe('addTwoNumbers', () => {
 ❌ Incorrect (CommonJS):
 ```javascript
 const { addTwoNumbers } = require('../index.js');
-const { describe, it, expect } = require('@jest/globals');
 ```
 
 ### Jest Configuration
 
 Jest is configured to work with ES Modules. When writing tests:
-- Always import test utilities from `@jest/globals` if needed
 - Do not use `require()` or CommonJS syntax
 - Jest will handle the module resolution automatically
 

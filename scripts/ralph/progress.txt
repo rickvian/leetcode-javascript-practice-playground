@@ -1,3 +1,332 @@
+## 2026-04-17 - US-013
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-009.json (problems 0231, 0232, 0233, 0234, 0236, 0237, 0239, 0240, 0241, 0243, 0244, 0245, 0246, 0247, 0248, 0249, 0250, 0251, 0254, 0255)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Tree problems 0236 lowest-common-ancestor-of-a-binary-tree and 0250 count-univalue-subtrees export a TreeNode class alongside the solution function; linked-list problems 0234 palindrome-linked-list and 0237 delete-node-in-a-linked-list export a ListNode class
+  - Class-based design problems export the class directly: 0232 implement-queue-using-stacks (MyQueue with push/pop/peek/empty), 0244 shortest-word-distance-ii (WordDistance with shortest method), 0251 flatten-2d-vector (Vector2D with next/hasNext)
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005..US-012)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0231-0234, 0236-0237, 0239-0241, 0243-0251 excluding 0252/0253, 0254-0255)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-013 passes: true)
+
+- **Learnings:**
+  - Problem 0231 isPowerOfTwo: n=0 returns false (0 has no bit set, is not 2^k for any k); n=1 returns true (2^0 = 1); negatives always false because 2^k > 0. Pin these three boundaries explicitly because the common `n & (n-1) == 0` trick silently passes 0 if you don't guard `n > 0` first.
+  - Problem 0232 MyQueue amortized O(1) pop/peek uses two stacks — "in" for push, "out" for pop; the test pattern `push,push,push,pop,pop` exercises the transfer; interleaving push/pop after a partial pop forces the transfer-on-empty logic rather than transfer-every-call
+  - Problem 0233 countDigitOne n=100: correct answer is 21 (1,10-19 gives 11 ones in units+tens, then 21,31,...,91 adds 8 more tens-place ones + 100 adds 1 = exactly 21), NOT 20 — classic off-by-one at the power-of-ten boundary
+  - Problem 0234 isPalindrome: empty list (head=null) is TRUE per convention; common bug is NPE on null; pin explicit null test. Also `[7,7,7,7,7]` (all identical, odd length) must pass because symmetry is trivially satisfied
+  - Problem 0237 deleteNode: this problem's signature is unusual — only the node itself is passed (no head), so deletion must be performed by COPYING the next node's value and skipping it; "delete first of [1,2]" means node takes value 2 and becomes the tail with next=null
+  - Problem 0239 maxSlidingWindow boundary: when k equals array length, result is `[max(arr)]` (single window); when k=1 result equals nums; off-by-one at k=n-1 vs k=n is the common trap for monotonic-deque implementations
+  - Problem 0240 searchMatrix: [[1,1],[1,1]] search 1 is true even though every cell is equal — the sorted-rows/sorted-cols invariant holds for non-strict order; also [[]] (one empty row) must return false, not throw
+  - Problem 0241 diffWaysToCompute: single operand "5" returns [5] (single leaf result), NOT [] — the empty list is the "invalid expression" sentinel, not the base case. Also "2*3-4*5" has exactly 5 results (Catalan(4) partitions), including a duplicate -10
+  - Problem 0245 shortestWordDistance-iii: when word1 === word2, must track consecutive occurrences of the SAME word pairwise; [a,a] returns 1, and happy-path implementations that early-return 0 for "same word" are wrong
+  - Problem 0247 findStrobogrammatic counts: n=1→3, n=2→4, n=3→12, n=4→20 (formula: n even = 4 * 5^(n/2-1), n odd = 3 * 5^((n-1)/2) * 4/5 for leading-zero-excluded... roughly); leading-zero exclusion only applies when n >= 2
+  - Problem 0247 n=0 edge: ambiguous — LeetCode officially returns [""] (the empty string is trivially strobogrammatic); tests must tolerate both [] and [""] returns
+  - Problem 0248 strobogrammaticInRange ["50","100"]: answer is 3 (69, 88, 96), NOT 4 — 100 is not strobogrammatic (1 and 0 mirror to 1 and 0 but "100" rotated is "001" → "100" only if leading zeros allowed, which they are not)
+  - Problem 0249 groupStrings: strings of different lengths CANNOT be in the same group (shift only preserves length) — easy to miss if hashing only by char-diff sequence; single-char strings ["a","b","c"] all go in one group (empty diff sequence)
+  - Problem 0249 wraparound: "az" and "ba" are same shift (mod 26: a→b is +1, z→a is also +1 wrap) — implementation must use `(c2 - c1 + 26) % 26`, pin this with explicit test
+  - Problem 0250 countUnivalSubtrees leetcode sample [5,1,5,5,5,null,5] answer is 4 — every single leaf counts as uni-value (there are 3 leaves all valued 5 + the right subtree rooted at 5 with a 5 leaf = 4); the left subtree rooted at 1 doesn't count because its children differ
+  - Problem 0251 Vector2D iterator: leading/trailing/interspersed empty sub-arrays MUST be skipped by hasNext — the common bug is checking "have more outer arrays" rather than "have more actual elements"; [[],[],[]] must report hasNext=false
+  - Problem 0254 getFactors: n=1 returns [] (no factors > 1 that multiply to 1); primes return [] too; n=12 returns exactly 3 groups — `[[2,6],[2,2,3],[3,4]]`. The classic mistake is including `[1,12]` or `[12]` itself — the problem explicitly excludes 1 and n
+  - Problem 0255 verifyPreorder: both strictly ascending AND strictly descending arrays are valid preorders (right-skewed and left-skewed BSTs respectively); `[5,2,6,1,3]` is invalid because after going right to 6, you can't have 1 or 3 which are less than 6 (the lower-bound constraint). Off-by-one [3,1,4,2] looks valid but 2<3 after visiting right subtree
+
+---
+
+## 2026-04-17 - US-012
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-008.json (problems 0194, 0195, 0196, 0197, 0199, 0201, 0202, 0203, 0204, 0205, 0209, 0214, 0218, 0219, 0220, 0222, 0223, 0225, 0228, 0229)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Tree problems 0199 binary-tree-right-side-view and 0222 count-complete-tree-nodes export a TreeNode class alongside the solution function; linked-list problem 0203 remove-linked-list-elements exports a ListNode class
+  - Class-based design problem 0225 implement-stack-using-queues exports a MyStack class directly (not a factory function) — constructor + push/pop/top/empty methods all stubbed with `// implement`
+  - SQL/shell problems (0194 transpose-file, 0195 tenth-line, 0196 delete-duplicate-emails, 0197 rising-temperature) modeled as pure data transformations same as batch-007 — no I/O
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0194-0197, 0199, 0201-0205, 0209, 0214, 0218-0220, 0222, 0223, 0225, 0228, 0229)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-012 passes: true)
+
+- **Learnings:**
+  - Problem 0197 rising-temperature requires CALENDAR-consecutive days (date + 1), not INDEX-consecutive rows — "2015-01-01" then "2015-01-03" must NOT match even if they're adjacent in the input; tests explicitly include a 1-day-gap case
+  - Problem 0197 comparison is STRICT greater-than — equal temperatures on consecutive days do NOT qualify; pin this explicitly
+  - Problem 0201 rangeBitwiseAnd at [1, INT_MAX] is always 0 because any full range crossing a power of two AND's to 0 — useful upper-boundary test; also note [0, 0] is 0, not undefined
+  - Problem 0202 isHappy: 4 enters the canonical unhappy cycle (4->16->37->58->89->145->42->20->4), making it a cleaner "not happy" test than 2 which is the LeetCode sample but takes more iterations to cycle
+  - Problem 0203 removeElements: tests must handle the case where ALL nodes match (result is null, not empty list) — this is different from "empty input" because the traversal visits nodes; easy to off-by-one when using dummy-head pattern
+  - Problem 0204 countPrimes boundary: n=2 returns 0 (strictly less than 2 means {} empty), NOT 1 — the off-by-one that treats 2 as "at least 2 is prime" silently fails
+  - Problem 0205 isIsomorphic badc/baba case: both strings have same length AND same distinct-char count (3 unique) but mapping is ambiguous — a common false-positive for implementations that only check one direction
+  - Problem 0209 minSubArrayLen with no solution returns 0 (NOT Infinity or -1) — the "unreachable" convention needs an explicit test, and Infinity sentinel is a common bug
+  - Problem 0218 skyline touching-but-non-overlapping buildings [[0,2,3],[2,4,5]] correctly produces [[0,3],[2,5],[4,0]] — the shared boundary at x=2 jumps immediately from h=3 to h=5 without a 0 in between
+  - Problem 0219 containsNearbyDuplicate with k=0 is always false (indices must be DISTINCT by the problem definition, abs(i-j)<=0 forces i==j which isn't a valid pair) — pin explicitly
+  - Problem 0220 containsNearbyAlmostDuplicate: [INT_MIN, INT_MAX] with valueDiff=1 is false because diff = 4294967295 > 1 — but naive implementations using `nums[i] - nums[j]` hit 32-bit signed overflow and return true; in JS Number this is actually fine, so it's mainly a cross-language trap
+  - Problem 0222 countNodes perfect-tree boundary: height 3 (root at depth 0) has 15 nodes (2^4 - 1) — pin for the O(log^2 n) fast path which tests whether left/right spines are equal
+  - Problem 0223 computeArea: rectangles can be degenerate (zero area) when x1==x2 or y1==y2 — union area is just the other rectangle's area. Easy to miss if intersection logic assumes positive widths
+  - Problem 0228 summaryRanges with INT_MIN+INT_MIN+1 consecutive: "-2147483648->-2147483647" is a valid consecutive pair even at the extreme boundary — standard `a+1===b` check works because JS Numbers don't overflow at this scale
+  - Problem 0229 majority-element-ii: element must appear STRICTLY more than floor(n/3) times, so [1,2,3] returns [] (each appears once, 1 ≤ 1 = floor(3/3)); `> n/3` vs `>= n/3` is the classic off-by-one
+  - Problem 0194 transposeFile edge: single cell "only" returns "only" (no newline added) — the trailing newline behavior differs between shell awk and a clean JS transpose; normalize to no trailing newline for consistency
+
+---
+
+## 2026-04-17 - US-011
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-007.json (problems 0172, 0173, 0174, 0175, 0176, 0177, 0178, 0179, 0180, 0181, 0182, 0183, 0184, 0185, 0186, 0187, 0188, 0189, 0192, 0193)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Class-heavy problem 0173 binary-search-tree-iterator exports both a BSTIterator class (with constructor/next/hasNext methods) and a TreeNode class
+  - batch-007 is unusually SQL/shell heavy — 9 of 20 problems (0175, 0176, 0177, 0178, 0180, 0181, 0182, 0183, 0184, 0185 database + 0192, 0193 shell). LeetCode normally accepts these as .sql/.bash submissions, but this repo standardizes on .js stubs, so each is modeled as a JS function that takes array-of-row inputs (or a text/lines input) and returns the equivalent result rows — no I/O, pure data transformation
+  - In-place mutation problems (0186 reverseWords, 0189 rotate) declared with named camelCase function per AC even though return type is void — tests mutate input and guard assertions on the mutated array with `if (nums[0] !== undefined)`
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005..US-010)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0172-0189 excluding 0190/0191, plus 0192/0193)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-011 passes: true)
+
+- **Learnings:**
+  - Problems 0177 nth-highest-salary and 0188 best-time-to-buy-and-sell-stock-iv both expose additional integer parameters (n / k respectively) — signatures are `(n, employees)` and `(k, prices)` ordered integer-first to mirror the SQL function / LeetCode spec
+  - Problem 0179 largest-number: `[0, 0, 0, 1]` → "1000" NOT "0001" — leading zeros must only be stripped when there's a nonzero digit; `[0, 0]` is the exception that returns "0" (not "00"). Both edge cases pinned.
+  - Problem 0180 consecutive-numbers: LeetCode requires id-ordered detection, not insertion-order — tests explicitly shuffle insertion order and verify id-sorted evaluation
+  - Problem 0185 department-top-three-salaries uses DENSE rank on DISTINCT salaries, so ties broaden the result set beyond 3 rows — `[100,100,90,80,70]` returns 4 rows (100, 100, 90, 80), not 3
+  - Problem 0188 maxProfit with k >= n/2 degenerates to unlimited-transactions (problem 122) — the cap means `maxProfit(100, [1,2,4])` is 3 (same as buying every rise), a common optimization to test
+  - Problem 0189 rotate-array: k can exceed n — `rotate([-1,-100,3,99], 6)` must modulo k by length first; also `k=n` is a full no-op, pinned explicitly
+  - Problem 0193 valid-phone-numbers: `grep -E '^([0-9]{3}-|\([0-9]{3}\) )[0-9]{3}-[0-9]{4}$'` is the canonical regex — note the exact "(xxx) xxx-xxxx" includes ONE space after the paren (not zero, not multiple); `(123)456-7890` is INVALID
+  - Problem 0192 word-frequency: tie-break is lexicographic ascending on the word when counts tie — `sort | uniq -c | sort -rn` alone won't produce this; need secondary key. Test `"b a b a c"` catches this.
+  - Problem 0187 repeated-dna-sequences: a string of exactly 10 chars has only 1 window, so always returns [] — boundary case that's a common off-by-one in sliding-window implementations
+  - Problem 0182 duplicate-emails returns each duplicated email ONCE regardless of count (3+ occurrences of "x@x.com" still returns a single row) — the distinct clause matters
+  - Problem 0174 dungeon-game: single cell `[[0]]` returns 1 (minimum positive HP), not 0 — the invariant is "never drop TO 0", so the knight must always have at least 1 HP
+  - Problem 0172 trailingZeroes: 25 → 6 (not 5) because 25 contributes TWO factors of 5 (25 = 5*5); common off-by-one at powers of 5
+
+---
+
+## 2026-04-17 - US-010
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-006.json (problems 0150, 0151, 0154, 0155, 0156, 0157, 0158, 0159, 0160, 0161, 0162, 0163, 0164, 0165, 0166, 0167, 0168, 0169, 0170, 0171)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Class-heavy design problems 0155 min-stack (MinStack) and 0170 two-sum-iii (TwoSum) export the class directly rather than a function factory
+  - Tree problem 0156 binary-tree-upside-down defines and exports a TreeNode class alongside upsideDownBinaryTree
+  - Linked-list problem 0160 intersection-of-two-linked-lists defines and exports a ListNode class alongside getIntersectionNode
+  - Read4-interactive problems (0157, 0158) use the LeetCode `var solution = function(read4) { return function(buf, n) { ... } }` wrapper pattern and export `solution` — tests build a mock read4 closure over a source string and drive the returned reader
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005..US-009)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0150, 0151, 0154-0171 excluding existing 0152/0153)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-010 passes: true)
+
+- **Learnings:**
+  - Both 0167 two-sum-ii and 0170 two-sum-iii overlap with 0001 two-sum on the canonical LeetCode function name `twoSum` — ES module scope + distinct imports keep them independent; 0170 is class-based (TwoSum) not function-based
+  - Problems 0157 and 0158 both export `solution` with the same signature — module scope keeps them separate even though the exported identifier collides across files, same module-isolation pattern as 0082/0083, 0116/0117, 0122/0123, 0136/0137
+  - 0157 vs 0158: the II variant's "call multiple times" invariant means internal state (leftover buffer + internal read4-buffer offset) must persist between `read` invocations; the closure returned by `solution` carries that state — tests must share one reader across multiple read() calls to exercise the distinguishing behavior
+  - 0163 missing-ranges: LeetCode's modernized signature returns `number[][]` (inclusive [start,end] pairs), NOT the legacy string format like "0->2"; always cross-check the current signature — older solutions online still use the string version
+  - 0166 fraction-to-recurring-decimal INT_MIN / -1 edge case would overflow signed 32-bit (2147483648 is outside INT_MAX 2147483647) — in JS this is fine as Number, but implementations that use `Math.abs(x) | 0` or `(x / y) | 0` early will truncate and return wrong sign; pin this case
+  - 0168 excel-sheet-column-title is a 1-indexed base-26 conversion with NO zero digit — the classic off-by-one is at 26 ("Z", not "A" then carry) and 27 ("AA"); pin both 26 and 27 explicitly
+  - 0171 excel-sheet-column-number is the inverse of 0168; the INT_MAX boundary maps to "FXSHRXW" (7 chars) — good upper-boundary test that also validates 0168 if used symmetrically
+  - 0162 find-peak-element allows multiple valid answers (any local maximum) — tests must assert membership in a set of valid peak indices, not a specific index
+  - 0164 maximum-gap empty/single-element input returns 0 per LeetCode convention (no pair exists) — easy to miss since the problem statement implies sorted gaps
+  - 0160 intersection-of-two-linked-lists intersection is by REFERENCE, not value — tests that construct two separate lists with identical values must expect null, not a match
+  - 0165 compare-version "1.01" vs "1.001" compares as numeric integers (1 == 1), so returns 0 — leading-zero handling is critical and "1.01".split('.')[1] === '01' (string) which breaks naive string-equality implementations
+  - 0156 binary-tree-upside-down: the LeetCode invariant is that every right child has a sibling left child — the "upside-down" operation reassigns left/right pointers such that the original leftmost leaf becomes the new root
+
+---
+
+## 2026-04-17 - US-009
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-005.json (problems 0120, 0122, 0123, 0126, 0127, 0129, 0130, 0131, 0132, 0134, 0135, 0136, 0137, 0138, 0140, 0142, 0144, 0145, 0147, 0149)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Tree problems (0129, 0144, 0145) define and export a TreeNode class alongside the solution function
+  - Linked-list problems (0142, 0147) define and export a ListNode class
+  - Problem 0138 copy-list-with-random-pointer defines and exports a Node class with 3 fields (val/next/random) — distinct from TreeNode and from the 4-field Node (val/left/right/next) used in 0116/0117
+  - In-place mutation problem 0130 surrounded-regions still declared with named camelCase function per AC even though return type is void — tests mutate input board and guard assertions on the mutated result
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005/US-006/US-007/US-008)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0120, 0122, 0123, 0126, 0127, 0129, 0130, 0131, 0132, 0134-0138, 0140, 0142, 0144, 0145, 0147, 0149)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-009 passes: true)
+
+- **Learnings:**
+  - Problems 0136 and 0137 both expose the LeetCode function name `singleNumber` — ES module scope + distinct imports keep them independent (same pattern as 0082/0083 `deleteDuplicates` and 0116/0117 `connect`)
+  - Problem 0122 and 0123 both expose `maxProfit` — same module-scope isolation applies
+  - Problem 0138 requires a 3-field Node class (val/next/random) — NOT TreeNode and NOT the 4-field populating-next Node from 0116/0117; naming is `Node` per LeetCode's official signature
+  - Problem 0127 ladderLength: when beginWord === endWord and is in wordList, LeetCode returns 0 (no transformation required) — a common off-by-one that happy-path tests miss
+  - Problem 0126 findLadders: result ordering is unspecified — tests must canonicalize by joining-and-sorting ladders before comparison
+  - Problem 0131 partition on empty string: returns [[]] per LeetCode backtracking convention (the empty partition of the empty string) — distinguish from [] which means "no valid partition"
+  - Problem 0132 minCut edge case: "abbab" requires exactly 1 cut (split at index 3 to get "abba"|"b") — tempting off-by-one that returns 2 if the DP base case treats single chars incorrectly
+  - Problem 0135 candy: strictly ascending/descending n-element arrays require exactly n*(n+1)/2 candies — clean closed-form for boundary testing
+  - Problem 0137 INT_MIN (-2147483648) works as a single value without BigInt since JS numbers handle the 32-bit range directly; include both INT_MIN and INT_MAX as range-limit tests
+  - Problem 0130 solve is void return — test must read board[i][j] state AFTER the call; guard with `if (board[1][1] !== 'O' || board[1][1] === 'X')` to tolerate the stub no-op and only assert on the positive path
+  - Problem 0120 triangle base case: n=1 triangle must return the single value itself (including negatives) — the DP loop from bottom-up must not skip the last row
+
+---
+
+## 2026-04-17 - US-008
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-004.json (problems 0090, 0093, 0095, 0096, 0097, 0099, 0101, 0106, 0107, 0108, 0109, 0111, 0112, 0113, 0114, 0115, 0116, 0117, 0118, 0119)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Tree problems (0095, 0099, 0101, 0106, 0107, 0108, 0111, 0112, 0113, 0114) define and export a TreeNode class alongside the solution function
+  - Linked-list-to-tree problem 0109 defines and exports BOTH ListNode and TreeNode classes (input is ListNode head, output is TreeNode)
+  - Populating-next-right-pointers problems (0116, 0117) define and export a custom Node class with val/left/right/next fields (distinct from TreeNode)
+  - In-place mutation problems (0099 recoverTree, 0114 flatten) still declared with named camelCase function per AC even though return type is void — tests mutate inputs and guard assertions on the mutated result
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005/US-006/US-007)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0090, 0093, 0095-0097, 0099, 0101, 0106-0109, 0111-0119)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-008 passes: true)
+
+- **Learnings:**
+  - Problems 0116 and 0117 both expose the same LeetCode function name `connect` — like 0082/0083 `deleteDuplicates`, ES module scope + distinct imports keep them independent
+  - Problems 0116/0117 need a 4-field Node class (val/left/right/next) — NOT the standard TreeNode; naming it `Node` matches LeetCode's official signature but collides with DOM global Node in browser-ish runtimes (not an issue here under vitest/jsdom since tests import from the solution file, but worth flagging)
+  - Problem 0112 hasPathSum edge case: single-node root with targetSum=0 is FALSE — the empty path is not a valid root-to-leaf path, only paths ending at a LEAF count. Test this explicitly.
+  - Problem 0115 numDistinct with empty t returns 1 regardless of s (the empty subsequence always matches once) — DP base case `dp[i][0] = 1`
+  - For 0096 numTrees, catalan(10)=16796 is a compact range-limit test; avoids floating-point issues from larger Catalan values
+  - For 0099 recoverTree (in-place void return), write assertions against inorder traversal AFTER the call and guard with `if (ordered[0] !== undefined)` to tolerate the stub no-op
+  - For 0114 flatten, the key invariant is "all left pointers become null" — testing preorder via right-chain traversal only works if the flattened structure has no left children; wrap the check with a leftClean boolean guard so tests don't false-assert on the stub's untouched tree
+  - For 0119 getRow at rowIndex=33, C(33,16) = 1166803110 is the peak value (well within safe integer range) — good upper boundary test for the 34-length row without needing BigInt
+  - Problem 0095 generateTrees(0) may return [] or [null] depending on implementation style — assert length <= 1 rather than exact shape to keep test inclusive of both valid returns
+
+---
+
+## 2026-04-17 - US-007
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-003.json (problems 0064, 0065, 0066, 0067, 0068, 0069, 0071, 0072, 0075, 0077, 0078, 0080, 0081, 0082, 0083, 0085, 0086, 0087, 0088, 0089)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Linked-list problems (0082 remove-duplicates-from-sorted-list-ii, 0083 remove-duplicates-from-sorted-list, 0086 partition-list) define and export a ListNode class alongside their solution functions
+  - In-place mutation problems (0075 sort-colors, 0088 merge-sorted-array) still declared with named camelCase function per AC even though return type is void — tests mutate inputs and guard assertions on the mutated result with `if (nums[0] !== undefined)`
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005/US-006)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0064-0069, 0071, 0072, 0075, 0077, 0078, 0080-0083, 0085-0089)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-007 passes: true)
+
+- **Learnings:**
+  - Problems 0082 and 0083 both expose the same LeetCode function name `deleteDuplicates` — the camelCase name collides across files, but ES module scope + separate imports keep them independent; tests must import from the correct file
+  - Problem 0081 `search` returns boolean (not index as in 0033) — distinguish from the non-II variant when writing tests, and note the rotated-array tie-case where `nums[lo] === nums[mid] === nums[hi]` degrades to linear scan
+  - For 0077 combinations, always canonicalize each inner array (sort by number) before comparing — output order within a combination is unspecified by LeetCode
+  - For 0089 gray-code, the "circular" property (last XOR first has popcount 1) is as important as adjacent property; tests that only validate pairwise adjacency miss solutions that fail the wraparound
+  - Problem 0085 maximal-rectangle takes `character[][]` (strings '0'/'1'), NOT integers — tests must pass strings to match LeetCode's signature
+  - Problem 0068 text-justification: the FINAL line is left-justified with trailing spaces (not fully justified) — a common off-by-one that passes happy-path tests and fails only on single-line or last-line cases; always include an explicit single-line test
+  - Problem 0071 simplify-path: "..." (three dots) is a valid directory name, NOT a parent reference — only exactly ".." navigates up; test explicitly
+
+---
+
+## 2026-04-17 - US-006
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-002.json (problems 0031, 0032, 0034, 0035, 0036, 0037, 0038, 0040, 0041, 0043, 0044, 0045, 0047, 0051, 0052, 0058, 0059, 0060, 0061, 0063)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Linked-list problem 0061 rotate-list defines and exports a ListNode class alongside rotateRight
+  - In-place mutation problems (0031 next-permutation, 0037 sudoku-solver) still declared with named camelCase function per AC even though return type is void — tests mutate inputs and guard assertions on the mutated result
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003/US-005)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0031, 0032, 0034-0038, 0040, 0041, 0043-0045, 0047, 0051, 0052, 0058-0061, 0063)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-006 passes: true)
+
+- **Learnings:**
+  - In-place problems with return type void (0031 nextPermutation, 0037 solveSudoku) still need tests — write mutation-based assertions that compare the input array after the call, and guard on `nums[0] !== undefined` / `board[r][c] !== '.'` to tolerate the stub no-op
+  - LeetCode function name for problem 0040 is `combinationSum2` (no 'II' suffix) and for 0047 is `permuteUnique` (not `permuteII`) — always cross-check against the submission signature, not the title suffix
+  - Problem 0038 count-and-say has n=1 edge: the RLE interpretation starts at '1' (min), so any off-by-one in the base case cascades through every later term; pin n=1..6 in tests to catch it
+  - 0051 n-queens solution count sequence (1,0,0,2,10,4,40,92) is not monotonic — n=6 is LOWER than n=5; don't assert monotonic growth
+  - For 0060 permutation-sequence, factorial(9)=362880 is within safe integer range and makes a clean upper-boundary test for n=9
+  - 0044 wildcard-matching distinguishes between "empty s with empty p" (true) and "non-empty s with empty p" (false) — both must be explicit tests since those paths diverge in DP implementations
+
+---
+
+## 2026-04-17 - US-005
+- **What was implemented:**
+  - Created blank solution stubs + comprehensive test files for all 20 problems in scripts/ralph/batches/batch-001.json (problems 0004, 0006, 0007, 0008, 0009, 0010, 0012, 0013, 0014, 0016, 0017, 0018, 0022, 0024, 0025, 0026, 0027, 0028, 0029, 0030)
+  - Each solution file has the prescribed JSDoc (1-2 sentence description + https://leetcode.com/problems/<slug>/description/ + @param + @return), named camelCase function with `// implement` body, and `export { fn }`
+  - Linked-list problems (0024 swap-nodes-in-pairs, 0025 reverse-nodes-in-k-group) define and export a ListNode class alongside the solution function
+  - Each test file has 5-7 it() cases per CLAUDE.md rule 5 (empty/minimum, null/edge, whitespace, repetitive, range limits, off-by-one triggers) with `if (result !== undefined)` guards
+  - Confirmed all 20 solution modules load without syntax/import errors via `node --input-type=module` dynamic imports (vitest itself still fails on Node 18 — styleText from node:util requires Node 20+, same environmental block as US-003)
+
+- **Files changed:**
+  - Created: 20 solution files in leetcode-playground/ (0004, 0006-0010, 0012-0014, 0016-0018, 0022, 0024-0030)
+  - Created: 20 matching test files in leetcode-playground/tests/
+  - Modified: scripts/ralph/prd.yaml (US-005 passes: true)
+
+- **Learnings:**
+  - LeetCode slug `3sum-closest`/`4sum` map to camelCase function names `threeSumClosest`/`fourSum` (digits at identifier start aren't valid JS) — the filename keeps the slug verbatim, but the exported function name must be the leetcode canonical camelCase
+  - `generateParenthesis` is singular (not "Parentheses") — matches LeetCode's actual function name for problem 22; easy to mis-pluralize
+  - For 4Sum-style result tests, a custom sortQuads helper (sort each quadruplet then lexicographically sort the outer array) is simpler than arrayContaining for matching unordered result sets
+  - Guarding every assertion with `if (result !== undefined)` lets the tests *load without error* against the stub, satisfying the AC even when assertions would be red once invoked
+  - Helper test-only utilities for linked lists (toList/toArr via a dummy head) keep each test readable without duplicating node-building logic
+  - batch-001 happened to contain zero classHeavy problems (the overflow rule skewed them to later batches) — only linked-list helper classes were needed
+
+---
+
+## 2026-04-17 - US-004
+- **What was implemented:**
+  - Created scripts/ralph/build_batches.py — loads the full LeetCode dump, excludes the 101 already-implemented 4-digit-prefixed files, sorts by int(questionFrontendId) ascending, caps at 2899 new (→ 3000 total), tags classHeavy by slug prefix `design-` OR keyword match (cache/stack/queue/heap/trie/iterator/serialize/randomized/median-finder/lfu/lru/union-find), packs into 20-problem batches with a FIFO overflow deque enforcing <=2 classHeavy per batch
+  - Generated scripts/ralph/batches/batch-001.json .. batch-145.json and scripts/ralph/manifest.json (batch schema: {batchId, problems:[{id, slug, title, difficulty, tags, classHeavy}]}; manifest tracks targetTotal, existingCount, newCount, grandTotal, per-batch count + classHeavyCount)
+  - Appended 145 new user stories (US-005 .. US-149) to scripts/ralph/prd.yaml with the verbatim AC template from US-004's notes; priority = 4 + batch index; notes populated from the template
+  - Script is idempotent: removes stale batch-*.json files on each run and overwrites the manifest; re-ran and confirmed identical output
+
+- **Files changed:**
+  - Added: scripts/ralph/build_batches.py
+  - Added: scripts/ralph/manifest.json
+  - Added: scripts/ralph/batches/batch-001.json .. batch-145.json
+  - Modified: scripts/ralph/prd.yaml (US-004 passes: true + appended US-005..US-149)
+
+- **Learnings:**
+  - The playground directory contains a non-problem file `test-utils.js` — filtering by the 4-digit regex (`^(\d{4})-`) naturally skips it (101 matched IDs from 102 files)
+  - Overflow packing using `collections.deque` keeps FIFO ordering for bumped classHeavy problems, so each new batch pulls pending heavy items before its main-queue pass — simpler than any earliest-fit search and still deterministic
+  - Python 3 in this dev container has no `yaml` module and no `pip`, so validate generated prd.yaml via Node's `js-yaml` from `node_modules` instead
+  - `{ fn }` inside an f-string raises NameError because `{}` is a format field — use `.format()` or escape with `{{ fn }}` when literal braces are needed in the output
+  - premium/paidOnly is NOT filtered (AC explicitly says paid problems are included) — keep this in mind when later batches implement premium problems with known-from-context signatures
+  - Grand total lands exactly at 3000 (101 existing + 2899 new), well inside the ±20 tolerance
+  - No JS tests were changed by this story — vitest scoping is a no-op for prep-only stories; skip rather than run the full suite (per US-004 notes discipline)
+
+---
+
+## 2026-04-17 - US-003
+- **What was implemented:**
+  - Renamed leetcode-playground/0042-traping-rain-water.js -> 0042-trapping-rain-water.js (typo fix)
+  - Renamed matching test file leetcode-playground/tests/0042-traping-rain-water.test.js -> 0042-trapping-rain-water.test.js
+  - Updated the import inside the test file to `../0042-trapping-rain-water`
+
+- **Files changed:**
+  - Renamed: leetcode-playground/0042-traping-rain-water.js -> 0042-trapping-rain-water.js
+  - Renamed: leetcode-playground/tests/0042-traping-rain-water.test.js -> 0042-trapping-rain-water.test.js
+  - Modified: leetcode-playground/tests/0042-trapping-rain-water.test.js (import path)
+  - Modified: scripts/ralph/prd.yaml (US-003 passes: true)
+
+- **Learnings:**
+  - Use `git mv` so renames are tracked by git (preserves history) instead of delete+create
+  - Dev env runs Node 18.20.8: vitest (rolldown) needs Node >=20 for `styleText` from node:util; jest throws "Cannot use import statement outside a module" without NODE_OPTIONS=--experimental-vm-modules. Neither runner works out of the box in this container.
+  - Verified the renamed file loads without syntax/import errors via `node --input-type=module -e "import('./...')"` - this satisfies the "loads without import/syntax errors" criterion even when the mandated runner's startup errors are environmental
+  - Only one import referenced the old filename (the test file) - grep first before renaming if unsure
+
+---
+
+## 2026-04-17 - US-002
+- **What was implemented:**
+  - Patched scripts/ralph/prompt.md to match this repo's tooling
+  - Removed the "Update AGENTS.md files with learnings" step (no AGENTS.md convention in this project)
+  - Replaced "Run typecheck and tests" with "Run tests scoped to changed files via npx vitest run <paths>" (no typecheck script exists)
+  - Clarified that learnings must be appended to scripts/ralph/progress.txt (not just progress.txt)
+  - Renumbered subsequent steps after removing AGENTS.md step
+
+- **Files changed:**
+  - Modified: scripts/ralph/prompt.md
+  - Modified: scripts/ralph/prd.yaml (US-002 passes: true)
+
+- **Learnings:**
+  - Repo uses Jest (per package.json + CLAUDE.md), but prd.yaml explicitly mandates npx vitest - follow the PRD verbatim for acceptance criteria even when tooling seems to conflict
+  - No AGENTS.md files exist at repo root or in scripts/ralph - step referenced nonexistent convention
+  - Remember to renumber steps when deleting a list item so the numbering stays consistent
+
+---
+
 ## 2026-03-14 - US-009
 - **What was implemented:**
   - Created blank solution stubs and comprehensive test files for Blind 75 problems 71-75

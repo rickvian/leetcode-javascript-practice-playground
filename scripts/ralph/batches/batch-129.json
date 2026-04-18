@@ -1,0 +1,218 @@
+{
+  "batchId": "batch-129",
+  "problems": [
+    {
+      "id": "2662",
+      "slug": "minimum-cost-of-a-path-with-special-roads",
+      "title": "Minimum Cost of a Path With Special Roads",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2663",
+      "slug": "lexicographically-smallest-beautiful-string",
+      "title": "Lexicographically Smallest Beautiful String",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2664",
+      "slug": "the-knights-tour",
+      "title": "The Knight\u2019s Tour",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2665",
+      "slug": "counter-ii",
+      "title": "Counter II",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2666",
+      "slug": "allow-one-function-call",
+      "title": "Allow One Function Call",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2667",
+      "slug": "create-hello-world-function",
+      "title": "Create Hello World Function",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2668",
+      "slug": "find-latest-salaries",
+      "title": "Find Latest Salaries",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2669",
+      "slug": "count-artist-occurrences-on-spotify-ranking-list",
+      "title": "Count Artist Occurrences On Spotify Ranking List",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2670",
+      "slug": "find-the-distinct-difference-array",
+      "title": "Find the Distinct Difference Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2671",
+      "slug": "frequency-tracker",
+      "title": "Frequency Tracker",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "design"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2672",
+      "slug": "number-of-adjacent-elements-with-the-same-color",
+      "title": "Number of Adjacent Elements With the Same Color",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2673",
+      "slug": "make-costs-of-paths-equal-in-a-binary-tree",
+      "title": "Make Costs of Paths Equal in a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2674",
+      "slug": "split-a-circular-linked-list",
+      "title": "Split a Circular Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2675",
+      "slug": "array-of-objects-to-matrix",
+      "title": "Array of Objects to Matrix",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2676",
+      "slug": "throttle",
+      "title": "Throttle",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2677",
+      "slug": "chunk-array",
+      "title": "Chunk Array",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2678",
+      "slug": "number-of-senior-citizens",
+      "title": "Number of Senior Citizens",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2679",
+      "slug": "sum-in-a-matrix",
+      "title": "Sum in a Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2680",
+      "slug": "maximum-or",
+      "title": "Maximum OR",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "bit-manipulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2681",
+      "slug": "power-of-heroes",
+      "title": "Power of Heroes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

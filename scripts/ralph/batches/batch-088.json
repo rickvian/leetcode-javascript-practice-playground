@@ -1,0 +1,242 @@
+{
+  "batchId": "batch-088",
+  "problems": [
+    {
+      "id": "1842",
+      "slug": "next-palindrome-using-same-digits",
+      "title": "Next Palindrome Using Same Digits",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1843",
+      "slug": "suspicious-bank-accounts",
+      "title": "Suspicious Bank Accounts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1844",
+      "slug": "replace-all-digits-with-characters",
+      "title": "Replace All Digits with Characters",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1845",
+      "slug": "seat-reservation-manager",
+      "title": "Seat Reservation Manager",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "design",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1846",
+      "slug": "maximum-element-after-decreasing-and-rearranging",
+      "title": "Maximum Element After Decreasing and Rearranging",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1847",
+      "slug": "closest-room",
+      "title": "Closest Room",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1848",
+      "slug": "minimum-distance-to-the-target-element",
+      "title": "Minimum Distance to the Target Element",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1849",
+      "slug": "splitting-a-string-into-descending-consecutive-values",
+      "title": "Splitting a String Into Descending Consecutive Values",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1850",
+      "slug": "minimum-adjacent-swaps-to-reach-the-kth-smallest-number",
+      "title": "Minimum Adjacent Swaps to Reach the Kth Smallest Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1851",
+      "slug": "minimum-interval-to-include-each-query",
+      "title": "Minimum Interval to Include Each Query",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "line-sweep",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1852",
+      "slug": "distinct-numbers-in-each-subarray",
+      "title": "Distinct Numbers in Each Subarray",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1853",
+      "slug": "convert-date-format",
+      "title": "Convert Date Format",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1854",
+      "slug": "maximum-population-year",
+      "title": "Maximum Population Year",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "counting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1855",
+      "slug": "maximum-distance-between-a-pair-of-values",
+      "title": "Maximum Distance Between a Pair of Values",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1856",
+      "slug": "maximum-subarray-min-product",
+      "title": "Maximum Subarray Min-Product",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1857",
+      "slug": "largest-color-value-in-a-directed-graph",
+      "title": "Largest Color Value in a Directed Graph",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "graph",
+        "topological-sort",
+        "memoization",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1858",
+      "slug": "longest-word-with-all-prefixes",
+      "title": "Longest Word With All Prefixes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "depth-first-search",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1859",
+      "slug": "sorting-the-sentence",
+      "title": "Sorting the Sentence",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1860",
+      "slug": "incremental-memory-leak",
+      "title": "Incremental Memory Leak",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1861",
+      "slug": "rotating-the-box",
+      "title": "Rotating the Box",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "matrix"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

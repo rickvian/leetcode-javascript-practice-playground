@@ -1,0 +1,236 @@
+{
+  "batchId": "batch-083",
+  "problems": [
+    {
+      "id": "1742",
+      "slug": "maximum-number-of-balls-in-a-box",
+      "title": "Maximum Number of Balls in a Box",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "math",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1743",
+      "slug": "restore-the-array-from-adjacent-pairs",
+      "title": "Restore the Array From Adjacent Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1744",
+      "slug": "can-you-eat-your-favorite-candy-on-your-favorite-day",
+      "title": "Can You Eat Your Favorite Candy on Your Favorite Day?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1745",
+      "slug": "palindrome-partitioning-iv",
+      "title": "Palindrome Partitioning IV",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1746",
+      "slug": "maximum-subarray-sum-after-one-operation",
+      "title": "Maximum Subarray Sum After One Operation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1747",
+      "slug": "leetflex-banned-accounts",
+      "title": "Leetflex Banned Accounts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1748",
+      "slug": "sum-of-unique-elements",
+      "title": "Sum of Unique Elements",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1749",
+      "slug": "maximum-absolute-sum-of-any-subarray",
+      "title": "Maximum Absolute Sum of Any Subarray",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1750",
+      "slug": "minimum-length-of-string-after-deleting-similar-ends",
+      "title": "Minimum Length of String After Deleting Similar Ends",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1751",
+      "slug": "maximum-number-of-events-that-can-be-attended-ii",
+      "title": "Maximum Number of Events That Can Be Attended II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1752",
+      "slug": "check-if-array-is-sorted-and-rotated",
+      "title": "Check if Array Is Sorted and Rotated",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1753",
+      "slug": "maximum-score-from-removing-stones",
+      "title": "Maximum Score From Removing Stones",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1754",
+      "slug": "largest-merge-of-two-strings",
+      "title": "Largest Merge Of Two Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1755",
+      "slug": "closest-subsequence-sum",
+      "title": "Closest Subsequence Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "dynamic-programming",
+        "bit-manipulation",
+        "sorting",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1756",
+      "slug": "design-most-recently-used-queue",
+      "title": "Design Most Recently Used Queue",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "linked-list",
+        "divide-and-conquer",
+        "design",
+        "simulation",
+        "doubly-linked-list"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1757",
+      "slug": "recyclable-and-low-fat-products",
+      "title": "Recyclable and Low Fat Products",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1758",
+      "slug": "minimum-changes-to-make-alternating-binary-string",
+      "title": "Minimum Changes To Make Alternating Binary String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1759",
+      "slug": "count-number-of-homogenous-substrings",
+      "title": "Count Number of Homogenous Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1760",
+      "slug": "minimum-limit-of-balls-in-a-bag",
+      "title": "Minimum Limit of Balls in a Bag",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1761",
+      "slug": "minimum-degree-of-a-connected-trio-in-a-graph",
+      "title": "Minimum Degree of a Connected Trio in a Graph",
+      "difficulty": "HARD",
+      "tags": [
+        "graph",
+        "enumeration"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

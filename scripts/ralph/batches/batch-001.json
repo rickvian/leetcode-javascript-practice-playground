@@ -1,0 +1,232 @@
+{
+  "batchId": "batch-001",
+  "problems": [
+    {
+      "id": "0004",
+      "slug": "median-of-two-sorted-arrays",
+      "title": "Median of Two Sorted Arrays",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "divide-and-conquer"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0006",
+      "slug": "zigzag-conversion",
+      "title": "Zigzag Conversion",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0007",
+      "slug": "reverse-integer",
+      "title": "Reverse Integer",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0008",
+      "slug": "string-to-integer-atoi",
+      "title": "String to Integer (atoi)",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0009",
+      "slug": "palindrome-number",
+      "title": "Palindrome Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0010",
+      "slug": "regular-expression-matching",
+      "title": "Regular Expression Matching",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0012",
+      "slug": "integer-to-roman",
+      "title": "Integer to Roman",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0013",
+      "slug": "roman-to-integer",
+      "title": "Roman to Integer",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0014",
+      "slug": "longest-common-prefix",
+      "title": "Longest Common Prefix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0016",
+      "slug": "3sum-closest",
+      "title": "3Sum Closest",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0017",
+      "slug": "letter-combinations-of-a-phone-number",
+      "title": "Letter Combinations of a Phone Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0018",
+      "slug": "4sum",
+      "title": "4Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0022",
+      "slug": "generate-parentheses",
+      "title": "Generate Parentheses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0024",
+      "slug": "swap-nodes-in-pairs",
+      "title": "Swap Nodes in Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0025",
+      "slug": "reverse-nodes-in-k-group",
+      "title": "Reverse Nodes in k-Group",
+      "difficulty": "HARD",
+      "tags": [
+        "linked-list",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0026",
+      "slug": "remove-duplicates-from-sorted-array",
+      "title": "Remove Duplicates from Sorted Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0027",
+      "slug": "remove-element",
+      "title": "Remove Element",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0028",
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "title": "Find the Index of the First Occurrence in a String",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string",
+        "string-matching"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0029",
+      "slug": "divide-two-integers",
+      "title": "Divide Two Integers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0030",
+      "slug": "substring-with-concatenation-of-all-words",
+      "title": "Substring with Concatenation of All Words",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "batchId": "batch-064",
+  "problems": [
+    {
+      "id": "1362",
+      "slug": "closest-divisors",
+      "title": "Closest Divisors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1363",
+      "slug": "largest-multiple-of-three",
+      "title": "Largest Multiple of Three",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1364",
+      "slug": "number-of-trusted-contacts-of-a-customer",
+      "title": "Number of Trusted Contacts of a Customer",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1365",
+      "slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "title": "How Many Numbers Are Smaller Than the Current Number",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "counting-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1366",
+      "slug": "rank-teams-by-votes",
+      "title": "Rank Teams by Votes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1367",
+      "slug": "linked-list-in-binary-tree",
+      "title": "Linked List in Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1368",
+      "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+      "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "matrix",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1369",
+      "slug": "get-the-second-most-recent-activity",
+      "title": "Get the Second Most Recent Activity",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1370",
+      "slug": "increasing-decreasing-string",
+      "title": "Increasing Decreasing String",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1371",
+      "slug": "find-the-longest-substring-containing-vowels-in-even-counts",
+      "title": "Find the Longest Substring Containing Vowels in Even Counts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1372",
+      "slug": "longest-zigzag-path-in-a-binary-tree",
+      "title": "Longest ZigZag Path in a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1373",
+      "slug": "maximum-sum-bst-in-binary-tree",
+      "title": "Maximum Sum BST in Binary Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1374",
+      "slug": "generate-a-string-with-characters-that-have-odd-counts",
+      "title": "Generate a String With Characters That Have Odd Counts",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1375",
+      "slug": "number-of-times-binary-string-is-prefix-aligned",
+      "title": "Number of Times Binary String Is Prefix-Aligned",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1376",
+      "slug": "time-needed-to-inform-all-employees",
+      "title": "Time Needed to Inform All Employees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1377",
+      "slug": "frog-position-after-t-seconds",
+      "title": "Frog Position After T Seconds",
+      "difficulty": "HARD",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1378",
+      "slug": "replace-employee-id-with-the-unique-identifier",
+      "title": "Replace Employee ID With The Unique Identifier",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1379",
+      "slug": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+      "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1380",
+      "slug": "lucky-numbers-in-a-matrix",
+      "title": "Lucky Numbers in a Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1381",
+      "slug": "design-a-stack-with-increment-operation",
+      "title": "Design a Stack With Increment Operation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "design"
+      ],
+      "classHeavy": true
+    }
+  ]
+}

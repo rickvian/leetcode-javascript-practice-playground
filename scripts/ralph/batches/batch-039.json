@@ -1,0 +1,252 @@
+{
+  "batchId": "batch-039",
+  "problems": [
+    {
+      "id": "0859",
+      "slug": "buddy-strings",
+      "title": "Buddy Strings",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0860",
+      "slug": "lemonade-change",
+      "title": "Lemonade Change",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0861",
+      "slug": "score-after-flipping-matrix",
+      "title": "Score After Flipping Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "bit-manipulation",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0862",
+      "slug": "shortest-subarray-with-sum-at-least-k",
+      "title": "Shortest Subarray with Sum at Least K",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "prefix-sum",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0863",
+      "slug": "all-nodes-distance-k-in-binary-tree",
+      "title": "All Nodes Distance K in Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0864",
+      "slug": "shortest-path-to-get-all-keys",
+      "title": "Shortest Path to Get All Keys",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0865",
+      "slug": "smallest-subtree-with-all-the-deepest-nodes",
+      "title": "Smallest Subtree with all the Deepest Nodes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0866",
+      "slug": "prime-palindrome",
+      "title": "Prime Palindrome",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0867",
+      "slug": "transpose-matrix",
+      "title": "Transpose Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0868",
+      "slug": "binary-gap",
+      "title": "Binary Gap",
+      "difficulty": "EASY",
+      "tags": [
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0869",
+      "slug": "reordered-power-of-2",
+      "title": "Reordered Power of 2",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "sorting",
+        "counting",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0870",
+      "slug": "advantage-shuffle",
+      "title": "Advantage Shuffle",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0871",
+      "slug": "minimum-number-of-refueling-stops",
+      "title": "Minimum Number of Refueling Stops",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0872",
+      "slug": "leaf-similar-trees",
+      "title": "Leaf-Similar Trees",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0873",
+      "slug": "length-of-longest-fibonacci-subsequence",
+      "title": "Length of Longest Fibonacci Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0874",
+      "slug": "walking-robot-simulation",
+      "title": "Walking Robot Simulation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0876",
+      "slug": "middle-of-the-linked-list",
+      "title": "Middle of the Linked List",
+      "difficulty": "EASY",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0877",
+      "slug": "stone-game",
+      "title": "Stone Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0878",
+      "slug": "nth-magical-number",
+      "title": "Nth Magical Number",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0879",
+      "slug": "profitable-schemes",
+      "title": "Profitable Schemes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

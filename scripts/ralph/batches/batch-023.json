@@ -1,0 +1,243 @@
+{
+  "batchId": "batch-023",
+  "problems": [
+    {
+      "id": "0535",
+      "slug": "encode-and-decode-tinyurl",
+      "title": "Encode and Decode TinyURL",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "design",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0536",
+      "slug": "construct-binary-tree-from-string",
+      "title": "Construct Binary Tree from String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0537",
+      "slug": "complex-number-multiplication",
+      "title": "Complex Number Multiplication",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0538",
+      "slug": "convert-bst-to-greater-tree",
+      "title": "Convert BST to Greater Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0539",
+      "slug": "minimum-time-difference",
+      "title": "Minimum Time Difference",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0540",
+      "slug": "single-element-in-a-sorted-array",
+      "title": "Single Element in a Sorted Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0541",
+      "slug": "reverse-string-ii",
+      "title": "Reverse String II",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0542",
+      "slug": "01-matrix",
+      "title": "01 Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0544",
+      "slug": "output-contest-matches",
+      "title": "Output Contest Matches",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "recursion",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0545",
+      "slug": "boundary-of-binary-tree",
+      "title": "Boundary of Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0546",
+      "slug": "remove-boxes",
+      "title": "Remove Boxes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0547",
+      "slug": "number-of-provinces",
+      "title": "Number of Provinces",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0548",
+      "slug": "split-array-with-equal-sum",
+      "title": "Split Array with Equal Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0549",
+      "slug": "binary-tree-longest-consecutive-sequence-ii",
+      "title": "Binary Tree Longest Consecutive Sequence II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0550",
+      "slug": "game-play-analysis-iv",
+      "title": "Game Play Analysis IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0551",
+      "slug": "student-attendance-record-i",
+      "title": "Student Attendance Record I",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0552",
+      "slug": "student-attendance-record-ii",
+      "title": "Student Attendance Record II",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0553",
+      "slug": "optimal-division",
+      "title": "Optimal Division",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0554",
+      "slug": "brick-wall",
+      "title": "Brick Wall",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0555",
+      "slug": "split-concatenated-strings",
+      "title": "Split Concatenated Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

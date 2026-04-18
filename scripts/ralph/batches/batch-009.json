@@ -1,0 +1,252 @@
+{
+  "batchId": "batch-009",
+  "problems": [
+    {
+      "id": "0231",
+      "slug": "power-of-two",
+      "title": "Power of Two",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "bit-manipulation",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0232",
+      "slug": "implement-queue-using-stacks",
+      "title": "Implement Queue using Stacks",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "design",
+        "queue"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0233",
+      "slug": "number-of-digit-one",
+      "title": "Number of Digit One",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0234",
+      "slug": "palindrome-linked-list",
+      "title": "Palindrome Linked List",
+      "difficulty": "EASY",
+      "tags": [
+        "linked-list",
+        "two-pointers",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0236",
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0237",
+      "slug": "delete-node-in-a-linked-list",
+      "title": "Delete Node in a Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0239",
+      "slug": "sliding-window-maximum",
+      "title": "Sliding Window Maximum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0240",
+      "slug": "search-a-2d-matrix-ii",
+      "title": "Search a 2D Matrix II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "divide-and-conquer",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0241",
+      "slug": "different-ways-to-add-parentheses",
+      "title": "Different Ways to Add Parentheses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "dynamic-programming",
+        "recursion",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0243",
+      "slug": "shortest-word-distance",
+      "title": "Shortest Word Distance",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0244",
+      "slug": "shortest-word-distance-ii",
+      "title": "Shortest Word Distance II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "string",
+        "design"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0245",
+      "slug": "shortest-word-distance-iii",
+      "title": "Shortest Word Distance III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0246",
+      "slug": "strobogrammatic-number",
+      "title": "Strobogrammatic Number",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0247",
+      "slug": "strobogrammatic-number-ii",
+      "title": "Strobogrammatic Number II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0248",
+      "slug": "strobogrammatic-number-iii",
+      "title": "Strobogrammatic Number III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0249",
+      "slug": "group-shifted-strings",
+      "title": "Group Shifted Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0250",
+      "slug": "count-univalue-subtrees",
+      "title": "Count Univalue Subtrees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0251",
+      "slug": "flatten-2d-vector",
+      "title": "Flatten 2D Vector",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "design",
+        "iterator"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0254",
+      "slug": "factor-combinations",
+      "title": "Factor Combinations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0255",
+      "slug": "verify-preorder-sequence-in-binary-search-tree",
+      "title": "Verify Preorder Sequence in Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "tree",
+        "binary-search-tree",
+        "recursion",
+        "monotonic-stack",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

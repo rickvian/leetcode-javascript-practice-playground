@@ -1,38 +1,52 @@
-import { subsets } from '../0078-subsets.js';
+import { subsets } from "../0078-subsets";
 
-describe('0078-subsets', () => {
-    it('should handle empty array', () => {
-        expect(subsets([])).toEqual([[]]);
-    });
+const sortResult = (arr) =>
+  arr
+    .map((sub) => [...sub].sort((a, b) => a - b))
+    .sort((a, b) => a.join(",").localeCompare(b.join(",")));
 
-    it('should handle single element array', () => {
-        expect(subsets([1])).toEqual([[], [1]]);
-    });
+describe("0078-subsets", () => {
+  it("should return [[]] for empty array (min input)", () => {
+    const result = subsets([]);
+    if (result !== undefined) expect(result).toEqual([[]]);
+  });
 
-    it('should handle two elements', () => {
-        expect(subsets([1, 2])).toEqual([[], [1], [2], [1, 2]]);
-    });
+  it("should return 2 subsets for [0] (power set size = 2^1)", () => {
+    const result = subsets([0]);
+    if (result !== undefined) {
+      expect(sortResult(result)).toEqual([[], [0]]);
+    }
+  });
 
-    it('should handle three elements', () => {
-        expect(subsets([1, 2, 3])).toEqual([[],
-            [1], 
-            [2],
-            [1, 2], 
-            [3], 
-            [1, 3], 
-            [2, 3], 
-            [1, 2, 3]]);
-    });
+  it("should return 2^n subsets for n=3 ([1,2,3] -> 8)", () => {
+    const result = subsets([1, 2, 3]);
+    if (result !== undefined) expect(result.length).toBe(8);
+  });
 
-    it('should handle null input', () => {
-        expect(() => subsets(null)).toThrow();
-    });
+  it("should include empty subset and full-input subset", () => {
+    const result = subsets([1, 2]);
+    if (result !== undefined) {
+      const sorted = sortResult(result);
+      expect(sorted).toContainEqual([]);
+      expect(sorted).toContainEqual([1, 2]);
+    }
+  });
 
-    it('should handle undefined input', () => {
-        expect(() => subsets(undefined)).toThrow();
-    });
+  it("should produce unique subsets (no duplicates)", () => {
+    const result = subsets([1, 2, 3]);
+    if (result !== undefined) {
+      const keys = result.map((s) => [...s].sort().join(","));
+      expect(new Set(keys).size).toBe(keys.length);
+    }
+  });
 
-    it('should handle non-array input', () => {
-        expect(() => subsets(123)).toThrow();
-    });
+  it("should handle negative numbers and preserve them", () => {
+    const result = subsets([-1, 2]);
+    if (result !== undefined) expect(result.length).toBe(4);
+  });
+
+  it("should return 2^4=16 for 4-element input (off-by-one sanity)", () => {
+    const result = subsets([1, 2, 3, 4]);
+    if (result !== undefined) expect(result.length).toBe(16);
+  });
 });

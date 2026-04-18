@@ -1,0 +1,200 @@
+{
+  "batchId": "batch-140",
+  "problems": [
+    {
+      "id": "2882",
+      "slug": "drop-duplicate-rows",
+      "title": "Drop Duplicate Rows",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2883",
+      "slug": "drop-missing-data",
+      "title": "Drop Missing Data",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2884",
+      "slug": "modify-columns",
+      "title": "Modify Columns",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2885",
+      "slug": "rename-columns",
+      "title": "Rename Columns",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2886",
+      "slug": "change-data-type",
+      "title": "Change Data Type",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2887",
+      "slug": "fill-missing-data",
+      "title": "Fill Missing Data",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2888",
+      "slug": "reshape-data-concatenate",
+      "title": "Reshape Data: Concatenate",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2889",
+      "slug": "reshape-data-pivot",
+      "title": "Reshape Data: Pivot",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2890",
+      "slug": "reshape-data-melt",
+      "title": "Reshape Data: Melt",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2891",
+      "slug": "method-chaining",
+      "title": "Method Chaining",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2892",
+      "slug": "minimizing-array-after-replacing-pairs-with-their-product",
+      "title": "Minimizing Array After Replacing Pairs With Their Product",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2893",
+      "slug": "calculate-orders-within-each-interval",
+      "title": "Calculate Orders Within Each Interval",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2894",
+      "slug": "divisible-and-non-divisible-sums-difference",
+      "title": "Divisible and Non-divisible Sums Difference",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2895",
+      "slug": "minimum-processing-time",
+      "title": "Minimum Processing Time",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2896",
+      "slug": "apply-operations-to-make-two-strings-equal",
+      "title": "Apply Operations to Make Two Strings Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2897",
+      "slug": "apply-operations-on-array-to-maximize-sum-of-squares",
+      "title": "Apply Operations on Array to Maximize Sum of Squares",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2898",
+      "slug": "maximum-linear-stock-score",
+      "title": "Maximum Linear Stock Score",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2899",
+      "slug": "last-visited-integers",
+      "title": "Last Visited Integers",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2900",
+      "slug": "longest-unequal-adjacent-groups-subsequence-i",
+      "title": "Longest Unequal Adjacent Groups Subsequence I",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2901",
+      "slug": "longest-unequal-adjacent-groups-subsequence-ii",
+      "title": "Longest Unequal Adjacent Groups Subsequence II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

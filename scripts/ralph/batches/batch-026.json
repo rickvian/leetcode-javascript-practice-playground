@@ -1,0 +1,225 @@
+{
+  "batchId": "batch-026",
+  "problems": [
+    {
+      "id": "0597",
+      "slug": "friend-requests-i-overall-acceptance-rate",
+      "title": "Friend Requests I: Overall Acceptance Rate",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0598",
+      "slug": "range-addition-ii",
+      "title": "Range Addition II",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0599",
+      "slug": "minimum-index-sum-of-two-lists",
+      "title": "Minimum Index Sum of Two Lists",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0600",
+      "slug": "non-negative-integers-without-consecutive-ones",
+      "title": "Non-negative Integers without Consecutive Ones",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0601",
+      "slug": "human-traffic-of-stadium",
+      "title": "Human Traffic of Stadium",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0602",
+      "slug": "friend-requests-ii-who-has-the-most-friends",
+      "title": "Friend Requests II: Who Has the Most Friends",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0603",
+      "slug": "consecutive-available-seats",
+      "title": "Consecutive Available Seats",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0604",
+      "slug": "design-compressed-string-iterator",
+      "title": "Design Compressed String Iterator",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "design",
+        "iterator"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0605",
+      "slug": "can-place-flowers",
+      "title": "Can Place Flowers",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0606",
+      "slug": "construct-string-from-binary-tree",
+      "title": "Construct String from Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0607",
+      "slug": "sales-person",
+      "title": "Sales Person",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0608",
+      "slug": "tree-node",
+      "title": "Tree Node",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0609",
+      "slug": "find-duplicate-file-in-system",
+      "title": "Find Duplicate File in System",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0610",
+      "slug": "triangle-judgement",
+      "title": "Triangle Judgement",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0611",
+      "slug": "valid-triangle-number",
+      "title": "Valid Triangle Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0612",
+      "slug": "shortest-distance-in-a-plane",
+      "title": "Shortest Distance in a Plane",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0613",
+      "slug": "shortest-distance-in-a-line",
+      "title": "Shortest Distance in a Line",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0614",
+      "slug": "second-degree-follower",
+      "title": "Second Degree Follower",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0615",
+      "slug": "average-salary-departments-vs-company",
+      "title": "Average Salary: Departments VS Company",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0616",
+      "slug": "add-bold-tag-in-string",
+      "title": "Add Bold Tag in String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie",
+        "string-matching"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

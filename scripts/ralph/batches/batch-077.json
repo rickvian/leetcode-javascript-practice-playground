@@ -1,0 +1,248 @@
+{
+  "batchId": "batch-077",
+  "problems": [
+    {
+      "id": "1622",
+      "slug": "fancy-sequence",
+      "title": "Fancy Sequence",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "design",
+        "segment-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1623",
+      "slug": "all-valid-triplets-that-can-represent-a-country",
+      "title": "All Valid Triplets That Can Represent a Country",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1624",
+      "slug": "largest-substring-between-two-equal-characters",
+      "title": "Largest Substring Between Two Equal Characters",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1625",
+      "slug": "lexicographically-smallest-string-after-applying-operations",
+      "title": "Lexicographically Smallest String After Applying Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "depth-first-search",
+        "breadth-first-search",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1626",
+      "slug": "best-team-with-no-conflicts",
+      "title": "Best Team With No Conflicts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1627",
+      "slug": "graph-connectivity-with-threshold",
+      "title": "Graph Connectivity With Threshold",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "union-find",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1628",
+      "slug": "design-an-expression-tree-with-evaluate-function",
+      "title": "Design an Expression Tree With Evaluate Function",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "stack",
+        "tree",
+        "design",
+        "binary-tree"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1629",
+      "slug": "slowest-key",
+      "title": "Slowest Key",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1630",
+      "slug": "arithmetic-subarrays",
+      "title": "Arithmetic Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1631",
+      "slug": "path-with-minimum-effort",
+      "title": "Path With Minimum Effort",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1632",
+      "slug": "rank-transform-of-a-matrix",
+      "title": "Rank Transform of a Matrix",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "union-find",
+        "graph",
+        "topological-sort",
+        "sorting",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1633",
+      "slug": "percentage-of-users-attended-a-contest",
+      "title": "Percentage of Users Attended a Contest",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1634",
+      "slug": "add-two-polynomials-represented-as-linked-lists",
+      "title": "Add Two Polynomials Represented as Linked Lists",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "math",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1635",
+      "slug": "hopper-company-queries-i",
+      "title": "Hopper Company Queries I",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1636",
+      "slug": "sort-array-by-increasing-frequency",
+      "title": "Sort Array by Increasing Frequency",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1637",
+      "slug": "widest-vertical-area-between-two-points-containing-no-points",
+      "title": "Widest Vertical Area Between Two Points Containing No Points",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1638",
+      "slug": "count-substrings-that-differ-by-one-character",
+      "title": "Count Substrings That Differ by One Character",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1639",
+      "slug": "number-of-ways-to-form-a-target-string-given-a-dictionary",
+      "title": "Number of Ways to Form a Target String Given a Dictionary",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1640",
+      "slug": "check-array-formation-through-concatenation",
+      "title": "Check Array Formation Through Concatenation",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1641",
+      "slug": "count-sorted-vowel-strings",
+      "title": "Count Sorted Vowel Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

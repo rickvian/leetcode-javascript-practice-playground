@@ -1,0 +1,236 @@
+{
+  "batchId": "batch-053",
+  "problems": [
+    {
+      "id": "1141",
+      "slug": "user-activity-for-the-past-30-days-i",
+      "title": "User Activity for the Past 30 Days I",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1142",
+      "slug": "user-activity-for-the-past-30-days-ii",
+      "title": "User Activity for the Past 30 Days II",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1144",
+      "slug": "decrease-elements-to-make-array-zigzag",
+      "title": "Decrease Elements To Make Array Zigzag",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1145",
+      "slug": "binary-tree-coloring-game",
+      "title": "Binary Tree Coloring Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1146",
+      "slug": "snapshot-array",
+      "title": "Snapshot Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "design"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1147",
+      "slug": "longest-chunked-palindrome-decomposition",
+      "title": "Longest Chunked Palindrome Decomposition",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "string",
+        "dynamic-programming",
+        "greedy",
+        "rolling-hash",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1148",
+      "slug": "article-views-i",
+      "title": "Article Views I",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1149",
+      "slug": "article-views-ii",
+      "title": "Article Views II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1150",
+      "slug": "check-if-a-number-is-majority-element-in-a-sorted-array",
+      "title": "Check If a Number Is Majority Element in a Sorted Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1151",
+      "slug": "minimum-swaps-to-group-all-1s-together",
+      "title": "Minimum Swaps to Group All 1's Together",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1152",
+      "slug": "analyze-user-website-visit-pattern",
+      "title": "Analyze User Website Visit Pattern",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1153",
+      "slug": "string-transforms-into-another-string",
+      "title": "String Transforms Into Another String",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1154",
+      "slug": "day-of-the-year",
+      "title": "Day of the Year",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1155",
+      "slug": "number-of-dice-rolls-with-target-sum",
+      "title": "Number of Dice Rolls With Target Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1156",
+      "slug": "swap-for-longest-repeated-character-substring",
+      "title": "Swap For Longest Repeated Character Substring",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1157",
+      "slug": "online-majority-element-in-subarray",
+      "title": "Online Majority Element In Subarray",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "design",
+        "binary-indexed-tree",
+        "segment-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1158",
+      "slug": "market-analysis-i",
+      "title": "Market Analysis I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1159",
+      "slug": "market-analysis-ii",
+      "title": "Market Analysis II",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1160",
+      "slug": "find-words-that-can-be-formed-by-characters",
+      "title": "Find Words That Can Be Formed by Characters",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1161",
+      "slug": "maximum-level-sum-of-a-binary-tree",
+      "title": "Maximum Level Sum of a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

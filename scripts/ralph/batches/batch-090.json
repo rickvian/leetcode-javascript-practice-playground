@@ -1,0 +1,238 @@
+{
+  "batchId": "batch-090",
+  "problems": [
+    {
+      "id": "1882",
+      "slug": "process-tasks-using-servers",
+      "title": "Process Tasks Using Servers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1883",
+      "slug": "minimum-skips-to-arrive-at-meeting-on-time",
+      "title": "Minimum Skips to Arrive at Meeting On Time",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1884",
+      "slug": "egg-drop-with-2-eggs-and-n-floors",
+      "title": "Egg Drop With 2 Eggs and N Floors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1885",
+      "slug": "count-pairs-in-two-arrays",
+      "title": "Count Pairs in Two Arrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1886",
+      "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
+      "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1887",
+      "slug": "reduction-operations-to-make-the-array-elements-equal",
+      "title": "Reduction Operations to Make the Array Elements Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1888",
+      "slug": "minimum-number-of-flips-to-make-the-binary-string-alternating",
+      "title": "Minimum Number of Flips to Make the Binary String Alternating",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1889",
+      "slug": "minimum-space-wasted-from-packaging",
+      "title": "Minimum Space Wasted From Packaging",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1890",
+      "slug": "the-latest-login-in-2020",
+      "title": "The Latest Login in 2020",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1891",
+      "slug": "cutting-ribbons",
+      "title": "Cutting Ribbons",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1892",
+      "slug": "page-recommendations-ii",
+      "title": "Page Recommendations II",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1893",
+      "slug": "check-if-all-the-integers-in-a-range-are-covered",
+      "title": "Check if All the Integers in a Range Are Covered",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1894",
+      "slug": "find-the-student-that-will-replace-the-chalk",
+      "title": "Find the Student that Will Replace the Chalk",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "simulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1895",
+      "slug": "largest-magic-square",
+      "title": "Largest Magic Square",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1896",
+      "slug": "minimum-cost-to-change-the-final-value-of-expression",
+      "title": "Minimum Cost to Change the Final Value of Expression",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "dynamic-programming",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1897",
+      "slug": "redistribute-characters-to-make-all-strings-equal",
+      "title": "Redistribute Characters to Make All Strings Equal",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1898",
+      "slug": "maximum-number-of-removable-characters",
+      "title": "Maximum Number of Removable Characters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1899",
+      "slug": "merge-triplets-to-form-target-triplet",
+      "title": "Merge Triplets to Form Target Triplet",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1900",
+      "slug": "the-earliest-and-latest-rounds-where-players-compete",
+      "title": "The Earliest and Latest Rounds Where Players Compete",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1901",
+      "slug": "find-a-peak-element-ii",
+      "title": "Find a Peak Element II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    }
+  ]
+}
