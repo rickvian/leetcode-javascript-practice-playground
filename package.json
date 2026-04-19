@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:perf": "PERF=true vitest run --reporter=verbose"
+    "test:perf": "PERF=true vitest run --reporter=verbose",
+    "ralph": "./scripts/ralph/ralph.sh ${RALPHLOOP}"
   },
   "keywords": [
     "leetcode",
