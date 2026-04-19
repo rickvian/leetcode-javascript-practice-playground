@@ -1,0 +1,255 @@
+{
+  "batchId": "batch-044",
+  "problems": [
+    {
+      "id": "0960",
+      "slug": "delete-columns-to-make-sorted-iii",
+      "title": "Delete Columns to Make Sorted III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0961",
+      "slug": "n-repeated-element-in-size-2n-array",
+      "title": "N-Repeated Element in Size 2N Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0962",
+      "slug": "maximum-width-ramp",
+      "title": "Maximum Width Ramp",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0963",
+      "slug": "minimum-area-rectangle-ii",
+      "title": "Minimum Area Rectangle II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0964",
+      "slug": "least-operators-to-express-number",
+      "title": "Least Operators to Express Number",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0965",
+      "slug": "univalued-binary-tree",
+      "title": "Univalued Binary Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0966",
+      "slug": "vowel-spellchecker",
+      "title": "Vowel Spellchecker",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0967",
+      "slug": "numbers-with-same-consecutive-differences",
+      "title": "Numbers With Same Consecutive Differences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "backtracking",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0968",
+      "slug": "binary-tree-cameras",
+      "title": "Binary Tree Cameras",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0969",
+      "slug": "pancake-sorting",
+      "title": "Pancake Sorting",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0970",
+      "slug": "powerful-integers",
+      "title": "Powerful Integers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0971",
+      "slug": "flip-binary-tree-to-match-preorder-traversal",
+      "title": "Flip Binary Tree To Match Preorder Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0972",
+      "slug": "equal-rational-numbers",
+      "title": "Equal Rational Numbers",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0973",
+      "slug": "k-closest-points-to-origin",
+      "title": "K Closest Points to Origin",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "divide-and-conquer",
+        "geometry",
+        "sorting",
+        "heap-priority-queue",
+        "quickselect"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0974",
+      "slug": "subarray-sums-divisible-by-k",
+      "title": "Subarray Sums Divisible by K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0975",
+      "slug": "odd-even-jump",
+      "title": "Odd Even Jump",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "sorting",
+        "monotonic-stack",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0976",
+      "slug": "largest-perimeter-triangle",
+      "title": "Largest Perimeter Triangle",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0977",
+      "slug": "squares-of-a-sorted-array",
+      "title": "Squares of a Sorted Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0978",
+      "slug": "longest-turbulent-subarray",
+      "title": "Longest Turbulent Subarray",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0979",
+      "slug": "distribute-coins-in-binary-tree",
+      "title": "Distribute Coins in Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

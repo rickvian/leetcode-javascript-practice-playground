@@ -1,0 +1,258 @@
+{
+  "batchId": "batch-117",
+  "problems": [
+    {
+      "id": "2422",
+      "slug": "merge-operations-to-turn-array-into-a-palindrome",
+      "title": "Merge Operations to Turn Array Into a Palindrome",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2423",
+      "slug": "remove-letter-to-equalize-frequency",
+      "title": "Remove Letter To Equalize Frequency",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2424",
+      "slug": "longest-uploaded-prefix",
+      "title": "Longest Uploaded Prefix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "binary-search",
+        "union-find",
+        "design",
+        "binary-indexed-tree",
+        "segment-tree",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2425",
+      "slug": "bitwise-xor-of-all-pairings",
+      "title": "Bitwise XOR of All Pairings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "brainteaser"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2426",
+      "slug": "number-of-pairs-satisfying-inequality",
+      "title": "Number of Pairs Satisfying Inequality",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2427",
+      "slug": "number-of-common-factors",
+      "title": "Number of Common Factors",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "enumeration",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2428",
+      "slug": "maximum-sum-of-an-hourglass",
+      "title": "Maximum Sum of an Hourglass",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2429",
+      "slug": "minimize-xor",
+      "title": "Minimize XOR",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "greedy",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2430",
+      "slug": "maximum-deletions-on-a-string",
+      "title": "Maximum Deletions on a String",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "rolling-hash",
+        "string-matching",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2431",
+      "slug": "maximize-total-tastiness-of-purchased-fruits",
+      "title": "Maximize Total Tastiness of Purchased Fruits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2432",
+      "slug": "the-employee-that-worked-on-the-longest-task",
+      "title": "The Employee That Worked on the Longest Task",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2433",
+      "slug": "find-the-original-array-of-prefix-xor",
+      "title": "Find The Original Array of Prefix Xor",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2434",
+      "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+      "title": "Using a Robot to Print the Lexicographically Smallest String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2435",
+      "slug": "paths-in-matrix-whose-sum-is-divisible-by-k",
+      "title": "Paths in Matrix Whose Sum Is Divisible by K",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2436",
+      "slug": "minimum-split-into-subarrays-with-gcd-greater-than-one",
+      "title": "Minimum Split Into Subarrays With GCD Greater Than One",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "greedy",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2437",
+      "slug": "number-of-valid-clock-times",
+      "title": "Number of Valid Clock Times",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2438",
+      "slug": "range-product-queries-of-powers",
+      "title": "Range Product Queries of Powers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2439",
+      "slug": "minimize-maximum-of-array",
+      "title": "Minimize Maximum of Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "greedy",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2440",
+      "slug": "create-components-with-same-value",
+      "title": "Create Components With Same Value",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "tree",
+        "depth-first-search",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2441",
+      "slug": "largest-positive-integer-that-exists-with-its-negative",
+      "title": "Largest Positive Integer That Exists With Its Negative",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

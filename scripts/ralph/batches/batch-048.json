@@ -1,0 +1,243 @@
+{
+  "batchId": "batch-048",
+  "problems": [
+    {
+      "id": "1041",
+      "slug": "robot-bounded-in-circle",
+      "title": "Robot Bounded In Circle",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1042",
+      "slug": "flower-planting-with-no-adjacent",
+      "title": "Flower Planting With No Adjacent",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1043",
+      "slug": "partition-array-for-maximum-sum",
+      "title": "Partition Array for Maximum Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1044",
+      "slug": "longest-duplicate-substring",
+      "title": "Longest Duplicate Substring",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "binary-search",
+        "sliding-window",
+        "rolling-hash",
+        "suffix-array",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1045",
+      "slug": "customers-who-bought-all-products",
+      "title": "Customers Who Bought All Products",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1046",
+      "slug": "last-stone-weight",
+      "title": "Last Stone Weight",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1047",
+      "slug": "remove-all-adjacent-duplicates-in-string",
+      "title": "Remove All Adjacent Duplicates In String",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1048",
+      "slug": "longest-string-chain",
+      "title": "Longest String Chain",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "string",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1049",
+      "slug": "last-stone-weight-ii",
+      "title": "Last Stone Weight II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1050",
+      "slug": "actors-and-directors-who-cooperated-at-least-three-times",
+      "title": "Actors and Directors Who Cooperated At Least Three Times",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1051",
+      "slug": "height-checker",
+      "title": "Height Checker",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting",
+        "counting-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1052",
+      "slug": "grumpy-bookstore-owner",
+      "title": "Grumpy Bookstore Owner",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1053",
+      "slug": "previous-permutation-with-one-swap",
+      "title": "Previous Permutation With One Swap",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1054",
+      "slug": "distant-barcodes",
+      "title": "Distant Barcodes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1055",
+      "slug": "shortest-way-to-form-string",
+      "title": "Shortest Way to Form String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "binary-search",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1056",
+      "slug": "confusing-number",
+      "title": "Confusing Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1057",
+      "slug": "campus-bikes",
+      "title": "Campus Bikes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1058",
+      "slug": "minimize-rounding-error-to-meet-target",
+      "title": "Minimize Rounding Error to Meet Target",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "string",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1059",
+      "slug": "all-paths-from-source-lead-to-destination",
+      "title": "All Paths from Source Lead to Destination",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1060",
+      "slug": "missing-element-in-sorted-array",
+      "title": "Missing Element in Sorted Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

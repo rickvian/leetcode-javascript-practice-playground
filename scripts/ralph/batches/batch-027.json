@@ -1,0 +1,245 @@
+{
+  "batchId": "batch-027",
+  "problems": [
+    {
+      "id": "0617",
+      "slug": "merge-two-binary-trees",
+      "title": "Merge Two Binary Trees",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0618",
+      "slug": "students-report-by-geography",
+      "title": "Students Report By Geography",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0619",
+      "slug": "biggest-single-number",
+      "title": "Biggest Single Number",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0620",
+      "slug": "not-boring-movies",
+      "title": "Not Boring Movies",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0621",
+      "slug": "task-scheduler",
+      "title": "Task Scheduler",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0622",
+      "slug": "design-circular-queue",
+      "title": "Design Circular Queue",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "linked-list",
+        "design",
+        "queue"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0623",
+      "slug": "add-one-row-to-tree",
+      "title": "Add One Row to Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0624",
+      "slug": "maximum-distance-in-arrays",
+      "title": "Maximum Distance in Arrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0625",
+      "slug": "minimum-factorization",
+      "title": "Minimum Factorization",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0626",
+      "slug": "exchange-seats",
+      "title": "Exchange Seats",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0627",
+      "slug": "swap-sex-of-employees",
+      "title": "Swap Sex of Employees",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0628",
+      "slug": "maximum-product-of-three-numbers",
+      "title": "Maximum Product of Three Numbers",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0629",
+      "slug": "k-inverse-pairs-array",
+      "title": "K Inverse Pairs Array",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0630",
+      "slug": "course-schedule-iii",
+      "title": "Course Schedule III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0631",
+      "slug": "design-excel-sum-formula",
+      "title": "Design Excel Sum Formula",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "graph",
+        "design",
+        "topological-sort",
+        "matrix"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0632",
+      "slug": "smallest-range-covering-elements-from-k-lists",
+      "title": "Smallest Range Covering Elements from K Lists",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sliding-window",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0633",
+      "slug": "sum-of-square-numbers",
+      "title": "Sum of Square Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "two-pointers",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0634",
+      "slug": "find-the-derangement-of-an-array",
+      "title": "Find the Derangement of An Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0636",
+      "slug": "exclusive-time-of-functions",
+      "title": "Exclusive Time of Functions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0637",
+      "slug": "average-of-levels-in-binary-tree",
+      "title": "Average of Levels in Binary Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

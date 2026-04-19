@@ -1,0 +1,234 @@
+{
+  "batchId": "batch-049",
+  "problems": [
+    {
+      "id": "1061",
+      "slug": "lexicographically-smallest-equivalent-string",
+      "title": "Lexicographically Smallest Equivalent String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "union-find"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1062",
+      "slug": "longest-repeating-substring",
+      "title": "Longest Repeating Substring",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "binary-search",
+        "dynamic-programming",
+        "rolling-hash",
+        "suffix-array",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1063",
+      "slug": "number-of-valid-subarrays",
+      "title": "Number of Valid Subarrays",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1064",
+      "slug": "fixed-point",
+      "title": "Fixed Point",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1065",
+      "slug": "index-pairs-of-a-string",
+      "title": "Index Pairs of a String",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "trie",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1066",
+      "slug": "campus-bikes-ii",
+      "title": "Campus Bikes II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1067",
+      "slug": "digit-count-in-range",
+      "title": "Digit Count in Range",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1068",
+      "slug": "product-sales-analysis-i",
+      "title": "Product Sales Analysis I",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1069",
+      "slug": "product-sales-analysis-ii",
+      "title": "Product Sales Analysis II",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1070",
+      "slug": "product-sales-analysis-iii",
+      "title": "Product Sales Analysis III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1071",
+      "slug": "greatest-common-divisor-of-strings",
+      "title": "Greatest Common Divisor of Strings",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1072",
+      "slug": "flip-columns-for-maximum-number-of-equal-rows",
+      "title": "Flip Columns For Maximum Number of Equal Rows",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1073",
+      "slug": "adding-two-negabinary-numbers",
+      "title": "Adding Two Negabinary Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1074",
+      "slug": "number-of-submatrices-that-sum-to-target",
+      "title": "Number of Submatrices That Sum to Target",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1075",
+      "slug": "project-employees-i",
+      "title": "Project Employees I",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1076",
+      "slug": "project-employees-ii",
+      "title": "Project Employees II",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1077",
+      "slug": "project-employees-iii",
+      "title": "Project Employees III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1078",
+      "slug": "occurrences-after-bigram",
+      "title": "Occurrences After Bigram",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1079",
+      "slug": "letter-tile-possibilities",
+      "title": "Letter Tile Possibilities",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1080",
+      "slug": "insufficient-nodes-in-root-to-leaf-paths",
+      "title": "Insufficient Nodes in Root to Leaf Paths",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

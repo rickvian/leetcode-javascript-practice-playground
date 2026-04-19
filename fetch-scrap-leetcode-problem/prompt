@@ -1,0 +1,6 @@
+i think you know ralph loop, 
+my goal is populate test case total of 3k to mimic leetcode test run
+
+i have long list of 3k response question from leetcode at full_leetcode_problems_response.json, do not load it unless you really need it
+tip: you can write python script and extract brief information only when necessary
+the structure sample is at sample.json

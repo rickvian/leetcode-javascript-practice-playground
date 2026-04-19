@@ -9,15 +9,14 @@
 4. Pick highest priority story 
    where `passes: false`
 5. Implement that ONE story
-6. Run typecheck and tests
-7. Update AGENTS.md files with learnings
-8. Commit: `feat: [ID] - [Title]`
-9. Update prd.yaml: `passes: true`
-10. Append learnings to progress.txt
+6. Run tests scoped to changed files via npx vitest run <paths>
+7. Commit: `feat: [ID] - [Title]`
+8. Update prd.yaml: `passes: true`
+9. Append learnings to scripts/ralph/progress.txt
 
 ## Progress Format
 
-APPEND to progress.txt:
+APPEND to scripts/ralph/progress.txt:
 
 ## [Date] - [Story ID]
 - What was implemented

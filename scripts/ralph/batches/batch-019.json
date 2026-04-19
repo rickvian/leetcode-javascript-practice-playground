@@ -1,0 +1,253 @@
+{
+  "batchId": "batch-019",
+  "problems": [
+    {
+      "id": "0455",
+      "slug": "assign-cookies",
+      "title": "Assign Cookies",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0456",
+      "slug": "132-pattern",
+      "title": "132 Pattern",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "stack",
+        "monotonic-stack",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0457",
+      "slug": "circular-array-loop",
+      "title": "Circular Array Loop",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0458",
+      "slug": "poor-pigs",
+      "title": "Poor Pigs",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0459",
+      "slug": "repeated-substring-pattern",
+      "title": "Repeated Substring Pattern",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "string-matching"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0460",
+      "slug": "lfu-cache",
+      "title": "LFU Cache",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "linked-list",
+        "design",
+        "doubly-linked-list"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0461",
+      "slug": "hamming-distance",
+      "title": "Hamming Distance",
+      "difficulty": "EASY",
+      "tags": [
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0462",
+      "slug": "minimum-moves-to-equal-array-elements-ii",
+      "title": "Minimum Moves to Equal Array Elements II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0463",
+      "slug": "island-perimeter",
+      "title": "Island Perimeter",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0464",
+      "slug": "can-i-win",
+      "title": "Can I Win",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "bit-manipulation",
+        "memoization",
+        "game-theory",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0465",
+      "slug": "optimal-account-balancing",
+      "title": "Optimal Account Balancing",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0466",
+      "slug": "count-the-repetitions",
+      "title": "Count The Repetitions",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0467",
+      "slug": "unique-substrings-in-wraparound-string",
+      "title": "Unique Substrings in Wraparound String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0468",
+      "slug": "validate-ip-address",
+      "title": "Validate IP Address",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0469",
+      "slug": "convex-polygon",
+      "title": "Convex Polygon",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0470",
+      "slug": "implement-rand10-using-rand7",
+      "title": "Implement Rand10() Using Rand7()",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "rejection-sampling",
+        "randomized",
+        "probability-and-statistics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0471",
+      "slug": "encode-string-with-shortest-length",
+      "title": "Encode String with Shortest Length",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0472",
+      "slug": "concatenated-words",
+      "title": "Concatenated Words",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming",
+        "depth-first-search",
+        "trie",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0473",
+      "slug": "matchsticks-to-square",
+      "title": "Matchsticks to Square",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0474",
+      "slug": "ones-and-zeroes",
+      "title": "Ones and Zeroes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

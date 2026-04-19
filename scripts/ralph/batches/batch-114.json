@@ -1,0 +1,245 @@
+{
+  "batchId": "batch-114",
+  "problems": [
+    {
+      "id": "2362",
+      "slug": "generate-the-invoice",
+      "title": "Generate the Invoice",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2363",
+      "slug": "merge-similar-items",
+      "title": "Merge Similar Items",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2364",
+      "slug": "count-number-of-bad-pairs",
+      "title": "Count Number of Bad Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2365",
+      "slug": "task-scheduler-ii",
+      "title": "Task Scheduler II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2366",
+      "slug": "minimum-replacements-to-sort-the-array",
+      "title": "Minimum Replacements to Sort the Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2367",
+      "slug": "number-of-arithmetic-triplets",
+      "title": "Number of Arithmetic Triplets",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2368",
+      "slug": "reachable-nodes-with-restrictions",
+      "title": "Reachable Nodes With Restrictions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2369",
+      "slug": "check-if-there-is-a-valid-partition-for-the-array",
+      "title": "Check if There is a Valid Partition For The Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2370",
+      "slug": "longest-ideal-subsequence",
+      "title": "Longest Ideal Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2371",
+      "slug": "minimize-maximum-value-in-a-grid",
+      "title": "Minimize Maximum Value in a Grid",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "union-find",
+        "graph",
+        "topological-sort",
+        "sorting",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2372",
+      "slug": "calculate-the-influence-of-each-salesperson",
+      "title": "Calculate the Influence of Each Salesperson",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2373",
+      "slug": "largest-local-values-in-a-matrix",
+      "title": "Largest Local Values in a Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2374",
+      "slug": "node-with-highest-edge-score",
+      "title": "Node With Highest Edge Score",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2375",
+      "slug": "construct-smallest-number-from-di-string",
+      "title": "Construct Smallest Number From DI String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2376",
+      "slug": "count-special-integers",
+      "title": "Count Special Integers",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2377",
+      "slug": "sort-the-olympic-table",
+      "title": "Sort the Olympic Table",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2378",
+      "slug": "choose-edges-to-maximize-score-in-a-tree",
+      "title": "Choose Edges to Maximize Score in a Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2379",
+      "slug": "minimum-recolors-to-get-k-consecutive-black-blocks",
+      "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2380",
+      "slug": "time-needed-to-rearrange-a-binary-string",
+      "title": "Time Needed to Rearrange a Binary String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2381",
+      "slug": "shifting-letters-ii",
+      "title": "Shifting Letters II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

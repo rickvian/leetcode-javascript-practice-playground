@@ -1,0 +1,249 @@
+{
+  "batchId": "batch-112",
+  "problems": [
+    {
+      "id": "2322",
+      "slug": "minimum-score-after-removals-on-a-tree",
+      "title": "Minimum Score After Removals on a Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2323",
+      "slug": "find-minimum-time-to-finish-all-jobs-ii",
+      "title": "Find Minimum Time to Finish All Jobs II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2324",
+      "slug": "product-sales-analysis-iv",
+      "title": "Product Sales Analysis IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2325",
+      "slug": "decode-the-message",
+      "title": "Decode the Message",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2326",
+      "slug": "spiral-matrix-iv",
+      "title": "Spiral Matrix IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "linked-list",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2327",
+      "slug": "number-of-people-aware-of-a-secret",
+      "title": "Number of People Aware of a Secret",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "queue",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2328",
+      "slug": "number-of-increasing-paths-in-a-grid",
+      "title": "Number of Increasing Paths in a Grid",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort",
+        "memoization",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2329",
+      "slug": "product-sales-analysis-v",
+      "title": "Product Sales Analysis V",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2330",
+      "slug": "valid-palindrome-iv",
+      "title": "Valid Palindrome IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2331",
+      "slug": "evaluate-boolean-binary-tree",
+      "title": "Evaluate Boolean Binary Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2332",
+      "slug": "the-latest-time-to-catch-a-bus",
+      "title": "The Latest Time to Catch a Bus",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2333",
+      "slug": "minimum-sum-of-squared-difference",
+      "title": "Minimum Sum of Squared Difference",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2334",
+      "slug": "subarray-with-elements-greater-than-varying-threshold",
+      "title": "Subarray With Elements Greater Than Varying Threshold",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "stack",
+        "union-find",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2335",
+      "slug": "minimum-amount-of-time-to-fill-cups",
+      "title": "Minimum Amount of Time to Fill Cups",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2336",
+      "slug": "smallest-number-in-infinite-set",
+      "title": "Smallest Number in Infinite Set",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "design",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2337",
+      "slug": "move-pieces-to-obtain-a-string",
+      "title": "Move Pieces to Obtain a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2338",
+      "slug": "count-the-number-of-ideal-arrays",
+      "title": "Count the Number of Ideal Arrays",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2339",
+      "slug": "all-the-matches-of-the-league",
+      "title": "All the Matches of the League",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2340",
+      "slug": "minimum-adjacent-swaps-to-make-a-valid-array",
+      "title": "Minimum Adjacent Swaps to Make a Valid Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2341",
+      "slug": "maximum-number-of-pairs-in-array",
+      "title": "Maximum Number of Pairs in Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

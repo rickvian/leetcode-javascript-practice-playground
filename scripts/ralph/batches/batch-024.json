@@ -1,0 +1,231 @@
+{
+  "batchId": "batch-024",
+  "problems": [
+    {
+      "id": "0556",
+      "slug": "next-greater-element-iii",
+      "title": "Next Greater Element III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0557",
+      "slug": "reverse-words-in-a-string-iii",
+      "title": "Reverse Words in a String III",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0558",
+      "slug": "logical-or-of-two-binary-grids-represented-as-quad-trees",
+      "title": "Logical OR of Two Binary Grids Represented as Quad-Trees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "divide-and-conquer",
+        "tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0559",
+      "slug": "maximum-depth-of-n-ary-tree",
+      "title": "Maximum Depth of N-ary Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0560",
+      "slug": "subarray-sum-equals-k",
+      "title": "Subarray Sum Equals K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0561",
+      "slug": "array-partition",
+      "title": "Array Partition",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "counting-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0562",
+      "slug": "longest-line-of-consecutive-one-in-matrix",
+      "title": "Longest Line of Consecutive One in Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0563",
+      "slug": "binary-tree-tilt",
+      "title": "Binary Tree Tilt",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0564",
+      "slug": "find-the-closest-palindrome",
+      "title": "Find the Closest Palindrome",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0565",
+      "slug": "array-nesting",
+      "title": "Array Nesting",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0566",
+      "slug": "reshape-the-matrix",
+      "title": "Reshape the Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0567",
+      "slug": "permutation-in-string",
+      "title": "Permutation in String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "two-pointers",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0568",
+      "slug": "maximum-vacation-days",
+      "title": "Maximum Vacation Days",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0569",
+      "slug": "median-employee-salary",
+      "title": "Median Employee Salary",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0570",
+      "slug": "managers-with-at-least-5-direct-reports",
+      "title": "Managers with at Least 5 Direct Reports",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0571",
+      "slug": "find-median-given-frequency-of-numbers",
+      "title": "Find Median Given Frequency of Numbers",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0573",
+      "slug": "squirrel-simulation",
+      "title": "Squirrel Simulation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0574",
+      "slug": "winning-candidate",
+      "title": "Winning Candidate",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0575",
+      "slug": "distribute-candies",
+      "title": "Distribute Candies",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0576",
+      "slug": "out-of-boundary-paths",
+      "title": "Out of Boundary Paths",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

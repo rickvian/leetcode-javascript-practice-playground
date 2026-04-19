@@ -1,0 +1,261 @@
+{
+  "batchId": "batch-004",
+  "problems": [
+    {
+      "id": "0090",
+      "slug": "subsets-ii",
+      "title": "Subsets II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0093",
+      "slug": "restore-ip-addresses",
+      "title": "Restore IP Addresses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0095",
+      "slug": "unique-binary-search-trees-ii",
+      "title": "Unique Binary Search Trees II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "backtracking",
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0096",
+      "slug": "unique-binary-search-trees",
+      "title": "Unique Binary Search Trees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0097",
+      "slug": "interleaving-string",
+      "title": "Interleaving String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0099",
+      "slug": "recover-binary-search-tree",
+      "title": "Recover Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0101",
+      "slug": "symmetric-tree",
+      "title": "Symmetric Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0106",
+      "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "divide-and-conquer",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0107",
+      "slug": "binary-tree-level-order-traversal-ii",
+      "title": "Binary Tree Level Order Traversal II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0108",
+      "slug": "convert-sorted-array-to-binary-search-tree",
+      "title": "Convert Sorted Array to Binary Search Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0109",
+      "slug": "convert-sorted-list-to-binary-search-tree",
+      "title": "Convert Sorted List to Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "divide-and-conquer",
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0111",
+      "slug": "minimum-depth-of-binary-tree",
+      "title": "Minimum Depth of Binary Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0112",
+      "slug": "path-sum",
+      "title": "Path Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0113",
+      "slug": "path-sum-ii",
+      "title": "Path Sum II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "backtracking",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0114",
+      "slug": "flatten-binary-tree-to-linked-list",
+      "title": "Flatten Binary Tree to Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0115",
+      "slug": "distinct-subsequences",
+      "title": "Distinct Subsequences",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0116",
+      "slug": "populating-next-right-pointers-in-each-node",
+      "title": "Populating Next Right Pointers in Each Node",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0117",
+      "slug": "populating-next-right-pointers-in-each-node-ii",
+      "title": "Populating Next Right Pointers in Each Node II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0118",
+      "slug": "pascals-triangle",
+      "title": "Pascal's Triangle",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0119",
+      "slug": "pascals-triangle-ii",
+      "title": "Pascal's Triangle II",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

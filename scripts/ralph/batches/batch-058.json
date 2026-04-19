@@ -1,0 +1,259 @@
+{
+  "batchId": "batch-058",
+  "problems": [
+    {
+      "id": "1242",
+      "slug": "web-crawler-multithreaded",
+      "title": "Web Crawler Multithreaded",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "concurrency"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1243",
+      "slug": "array-transformation",
+      "title": "Array Transformation",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1244",
+      "slug": "design-a-leaderboard",
+      "title": "Design A Leaderboard",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "design",
+        "sorting"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1245",
+      "slug": "tree-diameter",
+      "title": "Tree Diameter",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1246",
+      "slug": "palindrome-removal",
+      "title": "Palindrome Removal",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1247",
+      "slug": "minimum-swaps-to-make-strings-equal",
+      "title": "Minimum Swaps to Make Strings Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1248",
+      "slug": "count-number-of-nice-subarrays",
+      "title": "Count Number of Nice Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1249",
+      "slug": "minimum-remove-to-make-valid-parentheses",
+      "title": "Minimum Remove to Make Valid Parentheses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1250",
+      "slug": "check-if-it-is-a-good-array",
+      "title": "Check If It Is a Good Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1251",
+      "slug": "average-selling-price",
+      "title": "Average Selling Price",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1252",
+      "slug": "cells-with-odd-values-in-a-matrix",
+      "title": "Cells with Odd Values in a Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1253",
+      "slug": "reconstruct-a-2-row-binary-matrix",
+      "title": "Reconstruct a 2-Row Binary Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1254",
+      "slug": "number-of-closed-islands",
+      "title": "Number of Closed Islands",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1255",
+      "slug": "maximum-score-words-formed-by-letters",
+      "title": "Maximum Score Words Formed by Letters",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "counting",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1256",
+      "slug": "encode-number",
+      "title": "Encode Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1257",
+      "slug": "smallest-common-region",
+      "title": "Smallest Common Region",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1258",
+      "slug": "synonymous-sentences",
+      "title": "Synonymous Sentences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "backtracking",
+        "sort",
+        "union-find"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1259",
+      "slug": "handshakes-that-dont-cross",
+      "title": "Handshakes That Don't Cross",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1260",
+      "slug": "shift-2d-grid",
+      "title": "Shift 2D Grid",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1261",
+      "slug": "find-elements-in-a-contaminated-binary-tree",
+      "title": "Find Elements in a Contaminated Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "design",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "batchId": "batch-014",
+  "problems": [
+    {
+      "id": "0349",
+      "slug": "intersection-of-two-arrays",
+      "title": "Intersection of Two Arrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0350",
+      "slug": "intersection-of-two-arrays-ii",
+      "title": "Intersection of Two Arrays II",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0351",
+      "slug": "android-unlock-patterns",
+      "title": "Android Unlock Patterns",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0352",
+      "slug": "data-stream-as-disjoint-intervals",
+      "title": "Data Stream as Disjoint Intervals",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "binary-search",
+        "union-find",
+        "design",
+        "data-stream",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0353",
+      "slug": "design-snake-game",
+      "title": "Design Snake Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "design",
+        "queue",
+        "simulation"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0354",
+      "slug": "russian-doll-envelopes",
+      "title": "Russian Doll Envelopes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0355",
+      "slug": "design-twitter",
+      "title": "Design Twitter",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "linked-list",
+        "design",
+        "heap-priority-queue"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0356",
+      "slug": "line-reflection",
+      "title": "Line Reflection",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0357",
+      "slug": "count-numbers-with-unique-digits",
+      "title": "Count Numbers with Unique Digits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0358",
+      "slug": "rearrange-string-k-distance-apart",
+      "title": "Rearrange String k Distance Apart",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0359",
+      "slug": "logger-rate-limiter",
+      "title": "Logger Rate Limiter",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "design",
+        "data-stream"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0360",
+      "slug": "sort-transformed-array",
+      "title": "Sort Transformed Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0361",
+      "slug": "bomb-enemy",
+      "title": "Bomb Enemy",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0363",
+      "slug": "max-sum-of-rectangle-no-larger-than-k",
+      "title": "Max Sum of Rectangle No Larger Than K",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "matrix",
+        "prefix-sum",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0364",
+      "slug": "nested-list-weight-sum-ii",
+      "title": "Nested List Weight Sum II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "stack",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0365",
+      "slug": "water-and-jug-problem",
+      "title": "Water and Jug Problem",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0366",
+      "slug": "find-leaves-of-binary-tree",
+      "title": "Find Leaves of Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0367",
+      "slug": "valid-perfect-square",
+      "title": "Valid Perfect Square",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0368",
+      "slug": "largest-divisible-subset",
+      "title": "Largest Divisible Subset",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0369",
+      "slug": "plus-one-linked-list",
+      "title": "Plus One Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "math"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "batchId": "batch-067",
+  "problems": [
+    {
+      "id": "1422",
+      "slug": "maximum-score-after-splitting-a-string",
+      "title": "Maximum Score After Splitting a String",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1423",
+      "slug": "maximum-points-you-can-obtain-from-cards",
+      "title": "Maximum Points You Can Obtain from Cards",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1424",
+      "slug": "diagonal-traverse-ii",
+      "title": "Diagonal Traverse II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1425",
+      "slug": "constrained-subsequence-sum",
+      "title": "Constrained Subsequence Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1426",
+      "slug": "counting-elements",
+      "title": "Counting Elements",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1427",
+      "slug": "perform-string-shifts",
+      "title": "Perform String Shifts",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1428",
+      "slug": "leftmost-column-with-at-least-a-one",
+      "title": "Leftmost Column with at Least a One",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "matrix",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1429",
+      "slug": "first-unique-number",
+      "title": "First Unique Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "design",
+        "queue",
+        "data-stream"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1430",
+      "slug": "check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree",
+      "title": "Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1431",
+      "slug": "kids-with-the-greatest-number-of-candies",
+      "title": "Kids With the Greatest Number of Candies",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1432",
+      "slug": "max-difference-you-can-get-from-changing-an-integer",
+      "title": "Max Difference You Can Get From Changing an Integer",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1433",
+      "slug": "check-if-a-string-can-break-another-string",
+      "title": "Check If a String Can Break Another String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1434",
+      "slug": "number-of-ways-to-wear-different-hats-to-each-other",
+      "title": "Number of Ways to Wear Different Hats to Each Other",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1435",
+      "slug": "create-a-session-bar-chart",
+      "title": "Create a Session Bar Chart",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1436",
+      "slug": "destination-city",
+      "title": "Destination City",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1437",
+      "slug": "check-if-all-1s-are-at-least-length-k-places-away",
+      "title": "Check If All 1's Are at Least Length K Places Away",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1438",
+      "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+      "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "ordered-set",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1439",
+      "slug": "find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows",
+      "title": "Find the Kth Smallest Sum of a Matrix With Sorted Rows",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1440",
+      "slug": "evaluate-boolean-expression",
+      "title": "Evaluate Boolean Expression",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1441",
+      "slug": "build-an-array-with-stack-operations",
+      "title": "Build an Array With Stack Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": true
+    }
+  ]
+}
