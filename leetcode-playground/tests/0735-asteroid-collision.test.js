@@ -35,7 +35,8 @@ describe('0735-asteroid-collision', () => {
     });
 
     it('should handle chain destruction', () => {
-        expect(asteroidCollision([1, 2, 3, -3, -2, -1])).toEqual([1, 2]);
+        // Each left-mover meets its equal right-mover: 3&-3 → both gone, 2&-2 → both gone, 1&-1 → both gone
+        expect(asteroidCollision([1, 2, 3, -3, -2, -1])).toEqual([]);
     });
 
     it('should handle left-moving first (no collision)', () => {

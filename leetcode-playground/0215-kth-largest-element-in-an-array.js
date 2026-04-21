@@ -78,35 +78,40 @@ var findKthLargest = function (nums, k) {
   // - When you need the full sorted top-K (not just the Kth value): use a min-heap of size K → O(n log k).
   // - Concurrent/parallel environments: QuickSelect mutates the array in-place, not safe without copying.
 
-  // Time: O(n) average, O(n²) worst case (bad pivot selection)
+  // Optimization: Randomized QuickSelect
+  // Randomly shuffle pivot into nums[r] before each partition.
+  // This breaks adversarial input patterns (sorted arrays) that cause O(n²) worst case,
+  // reducing it to astronomically unlikely in practice — expected O(n) on all inputs.
+  //
+  // Bug fix: loop must start from l, not 0. Without this, when recursing into the left
+  // partition, elements before l get re-examined and can corrupt the partition boundary.
+  //
+  // Time: O(n) average (randomized), O(n²) worst case (extremely unlikely)
   // Space: O(log n) average, O(n) worst case (recursion stack)
   let kIndex = nums.length - k;
 
   function quickSelect(l, r) {
-    let pointer = 0;
-    let pivotValue = nums[r]; // do not use nums.length because quickSelect parameters accept l and r,
-    // sometimes it confused with using the nums.length, you must, always, always use r as the pivot, because once we narrow down to left portion of array to search, nums.length is irrelevant.
+    // pick random pivot and move it to r so the rest of the logic is unchanged
+    const randomIndex = Math.floor(Math.random() * (r - l + 1)) + l;
+    [nums[randomIndex], nums[r]] = [nums[r], nums[randomIndex]];
+
+    let pointer = l;
+    let pivotValue = nums[r];
 
     // pointer only advances when the current element is <= pivot.
     // this means whenever we find a small element, pointer is sitting on a large element that was skipped.
     // the swap evicts that large number rightward and pulls the small number into the left partition.
-    // that is the exact purpose of both rules together: pointer-only-on-small guarantees a misplaced large number is always waiting at pointer to be displaced.
-    for (let i = 0; i < r; i++) {
+    for (let i = l; i < r; i++) {
       if (nums[i] <= pivotValue) {
         [nums[i], nums[pointer]] = [nums[pointer], nums[i]];
         pointer++;
       }
     }
 
-    [nums[pointer], nums[r]] = [nums[r], nums[pointer]]; // 1 time operation, swap pointer with pivot 1 time
-    // at this point, the pointer is exactly at its index's k-th value, because left is always, right is always bigger
-    // its just that left section and right section are unsorted.
+    [nums[pointer], nums[r]] = [nums[r], nums[pointer]]; // place pivot at its final sorted position
 
-    if (pointer < kIndex) return quickSelect(pointer + 1, r); // kIndex is on right side, quickSelect to the right
-    if (pointer > kIndex) return quickSelect(l, pointer - 1); // kIndex is on left side, quickSelect to the left.
-
-    // else
-    // pointer == kIndex
+    if (pointer < kIndex) return quickSelect(pointer + 1, r); // kIndex is on right side
+    if (pointer > kIndex) return quickSelect(l, pointer - 1); // kIndex is on left side
 
     return nums[pointer];
   }
