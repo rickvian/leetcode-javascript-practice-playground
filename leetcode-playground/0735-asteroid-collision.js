@@ -8,47 +8,45 @@
  *
  * https://leetcode.com/problems/asteroid-collision/description/
  *
+ * Approach: Monotonic Stack
+ * - Use a stack to simulate left-to-right traversal.
+ * - A collision only happens when a left-moving asteroid (negative) meets a right-moving one (positive) at the top of the stack.
+ * - No collision: same direction (both positive or both negative) → push directly.
+ * - On collision compare sizes (a + top):
+ *     diff < 0 → incoming left-mover is larger → destroy stack top, keep checking.
+ *     diff > 0 → stack top (right-mover) is larger → incoming asteroid is destroyed (a = 0).
+ *     diff = 0 → both same size → both destroyed.
+ * - Setting a = 0 is used as a sentinel to skip pushing and exit the inner while loop.
+ *
+ * Time Complexity : O(n) — each asteroid is pushed onto and popped from the stack at most once.
+ * Space Complexity: O(n) — in the worst case (all right-moving or all left-moving), all n asteroids remain on the stack.
+ *
  * @param {number[]} asteroids
  * @return {number[]}
  */
 var asteroidCollision = function (asteroids) {
-  //   (3, 2, 1, -10);
-  // 10 will collide with all and destroy all
-  // we can use stack to track current asteriod that going right
-  // and as we find collision, we delete those outgoing or upcoming asteroid accordingly
-
   let stack = [];
-  let survived; // tracks whether the current asteroid survives all collisions
 
   for (let a of asteroids) {
-    survived = true;
-
-    // Collision only happens when a left-mover (a < 0) meets a right-mover on top of the stack.
-    // Moving same direction or left-mover first: no collision.
     while (stack.length > 0 && a < 0 && stack.at(-1) > 0) {
+      // collision: incoming moves left, top of stack moves right
       let top = stack.at(-1);
-      // Use a + top to determine who wins:
-      //   a + top < 0 → left-mover's magnitude dominates (e.g. -10 + 3 = -7)
-      //   a + top > 0 → right-mover's magnitude dominates (e.g. -3 + 10 = 7)
-      //   a + top === 0 → equal size, both explode
-      let sum = a + top;
-      if (sum < 0) {
-        // Left-mover is bigger → right-mover (stack top) is destroyed, keep going
+      let diff = a + top;
+
+      if (diff < 0) {
+        // incoming is larger — destroy the right-mover, keep checking
         stack.pop();
-      } else if (sum > 0) {
-        // Right-mover is bigger → left-mover is destroyed, stop colliding
-        survived = false;
-        break;
+      } else if (diff > 0) {
+        // right-mover is larger — incoming is destroyed
+        a = 0;
       } else {
-        // Equal size → both destroyed
+        // equal size — both destroyed
         stack.pop();
-        survived = false;
-        break;
+        a = 0;
       }
     }
 
-    // only when survived, or not collide, it can be pushed to stack
-    if (survived) stack.push(a);
+    if (a !== 0) stack.push(a); // a survived all collisions
   }
 
   return stack;
