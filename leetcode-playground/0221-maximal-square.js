@@ -7,56 +7,49 @@
  * @param {character[][]} matrix
  * @return {number}
  */
+// Approach: Top-Down DP (memoized recursion)
+// dp(r,c) = side length of the largest square whose TOP-LEFT corner is (r,c)
+// Recurrence: if matrix[r][c] === '1'  →  1 + min(down, right, diagonal)
+//             else                      →  0
+// The minimum of the three neighbors is the bottleneck: a square can only
+// grow as large as the smallest square that can be formed in each direction.
+// Time:  O(m * n) — each cell computed once, all subsequent calls hit cache
+// Space: O(m * n) — cache stores one entry per cell; call stack O(m + n)
 var maximalSquare = function (matrix) {
   let rows = matrix;
   let cols = matrix[0];
 
   let cache = {};
 
-  // return number
   function helper(r, c) {
-    // base case: at the edge of the matrix
     if (r >= rows.length || c >= cols.length) {
-      return 0; // overflow
+      return 0;
     }
 
-    // if not in cache, we build it first before return
     if (cache[`${r}-${c}`] == undefined) {
-      // we create new cache
-      // check 3 direction to bottom right
       let down = helper(r + 1, c);
       let right = helper(r, c + 1);
       let diagonal = helper(r + 1, c + 1);
 
-      // prepare calculate possible square for this cell, leveraging cache
-
-      cache[`${r}-${c}`] = 0; // initiate cache with 0
+      cache[`${r}-${c}`] = 0;
 
       if (matrix[r][c] === "1") {
-        // itself can expand
-
+        // min: any direction that can't expand becomes the bottleneck
         cache[`${r}-${c}`] = 1 + Math.min(down, diagonal, right);
-        // if any of them has 0, then it will be 0
-        // if any direction act as bottle neck of their expansion, then it wont able to expand
       }
     }
 
-    // else its 0, then we leave the cache as 0
     return cache[`${r}-${c}`];
   }
 
-  // initiate top down call
-
   helper(0, 0);
-
-  //   return max in cache values
 
   let max = -Infinity;
   for (let key in cache) {
     max = Math.max(cache[key], max);
   }
 
-  return max * max; // area
+  return max * max;
 };
 
 export { maximalSquare };
