@@ -185,6 +185,9 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if 'unique-binary-search-trees-ii' in slug:
         return [[1], [2], [3], [4]]
 
+    if 'pascals-triangle' in slug:
+        return [[1], [2], [3], [4], [5], [0]]
+
     if 'spiral-matrix-ii' in slug:
         return [[1], [2], [3], [4], [5]]
 

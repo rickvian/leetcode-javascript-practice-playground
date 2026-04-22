@@ -346,7 +346,7 @@ userStories:
     (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
     newly generated test files\n- Commit with message: feat [US-016] - Implement batch-004"
   priority: 16
-  passes: false
+  passes: true
   notes: Stubs intentionally fail assertions — red test output is the expected 
     state and does NOT block the commit. Do not run the full suite; scope to new
     files only.
@@ -359,8 +359,8 @@ userStories:
     (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
     newly generated test files\n- Commit with message: feat [US-017] - Implement batch-005"
   priority: 17
-  passes: false
-  notes: Stubs intentionally fail assertions — red test output is the expected 
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected
     state and does NOT block the commit. Do not run the full suite; scope to new
     files only.
 - id: US-018
@@ -372,8 +372,8 @@ userStories:
     (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
     newly generated test files\n- Commit with message: feat [US-018] - Implement batch-006"
   priority: 18
-  passes: false
-  notes: Stubs intentionally fail assertions — red test output is the expected 
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected
     state and does NOT block the commit. Do not run the full suite; scope to new
     files only.
 - id: US-019
