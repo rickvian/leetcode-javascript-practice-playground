@@ -1,3 +1,24 @@
+## 2026-04-22 - US-015
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-003` — 20/20 generated (0041-0060)
+  - Fixed 3 more bugs discovered during generation:
+    1. Oracle arg mutation bug: oracles like maxSubArray/merge-intervals mutate their input arrays in place; oracle_run.mjs was storing the post-mutation input, so the test used the wrong (mutated) input args. Fix: snapshot `JSON.parse(JSON.stringify(inputArgs))` BEFORE calling the oracle but use the ORIGINAL refs for calling (so mutation happens on input, not snapshot).
+    2. Duplicate @param JSDoc: some oracle files (e.g. multiply-strings) have two function definitions → `parse_oracle` found 4 params → stub got `function(num1, num2, num1, num2)` → SyntaxError. Fix: deduplicate params by name in parse_oracle (keep first occurrence).
+    3. Added slug overrides for `n-queens`, `n-queens-ii` (small n=1,4,5,6), `multiply-strings` (numeric strings), `insert-interval` (array-of-intervals + new-interval), `spiral-matrix-ii` (small n=1..5)
+
+- **Files changed:**
+  - Added: 20 stubs (0041-0060) in leetcode-playground/
+  - Added: 20 tests (0041-0060) in leetcode-playground/tests/
+  - Modified: scripts/ralph/oracle_run.mjs (snapshot fix for plain-json mutation)
+  - Modified: scripts/ralph/generate_tests.py (parse_oracle dedup, slug overrides)
+
+- **Learnings:**
+  - Oracle args must be snapshotted (JSON.parse/stringify) BEFORE the fn() call, and the ORIGINAL reference must be passed to fn() — not a copy — so that in-place mutations happen on the original, not the snapshot
+  - parse_oracle must deduplicate @param by name: some oracle files define multiple functions with identical JSDoc
+  - Non-standard two-arg inputs (number[][], number[]) fall through all generic checks; always check for slug-specific overrides when param types are mixed
+
+---
+
 ## 2026-04-22 - US-014
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-002`
