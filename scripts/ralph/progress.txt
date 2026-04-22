@@ -537,3 +537,21 @@
   - BST iterator needs specific input sequences with a real tree passed as constructor arg
 
 ---
+
+## 2026-04-22 - US-022
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-010` — 9/20 generated (0186-0191, 0198-0200); 11 missing (5 SQL + 6 bash scripts with no oracle)
+  - Fixed `reverse-words-in-a-string-ii`: added to in-place-mutation detection + added char[] input sequences in _build_in_place_inputs
+  - Fixed `best-time-to-buy-and-sell-stock-iv`: added `(number, number[])` param pattern to _build_plain_json_inputs
+
+- **Files changed:**
+  - Added: 9 stubs (0186-0191, 0198-0200) in leetcode-playground/
+  - Added: 9 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (in-place slug list, char[] input builder, (number, number[]) case)
+
+- **Learnings:**
+  - `character[]` (char array) in-place mutations need slug-specific detection since param type doesn't match generic in-place patterns
+  - `(number, number[])` args (like k + prices) need a generic case in _build_plain_json_inputs; the fallback was treating it as a single-arg call
+  - Bash/shell script problems (0192-0197) and SQL problems (0181-0185) have no JS oracle and skip cleanly
+
+---

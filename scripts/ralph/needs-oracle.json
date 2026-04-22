@@ -223,5 +223,60 @@
     "id": "0180",
     "slug": "consecutive-numbers",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0181",
+    "slug": "employees-earning-more-than-their-managers",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0182",
+    "slug": "duplicate-emails",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0183",
+    "slug": "customers-who-never-order",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0184",
+    "slug": "department-highest-salary",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0185",
+    "slug": "department-top-three-salaries",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0192",
+    "slug": "word-frequency",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0193",
+    "slug": "valid-phone-numbers",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0194",
+    "slug": "transpose-file",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0195",
+    "slug": "tenth-line",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0196",
+    "slug": "delete-duplicate-emails",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0197",
+    "slug": "rising-temperature",
+    "reason": "oracleTier=missing"
   }
 ]
