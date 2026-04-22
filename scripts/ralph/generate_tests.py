@@ -231,7 +231,21 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [3, [[1, 0], [1, 2]]],
         ]
 
-    if any(kw in slug for kw in ('course-schedule', 'graph-valid-tree')):
+    if 'create-maximum-number' in slug:
+        return [
+            [[3, 4, 6, 5], [9, 1, 2, 5, 8, 3], 5],
+            [[6, 7], [6, 0, 4], 5],
+            [[3, 9], [8, 9], 3],
+            [[2, 1], [9, 3, 1, 8, 2, 8, 8], 3],
+            [[], [1, 2, 3], 2],
+            [[1], [], 1],
+        ]
+
+    if 'counting-bits' in slug:
+        return [[0], [1], [2], [5], [10], [16]]
+
+    if any(kw in slug for kw in ('course-schedule', 'graph-valid-tree',
+                                   'connected-components')):
         return [
             [2, [[1, 0]]],
             [2, [[1, 0], [0, 1]]],

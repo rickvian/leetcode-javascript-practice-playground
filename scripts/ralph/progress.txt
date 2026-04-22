@@ -688,3 +688,22 @@
   - Graph/tree problems sharing the same param types `(number, number[][])` need separate slug overrides: course-schedule allows cycles/directed edges; minimum-height-trees requires a valid undirected tree (exactly n-1 edges, no cycles)
 
 ---
+## 2026-04-22 - US-030
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-017` — 20/20 generated (0321-0340)
+  - Fixed 3 bugs discovered during batch-017:
+    1. 0321 (create-maximum-number): 3-param `(number[], number[], number)` fell through all generic checks to wrong fallback. Fix: slug override with valid (nums1, nums2, k) triples.
+    2. 0323 (number-of-connected-components): `(number, number[][])` slug not in course-schedule/graph-valid-tree check. Fix: added `'connected-components'` to the existing undirected-graph slug check.
+    3. 0338 (counting-bits): generic single-integer fallback includes n=1534236469, causing oracle to allocate 1.5B element array → OOM. Fix: slug override with small n values.
+
+- **Files changed:**
+  - Added: 20 stubs (0321-0340) in leetcode-playground/
+  - Added: 20 tests (0321-0340) in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (3 slug overrides added)
+
+- **Learnings:**
+  - Multi-param combos like (number[], number[], number) need explicit slug overrides; generic fallbacks only handle 1-2 param patterns
+  - Graph problems sharing `(number, number[][])` type signature need slug-based routing since course-schedule/graph-valid-tree inputs may not be valid for all graph variants
+  - Array-allocating oracle functions (countBits, etc.) with `n+1` allocation will OOM on generic large integers like 1534236469; add slug overrides for any "return array of length n+1" problem
+
+---
