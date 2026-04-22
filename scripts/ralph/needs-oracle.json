@@ -928,5 +928,35 @@
     "id": "0732",
     "slug": "my-calendar-iii",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0761",
+    "slug": "special-binary-string",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0764",
+    "slug": "largest-plus-sign",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0765",
+    "slug": "couples-holding-hands",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0766",
+    "slug": "toeplitz-matrix",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0770",
+    "slug": "basic-calculator-iv",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0773",
+    "slug": "sliding-puzzle",
+    "reason": "no valid test cases generated"
   }
 ]
