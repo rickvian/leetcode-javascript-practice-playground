@@ -166,6 +166,19 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if 'count-and-say' in slug:
         return [[1], [2], [3], [4], [5], [6]]
 
+    if 'add-binary' in slug:
+        return [
+            ["11", "1"],
+            ["1010", "1011"],
+            ["0", "0"],
+            ["1", "1"],
+            ["1111", "1111"],
+            ["0", "1"],
+        ]
+
+    if 'combinations' in slug and 'combination-sum' not in slug:
+        return [[4, 2], [1, 1], [5, 3], [3, 1], [2, 2], [0, 0]]
+
     if 'n-queens' in slug:
         return [[1], [4], [5], [6]]
 
@@ -577,14 +590,16 @@ def render_it_block(fn_name, input_args, oracle_out, param_types, return_type,
     # ── sorted-output-invariant (combinations/subsets) ──
     if tmpl == 'sorted-output-invariant' and isinstance(output, list):
         desc = f'{fn_name}({", ".join(json.dumps(a) for a in input_args[:2])})'
+        # Use compact separators to match JS JSON.stringify (no spaces); sort by ASCII < operator
         sorted_out = sorted(
             [sorted(x) if isinstance(x, list) else x for x in output],
-            key=lambda x: json.dumps(x, sort_keys=True)
+            key=lambda x: json.dumps(x, separators=(',', ':'))
         )
+        _js_cmp = '(a,b) => { const as=JSON.stringify(a); const bs=JSON.stringify(b); return as<bs?-1:as>bs?1:0; }'
         body = (
             f'    const result = {call};\n'
             f'    const sorted = result.map(r => Array.isArray(r) ? [...r].sort((a,b)=>a-b) : r)\n'
-            f'                        .sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b)));\n'
+            f'                        .sort({_js_cmp});\n'
             f'    expect(sorted).toEqual({json.dumps(sorted_out)});'
         )
         return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
@@ -592,10 +607,12 @@ def render_it_block(fn_name, input_args, oracle_out, param_types, return_type,
     # ── permutation-invariant ──
     if tmpl == 'permutation-invariant' and isinstance(output, list):
         desc = f'{fn_name}({", ".join(json.dumps(a) for a in input_args[:2])})'
-        sorted_out = sorted(output, key=lambda x: json.dumps(x, sort_keys=True)) if output else []
+        # Use compact separators to match JS JSON.stringify (no spaces); sort by ASCII < operator
+        sorted_out = sorted(output, key=lambda x: json.dumps(x, separators=(',', ':'))) if output else []
+        _js_cmp = '(a,b) => { const as=JSON.stringify(a); const bs=JSON.stringify(b); return as<bs?-1:as>bs?1:0; }'
         body = (
             f'    const result = {call};\n'
-            f'    const sorted = [...result].sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b)));\n'
+            f'    const sorted = [...result].sort({_js_cmp});\n'
             f'    expect(sorted).toEqual({json.dumps(sorted_out)});'
         )
         return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
