@@ -98,7 +98,7 @@ def get_input_category(problem, param_types):
     tags       = [t.lower() for t in problem.get('tags', [])]
     class_heavy = problem.get('classHeavy', False)
 
-    if class_heavy or 'design' in tags:
+    if class_heavy:
         return 'design-class'
 
     for ptype, _ in param_types:
@@ -117,7 +117,7 @@ def get_input_category(problem, param_types):
     if any(kw in slug for kw in ('remove-element', 'rotate', 'remove-duplicates',
                                   'move-zeroes', 'next-permutation', 'sort-colors',
                                   'sort-list-in-place', 'merge-sorted-array',
-                                  'reverse-words-in-a-string-ii')):
+                                  'reverse-words-in-a-string-ii', 'wiggle-sort')):
         return 'in-place-mutation'
 
     return 'plain-json'
@@ -125,7 +125,7 @@ def get_input_category(problem, param_types):
 def get_assertion_template(problem, param_types, return_type):
     slug = problem.get('slug', '')
     tags = [t.lower() for t in problem.get('tags', [])]
-    if problem.get('classHeavy') or 'design' in tags:
+    if problem.get('classHeavy'):
         return 'design-class-sequence'
     if 'two-sum' in slug:
         return 'any-valid-pair-summing'
@@ -199,6 +199,9 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if 'count-primes' in slug:
         return [[0], [1], [2], [10], [100], [1000]]
 
+    if 'ugly-number-ii' in slug or 'perfect-squares' in slug:
+        return [[1], [2], [3], [4], [10], [12]]
+
     if 'kth-largest' in slug:
         return [
             [[3, 2, 1, 5, 6, 4], 2],
@@ -216,7 +219,7 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[["a","b"],["c","d"]], ["abdc","abcd"]],
         ]
 
-    if 'course-schedule' in slug:
+    if 'course-schedule' in slug or 'graph-valid-tree' in slug:
         return [
             [2, [[1, 0]]],
             [2, [[1, 0], [0, 1]]],
@@ -565,6 +568,14 @@ def _build_in_place_inputs(problem, param_types):
             [["a", " ", "b"]],
             [["a"]],
             [["h", "e", "l", "l", "o", " ", "w", "o", "r", "l", "d"]],
+        ]
+    if 'wiggle-sort' in slug:
+        return [
+            [[3, 5, 2, 1, 6, 4]],
+            [[1, 1, 2, 2, 3, 3]],
+            [[1]],
+            [[2, 1]],
+            [[1, 2, 3, 4, 5]],
         ]
     # generic fallback
     if len(param_types) >= 2:

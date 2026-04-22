@@ -626,3 +626,23 @@
   - `(string[], string, string)` 3-param patterns need explicit handling; generic catalog only handles ≤2 args
 
 ---
+
+## 2026-04-22 - US-027
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-014` — 17/20 generated; 1 SQL no-oracle (0262); 2 permanent needs-oracle (0277, 0278)
+  - Fixed graph-valid-tree: same (number, number[][]) pattern as course-schedule; added to same slug check
+  - Fixed ugly-number-ii and perfect-squares: large n causes OOM; added n ≤ 12 override
+  - Fixed encode-and-decode-strings: was wrongly classified as design-class because 'design' in tags; fixed to use classHeavy only
+  - Fixed wiggle-sort: added to in-place detection and added array input builder
+  - 0277 (find-the-celebrity) and 0278 (first-bad-version): take function callbacks as params — cannot auto-generate; permanent needs-oracle
+
+- **Files changed:**
+  - Added: 17 stubs and tests
+  - Modified: scripts/ralph/generate_tests.py (classHeavy-only detection, graph-valid-tree, ugly-number, wiggle-sort)
+
+- **Learnings:**
+  - `'design' in tags` is too broad for classHeavy detection; 'design' tag appears on non-class problems like encode-decode
+  - Problems that take function callbacks (find-the-celebrity, first-bad-version) cannot be oracle-tested; permanently needs-oracle
+  - wiggle-sort is void-return in-place like sort-colors; add to slug detection list
+
+---
