@@ -1,3 +1,28 @@
+## 2026-04-22 - US-047
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-032` — first run: 11 generated, 9 missing/failed
+  - Fixed 5 missing: added slug overrides for task-scheduler, exclusive-time-of-functions, shopping-offers, solve-the-equation, maximum-average-subarray-i
+  - Fixed 0631 (design-excel-sum-formula): added Excel handler in `_build_design_inputs` with `(number, char)` constructor + set/get/sum ops
+  - Fixed 0630 (course-schedule-iii): uses `PriorityQueue` platform class — added generic check in `generate_problem` to skip any oracle with `new PriorityQueue(` pattern
+  - Re-ran generator: 6 more generated; total 17/20 generated; 3 permanent missing (2 SQL + 0630 PriorityQueue)
+  - Generated: 0621-0625, 0628-0629, 0631-0634, 0636-0640, 0643
+
+- **Files changed:**
+  - Added: 17 stubs (0621-0643 range) in leetcode-playground/
+  - Added: 17 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (PriorityQueue detection, 5 slug overrides, Excel design handler)
+  - Modified: scripts/ralph/needs-oracle.json (0630 added)
+
+- **Learnings:**
+  - `(character[], number)` param combo (task-scheduler) is not matched by the `(number[], number)` handler; need slug override with char array inputs
+  - `(number, string[])` param combo (exclusive-time-of-functions) with domain-specific string format (logs "fnId:start|end:ts") needs slug override; generic string[] catalog passes arbitrary strings
+  - `(number[], number[][], number[])` 3-param combo (shopping-offers) has no generic handler; need slug override
+  - Single-string equation format (solve-the-equation) needs slug override; generic single-string catalog passes arbitrary strings
+  - `(number[], number)` generic handler (kth-largest pattern) passes k values that exceed array length — causes issues for findMaxAverage; need slug override with valid k ≤ len(nums)
+  - Generic PriorityQueue detection: added `re.search(r'new\s+(MaxPriorityQueue|MinPriorityQueue|PriorityQueue)\s*\(', oracle_source)` check immediately after loading oracle source — skips before any further processing. This prevents false successes and is more robust than slug-by-slug tracking.
+  - Excel design class uses `(number, character)` constructor args where width is a char ('C', 'E'); need custom handler with string column letters in all method calls
+---
+
 ## 2026-04-22 - US-046
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-031` — 6 generated, 14 missing/failed
