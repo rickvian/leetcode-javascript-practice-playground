@@ -187,10 +187,12 @@ if (inputCategory === 'design-class') {
 } else {
     for (const inputArgs of inputs) {
         try {
+            // Snapshot BEFORE oracle call — some oracles mutate their args in place
+            const snapshot      = JSON.parse(JSON.stringify(inputArgs));
             const convertedArgs = inputArgs.map((a, i) => convertArg(a, paramTypes[i]));
             const rawResult     = fn(...convertedArgs);
             const result        = serializeResult(rawResult, returnType);
-            outputs.push({ input: inputArgs, output: result });
+            outputs.push({ input: snapshot, output: result });
         } catch (e) {
             outputs.push({ input: inputArgs, threw: true, errorName: e.constructor.name, message: e.message });
         }

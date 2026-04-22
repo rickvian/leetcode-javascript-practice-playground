@@ -60,7 +60,14 @@ PROTO_RE  = re.compile(r'(\w+)\.prototype\.(\w+)\s*=\s*function\s*\(([^)]*)\)')
 DESC_RE   = re.compile(r'/\*\*.*?\*/', re.DOTALL)
 
 def parse_oracle(source):
-    params      = [(m.group(1).strip(), m.group(2).strip()) for m in PARAM_RE.finditer(source)]
+    # Deduplicate params by name (some oracle files have multiple function defs)
+    seen   = set()
+    params = []
+    for m in PARAM_RE.finditer(source):
+        ptype, pname = m.group(1).strip(), m.group(2).strip()
+        if pname not in seen:
+            seen.add(pname)
+            params.append((ptype, pname))
     rm          = RETURN_RE.search(source)
     return_type = rm.group(1).strip() if rm else 'void'
     return params, return_type
@@ -158,6 +165,31 @@ def _build_plain_json_inputs(problem, param_types, return_type):
 
     if 'count-and-say' in slug:
         return [[1], [2], [3], [4], [5], [6]]
+
+    if 'n-queens' in slug:
+        return [[1], [4], [5], [6]]
+
+    if 'spiral-matrix-ii' in slug:
+        return [[1], [2], [3], [4], [5]]
+
+    if 'multiply-strings' in slug:
+        return [
+            ["2", "3"],
+            ["123", "456"],
+            ["0", "0"],
+            ["999", "999"],
+            ["0", "1"],
+            ["1", "1"],
+        ]
+
+    if 'insert-interval' in slug:
+        return [
+            [[[1, 3], [6, 9]], [2, 5]],
+            [[[1, 2], [3, 5], [6, 7], [8, 10], [12, 16]], [4, 8]],
+            [[], [5, 7]],
+            [[[1, 5]], [2, 3]],
+            [[[1, 5]], [6, 8]],
+        ]
 
     if 'roman' in slug:
         romans = ["III", "LVIII", "MCMXCIV", "IV", "IX", "I", "XLII"]
