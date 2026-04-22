@@ -578,5 +578,15 @@
     "id": "0534",
     "slug": "game-play-analysis-iii",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0550",
+    "slug": "game-play-analysis-iv",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0558",
+    "slug": "logical-or-of-two-binary-grids-represented-as-quad-trees",
+    "reason": "no valid test cases generated"
   }
 ]
