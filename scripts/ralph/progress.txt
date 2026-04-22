@@ -1,3 +1,17 @@
+## 2026-04-22 - US-056
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/expand_prd.py` to append next 10 batch stories (batch-041 through batch-050) + 1 Expand story
+  - expandedUpTo advanced from 40 → 50 of 150; script did NOT emit `<promise>COMPLETE</promise>`
+  - Committed updated prd.yaml + manifest.json
+
+- **Files changed:**
+  - Modified: scripts/ralph/prd.yaml (11 new stories: US-057..US-067)
+  - Modified: scripts/ralph/manifest.json (expandedUpTo: 50)
+
+- **Learnings:**
+  - expand_prd.py automatically sets the current Expand story to passes: true when writing prd.yaml; no manual edit needed.
+---
+
 ## 2026-04-22 - US-055
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-040` — first run: 17 generated, 3 missing/failed
