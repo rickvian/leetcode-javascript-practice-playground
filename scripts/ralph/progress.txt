@@ -752,3 +752,26 @@
   - PriorityQueue (and MinPriorityQueue) are LeetCode platform classes unavailable in Node.js; any oracle using them is permanent needs-oracle
 
 ---
+## 2026-04-22 - US-033
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-020` — 17/20 generated (skip 0384/0385/0398)
+  - Fixed 5 bugs discovered during batch-020:
+    1. 0379 (PhoneDirectory): LRU check fired on `get` alone (no `put`). Fixed: changed LRU check to require BOTH `get` AND `put`. Added separate PhoneDirectory handler for `get+check+release`.
+    2. 0384 (shuffle-an-array): Generic fallback passed no args to `Solution(nums[])`. Added shuffle handler `['shuffle', 'reset']` in `_build_design_inputs`. Still permanent needs-oracle (non-deterministic shuffle).
+    3. 0386 (lexicographical-numbers): `lexicalOrder(n)` with n=1534236469 → tried to generate 1.5B numbers → OOM. Fix: slug override with small n.
+    4. 0399 (evaluate-division): 3-param `(string[][], number[], string[][])` fell through to generic fallback. Fix: slug override.
+    5. 0385/0398: NestedInteger return type and non-deterministic pick() are permanent needs-oracle.
+
+- **Files changed:**
+  - Added: 17 stubs (0362-0400 minus 3) in leetcode-playground/
+  - Added: 17 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (LRU check fix, slug overrides, new design handlers)
+  - Modified: scripts/ralph/needs-oracle.json (3 permanent entries)
+
+- **Learnings:**
+  - LRU cache check must require BOTH `get` AND `put`; `get` alone matches too many design classes
+  - Randomized/shuffle design classes are non-deterministic — cannot test with exact-equal even with correct constructor args; permanent needs-oracle
+  - 3-param problems with mixed types `(string[][], number[], string[][])` need explicit slug overrides
+  - Functions that return platform objects (NestedInteger) or use platform callbacks (guess) are permanent needs-oracle
+
+---
