@@ -119,7 +119,8 @@ def get_input_category(problem, param_types):
                                   'move-zeroes', 'next-permutation', 'sort-colors',
                                   'sort-list-in-place', 'merge-sorted-array',
                                   'reverse-words-in-a-string-ii', 'wiggle-sort',
-                                  'walls-and-gates', 'game-of-life')):
+                                  'walls-and-gates', 'game-of-life',
+                                  'reverse-string')):
         return 'in-place-mutation'
 
     return 'plain-json'
@@ -243,6 +244,15 @@ def _build_plain_json_inputs(problem, param_types, return_type):
 
     if 'counting-bits' in slug:
         return [[0], [1], [2], [5], [10], [16]]
+
+    if 'sort-transformed-array' in slug:
+        return [
+            [[-4, -2, 2, 4], 1, 3, 5],
+            [[-4, -2, 2, 4], -1, 3, 5],
+            [[0], 1, 0, 0],
+            [[-1, 0, 1], 2, -3, 2],
+            [[-3, -2, -1, 0, 1], 0, 1, -1],
+        ]
 
     if any(kw in slug for kw in ('course-schedule', 'graph-valid-tree',
                                    'connected-components')):
@@ -454,13 +464,13 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if first == 'string' and len(types) > 1 and types[1] in ('number', 'integer'):
         return [["abcdef", 2], ["", 1], ["a", 1], ["abba", 3]]
 
-    # ── number[][] ──
-    if first in ('number[][]', 'integer[][]'):
-        return [[[[1, 2], [3, 4]]], [[[1]]], [[[]]], [[[1, 2, 3], [4, 5, 6], [7, 8, 9]]]]
-
     # ── (number[][], number) ──
     if len(types) == 2 and types[0] in ('number[][]', 'integer[][]'):
-        return [[[[1, 2, 3], [4, 5, 6]], 2], [[[1]], 0], [[[]], 1]]
+        return [[[[1, 2, 3], [4, 5, 6]], 2], [[[1, 2], [3, 4]], 5], [[[1, 2, 3], [4, 5, 6], [7, 8, 9]], 15]]
+
+    # ── number[][] ──
+    if len(types) == 1 and first in ('number[][]', 'integer[][]'):
+        return [[[[1, 2], [3, 4]]], [[[1]]], [[[]]], [[[1, 2, 3], [4, 5, 6], [7, 8, 9]]]]
 
     # fallback: try single number array
     return [[[1, 2, 3]], [[]], [[0]], [[-1, 0, 1]]]
@@ -614,6 +624,14 @@ def _build_in_place_inputs(problem, param_types):
             [["a", " ", "b"]],
             [["a"]],
             [["h", "e", "l", "l", "o", " ", "w", "o", "r", "l", "d"]],
+        ]
+    if 'reverse-string' in slug:
+        return [
+            [["h", "e", "l", "l", "o"]],
+            [["H", "a", "n", "n", "a", "h"]],
+            [["a"]],
+            [[]],
+            [["a", "b"]],
         ]
     if 'wiggle-sort' in slug:
         return [

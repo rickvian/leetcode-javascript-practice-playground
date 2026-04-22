@@ -707,3 +707,24 @@
   - Array-allocating oracle functions (countBits, etc.) with `n+1` allocation will OOM on generic large integers like 1534236469; add slug overrides for any "return array of length n+1" problem
 
 ---
+## 2026-04-22 - US-031
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-018` — 19/20 generated (0341-0363, skip 0341)
+  - Fixed 4 bugs discovered during batch-018:
+    1. 0344 (reverse-string): void in-place on `character[]` not detected; 'reverse-string' not in in-place slug list. Fix: added 'reverse-string' to in-place detection. Added explicit input cases with char arrays.
+    2. 0360 (sort-transformed-array): 4-param function `(number[], number, number, number)` — generic checks only handle 1-2 params, a/b/c were undefined → oracle returned NaN. Fix: slug override with `(nums, a, b, c)` test cases.
+    3. 0363 (max-sum-of-rectangle-no-larger-than-k): `number[][]` single-array fallback fired before `(number[][], number)` two-param check (wrong order, no len guard). Fix: reordered checks — `(number[][], number)` before `number[][]`, and added `len(types)==1` guard on single-matrix check.
+    4. 0341 (flatten-nested-list-iterator): NestedInteger platform class required (not available in Node.js). Permanent needs-oracle.
+
+- **Files changed:**
+  - Added: 19 stubs (0342-0363 minus 0341) in leetcode-playground/
+  - Added: 19 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (in-place detection, slug overrides, check ordering)
+  - Modified: scripts/ralph/needs-oracle.json (0341 marked permanent)
+
+- **Learnings:**
+  - Generic `number[][]` check must have `len(types)==1` guard; otherwise it fires for any multi-param problem with a matrix first arg
+  - In-place void functions on character arrays (reverse-string) need explicit slug detection; the return_type=void and param type `character[]` don't map to a known in-place keyword automatically
+  - Problems with ≥3 numeric params (a, b, c constants) need slug overrides; no generic fallback handles 4-param patterns
+
+---
