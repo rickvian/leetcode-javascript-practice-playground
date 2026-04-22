@@ -98,7 +98,8 @@ def get_input_category(problem, param_types):
     tags       = [t.lower() for t in problem.get('tags', [])]
     class_heavy = problem.get('classHeavy', False)
 
-    if class_heavy:
+    fn_name = problem.get('oracleFnName', '')
+    if class_heavy or (fn_name and fn_name[0].isupper()):
         return 'design-class'
 
     for ptype, _ in param_types:
@@ -117,7 +118,8 @@ def get_input_category(problem, param_types):
     if any(kw in slug for kw in ('remove-element', 'rotate', 'remove-duplicates',
                                   'move-zeroes', 'next-permutation', 'sort-colors',
                                   'sort-list-in-place', 'merge-sorted-array',
-                                  'reverse-words-in-a-string-ii', 'wiggle-sort')):
+                                  'reverse-words-in-a-string-ii', 'wiggle-sort',
+                                  'walls-and-gates', 'game-of-life')):
         return 'in-place-mutation'
 
     return 'plain-json'
@@ -125,7 +127,8 @@ def get_input_category(problem, param_types):
 def get_assertion_template(problem, param_types, return_type):
     slug = problem.get('slug', '')
     tags = [t.lower() for t in problem.get('tags', [])]
-    if problem.get('classHeavy'):
+    fn_name_ac = problem.get('oracleFnName', '')
+    if problem.get('classHeavy') or (fn_name_ac and fn_name_ac[0].isupper()):
         return 'design-class-sequence'
     if 'two-sum' in slug:
         return 'any-valid-pair-summing'
@@ -577,6 +580,21 @@ def _build_in_place_inputs(problem, param_types):
             [[2, 1]],
             [[1, 2, 3, 4, 5]],
         ]
+    INF = 2147483647
+    if 'walls-and-gates' in slug:
+        return [
+            [[[INF, -1, 0, INF], [INF, INF, INF, -1], [INF, -1, INF, -1], [0, -1, INF, INF]]],
+            [[[0, -1], [INF, INF]]],
+            [[[INF]]],
+            [[[0]]],
+        ]
+    if 'game-of-life' in slug:
+        return [
+            [[[0, 1, 0], [0, 0, 1], [1, 1, 1], [0, 0, 0]]],
+            [[[1, 1], [1, 0]]],
+            [[[0]]],
+            [[[1]]],
+        ]
     # generic fallback
     if len(param_types) >= 2:
         return [[[1, 2, 3, 4, 5], 2], [[1], 1], [[], 0]]
@@ -586,6 +604,33 @@ def _build_design_inputs(problem, class_methods):
     fn_name = problem.get('oracleFnName', '')
     slug    = problem.get('slug', '')
     method_names = [m for m, _ in class_methods]
+
+    # MedianFinder
+    if 'addNum' in method_names and 'findMedian' in method_names:
+        return [
+            [[fn_name],
+             ['addNum', 1], ['addNum', 2], ['findMedian'],
+             ['addNum', 3], ['findMedian']],
+            [[fn_name],
+             ['addNum', 6], ['findMedian'],
+             ['addNum', 10], ['findMedian'],
+             ['addNum', 2], ['findMedian']],
+            [[fn_name], ['addNum', 1], ['findMedian']],
+        ]
+
+    # ValidWordAbbr / unique-word-abbreviation
+    if 'isUnique' in method_names:
+        words = ["deer", "door", "cake", "card"]
+        return [
+            [[fn_name, words],
+             ['isUnique', 'dear'],
+             ['isUnique', 'cart'],
+             ['isUnique', 'cane'],
+             ['isUnique', 'make']],
+            [[fn_name, []],
+             ['isUnique', 'a'],
+             ['isUnique', 'ab']],
+        ]
 
     # MinStack (must have getMin)
     if 'getMin' in method_names:
@@ -665,6 +710,14 @@ def _build_design_inputs(problem, class_methods):
              ['search', 'b']],
         ]
         return seqs
+
+    # ZigzagIterator (two-array constructor + next/hasNext)
+    if 'zigzag' in slug.lower():
+        return [
+            [[fn_name, [1, 3, 5], [2, 4, 6]], ['hasNext'], ['next'], ['hasNext'], ['next'], ['hasNext'], ['next']],
+            [[fn_name, [1], [2, 3]], ['next'], ['hasNext'], ['next'], ['next'], ['hasNext']],
+            [[fn_name, [], [1, 2, 3]], ['next'], ['next'], ['next'], ['hasNext']],
+        ]
 
     # BST Iterator (next / hasNext)
     if 'next' in method_names and 'hasNext' in method_names:
