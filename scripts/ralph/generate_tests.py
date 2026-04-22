@@ -858,6 +858,32 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if first == 'string' and len(types) == 2 and types[1] in ('number', 'integer'):
         return [["abcdef", 2], ["", 1], ["a", 1], ["abba", 3], ["  hello  ", 2]]
 
+    # ── number-of-matching-subsequences: (s: string, words: string[]) ──
+    if 'number-of-matching-subsequences' in slug:
+        return [
+            ["abcde", ["a", "bb", "acd", "ace"]],
+            ["dsahjpjauf", ["ahjpjau", "ja", "ahbwzgqnuk", "tnmlanowax"]],
+            ["a", ["a", "b"]],
+            ["", ["a", "b"]],
+            ["abc", ["abc", "ab", "a"]],
+            ["aaa", ["aaa", "aa", "a"]],
+        ]
+
+    # ── champagne-tower: (pour: number, query_row: number, query_glass: number) ──
+    if 'champagne-tower' in slug:
+        return [
+            [1, 1, 1],
+            [2, 1, 1],
+            [100000009, 33, 17],
+            [0, 0, 0],
+            [25, 6, 1],
+            [1, 0, 0],
+        ]
+
+    # ── domino-and-tromino-tiling: numTilings(n) — large n causes OOM ──
+    if 'domino-and-tromino-tiling' in slug:
+        return [[1], [2], [3], [4], [5], [10]]
+
     # ── single integer ──
     if len(types) == 1 and first in ('number', 'integer', 'int'):
         return [[121], [-121], [10], [0], [-1], [1534236469]]
