@@ -1,3 +1,24 @@
+## 2026-04-22 - US-058
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-042` — first run: 15 generated, 5 missing/failed
+  - Fixed all 5 failures with slug overrides and re-ran: 5 more generated; total 20/20
+  - 0 permanent needs-oracle entries this batch
+  - Generated: 0821-0840
+
+- **Files changed:**
+  - Added: 20 stubs (0821-0840) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (added slug overrides for 5 problems)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `shortest-distance-to-a-character` (0821): `(s: string, c: character)` — fallback was sending a number array; validation failed 3 times. Fix: add slug override with (string, char) pairs where char appears in string.
+  - `most-profit-assigning-work` (0826): `(difficulty: number[], profit: number[], worker: number[])` — 3 number arrays with no generic handler. Falls to fallback emitting single number array. Fix: add slug override with valid (difficulty, profit, worker) triple-array tuples.
+  - `find-and-replace-in-string` (0833): `(s: string, indices: number[], sources: string[], targets: string[])` — complex 4-param combo with no generic handler. Fix: add slug override with valid (s, indices, sources, targets) tuples; indices must match positions in s.
+  - `sum-of-distances-in-tree` (0834): `(n: number, edges: number[][])` — (number, number[][]) combo has no generic handler; fallback emits wrong structure. Fix: add slug override with valid (n, edges) pairs where edges define a tree.
+  - `image-overlap` (0835): `(img1: number[][], img2: number[][])` — two 2D binary matrices; (number[][], number[][]) is not covered by generic handlers (only (number[][], number) exists). Fix: add slug override with valid binary square matrix pairs.
+---
+
 ## 2026-04-22 - US-057
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-041` — first run: 14 generated, 6 missing/failed
