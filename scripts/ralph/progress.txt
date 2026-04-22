@@ -1,3 +1,25 @@
+## 2026-04-22 - US-035
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-021` — 3 new generated (0406, 0411, 0412), 16 skipped (already existed), 1 needs-oracle (0407)
+  - Fixed 3 bugs discovered during batch-021:
+    1. 0406 (queue-reconstruction-by-height): `classHeavy: true` fires because 'queue' is in slug, but `reconstructQueue(number[][]): number[][]` is a plain function. Fix: added `PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',)` allowlist in `get_input_category` and `get_assertion_template` to override classHeavy flag. Added slug override in `_build_plain_json_inputs` with proper `number[][]` test cases.
+    2. 0411 (minimum-unique-word-abbreviation): `(string, string[])` param combo fell through all generic checks to wrong fallback. Fix: slug override with valid `(target, dictionary)` pairs.
+    3. 0412 (fizz-buzz): Generic single-integer fallback includes `n=1534236469` → OOM. Fix: slug override with small n values (1, 3, 5, 10, 15, 20).
+  - 0407 (trapping-rain-water-ii): Uses `MinPriorityQueue` (LeetCode platform class, not available in Node.js) → permanent needs-oracle.
+
+- **Files changed:**
+  - Added: 19 stubs (0401-0420 minus 0407) in leetcode-playground/ (3 new + 16 previously untracked)
+  - Added: 19 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (PLAIN_FN_SLUGS allowlist, slug overrides for 0406/0411/0412)
+  - Modified: scripts/ralph/needs-oracle.json (0407 marked permanent)
+
+- **Learnings:**
+  - `classHeavy: true` from build_batches fires on slug keywords ('queue', 'stack', 'heap', etc.); plain functions with these keywords need an explicit override in both `get_input_category` and `get_assertion_template`
+  - `(string, string[])` param combos (target + dictionary) need slug-specific overrides; no generic handler exists for this 2-param mixed type
+  - MinPriorityQueue appears in trapping-rain-water-ii oracle — it's a LeetCode platform class; any oracle using it is permanent needs-oracle
+
+---
+
 ## 2026-04-22 - US-015
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-003` — 20/20 generated (0041-0060)
