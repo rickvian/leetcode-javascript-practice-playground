@@ -105,7 +105,7 @@ userStories:
       - Print one-line summary to stdout - "purged N stub+test pairs; kept M v2 entries; skipped K orphans"
       - 'Commit with message: feat [US-008] - Purge v1-generated playground entries'
     priority: 8
-    passes: false
+    passes: true
     notes: MUST run before US-009 (tiering) so purged IDs re-enter the problem pool and get re-batched under v2. Only destructive story. Stubs are intentionally blank on main per CLAUDE.md - no user implementation work is lost.
 
   - id: US-009
