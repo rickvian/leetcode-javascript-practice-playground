@@ -1,3 +1,22 @@
+## 2026-04-22 - US-055
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-040` — first run: 17 generated, 3 missing/failed
+  - Fixed all 3 failures with slug overrides and re-ran: 3 more generated; total 20/20
+  - 0 permanent needs-oracle entries this batch
+  - Generated: 0781-0800
+
+- **Files changed:**
+  - Added: 20 stubs (0781-0800) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (added slug overrides for 3 problems)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `domino-and-tromino-tiling` (0790): single-integer problem; generic handler passes `1534236469` which causes OOM in Node (GC error visible in script output). Fix: add slug override with small n values only (1-10 range).
+  - `number-of-matching-subsequences` (0792): `(s: string, words: string[])` — no generic handler for this (string, string[]) 2-param combo; falls to fallback. Fix: add slug override with valid s strings and words arrays.
+  - `champagne-tower` (0799): `(pour: number, query_row: number, query_glass: number)` — 3-integer params; no generic 3-int handler exists. Falls to fallback emitting 1D array. Fix: add slug override with valid (pour, row, glass) tuples.
+---
+
 ## 2026-04-22 - US-054
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-039` — first run: 14 generated, 6 missing/failed
