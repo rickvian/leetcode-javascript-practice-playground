@@ -1,3 +1,24 @@
+## 2026-04-22 - US-053
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-038` — first run: 15 generated, 5 missing/failed
+  - Fixed all 5 failures with slug overrides and re-ran: 5 more generated; total 20/20
+  - 0 permanent needs-oracle entries this batch
+  - Generated: 0741-0760
+
+- **Files changed:**
+  - Added: 20 stubs (0741-0760) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (added slug overrides for 5 problems)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `network-delay-time` is a 3-param `(times: number[][], n: number, k: number)` where times[i]=[u,v,w] (3-element edge arrays). The generic `(number[][], number)` 2-param handler doesn't match 3 params → falls to fallback emitting 1D array as `times`. Fix: add slug override with valid directed weighted edges.
+  - `shortest-completing-word(licensePlate: string, words: string[])` is `(string, string[])` — no generic handler for this combo exists, falls to fallback. Fix: add slug override with license plate strings and word arrays.
+  - `pyramid-transition-matrix(bottom: string, allowed: string[])` same `(string, string[])` pattern — no generic handler. Fix: add slug override with valid bottom strings and 3-char allowed patterns.
+  - `bold-words-in-string(words: string[], s: string)` is `(string[], string)` — no generic handler for this combo. The `string[]` single-param handler doesn't fire because len(types)==2. Fix: add slug override.
+  - `WordFilter` (prefix-and-suffix-search) has method `f(pref, suff)`. Method name `f` matches nothing in design-class handlers → generic fallback fires with `[fn_name]` (no constructor args) and `[f, 1, 1]` (integer args for string params) → TypeError on `pref.length`. Fix: add slug-based override that passes `(string[] words)` to constructor and string pairs to `f()`.
+---
+
 ## 2026-04-22 - US-052
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-037` — first run: 13 generated, 7 missing/failed
