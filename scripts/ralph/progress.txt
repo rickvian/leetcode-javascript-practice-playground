@@ -728,3 +728,27 @@
   - Problems with ≥3 numeric params (a, b, c constants) need slug overrides; no generic fallback handles 4-param patterns
 
 ---
+## 2026-04-22 - US-032
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-019` — 17/20 generated (0353-0382, skip 0373/0374/0382)
+  - Fixed 5 bugs discovered during batch-019:
+    1. 0353 (SnakeGame): Design class with `(width, height, food[][])` constructor, 'move' method. Generic fallback passed no args. Fix: added SnakeGame/move handler in `_build_design_inputs`.
+    2. 0365 (water-and-jug): 3-integer params `(x, y, target)` — no 3-int fallback. Fix: slug override.
+    3. 0370 (range-addition): `(number, number[][])` - slug not in course-schedule check, 3-element update arrays needed. Fix: slug override.
+    4. 0375 (guess-number-higher-or-lower-ii): `getMoneyAmount(n)` allocates n² array — n=1534236469 causes OOM. Fix: slug override with small n values.
+    5. 0382 (LinkedListRandomNode): ListNode constructor arg with `getRandom()`. Added handler in `_build_design_inputs` using `[fn_name, [1,2,3]]` (array → arrayToList). BUT getRandom() is non-deterministic — validation fails randomly. Permanent needs-oracle.
+  - 3 permanent needs-oracle added: 0373 (PriorityQueue), 0374 (global guess() API), 0382 (non-deterministic)
+
+- **Files changed:**
+  - Added: 17 stubs (0353-0382 minus 3) in leetcode-playground/
+  - Added: 17 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (new slug overrides, SnakeGame/ListNodeRandom handlers)
+  - Modified: scripts/ralph/needs-oracle.json (3 permanent entries added)
+
+- **Learnings:**
+  - Non-deterministic functions (getRandom, shuffle, randomized) can never be tested with exact-equal; permanent needs-oracle
+  - Multi-arg design constructors (SnakeGame width+height+food) need explicit slug handlers in _build_design_inputs
+  - n² array-allocating functions (guess-number-higher-or-lower-ii) OOM with large n; need slug overrides
+  - PriorityQueue (and MinPriorityQueue) are LeetCode platform classes unavailable in Node.js; any oracle using them is permanent needs-oracle
+
+---
