@@ -373,6 +373,30 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[1,2,3], [-1,-2,-3], [0,1,2], [-2,-1,0]],
         ]
 
+    if 'can-i-win' in slug:
+        # maxChoosableInteger must be small (large values → 2^n bitmask states → OOM/timeout)
+        return [[10, 11], [10, 0], [2, 3], [5, 10], [1, 1], [3, 5]]
+
+    if 'count-the-repetitions' in slug:
+        # (s1, n1, s2, n2) — string, number, string, number
+        return [
+            ["acb", 4, "ab", 2],
+            ["a", 1, "b", 1],
+            ["abc", 3, "abc", 1],
+            ["aaa", 3, "aa", 1],
+            ["a", 2, "a", 2],
+        ]
+
+    if 'ones-and-zeroes' in slug:
+        # (strs: string[], m: number, n: number)
+        return [
+            [["10","0001","111001","1","0"], 5, 3],
+            [["10","0","1"], 1, 1],
+            [[], 3, 3],
+            [["0","1","10"], 2, 2],
+            [["111","100","0"], 3, 3],
+        ]
+
     if 'maximal-square' in slug:
         return [
             [[["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]],
