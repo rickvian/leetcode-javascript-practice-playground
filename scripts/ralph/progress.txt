@@ -1,3 +1,21 @@
+## 2026-04-22 - US-054
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-039` — first run: 14 generated, 6 missing/failed
+  - No fixes needed; 6 permanent needs-oracle entries this batch
+  - Generated: 0762-0763, 0767-0769, 0771-0772, 0774-0780
+
+- **Files changed:**
+  - Added: 14 stubs (0762-0780 range, excluding missing) in leetcode-playground/
+  - Added: 14 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `0761-special-binary-string`, `0764-largest-plus-sign`, `0765-couples-holding-hands`, `0766-toeplitz-matrix`: no oracle in solutions-bank, logged as oracleTier=missing.
+  - `0770-basic-calculator-iv`: oracle could not generate valid test cases (complex symbolic expression evaluator with custom Expr class); logged as "no valid test cases generated".
+  - `0773-sliding-puzzle`: oracle could not generate valid test cases for board serialization; logged as "no valid test cases generated".
+  - `0776-split-bst` is a pointer-tree problem and was handled correctly by the tree category in generate_tests.py.
+---
+
 ## 2026-04-22 - US-053
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-038` — first run: 15 generated, 5 missing/failed
