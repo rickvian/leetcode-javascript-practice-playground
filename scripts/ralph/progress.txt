@@ -1265,3 +1265,18 @@
   - `car-fleet` (0853): `(target: number, position: number[], speed: number[])` — (number, number[], number[]) combo not covered by generic handlers; logged to needs-oracle.
   - `minimum-cost-to-hire-k-workers` (0857): uses PriorityQueue platform class — skipped by generate_tests.py skip rule.
 ---
+
+## 2026-04-22 - US-060
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-044` — 16 generated, 4 missing/failed
+  - Missing/failed: 0871-minimum-number-of-refueling-stops, 0874-walking-robot-simulation, 0878-nth-magical-number, 0879-profitable-schemes
+  - Generated: 0861-0870, 0872-0873, 0875-0877, 0880
+
+- **Files changed:**
+  - Added: 16 stubs (0861-0880 subset) in leetcode-playground/
+  - Added: 16 tests in leetcode-playground/tests/
+
+- **Learnings:**
+  - batch-044 produced 4 missing/failed out of 20 — no slug override attempts were made this iteration (let generate_tests.py handle it natively; logged to needs-oracle.json).
+  - Red test output (undefined vs expected) is correct — stubs are blank `// implement` placeholders, not a regression.
+---
