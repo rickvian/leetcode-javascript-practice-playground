@@ -1,3 +1,22 @@
+## 2026-04-22 - US-048
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-033` — first run: 16 generated, 4 missing/failed
+  - Fixed 4 failures and re-ran: 4 more generated; total 20/20
+  - Generated: 0635, 0641, 0644-0661 (excluding SQL/no-oracle: none this batch)
+
+- **Files changed:**
+  - Added: 20 stubs (0635-0661 range) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (LogSystem handler, 4-keys-keyboard override, replace-words override, boolean return_type fix for any-valid-pair-summing)
+  - Modified: scripts/ralph/needs-oracle.json (0648 entry removed after fix; 0651/0653/0635 fixed)
+
+- **Learnings:**
+  - `two-sum-iv-input-is-a-bst` returns `boolean`, not an index pair; `get_assertion_template` was matching "two-sum" in slug and returning `any-valid-pair-summing` which calls `.length` on boolean → TypeError. Fix: add `and return_type != 'boolean'` guard to the two-sum slug check.
+  - `4-keys-keyboard` (maxA): `dp = new Array(n + 1).fill(0)` with generic n=1534236469 → OOM; need slug override with small n values.
+  - `replace-words` has `(string[], string)` param combo with `first = 'string[]'` and `len(types) == 2`; no generic handler exists for this two-param pattern (only `len(types) == 1` is handled for `string[]`); falls to numeric fallback → oracle crashes. Need slug override with valid `(dict, sentence)` pairs where dict roots appear as prefixes in sentence words.
+  - `design-log-storage-system` (LogSystem): `put(id, timestamp)` and `retrieve(start, end, granularity)` — generic fallback passes `[1]*len(params)` so retrieve gets `start=1` (number), calling `1.slice(0, precision)` → "start.slice is not a function". Need custom LogSystem handler with proper ISO-format timestamp strings ("YYYY:MM:DD:HH:MM:SS") and granularity keywords ("Year"/"Month"/"Day"/"Hour"/"Minute"/"Second"). Handler detects by checking `'put' in method_names and 'retrieve' in method_names`.
+---
+
 ## 2026-04-22 - US-047
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-032` — first run: 11 generated, 9 missing/failed
