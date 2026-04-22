@@ -1,3 +1,28 @@
+## 2026-04-22 - US-039
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-025` — 18 generated (0481-0500 except 0489/0497), 0 skipped, 2 permanent needs-oracle
+  - Fixed 0481 (magical-string): generic single-int catalog includes n=1534236469 → timeout. Added slug override with small n values (1, 3, 5, 6, 8, 10, 20).
+  - Fixed 0490 (the-maze): 3-param `(number[][], number[], number[])` fell through to generic fallback. Added slug override with specific maze+start+destination inputs.
+  - Fixed 0492 (construct-the-rectangle): single-int generic catalog includes 0/-121 → oracle returns NaN. Added slug override with valid positive areas only.
+  - Fixed 0496 (next-greater-element-i): two-array generic catalog passes arbitrary arrays where nums1 is not a subset of nums2. Added slug override with valid subset inputs.
+  - Fixed 0499 (the-maze-iii): oracle source has no `@param` JSDoc → `parse_oracle` returns empty param_types → `_build_plain_json_inputs` exits early at `if not param_types: return []` before slug overrides. Fix: moved maze-iii slug override BEFORE the early return, and placed it in a new "pre-early-return slug overrides" block.
+  - 2 permanent needs-oracle: 0489 (robot-room-cleaner uses Robot callback API), 0497 (random-point is non-deterministic).
+
+- **Files changed:**
+  - Added: 18 stubs (0481-0500 except 0489/0497) in leetcode-playground/
+  - Added: 18 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (slug overrides for magical-string, the-maze, construct-the-rectangle, next-greater-element-i, the-maze-iii; pre-early-return block for no-JSDoc oracles)
+  - Modified: scripts/ralph/needs-oracle.json (0489, 0497 permanent entries)
+
+- **Learnings:**
+  - `_build_plain_json_inputs` has an early `if not param_types: return []` guard that prevents slug overrides from firing for oracles without `@param` JSDoc. Any slug override needed for a no-JSDoc oracle must be placed BEFORE this early return in a "pre-early-return" block.
+  - Oracle files without `@param` JSDoc (`parse_oracle` returns `[]`) still work correctly with oracle_run.mjs: `convertArg(arg, undefined)` returns `arg` unchanged (line 96: `if (!ptype) return arg`), so plain arrays pass through correctly.
+  - `constructRectangle(area)` oracle returns NaN for area ≤ 0; generic single-int catalog includes negatives and zero → test cases with NaN get skipped. Use slug override with positive areas only.
+  - `nextGreaterElement(nums1, nums2)` requires nums1 ⊆ nums2; generic two-array catalog generates arbitrary arrays violating this constraint.
+  - `(number[][], number[], number[])` 3-param pattern (maze + 2 coordinate arrays) has no generic handler; always use slug override.
+
+---
+
 ## 2026-04-22 - US-038
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-024` — 17 generated (0461-0479 except 0470), 0 skipped, 3 missing/failed (0470, 0478, 0480)
