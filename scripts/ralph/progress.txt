@@ -1,3 +1,25 @@
+## 2026-04-22 - US-038
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-024` — 17 generated (0461-0479 except 0470), 0 skipped, 3 missing/failed (0470, 0478, 0480)
+  - Fixed 0464 (can-i-win): generic two-integer catalog includes `[100, 1000]` → canIWin(100,1000) uses 2^100 bitmask states → timeout. Added slug override with small maxChoosableInteger values (≤10).
+  - Fixed 0466 (count-the-repetitions): `(string, number, string, number)` 4-param mixed type fell through all generic checks. Added slug override with valid (s1, n1, s2, n2) pairs.
+  - Fixed 0474 (ones-and-zeroes): `(string[], number, number)` 3-param pattern not handled generically. Added slug override with binary string arrays + (m, n) bounds.
+  - 3 permanent needs-oracle: 0470 (rand10 uses rand7() API callback), 0478 (non-deterministic random point), 0480 (uses MaxPriorityQueue/MinPriorityQueue — LeetCode platform classes).
+
+- **Files changed:**
+  - Added: 17 stubs (0461-0479 except 0470/0478/0480) in leetcode-playground/
+  - Added: 17 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (slug overrides for can-i-win, count-the-repetitions, ones-and-zeroes)
+  - Modified: scripts/ralph/needs-oracle.json (0470, 0478, 0480 confirmed as permanent)
+
+- **Learnings:**
+  - `canIWin(maxChoosableInteger, desiredTotal)`: large maxChoosableInteger (e.g. 100) creates 2^100 bitmask states → always timeout. Use maxChoosableInteger ≤ 10 for testing.
+  - `(string, number, string, number)` 4-param patterns (s1, n1, s2, n2) have no generic handler; need explicit slug overrides for each such function.
+  - `(string[], number, number)` 3-param patterns (strs, m, n) also have no generic handler; need slug overrides.
+  - MaxPriorityQueue and MinPriorityQueue (0480 sliding-window-median) are LeetCode platform classes not available in Node.js; any oracle using them is permanent needs-oracle.
+
+---
+
 ## 2026-04-22 - US-037
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-023` — 18 generated (0441-0460), 0 skipped, 2 missing/failed (0444, 0454)
