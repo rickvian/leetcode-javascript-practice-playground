@@ -492,6 +492,14 @@ def _build_design_inputs(problem, class_methods):
             [[fn_name], ['push', 1], ['pop']],
         ]
 
+    # BST Iterator (next / hasNext)
+    if 'next' in method_names and 'hasNext' in method_names:
+        return [
+            [[fn_name, [4, 2, 7, 1, 3]], ['hasNext'], ['next'], ['hasNext'], ['next'], ['hasNext'], ['next']],
+            [[fn_name, [3, 1, 2]], ['hasNext'], ['next'], ['next'], ['hasNext']],
+            [[fn_name, [7]], ['hasNext'], ['next'], ['hasNext']],
+        ]
+
     # Generic fallback: try up to 4 methods with dummy args
     seq = [[fn_name]]
     for method, params in class_methods[:4]:
@@ -524,12 +532,13 @@ def _padded_params(param_types):
     return param_types  # list of (ptype, pname) tuples
 
 def render_it_block(fn_name, input_args, oracle_out, param_types, return_type,
-                    input_category, tmpl, case_idx):
+                    input_category, tmpl, case_idx, slug=''):
     """Return the full `it(...)` block for one test case."""
 
     # ── design-class ──
     if input_category == 'design-class':
-        return _render_design_it(fn_name, input_args, oracle_out, case_idx)
+        return _render_design_it(fn_name, input_args, oracle_out, case_idx,
+                                 ctor_param_types=param_types)
 
     threw = isinstance(oracle_out, dict) and oracle_out.get('threw')
     if threw:
@@ -628,11 +637,17 @@ def render_it_block(fn_name, input_args, oracle_out, param_types, return_type,
         nums_arg   = input_args[0] if input_args else []
         target_arg = input_args[1] if len(input_args) > 1 else 0
         desc = f'{fn_name}({json.dumps(nums_arg)}, {json.dumps(target_arg)})'
+        # two-sum-ii returns 1-indexed pairs; classic two-sum returns 0-indexed
+        one_indexed = 'two-sum-ii' in slug or 'sorted-array' in slug
+        if one_indexed:
+            sum_expr = f'nums[result[0]-1] + nums[result[1]-1]'
+        else:
+            sum_expr = f'nums[result[0]] + nums[result[1]]'
         body = (
             f'    const result = {call};\n'
             f'    const nums = {json.dumps(nums_arg)};\n'
             f'    expect(result).toHaveLength(2);\n'
-            f'    expect(nums[result[0]] + nums[result[1]]).toBe({json.dumps(target_arg)});'
+            f'    expect({sum_expr}).toBe({json.dumps(target_arg)});'
         )
         return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
 
@@ -675,21 +690,32 @@ def render_it_block(fn_name, input_args, oracle_out, param_types, return_type,
     return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
 
 
-def _render_design_it(fn_name, ops_sequence, oracle_out, case_idx):
+def _render_design_it(fn_name, ops_sequence, oracle_out, case_idx, ctor_param_types=None):
     """Render a design-class test case from an operation sequence + oracle output."""
     oracle_results = oracle_out.get('output', []) if isinstance(oracle_out, dict) else []
     lines = [f'  it("sequence {case_idx + 1}", () => {{']
     for i, op in enumerate(ops_sequence):
         method = op[0]
         args   = op[1:]
-        args_js = ', '.join(json.dumps(a) for a in args)
         result = oracle_results[i] if i < len(oracle_results) else None
 
         if i == 0:
+            # Use _js_arg for constructor args so TreeNode/ListNode are converted
+            if ctor_param_types:
+                args_js = ', '.join(_js_arg(a, ctor_param_types[j][0] if j < len(ctor_param_types) else None)
+                                    for j, a in enumerate(args))
+            else:
+                args_js = ', '.join(json.dumps(a) for a in args)
             lines.append(f'    const obj = new {fn_name}({args_js});')
         elif result is None or (isinstance(result, dict) and result.get('threw')):
+            args_js = ', '.join(json.dumps(a) for a in args)
             lines.append(f'    obj.{method}({args_js});')
+        elif isinstance(result, dict) and not result.get('threw'):
+            # Non-null object result (e.g. hasNext returning a truthy TreeNode) — check truthiness
+            args_js = ', '.join(json.dumps(a) for a in args)
+            lines.append(f'    expect(obj.{method}({args_js})).toBeTruthy();')
         else:
+            args_js = ', '.join(json.dumps(a) for a in args)
             lines.append(f'    expect(obj.{method}({args_js})).toEqual({json.dumps(result)});')
     lines.append('  });')
     return '\n'.join(lines)
@@ -755,11 +781,14 @@ def emit_stub_class(stub_path, problem, fn_name, class_methods, description):
     stub_path.write_text(content)
 
 
-def needs_helpers_import(input_category, return_type):
+def needs_helpers_import(input_category, return_type, param_types=None):
     """True if the test file needs imports from test_helpers.js."""
     if input_category in ('pointer-linked-list', 'pointer-tree', 'pointer-graph'):
         return True
     if return_type and any(t in return_type for t in ('ListNode', 'TreeNode', 'GraphNode', 'Node')):
+        return True
+    if param_types and any(t in pt for pt, _ in param_types
+                           for t in ('ListNode', 'TreeNode', 'GraphNode')):
         return True
     return False
 
@@ -806,7 +835,7 @@ def emit_test(test_path, problem, fn_name, input_category, param_types,
         block = render_it_block(
             fn_name, input_args, oracle_out,
             param_types, return_type,
-            input_category, tmpl, i,
+            input_category, tmpl, i, slug=problem.get('slug',''),
         )
         if block:
             it_blocks.append(block)

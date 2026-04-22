@@ -134,7 +134,8 @@ if (inputCategory === 'design-class') {
         for (const [method, ...opArgs] of sequence) {
             if (instance === null && method === fnName) {
                 try {
-                    instance = new fn(...opArgs);
+                    const convertedCtorArgs = opArgs.map((a, i) => convertArg(a, paramTypes[i]));
+                    instance = new fn(...convertedCtorArgs);
                     results.push(null); // constructor void
                 } catch (e) {
                     results.push({ threw: true, errorName: e.constructor.name, message: e.message });
