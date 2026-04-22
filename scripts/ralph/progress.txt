@@ -1,3 +1,23 @@
+## 2026-04-22 - US-011
+- **What was implemented:**
+  - Rewrote `scripts/ralph/prompt.md` for the v2 oracle-backed flow
+  - Added "Story-Type Rules" section with explicit per-story-type instructions:
+    - "Implement batch-NNN": run `python3 scripts/ralph/generate_tests.py --batch batch-NNN`, no hand-authoring
+    - "Expand prd window": run `python3 scripts/ralph/expand_prd.py`, commit prd.yaml + manifest.json
+  - Added "Explicit Ban" section: never write expected outputs or test assertions from model reasoning
+  - Replaced stop condition: now triggers when `expand_prd.py` emits `<promise>COMPLETE</promise>`
+  - Kept existing progress.txt append step and prd.yaml format section
+
+- **Files changed:**
+  - Modified: scripts/ralph/prompt.md (v2 rewrite)
+  - Modified: scripts/ralph/prd.yaml (US-011 passes: true)
+
+- **Learnings:**
+  - Prompt is the contract; story-type dispatch must be explicit so ralph never falls back to hand-authoring
+  - Stop condition must be tied to the expand script output, not to `ALL stories pass` — prd window is infinite until manifest is exhausted
+
+---
+
 ## 2026-04-22 - US-010
 - **What was implemented:**
   - Created `leetcode-playground/tests/__helpers__/test_helpers.js` — ES Module exporting ListNode, TreeNode, GraphNode classes and bidirectional converters: arrayToList/listToArray, arrayToTree/treeToArray, arrayToGraphNode/graphToAdjList
