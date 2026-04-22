@@ -646,3 +646,27 @@
   - wiggle-sort is void-return in-place like sort-colors; add to slug detection list
 
 ---
+
+## 2026-04-22 - US-028
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-015` — 18/20 generated (0281-0301 except 0284, 0295)
+  - Fixed ZigzagIterator: added two-array constructor handler (v1+v2 integer arrays)
+  - Fixed PascalCase oracleFnName detection: `fn_name[0].isupper()` → design-class (catches MedianFinder, ValidWordAbbr)
+  - Fixed walls-and-gates: in-place with INF=2147483647 values; added slug override
+  - Fixed game-of-life: in-place 2D board with 0/1 values; added slug override
+  - Fixed ValidWordAbbr/unique-word-abbreviation: added isUnique design-class handler
+  - Added MedianFinder handler (addNum + findMedian)
+  - 0284 (PeekingIterator): takes Iterator object constructor → permanent needs-oracle
+  - 0295 (MedianFinder): oracle uses MinPriorityQueue (LeetCode platform API) → permanent needs-oracle
+
+- **Files changed:**
+  - Added: 18 stubs and tests
+  - Modified: scripts/ralph/generate_tests.py (PascalCase detection, ZigzagIterator, 2D-board in-place, MedianFinder/ValidWordAbbr handlers)
+
+- **Learnings:**
+  - PascalCase oracleFnName reliably identifies class constructors (MedianFinder, ValidWordAbbr, ZigzagIterator)
+  - In-place 2D board problems (walls-and-gates, game-of-life) need slug detection + specific input matrices
+  - INF = 2147483647 for walls-and-gates; standard Integer.MAX_VALUE sentinel
+  - Some oracle solutions use LeetCode platform globals (MinPriorityQueue) that aren't available in Node → permanent needs-oracle
+
+---
