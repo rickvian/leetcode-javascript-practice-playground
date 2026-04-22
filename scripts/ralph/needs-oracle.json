@@ -423,5 +423,35 @@
     "id": "0407",
     "slug": "trapping-rain-water-ii",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0426",
+    "slug": "convert-binary-search-tree-to-sorted-doubly-linked-list",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0427",
+    "slug": "construct-quad-tree",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0428",
+    "slug": "serialize-and-deserialize-n-ary-tree",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0429",
+    "slug": "n-ary-tree-level-order-traversal",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0431",
+    "slug": "encode-n-ary-tree-to-binary-tree",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0440",
+    "slug": "k-th-smallest-in-lexicographical-order",
+    "reason": "oracle_run failed"
   }
 ]
