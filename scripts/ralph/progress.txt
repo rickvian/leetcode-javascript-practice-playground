@@ -1,3 +1,26 @@
+## 2026-04-22 - US-062
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-046` — first run: 13 generated, 7 missing/failed
+  - Fixed all 7 failures with slug overrides (4 plain-json + 3 design-class); re-ran: 7 more generated; total 20/20
+  - 0 permanent needs-oracle entries this batch
+  - Generated: 0900-0920 (skipping 0901 — not in batch)
+
+- **Files changed:**
+  - Added: 20 stubs (0900-0920) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (7 slug overrides)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `rle-iterator` (0900): `RLEIterator(encoding[])` design-class. Generic fallback calls constructor with no args → `encoding.length` fails. Fix: add `_build_design_inputs` slug override with encoding arrays and next(n) calls.
+  - `online-election` (0911): `TopVotedCandidate(persons[], times[])` design-class. Same problem — generic fallback passes no ctor args → `persons.length` fails. Fix: add slug override with persons+times arrays and q(t) calls.
+  - `complete-binary-tree-inserter` (0919): `CBTInserter(root: TreeNode)` design-class. Generic fallback passes no ctor args → `root.left` fails. Fix: add slug override with tree arrays (oracle_run converts via arrayToTree using paramTypes[0]='TreeNode'). `get_root()` returns a TreeNode which oracle_run serializes as a dict → `_render_design_it` emits `.toBeTruthy()` assertion.
+  - `numbers-at-most-n-given-digit-set` (0902): `atMostNGivenDigitSet(digits: string[], n: number)` — `(string[], number)` combo has no generic handler; falls to fallback with number arrays. Fix: add slug override with sorted digit-string arrays and integer n.
+  - `cat-and-mouse` (0913): `catMouseGame(graph: number[][])` — generic `number[][]` handler sends `[[1,2],[3,4]]` which has only 2 nodes (cat starts at node 2, out of bounds). Fix: add slug override with valid adjacency lists of ≥3 nodes where mouse (node 1) and cat (node 2) exist.
+  - `word-subsets` (0916): `wordSubsets(words1: string[], words2: string[])` — `(string[], string[])` combo has no generic handler. Fix: add slug override with two string arrays.
+  - `number-of-music-playlists` (0920): `numMusicPlaylists(n, goal, k)` — 3 integers with constraint `0<=k<n<=goal`. Generic 2-integer handler doesn't match (3 args). Fix: add slug override with valid (n, goal, k) triples satisfying k<n<=goal.
+---
+
 ## 2026-04-22 - US-061
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-045` — first run: 15 generated, 5 missing/failed
