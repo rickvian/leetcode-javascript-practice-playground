@@ -1,3 +1,25 @@
+## 2026-04-22 - US-057
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-041` — first run: 14 generated, 6 missing/failed
+  - Fixed all 6 failures with slug overrides and re-ran: 6 more generated; total 20/20
+  - 0 permanent needs-oracle entries this batch
+  - Generated: 0801-0820
+
+- **Files changed:**
+  - Added: 20 stubs (0801-0820) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (added slug overrides for 6 problems)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `bricks-falling-when-hit` (0803): `(grid: number[][], hits: number[][])` — both params are 2D arrays; no generic `(number[][], number[][])` handler. Falls to fallback emitting wrong structure. Fix: add slug override with valid grid+hits pairs.
+  - `number-of-lines-to-write-string` (0806): `(widths: number[], s: string)` — `(number[], string)` combo has no generic handler. Falls to fallback. Fix: add slug override with 26-element widths arrays and valid strings.
+  - `expressive-words` (0809): `(s: string, words: string[])` — same `(string, string[])` pattern as other problems without a generic handler. Fix: add slug override with stretchy strings and word lists.
+  - `linked-list-components` (0817): `(head: ListNode, nums: number[])` — routes through pointer-linked-list builder; `_default_extra_args` returns `0` for `number[]` type (checks `'[]' not in pt` which is False). Fix: add slug override in `_build_linked_list_inputs` with list arrays and subset nums arrays.
+  - `race-car` (0818): `(target: number)` — single-integer handler uses `1534236469` which causes oracle_run timeout (BFS is too deep). Slug override must be placed BEFORE the generic single-integer handler (line ordering matters — generic handler returns early). Fix: move slug override above the `# ── single integer ──` block.
+  - `most-common-word` (0819): `(paragraph: string, banned: string[])` — `(string, string[])` combo has no generic handler. Falls to fallback. Fix: add slug override with paragraph strings and banned word arrays.
+---
+
 ## 2026-04-22 - US-056
 - **What was implemented:**
   - Ran `python3 scripts/ralph/expand_prd.py` to append next 10 batch stories (batch-041 through batch-050) + 1 Expand story
