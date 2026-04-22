@@ -121,7 +121,7 @@ userStories:
       - Run python3 scripts/ralph/build_batches.py and verify batch-001.json includes oracleTier+oracleFnName for every problem; report overall bankCount/missingCount in the commit message
       - 'Commit with message: feat [US-009] - Augment build_batches.py with oracle tiering'
     priority: 9
-    passes: false
+    passes: true
     notes: Single-tier oracle resolution - solutions-bank/ is the only source we consult. If it is not in solutions-bank, it is missing and gets logged during test generation.
 
   - id: US-010
