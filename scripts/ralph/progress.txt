@@ -1,3 +1,49 @@
+## 2026-04-22 - US-009
+- **What was implemented:**
+  - Added `SOLUTIONS_BANK_DIR` and `ORACLE_FN_RE` constants to build_batches.py
+  - Added `resolve_oracle(id, slug)` — checks if `solutions-bank/<id>-<slug>.js` exists, regex-extracts the function name; returns `("bank", fnName)` or `("missing", None)`
+  - Updated `build_problem_pool` to call `resolve_oracle` and tag each problem with `oracleTier` and `oracleFnName`
+  - Updated `strip_pool_fields` to include both new fields in batch JSON output
+  - Updated `write_batches` to compute `bankCount`/`missingCount` per batch and add to manifest entries
+  - Updated `write_manifest` to include overall `bankCount`/`missingCount` in manifest root
+  - Regenerated all 150 batches + manifest: oracle bank 2543 / missing 457
+
+- **Files changed:**
+  - Modified: scripts/ralph/build_batches.py
+  - Regenerated: scripts/ralph/batches/batch-001.json .. batch-150.json (5 new batches from pool expansion)
+  - Regenerated: scripts/ralph/manifest.json
+  - Modified: scripts/ralph/prd.yaml (US-009 passes: true)
+
+- **Learnings:**
+  - Pool size grew from 2899 (US-004 run with 101 existing) to 3000 (US-008 purged all 101 stubs → existing count = 0, full cap applied)
+  - `resolve_oracle` must use zero-padded 4-digit id (`f"{fid:04d}"`) to match solutions-bank filenames exactly
+  - Re-using the stripped list (computed once per batch) avoids double `strip_pool_fields` calls — compute stripped before writing batch JSON
+  - 457 problems have no oracle coverage; these will be logged to needs-oracle.json during test generation (US-010)
+
+---
+
+## 2026-04-22 - US-008
+- **What was implemented:**
+  - Created scripts/ralph/audit_v1_entries.py — content-based classifier that checks each test file for `solutions-oracle-adapter/` imports
+  - All 101 test files had no oracle-adapter import → classified as v1 purge candidates
+  - Emitted scripts/ralph/v1-purge-candidates.json with 101 entries (stub path, test path, reason per entry)
+  - Deleted all 101 stub+test pairs from leetcode-playground/; test-utils.js (no .test counterpart) correctly skipped as orphan
+  - `helpers/` subdirectory preserved (tree.js helper untouched — not a .test.js file)
+
+- **Files changed:**
+  - Added: scripts/ralph/audit_v1_entries.py
+  - Added: scripts/ralph/v1-purge-candidates.json
+  - Deleted: 101 files in leetcode-playground/ (numbered stubs)
+  - Deleted: 101 files in leetcode-playground/tests/ (test files)
+  - Modified: scripts/ralph/prd.yaml (US-008 passes: true)
+
+- **Learnings:**
+  - `ls tests/ | wc -l` counted 102 items but one was the `helpers/` directory itself — actual test file count was 101; always use `*.test.js` glob not raw ls counts
+  - Content-based classification (import pattern scan) is stable across git rebases/merges; git-hash-based approaches break after cherry-picks
+  - The orphan-stub safety check needs to look at 4-digit-prefixed stubs only (`^\d{4}-`) to avoid flagging non-problem files like test-utils.js
+
+---
+
 ## 2026-04-22 - US-007
 - **What was implemented:**
   - Created scripts/ralph/import_oracle.py
