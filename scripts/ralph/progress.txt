@@ -1,3 +1,31 @@
+## 2026-04-22 - US-044
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-030` — first run: 6 generated, 14 failed
+  - Fixed 8 failures with slug overrides and new N-ary tree support; re-run: 8 more generated (14 total)
+  - 6 SQL problems (0584, 0585, 0586, 0595, 0596, 0597) remain as no-oracle skips (expected)
+  - Generated: 0581-0583, 0587-0594, 0598-0600 (14 stubs + tests total)
+
+- **Files changed:**
+  - Added: 14 stubs (0581-0583, 0587-0594, 0598-0600) in leetcode-playground/
+  - Added: 14 tests in leetcode-playground/tests/
+  - Modified: test_helpers.js (added `_Node` class + `arrayToNaryNode`)
+  - Modified: oracle_run.mjs (added `_Node` global injection + `_Node` convertArg)
+  - Modified: run_test.mjs (added `_Node` global injection)
+  - Modified: generate_tests.py (pointer-nary-tree category, slug overrides, FileSystem handler)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - N-ary tree problems use `_Node` (not `TreeNode`); requires new `pointer-nary-tree` category in generate_tests.py, `_Node` global injection in oracle_run.mjs + run_test.mjs, and `arrayToNaryNode` converter in test_helpers.js
+  - N-ary tree LeetCode format: `[root, null, child1, child2, ..., null, grandchild1, ...]` — null is a separator between sibling groups (one null per parent node)
+  - `range-addition` slug check (`'range-addition' in slug`) matches both `range-addition` and `range-addition-ii`; always check for `-ii` variant first when the param signature differs
+  - `kill-process(pid[], ppid[], kill)` is a 3-param (number[], number[], number) combo with no generic handler; needs slug override
+  - `fraction-addition-and-subtraction` takes a single `string expression` but the oracle expects fraction format like `-1/2+1/2`; generic string catalog passes arbitrary strings
+  - `valid-square` takes 4 separate `number[]` point args — same 4-param pattern as 4sum-ii; needs slug override
+  - `minimum-index-sum-of-two-lists` takes two `string[]` arrays that must have overlapping elements; generic two-string-array catalog generates disjoint arrays
+  - FileSystem design class (`ls+mkdir+addContentToFile+readContentFromFile`) needs a custom handler; generic fallback passes integer `1` for path strings causing `path.split is not a function`
+
+---
+
 ## 2026-04-22 - US-043
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-029` — 9 generated (0561-0567, 0572, 0575), 0 skipped, 11 missing/failed
