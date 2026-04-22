@@ -588,5 +588,60 @@
     "id": "0558",
     "slug": "logical-or-of-two-binary-grids-represented-as-quad-trees",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0568",
+    "slug": "maximum-vacation-days",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0569",
+    "slug": "median-employee-salary",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0570",
+    "slug": "managers-with-at-least-5-direct-reports",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0571",
+    "slug": "find-median-given-frequency-of-numbers",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0573",
+    "slug": "squirrel-simulation",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0574",
+    "slug": "winning-candidate",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0576",
+    "slug": "out-of-boundary-paths",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0577",
+    "slug": "employee-bonus",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0578",
+    "slug": "get-highest-answer-rate-question",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0579",
+    "slug": "find-cumulative-salary-of-an-employee",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0580",
+    "slug": "count-student-number-in-departments",
+    "reason": "oracleTier=missing"
   }
 ]
