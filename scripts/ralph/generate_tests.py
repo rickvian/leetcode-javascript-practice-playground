@@ -106,7 +106,9 @@ def get_input_category(problem, param_types):
         if 'GraphNode' in ptype or (ptype.strip() == 'Node' and 'graph' in tags):
             return 'pointer-graph'
 
-    if any(kw in slug for kw in ('remove-element', 'rotate', 'remove-duplicates', 'move-zeroes')):
+    if any(kw in slug for kw in ('remove-element', 'rotate', 'remove-duplicates',
+                                  'move-zeroes', 'next-permutation', 'sort-colors',
+                                  'sort-list-in-place')):
         return 'in-place-mutation'
 
     return 'plain-json'
@@ -151,6 +153,12 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     first = types[0] if types else ''
 
     # ── slug-specific overrides ──
+    if 'generate-parentheses' in slug:
+        return [[1], [2], [3], [4], [0]]
+
+    if 'count-and-say' in slug:
+        return [[1], [2], [3], [4], [5], [6]]
+
     if 'roman' in slug:
         romans = ["III", "LVIII", "MCMXCIV", "IV", "IX", "I", "XLII"]
         if 'integer-to-roman' in slug:
@@ -244,11 +252,23 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     return [[[1, 2, 3]], [[]], [[0]], [[-1, 0, 1]]]
 
 def _build_linked_list_inputs(problem, param_types):
-    slug      = problem.get('slug', '')
-    list_ct   = sum(1 for pt, _ in param_types if 'ListNode' in pt)
-    non_list  = [(pt, pn) for pt, pn in param_types if 'ListNode' not in pt]
+    slug          = problem.get('slug', '')
+    # ListNode[] means an array of linked list heads (e.g. merge-k-sorted-lists)
+    list_of_lists = any(pt.strip() == 'ListNode[]' for pt, _ in param_types)
+    list_ct       = sum(1 for pt, _ in param_types if 'ListNode' in pt)
+    non_list      = [(pt, pn) for pt, pn in param_types if 'ListNode' not in pt]
 
-    if list_ct >= 2:
+    if list_of_lists:
+        # Each input arg is an array-of-arrays; oracle_run maps each sub-array → arrayToList
+        bases = [
+            [[[1, 4, 5], [1, 3, 4], [2, 6]]],
+            [[[], [], []]],
+            [[[1], [2], [3]]],
+            [[[1, 2], [3, 4], [5]]],
+            [[[-1, 0], [1, 2]]],
+            [[[]]],
+        ]
+    elif list_ct >= 2:
         bases = [
             [[2, 4, 3], [5, 6, 4]],
             [[0], [0]],
@@ -349,6 +369,23 @@ def _build_in_place_inputs(problem, param_types):
             [[1]],
             [[0, 0, 1]],
         ]
+    if 'next-permutation' in slug:
+        return [
+            [[1, 2, 3]],
+            [[3, 2, 1]],
+            [[1, 1, 5]],
+            [[1]],
+            [[1, 2]],
+            [[2, 3, 1]],
+        ]
+    if 'sort-colors' in slug:
+        return [
+            [[2, 0, 2, 1, 1, 0]],
+            [[2, 0, 1]],
+            [[0]],
+            [[1]],
+            [[2, 2, 2]],
+        ]
     # generic fallback
     if len(param_types) >= 2:
         return [[[1, 2, 3, 4, 5], 2], [[1], 1], [[], 0]]
@@ -397,8 +434,15 @@ def _build_design_inputs(problem, class_methods):
 
 def _js_arg(arg, ptype):
     """Convert a Python input value to its JS source representation."""
+    if ptype and ptype.strip() == 'ListNode[]' and isinstance(arg, list):
+        # array-of-lists: each sub-array becomes arrayToList(...)
+        inner = ', '.join(f'arrayToList({json.dumps(a)})' for a in arg)
+        return f'[{inner}]'
     if ptype and 'ListNode' in ptype and isinstance(arg, list):
         return f'arrayToList({json.dumps(arg)})'
+    if ptype and ptype.strip() == 'TreeNode[]' and isinstance(arg, list):
+        inner = ', '.join(f'arrayToTree({json.dumps(a)})' for a in arg)
+        return f'[{inner}]'
     if ptype and 'TreeNode' in ptype and isinstance(arg, list):
         return f'arrayToTree({json.dumps(arg)})'
     if ptype and ('GraphNode' in ptype or ptype.strip() == 'Node') and isinstance(arg, list):
@@ -444,17 +488,27 @@ def render_it_block(fn_name, input_args, oracle_out, param_types, return_type,
         rest_js        = [json.dumps(a) for a in rest_args]
         rest_part      = (', ' + ', '.join(rest_js)) if rest_js else ''
         expected       = output.get('expectedElements', []) if isinstance(output, dict) else []
+        return_void    = output.get('returnVoid', False) if isinstance(output, dict) else False
         idx_var        = f'_nums{case_idx}'
         k_var          = f'_k{case_idx}'
         ek_var         = f'_ek{case_idx}'
         desc           = f'{fn_name}({json.dumps(first_arr)}{rest_part})'
-        body = (
-            f'    const {idx_var} = {json.dumps(first_arr)};\n'
-            f'    const {k_var} = {fn_name}({idx_var}{rest_part});\n'
-            f'    const {ek_var} = ({k_var} !== undefined && {k_var} !== null) ? {k_var} : {idx_var}.length;\n'
-            f'    if ({ek_var} !== undefined) '
-            f'expect({idx_var}.slice(0, {ek_var}).sort((a,b)=>a-b)).toEqual({json.dumps(expected)});'
-        )
+        if return_void:
+            # void-return in-place (e.g. nextPermutation): assert full mutated array directly
+            body = (
+                f'    const {idx_var} = {json.dumps(first_arr)};\n'
+                f'    {fn_name}({idx_var}{rest_part});\n'
+                f'    expect({idx_var}).toEqual({json.dumps(expected)});'
+            )
+        else:
+            # returns k: assert first k elements (sorted) match expected
+            body = (
+                f'    const {idx_var} = {json.dumps(first_arr)};\n'
+                f'    const {k_var} = {fn_name}({idx_var}{rest_part});\n'
+                f'    const {ek_var} = ({k_var} !== undefined && {k_var} !== null) ? {k_var} : {idx_var}.length;\n'
+                f'    if ({ek_var} !== undefined) '
+                f'expect({idx_var}.slice(0, {ek_var}).sort((a,b)=>a-b)).toEqual({json.dumps(expected)});'
+            )
         return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
 
     # ── pointer-linked-list (ListNode return) ──
@@ -684,7 +738,7 @@ def run_oracle(bank_path, fn_name, input_category, param_types_list, return_type
 
     param_types_json = json.dumps(param_types_list)
     cmd = [
-        'node', str(ORACLE_RUN),
+        'node', '--max-old-space-size=512', str(ORACLE_RUN),
         '--bankPath',       str(bank_path),
         '--fnName',         fn_name,
         '--inputCategory',  input_category,
@@ -694,11 +748,14 @@ def run_oracle(bank_path, fn_name, input_category, param_types_list, return_type
         '--outputsJsonPath', outputs_path,
     ]
     try:
-        r = subprocess.run(cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
+        r = subprocess.run(cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT), timeout=30)
         if r.returncode != 0:
-            sys.stderr.write(f'  oracle_run error: {r.stderr.strip()}\n')
+            sys.stderr.write(f'  oracle_run error: {r.stderr[:200].strip()}\n')
             return None
         return json.loads(Path(outputs_path).read_text())
+    except subprocess.TimeoutExpired:
+        sys.stderr.write('  oracle_run timeout (30s)\n')
+        return None
     except Exception as e:
         sys.stderr.write(f'  oracle_run exception: {e}\n')
         return None
@@ -724,8 +781,8 @@ def validate_test(test_path, stub_import, oracle_import):
     tmp_path = test_path.with_suffix('.tmp.test.js')
     try:
         tmp_path.write_text(validation)
-        cmd = ['node', str(RUN_TEST), str(tmp_path)]
-        r   = subprocess.run(cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
+        cmd = ['node', '--max-old-space-size=512', str(RUN_TEST), str(tmp_path)]
+        r   = subprocess.run(cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT), timeout=30)
         stdout = r.stdout.strip()
         stderr = r.stderr.strip()
         if stderr:
@@ -738,6 +795,9 @@ def validate_test(test_path, stub_import, oracle_import):
             if 'FAIL:' in line:
                 failed_descs.append(line.strip())
         return False, failed_descs
+    except subprocess.TimeoutExpired:
+        sys.stderr.write('  validate timeout (30s)\n')
+        return False, []
     except Exception as e:
         sys.stderr.write(f'  validate exception: {e}\n')
         return False, []
