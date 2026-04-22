@@ -353,5 +353,40 @@
     "id": "0341",
     "slug": "flatten-nested-list-iterator",
     "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0353",
+    "slug": "design-snake-game",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0365",
+    "slug": "water-and-jug-problem",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0370",
+    "slug": "range-addition",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0375",
+    "slug": "guess-number-higher-or-lower-ii",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0373",
+    "slug": "find-k-pairs-with-smallest-sums",
+    "reason": "permanent: uses PriorityQueue platform class (not available in Node.js)"
+  },
+  {
+    "id": "0374",
+    "slug": "guess-number-higher-or-lower",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0382",
+    "slug": "linked-list-random-node",
+    "reason": "permanent: non-deterministic getRandom() - cannot use exact-equal assertions"
   }
 ]

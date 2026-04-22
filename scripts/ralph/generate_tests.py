@@ -254,6 +254,29 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[-3, -2, -1, 0, 1], 0, 1, -1],
         ]
 
+    if 'range-addition' in slug:
+        return [
+            [5, [[1, 3, 2], [2, 4, 3], [0, 2, -2]]],
+            [3, [[0, 2, 1]]],
+            [1, []],
+            [4, [[0, 3, 5], [1, 2, -1]]],
+        ]
+
+    if 'find-k-pairs-with-smallest-sums' in slug:
+        return [
+            [[1, 7, 11], [2, 4, 6], 3],
+            [[1, 1, 2], [1, 2, 3], 2],
+            [[1, 2], [3], 3],
+            [[1, 2, 3], [4, 5, 6], 1],
+            [[1], [1, 2], 2],
+        ]
+
+    if 'guess-number-higher-or-lower-ii' in slug:
+        return [[1], [2], [3], [4], [5], [10]]
+
+    if 'water-and-jug' in slug:
+        return [[3, 5, 4], [2, 6, 5], [1, 2, 3], [3, 5, 3], [0, 0, 0], [2, 4, 3]]
+
     if any(kw in slug for kw in ('course-schedule', 'graph-valid-tree',
                                    'connected-components')):
         return [
@@ -817,6 +840,21 @@ def _build_design_inputs(problem, class_methods):
             [[fn_name, [4, 2, 7, 1, 3]], ['hasNext'], ['next'], ['hasNext'], ['next'], ['hasNext'], ['next']],
             [[fn_name, [3, 1, 2]], ['hasNext'], ['next'], ['next'], ['hasNext']],
             [[fn_name, [7]], ['hasNext'], ['next'], ['hasNext']],
+        ]
+
+    # LinkedListRandomNode / getRandom (ListNode constructor)
+    if 'getRandom' in method_names and 'snake' not in slug.lower():
+        return [
+            [[fn_name, [1, 2, 3]], ['getRandom'], ['getRandom'], ['getRandom']],
+            [[fn_name, [1]], ['getRandom']],
+        ]
+
+    # SnakeGame (width, height, food[][])
+    if 'snake' in slug.lower() or 'move' in method_names:
+        return [
+            [[fn_name, 3, 2, [[1, 2], [0, 1]]],
+             ['move', 'R'], ['move', 'D'], ['move', 'R'],
+             ['move', 'U'], ['move', 'L'], ['move', 'U']],
         ]
 
     # Generic fallback: try up to 4 methods with dummy args
