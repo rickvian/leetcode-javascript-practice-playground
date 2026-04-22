@@ -2,255 +2,286 @@
   "batchId": "batch-096",
   "problems": [
     {
-      "id": "2002",
-      "slug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
-      "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+      "id": "1901",
+      "slug": "find-a-peak-element-ii",
+      "title": "Find a Peak Element II",
       "difficulty": "MEDIUM",
       "tags": [
-        "string",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "bitmask"
+        "array",
+        "binary-search",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findPeakGrid"
     },
     {
-      "id": "2003",
-      "slug": "smallest-missing-genetic-value-in-each-subtree",
-      "title": "Smallest Missing Genetic Value in Each Subtree",
-      "difficulty": "HARD",
+      "id": "1902",
+      "slug": "depth-of-bst-given-insertion-order",
+      "title": "Depth of BST Given Insertion Order",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming",
         "tree",
-        "depth-first-search",
-        "union-find"
+        "binary-search-tree",
+        "binary-tree",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDepthBST"
     },
     {
-      "id": "2004",
-      "slug": "the-number-of-seniors-and-juniors-to-join-the-company",
-      "title": "The Number of Seniors and Juniors to Join the Company",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2005",
-      "slug": "subtree-removal-game-with-fibonacci-tree",
-      "title": "Subtree Removal Game with Fibonacci Tree",
-      "difficulty": "HARD",
+      "id": "1903",
+      "slug": "largest-odd-number-in-string",
+      "title": "Largest Odd Number in String",
+      "difficulty": "EASY",
       "tags": [
         "math",
-        "dynamic-programming",
-        "tree",
-        "binary-tree",
-        "game-theory"
+        "string",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestOddNumber"
     },
     {
-      "id": "2006",
-      "slug": "count-number-of-pairs-with-absolute-difference-k",
-      "title": "Count Number of Pairs With Absolute Difference K",
-      "difficulty": "EASY",
+      "id": "1904",
+      "slug": "the-number-of-full-rounds-you-have-played",
+      "title": "The Number of Full Rounds You Have Played",
+      "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "hash-table",
-        "counting"
+        "math",
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfRounds"
     },
     {
-      "id": "2007",
-      "slug": "find-original-array-from-doubled-array",
-      "title": "Find Original Array From Doubled Array",
+      "id": "1905",
+      "slug": "count-sub-islands",
+      "title": "Count Sub Islands",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "greedy",
-        "sorting"
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSubIslands"
     },
     {
-      "id": "2008",
-      "slug": "maximum-earnings-from-taxi",
-      "title": "Maximum Earnings From Taxi",
+      "id": "1906",
+      "slug": "minimum-absolute-difference-queries",
+      "title": "Minimum Absolute Difference Queries",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "binary-search",
-        "dynamic-programming",
-        "sorting"
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minDifference"
     },
     {
-      "id": "2009",
-      "slug": "minimum-number-of-operations-to-make-array-continuous",
-      "title": "Minimum Number of Operations to Make Array Continuous",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "binary-search",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2010",
-      "slug": "the-number-of-seniors-and-juniors-to-join-the-company-ii",
-      "title": "The Number of Seniors and Juniors to Join the Company II",
-      "difficulty": "HARD",
+      "id": "1907",
+      "slug": "count-salary-categories",
+      "title": "Count Salary Categories",
+      "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2011",
-      "slug": "final-value-of-variable-after-performing-operations",
-      "title": "Final Value of Variable After Performing Operations",
-      "difficulty": "EASY",
+      "id": "1908",
+      "slug": "game-of-nim",
+      "title": "Game of Nim",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "string",
-        "simulation"
+        "math",
+        "dynamic-programming",
+        "bit-manipulation",
+        "brainteaser",
+        "game-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nimGame"
     },
     {
-      "id": "2012",
-      "slug": "sum-of-beauty-in-the-array",
-      "title": "Sum of Beauty in the Array",
-      "difficulty": "MEDIUM",
+      "id": "1909",
+      "slug": "remove-one-element-to-make-the-array-strictly-increasing",
+      "title": "Remove One Element to Make the Array Strictly Increasing",
+      "difficulty": "EASY",
       "tags": [
         "array"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canBeIncreasing"
     },
     {
-      "id": "2013",
-      "slug": "detect-squares",
-      "title": "Detect Squares",
+      "id": "1910",
+      "slug": "remove-all-occurrences-of-a-substring",
+      "title": "Remove All Occurrences of a Substring",
       "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeOccurrences"
+    },
+    {
+      "id": "1911",
+      "slug": "maximum-alternating-subsequence-sum",
+      "title": "Maximum Alternating Subsequence Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxAlternatingSum"
+    },
+    {
+      "id": "1912",
+      "slug": "design-movie-rental-system",
+      "title": "Design Movie Rental System",
+      "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
         "design",
-        "counting",
-        "data-stream"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2014",
-      "slug": "longest-subsequence-repeated-k-times",
-      "title": "Longest Subsequence Repeated k Times",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "two-pointers",
-        "string",
-        "backtracking",
-        "counting",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2015",
-      "slug": "average-height-of-buildings-in-each-segment",
-      "title": "Average Height of Buildings in Each Segment",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sorting",
         "heap-priority-queue",
-        "prefix-sum"
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "MovieRentingSystem"
     },
     {
-      "id": "2016",
-      "slug": "maximum-difference-between-increasing-elements",
-      "title": "Maximum Difference Between Increasing Elements",
+      "id": "1913",
+      "slug": "maximum-product-difference-between-two-pairs",
+      "title": "Maximum Product Difference Between Two Pairs",
       "difficulty": "EASY",
       "tags": [
-        "array"
+        "array",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProductDifference"
     },
     {
-      "id": "2017",
-      "slug": "grid-game",
-      "title": "Grid Game",
+      "id": "1914",
+      "slug": "cyclically-rotating-a-grid",
+      "title": "Cyclically Rotating a Grid",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rotateGrid"
+    },
+    {
+      "id": "1915",
+      "slug": "number-of-wonderful-substrings",
+      "title": "Number of Wonderful Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wonderfulSubstrings"
     },
     {
-      "id": "2018",
-      "slug": "check-if-word-can-be-placed-in-crossword",
-      "title": "Check if Word Can Be Placed In Crossword",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "matrix",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2019",
-      "slug": "the-score-of-students-solving-math-expression",
-      "title": "The Score of Students Solving Math Expression",
+      "id": "1916",
+      "slug": "count-ways-to-build-rooms-in-an-ant-colony",
+      "title": "Count Ways to Build Rooms in an Ant Colony",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "hash-table",
         "math",
-        "string",
         "dynamic-programming",
-        "stack",
-        "memoization"
+        "tree",
+        "depth-first-search",
+        "graph",
+        "topological-sort",
+        "combinatorics"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "waysToBuildRooms"
     },
     {
-      "id": "2020",
-      "slug": "number-of-accounts-that-did-not-stream",
-      "title": "Number of Accounts That Did Not Stream",
-      "difficulty": "MEDIUM",
+      "id": "1917",
+      "slug": "leetcodify-friends-recommendations",
+      "title": "Leetcodify Friends Recommendations",
+      "difficulty": "HARD",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2021",
-      "slug": "brightest-position-on-street",
-      "title": "Brightest Position on Street",
+      "id": "1918",
+      "slug": "kth-smallest-subarray-sum",
+      "title": "Kth Smallest Subarray Sum",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "sorting",
-        "prefix-sum",
-        "ordered-set"
+        "binary-search",
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthSmallestSubarraySum"
+    },
+    {
+      "id": "1919",
+      "slug": "leetcodify-similar-friends",
+      "title": "Leetcodify Similar Friends",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1920",
+      "slug": "build-array-from-permutation",
+      "title": "Build Array from Permutation",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "buildArray"
     }
   ]
 }

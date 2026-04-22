@@ -2,232 +2,276 @@
   "batchId": "batch-003",
   "problems": [
     {
-      "id": "0064",
-      "slug": "minimum-path-sum",
-      "title": "Minimum Path Sum",
+      "id": "0041",
+      "slug": "first-missing-positive",
+      "title": "First Missing Positive",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "firstMissingPositive"
+    },
+    {
+      "id": "0042",
+      "slug": "trapping-rain-water",
+      "title": "Trapping Rain Water",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "dynamic-programming",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "trap"
+    },
+    {
+      "id": "0043",
+      "slug": "multiply-strings",
+      "title": "Multiply Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "multiply"
+    },
+    {
+      "id": "0044",
+      "slug": "wildcard-matching",
+      "title": "Wildcard Matching",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "greedy",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isMatch"
+    },
+    {
+      "id": "0045",
+      "slug": "jump-game-ii",
+      "title": "Jump Game II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming",
-        "matrix"
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "jump"
     },
     {
-      "id": "0065",
-      "slug": "valid-number",
-      "title": "Valid Number",
-      "difficulty": "HARD",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0066",
-      "slug": "plus-one",
-      "title": "Plus One",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0067",
-      "slug": "add-binary",
-      "title": "Add Binary",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "string",
-        "bit-manipulation",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0068",
-      "slug": "text-justification",
-      "title": "Text Justification",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "string",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0069",
-      "slug": "sqrtx",
-      "title": "Sqrt(x)",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0071",
-      "slug": "simplify-path",
-      "title": "Simplify Path",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0072",
-      "slug": "edit-distance",
-      "title": "Edit Distance",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0075",
-      "slug": "sort-colors",
-      "title": "Sort Colors",
+      "id": "0046",
+      "slug": "permutations",
+      "title": "Permutations",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "two-pointers",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "permute"
+    },
+    {
+      "id": "0047",
+      "slug": "permutations-ii",
+      "title": "Permutations II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "permuteUnique"
     },
     {
-      "id": "0077",
-      "slug": "combinations",
-      "title": "Combinations",
+      "id": "0048",
+      "slug": "rotate-image",
+      "title": "Rotate Image",
       "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rotate"
+    },
+    {
+      "id": "0049",
+      "slug": "group-anagrams",
+      "title": "Group Anagrams",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "groupAnagrams"
+    },
+    {
+      "id": "0050",
+      "slug": "powx-n",
+      "title": "Pow(x, n)",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "myPow"
+    },
+    {
+      "id": "0051",
+      "slug": "n-queens",
+      "title": "N-Queens",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "solveNQueens"
+    },
+    {
+      "id": "0052",
+      "slug": "n-queens-ii",
+      "title": "N-Queens II",
+      "difficulty": "HARD",
       "tags": [
         "backtracking"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "totalNQueens"
     },
     {
-      "id": "0078",
-      "slug": "subsets",
-      "title": "Subsets",
+      "id": "0053",
+      "slug": "maximum-subarray",
+      "title": "Maximum Subarray",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "backtracking",
-        "bit-manipulation"
+        "divide-and-conquer",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSubArray"
     },
     {
-      "id": "0080",
-      "slug": "remove-duplicates-from-sorted-array-ii",
-      "title": "Remove Duplicates from Sorted Array II",
+      "id": "0054",
+      "slug": "spiral-matrix",
+      "title": "Spiral Matrix",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "two-pointers"
+        "matrix",
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "spiralOrder"
     },
     {
-      "id": "0081",
-      "slug": "search-in-rotated-sorted-array-ii",
-      "title": "Search in Rotated Sorted Array II",
+      "id": "0055",
+      "slug": "jump-game",
+      "title": "Jump Game",
       "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0082",
-      "slug": "remove-duplicates-from-sorted-list-ii",
-      "title": "Remove Duplicates from Sorted List II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0083",
-      "slug": "remove-duplicates-from-sorted-list",
-      "title": "Remove Duplicates from Sorted List",
-      "difficulty": "EASY",
-      "tags": [
-        "linked-list"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0085",
-      "slug": "maximal-rectangle",
-      "title": "Maximal Rectangle",
-      "difficulty": "HARD",
       "tags": [
         "array",
         "dynamic-programming",
-        "stack",
-        "matrix",
-        "monotonic-stack"
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canJump"
     },
     {
-      "id": "0086",
-      "slug": "partition-list",
-      "title": "Partition List",
+      "id": "0056",
+      "slug": "merge-intervals",
+      "title": "Merge Intervals",
       "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0087",
-      "slug": "scramble-string",
-      "title": "Scramble String",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0088",
-      "slug": "merge-sorted-array",
-      "title": "Merge Sorted Array",
-      "difficulty": "EASY",
       "tags": [
         "array",
-        "two-pointers",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "merge"
     },
     {
-      "id": "0089",
-      "slug": "gray-code",
-      "title": "Gray Code",
+      "id": "0057",
+      "slug": "insert-interval",
+      "title": "Insert Interval",
       "difficulty": "MEDIUM",
       "tags": [
-        "math",
-        "backtracking",
-        "bit-manipulation"
+        "array"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "insert"
+    },
+    {
+      "id": "0058",
+      "slug": "length-of-last-word",
+      "title": "Length of Last Word",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lengthOfLastWord"
+    },
+    {
+      "id": "0059",
+      "slug": "spiral-matrix-ii",
+      "title": "Spiral Matrix II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "generateMatrix"
+    },
+    {
+      "id": "0060",
+      "slug": "permutation-sequence",
+      "title": "Permutation Sequence",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getPermutation"
     }
   ]
 }

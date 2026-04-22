@@ -2,258 +2,291 @@
   "batchId": "batch-034",
   "problems": [
     {
-      "id": "0759",
-      "slug": "employee-free-time",
-      "title": "Employee Free Time",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "line-sweep",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0760",
-      "slug": "find-anagram-mappings",
-      "title": "Find Anagram Mappings",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0761",
-      "slug": "special-binary-string",
-      "title": "Special Binary String",
+      "id": "0642",
+      "slug": "design-search-autocomplete-system",
+      "title": "Design Search Autocomplete System",
       "difficulty": "HARD",
       "tags": [
         "string",
-        "divide-and-conquer",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0762",
-      "slug": "prime-number-of-set-bits-in-binary-representation",
-      "title": "Prime Number of Set Bits in Binary Representation",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0763",
-      "slug": "partition-labels",
-      "title": "Partition Labels",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "two-pointers",
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0764",
-      "slug": "largest-plus-sign",
-      "title": "Largest Plus Sign",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0765",
-      "slug": "couples-holding-hands",
-      "title": "Couples Holding Hands",
-      "difficulty": "HARD",
-      "tags": [
-        "greedy",
         "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0766",
-      "slug": "toeplitz-matrix",
-      "title": "Toeplitz Matrix",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0767",
-      "slug": "reorganize-string",
-      "title": "Reorganize String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "greedy",
+        "design",
+        "trie",
         "sorting",
         "heap-priority-queue",
-        "counting"
+        "data-stream"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "AutocompleteSystem"
     },
     {
-      "id": "0768",
-      "slug": "max-chunks-to-make-sorted-ii",
-      "title": "Max Chunks To Make Sorted II",
+      "id": "0662",
+      "slug": "maximum-width-of-binary-tree",
+      "title": "Maximum Width of Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "widthOfBinaryTree"
+    },
+    {
+      "id": "0663",
+      "slug": "equal-tree-partition",
+      "title": "Equal Tree Partition",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkEqualTree"
+    },
+    {
+      "id": "0664",
+      "slug": "strange-printer",
+      "title": "Strange Printer",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "stack",
-        "greedy",
-        "sorting",
-        "monotonic-stack"
+        "string",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "strangePrinter"
     },
     {
-      "id": "0769",
-      "slug": "max-chunks-to-make-sorted",
-      "title": "Max Chunks To Make Sorted",
+      "id": "0665",
+      "slug": "non-decreasing-array",
+      "title": "Non-decreasing Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkPossibility"
+    },
+    {
+      "id": "0666",
+      "slug": "path-sum-iv",
+      "title": "Path Sum IV",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "stack",
-        "greedy",
-        "sorting",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0770",
-      "slug": "basic-calculator-iv",
-      "title": "Basic Calculator IV",
-      "difficulty": "HARD",
-      "tags": [
         "hash-table",
-        "math",
-        "string",
-        "stack",
-        "recursion"
+        "tree",
+        "depth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pathSum"
     },
     {
-      "id": "0771",
-      "slug": "jewels-and-stones",
-      "title": "Jewels and Stones",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0772",
-      "slug": "basic-calculator-iii",
-      "title": "Basic Calculator III",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "string",
-        "stack",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0773",
-      "slug": "sliding-puzzle",
-      "title": "Sliding Puzzle",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "backtracking",
-        "breadth-first-search",
-        "memoization",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0774",
-      "slug": "minimize-max-distance-to-gas-station",
-      "title": "Minimize Max Distance to Gas Station",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0775",
-      "slug": "global-and-local-inversions",
-      "title": "Global and Local Inversions",
+      "id": "0667",
+      "slug": "beautiful-arrangement-ii",
+      "title": "Beautiful Arrangement II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "constructArray"
     },
     {
-      "id": "0776",
-      "slug": "split-bst",
-      "title": "Split BST",
+      "id": "0668",
+      "slug": "kth-smallest-number-in-multiplication-table",
+      "title": "Kth Smallest Number in Multiplication Table",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findKthNumber"
+    },
+    {
+      "id": "0669",
+      "slug": "trim-a-binary-search-tree",
+      "title": "Trim a Binary Search Tree",
       "difficulty": "MEDIUM",
       "tags": [
         "tree",
+        "depth-first-search",
         "binary-search-tree",
-        "recursion",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "trimBST"
     },
     {
-      "id": "0777",
-      "slug": "swap-adjacent-in-lr-string",
-      "title": "Swap Adjacent in LR String",
+      "id": "0670",
+      "slug": "maximum-swap",
+      "title": "Maximum Swap",
       "difficulty": "MEDIUM",
       "tags": [
-        "two-pointers",
-        "string"
+        "math",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumSwap"
     },
     {
-      "id": "0778",
-      "slug": "swim-in-rising-water",
-      "title": "Swim in Rising Water",
+      "id": "0671",
+      "slug": "second-minimum-node-in-a-binary-tree",
+      "title": "Second Minimum Node In a Binary Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findSecondMinimumValue"
+    },
+    {
+      "id": "0672",
+      "slug": "bulb-switcher-ii",
+      "title": "Bulb Switcher II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "bit-manipulation",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "flipLights"
+    },
+    {
+      "id": "0673",
+      "slug": "number-of-longest-increasing-subsequence",
+      "title": "Number of Longest Increasing Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "binary-indexed-tree",
+        "segment-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findNumberOfLIS"
+    },
+    {
+      "id": "0674",
+      "slug": "longest-continuous-increasing-subsequence",
+      "title": "Longest Continuous Increasing Subsequence",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findLengthOfLCIS"
+    },
+    {
+      "id": "0675",
+      "slug": "cut-off-trees-for-golf-event",
+      "title": "Cut Off Trees for Golf Event",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "binary-search",
-        "depth-first-search",
         "breadth-first-search",
-        "union-find",
         "heap-priority-queue",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0676",
+      "slug": "implement-magic-dictionary",
+      "title": "Implement Magic Dictionary",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "depth-first-search",
+        "design",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "MagicDictionary"
+    },
+    {
+      "id": "0677",
+      "slug": "map-sum-pairs",
+      "title": "Map Sum Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "design",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "MapSum"
+    },
+    {
+      "id": "0678",
+      "slug": "valid-parenthesis-string",
+      "title": "Valid Parenthesis String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkValidString"
+    },
+    {
+      "id": "0679",
+      "slug": "24-game",
+      "title": "24 Game",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0680",
+      "slug": "valid-palindrome-ii",
+      "title": "Valid Palindrome II",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validPalindrome"
     }
   ]
 }

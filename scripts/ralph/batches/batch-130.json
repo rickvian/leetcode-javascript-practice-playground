@@ -2,207 +2,297 @@
   "batchId": "batch-130",
   "problems": [
     {
-      "id": "2682",
-      "slug": "find-the-losers-of-the-circular-game",
-      "title": "Find the Losers of the Circular Game",
-      "difficulty": "EASY",
+      "id": "2581",
+      "slug": "count-number-of-possible-root-nodes",
+      "title": "Count Number of Possible Root Nodes",
+      "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2683",
-      "slug": "neighboring-bitwise-xor",
-      "title": "Neighboring Bitwise XOR",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2684",
-      "slug": "maximum-number-of-moves-in-a-grid",
-      "title": "Maximum Number of Moves in a Grid",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "dynamic-programming",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2685",
-      "slug": "count-the-number-of-complete-components",
-      "title": "Count the Number of Complete Components",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2686",
-      "slug": "immediate-food-delivery-iii",
-      "title": "Immediate Food Delivery III",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2687",
-      "slug": "bikes-last-time-used",
-      "title": "Bikes Last Time Used ",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2688",
-      "slug": "find-active-users",
-      "title": "Find Active Users",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2689",
-      "slug": "extract-kth-character-from-the-rope-tree",
-      "title": "Extract Kth Character From The Rope Tree",
-      "difficulty": "EASY",
-      "tags": [
         "tree",
-        "depth-first-search",
-        "binary-tree"
+        "depth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rootCount"
     },
     {
-      "id": "2690",
-      "slug": "infinite-method-object",
-      "title": "Infinite Method Object",
+      "id": "2582",
+      "slug": "pass-the-pillow",
+      "title": "Pass the Pillow",
       "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2691",
-      "slug": "immutability-helper",
-      "title": "Immutability Helper",
-      "difficulty": "HARD",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2692",
-      "slug": "make-object-immutable",
-      "title": "Make Object Immutable",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2693",
-      "slug": "call-function-with-custom-context",
-      "title": "Call Function with Custom Context",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2694",
-      "slug": "event-emitter",
-      "title": "Event Emitter",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2695",
-      "slug": "array-wrapper",
-      "title": "Array Wrapper",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2696",
-      "slug": "minimum-string-length-after-removing-substrings",
-      "title": "Minimum String Length After Removing Substrings",
-      "difficulty": "EASY",
-      "tags": [
-        "string",
-        "stack",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2697",
-      "slug": "lexicographically-smallest-palindrome",
-      "title": "Lexicographically Smallest Palindrome",
-      "difficulty": "EASY",
-      "tags": [
-        "two-pointers",
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2698",
-      "slug": "find-the-punishment-number-of-an-integer",
-      "title": "Find the Punishment Number of an Integer",
-      "difficulty": "MEDIUM",
       "tags": [
         "math",
-        "backtracking"
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "passThePillow"
     },
     {
-      "id": "2699",
-      "slug": "modify-graph-edge-weights",
-      "title": "Modify Graph Edge Weights",
-      "difficulty": "HARD",
-      "tags": [
-        "graph",
-        "heap-priority-queue",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2700",
-      "slug": "differences-between-two-objects",
-      "title": "Differences Between Two Objects",
+      "id": "2583",
+      "slug": "kth-largest-sum-in-a-binary-tree",
+      "title": "Kth Largest Sum in a Binary Tree",
       "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
+      "tags": [
+        "tree",
+        "breadth-first-search",
+        "sorting",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthLargestLevelSum"
     },
     {
-      "id": "2701",
-      "slug": "consecutive-transactions-with-increasing-amounts",
-      "title": "Consecutive Transactions with Increasing Amounts",
+      "id": "2584",
+      "slug": "split-the-array-to-make-coprime-products",
+      "title": "Split the Array to Make Coprime Products",
       "difficulty": "HARD",
       "tags": [
-        "database"
+        "array",
+        "hash-table",
+        "math",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2585",
+      "slug": "number-of-ways-to-earn-points",
+      "title": "Number of Ways to Earn Points",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "waysToReachTarget"
+    },
+    {
+      "id": "2586",
+      "slug": "count-the-number-of-vowel-strings-in-range",
+      "title": "Count the Number of Vowel Strings in Range",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "vowelStrings"
+    },
+    {
+      "id": "2587",
+      "slug": "rearrange-array-to-maximize-prefix-score",
+      "title": "Rearrange Array to Maximize Prefix Score",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxScore"
+    },
+    {
+      "id": "2588",
+      "slug": "count-the-number-of-beautiful-subarrays",
+      "title": "Count the Number of Beautiful Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "beautifulSubarrays"
+    },
+    {
+      "id": "2589",
+      "slug": "minimum-time-to-complete-all-tasks",
+      "title": "Minimum Time to Complete All Tasks",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "stack",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2590",
+      "slug": "design-a-todo-list",
+      "title": "Design a Todo List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "design",
+        "sorting"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "TodoList"
+    },
+    {
+      "id": "2591",
+      "slug": "distribute-money-to-maximum-children",
+      "title": "Distribute Money to Maximum Children",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2592",
+      "slug": "maximize-greatness-of-an-array",
+      "title": "Maximize Greatness of an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximizeGreatness"
+    },
+    {
+      "id": "2593",
+      "slug": "find-score-of-an-array-after-marking-all-elements",
+      "title": "Find Score of an Array After Marking All Elements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "heap-priority-queue",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2594",
+      "slug": "minimum-time-to-repair-cars",
+      "title": "Minimum Time to Repair Cars",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "repairCars"
+    },
+    {
+      "id": "2595",
+      "slug": "number-of-even-and-odd-bits",
+      "title": "Number of Even and Odd Bits",
+      "difficulty": "EASY",
+      "tags": [
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "evenOddBit"
+    },
+    {
+      "id": "2596",
+      "slug": "check-knight-tour-configuration",
+      "title": "Check Knight Tour Configuration",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkValidGrid"
+    },
+    {
+      "id": "2597",
+      "slug": "the-number-of-beautiful-subsets",
+      "title": "The Number of Beautiful Subsets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "dynamic-programming",
+        "backtracking",
+        "sorting",
+        "combinatorics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "beautifulSubsets"
+    },
+    {
+      "id": "2598",
+      "slug": "smallest-missing-non-negative-integer-after-operations",
+      "title": "Smallest Missing Non-negative Integer After Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findSmallestInteger"
+    },
+    {
+      "id": "2599",
+      "slug": "make-the-prefix-sum-non-negative",
+      "title": "Make the Prefix Sum Non-negative",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "makePrefSumNonNegative"
+    },
+    {
+      "id": "2600",
+      "slug": "k-items-with-the-maximum-sum",
+      "title": "K Items With the Maximum Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kItemsWithMaximumSum"
     }
   ]
 }

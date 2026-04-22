@@ -2,241 +2,266 @@
   "batchId": "batch-056",
   "problems": [
     {
-      "id": "1202",
-      "slug": "smallest-string-with-swaps",
-      "title": "Smallest String With Swaps",
+      "id": "1101",
+      "slug": "the-earliest-moment-when-everyone-become-friends",
+      "title": "The Earliest Moment When Everyone Become Friends",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "union-find",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "earliestAcq"
+    },
+    {
+      "id": "1102",
+      "slug": "path-with-maximum-minimum-value",
+      "title": "Path With Maximum Minimum Value",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumMinimumPath"
+    },
+    {
+      "id": "1103",
+      "slug": "distribute-candies-to-people",
+      "title": "Distribute Candies to People",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distributeCandies"
+    },
+    {
+      "id": "1104",
+      "slug": "path-in-zigzag-labelled-binary-tree",
+      "title": "Path In Zigzag Labelled Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pathInZigZagTree"
+    },
+    {
+      "id": "1105",
+      "slug": "filling-bookcase-shelves",
+      "title": "Filling Bookcase Shelves",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minHeightShelves"
+    },
+    {
+      "id": "1106",
+      "slug": "parsing-a-boolean-expression",
+      "title": "Parsing A Boolean Expression",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "parseBoolExpr"
+    },
+    {
+      "id": "1107",
+      "slug": "new-users-daily-count",
+      "title": "New Users Daily Count",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1108",
+      "slug": "defanging-an-ip-address",
+      "title": "Defanging an IP Address",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "defangIPaddr"
+    },
+    {
+      "id": "1109",
+      "slug": "corporate-flight-bookings",
+      "title": "Corporate Flight Bookings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "corpFlightBookings"
+    },
+    {
+      "id": "1110",
+      "slug": "delete-nodes-and-return-forest",
+      "title": "Delete Nodes And Return Forest",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "string",
+        "tree",
         "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "sorting"
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "delNodes"
     },
     {
-      "id": "1203",
-      "slug": "sort-items-by-groups-respecting-dependencies",
-      "title": "Sort Items by Groups Respecting Dependencies",
-      "difficulty": "HARD",
-      "tags": [
-        "depth-first-search",
-        "breadth-first-search",
-        "graph",
-        "topological-sort"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1204",
-      "slug": "last-person-to-fit-in-the-bus",
-      "title": "Last Person to Fit in the Bus",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1205",
-      "slug": "monthly-transactions-ii",
-      "title": "Monthly Transactions II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1206",
-      "slug": "design-skiplist",
-      "title": "Design Skiplist",
-      "difficulty": "HARD",
-      "tags": [
-        "linked-list",
-        "design"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1207",
-      "slug": "unique-number-of-occurrences",
-      "title": "Unique Number of Occurrences",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1208",
-      "slug": "get-equal-substrings-within-budget",
-      "title": "Get Equal Substrings Within Budget",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "binary-search",
-        "sliding-window",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1209",
-      "slug": "remove-all-adjacent-duplicates-in-string-ii",
-      "title": "Remove All Adjacent Duplicates in String II",
+      "id": "1111",
+      "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+      "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
       "difficulty": "MEDIUM",
       "tags": [
         "string",
         "stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDepthAfterSplit"
     },
     {
-      "id": "1210",
-      "slug": "minimum-moves-to-reach-target-with-rotations",
-      "title": "Minimum Moves to Reach Target with Rotations",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1211",
-      "slug": "queries-quality-and-percentage",
-      "title": "Queries Quality and Percentage",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1212",
-      "slug": "team-scores-in-football-tournament",
-      "title": "Team Scores in Football Tournament",
+      "id": "1112",
+      "slug": "highest-grade-for-each-student",
+      "title": "Highest Grade For Each Student",
       "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1213",
-      "slug": "intersection-of-three-sorted-arrays",
-      "title": "Intersection of Three Sorted Arrays",
+      "id": "1113",
+      "slug": "reported-posts",
+      "title": "Reported Posts",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "hash-table",
-        "binary-search",
-        "counting"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1214",
-      "slug": "two-sum-bsts",
-      "title": "Two Sum BSTs",
+      "id": "1114",
+      "slug": "print-in-order",
+      "title": "Print in Order",
+      "difficulty": "EASY",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1115",
+      "slug": "print-foobar-alternately",
+      "title": "Print FooBar Alternately",
       "difficulty": "MEDIUM",
       "tags": [
-        "two-pointers",
-        "binary-search",
-        "stack",
+        "concurrency"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1116",
+      "slug": "print-zero-even-odd",
+      "title": "Print Zero Even Odd",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1117",
+      "slug": "building-h2o",
+      "title": "Building H2O",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1118",
+      "slug": "number-of-days-in-a-month",
+      "title": "Number of Days in a Month",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfDays"
+    },
+    {
+      "id": "1119",
+      "slug": "remove-vowels-from-a-string",
+      "title": "Remove Vowels from a String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeVowels"
+    },
+    {
+      "id": "1120",
+      "slug": "maximum-average-subtree",
+      "title": "Maximum Average Subtree",
+      "difficulty": "MEDIUM",
+      "tags": [
         "tree",
         "depth-first-search",
-        "binary-search-tree",
         "binary-tree"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "1215",
-      "slug": "stepping-numbers",
-      "title": "Stepping Numbers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "backtracking",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1216",
-      "slug": "valid-palindrome-iii",
-      "title": "Valid Palindrome III",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1217",
-      "slug": "minimum-cost-to-move-chips-to-the-same-position",
-      "title": "Minimum Cost to Move Chips to The Same Position",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "math",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1218",
-      "slug": "longest-arithmetic-subsequence-of-given-difference",
-      "title": "Longest Arithmetic Subsequence of Given Difference",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1219",
-      "slug": "path-with-maximum-gold",
-      "title": "Path with Maximum Gold",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "backtracking",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1220",
-      "slug": "count-vowels-permutation",
-      "title": "Count Vowels Permutation",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1221",
-      "slug": "split-a-string-in-balanced-strings",
-      "title": "Split a String in Balanced Strings",
-      "difficulty": "EASY",
-      "tags": [
-        "string",
-        "greedy",
-        "counting"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumAverageSubtree"
     }
   ]
 }

@@ -2,135 +2,234 @@
   "batchId": "batch-016",
   "problems": [
     {
-      "id": "0391",
-      "slug": "perfect-rectangle",
-      "title": "Perfect Rectangle",
+      "id": "0297",
+      "slug": "serialize-and-deserialize-binary-tree",
+      "title": "Serialize and Deserialize Binary Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "design",
+        "binary-tree"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "serialize"
+    },
+    {
+      "id": "0302",
+      "slug": "smallest-rectangle-enclosing-black-pixels",
+      "title": "Smallest Rectangle Enclosing Black Pixels",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minArea"
+    },
+    {
+      "id": "0303",
+      "slug": "range-sum-query-immutable",
+      "title": "Range Sum Query - Immutable",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "design",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "NumArray"
+    },
+    {
+      "id": "0304",
+      "slug": "range-sum-query-2d-immutable",
+      "title": "Range Sum Query 2D - Immutable",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "design",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "NumMatrix"
+    },
+    {
+      "id": "0305",
+      "slug": "number-of-islands-ii",
+      "title": "Number of Islands II",
       "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
-        "math",
-        "geometry",
-        "line-sweep"
+        "union-find"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numIslands2"
     },
     {
-      "id": "0392",
-      "slug": "is-subsequence",
-      "title": "Is Subsequence",
-      "difficulty": "EASY",
+      "id": "0306",
+      "slug": "additive-number",
+      "title": "Additive Number",
+      "difficulty": "MEDIUM",
       "tags": [
-        "two-pointers",
         "string",
-        "dynamic-programming"
+        "backtracking"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isAdditiveNumber"
     },
     {
-      "id": "0393",
-      "slug": "utf-8-validation",
-      "title": "UTF-8 Validation",
+      "id": "0307",
+      "slug": "range-sum-query-mutable",
+      "title": "Range Sum Query - Mutable",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0395",
-      "slug": "longest-substring-with-at-least-k-repeating-characters",
-      "title": "Longest Substring with At Least K Repeating Characters",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
         "divide-and-conquer",
-        "sliding-window"
+        "design",
+        "binary-indexed-tree",
+        "segment-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "NumArray"
     },
     {
-      "id": "0396",
-      "slug": "rotate-function",
-      "title": "Rotate Function",
+      "id": "0308",
+      "slug": "range-sum-query-2d-mutable",
+      "title": "Range Sum Query 2D - Mutable",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
+        "design",
+        "binary-indexed-tree",
+        "segment-tree",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "NumMatrix"
+    },
+    {
+      "id": "0309",
+      "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+      "title": "Best Time to Buy and Sell Stock with Cooldown",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProfit"
     },
     {
-      "id": "0397",
-      "slug": "integer-replacement",
-      "title": "Integer Replacement",
+      "id": "0310",
+      "slug": "minimum-height-trees",
+      "title": "Minimum Height Trees",
       "difficulty": "MEDIUM",
       "tags": [
-        "dynamic-programming",
-        "greedy",
-        "bit-manipulation",
-        "memoization"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0398",
-      "slug": "random-pick-index",
-      "title": "Random Pick Index",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "math",
-        "reservoir-sampling",
-        "randomized"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0399",
-      "slug": "evaluate-division",
-      "title": "Evaluate Division",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
         "depth-first-search",
         "breadth-first-search",
-        "union-find",
         "graph",
-        "shortest-path"
+        "topological-sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMinHeightTrees"
     },
     {
-      "id": "0400",
-      "slug": "nth-digit",
-      "title": "Nth Digit",
+      "id": "0311",
+      "slug": "sparse-matrix-multiplication",
+      "title": "Sparse Matrix Multiplication",
       "difficulty": "MEDIUM",
       "tags": [
-        "math",
-        "binary-search"
+        "array",
+        "hash-table",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "multiply"
     },
     {
-      "id": "0401",
-      "slug": "binary-watch",
-      "title": "Binary Watch",
-      "difficulty": "EASY",
+      "id": "0312",
+      "slug": "burst-balloons",
+      "title": "Burst Balloons",
+      "difficulty": "HARD",
       "tags": [
-        "backtracking",
-        "bit-manipulation"
+        "array",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxCoins"
     },
     {
-      "id": "0402",
-      "slug": "remove-k-digits",
-      "title": "Remove K Digits",
+      "id": "0313",
+      "slug": "super-ugly-number",
+      "title": "Super Ugly Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nthSuperUglyNumber"
+    },
+    {
+      "id": "0314",
+      "slug": "binary-tree-vertical-order-traversal",
+      "title": "Binary Tree Vertical Order Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "sorting",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "verticalOrder"
+    },
+    {
+      "id": "0315",
+      "slug": "count-of-smaller-numbers-after-self",
+      "title": "Count of Smaller Numbers After Self",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSmaller"
+    },
+    {
+      "id": "0316",
+      "slug": "remove-duplicate-letters",
+      "title": "Remove Duplicate Letters",
       "difficulty": "MEDIUM",
       "tags": [
         "string",
@@ -138,119 +237,64 @@
         "greedy",
         "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeDuplicateLetters"
     },
     {
-      "id": "0403",
-      "slug": "frog-jump",
-      "title": "Frog Jump",
+      "id": "0317",
+      "slug": "shortest-distance-from-all-buildings",
+      "title": "Shortest Distance from All Buildings",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0404",
-      "slug": "sum-of-left-leaves",
-      "title": "Sum of Left Leaves",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "depth-first-search",
         "breadth-first-search",
-        "binary-tree"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestDistance"
     },
     {
-      "id": "0405",
-      "slug": "convert-a-number-to-hexadecimal",
-      "title": "Convert a Number to Hexadecimal",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "string",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0406",
-      "slug": "queue-reconstruction-by-height",
-      "title": "Queue Reconstruction by Height",
+      "id": "0318",
+      "slug": "maximum-product-of-word-lengths",
+      "title": "Maximum Product of Word Lengths",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "binary-indexed-tree",
-        "segment-tree",
-        "sorting"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0407",
-      "slug": "trapping-rain-water-ii",
-      "title": "Trapping Rain Water II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "breadth-first-search",
-        "heap-priority-queue",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0408",
-      "slug": "valid-word-abbreviation",
-      "title": "Valid Word Abbreviation",
-      "difficulty": "EASY",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0409",
-      "slug": "longest-palindrome",
-      "title": "Longest Palindrome",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
         "string",
-        "greedy"
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProduct"
     },
     {
-      "id": "0410",
-      "slug": "split-array-largest-sum",
-      "title": "Split Array Largest Sum",
-      "difficulty": "HARD",
+      "id": "0319",
+      "slug": "bulb-switcher",
+      "title": "Bulb Switcher",
+      "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "binary-search",
-        "dynamic-programming",
-        "greedy",
-        "prefix-sum"
+        "math",
+        "brainteaser"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "bulbSwitch"
     },
     {
-      "id": "0411",
-      "slug": "minimum-unique-word-abbreviation",
-      "title": "Minimum Unique Word Abbreviation",
-      "difficulty": "HARD",
+      "id": "0320",
+      "slug": "generalized-abbreviation",
+      "title": "Generalized Abbreviation",
+      "difficulty": "MEDIUM",
       "tags": [
-        "array",
         "string",
         "backtracking",
         "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "generateAbbreviations"
     }
   ]
 }

@@ -2,249 +2,293 @@
   "batchId": "batch-100",
   "problems": [
     {
-      "id": "2082",
-      "slug": "the-number-of-rich-customers",
-      "title": "The Number of Rich Customers",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2083",
-      "slug": "substrings-that-begin-and-end-with-the-same-letter",
-      "title": "Substrings That Begin and End With the Same Letter",
+      "id": "1981",
+      "slug": "minimize-the-difference-between-target-and-chosen-elements",
+      "title": "Minimize the Difference Between Target and Chosen Elements",
       "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "math",
-        "string",
-        "counting",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2084",
-      "slug": "drop-type-1-orders-for-customers-with-type-0-orders",
-      "title": "Drop Type 1 Orders for Customers With Type 0 Orders",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2085",
-      "slug": "count-common-words-with-one-occurrence",
-      "title": "Count Common Words With One Occurrence",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2086",
-      "slug": "minimum-number-of-food-buckets-to-feed-the-hamsters",
-      "title": "Minimum Number of Food Buckets to Feed the Hamsters",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2087",
-      "slug": "minimum-cost-homecoming-of-a-robot-in-a-grid",
-      "title": "Minimum Cost Homecoming of a Robot in a Grid",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2088",
-      "slug": "count-fertile-pyramids-in-a-land",
-      "title": "Count Fertile Pyramids in a Land",
-      "difficulty": "HARD",
       "tags": [
         "array",
         "dynamic-programming",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimizeTheDifference"
     },
     {
-      "id": "2089",
-      "slug": "find-target-indices-after-sorting-array",
-      "title": "Find Target Indices After Sorting Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "binary-search",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2090",
-      "slug": "k-radius-subarray-averages",
-      "title": "K Radius Subarray Averages",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2091",
-      "slug": "removing-minimum-and-maximum-from-array",
-      "title": "Removing Minimum and Maximum From Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2092",
-      "slug": "find-all-people-with-secret",
-      "title": "Find All People With Secret",
+      "id": "1982",
+      "slug": "find-array-given-subset-sums",
+      "title": "Find Array Given Subset Sums",
       "difficulty": "HARD",
       "tags": [
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "graph",
-        "sorting"
+        "array",
+        "divide-and-conquer"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "recoverArray"
     },
     {
-      "id": "2093",
-      "slug": "minimum-cost-to-reach-city-with-discounts",
-      "title": "Minimum Cost to Reach City With Discounts",
+      "id": "1983",
+      "slug": "widest-pair-of-indices-with-equal-range-sum",
+      "title": "Widest Pair of Indices With Equal Range Sum",
       "difficulty": "MEDIUM",
-      "tags": [
-        "graph",
-        "heap-priority-queue",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2094",
-      "slug": "finding-3-digit-even-numbers",
-      "title": "Finding 3-Digit Even Numbers",
-      "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "recursion",
-        "sorting",
-        "enumeration"
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "widestPairOfIndices"
     },
     {
-      "id": "2095",
-      "slug": "delete-the-middle-node-of-a-linked-list",
-      "title": "Delete the Middle Node of a Linked List",
-      "difficulty": "MEDIUM",
+      "id": "1984",
+      "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
+      "title": "Minimum Difference Between Highest and Lowest of K Scores",
+      "difficulty": "EASY",
       "tags": [
-        "linked-list",
-        "two-pointers"
+        "array",
+        "sliding-window",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumDifference"
     },
     {
-      "id": "2096",
-      "slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
-      "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+      "id": "1985",
+      "slug": "find-the-kth-largest-integer-in-the-array",
+      "title": "Find the Kth Largest Integer in the Array",
       "difficulty": "MEDIUM",
       "tags": [
+        "array",
         "string",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2097",
-      "slug": "valid-arrangement-of-pairs",
-      "title": "Valid Arrangement of Pairs",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "graph",
-        "eulerian-circuit"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2098",
-      "slug": "subsequence-of-size-k-with-the-largest-even-sum",
-      "title": "Subsequence of Size K With the Largest Even Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2099",
-      "slug": "find-subsequence-of-length-k-with-the-largest-sum",
-      "title": "Find Subsequence of Length K With the Largest Sum",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
+        "divide-and-conquer",
         "sorting",
-        "heap-priority-queue"
+        "heap-priority-queue",
+        "quickselect"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthLargestNumber"
     },
     {
-      "id": "2100",
-      "slug": "find-good-days-to-rob-the-bank",
-      "title": "Find Good Days to Rob the Bank",
+      "id": "1986",
+      "slug": "minimum-number-of-work-sessions-to-finish-the-tasks",
+      "title": "Minimum Number of Work Sessions to Finish the Tasks",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming",
-        "prefix-sum"
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSessions"
     },
     {
-      "id": "2101",
-      "slug": "detonate-the-maximum-bombs",
-      "title": "Detonate the Maximum Bombs",
+      "id": "1987",
+      "slug": "number-of-unique-good-subsequences",
+      "title": "Number of Unique Good Subsequences",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfUniqueGoodSubsequences"
+    },
+    {
+      "id": "1988",
+      "slug": "find-cutoff-score-for-each-school",
+      "title": "Find Cutoff Score for Each School",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1989",
+      "slug": "maximum-number-of-people-that-can-be-caught-in-tag",
+      "title": "Maximum Number of People That Can Be Caught in Tag",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
+        "two-pointers",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "catchMaximumAmountofPeople"
+    },
+    {
+      "id": "1990",
+      "slug": "count-the-number-of-experiments",
+      "title": "Count the Number of Experiments",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1991",
+      "slug": "find-the-middle-index-in-array",
+      "title": "Find the Middle Index in Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMiddleIndex"
+    },
+    {
+      "id": "1992",
+      "slug": "find-all-groups-of-farmland",
+      "title": "Find All Groups of Farmland",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
         "depth-first-search",
         "breadth-first-search",
-        "graph",
-        "geometry"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findFarmland"
+    },
+    {
+      "id": "1993",
+      "slug": "operations-on-tree",
+      "title": "Operations on Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "design"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "LockingTree"
+    },
+    {
+      "id": "1994",
+      "slug": "the-number-of-good-subsets",
+      "title": "The Number of Good Subsets",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "dynamic-programming",
+        "bit-manipulation",
+        "counting",
+        "number-theory",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfGoodSubsets"
+    },
+    {
+      "id": "1995",
+      "slug": "count-special-quadruplets",
+      "title": "Count Special Quadruplets",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countQuadruplets"
+    },
+    {
+      "id": "1996",
+      "slug": "the-number-of-weak-characters-in-the-game",
+      "title": "The Number of Weak Characters in the Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "greedy",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfWeakCharacters"
+    },
+    {
+      "id": "1997",
+      "slug": "first-day-where-you-have-been-in-all-the-rooms",
+      "title": "First Day Where You Have Been in All the Rooms",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "firstDayBeenInAllRooms"
+    },
+    {
+      "id": "1998",
+      "slug": "gcd-sort-of-an-array",
+      "title": "GCD Sort of an Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "union-find",
+        "sorting",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "gcdSort"
+    },
+    {
+      "id": "1999",
+      "slug": "smallest-greater-multiple-made-of-two-digits",
+      "title": "Smallest Greater Multiple Made of Two Digits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findInteger"
+    },
+    {
+      "id": "2000",
+      "slug": "reverse-prefix-of-word",
+      "title": "Reverse Prefix of Word",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string",
+        "stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reversePrefix"
     }
   ]
 }

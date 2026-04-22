@@ -1,9 +1,11 @@
 {
   "targetTotal": 3000,
   "tolerance": 20,
-  "existingCount": 101,
-  "newCount": 2899,
+  "existingCount": 0,
+  "newCount": 3000,
   "grandTotal": 3000,
+  "bankCount": 2543,
+  "missingCount": 457,
   "batchSize": 20,
   "maxClassHeavyPerBatch": 2,
   "batches": [
@@ -11,871 +13,1201 @@
       "batchId": "batch-001",
       "file": "batches/batch-001.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-002",
       "file": "batches/batch-002.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 19,
+      "missingCount": 1
     },
     {
       "batchId": "batch-003",
       "file": "batches/batch-003.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-004",
       "file": "batches/batch-004.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-005",
       "file": "batches/batch-005.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-006",
       "file": "batches/batch-006.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-007",
       "file": "batches/batch-007.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-008",
       "file": "batches/batch-008.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 2,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-009",
       "file": "batches/batch-009.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 1,
+      "bankCount": 15,
+      "missingCount": 5
     },
     {
       "batchId": "batch-010",
       "file": "batches/batch-010.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 9,
+      "missingCount": 11
     },
     {
       "batchId": "batch-011",
       "file": "batches/batch-011.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 2,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-012",
       "file": "batches/batch-012.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 2,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-013",
       "file": "batches/batch-013.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-014",
       "file": "batches/batch-014.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 0,
+      "bankCount": 19,
+      "missingCount": 1
     },
     {
       "batchId": "batch-015",
       "file": "batches/batch-015.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 2,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-016",
       "file": "batches/batch-016.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 1,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-017",
       "file": "batches/batch-017.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-018",
       "file": "batches/batch-018.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 2,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-019",
       "file": "batches/batch-019.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 2,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-020",
       "file": "batches/batch-020.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 2,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-021",
       "file": "batches/batch-021.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-022",
       "file": "batches/batch-022.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-023",
       "file": "batches/batch-023.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 2,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-024",
       "file": "batches/batch-024.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-025",
       "file": "batches/batch-025.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-026",
       "file": "batches/batch-026.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-027",
       "file": "batches/batch-027.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 0,
+      "bankCount": 19,
+      "missingCount": 1
     },
     {
       "batchId": "batch-028",
       "file": "batches/batch-028.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 0,
+      "bankCount": 19,
+      "missingCount": 1
     },
     {
       "batchId": "batch-029",
       "file": "batches/batch-029.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 12,
+      "missingCount": 8
     },
     {
       "batchId": "batch-030",
       "file": "batches/batch-030.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 2,
+      "bankCount": 14,
+      "missingCount": 6
     },
     {
       "batchId": "batch-031",
       "file": "batches/batch-031.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 1,
+      "bankCount": 7,
+      "missingCount": 13
     },
     {
       "batchId": "batch-032",
       "file": "batches/batch-032.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 2,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-033",
       "file": "batches/batch-033.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 2,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-034",
       "file": "batches/batch-034.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-035",
       "file": "batches/batch-035.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-036",
       "file": "batches/batch-036.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 2,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-037",
       "file": "batches/batch-037.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 2,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-038",
       "file": "batches/batch-038.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-039",
       "file": "batches/batch-039.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 16,
+      "missingCount": 4
     },
     {
       "batchId": "batch-040",
       "file": "batches/batch-040.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 1,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-041",
       "file": "batches/batch-041.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-042",
       "file": "batches/batch-042.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-043",
       "file": "batches/batch-043.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-044",
       "file": "batches/batch-044.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-045",
       "file": "batches/batch-045.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 2,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-046",
       "file": "batches/batch-046.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-047",
       "file": "batches/batch-047.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-048",
       "file": "batches/batch-048.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-049",
       "file": "batches/batch-049.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-050",
       "file": "batches/batch-050.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-051",
       "file": "batches/batch-051.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-052",
       "file": "batches/batch-052.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-053",
       "file": "batches/batch-053.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-054",
       "file": "batches/batch-054.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 0,
+      "bankCount": 14,
+      "missingCount": 6
     },
     {
       "batchId": "batch-055",
       "file": "batches/batch-055.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 15,
+      "missingCount": 5
     },
     {
       "batchId": "batch-056",
       "file": "batches/batch-056.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 13,
+      "missingCount": 7
     },
     {
       "batchId": "batch-057",
       "file": "batches/batch-057.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-058",
       "file": "batches/batch-058.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 14,
+      "missingCount": 6
     },
     {
       "batchId": "batch-059",
       "file": "batches/batch-059.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 2,
+      "bankCount": 16,
+      "missingCount": 4
     },
     {
       "batchId": "batch-060",
       "file": "batches/batch-060.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 1,
+      "bankCount": 16,
+      "missingCount": 4
     },
     {
       "batchId": "batch-061",
       "file": "batches/batch-061.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 16,
+      "missingCount": 4
     },
     {
       "batchId": "batch-062",
       "file": "batches/batch-062.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 15,
+      "missingCount": 5
     },
     {
       "batchId": "batch-063",
       "file": "batches/batch-063.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 16,
+      "missingCount": 4
     },
     {
       "batchId": "batch-064",
       "file": "batches/batch-064.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 16,
+      "missingCount": 4
     },
     {
       "batchId": "batch-065",
       "file": "batches/batch-065.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 1,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-066",
       "file": "batches/batch-066.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-067",
       "file": "batches/batch-067.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 16,
+      "missingCount": 4
     },
     {
       "batchId": "batch-068",
       "file": "batches/batch-068.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 15,
+      "missingCount": 5
     },
     {
       "batchId": "batch-069",
       "file": "batches/batch-069.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 16,
+      "missingCount": 4
     },
     {
       "batchId": "batch-070",
       "file": "batches/batch-070.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 2,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-071",
       "file": "batches/batch-071.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 16,
+      "missingCount": 4
     },
     {
       "batchId": "batch-072",
       "file": "batches/batch-072.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-073",
       "file": "batches/batch-073.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 16,
+      "missingCount": 4
     },
     {
       "batchId": "batch-074",
       "file": "batches/batch-074.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-075",
       "file": "batches/batch-075.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 1,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-076",
       "file": "batches/batch-076.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 1,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-077",
       "file": "batches/batch-077.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-078",
       "file": "batches/batch-078.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-079",
       "file": "batches/batch-079.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-080",
       "file": "batches/batch-080.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 1,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-081",
       "file": "batches/batch-081.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-082",
       "file": "batches/batch-082.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-083",
       "file": "batches/batch-083.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 1,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-084",
       "file": "batches/batch-084.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-085",
       "file": "batches/batch-085.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 1,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-086",
       "file": "batches/batch-086.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-087",
       "file": "batches/batch-087.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-088",
       "file": "batches/batch-088.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-089",
       "file": "batches/batch-089.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-090",
       "file": "batches/batch-090.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-091",
       "file": "batches/batch-091.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 1,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-092",
       "file": "batches/batch-092.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-093",
       "file": "batches/batch-093.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-094",
       "file": "batches/batch-094.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-095",
       "file": "batches/batch-095.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-096",
       "file": "batches/batch-096.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-097",
       "file": "batches/batch-097.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-098",
       "file": "batches/batch-098.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-099",
       "file": "batches/batch-099.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-100",
       "file": "batches/batch-100.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-101",
       "file": "batches/batch-101.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-102",
       "file": "batches/batch-102.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 19,
+      "missingCount": 1
     },
     {
       "batchId": "batch-103",
       "file": "batches/batch-103.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-104",
       "file": "batches/batch-104.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-105",
       "file": "batches/batch-105.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-106",
       "file": "batches/batch-106.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-107",
       "file": "batches/batch-107.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-108",
       "file": "batches/batch-108.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-109",
       "file": "batches/batch-109.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-110",
       "file": "batches/batch-110.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 19,
+      "missingCount": 1
     },
     {
       "batchId": "batch-111",
       "file": "batches/batch-111.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 19,
+      "missingCount": 1
     },
     {
       "batchId": "batch-112",
       "file": "batches/batch-112.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-113",
       "file": "batches/batch-113.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 2,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-114",
       "file": "batches/batch-114.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-115",
       "file": "batches/batch-115.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-116",
       "file": "batches/batch-116.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-117",
       "file": "batches/batch-117.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-118",
       "file": "batches/batch-118.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 2,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-119",
       "file": "batches/batch-119.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-120",
       "file": "batches/batch-120.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-121",
       "file": "batches/batch-121.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 1,
+      "bankCount": 20,
+      "missingCount": 0
     },
     {
       "batchId": "batch-122",
       "file": "batches/batch-122.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-123",
       "file": "batches/batch-123.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-124",
       "file": "batches/batch-124.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 17,
+      "missingCount": 3
     },
     {
       "batchId": "batch-125",
       "file": "batches/batch-125.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 18,
+      "missingCount": 2
     },
     {
       "batchId": "batch-126",
       "file": "batches/batch-126.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 15,
+      "missingCount": 5
     },
     {
       "batchId": "batch-127",
       "file": "batches/batch-127.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 13,
+      "missingCount": 7
     },
     {
       "batchId": "batch-128",
       "file": "batches/batch-128.json",
       "count": 20,
-      "classHeavyCount": 2
+      "classHeavyCount": 0,
+      "bankCount": 14,
+      "missingCount": 6
     },
     {
       "batchId": "batch-129",
       "file": "batches/batch-129.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 12,
+      "missingCount": 8
     },
     {
       "batchId": "batch-130",
       "file": "batches/batch-130.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 16,
+      "missingCount": 4
     },
     {
       "batchId": "batch-131",
       "file": "batches/batch-131.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 11,
+      "missingCount": 9
     },
     {
       "batchId": "batch-132",
       "file": "batches/batch-132.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 14,
+      "missingCount": 6
     },
     {
       "batchId": "batch-133",
       "file": "batches/batch-133.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 2,
+      "bankCount": 15,
+      "missingCount": 5
     },
     {
       "batchId": "batch-134",
       "file": "batches/batch-134.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 14,
+      "missingCount": 6
     },
     {
       "batchId": "batch-135",
       "file": "batches/batch-135.json",
       "count": 20,
-      "classHeavyCount": 1
+      "classHeavyCount": 0,
+      "bankCount": 12,
+      "missingCount": 8
     },
     {
       "batchId": "batch-136",
       "file": "batches/batch-136.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 14,
+      "missingCount": 6
     },
     {
       "batchId": "batch-137",
       "file": "batches/batch-137.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 12,
+      "missingCount": 8
     },
     {
       "batchId": "batch-138",
       "file": "batches/batch-138.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 12,
+      "missingCount": 8
     },
     {
       "batchId": "batch-139",
       "file": "batches/batch-139.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 12,
+      "missingCount": 8
     },
     {
       "batchId": "batch-140",
       "file": "batches/batch-140.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 1,
+      "bankCount": 13,
+      "missingCount": 7
     },
     {
       "batchId": "batch-141",
       "file": "batches/batch-141.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 9,
+      "missingCount": 11
     },
     {
       "batchId": "batch-142",
       "file": "batches/batch-142.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 13,
+      "missingCount": 7
     },
     {
       "batchId": "batch-143",
       "file": "batches/batch-143.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 12,
+      "missingCount": 8
     },
     {
       "batchId": "batch-144",
       "file": "batches/batch-144.json",
       "count": 20,
-      "classHeavyCount": 0
+      "classHeavyCount": 0,
+      "bankCount": 11,
+      "missingCount": 9
     },
     {
       "batchId": "batch-145",
       "file": "batches/batch-145.json",
-      "count": 19,
-      "classHeavyCount": 0
+      "count": 20,
+      "classHeavyCount": 0,
+      "bankCount": 7,
+      "missingCount": 13
+    },
+    {
+      "batchId": "batch-146",
+      "file": "batches/batch-146.json",
+      "count": 20,
+      "classHeavyCount": 0,
+      "bankCount": 11,
+      "missingCount": 9
+    },
+    {
+      "batchId": "batch-147",
+      "file": "batches/batch-147.json",
+      "count": 20,
+      "classHeavyCount": 0,
+      "bankCount": 13,
+      "missingCount": 7
+    },
+    {
+      "batchId": "batch-148",
+      "file": "batches/batch-148.json",
+      "count": 20,
+      "classHeavyCount": 0,
+      "bankCount": 13,
+      "missingCount": 7
+    },
+    {
+      "batchId": "batch-149",
+      "file": "batches/batch-149.json",
+      "count": 20,
+      "classHeavyCount": 0,
+      "bankCount": 12,
+      "missingCount": 8
+    },
+    {
+      "batchId": "batch-150",
+      "file": "batches/batch-150.json",
+      "count": 20,
+      "classHeavyCount": 0,
+      "bankCount": 6,
+      "missingCount": 14
     }
   ]
 }

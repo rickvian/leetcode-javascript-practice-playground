@@ -2,246 +2,280 @@
   "batchId": "batch-103",
   "problems": [
     {
-      "id": "2142",
-      "slug": "the-number-of-passengers-in-each-bus-i",
-      "title": "The Number of Passengers in Each Bus I",
+      "id": "2041",
+      "slug": "accepted-candidates-from-the-interviews",
+      "title": "Accepted Candidates From the Interviews",
       "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2143",
-      "slug": "choose-numbers-from-two-arrays-in-range",
-      "title": "Choose Numbers From Two Arrays in Range",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2144",
-      "slug": "minimum-cost-of-buying-candies-with-discount",
-      "title": "Minimum Cost of Buying Candies With Discount",
+      "id": "2042",
+      "slug": "check-if-numbers-are-ascending-in-a-sentence",
+      "title": "Check if Numbers Are Ascending in a Sentence",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "greedy",
-        "sorting"
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "areNumbersAscending"
     },
     {
-      "id": "2145",
-      "slug": "count-the-hidden-sequences",
-      "title": "Count the Hidden Sequences",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2146",
-      "slug": "k-highest-ranked-items-within-a-price-range",
-      "title": "K Highest Ranked Items Within a Price Range",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "breadth-first-search",
-        "sorting",
-        "heap-priority-queue",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2147",
-      "slug": "number-of-ways-to-divide-a-long-corridor",
-      "title": "Number of Ways to Divide a Long Corridor",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2148",
-      "slug": "count-elements-with-strictly-smaller-and-greater-elements",
-      "title": "Count Elements With Strictly Smaller and Greater Elements ",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sorting",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2149",
-      "slug": "rearrange-array-elements-by-sign",
-      "title": "Rearrange Array Elements by Sign",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2150",
-      "slug": "find-all-lonely-numbers-in-the-array",
-      "title": "Find All Lonely Numbers in the Array",
+      "id": "2043",
+      "slug": "simple-bank-system",
+      "title": "Simple Bank System",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "counting"
+        "design",
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "Bank"
     },
     {
-      "id": "2151",
-      "slug": "maximum-good-people-based-on-statements",
-      "title": "Maximum Good People Based on Statements",
-      "difficulty": "HARD",
+      "id": "2044",
+      "slug": "count-number-of-maximum-bitwise-or-subsets",
+      "title": "Count Number of Maximum Bitwise-OR Subsets",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "backtracking",
         "bit-manipulation",
         "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countMaxOrSubsets"
     },
     {
-      "id": "2152",
-      "slug": "minimum-number-of-lines-to-cover-points",
-      "title": "Minimum Number of Lines to Cover Points",
+      "id": "2045",
+      "slug": "second-minimum-time-to-reach-destination",
+      "title": "Second Minimum Time to Reach Destination",
+      "difficulty": "HARD",
+      "tags": [
+        "breadth-first-search",
+        "graph",
+        "shortest-path"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "secondMinimum"
+    },
+    {
+      "id": "2046",
+      "slug": "sort-linked-list-already-sorted-using-absolute-values",
+      "title": "Sort Linked List Already Sorted Using Absolute Values",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortLinkedList"
+    },
+    {
+      "id": "2047",
+      "slug": "number-of-valid-words-in-a-sentence",
+      "title": "Number of Valid Words in a Sentence",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countValidWords"
+    },
+    {
+      "id": "2048",
+      "slug": "next-greater-numerically-balanced-number",
+      "title": "Next Greater Numerically Balanced Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "backtracking",
+        "counting",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nextBeautifulNumber"
+    },
+    {
+      "id": "2049",
+      "slug": "count-nodes-with-the-highest-score",
+      "title": "Count Nodes With the Highest Score",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "math",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "geometry",
-        "bitmask"
+        "tree",
+        "depth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countHighestScoreNodes"
     },
     {
-      "id": "2153",
-      "slug": "the-number-of-passengers-in-each-bus-ii",
-      "title": "The Number of Passengers in Each Bus II",
+      "id": "2050",
+      "slug": "parallel-courses-iii",
+      "title": "Parallel Courses III",
       "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumTime"
+    },
+    {
+      "id": "2051",
+      "slug": "the-category-of-each-member-in-the-store",
+      "title": "The Category of Each Member in the Store",
+      "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2154",
-      "slug": "keep-multiplying-found-values-by-two",
-      "title": "Keep Multiplying Found Values by Two",
+      "id": "2052",
+      "slug": "minimum-cost-to-separate-sentence-into-rows",
+      "title": "Minimum Cost to Separate Sentence Into Rows",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumCost"
+    },
+    {
+      "id": "2053",
+      "slug": "kth-distinct-string-in-an-array",
+      "title": "Kth Distinct String in an Array",
       "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "sorting",
-        "simulation"
+        "string",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthDistinct"
     },
     {
-      "id": "2155",
-      "slug": "all-divisions-with-the-highest-score-of-a-binary-array",
-      "title": "All Divisions With the Highest Score of a Binary Array",
+      "id": "2054",
+      "slug": "two-best-non-overlapping-events",
+      "title": "Two Best Non-Overlapping Events",
       "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxTwoEvents"
+    },
+    {
+      "id": "2055",
+      "slug": "plates-between-candles",
+      "title": "Plates Between Candles",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "binary-search",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "platesBetweenCandles"
+    },
+    {
+      "id": "2056",
+      "slug": "number-of-valid-move-combinations-on-chessboard",
+      "title": "Number of Valid Move Combinations On Chessboard",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "backtracking",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countCombinations"
+    },
+    {
+      "id": "2057",
+      "slug": "smallest-index-with-equal-value",
+      "title": "Smallest Index With Equal Value",
+      "difficulty": "EASY",
       "tags": [
         "array"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestEqual"
     },
     {
-      "id": "2156",
-      "slug": "find-substring-with-given-hash-value",
-      "title": "Find Substring With Given Hash Value",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "sliding-window",
-        "rolling-hash",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2157",
-      "slug": "groups-of-strings",
-      "title": "Groups of Strings",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "bit-manipulation",
-        "union-find"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2158",
-      "slug": "amount-of-new-area-painted-each-day",
-      "title": "Amount of New Area Painted Each Day",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "segment-tree",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2159",
-      "slug": "order-two-columns-independently",
-      "title": "Order Two Columns Independently",
+      "id": "2058",
+      "slug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+      "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
       "difficulty": "MEDIUM",
       "tags": [
-        "database"
+        "linked-list"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nodesBetweenCriticalPoints"
     },
     {
-      "id": "2160",
-      "slug": "minimum-sum-of-four-digit-number-after-splitting-digits",
-      "title": "Minimum Sum of Four Digit Number After Splitting Digits",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2161",
-      "slug": "partition-array-according-to-given-pivot",
-      "title": "Partition Array According to Given Pivot",
+      "id": "2059",
+      "slug": "minimum-operations-to-convert-number",
+      "title": "Minimum Operations to Convert Number",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "two-pointers",
-        "simulation"
+        "breadth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumOperations"
+    },
+    {
+      "id": "2060",
+      "slug": "check-if-an-original-string-exists-given-two-encoded-strings",
+      "title": "Check if an Original String Exists Given Two Encoded Strings",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "possiblyEquals"
     }
   ]
 }

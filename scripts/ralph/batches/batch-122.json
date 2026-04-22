@@ -2,249 +2,299 @@
   "batchId": "batch-122",
   "problems": [
     {
-      "id": "2522",
-      "slug": "partition-string-into-substrings-with-values-at-most-k",
-      "title": "Partition String Into Substrings With Values at Most K",
+      "id": "2421",
+      "slug": "number-of-good-paths",
+      "title": "Number of Good Paths",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "union-find",
+        "graph",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfGoodPaths"
+    },
+    {
+      "id": "2422",
+      "slug": "merge-operations-to-turn-array-into-a-palindrome",
+      "title": "Merge Operations to Turn Array Into a Palindrome",
       "difficulty": "MEDIUM",
       "tags": [
-        "string",
-        "dynamic-programming",
+        "array",
+        "two-pointers",
         "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumOperations"
     },
     {
-      "id": "2523",
-      "slug": "closest-prime-numbers-in-range",
-      "title": "Closest Prime Numbers in Range",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2524",
-      "slug": "maximum-frequency-score-of-a-subarray",
-      "title": "Maximum Frequency Score of a Subarray",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "stack",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2525",
-      "slug": "categorize-box-according-to-criteria",
-      "title": "Categorize Box According to Criteria",
+      "id": "2423",
+      "slug": "remove-letter-to-equalize-frequency",
+      "title": "Remove Letter To Equalize Frequency",
       "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2526",
-      "slug": "find-consecutive-integers-from-a-data-stream",
-      "title": "Find Consecutive Integers from a Data Stream",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "design",
-        "queue",
-        "counting",
-        "data-stream"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2527",
-      "slug": "find-xor-beauty-of-array",
-      "title": "Find Xor-Beauty of Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2528",
-      "slug": "maximize-the-minimum-powered-city",
-      "title": "Maximize the Minimum Powered City",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "greedy",
-        "queue",
-        "sliding-window",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2529",
-      "slug": "maximum-count-of-positive-integer-and-negative-integer",
-      "title": "Maximum Count of Positive Integer and Negative Integer",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "binary-search",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2530",
-      "slug": "maximal-score-after-applying-k-operations",
-      "title": "Maximal Score After Applying K Operations",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2531",
-      "slug": "make-number-of-distinct-characters-equal",
-      "title": "Make Number of Distinct Characters Equal",
-      "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
         "string",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2532",
-      "slug": "time-to-cross-a-bridge",
-      "title": "Time to Cross a Bridge",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "heap-priority-queue",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2533",
-      "slug": "number-of-good-binary-strings",
-      "title": "Number of Good Binary Strings",
+      "id": "2424",
+      "slug": "longest-uploaded-prefix",
+      "title": "Longest Uploaded Prefix",
       "difficulty": "MEDIUM",
       "tags": [
-        "dynamic-programming"
+        "hash-table",
+        "binary-search",
+        "union-find",
+        "design",
+        "binary-indexed-tree",
+        "segment-tree",
+        "heap-priority-queue",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2534",
-      "slug": "time-taken-to-cross-the-door",
-      "title": "Time Taken to Cross the Door",
+      "id": "2425",
+      "slug": "bitwise-xor-of-all-pairings",
+      "title": "Bitwise XOR of All Pairings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "brainteaser"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "xorAllNums"
+    },
+    {
+      "id": "2426",
+      "slug": "number-of-pairs-satisfying-inequality",
+      "title": "Number of Pairs Satisfying Inequality",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "queue",
-        "simulation"
+        "binary-search",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfPairs"
     },
     {
-      "id": "2535",
-      "slug": "difference-between-element-sum-and-digit-sum-of-an-array",
-      "title": "Difference Between Element Sum and Digit Sum of an Array",
+      "id": "2427",
+      "slug": "number-of-common-factors",
+      "title": "Number of Common Factors",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "math"
+        "math",
+        "enumeration",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "commonFactors"
     },
     {
-      "id": "2536",
-      "slug": "increment-submatrices-by-one",
-      "title": "Increment Submatrices by One",
+      "id": "2428",
+      "slug": "maximum-sum-of-an-hourglass",
+      "title": "Maximum Sum of an Hourglass",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "matrix",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSum"
     },
     {
-      "id": "2537",
-      "slug": "count-the-number-of-good-subarrays",
-      "title": "Count the Number of Good Subarrays",
+      "id": "2429",
+      "slug": "minimize-xor",
+      "title": "Minimize XOR",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "greedy",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimizeXor"
+    },
+    {
+      "id": "2430",
+      "slug": "maximum-deletions-on-a-string",
+      "title": "Maximum Deletions on a String",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "rolling-hash",
+        "string-matching",
+        "hash-function"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2431",
+      "slug": "maximize-total-tastiness-of-purchased-fruits",
+      "title": "Maximize Total Tastiness of Purchased Fruits",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "sliding-window"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxTastiness"
     },
     {
-      "id": "2538",
-      "slug": "difference-between-maximum-and-minimum-price-sum",
-      "title": "Difference Between Maximum and Minimum Price Sum",
+      "id": "2432",
+      "slug": "the-employee-that-worked-on-the-longest-task",
+      "title": "The Employee That Worked on the Longest Task",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "hardestWorker"
+    },
+    {
+      "id": "2433",
+      "slug": "find-the-original-array-of-prefix-xor",
+      "title": "Find The Original Array of Prefix Xor",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findArray"
+    },
+    {
+      "id": "2434",
+      "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+      "title": "Using a Robot to Print the Lexicographically Smallest String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "robotWithString"
+    },
+    {
+      "id": "2435",
+      "slug": "paths-in-matrix-whose-sum-is-divisible-by-k",
+      "title": "Paths in Matrix Whose Sum Is Divisible by K",
       "difficulty": "HARD",
       "tags": [
         "array",
         "dynamic-programming",
-        "tree",
-        "depth-first-search"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfPaths"
     },
     {
-      "id": "2539",
-      "slug": "count-the-number-of-good-subsequences",
-      "title": "Count the Number of Good Subsequences",
+      "id": "2436",
+      "slug": "minimum-split-into-subarrays-with-gcd-greater-than-one",
+      "title": "Minimum Split Into Subarrays With GCD Greater Than One",
       "difficulty": "MEDIUM",
       "tags": [
-        "hash-table",
+        "array",
         "math",
-        "string",
-        "combinatorics",
-        "counting"
+        "dynamic-programming",
+        "greedy",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumSplits"
     },
     {
-      "id": "2540",
-      "slug": "minimum-common-value",
-      "title": "Minimum Common Value",
+      "id": "2437",
+      "slug": "number-of-valid-clock-times",
+      "title": "Number of Valid Clock Times",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "hash-table",
-        "two-pointers",
-        "binary-search"
+        "string",
+        "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countTime"
     },
     {
-      "id": "2541",
-      "slug": "minimum-operations-to-make-array-equal-ii",
-      "title": "Minimum Operations to Make Array Equal II",
+      "id": "2438",
+      "slug": "range-product-queries-of-powers",
+      "title": "Range Product Queries of Powers",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "greedy"
+        "bit-manipulation",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "productQueries"
+    },
+    {
+      "id": "2439",
+      "slug": "minimize-maximum-of-array",
+      "title": "Minimize Maximum of Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "greedy",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimizeArrayValue"
+    },
+    {
+      "id": "2440",
+      "slug": "create-components-with-same-value",
+      "title": "Create Components With Same Value",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "tree",
+        "depth-first-search",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "componentValue"
     }
   ]
 }

@@ -2,248 +2,287 @@
   "batchId": "batch-074",
   "problems": [
     {
-      "id": "1562",
-      "slug": "find-latest-group-of-size-m",
-      "title": "Find Latest Group of Size M",
+      "id": "1461",
+      "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+      "title": "Check If a String Contains All Binary Codes of Size K",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
         "hash-table",
-        "binary-search",
-        "simulation"
+        "string",
+        "bit-manipulation",
+        "rolling-hash",
+        "hash-function"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "hasAllCodes"
     },
     {
-      "id": "1563",
-      "slug": "stone-game-v",
-      "title": "Stone Game V",
+      "id": "1462",
+      "slug": "course-schedule-iv",
+      "title": "Course Schedule IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkIfPrerequisite"
+    },
+    {
+      "id": "1463",
+      "slug": "cherry-pickup-ii",
+      "title": "Cherry Pickup II",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "math",
         "dynamic-programming",
-        "game-theory"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "cherryPickup"
     },
     {
-      "id": "1564",
-      "slug": "put-boxes-into-the-warehouse-i",
-      "title": "Put Boxes Into the Warehouse I",
+      "id": "1464",
+      "slug": "maximum-product-of-two-elements-in-an-array",
+      "title": "Maximum Product of Two Elements in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProduct"
+    },
+    {
+      "id": "1465",
+      "slug": "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+      "title": "Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxArea"
     },
     {
-      "id": "1565",
-      "slug": "unique-orders-and-customers-per-month",
-      "title": "Unique Orders and Customers Per Month",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1566",
-      "slug": "detect-pattern-of-length-m-repeated-k-or-more-times",
-      "title": "Detect Pattern of Length M Repeated K or More Times",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1567",
-      "slug": "maximum-length-of-subarray-with-positive-product",
-      "title": "Maximum Length of Subarray With Positive Product",
+      "id": "1466",
+      "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+      "title": "Reorder Routes to Make All Paths Lead to the City Zero",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "dynamic-programming",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1568",
-      "slug": "minimum-number-of-days-to-disconnect-island",
-      "title": "Minimum Number of Days to Disconnect Island",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
         "depth-first-search",
         "breadth-first-search",
-        "matrix",
-        "strongly-connected-component"
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minReorder"
     },
     {
-      "id": "1569",
-      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
-      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "id": "1467",
+      "slug": "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls",
+      "title": "Probability of a Two Boxes Having The Same Number of Distinct Balls",
       "difficulty": "HARD",
       "tags": [
         "array",
         "math",
-        "divide-and-conquer",
         "dynamic-programming",
-        "tree",
-        "union-find",
-        "binary-search-tree",
-        "memoization",
+        "backtracking",
         "combinatorics",
-        "binary-tree"
+        "probability-and-statistics"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getProbability"
     },
     {
-      "id": "1570",
-      "slug": "dot-product-of-two-sparse-vectors",
-      "title": "Dot Product of Two Sparse Vectors",
+      "id": "1468",
+      "slug": "calculate-salaries",
+      "title": "Calculate Salaries",
       "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "two-pointers",
-        "design"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1571",
-      "slug": "warehouse-manager",
-      "title": "Warehouse Manager",
-      "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1572",
-      "slug": "matrix-diagonal-sum",
-      "title": "Matrix Diagonal Sum",
+      "id": "1469",
+      "slug": "find-all-the-lonely-nodes",
+      "title": "Find All The Lonely Nodes",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "matrix"
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getLonelyNodes"
     },
     {
-      "id": "1573",
-      "slug": "number-of-ways-to-split-a-string",
-      "title": "Number of Ways to Split a String",
-      "difficulty": "MEDIUM",
+      "id": "1470",
+      "slug": "shuffle-the-array",
+      "title": "Shuffle the Array",
+      "difficulty": "EASY",
       "tags": [
-        "math",
-        "string"
+        "array"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shuffle"
     },
     {
-      "id": "1574",
-      "slug": "shortest-subarray-to-be-removed-to-make-array-sorted",
-      "title": "Shortest Subarray to be Removed to Make Array Sorted",
+      "id": "1471",
+      "slug": "the-k-strongest-values-in-an-array",
+      "title": "The k Strongest Values in an Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "two-pointers",
-        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getStrongest"
+    },
+    {
+      "id": "1472",
+      "slug": "design-browser-history",
+      "title": "Design Browser History",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "linked-list",
+        "stack",
+        "design",
+        "doubly-linked-list",
+        "data-stream"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "BrowserHistory"
+    },
+    {
+      "id": "1473",
+      "slug": "paint-house-iii",
+      "title": "Paint House III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCost"
+    },
+    {
+      "id": "1474",
+      "slug": "delete-n-nodes-after-m-nodes-of-a-linked-list",
+      "title": "Delete N Nodes After M Nodes of a Linked List",
+      "difficulty": "EASY",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "deleteNodes"
+    },
+    {
+      "id": "1475",
+      "slug": "final-prices-with-a-special-discount-in-a-shop",
+      "title": "Final Prices With a Special Discount in a Shop",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
         "stack",
         "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "finalPrices"
     },
     {
-      "id": "1575",
-      "slug": "count-all-possible-routes",
-      "title": "Count All Possible Routes",
-      "difficulty": "HARD",
+      "id": "1476",
+      "slug": "subrectangle-queries",
+      "title": "Subrectangle Queries",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming",
-        "memoization"
+        "design",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "SubrectangleQueries"
     },
     {
-      "id": "1576",
-      "slug": "replace-all-s-to-avoid-consecutive-repeating-characters",
-      "title": "Replace All ?'s to Avoid Consecutive Repeating Characters",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1577",
-      "slug": "number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers",
-      "title": "Number of Ways Where Square of Number Is Equal to Product of Two Numbers",
+      "id": "1477",
+      "slug": "find-two-non-overlapping-sub-arrays-each-with-target-sum",
+      "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "math",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1578",
-      "slug": "minimum-time-to-make-rope-colorful",
-      "title": "Minimum Time to Make Rope Colorful",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
+        "binary-search",
         "dynamic-programming",
-        "greedy"
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSumOfLengths"
     },
     {
-      "id": "1579",
-      "slug": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
-      "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+      "id": "1478",
+      "slug": "allocate-mailboxes",
+      "title": "Allocate Mailboxes",
       "difficulty": "HARD",
       "tags": [
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1580",
-      "slug": "put-boxes-into-the-warehouse-ii",
-      "title": "Put Boxes Into the Warehouse II",
-      "difficulty": "MEDIUM",
-      "tags": [
         "array",
-        "greedy",
+        "math",
+        "dynamic-programming",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minDistance"
     },
     {
-      "id": "1581",
-      "slug": "customer-who-visited-but-did-not-make-any-transactions",
-      "title": "Customer Who Visited but Did Not Make Any Transactions",
-      "difficulty": "EASY",
+      "id": "1479",
+      "slug": "sales-by-day-of-the-week",
+      "title": "Sales by Day of the Week",
+      "difficulty": "HARD",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1480",
+      "slug": "running-sum-of-1d-array",
+      "title": "Running Sum of 1d Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "runningSum"
     }
   ]
 }

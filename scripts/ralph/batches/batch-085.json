@@ -2,246 +2,290 @@
   "batchId": "batch-085",
   "problems": [
     {
-      "id": "1782",
-      "slug": "count-pairs-of-nodes",
-      "title": "Count Pairs Of Nodes",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "two-pointers",
-        "binary-search",
-        "graph",
-        "sorting",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1783",
-      "slug": "grand-slam-titles",
-      "title": "Grand Slam Titles",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1784",
-      "slug": "check-if-binary-string-has-at-most-one-segment-of-ones",
-      "title": "Check if Binary String Has at Most One Segment of Ones",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1785",
-      "slug": "minimum-elements-to-add-to-form-a-given-sum",
-      "title": "Minimum Elements to Add to Form a Given Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1786",
-      "slug": "number-of-restricted-paths-from-first-to-last-node",
-      "title": "Number of Restricted Paths From First to Last Node",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming",
-        "graph",
-        "topological-sort",
-        "heap-priority-queue",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1787",
-      "slug": "make-the-xor-of-all-segments-equal-to-zero",
-      "title": "Make the XOR of All Segments Equal to Zero",
+      "id": "1681",
+      "slug": "minimum-incompatibility",
+      "title": "Minimum Incompatibility",
       "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
         "dynamic-programming",
         "bit-manipulation",
-        "counting"
+        "bitmask"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumIncompatibility"
     },
     {
-      "id": "1788",
-      "slug": "maximize-the-beauty-of-the-garden",
-      "title": "Maximize the Beauty of the Garden",
-      "difficulty": "HARD",
+      "id": "1682",
+      "slug": "longest-palindromic-subsequence-ii",
+      "title": "Longest Palindromic Subsequence II",
+      "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "hash-table",
-        "greedy",
-        "prefix-sum"
+        "string",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestPalindromeSubseq"
     },
     {
-      "id": "1789",
-      "slug": "primary-department-for-each-employee",
-      "title": "Primary Department for Each Employee",
+      "id": "1683",
+      "slug": "invalid-tweets",
+      "title": "Invalid Tweets",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1790",
-      "slug": "check-if-one-string-swap-can-make-strings-equal",
-      "title": "Check if One String Swap Can Make Strings Equal",
+      "id": "1684",
+      "slug": "count-the-number-of-consistent-strings",
+      "title": "Count the Number of Consistent Strings",
       "difficulty": "EASY",
       "tags": [
+        "array",
         "hash-table",
         "string",
+        "bit-manipulation",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countConsistentStrings"
     },
     {
-      "id": "1791",
-      "slug": "find-center-of-star-graph",
-      "title": "Find Center of Star Graph",
-      "difficulty": "EASY",
-      "tags": [
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1792",
-      "slug": "maximum-average-pass-ratio",
-      "title": "Maximum Average Pass Ratio",
+      "id": "1685",
+      "slug": "sum-of-absolute-differences-in-a-sorted-array",
+      "title": "Sum of Absolute Differences in a Sorted Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "heap-priority-queue"
+        "math",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getSumAbsoluteDifferences"
     },
     {
-      "id": "1793",
-      "slug": "maximum-score-of-a-good-subarray",
-      "title": "Maximum Score of a Good Subarray",
+      "id": "1686",
+      "slug": "stone-game-vi",
+      "title": "Stone Game VI",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "game-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "stoneGameVI"
+    },
+    {
+      "id": "1687",
+      "slug": "delivering-boxes-from-storage-to-ports",
+      "title": "Delivering Boxes from Storage to Ports",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "two-pointers",
-        "binary-search",
-        "stack",
-        "monotonic-stack"
+        "dynamic-programming",
+        "segment-tree",
+        "queue",
+        "heap-priority-queue",
+        "prefix-sum",
+        "monotonic-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "boxDelivering"
     },
     {
-      "id": "1794",
-      "slug": "count-pairs-of-equal-substrings-with-minimum-difference",
-      "title": "Count Pairs of Equal Substrings With Minimum Difference",
+      "id": "1688",
+      "slug": "count-of-matches-in-tournament",
+      "title": "Count of Matches in Tournament",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfMatches"
+    },
+    {
+      "id": "1689",
+      "slug": "partitioning-into-minimum-number-of-deci-binary-numbers",
+      "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
       "difficulty": "MEDIUM",
       "tags": [
-        "hash-table",
         "string",
         "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minPartitions"
     },
     {
-      "id": "1795",
-      "slug": "rearrange-products-table",
-      "title": "Rearrange Products Table",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1796",
-      "slug": "second-largest-digit-in-a-string",
-      "title": "Second Largest Digit in a String",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1797",
-      "slug": "design-authentication-manager",
-      "title": "Design Authentication Manager",
+      "id": "1690",
+      "slug": "stone-game-vii",
+      "title": "Stone Game VII",
       "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "linked-list",
-        "design",
-        "doubly-linked-list"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1798",
-      "slug": "maximum-number-of-consecutive-values-you-can-make",
-      "title": "Maximum Number of Consecutive Values You Can Make",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1799",
-      "slug": "maximize-score-after-n-operations",
-      "title": "Maximize Score After N Operations",
-      "difficulty": "HARD",
       "tags": [
         "array",
         "math",
         "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "number-theory",
-        "bitmask"
+        "game-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "stoneGameVII"
     },
     {
-      "id": "1800",
-      "slug": "maximum-ascending-subarray-sum",
-      "title": "Maximum Ascending Subarray Sum",
+      "id": "1691",
+      "slug": "maximum-height-by-stacking-cuboids",
+      "title": "Maximum Height by Stacking Cuboids ",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "maxHeight"
+    },
+    {
+      "id": "1692",
+      "slug": "count-ways-to-distribute-candies",
+      "title": "Count Ways to Distribute Candies",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "waysToDistribute"
+    },
+    {
+      "id": "1693",
+      "slug": "daily-leads-and-partners",
+      "title": "Daily Leads and Partners",
       "difficulty": "EASY",
       "tags": [
-        "array"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1801",
-      "slug": "number-of-orders-in-the-backlog",
-      "title": "Number of Orders in the Backlog",
+      "id": "1694",
+      "slug": "reformat-phone-number",
+      "title": "Reformat Phone Number",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reformatNumber"
+    },
+    {
+      "id": "1695",
+      "slug": "maximum-erasure-value",
+      "title": "Maximum Erasure Value",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumUniqueSubarray"
+    },
+    {
+      "id": "1696",
+      "slug": "jump-game-vi",
+      "title": "Jump Game VI",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "queue",
         "heap-priority-queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxResult"
+    },
+    {
+      "id": "1697",
+      "slug": "checking-existence-of-edge-length-limited-paths",
+      "title": "Checking Existence of Edge Length Limited Paths",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "union-find",
+        "graph",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distanceLimitedPathsExist"
+    },
+    {
+      "id": "1698",
+      "slug": "number-of-distinct-substrings-in-a-string",
+      "title": "Number of Distinct Substrings in a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "trie",
+        "rolling-hash",
+        "suffix-array",
+        "hash-function"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countDistinct"
+    },
+    {
+      "id": "1699",
+      "slug": "number-of-calls-between-two-persons",
+      "title": "Number of Calls Between Two Persons",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1700",
+      "slug": "number-of-students-unable-to-eat-lunch",
+      "title": "Number of Students Unable to Eat Lunch",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "stack",
+        "queue",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countStudents"
     }
   ]
 }

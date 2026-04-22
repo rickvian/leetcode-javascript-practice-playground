@@ -2,240 +2,282 @@
   "batchId": "batch-092",
   "problems": [
     {
-      "id": "1922",
-      "slug": "count-good-numbers",
-      "title": "Count Good Numbers",
-      "difficulty": "MEDIUM",
+      "id": "1821",
+      "slug": "find-customers-with-positive-revenue-this-year",
+      "title": "Find Customers With Positive Revenue this Year",
+      "difficulty": "EASY",
       "tags": [
-        "math",
-        "recursion"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1923",
-      "slug": "longest-common-subpath",
-      "title": "Longest Common Subpath",
-      "difficulty": "HARD",
+      "id": "1822",
+      "slug": "sign-of-the-product-of-an-array",
+      "title": "Sign of the Product of an Array",
+      "difficulty": "EASY",
       "tags": [
         "array",
-        "binary-search",
-        "rolling-hash",
-        "suffix-array",
-        "hash-function"
+        "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "arraySign"
     },
     {
-      "id": "1924",
-      "slug": "erect-the-fence-ii",
-      "title": "Erect the Fence II",
+      "id": "1823",
+      "slug": "find-the-winner-of-the-circular-game",
+      "title": "Find the Winner of the Circular Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "recursion",
+        "queue",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findTheWinner"
+    },
+    {
+      "id": "1824",
+      "slug": "minimum-sideway-jumps",
+      "title": "Minimum Sideway Jumps",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSideJumps"
+    },
+    {
+      "id": "1825",
+      "slug": "finding-mk-average",
+      "title": "Finding MK Average",
       "difficulty": "HARD",
+      "tags": [
+        "design",
+        "queue",
+        "heap-priority-queue",
+        "data-stream",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "MKAverage"
+    },
+    {
+      "id": "1826",
+      "slug": "faulty-sensor",
+      "title": "Faulty Sensor",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "badSensor"
+    },
+    {
+      "id": "1827",
+      "slug": "minimum-operations-to-make-the-array-increasing",
+      "title": "Minimum Operations to Make the Array Increasing",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
+    },
+    {
+      "id": "1828",
+      "slug": "queries-on-number-of-points-inside-a-circle",
+      "title": "Queries on Number of Points Inside a Circle",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "math",
         "geometry"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPoints"
     },
     {
-      "id": "1925",
-      "slug": "count-square-sum-triples",
-      "title": "Count Square Sum Triples",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1926",
-      "slug": "nearest-exit-from-entrance-in-maze",
-      "title": "Nearest Exit from Entrance in Maze",
+      "id": "1829",
+      "slug": "maximum-xor-for-each-query",
+      "title": "Maximum XOR for Each Query",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1927",
-      "slug": "sum-game",
-      "title": "Sum Game",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "string",
-        "greedy",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1928",
-      "slug": "minimum-cost-to-reach-destination-in-time",
-      "title": "Minimum Cost to Reach Destination in Time",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1929",
-      "slug": "concatenation-of-array",
-      "title": "Concatenation of Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1930",
-      "slug": "unique-length-3-palindromic-subsequences",
-      "title": "Unique Length-3 Palindromic Subsequences",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
         "bit-manipulation",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getMaximumXor"
     },
     {
-      "id": "1931",
-      "slug": "painting-a-grid-with-three-different-colors",
-      "title": "Painting a Grid With Three Different Colors",
+      "id": "1830",
+      "slug": "minimum-number-of-operations-to-make-string-sorted",
+      "title": "Minimum Number of Operations to Make String Sorted",
       "difficulty": "HARD",
       "tags": [
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1932",
-      "slug": "merge-bsts-to-create-single-bst",
-      "title": "Merge BSTs to Create Single BST",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
         "hash-table",
-        "tree",
-        "depth-first-search",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1933",
-      "slug": "check-if-string-is-decomposable-into-value-equal-substrings",
-      "title": "Check if String Is Decomposable Into Value-Equal Substrings",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1934",
-      "slug": "confirmation-rate",
-      "title": "Confirmation Rate",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1935",
-      "slug": "maximum-number-of-words-you-can-type",
-      "title": "Maximum Number of Words You Can Type",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1936",
-      "slug": "add-minimum-number-of-rungs",
-      "title": "Add Minimum Number of Rungs",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1937",
-      "slug": "maximum-number-of-points-with-cost",
-      "title": "Maximum Number of Points with Cost",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1938",
-      "slug": "maximum-genetic-difference-query",
-      "title": "Maximum Genetic Difference Query",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "bit-manipulation",
-        "depth-first-search",
-        "trie"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1939",
-      "slug": "users-that-actively-request-confirmation-messages",
-      "title": "Users That Actively Request Confirmation Messages",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1940",
-      "slug": "longest-common-subsequence-between-sorted-arrays",
-      "title": "Longest Common Subsequence Between Sorted Arrays",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1941",
-      "slug": "check-if-all-characters-have-equal-number-of-occurrences",
-      "title": "Check if All Characters Have Equal Number of Occurrences",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
+        "math",
         "string",
+        "combinatorics",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "makeStringSorted"
+    },
+    {
+      "id": "1831",
+      "slug": "maximum-transaction-each-day",
+      "title": "Maximum Transaction Each Day",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1832",
+      "slug": "check-if-the-sentence-is-pangram",
+      "title": "Check if the Sentence Is Pangram",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkIfPangram"
+    },
+    {
+      "id": "1833",
+      "slug": "maximum-ice-cream-bars",
+      "title": "Maximum Ice Cream Bars",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "counting-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxIceCream"
+    },
+    {
+      "id": "1834",
+      "slug": "single-threaded-cpu",
+      "title": "Single-Threaded CPU",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getOrder"
+    },
+    {
+      "id": "1835",
+      "slug": "find-xor-sum-of-all-pairs-bitwise-and",
+      "title": "Find XOR Sum of All Pairs Bitwise AND",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getXORSum"
+    },
+    {
+      "id": "1836",
+      "slug": "remove-duplicates-from-an-unsorted-linked-list",
+      "title": "Remove Duplicates From an Unsorted Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "deleteDuplicatesUnsorted"
+    },
+    {
+      "id": "1837",
+      "slug": "sum-of-digits-in-base-k",
+      "title": "Sum of Digits in Base K",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumBase"
+    },
+    {
+      "id": "1838",
+      "slug": "frequency-of-the-most-frequent-element",
+      "title": "Frequency of the Most Frequent Element",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "sliding-window",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxFrequency"
+    },
+    {
+      "id": "1839",
+      "slug": "longest-substring-of-all-vowels-in-order",
+      "title": "Longest Substring Of All Vowels in Order",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestBeautifulSubstring"
+    },
+    {
+      "id": "1840",
+      "slug": "maximum-building-height",
+      "title": "Maximum Building Height",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxBuilding"
     }
   ]
 }

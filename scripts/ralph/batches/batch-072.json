@@ -2,235 +2,283 @@
   "batchId": "batch-072",
   "problems": [
     {
-      "id": "1522",
-      "slug": "diameter-of-n-ary-tree",
-      "title": "Diameter of N-Ary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1523",
-      "slug": "count-odd-numbers-in-an-interval-range",
-      "title": "Count Odd Numbers in an Interval Range",
+      "id": "1421",
+      "slug": "npv-queries",
+      "title": "NPV Queries",
       "difficulty": "EASY",
       "tags": [
-        "math"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1524",
-      "slug": "number-of-sub-arrays-with-odd-sum",
-      "title": "Number of Sub-arrays With Odd Sum",
+      "id": "1422",
+      "slug": "maximum-score-after-splitting-a-string",
+      "title": "Maximum Score After Splitting a String",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxScore"
+    },
+    {
+      "id": "1423",
+      "slug": "maximum-points-you-can-obtain-from-cards",
+      "title": "Maximum Points You Can Obtain from Cards",
       "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxScore"
+    },
+    {
+      "id": "1424",
+      "slug": "diagonal-traverse-ii",
+      "title": "Diagonal Traverse II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findDiagonalOrder"
+    },
+    {
+      "id": "1425",
+      "slug": "constrained-subsequence-sum",
+      "title": "Constrained Subsequence Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "constrainedSubsetSum"
+    },
+    {
+      "id": "1426",
+      "slug": "counting-elements",
+      "title": "Counting Elements",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countElements"
+    },
+    {
+      "id": "1427",
+      "slug": "perform-string-shifts",
+      "title": "Perform String Shifts",
+      "difficulty": "EASY",
       "tags": [
         "array",
         "math",
-        "dynamic-programming",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1525",
-      "slug": "number-of-good-ways-to-split-a-string",
-      "title": "Number of Good Ways to Split a String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "dynamic-programming",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1526",
-      "slug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
-      "title": "Minimum Number of Increments on Subarrays to Form a Target Array",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "stack",
-        "greedy",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1527",
-      "slug": "patients-with-a-condition",
-      "title": "Patients With a Condition",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1528",
-      "slug": "shuffle-string",
-      "title": "Shuffle String",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "stringShift"
     },
     {
-      "id": "1529",
-      "slug": "minimum-suffix-flips",
-      "title": "Minimum Suffix Flips",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1530",
-      "slug": "number-of-good-leaf-nodes-pairs",
-      "title": "Number of Good Leaf Nodes Pairs",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1531",
-      "slug": "string-compression-ii",
-      "title": "String Compression II",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1532",
-      "slug": "the-most-recent-three-orders",
-      "title": "The Most Recent Three Orders",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1533",
-      "slug": "find-the-index-of-the-large-integer",
-      "title": "Find the Index of the Large Integer",
+      "id": "1428",
+      "slug": "leftmost-column-with-at-least-a-one",
+      "title": "Leftmost Column with at Least a One",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "binary-search",
+        "matrix",
         "interactive"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "leftMostColumnWithOne"
     },
     {
-      "id": "1534",
-      "slug": "count-good-triplets",
-      "title": "Count Good Triplets",
+      "id": "1429",
+      "slug": "first-unique-number",
+      "title": "First Unique Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "design",
+        "queue",
+        "data-stream"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "FirstUnique"
+    },
+    {
+      "id": "1430",
+      "slug": "check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree",
+      "title": "Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isValidSequence"
+    },
+    {
+      "id": "1431",
+      "slug": "kids-with-the-greatest-number-of-candies",
+      "title": "Kids With the Greatest Number of Candies",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "enumeration"
+        "array"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kidsWithCandies"
     },
     {
-      "id": "1535",
-      "slug": "find-the-winner-of-an-array-game",
-      "title": "Find the Winner of an Array Game",
+      "id": "1432",
+      "slug": "max-difference-you-can-get-from-changing-an-integer",
+      "title": "Max Difference You Can Get From Changing an Integer",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1536",
-      "slug": "minimum-swaps-to-arrange-a-binary-grid",
-      "title": "Minimum Swaps to Arrange a Binary Grid",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1537",
-      "slug": "get-the-maximum-score",
-      "title": "Get the Maximum Score",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "two-pointers",
-        "dynamic-programming",
+        "math",
         "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDiff"
     },
     {
-      "id": "1538",
-      "slug": "guess-the-majority-in-a-hidden-array",
-      "title": "Guess the Majority in a Hidden Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "interactive"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1539",
-      "slug": "kth-missing-positive-number",
-      "title": "Kth Missing Positive Number",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1540",
-      "slug": "can-convert-string-in-k-moves",
-      "title": "Can Convert String in K Moves",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1541",
-      "slug": "minimum-insertions-to-balance-a-parentheses-string",
-      "title": "Minimum Insertions to Balance a Parentheses String",
+      "id": "1433",
+      "slug": "check-if-a-string-can-break-another-string",
+      "title": "Check If a String Can Break Another String",
       "difficulty": "MEDIUM",
       "tags": [
         "string",
-        "stack",
-        "greedy"
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkIfCanBreak"
+    },
+    {
+      "id": "1434",
+      "slug": "number-of-ways-to-wear-different-hats-to-each-other",
+      "title": "Number of Ways to Wear Different Hats to Each Other",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberWays"
+    },
+    {
+      "id": "1435",
+      "slug": "create-a-session-bar-chart",
+      "title": "Create a Session Bar Chart",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1436",
+      "slug": "destination-city",
+      "title": "Destination City",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "destCity"
+    },
+    {
+      "id": "1437",
+      "slug": "check-if-all-1s-are-at-least-length-k-places-away",
+      "title": "Check If All 1's Are at Least Length K Places Away",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kLengthApart"
+    },
+    {
+      "id": "1438",
+      "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+      "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "ordered-set",
+        "monotonic-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestSubarray"
+    },
+    {
+      "id": "1439",
+      "slug": "find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows",
+      "title": "Find the Kth Smallest Sum of a Matrix With Sorted Rows",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthSmallest"
+    },
+    {
+      "id": "1440",
+      "slug": "evaluate-boolean-expression",
+      "title": "Evaluate Boolean Expression",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

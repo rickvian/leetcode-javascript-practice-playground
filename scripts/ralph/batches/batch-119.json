@@ -2,246 +2,283 @@
   "batchId": "batch-119",
   "problems": [
     {
-      "id": "2462",
-      "slug": "total-cost-to-hire-k-workers",
-      "title": "Total Cost to Hire K Workers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "heap-priority-queue",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2463",
-      "slug": "minimum-total-distance-traveled",
-      "title": "Minimum Total Distance Traveled",
+      "id": "2361",
+      "slug": "minimum-costs-using-the-train-line",
+      "title": "Minimum Costs Using the Train Line",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "dynamic-programming",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2464",
-      "slug": "minimum-subarrays-in-a-valid-split",
-      "title": "Minimum Subarrays in a Valid Split",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2465",
-      "slug": "number-of-distinct-averages",
-      "title": "Number of Distinct Averages",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "two-pointers",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2466",
-      "slug": "count-ways-to-build-good-strings",
-      "title": "Count Ways To Build Good Strings",
-      "difficulty": "MEDIUM",
-      "tags": [
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumCosts"
     },
     {
-      "id": "2467",
-      "slug": "most-profitable-path-in-a-tree",
-      "title": "Most Profitable Path in a Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2468",
-      "slug": "split-message-based-on-limit",
-      "title": "Split Message Based on Limit",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2469",
-      "slug": "convert-the-temperature",
-      "title": "Convert the Temperature",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2470",
-      "slug": "number-of-subarrays-with-lcm-equal-to-k",
-      "title": "Number of Subarrays With LCM Equal to K",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2471",
-      "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
-      "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2472",
-      "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
-      "title": "Maximum Number of Non-overlapping Palindrome Substrings",
-      "difficulty": "HARD",
-      "tags": [
-        "two-pointers",
-        "string",
-        "dynamic-programming",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2473",
-      "slug": "minimum-cost-to-buy-apples",
-      "title": "Minimum Cost to Buy Apples",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "graph",
-        "heap-priority-queue",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2474",
-      "slug": "customers-with-strictly-increasing-purchases",
-      "title": "Customers With Strictly Increasing Purchases",
+      "id": "2362",
+      "slug": "generate-the-invoice",
+      "title": "Generate the Invoice",
       "difficulty": "HARD",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2475",
-      "slug": "number-of-unequal-triplets-in-array",
-      "title": "Number of Unequal Triplets in Array",
+      "id": "2363",
+      "slug": "merge-similar-items",
+      "title": "Merge Similar Items",
       "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "sorting"
+        "sorting",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mergeSimilarItems"
     },
     {
-      "id": "2476",
-      "slug": "closest-nodes-queries-in-a-binary-search-tree",
-      "title": "Closest Nodes Queries in a Binary Search Tree",
+      "id": "2364",
+      "slug": "count-number-of-bad-pairs",
+      "title": "Count Number of Bad Pairs",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "binary-search",
-        "tree",
-        "depth-first-search",
-        "binary-search-tree",
-        "binary-tree"
+        "hash-table",
+        "math",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countBadPairs"
     },
     {
-      "id": "2477",
-      "slug": "minimum-fuel-cost-to-report-to-the-capital",
-      "title": "Minimum Fuel Cost to Report to the Capital",
+      "id": "2365",
+      "slug": "task-scheduler-ii",
+      "title": "Task Scheduler II",
       "difficulty": "MEDIUM",
       "tags": [
+        "array",
+        "hash-table",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "taskSchedulerII"
+    },
+    {
+      "id": "2366",
+      "slug": "minimum-replacements-to-sort-the-array",
+      "title": "Minimum Replacements to Sort the Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumReplacement"
+    },
+    {
+      "id": "2367",
+      "slug": "number-of-arithmetic-triplets",
+      "title": "Number of Arithmetic Triplets",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "arithmeticTriplets"
+    },
+    {
+      "id": "2368",
+      "slug": "reachable-nodes-with-restrictions",
+      "title": "Reachable Nodes With Restrictions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
         "tree",
         "depth-first-search",
         "breadth-first-search",
+        "union-find",
         "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reachableNodes"
     },
     {
-      "id": "2478",
-      "slug": "number-of-beautiful-partitions",
-      "title": "Number of Beautiful Partitions",
+      "id": "2369",
+      "slug": "check-if-there-is-a-valid-partition-for-the-array",
+      "title": "Check if There is a Valid Partition For The Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validPartition"
+    },
+    {
+      "id": "2370",
+      "slug": "longest-ideal-subsequence",
+      "title": "Longest Ideal Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestIdealString"
+    },
+    {
+      "id": "2371",
+      "slug": "minimize-maximum-value-in-a-grid",
+      "title": "Minimize Maximum Value in a Grid",
       "difficulty": "HARD",
+      "tags": [
+        "array",
+        "union-find",
+        "graph",
+        "topological-sort",
+        "sorting",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minScore"
+    },
+    {
+      "id": "2372",
+      "slug": "calculate-the-influence-of-each-salesperson",
+      "title": "Calculate the Influence of Each Salesperson",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2373",
+      "slug": "largest-local-values-in-a-matrix",
+      "title": "Largest Local Values in a Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestLocal"
+    },
+    {
+      "id": "2374",
+      "slug": "node-with-highest-edge-score",
+      "title": "Node With Highest Edge Score",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "edgeScore"
+    },
+    {
+      "id": "2375",
+      "slug": "construct-smallest-number-from-di-string",
+      "title": "Construct Smallest Number From DI String",
+      "difficulty": "MEDIUM",
       "tags": [
         "string",
-        "dynamic-programming",
-        "prefix-sum"
+        "backtracking",
+        "stack",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestNumber"
     },
     {
-      "id": "2479",
-      "slug": "maximum-xor-of-two-non-overlapping-subtrees",
-      "title": "Maximum XOR of Two Non-Overlapping Subtrees",
+      "id": "2376",
+      "slug": "count-special-integers",
+      "title": "Count Special Integers",
       "difficulty": "HARD",
       "tags": [
-        "tree",
-        "depth-first-search",
-        "graph",
-        "trie"
+        "math",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSpecialNumbers"
     },
     {
-      "id": "2480",
-      "slug": "form-a-chemical-bond",
-      "title": "Form a Chemical Bond",
+      "id": "2377",
+      "slug": "sort-the-olympic-table",
+      "title": "Sort the Olympic Table",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2481",
-      "slug": "minimum-cuts-to-divide-a-circle",
-      "title": "Minimum Cuts to Divide a Circle",
+      "id": "2378",
+      "slug": "choose-edges-to-maximize-score-in-a-tree",
+      "title": "Choose Edges to Maximize Score in a Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxScore"
+    },
+    {
+      "id": "2379",
+      "slug": "minimum-recolors-to-get-k-consecutive-black-blocks",
+      "title": "Minimum Recolors to Get K Consecutive Black Blocks",
       "difficulty": "EASY",
       "tags": [
-        "math",
-        "geometry"
+        "string",
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumRecolors"
+    },
+    {
+      "id": "2380",
+      "slug": "time-needed-to-rearrange-a-binary-string",
+      "title": "Time Needed to Rearrange a Binary String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "secondsToRemoveOccurrences"
     }
   ]
 }

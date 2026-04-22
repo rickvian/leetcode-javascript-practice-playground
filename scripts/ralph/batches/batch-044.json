@@ -2,254 +2,291 @@
   "batchId": "batch-044",
   "problems": [
     {
-      "id": "0960",
-      "slug": "delete-columns-to-make-sorted-iii",
-      "title": "Delete Columns to Make Sorted III",
+      "id": "0861",
+      "slug": "score-after-flipping-matrix",
+      "title": "Score After Flipping Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "bit-manipulation",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "matrixScore"
+    },
+    {
+      "id": "0862",
+      "slug": "shortest-subarray-with-sum-at-least-k",
+      "title": "Shortest Subarray with Sum at Least K",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "string",
-        "dynamic-programming"
+        "binary-search",
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "prefix-sum",
+        "monotonic-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestSubarray"
     },
     {
-      "id": "0961",
-      "slug": "n-repeated-element-in-size-2n-array",
-      "title": "N-Repeated Element in Size 2N Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0962",
-      "slug": "maximum-width-ramp",
-      "title": "Maximum Width Ramp",
+      "id": "0863",
+      "slug": "all-nodes-distance-k-in-binary-tree",
+      "title": "All Nodes Distance K in Binary Tree",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "two-pointers",
-        "stack",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0963",
-      "slug": "minimum-area-rectangle-ii",
-      "title": "Minimum Area Rectangle II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "hash-table",
-        "math",
-        "geometry"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0964",
-      "slug": "least-operators-to-express-number",
-      "title": "Least Operators to Express Number",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "memoization"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0965",
-      "slug": "univalued-binary-tree",
-      "title": "Univalued Binary Tree",
-      "difficulty": "EASY",
-      "tags": [
         "tree",
         "depth-first-search",
         "breadth-first-search",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distanceK"
     },
     {
-      "id": "0966",
-      "slug": "vowel-spellchecker",
-      "title": "Vowel Spellchecker",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0967",
-      "slug": "numbers-with-same-consecutive-differences",
-      "title": "Numbers With Same Consecutive Differences",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "backtracking",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0968",
-      "slug": "binary-tree-cameras",
-      "title": "Binary Tree Cameras",
+      "id": "0864",
+      "slug": "shortest-path-to-get-all-keys",
+      "title": "Shortest Path to Get All Keys",
       "difficulty": "HARD",
       "tags": [
-        "dynamic-programming",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
+        "array",
+        "bit-manipulation",
+        "breadth-first-search",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestPathAllKeys"
     },
     {
-      "id": "0969",
-      "slug": "pancake-sorting",
-      "title": "Pancake Sorting",
+      "id": "0865",
+      "slug": "smallest-subtree-with-all-the-deepest-nodes",
+      "title": "Smallest Subtree with all the Deepest Nodes",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "two-pointers",
-        "greedy",
-        "sorting"
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "subtreeWithAllDeepest"
     },
     {
-      "id": "0970",
-      "slug": "powerful-integers",
-      "title": "Powerful Integers",
+      "id": "0866",
+      "slug": "prime-palindrome",
+      "title": "Prime Palindrome",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "primePalindrome"
+    },
+    {
+      "id": "0867",
+      "slug": "transpose-matrix",
+      "title": "Transpose Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "transpose"
+    },
+    {
+      "id": "0868",
+      "slug": "binary-gap",
+      "title": "Binary Gap",
+      "difficulty": "EASY",
+      "tags": [
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "binaryGap"
+    },
+    {
+      "id": "0869",
+      "slug": "reordered-power-of-2",
+      "title": "Reordered Power of 2",
       "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
         "math",
+        "sorting",
+        "counting",
         "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reorderedPowerOf2"
     },
     {
-      "id": "0971",
-      "slug": "flip-binary-tree-to-match-preorder-traversal",
-      "title": "Flip Binary Tree To Match Preorder Traversal",
+      "id": "0870",
+      "slug": "advantage-shuffle",
+      "title": "Advantage Shuffle",
       "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "advantageCount"
+    },
+    {
+      "id": "0871",
+      "slug": "minimum-number-of-refueling-stops",
+      "title": "Minimum Number of Refueling Stops",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minRefuelStops"
+    },
+    {
+      "id": "0872",
+      "slug": "leaf-similar-trees",
+      "title": "Leaf-Similar Trees",
+      "difficulty": "EASY",
       "tags": [
         "tree",
         "depth-first-search",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "leafSimilar"
     },
     {
-      "id": "0972",
-      "slug": "equal-rational-numbers",
-      "title": "Equal Rational Numbers",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0973",
-      "slug": "k-closest-points-to-origin",
-      "title": "K Closest Points to Origin",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "divide-and-conquer",
-        "geometry",
-        "sorting",
-        "heap-priority-queue",
-        "quickselect"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0974",
-      "slug": "subarray-sums-divisible-by-k",
-      "title": "Subarray Sums Divisible by K",
+      "id": "0873",
+      "slug": "length-of-longest-fibonacci-subsequence",
+      "title": "Length of Longest Fibonacci Subsequence",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "prefix-sum"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lenLongestFibSubseq"
     },
     {
-      "id": "0975",
-      "slug": "odd-even-jump",
-      "title": "Odd Even Jump",
-      "difficulty": "HARD",
+      "id": "0874",
+      "slug": "walking-robot-simulation",
+      "title": "Walking Robot Simulation",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming",
-        "stack",
-        "sorting",
-        "monotonic-stack",
-        "ordered-set"
+        "hash-table",
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "robotSim"
     },
     {
-      "id": "0976",
-      "slug": "largest-perimeter-triangle",
-      "title": "Largest Perimeter Triangle",
+      "id": "0875",
+      "slug": "koko-eating-bananas",
+      "title": "Koko Eating Bananas",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minEatingSpeed"
+    },
+    {
+      "id": "0876",
+      "slug": "middle-of-the-linked-list",
+      "title": "Middle of the Linked List",
       "difficulty": "EASY",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "middleNode"
+    },
+    {
+      "id": "0877",
+      "slug": "stone-game",
+      "title": "Stone Game",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "math",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0977",
-      "slug": "squares-of-a-sorted-array",
-      "title": "Squares of a Sorted Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "two-pointers",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0978",
-      "slug": "longest-turbulent-subarray",
-      "title": "Longest Turbulent Subarray",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "dynamic-programming",
-        "sliding-window"
+        "game-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "stoneGame"
     },
     {
-      "id": "0979",
-      "slug": "distribute-coins-in-binary-tree",
-      "title": "Distribute Coins in Binary Tree",
+      "id": "0878",
+      "slug": "nth-magical-number",
+      "title": "Nth Magical Number",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nthMagicalNumber"
+    },
+    {
+      "id": "0879",
+      "slug": "profitable-schemes",
+      "title": "Profitable Schemes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "profitableSchemes"
+    },
+    {
+      "id": "0880",
+      "slug": "decoded-string-at-index",
+      "title": "Decoded String at Index",
       "difficulty": "MEDIUM",
       "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
+        "string",
+        "stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "decodeAtIndex"
     }
   ]
 }

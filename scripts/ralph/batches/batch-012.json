@@ -2,256 +2,288 @@
   "batchId": "batch-012",
   "problems": [
     {
-      "id": "0305",
-      "slug": "number-of-islands-ii",
-      "title": "Number of Islands II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "union-find"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0306",
-      "slug": "additive-number",
-      "title": "Additive Number",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "backtracking"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0307",
-      "slug": "range-sum-query-mutable",
-      "title": "Range Sum Query - Mutable",
+      "id": "0221",
+      "slug": "maximal-square",
+      "title": "Maximal Square",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "divide-and-conquer",
-        "design",
-        "binary-indexed-tree",
-        "segment-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0308",
-      "slug": "range-sum-query-2d-mutable",
-      "title": "Range Sum Query 2D - Mutable",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "design",
-        "binary-indexed-tree",
-        "segment-tree",
+        "dynamic-programming",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximalSquare"
     },
     {
-      "id": "0309",
-      "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
-      "title": "Best Time to Buy and Sell Stock with Cooldown",
+      "id": "0222",
+      "slug": "count-complete-tree-nodes",
+      "title": "Count Complete Tree Nodes",
+      "difficulty": "EASY",
+      "tags": [
+        "binary-search",
+        "bit-manipulation",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countNodes"
+    },
+    {
+      "id": "0223",
+      "slug": "rectangle-area",
+      "title": "Rectangle Area",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0310",
-      "slug": "minimum-height-trees",
-      "title": "Minimum Height Trees",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "depth-first-search",
-        "breadth-first-search",
-        "graph",
-        "topological-sort"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0311",
-      "slug": "sparse-matrix-multiplication",
-      "title": "Sparse Matrix Multiplication",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0312",
-      "slug": "burst-balloons",
-      "title": "Burst Balloons",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0313",
-      "slug": "super-ugly-number",
-      "title": "Super Ugly Number",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "math",
-        "dynamic-programming"
+        "geometry"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "computeArea"
     },
     {
-      "id": "0314",
-      "slug": "binary-tree-vertical-order-traversal",
-      "title": "Binary Tree Vertical Order Traversal",
-      "difficulty": "MEDIUM",
+      "id": "0224",
+      "slug": "basic-calculator",
+      "title": "Basic Calculator",
+      "difficulty": "HARD",
       "tags": [
-        "hash-table",
+        "math",
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "calculate"
+    },
+    {
+      "id": "0225",
+      "slug": "implement-stack-using-queues",
+      "title": "Implement Stack using Queues",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "design",
+        "queue"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "MyStack"
+    },
+    {
+      "id": "0226",
+      "slug": "invert-binary-tree",
+      "title": "Invert Binary Tree",
+      "difficulty": "EASY",
+      "tags": [
         "tree",
         "depth-first-search",
         "breadth-first-search",
-        "sorting",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "invertTree"
     },
     {
-      "id": "0315",
-      "slug": "count-of-smaller-numbers-after-self",
-      "title": "Count of Smaller Numbers After Self",
+      "id": "0227",
+      "slug": "basic-calculator-ii",
+      "title": "Basic Calculator II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "calculate"
+    },
+    {
+      "id": "0228",
+      "slug": "summary-ranges",
+      "title": "Summary Ranges",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "summaryRanges"
+    },
+    {
+      "id": "0229",
+      "slug": "majority-element-ii",
+      "title": "Majority Element II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "majorityElement"
+    },
+    {
+      "id": "0230",
+      "slug": "kth-smallest-element-in-a-bst",
+      "title": "Kth Smallest Element in a BST",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthSmallest"
+    },
+    {
+      "id": "0231",
+      "slug": "power-of-two",
+      "title": "Power of Two",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "bit-manipulation",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPowerOfTwo"
+    },
+    {
+      "id": "0232",
+      "slug": "implement-queue-using-stacks",
+      "title": "Implement Queue using Stacks",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "design",
+        "queue"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "MyQueue"
+    },
+    {
+      "id": "0233",
+      "slug": "number-of-digit-one",
+      "title": "Number of Digit One",
       "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countDigitOne"
+    },
+    {
+      "id": "0234",
+      "slug": "palindrome-linked-list",
+      "title": "Palindrome Linked List",
+      "difficulty": "EASY",
+      "tags": [
+        "linked-list",
+        "two-pointers",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPalindrome"
+    },
+    {
+      "id": "0235",
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lowestCommonAncestor"
+    },
+    {
+      "id": "0236",
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lowestCommonAncestor"
+    },
+    {
+      "id": "0237",
+      "slug": "delete-node-in-a-linked-list",
+      "title": "Delete Node in a Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "deleteNode"
+    },
+    {
+      "id": "0238",
+      "slug": "product-of-array-except-self",
+      "title": "Product of Array Except Self",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "productExceptSelf"
+    },
+    {
+      "id": "0239",
+      "slug": "sliding-window-maximum",
+      "title": "Sliding Window Maximum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSlidingWindow"
+    },
+    {
+      "id": "0240",
+      "slug": "search-a-2d-matrix-ii",
+      "title": "Search a 2D Matrix II",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "binary-search",
         "divide-and-conquer",
-        "binary-indexed-tree",
-        "segment-tree",
-        "merge-sort",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0316",
-      "slug": "remove-duplicate-letters",
-      "title": "Remove Duplicate Letters",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "stack",
-        "greedy",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0317",
-      "slug": "shortest-distance-from-all-buildings",
-      "title": "Shortest Distance from All Buildings",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "breadth-first-search",
         "matrix"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "0318",
-      "slug": "maximum-product-of-word-lengths",
-      "title": "Maximum Product of Word Lengths",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0319",
-      "slug": "bulb-switcher",
-      "title": "Bulb Switcher",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "brainteaser"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0320",
-      "slug": "generalized-abbreviation",
-      "title": "Generalized Abbreviation",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "backtracking",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0321",
-      "slug": "create-maximum-number",
-      "title": "Create Maximum Number",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "two-pointers",
-        "stack",
-        "greedy",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0324",
-      "slug": "wiggle-sort-ii",
-      "title": "Wiggle Sort II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "divide-and-conquer",
-        "greedy",
-        "sorting",
-        "quickselect"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0325",
-      "slug": "maximum-size-subarray-sum-equals-k",
-      "title": "Maximum Size Subarray Sum Equals k",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0326",
-      "slug": "power-of-three",
-      "title": "Power of Three",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "recursion"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "searchMatrix"
     }
   ]
 }

@@ -2,242 +2,288 @@
   "batchId": "batch-023",
   "problems": [
     {
-      "id": "0535",
-      "slug": "encode-and-decode-tinyurl",
-      "title": "Encode and Decode TinyURL",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "design",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0536",
-      "slug": "construct-binary-tree-from-string",
-      "title": "Construct Binary Tree from String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "stack",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0537",
-      "slug": "complex-number-multiplication",
-      "title": "Complex Number Multiplication",
-      "difficulty": "MEDIUM",
+      "id": "0441",
+      "slug": "arranging-coins",
+      "title": "Arranging Coins",
+      "difficulty": "EASY",
       "tags": [
         "math",
-        "string",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0538",
-      "slug": "convert-bst-to-greater-tree",
-      "title": "Convert BST to Greater Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0539",
-      "slug": "minimum-time-difference",
-      "title": "Minimum Time Difference",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "string",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0540",
-      "slug": "single-element-in-a-sorted-array",
-      "title": "Single Element in a Sorted Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "arrangeCoins"
     },
     {
-      "id": "0541",
-      "slug": "reverse-string-ii",
-      "title": "Reverse String II",
-      "difficulty": "EASY",
+      "id": "0442",
+      "slug": "find-all-duplicates-in-an-array",
+      "title": "Find All Duplicates in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findDuplicates"
+    },
+    {
+      "id": "0443",
+      "slug": "string-compression",
+      "title": "String Compression",
+      "difficulty": "MEDIUM",
       "tags": [
         "two-pointers",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "compress"
     },
     {
-      "id": "0542",
-      "slug": "01-matrix",
-      "title": "01 Matrix",
+      "id": "0444",
+      "slug": "sequence-reconstruction",
+      "title": "Sequence Reconstruction",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming",
-        "breadth-first-search",
-        "matrix"
+        "graph",
+        "topological-sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sequenceReconstruction"
     },
     {
-      "id": "0544",
-      "slug": "output-contest-matches",
-      "title": "Output Contest Matches",
+      "id": "0445",
+      "slug": "add-two-numbers-ii",
+      "title": "Add Two Numbers II",
       "difficulty": "MEDIUM",
       "tags": [
-        "string",
-        "recursion",
-        "simulation"
+        "linked-list",
+        "math",
+        "stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addTwoNumbers"
     },
     {
-      "id": "0545",
-      "slug": "boundary-of-binary-tree",
-      "title": "Boundary of Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0546",
-      "slug": "remove-boxes",
-      "title": "Remove Boxes",
+      "id": "0446",
+      "slug": "arithmetic-slices-ii-subsequence",
+      "title": "Arithmetic Slices II - Subsequence",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "dynamic-programming",
-        "memoization"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfArithmeticSlices"
     },
     {
-      "id": "0547",
-      "slug": "number-of-provinces",
-      "title": "Number of Provinces",
+      "id": "0447",
+      "slug": "number-of-boomerangs",
+      "title": "Number of Boomerangs",
       "difficulty": "MEDIUM",
-      "tags": [
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0548",
-      "slug": "split-array-with-equal-sum",
-      "title": "Split Array with Equal Sum",
-      "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
-        "prefix-sum"
+        "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfBoomerangs"
     },
     {
-      "id": "0549",
-      "slug": "binary-tree-longest-consecutive-sequence-ii",
-      "title": "Binary Tree Longest Consecutive Sequence II",
+      "id": "0448",
+      "slug": "find-all-numbers-disappeared-in-an-array",
+      "title": "Find All Numbers Disappeared in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findDisappearedNumbers"
+    },
+    {
+      "id": "0449",
+      "slug": "serialize-and-deserialize-bst",
+      "title": "Serialize and Deserialize BST",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "design",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "serialize"
+    },
+    {
+      "id": "0450",
+      "slug": "delete-node-in-a-bst",
+      "title": "Delete Node in a BST",
       "difficulty": "MEDIUM",
       "tags": [
         "tree",
-        "depth-first-search",
+        "binary-search-tree",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "deleteNode"
     },
     {
-      "id": "0550",
-      "slug": "game-play-analysis-iv",
-      "title": "Game Play Analysis IV",
+      "id": "0451",
+      "slug": "sort-characters-by-frequency",
+      "title": "Sort Characters By Frequency",
       "difficulty": "MEDIUM",
       "tags": [
-        "database"
+        "hash-table",
+        "string",
+        "sorting",
+        "heap-priority-queue",
+        "bucket-sort",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "frequencySort"
     },
     {
-      "id": "0551",
-      "slug": "student-attendance-record-i",
-      "title": "Student Attendance Record I",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0552",
-      "slug": "student-attendance-record-ii",
-      "title": "Student Attendance Record II",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0553",
-      "slug": "optimal-division",
-      "title": "Optimal Division",
+      "id": "0452",
+      "slug": "minimum-number-of-arrows-to-burst-balloons",
+      "title": "Minimum Number of Arrows to Burst Balloons",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "dynamic-programming"
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMinArrowShots"
     },
     {
-      "id": "0554",
-      "slug": "brick-wall",
-      "title": "Brick Wall",
+      "id": "0453",
+      "slug": "minimum-moves-to-equal-array-elements",
+      "title": "Minimum Moves to Equal Array Elements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minMoves"
+    },
+    {
+      "id": "0454",
+      "slug": "4sum-ii",
+      "title": "4Sum II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fourSumCount"
     },
     {
-      "id": "0555",
-      "slug": "split-concatenated-strings",
-      "title": "Split Concatenated Strings",
+      "id": "0455",
+      "slug": "assign-cookies",
+      "title": "Assign Cookies",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findContentChildren"
+    },
+    {
+      "id": "0456",
+      "slug": "132-pattern",
+      "title": "132 Pattern",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "string",
-        "greedy"
+        "binary-search",
+        "stack",
+        "monotonic-stack",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "find132pattern"
+    },
+    {
+      "id": "0457",
+      "slug": "circular-array-loop",
+      "title": "Circular Array Loop",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "circularArrayLoop"
+    },
+    {
+      "id": "0458",
+      "slug": "poor-pigs",
+      "title": "Poor Pigs",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "poorPigs"
+    },
+    {
+      "id": "0459",
+      "slug": "repeated-substring-pattern",
+      "title": "Repeated Substring Pattern",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "string-matching"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "repeatedSubstringPattern"
+    },
+    {
+      "id": "0460",
+      "slug": "lfu-cache",
+      "title": "LFU Cache",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "linked-list",
+        "design",
+        "doubly-linked-list"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "LFUCache"
     }
   ]
 }

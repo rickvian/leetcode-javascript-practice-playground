@@ -2,259 +2,264 @@
   "batchId": "batch-031",
   "problems": [
     {
-      "id": "0698",
-      "slug": "partition-to-k-equal-sum-subsets",
-      "title": "Partition to K Equal Sum Subsets",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "memoization",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0699",
-      "slug": "falling-squares",
-      "title": "Falling Squares",
+      "id": "0601",
+      "slug": "human-traffic-of-stadium",
+      "title": "Human Traffic of Stadium",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "segment-tree",
-        "ordered-set"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0700",
-      "slug": "search-in-a-binary-search-tree",
-      "title": "Search in a Binary Search Tree",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0701",
-      "slug": "insert-into-a-binary-search-tree",
-      "title": "Insert into a Binary Search Tree",
+      "id": "0602",
+      "slug": "friend-requests-ii-who-has-the-most-friends",
+      "title": "Friend Requests II: Who Has the Most Friends",
       "difficulty": "MEDIUM",
       "tags": [
-        "tree",
-        "binary-search-tree",
-        "binary-tree"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0702",
-      "slug": "search-in-a-sorted-array-of-unknown-size",
-      "title": "Search in a Sorted Array of Unknown Size",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "interactive"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0703",
-      "slug": "kth-largest-element-in-a-stream",
-      "title": "Kth Largest Element in a Stream",
+      "id": "0603",
+      "slug": "consecutive-available-seats",
+      "title": "Consecutive Available Seats",
       "difficulty": "EASY",
       "tags": [
-        "tree",
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0604",
+      "slug": "design-compressed-string-iterator",
+      "title": "Design Compressed String Iterator",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
         "design",
-        "binary-search-tree",
-        "heap-priority-queue",
-        "binary-tree",
-        "data-stream"
+        "iterator"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "StringIterator"
     },
     {
-      "id": "0704",
-      "slug": "binary-search",
-      "title": "Binary Search",
+      "id": "0605",
+      "slug": "can-place-flowers",
+      "title": "Can Place Flowers",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "binary-search"
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canPlaceFlowers"
     },
     {
-      "id": "0705",
-      "slug": "design-hashset",
-      "title": "Design HashSet",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "linked-list",
-        "design",
-        "hash-function"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0706",
-      "slug": "design-hashmap",
-      "title": "Design HashMap",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "linked-list",
-        "design",
-        "hash-function"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0708",
-      "slug": "insert-into-a-sorted-circular-linked-list",
-      "title": "Insert into a Sorted Circular Linked List",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0709",
-      "slug": "to-lower-case",
-      "title": "To Lower Case",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0710",
-      "slug": "random-pick-with-blacklist",
-      "title": "Random Pick with Blacklist",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "binary-search",
-        "sorting",
-        "randomized"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0711",
-      "slug": "number-of-distinct-islands-ii",
-      "title": "Number of Distinct Islands II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "sorting",
-        "matrix",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0712",
-      "slug": "minimum-ascii-delete-sum-for-two-strings",
-      "title": "Minimum ASCII Delete Sum for Two Strings",
+      "id": "0606",
+      "slug": "construct-string-from-binary-tree",
+      "title": "Construct String from Binary Tree",
       "difficulty": "MEDIUM",
       "tags": [
         "string",
-        "dynamic-programming"
+        "tree",
+        "depth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "tree2str"
     },
     {
-      "id": "0713",
-      "slug": "subarray-product-less-than-k",
-      "title": "Subarray Product Less Than K",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "sliding-window",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0714",
-      "slug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
-      "title": "Best Time to Buy and Sell Stock with Transaction Fee",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0715",
-      "slug": "range-module",
-      "title": "Range Module",
-      "difficulty": "HARD",
-      "tags": [
-        "design",
-        "segment-tree",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0717",
-      "slug": "1-bit-and-2-bit-characters",
-      "title": "1-bit and 2-bit Characters",
+      "id": "0607",
+      "slug": "sales-person",
+      "title": "Sales Person",
       "difficulty": "EASY",
       "tags": [
-        "array"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0718",
-      "slug": "maximum-length-of-repeated-subarray",
-      "title": "Maximum Length of Repeated Subarray",
+      "id": "0608",
+      "slug": "tree-node",
+      "title": "Tree Node",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0609",
+      "slug": "find-duplicate-file-in-system",
+      "title": "Find Duplicate File in System",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "binary-search",
-        "dynamic-programming",
-        "sliding-window",
-        "rolling-hash",
-        "hash-function"
+        "hash-table",
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findDuplicate"
     },
     {
-      "id": "0719",
-      "slug": "find-k-th-smallest-pair-distance",
-      "title": "Find K-th Smallest Pair Distance",
-      "difficulty": "HARD",
+      "id": "0610",
+      "slug": "triangle-judgement",
+      "title": "Triangle Judgement",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0611",
+      "slug": "valid-triangle-number",
+      "title": "Valid Triangle Number",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "two-pointers",
         "binary-search",
+        "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "triangleNumber"
+    },
+    {
+      "id": "0612",
+      "slug": "shortest-distance-in-a-plane",
+      "title": "Shortest Distance in a Plane",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0613",
+      "slug": "shortest-distance-in-a-line",
+      "title": "Shortest Distance in a Line",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0614",
+      "slug": "second-degree-follower",
+      "title": "Second Degree Follower",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0615",
+      "slug": "average-salary-departments-vs-company",
+      "title": "Average Salary: Departments VS Company",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0616",
+      "slug": "add-bold-tag-in-string",
+      "title": "Add Bold Tag in String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie",
+        "string-matching"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addBoldTag"
+    },
+    {
+      "id": "0617",
+      "slug": "merge-two-binary-trees",
+      "title": "Merge Two Binary Trees",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mergeTrees"
+    },
+    {
+      "id": "0618",
+      "slug": "students-report-by-geography",
+      "title": "Students Report By Geography",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0619",
+      "slug": "biggest-single-number",
+      "title": "Biggest Single Number",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0620",
+      "slug": "not-boring-movies",
+      "title": "Not Boring Movies",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

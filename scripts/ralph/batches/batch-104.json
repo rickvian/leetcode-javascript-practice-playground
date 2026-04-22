@@ -2,242 +2,278 @@
   "batchId": "batch-104",
   "problems": [
     {
-      "id": "2162",
-      "slug": "minimum-cost-to-set-cooking-time",
-      "title": "Minimum Cost to Set Cooking Time",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2163",
-      "slug": "minimum-difference-in-sums-after-removal-of-elements",
-      "title": "Minimum Difference in Sums After Removal of Elements",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2164",
-      "slug": "sort-even-and-odd-indices-independently",
-      "title": "Sort Even and Odd Indices Independently",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2165",
-      "slug": "smallest-value-of-the-rearranged-number",
-      "title": "Smallest Value of the Rearranged Number",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2166",
-      "slug": "design-bitset",
-      "title": "Design Bitset",
+      "id": "2061",
+      "slug": "number-of-spaces-cleaning-robot-cleaned",
+      "title": "Number of Spaces Cleaning Robot Cleaned",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "string",
-        "design"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "2167",
-      "slug": "minimum-time-to-remove-all-cars-containing-illegal-goods",
-      "title": "Minimum Time to Remove All Cars Containing Illegal Goods",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2168",
-      "slug": "unique-substrings-with-equal-digit-frequency",
-      "title": "Unique Substrings With Equal Digit Frequency",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "rolling-hash",
-        "counting",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2169",
-      "slug": "count-operations-to-obtain-zero",
-      "title": "Count Operations to Obtain Zero",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
+        "matrix",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfCleanRooms"
     },
     {
-      "id": "2170",
-      "slug": "minimum-operations-to-make-the-array-alternating",
-      "title": "Minimum Operations to Make the Array Alternating",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "greedy",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2171",
-      "slug": "removing-minimum-number-of-magic-beans",
-      "title": "Removing Minimum Number of Magic Beans",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting",
-        "enumeration",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2172",
-      "slug": "maximum-and-sum-of-array",
-      "title": "Maximum AND Sum of Array",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2173",
-      "slug": "longest-winning-streak",
-      "title": "Longest Winning Streak",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2174",
-      "slug": "remove-all-ones-with-row-and-column-flips-ii",
-      "title": "Remove All Ones With Row and Column Flips II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "bit-manipulation",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2175",
-      "slug": "the-change-in-global-rankings",
-      "title": "The Change in Global Rankings",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2176",
-      "slug": "count-equal-and-divisible-pairs-in-an-array",
-      "title": "Count Equal and Divisible Pairs in an Array",
+      "id": "2062",
+      "slug": "count-vowel-substrings-of-a-string",
+      "title": "Count Vowel Substrings of a String",
       "difficulty": "EASY",
       "tags": [
-        "array"
+        "hash-table",
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countVowelSubstrings"
     },
     {
-      "id": "2177",
-      "slug": "find-three-consecutive-integers-that-sum-to-a-given-number",
-      "title": "Find Three Consecutive Integers That Sum to a Given Number",
+      "id": "2063",
+      "slug": "vowels-of-all-substrings",
+      "title": "Vowels of All Substrings",
       "difficulty": "MEDIUM",
       "tags": [
         "math",
-        "simulation"
+        "string",
+        "dynamic-programming",
+        "combinatorics"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countVowels"
     },
     {
-      "id": "2178",
-      "slug": "maximum-split-of-positive-even-integers",
-      "title": "Maximum Split of Positive Even Integers",
+      "id": "2064",
+      "slug": "minimized-maximum-of-products-distributed-to-any-store",
+      "title": "Minimized Maximum of Products Distributed to Any Store",
       "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "backtracking",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2179",
-      "slug": "count-good-triplets-in-an-array",
-      "title": "Count Good Triplets in an Array",
-      "difficulty": "HARD",
       "tags": [
         "array",
         "binary-search",
-        "divide-and-conquer",
-        "binary-indexed-tree",
-        "segment-tree",
-        "merge-sort",
-        "ordered-set"
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimizedMaximum"
     },
     {
-      "id": "2180",
-      "slug": "count-integers-with-even-digit-sum",
-      "title": "Count Integers With Even Digit Sum",
-      "difficulty": "EASY",
+      "id": "2065",
+      "slug": "maximum-path-quality-of-a-graph",
+      "title": "Maximum Path Quality of a Graph",
+      "difficulty": "HARD",
       "tags": [
-        "math",
-        "simulation"
+        "array",
+        "backtracking",
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximalPathQuality"
     },
     {
-      "id": "2181",
-      "slug": "merge-nodes-in-between-zeros",
-      "title": "Merge Nodes in Between Zeros",
+      "id": "2066",
+      "slug": "account-balance",
+      "title": "Account Balance",
       "difficulty": "MEDIUM",
       "tags": [
-        "linked-list",
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2067",
+      "slug": "number-of-equal-count-substrings",
+      "title": "Number of Equal Count Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "equalCountSubstrings"
+    },
+    {
+      "id": "2068",
+      "slug": "check-whether-two-strings-are-almost-equivalent",
+      "title": "Check Whether Two Strings are Almost Equivalent",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkAlmostEquivalent"
+    },
+    {
+      "id": "2069",
+      "slug": "walking-robot-simulation-ii",
+      "title": "Walking Robot Simulation II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "design",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "Robot"
+    },
+    {
+      "id": "2070",
+      "slug": "most-beautiful-item-for-each-query",
+      "title": "Most Beautiful Item for Each Query",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumBeauty"
+    },
+    {
+      "id": "2071",
+      "slug": "maximum-number-of-tasks-you-can-assign",
+      "title": "Maximum Number of Tasks You Can Assign",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "greedy",
+        "queue",
+        "sorting",
+        "monotonic-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxTaskAssign"
+    },
+    {
+      "id": "2072",
+      "slug": "the-winner-university",
+      "title": "The Winner University",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2073",
+      "slug": "time-needed-to-buy-tickets",
+      "title": "Time Needed to Buy Tickets",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "queue",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "timeRequiredToBuy"
+    },
+    {
+      "id": "2074",
+      "slug": "reverse-nodes-in-even-length-groups",
+      "title": "Reverse Nodes in Even Length Groups",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverseEvenLengthGroups"
+    },
+    {
+      "id": "2075",
+      "slug": "decode-the-slanted-ciphertext",
+      "title": "Decode the Slanted Ciphertext",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "decodeCiphertext"
+    },
+    {
+      "id": "2076",
+      "slug": "process-restricted-friend-requests",
+      "title": "Process Restricted Friend Requests",
+      "difficulty": "HARD",
+      "tags": [
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "friendRequests"
+    },
+    {
+      "id": "2077",
+      "slug": "paths-in-maze-that-lead-to-same-room",
+      "title": "Paths in Maze That Lead to Same Room",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfPaths"
+    },
+    {
+      "id": "2078",
+      "slug": "two-furthest-houses-with-different-colors",
+      "title": "Two Furthest Houses With Different Colors",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDistance"
+    },
+    {
+      "id": "2079",
+      "slug": "watering-plants",
+      "title": "Watering Plants",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wateringPlants"
+    },
+    {
+      "id": "2080",
+      "slug": "range-frequency-queries",
+      "title": "Range Frequency Queries",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "design",
+        "segment-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "RangeFreqQuery"
     }
   ]
 }

@@ -2,241 +2,307 @@
   "batchId": "batch-018",
   "problems": [
     {
-      "id": "0434",
-      "slug": "number-of-segments-in-a-string",
-      "title": "Number of Segments in a String",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0436",
-      "slug": "find-right-interval",
-      "title": "Find Right Interval",
+      "id": "0341",
+      "slug": "flatten-nested-list-iterator",
+      "title": "Flatten Nested List Iterator",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "binary-search",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0437",
-      "slug": "path-sum-iii",
-      "title": "Path Sum III",
-      "difficulty": "MEDIUM",
-      "tags": [
+        "stack",
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "design",
+        "queue",
+        "iterator"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "NestedIterator"
     },
     {
-      "id": "0438",
-      "slug": "find-all-anagrams-in-a-string",
-      "title": "Find All Anagrams in a String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0439",
-      "slug": "ternary-expression-parser",
-      "title": "Ternary Expression Parser",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "stack",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0440",
-      "slug": "k-th-smallest-in-lexicographical-order",
-      "title": "K-th Smallest in Lexicographical Order",
-      "difficulty": "HARD",
-      "tags": [
-        "trie"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0441",
-      "slug": "arranging-coins",
-      "title": "Arranging Coins",
+      "id": "0342",
+      "slug": "power-of-four",
+      "title": "Power of Four",
       "difficulty": "EASY",
       "tags": [
         "math",
-        "binary-search"
+        "bit-manipulation",
+        "recursion"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPowerOfFour"
     },
     {
-      "id": "0442",
-      "slug": "find-all-duplicates-in-an-array",
-      "title": "Find All Duplicates in an Array",
+      "id": "0343",
+      "slug": "integer-break",
+      "title": "Integer Break",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "hash-table",
-        "sorting"
+        "math",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "integerBreak"
     },
     {
-      "id": "0443",
-      "slug": "string-compression",
-      "title": "String Compression",
-      "difficulty": "MEDIUM",
+      "id": "0344",
+      "slug": "reverse-string",
+      "title": "Reverse String",
+      "difficulty": "EASY",
       "tags": [
         "two-pointers",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverseString"
     },
     {
-      "id": "0444",
-      "slug": "sequence-reconstruction",
-      "title": "Sequence Reconstruction",
-      "difficulty": "MEDIUM",
+      "id": "0345",
+      "slug": "reverse-vowels-of-a-string",
+      "title": "Reverse Vowels of a String",
+      "difficulty": "EASY",
       "tags": [
-        "array",
-        "graph",
-        "topological-sort"
+        "two-pointers",
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverseVowels"
     },
     {
-      "id": "0445",
-      "slug": "add-two-numbers-ii",
-      "title": "Add Two Numbers II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "math",
-        "stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0446",
-      "slug": "arithmetic-slices-ii-subsequence",
-      "title": "Arithmetic Slices II - Subsequence",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0447",
-      "slug": "number-of-boomerangs",
-      "title": "Number of Boomerangs",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0448",
-      "slug": "find-all-numbers-disappeared-in-an-array",
-      "title": "Find All Numbers Disappeared in an Array",
+      "id": "0346",
+      "slug": "moving-average-from-data-stream",
+      "title": "Moving Average from Data Stream",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "hash-table"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0449",
-      "slug": "serialize-and-deserialize-bst",
-      "title": "Serialize and Deserialize BST",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
         "design",
-        "binary-search-tree",
-        "binary-tree"
+        "queue",
+        "data-stream"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "MovingAverage"
     },
     {
-      "id": "0450",
-      "slug": "delete-node-in-a-bst",
-      "title": "Delete Node in a BST",
+      "id": "0347",
+      "slug": "top-k-frequent-elements",
+      "title": "Top K Frequent Elements",
       "difficulty": "MEDIUM",
       "tags": [
-        "tree",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0451",
-      "slug": "sort-characters-by-frequency",
-      "title": "Sort Characters By Frequency",
-      "difficulty": "MEDIUM",
-      "tags": [
+        "array",
         "hash-table",
-        "string",
+        "divide-and-conquer",
         "sorting",
         "heap-priority-queue",
         "bucket-sort",
-        "counting"
+        "counting",
+        "quickselect"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "topKFrequent"
     },
     {
-      "id": "0452",
-      "slug": "minimum-number-of-arrows-to-burst-balloons",
-      "title": "Minimum Number of Arrows to Burst Balloons",
+      "id": "0348",
+      "slug": "design-tic-tac-toe",
+      "title": "Design Tic-Tac-Toe",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
+        "hash-table",
+        "design",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "TicTacToe"
+    },
+    {
+      "id": "0349",
+      "slug": "intersection-of-two-arrays",
+      "title": "Intersection of Two Arrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "binary-search",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "intersection"
     },
     {
-      "id": "0453",
-      "slug": "minimum-moves-to-equal-array-elements",
-      "title": "Minimum Moves to Equal Array Elements",
+      "id": "0350",
+      "slug": "intersection-of-two-arrays-ii",
+      "title": "Intersection of Two Arrays II",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "intersect"
+    },
+    {
+      "id": "0351",
+      "slug": "android-unlock-patterns",
+      "title": "Android Unlock Patterns",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfPatterns"
+    },
+    {
+      "id": "0352",
+      "slug": "data-stream-as-disjoint-intervals",
+      "title": "Data Stream as Disjoint Intervals",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "binary-search",
+        "union-find",
+        "design",
+        "data-stream",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "SummaryRanges"
+    },
+    {
+      "id": "0354",
+      "slug": "russian-doll-envelopes",
+      "title": "Russian Doll Envelopes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxEnvelopes"
+    },
+    {
+      "id": "0356",
+      "slug": "line-reflection",
+      "title": "Line Reflection",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
+        "hash-table",
         "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isReflected"
     },
     {
-      "id": "0454",
-      "slug": "4sum-ii",
-      "title": "4Sum II",
+      "id": "0357",
+      "slug": "count-numbers-with-unique-digits",
+      "title": "Count Numbers with Unique Digits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countNumbersWithUniqueDigits"
+    },
+    {
+      "id": "0358",
+      "slug": "rearrange-string-k-distance-apart",
+      "title": "Rearrange String k Distance Apart",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rearrangeString"
+    },
+    {
+      "id": "0359",
+      "slug": "logger-rate-limiter",
+      "title": "Logger Rate Limiter",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "design",
+        "data-stream"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "Logger"
+    },
+    {
+      "id": "0360",
+      "slug": "sort-transformed-array",
+      "title": "Sort Transformed Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table"
+        "math",
+        "two-pointers",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortTransformedArray"
+    },
+    {
+      "id": "0361",
+      "slug": "bomb-enemy",
+      "title": "Bomb Enemy",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxKilledEnemies"
+    },
+    {
+      "id": "0363",
+      "slug": "max-sum-of-rectangle-no-larger-than-k",
+      "title": "Max Sum of Rectangle No Larger Than K",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "matrix",
+        "prefix-sum",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSumSubmatrix"
     }
   ]
 }

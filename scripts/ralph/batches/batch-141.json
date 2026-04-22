@@ -2,235 +2,273 @@
   "batchId": "batch-141",
   "problems": [
     {
-      "id": "2902",
-      "slug": "count-of-sub-multisets-with-bounded-sum",
-      "title": "Count of Sub-Multisets With Bounded Sum",
+      "id": "2801",
+      "slug": "count-stepping-numbers-in-range",
+      "title": "Count Stepping Numbers in Range",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "hash-table",
-        "dynamic-programming",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2903",
-      "slug": "find-indices-with-index-and-value-difference-i",
-      "title": "Find Indices With Index and Value Difference I",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2904",
-      "slug": "shortest-and-lexicographically-smallest-beautiful-string",
-      "title": "Shortest and Lexicographically Smallest Beautiful String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2905",
-      "slug": "find-indices-with-index-and-value-difference-ii",
-      "title": "Find Indices With Index and Value Difference II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2906",
-      "slug": "construct-product-matrix",
-      "title": "Construct Product Matrix",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "matrix",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2907",
-      "slug": "maximum-profitable-triplets-with-increasing-prices-i",
-      "title": "Maximum Profitable Triplets With Increasing Prices I",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-indexed-tree",
-        "segment-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2908",
-      "slug": "minimum-sum-of-mountain-triplets-i",
-      "title": "Minimum Sum of Mountain Triplets I",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2909",
-      "slug": "minimum-sum-of-mountain-triplets-ii",
-      "title": "Minimum Sum of Mountain Triplets II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2910",
-      "slug": "minimum-number-of-groups-to-create-a-valid-assignment",
-      "title": "Minimum Number of Groups to Create a Valid Assignment",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2911",
-      "slug": "minimum-changes-to-make-k-semi-palindromes",
-      "title": "Minimum Changes to Make K Semi-palindromes",
-      "difficulty": "HARD",
-      "tags": [
-        "two-pointers",
         "string",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2912",
-      "slug": "number-of-ways-to-reach-destination-in-the-grid",
-      "title": "Number of Ways to Reach Destination in the Grid",
-      "difficulty": "HARD",
+      "id": "2802",
+      "slug": "find-the-k-th-lucky-number",
+      "title": "Find The K-th Lucky Number",
+      "difficulty": "MEDIUM",
       "tags": [
         "math",
-        "dynamic-programming",
-        "combinatorics"
+        "string",
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthLuckyNumber"
     },
     {
-      "id": "2913",
-      "slug": "subarrays-distinct-element-sum-of-squares-i",
-      "title": "Subarrays Distinct Element Sum of Squares I",
+      "id": "2803",
+      "slug": "factorial-generator",
+      "title": "Factorial Generator",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2804",
+      "slug": "array-prototype-foreach",
+      "title": "Array Prototype ForEach",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2805",
+      "slug": "custom-interval",
+      "title": "Custom Interval",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2806",
+      "slug": "account-balance-after-rounded-purchase",
+      "title": "Account Balance After Rounded Purchase",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "accountBalanceAfterPurchase"
+    },
+    {
+      "id": "2807",
+      "slug": "insert-greatest-common-divisors-in-linked-list",
+      "title": "Insert Greatest Common Divisors in Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "insertGreatestCommonDivisors"
+    },
+    {
+      "id": "2808",
+      "slug": "minimum-seconds-to-equalize-a-circular-array",
+      "title": "Minimum Seconds to Equalize a Circular Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2809",
+      "slug": "minimum-time-to-make-array-sum-at-most-x",
+      "title": "Minimum Time to Make Array Sum At Most x",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2810",
+      "slug": "faulty-keyboard",
+      "title": "Faulty Keyboard",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "finalString"
+    },
+    {
+      "id": "2811",
+      "slug": "check-if-it-is-possible-to-split-array",
+      "title": "Check if it is Possible to Split Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2812",
+      "slug": "find-the-safest-path-in-a-grid",
+      "title": "Find the Safest Path in a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "breadth-first-search",
+        "union-find",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2813",
+      "slug": "maximum-elegance-of-a-k-length-subsequence",
+      "title": "Maximum Elegance of a K-Length Subsequence",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "stack",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2814",
+      "slug": "minimum-time-takes-to-reach-destination-without-drowning",
+      "title": "Minimum Time Takes to Reach Destination Without Drowning",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumSeconds"
+    },
+    {
+      "id": "2815",
+      "slug": "max-pair-sum-in-an-array",
+      "title": "Max Pair Sum in an Array",
       "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSum"
     },
     {
-      "id": "2914",
-      "slug": "minimum-number-of-changes-to-make-binary-string-beautiful",
-      "title": "Minimum Number of Changes to Make Binary String Beautiful",
+      "id": "2816",
+      "slug": "double-a-number-represented-as-a-linked-list",
+      "title": "Double a Number Represented as a Linked List",
       "difficulty": "MEDIUM",
       "tags": [
-        "string"
+        "linked-list",
+        "math",
+        "stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "doubleIt"
     },
     {
-      "id": "2915",
-      "slug": "length-of-the-longest-subsequence-that-sums-to-target",
-      "title": "Length of the Longest Subsequence That Sums to Target",
+      "id": "2817",
+      "slug": "minimum-absolute-difference-between-elements-with-constraint",
+      "title": "Minimum Absolute Difference Between Elements With Constraint",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming"
+        "binary-search",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2916",
-      "slug": "subarrays-distinct-element-sum-of-squares-ii",
-      "title": "Subarrays Distinct Element Sum of Squares II",
+      "id": "2818",
+      "slug": "apply-operations-to-maximize-score",
+      "title": "Apply Operations to Maximize Score",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "dynamic-programming",
-        "binary-indexed-tree",
-        "segment-tree"
+        "math",
+        "stack",
+        "greedy",
+        "sorting",
+        "monotonic-stack",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumScore"
     },
     {
-      "id": "2917",
-      "slug": "find-the-k-or-of-an-array",
-      "title": "Find the K-or of an Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2918",
-      "slug": "minimum-equal-sum-of-two-arrays-after-replacing-zeros",
-      "title": "Minimum Equal Sum of Two Arrays After Replacing Zeros",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2919",
-      "slug": "minimum-increment-operations-to-make-array-beautiful",
-      "title": "Minimum Increment Operations to Make Array Beautiful",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2920",
-      "slug": "maximum-points-after-collecting-coins-from-all-nodes",
-      "title": "Maximum Points After Collecting Coins From All Nodes",
+      "id": "2819",
+      "slug": "minimum-relative-loss-after-buying-chocolates",
+      "title": "Minimum Relative Loss After Buying Chocolates",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "dynamic-programming",
-        "bit-manipulation",
-        "tree",
-        "depth-first-search",
-        "memoization"
+        "binary-search",
+        "sorting",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumRelativeLosses"
     },
     {
-      "id": "2921",
-      "slug": "maximum-profitable-triplets-with-increasing-prices-ii",
-      "title": "Maximum Profitable Triplets With Increasing Prices II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-indexed-tree",
-        "segment-tree"
-      ],
-      "classHeavy": false
+      "id": "2820",
+      "slug": "election-results",
+      "title": "Election Results",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

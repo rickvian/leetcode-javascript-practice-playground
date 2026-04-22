@@ -2,242 +2,277 @@
   "batchId": "batch-111",
   "problems": [
     {
-      "id": "2302",
-      "slug": "count-subarrays-with-score-less-than-k",
-      "title": "Count Subarrays With Score Less Than K",
-      "difficulty": "HARD",
+      "id": "2201",
+      "slug": "count-artifacts-that-can-be-extracted",
+      "title": "Count Artifacts That Can Be Extracted",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "binary-search",
-        "sliding-window",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2303",
-      "slug": "calculate-amount-paid-in-taxes",
-      "title": "Calculate Amount Paid in Taxes",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
+        "hash-table",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "digArtifacts"
     },
     {
-      "id": "2304",
-      "slug": "minimum-path-cost-in-a-grid",
-      "title": "Minimum Path Cost in a Grid",
+      "id": "2202",
+      "slug": "maximize-the-topmost-element-after-k-moves",
+      "title": "Maximize the Topmost Element After K Moves",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming",
-        "matrix"
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumTop"
     },
     {
-      "id": "2305",
-      "slug": "fair-distribution-of-cookies",
-      "title": "Fair Distribution of Cookies",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2306",
-      "slug": "naming-a-company",
-      "title": "Naming a Company",
+      "id": "2203",
+      "slug": "minimum-weighted-subgraph-with-the-required-paths",
+      "title": "Minimum Weighted Subgraph With the Required Paths",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "bit-manipulation",
-        "enumeration"
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumWeight"
     },
     {
-      "id": "2307",
-      "slug": "check-for-contradictions-in-equations",
-      "title": "Check for Contradictions in Equations",
+      "id": "2204",
+      "slug": "distance-to-a-cycle-in-undirected-graph",
+      "title": "Distance to a Cycle in Undirected Graph",
       "difficulty": "HARD",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2308",
-      "slug": "arrange-table-by-gender",
-      "title": "Arrange Table by Gender",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2309",
-      "slug": "greatest-english-letter-in-upper-and-lower-case",
-      "title": "Greatest English Letter in Upper and Lower Case",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2310",
-      "slug": "sum-of-numbers-with-units-digit-k",
-      "title": "Sum of Numbers With Units Digit K",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "greedy",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2311",
-      "slug": "longest-binary-subsequence-less-than-or-equal-to-k",
-      "title": "Longest Binary Subsequence Less Than or Equal to K",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "greedy",
-        "memoization"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2312",
-      "slug": "selling-pieces-of-wood",
-      "title": "Selling Pieces of Wood",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "memoization"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2313",
-      "slug": "minimum-flips-in-binary-tree-to-get-result",
-      "title": "Minimum Flips in Binary Tree to Get Result",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2314",
-      "slug": "the-first-day-of-the-maximum-recorded-degree-in-each-city",
-      "title": "The First Day of the Maximum Recorded Degree in Each City",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2315",
-      "slug": "count-asterisks",
-      "title": "Count Asterisks",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2316",
-      "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
-      "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
-      "difficulty": "MEDIUM",
       "tags": [
         "depth-first-search",
         "breadth-first-search",
-        "union-find",
-        "graph"
+        "graph",
+        "topological-sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distanceToCycle"
     },
     {
-      "id": "2317",
-      "slug": "maximum-xor-after-operations",
-      "title": "Maximum XOR After Operations ",
-      "difficulty": "MEDIUM",
+      "id": "2205",
+      "slug": "the-number-of-users-that-are-eligible-for-discount",
+      "title": "The Number of Users That Are Eligible for Discount",
+      "difficulty": "EASY",
       "tags": [
-        "array",
-        "math",
-        "bit-manipulation"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2318",
-      "slug": "number-of-distinct-roll-sequences",
-      "title": "Number of Distinct Roll Sequences",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming",
-        "memoization"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2319",
-      "slug": "check-if-matrix-is-x-matrix",
-      "title": "Check if Matrix Is X-Matrix",
+      "id": "2206",
+      "slug": "divide-array-into-equal-pairs",
+      "title": "Divide Array Into Equal Pairs",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "matrix"
+        "hash-table",
+        "bit-manipulation",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "divideArray"
     },
     {
-      "id": "2320",
-      "slug": "count-number-of-ways-to-place-houses",
-      "title": "Count Number of Ways to Place Houses",
+      "id": "2207",
+      "slug": "maximize-number-of-subsequences-in-a-string",
+      "title": "Maximize Number of Subsequences in a String",
       "difficulty": "MEDIUM",
       "tags": [
-        "dynamic-programming"
+        "string",
+        "greedy",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumSubsequenceCount"
     },
     {
-      "id": "2321",
-      "slug": "maximum-score-of-spliced-array",
-      "title": "Maximum Score Of Spliced Array",
+      "id": "2208",
+      "slug": "minimum-operations-to-halve-array-sum",
+      "title": "Minimum Operations to Halve Array Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "halveArray"
+    },
+    {
+      "id": "2209",
+      "slug": "minimum-white-tiles-after-covering-with-carpets",
+      "title": "Minimum White Tiles After Covering With Carpets",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumWhiteTiles"
+    },
+    {
+      "id": "2210",
+      "slug": "count-hills-and-valleys-in-an-array",
+      "title": "Count Hills and Valleys in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countHillValley"
+    },
+    {
+      "id": "2211",
+      "slug": "count-collisions-on-a-road",
+      "title": "Count Collisions on a Road",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countCollisions"
+    },
+    {
+      "id": "2212",
+      "slug": "maximum-points-in-an-archery-competition",
+      "title": "Maximum Points in an Archery Competition",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
+        "bit-manipulation",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumBobPoints"
+    },
+    {
+      "id": "2213",
+      "slug": "longest-substring-of-one-repeating-character",
+      "title": "Longest Substring of One Repeating Character",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "dynamic-programming"
+        "string",
+        "segment-tree",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestRepeating"
+    },
+    {
+      "id": "2214",
+      "slug": "minimum-health-to-beat-game",
+      "title": "Minimum Health to Beat Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumHealth"
+    },
+    {
+      "id": "2215",
+      "slug": "find-the-difference-of-two-arrays",
+      "title": "Find the Difference of Two Arrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findDifference"
+    },
+    {
+      "id": "2216",
+      "slug": "minimum-deletions-to-make-array-beautiful",
+      "title": "Minimum Deletions to Make Array Beautiful",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minDeletion"
+    },
+    {
+      "id": "2217",
+      "slug": "find-palindrome-with-fixed-length",
+      "title": "Find Palindrome With Fixed Length",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthPalindrome"
+    },
+    {
+      "id": "2218",
+      "slug": "maximum-value-of-k-coins-from-piles",
+      "title": "Maximum Value of K Coins From Piles",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxValueOfCoins"
+    },
+    {
+      "id": "2219",
+      "slug": "maximum-sum-score-of-array",
+      "title": "Maximum Sum Score of Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumSumScore"
+    },
+    {
+      "id": "2220",
+      "slug": "minimum-bit-flips-to-convert-number",
+      "title": "Minimum Bit Flips to Convert Number",
+      "difficulty": "EASY",
+      "tags": [
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minBitFlips"
     }
   ]
 }

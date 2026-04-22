@@ -2,251 +2,293 @@
   "batchId": "batch-123",
   "problems": [
     {
-      "id": "2542",
-      "slug": "maximum-subsequence-score",
-      "title": "Maximum Subsequence Score",
+      "id": "2441",
+      "slug": "largest-positive-integer-that-exists-with-its-negative",
+      "title": "Largest Positive Integer That Exists With Its Negative",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMaxK"
+    },
+    {
+      "id": "2442",
+      "slug": "count-number-of-distinct-integers-after-reverse-operations",
+      "title": "Count Number of Distinct Integers After Reverse Operations",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "sorting",
-        "heap-priority-queue"
+        "hash-table",
+        "math",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countDistinctIntegers"
     },
     {
-      "id": "2543",
-      "slug": "check-if-point-is-reachable",
-      "title": "Check if Point Is Reachable",
+      "id": "2443",
+      "slug": "sum-of-number-and-its-reverse",
+      "title": "Sum of Number and Its Reverse",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumOfNumberAndReverse"
+    },
+    {
+      "id": "2444",
+      "slug": "count-subarrays-with-fixed-bounds",
+      "title": "Count Subarrays With Fixed Bounds",
       "difficulty": "HARD",
       "tags": [
+        "array",
+        "queue",
+        "sliding-window",
+        "monotonic-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSubarrays"
+    },
+    {
+      "id": "2445",
+      "slug": "number-of-nodes-with-value-one",
+      "title": "Number of Nodes With Value One",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfNodes"
+    },
+    {
+      "id": "2446",
+      "slug": "determine-if-two-events-have-conflict",
+      "title": "Determine if Two Events Have Conflict",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "haveConflict"
+    },
+    {
+      "id": "2447",
+      "slug": "number-of-subarrays-with-gcd-equal-to-k",
+      "title": "Number of Subarrays With GCD Equal to K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
         "math",
         "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "subarrayGCD"
     },
     {
-      "id": "2544",
-      "slug": "alternating-digit-sum",
-      "title": "Alternating Digit Sum",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2545",
-      "slug": "sort-the-students-by-their-kth-score",
-      "title": "Sort the Students by Their Kth Score",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sorting",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2546",
-      "slug": "apply-bitwise-operations-to-make-strings-equal",
-      "title": "Apply Bitwise Operations to Make Strings Equal",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2547",
-      "slug": "minimum-cost-to-split-an-array",
-      "title": "Minimum Cost to Split an Array",
+      "id": "2448",
+      "slug": "minimum-cost-to-make-array-equal",
+      "title": "Minimum Cost to Make Array Equal",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "hash-table",
-        "dynamic-programming",
-        "counting"
+        "binary-search",
+        "greedy",
+        "sorting",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCost"
     },
     {
-      "id": "2548",
-      "slug": "maximum-price-to-fill-a-bag",
-      "title": "Maximum Price to Fill a Bag",
-      "difficulty": "MEDIUM",
+      "id": "2449",
+      "slug": "minimum-number-of-operations-to-make-arrays-similar",
+      "title": "Minimum Number of Operations to Make Arrays Similar",
+      "difficulty": "HARD",
       "tags": [
         "array",
         "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "makeSimilar"
     },
     {
-      "id": "2549",
-      "slug": "count-distinct-numbers-on-board",
-      "title": "Count Distinct Numbers on Board",
+      "id": "2450",
+      "slug": "number-of-distinct-binary-strings-after-applying-operations",
+      "title": "Number of Distinct Binary Strings After Applying Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countDistinctStrings"
+    },
+    {
+      "id": "2451",
+      "slug": "odd-string-difference",
+      "title": "Odd String Difference",
       "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "math",
-        "simulation"
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "oddString"
     },
     {
-      "id": "2550",
-      "slug": "count-collisions-of-monkeys-on-a-polygon",
-      "title": "Count Collisions of Monkeys on a Polygon",
+      "id": "2452",
+      "slug": "words-within-two-edits-of-dictionary",
+      "title": "Words Within Two Edits of Dictionary",
       "difficulty": "MEDIUM",
       "tags": [
-        "math",
-        "recursion"
+        "array",
+        "string",
+        "trie"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "twoEditWords"
     },
     {
-      "id": "2551",
-      "slug": "put-marbles-in-bags",
-      "title": "Put Marbles in Bags",
+      "id": "2453",
+      "slug": "destroy-sequential-targets",
+      "title": "Destroy Sequential Targets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "destroyTargets"
+    },
+    {
+      "id": "2454",
+      "slug": "next-greater-element-iv",
+      "title": "Next Greater Element IV",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "greedy",
+        "binary-search",
+        "stack",
+        "sorting",
+        "heap-priority-queue",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2455",
+      "slug": "average-value-of-even-numbers-that-are-divisible-by-three",
+      "title": "Average Value of Even Numbers That Are Divisible by Three",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "averageValue"
+    },
+    {
+      "id": "2456",
+      "slug": "most-popular-video-creator",
+      "title": "Most Popular Video Creator",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
         "sorting",
         "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mostPopularCreator"
     },
     {
-      "id": "2552",
-      "slug": "count-increasing-quadruplets",
-      "title": "Count Increasing Quadruplets",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "binary-indexed-tree",
-        "enumeration",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2553",
-      "slug": "separate-the-digits-in-an-array",
-      "title": "Separate the Digits in an Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2554",
-      "slug": "maximum-number-of-integers-to-choose-from-a-range-i",
-      "title": "Maximum Number of Integers to Choose From a Range I",
+      "id": "2457",
+      "slug": "minimum-addition-to-make-integer-beautiful",
+      "title": "Minimum Addition to Make Integer Beautiful",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "hash-table",
-        "binary-search",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2555",
-      "slug": "maximize-win-from-two-segments",
-      "title": "Maximize Win From Two Segments",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2556",
-      "slug": "disconnect-path-in-a-binary-matrix-by-at-most-one-flip",
-      "title": "Disconnect Path in a Binary Matrix by at Most One Flip",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "depth-first-search",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2557",
-      "slug": "maximum-number-of-integers-to-choose-from-a-range-ii",
-      "title": "Maximum Number of Integers to Choose From a Range II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2558",
-      "slug": "take-gifts-from-the-richest-pile",
-      "title": "Take Gifts From the Richest Pile",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "heap-priority-queue",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2559",
-      "slug": "count-vowel-strings-in-ranges",
-      "title": "Count Vowel Strings in Ranges",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2560",
-      "slug": "house-robber-iv",
-      "title": "House Robber IV",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "dynamic-programming",
+        "math",
         "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2561",
-      "slug": "rearranging-fruits",
-      "title": "Rearranging Fruits",
+      "id": "2458",
+      "slug": "height-of-binary-tree-after-subtree-removal-queries",
+      "title": "Height of Binary Tree After Subtree Removal Queries",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "treeQueries"
+    },
+    {
+      "id": "2459",
+      "slug": "sort-array-by-moving-items-to-empty-space",
+      "title": "Sort Array by Moving Items to Empty Space",
       "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
-        "greedy",
-        "sort"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortArray"
+    },
+    {
+      "id": "2460",
+      "slug": "apply-operations-to-an-array",
+      "title": "Apply Operations to an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "applyOperations"
     }
   ]
 }

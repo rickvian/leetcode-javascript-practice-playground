@@ -2,251 +2,274 @@
   "batchId": "batch-009",
   "problems": [
     {
-      "id": "0231",
-      "slug": "power-of-two",
-      "title": "Power of Two",
-      "difficulty": "EASY",
+      "id": "0161",
+      "slug": "one-edit-distance",
+      "title": "One Edit Distance",
+      "difficulty": "MEDIUM",
       "tags": [
-        "math",
-        "bit-manipulation",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0232",
-      "slug": "implement-queue-using-stacks",
-      "title": "Implement Queue using Stacks",
-      "difficulty": "EASY",
-      "tags": [
-        "stack",
-        "design",
-        "queue"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0233",
-      "slug": "number-of-digit-one",
-      "title": "Number of Digit One",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0234",
-      "slug": "palindrome-linked-list",
-      "title": "Palindrome Linked List",
-      "difficulty": "EASY",
-      "tags": [
-        "linked-list",
         "two-pointers",
-        "stack",
-        "recursion"
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isOneEditDistance"
     },
     {
-      "id": "0236",
-      "slug": "lowest-common-ancestor-of-a-binary-tree",
-      "title": "Lowest Common Ancestor of a Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0237",
-      "slug": "delete-node-in-a-linked-list",
-      "title": "Delete Node in a Linked List",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0239",
-      "slug": "sliding-window-maximum",
-      "title": "Sliding Window Maximum",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "queue",
-        "sliding-window",
-        "heap-priority-queue",
-        "monotonic-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0240",
-      "slug": "search-a-2d-matrix-ii",
-      "title": "Search a 2D Matrix II",
+      "id": "0162",
+      "slug": "find-peak-element",
+      "title": "Find Peak Element",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "binary-search",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findPeakElement"
+    },
+    {
+      "id": "0163",
+      "slug": "missing-ranges",
+      "title": "Missing Ranges",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMissingRanges"
+    },
+    {
+      "id": "0164",
+      "slug": "maximum-gap",
+      "title": "Maximum Gap",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "bucket-sort",
+        "radix-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumGap"
+    },
+    {
+      "id": "0165",
+      "slug": "compare-version-numbers",
+      "title": "Compare Version Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "compareVersion"
+    },
+    {
+      "id": "0166",
+      "slug": "fraction-to-recurring-decimal",
+      "title": "Fraction to Recurring Decimal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fractionToDecimal"
+    },
+    {
+      "id": "0167",
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "title": "Two Sum II - Input Array Is Sorted",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "twoSum"
+    },
+    {
+      "id": "0168",
+      "slug": "excel-sheet-column-title",
+      "title": "Excel Sheet Column Title",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "convertToTitle"
+    },
+    {
+      "id": "0169",
+      "slug": "majority-element",
+      "title": "Majority Element",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
         "divide-and-conquer",
-        "matrix"
+        "sorting",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "majorityElement"
     },
     {
-      "id": "0241",
-      "slug": "different-ways-to-add-parentheses",
-      "title": "Different Ways to Add Parentheses",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "string",
-        "dynamic-programming",
-        "recursion",
-        "memoization"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0243",
-      "slug": "shortest-word-distance",
-      "title": "Shortest Word Distance",
+      "id": "0170",
+      "slug": "two-sum-iii-data-structure-design",
+      "title": "Two Sum III - Data structure design",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0244",
-      "slug": "shortest-word-distance-ii",
-      "title": "Shortest Word Distance II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "hash-table",
-        "two-pointers",
-        "string",
-        "design"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0245",
-      "slug": "shortest-word-distance-iii",
-      "title": "Shortest Word Distance III",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0246",
-      "slug": "strobogrammatic-number",
-      "title": "Strobogrammatic Number",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0247",
-      "slug": "strobogrammatic-number-ii",
-      "title": "Strobogrammatic Number II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0248",
-      "slug": "strobogrammatic-number-iii",
-      "title": "Strobogrammatic Number III",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "string",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0249",
-      "slug": "group-shifted-strings",
-      "title": "Group Shifted Strings",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0250",
-      "slug": "count-univalue-subtrees",
-      "title": "Count Univalue Subtrees",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0251",
-      "slug": "flatten-2d-vector",
-      "title": "Flatten 2D Vector",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "two-pointers",
         "design",
+        "data-stream"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "TwoSum"
+    },
+    {
+      "id": "0171",
+      "slug": "excel-sheet-column-number",
+      "title": "Excel Sheet Column Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "titleToNumber"
+    },
+    {
+      "id": "0172",
+      "slug": "factorial-trailing-zeroes",
+      "title": "Factorial Trailing Zeroes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "trailingZeroes"
+    },
+    {
+      "id": "0173",
+      "slug": "binary-search-tree-iterator",
+      "title": "Binary Search Tree Iterator",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "stack",
+        "tree",
+        "design",
+        "binary-search-tree",
+        "binary-tree",
         "iterator"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "BSTIterator"
     },
     {
-      "id": "0254",
-      "slug": "factor-combinations",
-      "title": "Factor Combinations",
+      "id": "0174",
+      "slug": "dungeon-game",
+      "title": "Dungeon Game",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "calculateMinimumHP"
+    },
+    {
+      "id": "0175",
+      "slug": "combine-two-tables",
+      "title": "Combine Two Tables",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0176",
+      "slug": "second-highest-salary",
+      "title": "Second Highest Salary",
       "difficulty": "MEDIUM",
       "tags": [
-        "backtracking"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0255",
-      "slug": "verify-preorder-sequence-in-binary-search-tree",
-      "title": "Verify Preorder Sequence in Binary Search Tree",
+      "id": "0177",
+      "slug": "nth-highest-salary",
+      "title": "Nth Highest Salary",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0178",
+      "slug": "rank-scores",
+      "title": "Rank Scores",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0179",
+      "slug": "largest-number",
+      "title": "Largest Number",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "stack",
-        "tree",
-        "binary-search-tree",
-        "recursion",
-        "monotonic-stack",
-        "binary-tree"
+        "string",
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestNumber"
+    },
+    {
+      "id": "0180",
+      "slug": "consecutive-numbers",
+      "title": "Consecutive Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

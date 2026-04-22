@@ -2,252 +2,287 @@
   "batchId": "batch-019",
   "problems": [
     {
-      "id": "0455",
-      "slug": "assign-cookies",
-      "title": "Assign Cookies",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "two-pointers",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0456",
-      "slug": "132-pattern",
-      "title": "132 Pattern",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "stack",
-        "monotonic-stack",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0457",
-      "slug": "circular-array-loop",
-      "title": "Circular Array Loop",
+      "id": "0353",
+      "slug": "design-snake-game",
+      "title": "Design Snake Game",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "two-pointers"
+        "design",
+        "queue",
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "SnakeGame"
     },
     {
-      "id": "0458",
-      "slug": "poor-pigs",
-      "title": "Poor Pigs",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "combinatorics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0459",
-      "slug": "repeated-substring-pattern",
-      "title": "Repeated Substring Pattern",
-      "difficulty": "EASY",
-      "tags": [
-        "string",
-        "string-matching"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0460",
-      "slug": "lfu-cache",
-      "title": "LFU Cache",
-      "difficulty": "HARD",
+      "id": "0355",
+      "slug": "design-twitter",
+      "title": "Design Twitter",
+      "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
         "linked-list",
         "design",
-        "doubly-linked-list"
+        "heap-priority-queue"
       ],
-      "classHeavy": true
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "Twitter"
     },
     {
-      "id": "0461",
-      "slug": "hamming-distance",
-      "title": "Hamming Distance",
+      "id": "0364",
+      "slug": "nested-list-weight-sum-ii",
+      "title": "Nested List Weight Sum II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "stack",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "depthSumInverse"
+    },
+    {
+      "id": "0365",
+      "slug": "water-and-jug-problem",
+      "title": "Water and Jug Problem",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canMeasureWater"
+    },
+    {
+      "id": "0366",
+      "slug": "find-leaves-of-binary-tree",
+      "title": "Find Leaves of Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findLeaves"
+    },
+    {
+      "id": "0367",
+      "slug": "valid-perfect-square",
+      "title": "Valid Perfect Square",
       "difficulty": "EASY",
       "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPerfectSquare"
+    },
+    {
+      "id": "0368",
+      "slug": "largest-divisible-subset",
+      "title": "Largest Divisible Subset",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestDivisibleSubset"
+    },
+    {
+      "id": "0369",
+      "slug": "plus-one-linked-list",
+      "title": "Plus One Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "plusOne"
+    },
+    {
+      "id": "0370",
+      "slug": "range-addition",
+      "title": "Range Addition",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getModifiedArray"
+    },
+    {
+      "id": "0371",
+      "slug": "sum-of-two-integers",
+      "title": "Sum of Two Integers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
         "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getSum"
     },
     {
-      "id": "0462",
-      "slug": "minimum-moves-to-equal-array-elements-ii",
-      "title": "Minimum Moves to Equal Array Elements II",
+      "id": "0372",
+      "slug": "super-pow",
+      "title": "Super Pow",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "divide-and-conquer"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "superPow"
+    },
+    {
+      "id": "0373",
+      "slug": "find-k-pairs-with-smallest-sums",
+      "title": "Find K Pairs with Smallest Sums",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "sorting"
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kSmallestPairs"
     },
     {
-      "id": "0463",
-      "slug": "island-perimeter",
-      "title": "Island Perimeter",
+      "id": "0374",
+      "slug": "guess-number-higher-or-lower",
+      "title": "Guess Number Higher or Lower",
       "difficulty": "EASY",
       "tags": [
+        "binary-search",
+        "interactive"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "guessNumber"
+    },
+    {
+      "id": "0375",
+      "slug": "guess-number-higher-or-lower-ii",
+      "title": "Guess Number Higher or Lower II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "game-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getMoneyAmount"
+    },
+    {
+      "id": "0376",
+      "slug": "wiggle-subsequence",
+      "title": "Wiggle Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
         "array",
-        "depth-first-search",
-        "breadth-first-search",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wiggleMaxLength"
+    },
+    {
+      "id": "0377",
+      "slug": "combination-sum-iv",
+      "title": "Combination Sum IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "combinationSum4"
+    },
+    {
+      "id": "0378",
+      "slug": "kth-smallest-element-in-a-sorted-matrix",
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting",
+        "heap-priority-queue",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthSmallest"
     },
     {
-      "id": "0464",
-      "slug": "can-i-win",
-      "title": "Can I Win",
+      "id": "0380",
+      "slug": "insert-delete-getrandom-o1",
+      "title": "Insert Delete GetRandom O(1)",
       "difficulty": "MEDIUM",
       "tags": [
+        "array",
+        "hash-table",
         "math",
-        "dynamic-programming",
-        "bit-manipulation",
-        "memoization",
-        "game-theory",
-        "bitmask"
+        "design",
+        "randomized"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "RandomizedSet"
     },
     {
-      "id": "0465",
-      "slug": "optimal-account-balancing",
-      "title": "Optimal Account Balancing",
+      "id": "0381",
+      "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+      "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0466",
-      "slug": "count-the-repetitions",
-      "title": "Count The Repetitions",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0467",
-      "slug": "unique-substrings-in-wraparound-string",
-      "title": "Unique Substrings in Wraparound String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0468",
-      "slug": "validate-ip-address",
-      "title": "Validate IP Address",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0469",
-      "slug": "convex-polygon",
-      "title": "Convex Polygon",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
+        "hash-table",
         "math",
-        "geometry"
+        "design",
+        "randomized"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "RandomizedCollection"
     },
     {
-      "id": "0470",
-      "slug": "implement-rand10-using-rand7",
-      "title": "Implement Rand10() Using Rand7()",
+      "id": "0382",
+      "slug": "linked-list-random-node",
+      "title": "Linked List Random Node",
       "difficulty": "MEDIUM",
       "tags": [
+        "linked-list",
         "math",
-        "rejection-sampling",
-        "randomized",
-        "probability-and-statistics"
+        "reservoir-sampling",
+        "randomized"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "0471",
-      "slug": "encode-string-with-shortest-length",
-      "title": "Encode String with Shortest Length",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0472",
-      "slug": "concatenated-words",
-      "title": "Concatenated Words",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "string",
-        "dynamic-programming",
-        "depth-first-search",
-        "trie",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0473",
-      "slug": "matchsticks-to-square",
-      "title": "Matchsticks to Square",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0474",
-      "slug": "ones-and-zeroes",
-      "title": "Ones and Zeroes",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "Solution"
     }
   ]
 }

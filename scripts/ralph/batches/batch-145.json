@@ -2,213 +2,235 @@
   "batchId": "batch-145",
   "problems": [
     {
-      "id": "2982",
-      "slug": "find-longest-special-substring-that-occurs-thrice-ii",
-      "title": "Find Longest Special Substring That Occurs Thrice II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "binary-search",
-        "sliding-window",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2983",
-      "slug": "palindrome-rearrangement-queries",
-      "title": "Palindrome Rearrangement Queries",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "string",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2984",
-      "slug": "find-peak-calling-hours-for-each-city",
-      "title": "Find Peak Calling Hours for Each City",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2985",
-      "slug": "calculate-compressed-mean",
-      "title": "Calculate Compressed Mean",
+      "id": "2881",
+      "slug": "create-a-new-column",
+      "title": "Create a New Column",
       "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2986",
-      "slug": "find-third-transaction",
-      "title": "Find Third Transaction",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2987",
-      "slug": "find-expensive-cities",
-      "title": "Find Expensive Cities",
+      "id": "2882",
+      "slug": "drop-duplicate-rows",
+      "title": "Drop Duplicate Rows",
       "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2988",
-      "slug": "manager-of-the-largest-department",
-      "title": "Manager of the Largest Department",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2989",
-      "slug": "class-performance",
-      "title": "Class Performance",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2990",
-      "slug": "loan-types",
-      "title": "Loan Types",
+      "id": "2883",
+      "slug": "drop-missing-data",
+      "title": "Drop Missing Data",
       "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2991",
-      "slug": "top-three-wineries",
-      "title": "Top Three Wineries ",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
+      "id": "2884",
+      "slug": "modify-columns",
+      "title": "Modify Columns",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2992",
-      "slug": "number-of-self-divisible-permutations",
-      "title": "Number of Self-Divisible Permutations",
+      "id": "2885",
+      "slug": "rename-columns",
+      "title": "Rename Columns",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2886",
+      "slug": "change-data-type",
+      "title": "Change Data Type",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2887",
+      "slug": "fill-missing-data",
+      "title": "Fill Missing Data",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2888",
+      "slug": "reshape-data-concatenate",
+      "title": "Reshape Data: Concatenate",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2889",
+      "slug": "reshape-data-pivot",
+      "title": "Reshape Data: Pivot",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2890",
+      "slug": "reshape-data-melt",
+      "title": "Reshape Data: Melt",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2891",
+      "slug": "method-chaining",
+      "title": "Method Chaining",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2892",
+      "slug": "minimizing-array-after-replacing-pairs-with-their-product",
+      "title": "Minimizing Array After Replacing Pairs With Their Product",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
         "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "number-theory",
-        "bitmask"
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minArrayLength"
     },
     {
-      "id": "2993",
-      "slug": "friday-purchases-i",
-      "title": "Friday Purchases I",
+      "id": "2893",
+      "slug": "calculate-orders-within-each-interval",
+      "title": "Calculate Orders Within Each Interval",
       "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2994",
-      "slug": "friday-purchases-ii",
-      "title": "Friday Purchases II ",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2995",
-      "slug": "viewers-turned-streamers",
-      "title": "Viewers Turned Streamers",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2996",
-      "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
-      "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+      "id": "2894",
+      "slug": "divisible-and-non-divisible-sums-difference",
+      "title": "Divisible and Non-divisible Sums Difference",
       "difficulty": "EASY",
       "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "differenceOfSums"
+    },
+    {
+      "id": "2895",
+      "slug": "minimum-processing-time",
+      "title": "Minimum Processing Time",
+      "difficulty": "MEDIUM",
+      "tags": [
         "array",
-        "hash-table",
+        "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minProcessingTime"
     },
     {
-      "id": "2997",
-      "slug": "minimum-number-of-operations-to-make-array-xor-equal-to-k",
-      "title": "Minimum Number of Operations to Make Array XOR Equal to K",
+      "id": "2896",
+      "slug": "apply-operations-to-make-two-strings-equal",
+      "title": "Apply Operations to Make Two Strings Equal",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2998",
-      "slug": "minimum-number-of-operations-to-make-x-and-y-equal",
-      "title": "Minimum Number of Operations to Make X and Y Equal",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming",
-        "breadth-first-search",
-        "memoization"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2999",
-      "slug": "count-the-number-of-powerful-integers",
-      "title": "Count the Number of Powerful Integers",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
         "string",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "3000",
-      "slug": "maximum-area-of-longest-diagonal-rectangle",
-      "title": "Maximum Area of Longest Diagonal Rectangle",
+      "id": "2897",
+      "slug": "apply-operations-on-array-to-maximize-sum-of-squares",
+      "title": "Apply Operations on Array to Maximize Sum of Squares",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSum"
+    },
+    {
+      "id": "2898",
+      "slug": "maximum-linear-stock-score",
+      "title": "Maximum Linear Stock Score",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxScore"
+    },
+    {
+      "id": "2899",
+      "slug": "last-visited-integers",
+      "title": "Last Visited Integers",
       "difficulty": "EASY",
       "tags": [
-        "array"
+        "array",
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lastVisitedIntegers"
+    },
+    {
+      "id": "2900",
+      "slug": "longest-unequal-adjacent-groups-subsequence-i",
+      "title": "Longest Unequal Adjacent Groups Subsequence I",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getLongestSubsequence"
     }
   ]
 }

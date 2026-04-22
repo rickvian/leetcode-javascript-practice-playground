@@ -2,218 +2,216 @@
   "batchId": "batch-132",
   "problems": [
     {
-      "id": "2722",
-      "slug": "join-two-arrays-by-id",
-      "title": "Join Two Arrays by ID",
+      "id": "2621",
+      "slug": "sleep",
+      "title": "Sleep",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2622",
+      "slug": "cache-with-time-limit",
+      "title": "Cache With Time Limit",
       "difficulty": "MEDIUM",
       "tags": [],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "TimeLimitedCache"
     },
     {
-      "id": "2723",
-      "slug": "add-two-promises",
-      "title": "Add Two Promises",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2724",
-      "slug": "sort-by",
-      "title": "Sort By",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2725",
-      "slug": "interval-cancellation",
-      "title": "Interval Cancellation",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2726",
-      "slug": "calculator-with-method-chaining",
-      "title": "Calculator with Method Chaining",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2727",
-      "slug": "is-object-empty",
-      "title": "Is Object Empty",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2728",
-      "slug": "count-houses-in-a-circular-street",
-      "title": "Count Houses in a Circular Street",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "interactive"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2729",
-      "slug": "check-if-the-number-is-fascinating",
-      "title": "Check if The Number is Fascinating",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2730",
-      "slug": "find-the-longest-semi-repetitive-substring",
-      "title": "Find the Longest Semi-Repetitive Substring",
+      "id": "2623",
+      "slug": "memoize",
+      "title": "Memoize",
       "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "sliding-window"
-      ],
-      "classHeavy": false
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2731",
-      "slug": "movement-of-robots",
-      "title": "Movement of Robots",
+      "id": "2624",
+      "slug": "snail-traversal",
+      "title": "Snail Traversal",
       "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "brainteaser",
-        "sorting",
-        "prefix-sum"
-      ],
-      "classHeavy": false
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2732",
-      "slug": "find-a-good-subset-of-the-matrix",
-      "title": "Find a Good Subset of the Matrix",
+      "id": "2625",
+      "slug": "flatten-deeply-nested-array",
+      "title": "Flatten Deeply Nested Array",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "flat"
+    },
+    {
+      "id": "2626",
+      "slug": "array-reduce-transformation",
+      "title": "Array Reduce Transformation",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reduce"
+    },
+    {
+      "id": "2627",
+      "slug": "debounce",
+      "title": "Debounce",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "debounce"
+    },
+    {
+      "id": "2628",
+      "slug": "json-deep-equal",
+      "title": "JSON Deep Equal",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "areDeeplyEqual"
+    },
+    {
+      "id": "2629",
+      "slug": "function-composition",
+      "title": "Function Composition",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "compose"
+    },
+    {
+      "id": "2630",
+      "slug": "memoize-ii",
+      "title": "Memoize II",
       "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2631",
+      "slug": "group-by",
+      "title": "Group By",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2632",
+      "slug": "curry",
+      "title": "Curry",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "curry"
+    },
+    {
+      "id": "2633",
+      "slug": "convert-object-to-json-string",
+      "title": "Convert Object to JSON String",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "jsonStringify"
+    },
+    {
+      "id": "2634",
+      "slug": "filter-elements-from-array",
+      "title": "Filter Elements from Array",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "filter"
+    },
+    {
+      "id": "2635",
+      "slug": "apply-transform-over-each-element-in-array",
+      "title": "Apply Transform Over Each Element in Array",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "map"
+    },
+    {
+      "id": "2636",
+      "slug": "promise-pool",
+      "title": "Promise Pool",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2637",
+      "slug": "promise-time-limit",
+      "title": "Promise Time Limit",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "timeLimit"
+    },
+    {
+      "id": "2638",
+      "slug": "count-the-number-of-k-free-subsets",
+      "title": "Count the Number of K-Free Subsets",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "bit-manipulation",
+        "math",
+        "dynamic-programming",
+        "sorting",
+        "combinatorics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countTheNumOfKFreeSubsets"
+    },
+    {
+      "id": "2639",
+      "slug": "find-the-width-of-columns-of-a-grid",
+      "title": "Find the Width of Columns of a Grid",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findColumnWidth"
     },
     {
-      "id": "2733",
-      "slug": "neither-minimum-nor-maximum",
-      "title": "Neither Minimum nor Maximum",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2734",
-      "slug": "lexicographically-smallest-string-after-substring-operation",
-      "title": "Lexicographically Smallest String After Substring Operation",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2735",
-      "slug": "collecting-chocolates",
-      "title": "Collecting Chocolates",
+      "id": "2640",
+      "slug": "find-the-score-of-all-prefixes-of-an-array",
+      "title": "Find the Score of All Prefixes of an Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "enumeration"
+        "prefix-sum"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "2736",
-      "slug": "maximum-sum-queries",
-      "title": "Maximum Sum Queries",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "stack",
-        "binary-indexed-tree",
-        "segment-tree",
-        "sorting",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2737",
-      "slug": "find-the-closest-marked-node",
-      "title": "Find the Closest Marked Node",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "graph",
-        "heap-priority-queue",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2738",
-      "slug": "count-occurrences-in-text",
-      "title": "Count Occurrences in Text",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2739",
-      "slug": "total-distance-traveled",
-      "title": "Total Distance Traveled",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2740",
-      "slug": "find-the-value-of-the-partition",
-      "title": "Find the Value of the Partition",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2741",
-      "slug": "special-permutations",
-      "title": "Special Permutations",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findPrefixScore"
     }
   ]
 }

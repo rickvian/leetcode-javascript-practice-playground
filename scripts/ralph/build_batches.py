@@ -5,6 +5,9 @@ Reads the full LeetCode problem dump, subtracts problems already present in
 so `existing + new ~= 3000`, tags class-heavy problems, and packs the
 selection into 20-problem batches with at most 2 class-heavy problems each.
 
+Also checks solutions-bank/ for each problem and tags oracleTier ("bank" or
+"missing") plus oracleFnName (the extracted function name, or None).
+
 Run with:
     python3 scripts/ralph/build_batches.py
 """
@@ -25,8 +28,11 @@ SOURCE_JSON = (
     / "full_leetcode_problems_response.json"
 )
 PLAYGROUND_DIR = REPO_ROOT / "leetcode-playground"
+SOLUTIONS_BANK_DIR = REPO_ROOT / "solutions-bank"
 OUTPUT_DIR = REPO_ROOT / "scripts" / "ralph" / "batches"
 MANIFEST_PATH = REPO_ROOT / "scripts" / "ralph" / "manifest.json"
+
+ORACLE_FN_RE = re.compile(r"^var\s+(\w+)\s*=\s*function", re.MULTILINE)
 
 TARGET_TOTAL = 3000
 TARGET_TOLERANCE = 20
@@ -81,6 +87,22 @@ def format_tags(topic_tags: Iterable[dict]) -> list[str]:
     return [t["slug"] for t in topic_tags if "slug" in t]
 
 
+def resolve_oracle(problem_id: str, slug: str) -> tuple[str, str | None]:
+    """Return (oracleTier, oracleFnName) for a problem.
+
+    oracleTier is "bank" when the file exists and the fn regex matches,
+    else "missing".
+    """
+    bank_path = SOLUTIONS_BANK_DIR / f"{problem_id}-{slug}.js"
+    if not bank_path.exists():
+        return "missing", None
+    source = bank_path.read_text(encoding="utf-8")
+    m = ORACLE_FN_RE.search(source)
+    if not m:
+        return "missing", None
+    return "bank", m.group(1)
+
+
 def build_problem_pool(
     questions: list[dict],
     existing_ids: set[int],
@@ -95,15 +117,19 @@ def build_problem_pool(
             continue
         slug = q["titleSlug"]
         title = q["title"]
+        pid = f"{fid:04d}"
+        oracle_tier, oracle_fn_name = resolve_oracle(pid, slug)
         pool.append(
             {
-                "id": f"{fid:04d}",
+                "id": pid,
                 "frontendId": fid,
                 "slug": slug,
                 "title": title,
                 "difficulty": q.get("difficulty", ""),
                 "tags": format_tags(q.get("topicTags", [])),
                 "classHeavy": is_class_heavy(title, slug),
+                "oracleTier": oracle_tier,
+                "oracleFnName": oracle_fn_name,
             }
         )
     pool.sort(key=lambda p: p["frontendId"])
@@ -166,6 +192,8 @@ def strip_pool_fields(problems: list[dict]) -> list[dict]:
             "difficulty": p["difficulty"],
             "tags": p["tags"],
             "classHeavy": p["classHeavy"],
+            "oracleTier": p["oracleTier"],
+            "oracleFnName": p["oracleFnName"],
         }
         for p in problems
     ]
@@ -182,19 +210,24 @@ def write_batches(batches: list[list[dict]]) -> list[dict]:
     for idx, batch in enumerate(batches, start=1):
         batch_id = f"batch-{idx:03d}"
         batch_path = OUTPUT_DIR / f"{batch_id}.json"
+        stripped = strip_pool_fields(batch)
         payload = {
             "batchId": batch_id,
-            "problems": strip_pool_fields(batch),
+            "problems": stripped,
         }
         with batch_path.open("w", encoding="utf-8") as f:
             json.dump(payload, f, indent=2)
             f.write("\n")
+        bank_count = sum(1 for p in stripped if p["oracleTier"] == "bank")
+        missing_count = sum(1 for p in stripped if p["oracleTier"] == "missing")
         manifest_entries.append(
             {
                 "batchId": batch_id,
                 "file": f"batches/{batch_id}.json",
                 "count": len(batch),
                 "classHeavyCount": sum(1 for p in batch if p["classHeavy"]),
+                "bankCount": bank_count,
+                "missingCount": missing_count,
             }
         )
     return manifest_entries
@@ -202,12 +235,16 @@ def write_batches(batches: list[list[dict]]) -> list[dict]:
 
 def write_manifest(manifest_entries: list[dict], existing_count: int) -> None:
     total_new = sum(e["count"] for e in manifest_entries)
+    total_bank = sum(e["bankCount"] for e in manifest_entries)
+    total_missing = sum(e["missingCount"] for e in manifest_entries)
     manifest = {
         "targetTotal": TARGET_TOTAL,
         "tolerance": TARGET_TOLERANCE,
         "existingCount": existing_count,
         "newCount": total_new,
         "grandTotal": existing_count + total_new,
+        "bankCount": total_bank,
+        "missingCount": total_missing,
         "batchSize": BATCH_SIZE,
         "maxClassHeavyPerBatch": MAX_CLASS_HEAVY_PER_BATCH,
         "batches": manifest_entries,
@@ -226,10 +263,14 @@ def main() -> None:
     manifest_entries = write_batches(batches)
     write_manifest(manifest_entries, existing_count=len(existing_ids))
 
+    total_bank = sum(e["bankCount"] for e in manifest_entries)
+    total_missing = sum(e["missingCount"] for e in manifest_entries)
     print(f"existing: {len(existing_ids)}")
     print(f"selected new: {len(selection)}")
     print(f"batches: {len(batches)}")
     print(f"grand total: {len(existing_ids) + len(selection)}")
+    print(f"oracle bank: {total_bank}")
+    print(f"oracle missing: {total_missing}")
 
 
 if __name__ == "__main__":

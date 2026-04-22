@@ -1,0 +1,299 @@
+{
+  "batchId": "batch-148",
+  "problems": [
+    {
+      "id": "2941",
+      "slug": "maximum-gcd-sum-of-a-subarray",
+      "title": "Maximum GCD-Sum of a Subarray",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "binary-search",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxGcdSum"
+    },
+    {
+      "id": "2942",
+      "slug": "find-words-containing-character",
+      "title": "Find Words Containing Character",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findWordsContaining"
+    },
+    {
+      "id": "2943",
+      "slug": "maximize-area-of-square-hole-in-grid",
+      "title": "Maximize Area of Square Hole in Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2944",
+      "slug": "minimum-number-of-coins-for-fruits",
+      "title": "Minimum Number of Coins for Fruits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "queue",
+        "heap-priority-queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2945",
+      "slug": "find-maximum-non-decreasing-array-length",
+      "title": "Find Maximum Non-decreasing Array Length",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "stack",
+        "queue",
+        "monotonic-stack",
+        "monotonic-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2946",
+      "slug": "matrix-similarity-after-cyclic-shifts",
+      "title": "Matrix Similarity After Cyclic Shifts",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "areSimilar"
+    },
+    {
+      "id": "2947",
+      "slug": "count-beautiful-substrings-i",
+      "title": "Count Beautiful Substrings I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "enumeration",
+        "number-theory",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "beautifulSubstrings"
+    },
+    {
+      "id": "2948",
+      "slug": "make-lexicographically-smallest-array-by-swapping-elements",
+      "title": "Make Lexicographically Smallest Array by Swapping Elements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "union-find",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lexicographicallySmallestArray"
+    },
+    {
+      "id": "2949",
+      "slug": "count-beautiful-substrings-ii",
+      "title": "Count Beautiful Substrings II",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "number-theory",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2950",
+      "slug": "number-of-divisible-substrings",
+      "title": "Number of Divisible Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countDivisibleSubstrings"
+    },
+    {
+      "id": "2951",
+      "slug": "find-the-peaks",
+      "title": "Find the Peaks",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findPeaks"
+    },
+    {
+      "id": "2952",
+      "slug": "minimum-number-of-coins-to-be-added",
+      "title": "Minimum Number of Coins to be Added",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumAddedCoins"
+    },
+    {
+      "id": "2953",
+      "slug": "count-complete-substrings",
+      "title": "Count Complete Substrings",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2954",
+      "slug": "count-the-number-of-infection-sequences",
+      "title": "Count the Number of Infection Sequences",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "combinatorics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2955",
+      "slug": "number-of-same-end-substrings",
+      "title": "Number of Same-End Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "counting",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sameEndSubstringCount"
+    },
+    {
+      "id": "2956",
+      "slug": "find-common-elements-between-two-arrays",
+      "title": "Find Common Elements Between Two Arrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findIntersectionValues"
+    },
+    {
+      "id": "2957",
+      "slug": "remove-adjacent-almost-equal-characters",
+      "title": "Remove Adjacent Almost-Equal Characters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeAlmostEqualCharacters"
+    },
+    {
+      "id": "2958",
+      "slug": "length-of-longest-subarray-with-at-most-k-frequency",
+      "title": "Length of Longest Subarray With at Most K Frequency",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSubarrayLength"
+    },
+    {
+      "id": "2959",
+      "slug": "number-of-possible-sets-of-closing-branches",
+      "title": "Number of Possible Sets of Closing Branches",
+      "difficulty": "HARD",
+      "tags": [
+        "bit-manipulation",
+        "graph",
+        "heap-priority-queue",
+        "enumeration",
+        "shortest-path"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2960",
+      "slug": "count-tested-devices-after-test-operations",
+      "title": "Count Tested Devices After Test Operations",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countTestedDevices"
+    }
+  ]
+}

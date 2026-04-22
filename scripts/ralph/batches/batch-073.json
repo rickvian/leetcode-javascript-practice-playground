@@ -2,232 +2,278 @@
   "batchId": "batch-073",
   "problems": [
     {
-      "id": "1542",
-      "slug": "find-longest-awesome-substring",
-      "title": "Find Longest Awesome Substring",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "string",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1543",
-      "slug": "fix-product-name-format",
-      "title": "Fix Product Name Format",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1544",
-      "slug": "make-the-string-great",
-      "title": "Make The String Great",
-      "difficulty": "EASY",
-      "tags": [
-        "string",
-        "stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1545",
-      "slug": "find-kth-bit-in-nth-binary-string",
-      "title": "Find Kth Bit in Nth Binary String",
+      "id": "1441",
+      "slug": "build-an-array-with-stack-operations",
+      "title": "Build an Array With Stack Operations",
       "difficulty": "MEDIUM",
       "tags": [
-        "string",
-        "recursion",
+        "array",
+        "stack",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "buildArray"
     },
     {
-      "id": "1546",
-      "slug": "maximum-number-of-non-overlapping-subarrays-with-sum-equals-target",
-      "title": "Maximum Number of Non-Overlapping Subarrays With Sum Equals Target",
+      "id": "1442",
+      "slug": "count-triplets-that-can-form-two-arrays-of-equal-xor",
+      "title": "Count Triplets That Can Form Two Arrays of Equal XOR",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "greedy",
+        "math",
+        "bit-manipulation",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countTriplets"
     },
     {
-      "id": "1547",
-      "slug": "minimum-cost-to-cut-a-stick",
-      "title": "Minimum Cost to Cut a Stick",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1548",
-      "slug": "the-most-similar-path-in-a-graph",
-      "title": "The Most Similar Path in a Graph",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1549",
-      "slug": "the-most-recent-orders-for-each-product",
-      "title": "The Most Recent Orders for Each Product",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1550",
-      "slug": "three-consecutive-odds",
-      "title": "Three Consecutive Odds",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1551",
-      "slug": "minimum-operations-to-make-array-equal",
-      "title": "Minimum Operations to Make Array Equal",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1552",
-      "slug": "magnetic-force-between-two-balls",
-      "title": "Magnetic Force Between Two Balls",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1553",
-      "slug": "minimum-number-of-days-to-eat-n-oranges",
-      "title": "Minimum Number of Days to Eat N Oranges",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming",
-        "memoization"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1554",
-      "slug": "strings-differ-by-one-character",
-      "title": "Strings Differ by One Character",
+      "id": "1443",
+      "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+      "title": "Minimum Time to Collect All Apples in a Tree",
       "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
-        "string",
-        "rolling-hash",
-        "hash-function"
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minTime"
     },
     {
-      "id": "1555",
-      "slug": "bank-account-summary",
-      "title": "Bank Account Summary",
+      "id": "1444",
+      "slug": "number-of-ways-of-cutting-a-pizza",
+      "title": "Number of Ways of Cutting a Pizza",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "memoization",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "ways"
+    },
+    {
+      "id": "1445",
+      "slug": "apples-oranges",
+      "title": "Apples & Oranges",
       "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1556",
-      "slug": "thousand-separator",
-      "title": "Thousand Separator",
+      "id": "1446",
+      "slug": "consecutive-characters",
+      "title": "Consecutive Characters",
       "difficulty": "EASY",
       "tags": [
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxPower"
     },
     {
-      "id": "1557",
-      "slug": "minimum-number-of-vertices-to-reach-all-nodes",
-      "title": "Minimum Number of Vertices to Reach All Nodes",
+      "id": "1447",
+      "slug": "simplified-fractions",
+      "title": "Simplified Fractions",
       "difficulty": "MEDIUM",
       "tags": [
-        "graph"
+        "math",
+        "string",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "simplifiedFractions"
     },
     {
-      "id": "1558",
-      "slug": "minimum-numbers-of-function-calls-to-make-target-array",
-      "title": "Minimum Numbers of Function Calls to Make Target Array",
+      "id": "1448",
+      "slug": "count-good-nodes-in-binary-tree",
+      "title": "Count Good Nodes in Binary Tree",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "greedy",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1559",
-      "slug": "detect-cycles-in-2d-grid",
-      "title": "Detect Cycles in 2D Grid",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
+        "tree",
         "depth-first-search",
         "breadth-first-search",
-        "union-find",
-        "matrix"
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "goodNodes"
     },
     {
-      "id": "1560",
-      "slug": "most-visited-sector-in-a-circular-track",
-      "title": "Most Visited Sector in  a Circular Track",
-      "difficulty": "EASY",
+      "id": "1449",
+      "slug": "form-largest-integer-with-digits-that-add-up-to-target",
+      "title": "Form Largest Integer With Digits That Add up to Target",
+      "difficulty": "HARD",
       "tags": [
         "array",
-        "simulation"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestNumber"
     },
     {
-      "id": "1561",
-      "slug": "maximum-number-of-coins-you-can-get",
-      "title": "Maximum Number of Coins You Can Get",
+      "id": "1450",
+      "slug": "number-of-students-doing-homework-at-a-given-time",
+      "title": "Number of Students Doing Homework at a Given Time",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "busyStudent"
+    },
+    {
+      "id": "1451",
+      "slug": "rearrange-words-in-a-sentence",
+      "title": "Rearrange Words in a Sentence",
       "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "arrangeWords"
+    },
+    {
+      "id": "1452",
+      "slug": "people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list",
+      "title": "People Whose List of Favorite Companies Is Not a Subset of Another List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "peopleIndexes"
+    },
+    {
+      "id": "1453",
+      "slug": "maximum-number-of-darts-inside-of-a-circular-dartboard",
+      "title": "Maximum Number of Darts Inside of a Circular Dartboard",
+      "difficulty": "HARD",
       "tags": [
         "array",
         "math",
-        "greedy",
-        "sorting",
-        "game-theory"
+        "geometry"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numPoints"
+    },
+    {
+      "id": "1454",
+      "slug": "active-users",
+      "title": "Active Users",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1455",
+      "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+      "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string",
+        "string-matching"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPrefixOfWord"
+    },
+    {
+      "id": "1456",
+      "slug": "maximum-number-of-vowels-in-a-substring-of-given-length",
+      "title": "Maximum Number of Vowels in a Substring of Given Length",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxVowels"
+    },
+    {
+      "id": "1457",
+      "slug": "pseudo-palindromic-paths-in-a-binary-tree",
+      "title": "Pseudo-Palindromic Paths in a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "bit-manipulation",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pseudoPalindromicPaths"
+    },
+    {
+      "id": "1458",
+      "slug": "max-dot-product-of-two-subsequences",
+      "title": "Max Dot Product of Two Subsequences",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDotProduct"
+    },
+    {
+      "id": "1459",
+      "slug": "rectangles-area",
+      "title": "Rectangles Area",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1460",
+      "slug": "make-two-arrays-equal-by-reversing-subarrays",
+      "title": "Make Two Arrays Equal by Reversing Subarrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

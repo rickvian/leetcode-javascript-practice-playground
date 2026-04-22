@@ -1,0 +1,276 @@
+{
+  "batchId": "batch-146",
+  "problems": [
+    {
+      "id": "2901",
+      "slug": "longest-unequal-adjacent-groups-subsequence-ii",
+      "title": "Longest Unequal Adjacent Groups Subsequence II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getWordsInLongestSubsequence"
+    },
+    {
+      "id": "2902",
+      "slug": "count-of-sub-multisets-with-bounded-sum",
+      "title": "Count of Sub-Multisets With Bounded Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2903",
+      "slug": "find-indices-with-index-and-value-difference-i",
+      "title": "Find Indices With Index and Value Difference I",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findIndices"
+    },
+    {
+      "id": "2904",
+      "slug": "shortest-and-lexicographically-smallest-beautiful-string",
+      "title": "Shortest and Lexicographically Smallest Beautiful String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestBeautifulSubstring"
+    },
+    {
+      "id": "2905",
+      "slug": "find-indices-with-index-and-value-difference-ii",
+      "title": "Find Indices With Index and Value Difference II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2906",
+      "slug": "construct-product-matrix",
+      "title": "Construct Product Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2907",
+      "slug": "maximum-profitable-triplets-with-increasing-prices-i",
+      "title": "Maximum Profitable Triplets With Increasing Prices I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-indexed-tree",
+        "segment-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProfit"
+    },
+    {
+      "id": "2908",
+      "slug": "minimum-sum-of-mountain-triplets-i",
+      "title": "Minimum Sum of Mountain Triplets I",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumSum"
+    },
+    {
+      "id": "2909",
+      "slug": "minimum-sum-of-mountain-triplets-ii",
+      "title": "Minimum Sum of Mountain Triplets II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumSum"
+    },
+    {
+      "id": "2910",
+      "slug": "minimum-number-of-groups-to-create-a-valid-assignment",
+      "title": "Minimum Number of Groups to Create a Valid Assignment",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2911",
+      "slug": "minimum-changes-to-make-k-semi-palindromes",
+      "title": "Minimum Changes to Make K Semi-palindromes",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2912",
+      "slug": "number-of-ways-to-reach-destination-in-the-grid",
+      "title": "Number of Ways to Reach Destination in the Grid",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfWays"
+    },
+    {
+      "id": "2913",
+      "slug": "subarrays-distinct-element-sum-of-squares-i",
+      "title": "Subarrays Distinct Element Sum of Squares I",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumCounts"
+    },
+    {
+      "id": "2914",
+      "slug": "minimum-number-of-changes-to-make-binary-string-beautiful",
+      "title": "Minimum Number of Changes to Make Binary String Beautiful",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minChanges"
+    },
+    {
+      "id": "2915",
+      "slug": "length-of-the-longest-subsequence-that-sums-to-target",
+      "title": "Length of the Longest Subsequence That Sums to Target",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2916",
+      "slug": "subarrays-distinct-element-sum-of-squares-ii",
+      "title": "Subarrays Distinct Element Sum of Squares II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "binary-indexed-tree",
+        "segment-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2917",
+      "slug": "find-the-k-or-of-an-array",
+      "title": "Find the K-or of an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findKOr"
+    },
+    {
+      "id": "2918",
+      "slug": "minimum-equal-sum-of-two-arrays-after-replacing-zeros",
+      "title": "Minimum Equal Sum of Two Arrays After Replacing Zeros",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSum"
+    },
+    {
+      "id": "2919",
+      "slug": "minimum-increment-operations-to-make-array-beautiful",
+      "title": "Minimum Increment Operations to Make Array Beautiful",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2920",
+      "slug": "maximum-points-after-collecting-coins-from-all-nodes",
+      "title": "Maximum Points After Collecting Coins From All Nodes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "tree",
+        "depth-first-search",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    }
+  ]
+}

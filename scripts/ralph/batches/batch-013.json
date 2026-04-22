@@ -2,260 +2,292 @@
   "batchId": "batch-013",
   "problems": [
     {
-      "id": "0327",
-      "slug": "count-of-range-sum",
-      "title": "Count of Range Sum",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "divide-and-conquer",
-        "binary-indexed-tree",
-        "segment-tree",
-        "merge-sort",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0328",
-      "slug": "odd-even-linked-list",
-      "title": "Odd Even Linked List",
+      "id": "0241",
+      "slug": "different-ways-to-add-parentheses",
+      "title": "Different Ways to Add Parentheses",
       "difficulty": "MEDIUM",
       "tags": [
-        "linked-list"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0329",
-      "slug": "longest-increasing-path-in-a-matrix",
-      "title": "Longest Increasing Path in a Matrix",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "depth-first-search",
-        "breadth-first-search",
-        "graph",
-        "topological-sort",
-        "memoization",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0330",
-      "slug": "patching-array",
-      "title": "Patching Array",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0331",
-      "slug": "verify-preorder-serialization-of-a-binary-tree",
-      "title": "Verify Preorder Serialization of a Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "stack",
-        "tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0332",
-      "slug": "reconstruct-itinerary",
-      "title": "Reconstruct Itinerary",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "string",
-        "depth-first-search",
-        "graph",
-        "sorting",
-        "heap-priority-queue",
-        "eulerian-circuit"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0333",
-      "slug": "largest-bst-subtree",
-      "title": "Largest BST Subtree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming",
-        "tree",
-        "depth-first-search",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0334",
-      "slug": "increasing-triplet-subsequence",
-      "title": "Increasing Triplet Subsequence",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0335",
-      "slug": "self-crossing",
-      "title": "Self Crossing",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
         "math",
-        "geometry"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0336",
-      "slug": "palindrome-pairs",
-      "title": "Palindrome Pairs",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
         "string",
-        "trie"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0337",
-      "slug": "house-robber-iii",
-      "title": "House Robber III",
-      "difficulty": "MEDIUM",
-      "tags": [
         "dynamic-programming",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
+        "recursion",
+        "memoization"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "diffWaysToCompute"
     },
     {
-      "id": "0339",
-      "slug": "nested-list-weight-sum",
-      "title": "Nested List Weight Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "depth-first-search",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0340",
-      "slug": "longest-substring-with-at-most-k-distinct-characters",
-      "title": "Longest Substring with At Most K Distinct Characters",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0341",
-      "slug": "flatten-nested-list-iterator",
-      "title": "Flatten Nested List Iterator",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "stack",
-        "tree",
-        "depth-first-search",
-        "design",
-        "queue",
-        "iterator"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0342",
-      "slug": "power-of-four",
-      "title": "Power of Four",
+      "id": "0242",
+      "slug": "valid-anagram",
+      "title": "Valid Anagram",
       "difficulty": "EASY",
       "tags": [
-        "math",
-        "bit-manipulation",
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isAnagram"
+    },
+    {
+      "id": "0243",
+      "slug": "shortest-word-distance",
+      "title": "Shortest Word Distance",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestDistance"
+    },
+    {
+      "id": "0244",
+      "slug": "shortest-word-distance-ii",
+      "title": "Shortest Word Distance II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "string",
+        "design"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "WordDistance"
+    },
+    {
+      "id": "0245",
+      "slug": "shortest-word-distance-iii",
+      "title": "Shortest Word Distance III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestWordDistance"
+    },
+    {
+      "id": "0246",
+      "slug": "strobogrammatic-number",
+      "title": "Strobogrammatic Number",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isStrobogrammatic"
+    },
+    {
+      "id": "0247",
+      "slug": "strobogrammatic-number-ii",
+      "title": "Strobogrammatic Number II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
         "recursion"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findStrobogrammatic"
     },
     {
-      "id": "0343",
-      "slug": "integer-break",
-      "title": "Integer Break",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0344",
-      "slug": "reverse-string",
-      "title": "Reverse String",
-      "difficulty": "EASY",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0345",
-      "slug": "reverse-vowels-of-a-string",
-      "title": "Reverse Vowels of a String",
-      "difficulty": "EASY",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0346",
-      "slug": "moving-average-from-data-stream",
-      "title": "Moving Average from Data Stream",
-      "difficulty": "EASY",
+      "id": "0248",
+      "slug": "strobogrammatic-number-iii",
+      "title": "Strobogrammatic Number III",
+      "difficulty": "HARD",
       "tags": [
         "array",
-        "design",
-        "queue",
-        "data-stream"
+        "string",
+        "recursion"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "strobogrammaticInRange"
     },
     {
-      "id": "0348",
-      "slug": "design-tic-tac-toe",
-      "title": "Design Tic-Tac-Toe",
+      "id": "0249",
+      "slug": "group-shifted-strings",
+      "title": "Group Shifted Strings",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "design",
-        "matrix",
-        "simulation"
+        "string"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "groupStrings"
+    },
+    {
+      "id": "0250",
+      "slug": "count-univalue-subtrees",
+      "title": "Count Univalue Subtrees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countUnivalSubtrees"
+    },
+    {
+      "id": "0251",
+      "slug": "flatten-2d-vector",
+      "title": "Flatten 2D Vector",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "design",
+        "iterator"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "Vector2D"
+    },
+    {
+      "id": "0252",
+      "slug": "meeting-rooms",
+      "title": "Meeting Rooms",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canAttendMeetings"
+    },
+    {
+      "id": "0253",
+      "slug": "meeting-rooms-ii",
+      "title": "Meeting Rooms II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minMeetingRooms"
+    },
+    {
+      "id": "0254",
+      "slug": "factor-combinations",
+      "title": "Factor Combinations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getFactors"
+    },
+    {
+      "id": "0255",
+      "slug": "verify-preorder-sequence-in-binary-search-tree",
+      "title": "Verify Preorder Sequence in Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "tree",
+        "binary-search-tree",
+        "recursion",
+        "monotonic-stack",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "verifyPreorder"
+    },
+    {
+      "id": "0256",
+      "slug": "paint-house",
+      "title": "Paint House",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCost"
+    },
+    {
+      "id": "0257",
+      "slug": "binary-tree-paths",
+      "title": "Binary Tree Paths",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "backtracking",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "binaryTreePaths"
+    },
+    {
+      "id": "0258",
+      "slug": "add-digits",
+      "title": "Add Digits",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "simulation",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addDigits"
+    },
+    {
+      "id": "0259",
+      "slug": "3sum-smaller",
+      "title": "3Sum Smaller",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "threeSumSmaller"
+    },
+    {
+      "id": "0260",
+      "slug": "single-number-iii",
+      "title": "Single Number III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "singleNumber"
     }
   ]
 }

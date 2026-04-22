@@ -2,254 +2,296 @@
   "batchId": "batch-045",
   "problems": [
     {
-      "id": "0980",
-      "slug": "unique-paths-iii",
-      "title": "Unique Paths III",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "backtracking",
-        "bit-manipulation",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0981",
-      "slug": "time-based-key-value-store",
-      "title": "Time Based Key-Value Store",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "binary-search",
-        "design"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0982",
-      "slug": "triples-with-bitwise-and-equal-to-zero",
-      "title": "Triples with Bitwise AND Equal To Zero",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0983",
-      "slug": "minimum-cost-for-tickets",
-      "title": "Minimum Cost For Tickets",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0984",
-      "slug": "string-without-aaa-or-bbb",
-      "title": "String Without AAA or BBB",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0985",
-      "slug": "sum-of-even-numbers-after-queries",
-      "title": "Sum of Even Numbers After Queries",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0986",
-      "slug": "interval-list-intersections",
-      "title": "Interval List Intersections",
+      "id": "0881",
+      "slug": "boats-to-save-people",
+      "title": "Boats to Save People",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "two-pointers",
-        "line-sweep"
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numRescueBoats"
     },
     {
-      "id": "0987",
-      "slug": "vertical-order-traversal-of-a-binary-tree",
-      "title": "Vertical Order Traversal of a Binary Tree",
+      "id": "0882",
+      "slug": "reachable-nodes-in-subdivided-graph",
+      "title": "Reachable Nodes In Subdivided Graph",
       "difficulty": "HARD",
       "tags": [
-        "hash-table",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "sorting",
-        "binary-tree"
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reachableNodes"
     },
     {
-      "id": "0988",
-      "slug": "smallest-string-starting-from-leaf",
-      "title": "Smallest String Starting From Leaf",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "backtracking",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0989",
-      "slug": "add-to-array-form-of-integer",
-      "title": "Add to Array-Form of Integer",
+      "id": "0883",
+      "slug": "projection-area-of-3d-shapes",
+      "title": "Projection Area of 3D Shapes",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0990",
-      "slug": "satisfiability-of-equality-equations",
-      "title": "Satisfiability of Equality Equations",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0991",
-      "slug": "broken-calculator",
-      "title": "Broken Calculator",
-      "difficulty": "MEDIUM",
-      "tags": [
         "math",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0992",
-      "slug": "subarrays-with-k-different-integers",
-      "title": "Subarrays with K Different Integers",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "sliding-window",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0993",
-      "slug": "cousins-in-binary-tree",
-      "title": "Cousins in Binary Tree",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0994",
-      "slug": "rotting-oranges",
-      "title": "Rotting Oranges",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "breadth-first-search",
+        "geometry",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "projectionArea"
     },
     {
-      "id": "0995",
-      "slug": "minimum-number-of-k-consecutive-bit-flips",
-      "title": "Minimum Number of K Consecutive Bit Flips",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "bit-manipulation",
-        "queue",
-        "sliding-window",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0996",
-      "slug": "number-of-squareful-arrays",
-      "title": "Number of Squareful Arrays",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0997",
-      "slug": "find-the-town-judge",
-      "title": "Find the Town Judge",
+      "id": "0884",
+      "slug": "uncommon-words-from-two-sentences",
+      "title": "Uncommon Words from Two Sentences",
       "difficulty": "EASY",
       "tags": [
-        "array",
         "hash-table",
-        "graph"
+        "string",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "uncommonFromSentences"
     },
     {
-      "id": "0998",
-      "slug": "maximum-binary-tree-ii",
-      "title": "Maximum Binary Tree II",
+      "id": "0885",
+      "slug": "spiral-matrix-iii",
+      "title": "Spiral Matrix III",
       "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0999",
-      "slug": "available-captures-for-rook",
-      "title": "Available Captures for Rook",
-      "difficulty": "EASY",
       "tags": [
         "array",
         "matrix",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "spiralMatrixIII"
+    },
+    {
+      "id": "0886",
+      "slug": "possible-bipartition",
+      "title": "Possible Bipartition",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "possibleBipartition"
+    },
+    {
+      "id": "0887",
+      "slug": "super-egg-drop",
+      "title": "Super Egg Drop",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "binary-search",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "superEggDrop"
+    },
+    {
+      "id": "0888",
+      "slug": "fair-candy-swap",
+      "title": "Fair Candy Swap",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fairCandySwap"
+    },
+    {
+      "id": "0889",
+      "slug": "construct-binary-tree-from-preorder-and-postorder-traversal",
+      "title": "Construct Binary Tree from Preorder and Postorder Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "divide-and-conquer",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "constructFromPrePost"
+    },
+    {
+      "id": "0890",
+      "slug": "find-and-replace-pattern",
+      "title": "Find and Replace Pattern",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findAndReplacePattern"
+    },
+    {
+      "id": "0891",
+      "slug": "sum-of-subsequence-widths",
+      "title": "Sum of Subsequence Widths",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumSubseqWidths"
+    },
+    {
+      "id": "0892",
+      "slug": "surface-area-of-3d-shapes",
+      "title": "Surface Area of 3D Shapes",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "geometry",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "surfaceArea"
+    },
+    {
+      "id": "0893",
+      "slug": "groups-of-special-equivalent-strings",
+      "title": "Groups of Special-Equivalent Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numSpecialEquivGroups"
+    },
+    {
+      "id": "0894",
+      "slug": "all-possible-full-binary-trees",
+      "title": "All Possible Full Binary Trees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "recursion",
+        "memoization",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "allPossibleFBT"
+    },
+    {
+      "id": "0895",
+      "slug": "maximum-frequency-stack",
+      "title": "Maximum Frequency Stack",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "stack",
+        "design",
+        "ordered-set"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "FreqStack"
+    },
+    {
+      "id": "0896",
+      "slug": "monotonic-array",
+      "title": "Monotonic Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isMonotonic"
+    },
+    {
+      "id": "0897",
+      "slug": "increasing-order-search-tree",
+      "title": "Increasing Order Search Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "increasingBST"
+    },
+    {
+      "id": "0898",
+      "slug": "bitwise-ors-of-subarrays",
+      "title": "Bitwise ORs of Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "subarrayBitwiseORs"
+    },
+    {
+      "id": "0899",
+      "slug": "orderly-queue",
+      "title": "Orderly Queue",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "orderlyQueue"
+    },
+    {
+      "id": "0901",
+      "slug": "online-stock-span",
+      "title": "Online Stock Span",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "stack",
+        "design",
+        "monotonic-stack",
+        "data-stream"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "StockSpanner"
     }
   ]
 }

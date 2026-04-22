@@ -2,252 +2,284 @@
   "batchId": "batch-110",
   "problems": [
     {
-      "id": "2282",
-      "slug": "number-of-people-that-can-be-seen-in-a-grid",
-      "title": "Number of People That Can Be Seen in a Grid",
+      "id": "2181",
+      "slug": "merge-nodes-in-between-zeros",
+      "title": "Merge Nodes in Between Zeros",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "stack",
-        "matrix",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2283",
-      "slug": "check-if-number-has-equal-digit-count-and-digit-value",
-      "title": "Check if Number Has Equal Digit Count and Digit Value",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2284",
-      "slug": "sender-with-largest-word-count",
-      "title": "Sender With Largest Word Count",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2285",
-      "slug": "maximum-total-importance-of-roads",
-      "title": "Maximum Total Importance of Roads",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "greedy",
-        "graph",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2286",
-      "slug": "booking-concert-tickets-in-groups",
-      "title": "Booking Concert Tickets in Groups",
-      "difficulty": "HARD",
-      "tags": [
-        "binary-search",
-        "design",
-        "binary-indexed-tree",
-        "segment-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2287",
-      "slug": "rearrange-characters-to-make-target-string",
-      "title": "Rearrange Characters to Make Target String",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2288",
-      "slug": "apply-discount-to-prices",
-      "title": "Apply Discount to Prices",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2289",
-      "slug": "steps-to-make-array-non-decreasing",
-      "title": "Steps to Make Array Non-decreasing",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "linked-list",
-        "dynamic-programming",
-        "stack",
-        "monotonic-stack",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mergeNodes"
     },
     {
-      "id": "2290",
-      "slug": "minimum-obstacle-removal-to-reach-corner",
-      "title": "Minimum Obstacle Removal to Reach Corner",
+      "id": "2182",
+      "slug": "construct-string-with-repeat-limit",
+      "title": "Construct String With Repeat Limit",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "heap-priority-queue",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "repeatLimitedString"
+    },
+    {
+      "id": "2183",
+      "slug": "count-array-pairs-divisible-by-k",
+      "title": "Count Array Pairs Divisible by K",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "breadth-first-search",
-        "graph",
-        "heap-priority-queue",
-        "matrix",
-        "shortest-path"
+        "hash-table",
+        "math",
+        "counting",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPairs"
     },
     {
-      "id": "2291",
-      "slug": "maximum-profit-from-trading-stocks",
-      "title": "Maximum Profit From Trading Stocks",
+      "id": "2184",
+      "slug": "number-of-ways-to-build-sturdy-brick-wall",
+      "title": "Number of Ways to Build Sturdy Brick Wall",
       "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "buildWall"
+    },
+    {
+      "id": "2185",
+      "slug": "counting-words-with-a-given-prefix",
+      "title": "Counting Words With a Given Prefix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "string-matching"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "prefixCount"
+    },
+    {
+      "id": "2186",
+      "slug": "minimum-number-of-steps-to-make-two-strings-anagram-ii",
+      "title": "Minimum Number of Steps to Make Two Strings Anagram II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSteps"
+    },
+    {
+      "id": "2187",
+      "slug": "minimum-time-to-complete-trips",
+      "title": "Minimum Time to Complete Trips",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumTime"
+    },
+    {
+      "id": "2188",
+      "slug": "minimum-time-to-finish-the-race",
+      "title": "Minimum Time to Finish the Race",
+      "difficulty": "HARD",
       "tags": [
         "array",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumFinishTime"
     },
     {
-      "id": "2292",
-      "slug": "products-with-three-or-more-orders-in-two-consecutive-years",
-      "title": "Products With Three or More Orders in Two Consecutive Years",
+      "id": "2189",
+      "slug": "number-of-ways-to-build-house-of-cards",
+      "title": "Number of Ways to Build House of Cards",
       "difficulty": "MEDIUM",
       "tags": [
-        "database"
+        "math",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "houseOfCards"
     },
     {
-      "id": "2293",
-      "slug": "min-max-game",
-      "title": "Min Max Game",
+      "id": "2190",
+      "slug": "most-frequent-number-following-key-in-an-array",
+      "title": "Most Frequent Number Following Key In an Array",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "simulation"
+        "hash-table",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mostFrequent"
     },
     {
-      "id": "2294",
-      "slug": "partition-array-such-that-maximum-difference-is-k",
-      "title": "Partition Array Such That Maximum Difference Is K",
+      "id": "2191",
+      "slug": "sort-the-jumbled-numbers",
+      "title": "Sort the Jumbled Numbers",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortJumbled"
     },
     {
-      "id": "2295",
-      "slug": "replace-elements-in-an-array",
-      "title": "Replace Elements in an Array",
+      "id": "2192",
+      "slug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+      "title": "All Ancestors of a Node in a Directed Acyclic Graph",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "hash-table",
-        "simulation"
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getAncestors"
     },
     {
-      "id": "2296",
-      "slug": "design-a-text-editor",
-      "title": "Design a Text Editor",
+      "id": "2193",
+      "slug": "minimum-number-of-moves-to-make-palindrome",
+      "title": "Minimum Number of Moves to Make Palindrome",
       "difficulty": "HARD",
       "tags": [
-        "linked-list",
+        "two-pointers",
         "string",
-        "stack",
-        "design",
-        "simulation",
-        "doubly-linked-list"
+        "greedy",
+        "binary-indexed-tree"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minMovesToMakePalindrome"
     },
     {
-      "id": "2297",
-      "slug": "jump-game-viii",
-      "title": "Jump Game VIII",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "stack",
-        "graph",
-        "monotonic-stack",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2298",
-      "slug": "tasks-count-in-the-weekend",
-      "title": "Tasks Count in the Weekend",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2299",
-      "slug": "strong-password-checker-ii",
-      "title": "Strong Password Checker II",
+      "id": "2194",
+      "slug": "cells-in-a-range-on-an-excel-sheet",
+      "title": "Cells in a Range on an Excel Sheet",
       "difficulty": "EASY",
       "tags": [
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "cellsInRange"
     },
     {
-      "id": "2300",
-      "slug": "successful-pairs-of-spells-and-potions",
-      "title": "Successful Pairs of Spells and Potions",
+      "id": "2195",
+      "slug": "append-k-integers-with-minimal-sum",
+      "title": "Append K Integers With Minimal Sum",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "two-pointers",
-        "binary-search",
+        "math",
+        "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimalKSum"
     },
     {
-      "id": "2301",
-      "slug": "match-substring-after-replacement",
-      "title": "Match Substring After Replacement",
-      "difficulty": "HARD",
+      "id": "2196",
+      "slug": "create-binary-tree-from-descriptions",
+      "title": "Create Binary Tree From Descriptions",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "string",
-        "string-matching"
+        "tree",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "createBinaryTree"
+    },
+    {
+      "id": "2197",
+      "slug": "replace-non-coprime-numbers-in-array",
+      "title": "Replace Non-Coprime Numbers in Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "stack",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "replaceNonCoprimes"
+    },
+    {
+      "id": "2198",
+      "slug": "number-of-single-divisor-triplets",
+      "title": "Number of Single Divisor Triplets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "counting",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "singleDivisorTriplet"
+    },
+    {
+      "id": "2199",
+      "slug": "finding-the-topic-of-each-post",
+      "title": "Finding the Topic of Each Post",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2200",
+      "slug": "find-all-k-distant-indices-in-an-array",
+      "title": "Find All K-Distant Indices in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findKDistantIndices"
     }
   ]
 }

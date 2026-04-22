@@ -2,235 +2,280 @@
   "batchId": "batch-062",
   "problems": [
     {
-      "id": "1322",
-      "slug": "ads-performance",
-      "title": "Ads Performance",
+      "id": "1221",
+      "slug": "split-a-string-in-balanced-strings",
+      "title": "Split a String in Balanced Strings",
       "difficulty": "EASY",
       "tags": [
-        "database"
+        "string",
+        "greedy",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "balancedStringSplit"
     },
     {
-      "id": "1323",
-      "slug": "maximum-69-number",
-      "title": "Maximum 69 Number",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1324",
-      "slug": "print-words-vertically",
-      "title": "Print Words Vertically",
+      "id": "1222",
+      "slug": "queens-that-can-attack-the-king",
+      "title": "Queens That Can Attack the King",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "string",
+        "matrix",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "queensAttacktheKing"
     },
     {
-      "id": "1325",
-      "slug": "delete-leaves-with-a-given-value",
-      "title": "Delete Leaves With a Given Value",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1326",
-      "slug": "minimum-number-of-taps-to-open-to-water-a-garden",
-      "title": "Minimum Number of Taps to Open to Water a Garden",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1327",
-      "slug": "list-the-products-ordered-in-a-period",
-      "title": "List the Products Ordered in a Period",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1328",
-      "slug": "break-a-palindrome",
-      "title": "Break a Palindrome",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1329",
-      "slug": "sort-the-matrix-diagonally",
-      "title": "Sort the Matrix Diagonally",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sorting",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1330",
-      "slug": "reverse-subarray-to-maximize-array-value",
-      "title": "Reverse Subarray To Maximize Array Value",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1331",
-      "slug": "rank-transform-of-an-array",
-      "title": "Rank Transform of an Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1332",
-      "slug": "remove-palindromic-subsequences",
-      "title": "Remove Palindromic Subsequences",
-      "difficulty": "EASY",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1333",
-      "slug": "filter-restaurants-by-vegan-friendly-price-and-distance",
-      "title": "Filter Restaurants by Vegan-Friendly, Price and Distance",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1334",
-      "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
-      "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming",
-        "graph",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1335",
-      "slug": "minimum-difficulty-of-a-job-schedule",
-      "title": "Minimum Difficulty of a Job Schedule",
+      "id": "1223",
+      "slug": "dice-roll-simulation",
+      "title": "Dice Roll Simulation",
       "difficulty": "HARD",
       "tags": [
         "array",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "dieSimulator"
     },
     {
-      "id": "1336",
-      "slug": "number-of-transactions-per-visit",
-      "title": "Number of Transactions per Visit",
+      "id": "1224",
+      "slug": "maximum-equal-frequency",
+      "title": "Maximum Equal Frequency",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxEqualFreq"
+    },
+    {
+      "id": "1225",
+      "slug": "report-contiguous-dates",
+      "title": "Report Contiguous Dates",
       "difficulty": "HARD",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1337",
-      "slug": "the-k-weakest-rows-in-a-matrix",
-      "title": "The K Weakest Rows in a Matrix",
+      "id": "1226",
+      "slug": "the-dining-philosophers",
+      "title": "The Dining Philosophers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1227",
+      "slug": "airplane-seat-assignment-probability",
+      "title": "Airplane Seat Assignment Probability",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "brainteaser",
+        "probability-and-statistics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nthPersonGetsNthSeat"
+    },
+    {
+      "id": "1228",
+      "slug": "missing-number-in-arithmetic-progression",
+      "title": "Missing Number In Arithmetic Progression",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "binary-search",
-        "sorting",
-        "heap-priority-queue",
-        "matrix"
+        "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "missingNumber"
     },
     {
-      "id": "1338",
-      "slug": "reduce-array-size-to-the-half",
-      "title": "Reduce Array Size to The Half",
+      "id": "1229",
+      "slug": "meeting-scheduler",
+      "title": "Meeting Scheduler",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "greedy",
-        "sorting",
-        "heap-priority-queue"
+        "two-pointers",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minAvailableDuration"
     },
     {
-      "id": "1339",
-      "slug": "maximum-product-of-splitted-binary-tree",
-      "title": "Maximum Product of Splitted Binary Tree",
+      "id": "1230",
+      "slug": "toss-strange-coins",
+      "title": "Toss Strange Coins",
       "difficulty": "MEDIUM",
       "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
+        "array",
+        "math",
+        "dynamic-programming",
+        "probability-and-statistics"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "probabilityOfHeads"
     },
     {
-      "id": "1340",
-      "slug": "jump-game-v",
-      "title": "Jump Game V",
+      "id": "1231",
+      "slug": "divide-chocolate",
+      "title": "Divide Chocolate",
       "difficulty": "HARD",
       "tags": [
         "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximizeSweetness"
+    },
+    {
+      "id": "1232",
+      "slug": "check-if-it-is-a-straight-line",
+      "title": "Check If It Is a Straight Line",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkStraightLine"
+    },
+    {
+      "id": "1233",
+      "slug": "remove-sub-folders-from-the-filesystem",
+      "title": "Remove Sub-Folders from the Filesystem",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "depth-first-search",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeSubfolders"
+    },
+    {
+      "id": "1234",
+      "slug": "replace-the-substring-for-balanced-string",
+      "title": "Replace the Substring for Balanced String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "balancedString"
+    },
+    {
+      "id": "1235",
+      "slug": "maximum-profit-in-job-scheduling",
+      "title": "Maximum Profit in Job Scheduling",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
         "dynamic-programming",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "jobScheduling"
     },
     {
-      "id": "1341",
-      "slug": "movie-rating",
-      "title": "Movie Rating",
+      "id": "1236",
+      "slug": "web-crawler",
+      "title": "Web Crawler",
       "difficulty": "MEDIUM",
       "tags": [
-        "database"
+        "string",
+        "depth-first-search",
+        "breadth-first-search",
+        "interactive"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "crawl"
+    },
+    {
+      "id": "1237",
+      "slug": "find-positive-integer-solution-for-a-given-equation",
+      "title": "Find Positive Integer Solution for a Given Equation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "two-pointers",
+        "binary-search",
+        "interactive"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1238",
+      "slug": "circular-permutation-in-binary-representation",
+      "title": "Circular Permutation in Binary Representation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "circularPermutation"
+    },
+    {
+      "id": "1239",
+      "slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+      "title": "Maximum Length of a Concatenated String with Unique Characters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1240",
+      "slug": "tiling-a-rectangle-with-the-fewest-squares",
+      "title": "Tiling a Rectangle with the Fewest Squares",
+      "difficulty": "HARD",
+      "tags": [
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

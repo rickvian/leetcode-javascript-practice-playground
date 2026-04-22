@@ -2,248 +2,293 @@
   "batchId": "batch-063",
   "problems": [
     {
-      "id": "1342",
-      "slug": "number-of-steps-to-reduce-a-number-to-zero",
-      "title": "Number of Steps to Reduce a Number to Zero",
+      "id": "1241",
+      "slug": "number-of-comments-per-post",
+      "title": "Number of Comments per Post",
       "difficulty": "EASY",
       "tags": [
-        "math",
-        "bit-manipulation"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1343",
-      "slug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
-      "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
+      "id": "1242",
+      "slug": "web-crawler-multithreaded",
+      "title": "Web Crawler Multithreaded",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "sliding-window"
+        "depth-first-search",
+        "breadth-first-search",
+        "concurrency"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1344",
-      "slug": "angle-between-hands-of-a-clock",
-      "title": "Angle Between Hands of a Clock",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1345",
-      "slug": "jump-game-iv",
-      "title": "Jump Game IV",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1346",
-      "slug": "check-if-n-and-its-double-exist",
-      "title": "Check If N and Its Double Exist",
+      "id": "1243",
+      "slug": "array-transformation",
+      "title": "Array Transformation",
       "difficulty": "EASY",
       "tags": [
         "array",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "transformArray"
+    },
+    {
+      "id": "1244",
+      "slug": "design-a-leaderboard",
+      "title": "Design A Leaderboard",
+      "difficulty": "MEDIUM",
+      "tags": [
         "hash-table",
-        "two-pointers",
-        "binary-search",
+        "design",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "Leaderboard"
     },
     {
-      "id": "1347",
-      "slug": "minimum-number-of-steps-to-make-two-strings-anagram",
-      "title": "Minimum Number of Steps to Make Two Strings Anagram",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1348",
-      "slug": "tweet-counts-per-frequency",
-      "title": "Tweet Counts Per Frequency",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "binary-search",
-        "design",
-        "sorting",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1349",
-      "slug": "maximum-students-taking-exam",
-      "title": "Maximum Students Taking Exam",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "bit-manipulation",
-        "matrix",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1350",
-      "slug": "students-with-invalid-departments",
-      "title": "Students With Invalid Departments",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1351",
-      "slug": "count-negative-numbers-in-a-sorted-matrix",
-      "title": "Count Negative Numbers in a Sorted Matrix",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "binary-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1352",
-      "slug": "product-of-the-last-k-numbers",
-      "title": "Product of the Last K Numbers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "design",
-        "data-stream",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1353",
-      "slug": "maximum-number-of-events-that-can-be-attended",
-      "title": "Maximum Number of Events That Can Be Attended",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1354",
-      "slug": "construct-target-array-with-multiple-sums",
-      "title": "Construct Target Array With Multiple Sums",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1355",
-      "slug": "activity-participants",
-      "title": "Activity Participants",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1356",
-      "slug": "sort-integers-by-the-number-of-1-bits",
-      "title": "Sort Integers by The Number of 1 Bits",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "bit-manipulation",
-        "sorting",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1357",
-      "slug": "apply-discount-every-n-orders",
-      "title": "Apply Discount Every n Orders",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "design"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1358",
-      "slug": "number-of-substrings-containing-all-three-characters",
-      "title": "Number of Substrings Containing All Three Characters",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1359",
-      "slug": "count-all-valid-pickup-and-delivery-options",
-      "title": "Count All Valid Pickup and Delivery Options",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "combinatorics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1360",
-      "slug": "number-of-days-between-two-dates",
-      "title": "Number of Days Between Two Dates",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1361",
-      "slug": "validate-binary-tree-nodes",
-      "title": "Validate Binary Tree Nodes",
+      "id": "1245",
+      "slug": "tree-diameter",
+      "title": "Tree Diameter",
       "difficulty": "MEDIUM",
       "tags": [
         "tree",
         "depth-first-search",
         "breadth-first-search",
-        "union-find",
         "graph",
-        "binary-tree"
+        "topological-sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "treeDiameter"
+    },
+    {
+      "id": "1246",
+      "slug": "palindrome-removal",
+      "title": "Palindrome Removal",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumMoves"
+    },
+    {
+      "id": "1247",
+      "slug": "minimum-swaps-to-make-strings-equal",
+      "title": "Minimum Swaps to Make Strings Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1248",
+      "slug": "count-number-of-nice-subarrays",
+      "title": "Count Number of Nice Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfSubarrays"
+    },
+    {
+      "id": "1249",
+      "slug": "minimum-remove-to-make-valid-parentheses",
+      "title": "Minimum Remove to Make Valid Parentheses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minRemoveToMakeValid"
+    },
+    {
+      "id": "1250",
+      "slug": "check-if-it-is-a-good-array",
+      "title": "Check If It Is a Good Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isGoodArray"
+    },
+    {
+      "id": "1251",
+      "slug": "average-selling-price",
+      "title": "Average Selling Price",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1252",
+      "slug": "cells-with-odd-values-in-a-matrix",
+      "title": "Cells with Odd Values in a Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "oddCells"
+    },
+    {
+      "id": "1253",
+      "slug": "reconstruct-a-2-row-binary-matrix",
+      "title": "Reconstruct a 2-Row Binary Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reconstructMatrix"
+    },
+    {
+      "id": "1254",
+      "slug": "number-of-closed-islands",
+      "title": "Number of Closed Islands",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "closedIsland"
+    },
+    {
+      "id": "1255",
+      "slug": "maximum-score-words-formed-by-letters",
+      "title": "Maximum Score Words Formed by Letters",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "counting",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxScoreWords"
+    },
+    {
+      "id": "1256",
+      "slug": "encode-number",
+      "title": "Encode Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "encode"
+    },
+    {
+      "id": "1257",
+      "slug": "smallest-common-region",
+      "title": "Smallest Common Region",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findSmallestRegion"
+    },
+    {
+      "id": "1258",
+      "slug": "synonymous-sentences",
+      "title": "Synonymous Sentences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "backtracking",
+        "sort",
+        "union-find"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "generateSentences"
+    },
+    {
+      "id": "1259",
+      "slug": "handshakes-that-dont-cross",
+      "title": "Handshakes That Don't Cross",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfWays"
+    },
+    {
+      "id": "1260",
+      "slug": "shift-2d-grid",
+      "title": "Shift 2D Grid",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shiftGrid"
     }
   ]
 }

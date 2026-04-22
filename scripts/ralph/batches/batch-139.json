@@ -2,229 +2,270 @@
   "batchId": "batch-139",
   "problems": [
     {
-      "id": "2862",
-      "slug": "maximum-element-sum-of-a-complete-subset-of-indices",
-      "title": "Maximum Element-Sum of a Complete Subset of Indices",
-      "difficulty": "HARD",
+      "id": "2761",
+      "slug": "prime-pairs-with-target-sum",
+      "title": "Prime Pairs With Target Sum",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "math",
+        "enumeration",
         "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2863",
-      "slug": "maximum-length-of-semi-decreasing-subarrays",
-      "title": "Maximum Length of Semi-Decreasing Subarrays",
+      "id": "2762",
+      "slug": "continuous-subarrays",
+      "title": "Continuous Subarrays",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "stack",
-        "sorting",
-        "monotonic-stack"
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "ordered-set",
+        "monotonic-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2864",
-      "slug": "maximum-odd-binary-number",
-      "title": "Maximum Odd Binary Number",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2865",
-      "slug": "beautiful-towers-i",
-      "title": "Beautiful Towers I",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "stack",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2866",
-      "slug": "beautiful-towers-ii",
-      "title": "Beautiful Towers II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "stack",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2867",
-      "slug": "count-valid-paths-in-a-tree",
-      "title": "Count Valid Paths in a Tree",
+      "id": "2763",
+      "slug": "sum-of-imbalance-numbers-of-all-subarrays",
+      "title": "Sum of Imbalance Numbers of All Subarrays",
       "difficulty": "HARD",
       "tags": [
-        "math",
-        "dynamic-programming",
+        "array",
+        "hash-table",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumImbalanceNumbers"
+    },
+    {
+      "id": "2764",
+      "slug": "is-array-a-preorder-of-some-binary-tree",
+      "title": "Is Array a Preorder of Some \u200cBinary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "stack",
         "tree",
         "depth-first-search",
-        "number-theory"
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPreorder"
     },
     {
-      "id": "2868",
-      "slug": "the-wording-game",
-      "title": "The Wording Game",
-      "difficulty": "HARD",
+      "id": "2765",
+      "slug": "longest-alternating-subarray",
+      "title": "Longest Alternating Subarray",
+      "difficulty": "EASY",
       "tags": [
         "array",
-        "math",
-        "two-pointers",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2766",
+      "slug": "relocate-marbles",
+      "title": "Relocate Marbles",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "relocateMarbles"
+    },
+    {
+      "id": "2767",
+      "slug": "partition-string-into-minimum-beautiful-substrings",
+      "title": "Partition String Into Minimum Beautiful Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
         "string",
-        "greedy",
-        "game-theory"
+        "dynamic-programming",
+        "backtracking"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumBeautifulSubstrings"
     },
     {
-      "id": "2869",
-      "slug": "minimum-operations-to-collect-elements",
-      "title": "Minimum Operations to Collect Elements",
+      "id": "2768",
+      "slug": "number-of-black-blocks",
+      "title": "Number of Black Blocks",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2769",
+      "slug": "find-the-maximum-achievable-number",
+      "title": "Find the Maximum Achievable Number",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "hash-table",
-        "bit-manipulation"
+        "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "theMaximumAchievableX"
     },
     {
-      "id": "2870",
-      "slug": "minimum-number-of-operations-to-make-array-empty",
-      "title": "Minimum Number of Operations to Make Array Empty",
+      "id": "2770",
+      "slug": "maximum-number-of-jumps-to-reach-the-last-index",
+      "title": "Maximum Number of Jumps to Reach the Last Index",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "greedy",
-        "counting"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2871",
-      "slug": "split-array-into-maximum-number-of-subarrays",
-      "title": "Split Array Into Maximum Number of Subarrays",
+      "id": "2771",
+      "slug": "longest-non-decreasing-subarray-from-two-arrays",
+      "title": "Longest Non-decreasing Subarray From Two Arrays",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "bit-manipulation"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2872",
-      "slug": "maximum-number-of-k-divisible-components",
-      "title": "Maximum Number of K-Divisible Components",
-      "difficulty": "HARD",
-      "tags": [
-        "tree",
-        "depth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2873",
-      "slug": "maximum-value-of-an-ordered-triplet-i",
-      "title": "Maximum Value of an Ordered Triplet I",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2874",
-      "slug": "maximum-value-of-an-ordered-triplet-ii",
-      "title": "Maximum Value of an Ordered Triplet II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2875",
-      "slug": "minimum-size-subarray-in-infinite-array",
-      "title": "Minimum Size Subarray in Infinite Array",
+      "id": "2772",
+      "slug": "apply-operations-to-make-all-array-elements-equal-to-zero",
+      "title": "Apply Operations to Make All Array Elements Equal to Zero",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "sliding-window",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2876",
-      "slug": "count-visited-nodes-in-a-directed-graph",
-      "title": "Count Visited Nodes in a Directed Graph",
-      "difficulty": "HARD",
+      "id": "2773",
+      "slug": "height-of-special-binary-tree",
+      "title": "Height of Special Binary Tree",
+      "difficulty": "MEDIUM",
       "tags": [
-        "dynamic-programming",
+        "tree",
         "depth-first-search",
-        "graph",
-        "topological-sort",
-        "memoization"
+        "breadth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "heightOfTree"
     },
     {
-      "id": "2877",
-      "slug": "create-a-dataframe-from-list",
-      "title": "Create a DataFrame from List",
+      "id": "2774",
+      "slug": "array-upper-bound",
+      "title": "Array Upper Bound",
       "difficulty": "EASY",
       "tags": [],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2878",
-      "slug": "get-the-size-of-a-dataframe",
-      "title": "Get the Size of a DataFrame",
-      "difficulty": "EASY",
+      "id": "2775",
+      "slug": "undefined-to-null",
+      "title": "Undefined to Null",
+      "difficulty": "MEDIUM",
       "tags": [],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "undefinedToNull"
     },
     {
-      "id": "2879",
-      "slug": "display-the-first-three-rows",
-      "title": "Display the First Three Rows",
-      "difficulty": "EASY",
+      "id": "2776",
+      "slug": "convert-callback-based-function-to-promise-based-function",
+      "title": "Convert Callback Based Function to Promise Based Function",
+      "difficulty": "MEDIUM",
       "tags": [],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "promisify"
     },
     {
-      "id": "2880",
-      "slug": "select-data",
-      "title": "Select Data",
-      "difficulty": "EASY",
+      "id": "2777",
+      "slug": "date-range-generator",
+      "title": "Date Range Generator",
+      "difficulty": "MEDIUM",
       "tags": [],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "dateRangeGenerator"
     },
     {
-      "id": "2881",
-      "slug": "create-a-new-column",
-      "title": "Create a New Column",
+      "id": "2778",
+      "slug": "sum-of-squares-of-special-elements",
+      "title": "Sum of Squares of Special Elements ",
       "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
+      "tags": [
+        "array",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumOfSquares"
+    },
+    {
+      "id": "2779",
+      "slug": "maximum-beauty-of-an-array-after-applying-operation",
+      "title": "Maximum Beauty of an Array After Applying Operation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sliding-window",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumBeauty"
+    },
+    {
+      "id": "2780",
+      "slug": "minimum-index-of-a-valid-split",
+      "title": "Minimum Index of a Valid Split",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumIndex"
     }
   ]
 }

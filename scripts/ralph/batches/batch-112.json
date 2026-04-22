@@ -2,248 +2,279 @@
   "batchId": "batch-112",
   "problems": [
     {
-      "id": "2322",
-      "slug": "minimum-score-after-removals-on-a-tree",
-      "title": "Minimum Score After Removals on a Tree",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "bit-manipulation",
-        "tree",
-        "depth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2323",
-      "slug": "find-minimum-time-to-finish-all-jobs-ii",
-      "title": "Find Minimum Time to Finish All Jobs II",
+      "id": "2221",
+      "slug": "find-triangular-sum-of-an-array",
+      "title": "Find Triangular Sum of an Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2324",
-      "slug": "product-sales-analysis-iv",
-      "title": "Product Sales Analysis IV",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2325",
-      "slug": "decode-the-message",
-      "title": "Decode the Message",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2326",
-      "slug": "spiral-matrix-iv",
-      "title": "Spiral Matrix IV",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "linked-list",
-        "matrix",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2327",
-      "slug": "number-of-people-aware-of-a-secret",
-      "title": "Number of People Aware of a Secret",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming",
-        "queue",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2328",
-      "slug": "number-of-increasing-paths-in-a-grid",
-      "title": "Number of Increasing Paths in a Grid",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "depth-first-search",
-        "breadth-first-search",
-        "graph",
-        "topological-sort",
-        "memoization",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2329",
-      "slug": "product-sales-analysis-v",
-      "title": "Product Sales Analysis V",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2330",
-      "slug": "valid-palindrome-iv",
-      "title": "Valid Palindrome IV",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2331",
-      "slug": "evaluate-boolean-binary-tree",
-      "title": "Evaluate Boolean Binary Tree",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2332",
-      "slug": "the-latest-time-to-catch-a-bus",
-      "title": "The Latest Time to Catch a Bus",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2333",
-      "slug": "minimum-sum-of-squared-difference",
-      "title": "Minimum Sum of Squared Difference",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "greedy",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2334",
-      "slug": "subarray-with-elements-greater-than-varying-threshold",
-      "title": "Subarray With Elements Greater Than Varying Threshold",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "stack",
-        "union-find",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2335",
-      "slug": "minimum-amount-of-time-to-fill-cups",
-      "title": "Minimum Amount of Time to Fill Cups",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2336",
-      "slug": "smallest-number-in-infinite-set",
-      "title": "Smallest Number in Infinite Set",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "design",
-        "heap-priority-queue",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2337",
-      "slug": "move-pieces-to-obtain-a-string",
-      "title": "Move Pieces to Obtain a String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2338",
-      "slug": "count-the-number-of-ideal-arrays",
-      "title": "Count the Number of Ideal Arrays",
-      "difficulty": "HARD",
-      "tags": [
         "math",
-        "dynamic-programming",
+        "simulation",
         "combinatorics",
         "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "triangularSum"
     },
     {
-      "id": "2339",
-      "slug": "all-the-matches-of-the-league",
-      "title": "All the Matches of the League",
+      "id": "2222",
+      "slug": "number-of-ways-to-select-buildings",
+      "title": "Number of Ways to Select Buildings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfWays"
+    },
+    {
+      "id": "2223",
+      "slug": "sum-of-scores-of-built-strings",
+      "title": "Sum of Scores of Built Strings",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "binary-search",
+        "rolling-hash",
+        "suffix-array",
+        "string-matching",
+        "hash-function"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumScores"
+    },
+    {
+      "id": "2224",
+      "slug": "minimum-number-of-operations-to-convert-time",
+      "title": "Minimum Number of Operations to Convert Time",
       "difficulty": "EASY",
       "tags": [
-        "database"
+        "string",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "convertTime"
     },
     {
-      "id": "2340",
-      "slug": "minimum-adjacent-swaps-to-make-a-valid-array",
-      "title": "Minimum Adjacent Swaps to Make a Valid Array",
+      "id": "2225",
+      "slug": "find-players-with-zero-or-one-losses",
+      "title": "Find Players With Zero or One Losses",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy"
+        "hash-table",
+        "sorting",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findWinners"
     },
     {
-      "id": "2341",
-      "slug": "maximum-number-of-pairs-in-array",
-      "title": "Maximum Number of Pairs in Array",
+      "id": "2226",
+      "slug": "maximum-candies-allocated-to-k-children",
+      "title": "Maximum Candies Allocated to K Children",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumCandies"
+    },
+    {
+      "id": "2227",
+      "slug": "encrypt-and-decrypt-strings",
+      "title": "Encrypt and Decrypt Strings",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "design",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "Encrypter"
+    },
+    {
+      "id": "2228",
+      "slug": "users-with-two-purchases-within-seven-days",
+      "title": "Users With Two Purchases Within Seven Days",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2229",
+      "slug": "check-if-an-array-is-consecutive",
+      "title": "Check if an Array Is Consecutive",
       "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "counting"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isConsecutive"
+    },
+    {
+      "id": "2230",
+      "slug": "the-users-that-are-eligible-for-discount",
+      "title": "The Users That Are Eligible for Discount",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2231",
+      "slug": "largest-number-after-digit-swaps-by-parity",
+      "title": "Largest Number After Digit Swaps by Parity",
+      "difficulty": "EASY",
+      "tags": [
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestInteger"
+    },
+    {
+      "id": "2232",
+      "slug": "minimize-result-by-adding-parentheses-to-expression",
+      "title": "Minimize Result by Adding Parentheses to Expression",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimizeResult"
+    },
+    {
+      "id": "2233",
+      "slug": "maximum-product-after-k-increments",
+      "title": "Maximum Product After K Increments",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumProduct"
+    },
+    {
+      "id": "2234",
+      "slug": "maximum-total-beauty-of-the-gardens",
+      "title": "Maximum Total Beauty of the Gardens",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "greedy",
+        "sorting",
+        "enumeration",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumBeauty"
+    },
+    {
+      "id": "2235",
+      "slug": "add-two-integers",
+      "title": "Add Two Integers",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sum"
+    },
+    {
+      "id": "2236",
+      "slug": "root-equals-sum-of-children",
+      "title": "Root Equals Sum of Children",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkTree"
+    },
+    {
+      "id": "2237",
+      "slug": "count-positions-on-street-with-required-brightness",
+      "title": "Count Positions on Street With Required Brightness",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "meetRequirement"
+    },
+    {
+      "id": "2238",
+      "slug": "number-of-times-a-driver-was-a-passenger",
+      "title": "Number of Times a Driver Was a Passenger",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2239",
+      "slug": "find-closest-number-to-zero",
+      "title": "Find Closest Number to Zero",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findClosestNumber"
+    },
+    {
+      "id": "2240",
+      "slug": "number-of-ways-to-buy-pens-and-pencils",
+      "title": "Number of Ways to Buy Pens and Pencils",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "waysToBuyPensPencils"
     }
   ]
 }

@@ -2,252 +2,299 @@
   "batchId": "batch-118",
   "problems": [
     {
-      "id": "2442",
-      "slug": "count-number-of-distinct-integers-after-reverse-operations",
-      "title": "Count Number of Distinct Integers After Reverse Operations",
-      "difficulty": "MEDIUM",
+      "id": "2341",
+      "slug": "maximum-number-of-pairs-in-array",
+      "title": "Maximum Number of Pairs in Array",
+      "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "math",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfPairs"
     },
     {
-      "id": "2443",
-      "slug": "sum-of-number-and-its-reverse",
-      "title": "Sum of Number and Its Reverse",
+      "id": "2342",
+      "slug": "max-sum-of-a-pair-with-equal-sum-of-digits",
+      "title": "Max Sum of a Pair With Equal Sum of Digits",
       "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2444",
-      "slug": "count-subarrays-with-fixed-bounds",
-      "title": "Count Subarrays With Fixed Bounds",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "queue",
-        "sliding-window",
-        "monotonic-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2445",
-      "slug": "number-of-nodes-with-value-one",
-      "title": "Number of Nodes With Value One",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2446",
-      "slug": "determine-if-two-events-have-conflict",
-      "title": "Determine if Two Events Have Conflict",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2447",
-      "slug": "number-of-subarrays-with-gcd-equal-to-k",
-      "title": "Number of Subarrays With GCD Equal to K",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2448",
-      "slug": "minimum-cost-to-make-array-equal",
-      "title": "Minimum Cost to Make Array Equal",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "greedy",
-        "sorting",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2449",
-      "slug": "minimum-number-of-operations-to-make-arrays-similar",
-      "title": "Minimum Number of Operations to Make Arrays Similar",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2450",
-      "slug": "number-of-distinct-binary-strings-after-applying-operations",
-      "title": "Number of Distinct Binary Strings After Applying Operations",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2451",
-      "slug": "odd-string-difference",
-      "title": "Odd String Difference",
-      "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "string"
+        "sorting",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumSum"
     },
     {
-      "id": "2452",
-      "slug": "words-within-two-edits-of-dictionary",
-      "title": "Words Within Two Edits of Dictionary",
+      "id": "2343",
+      "slug": "query-kth-smallest-trimmed-number",
+      "title": "Query Kth Smallest Trimmed Number",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "string",
-        "trie"
+        "divide-and-conquer",
+        "sorting",
+        "heap-priority-queue",
+        "radix-sort",
+        "quickselect"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestTrimmedNumbers"
     },
     {
-      "id": "2453",
-      "slug": "destroy-sequential-targets",
-      "title": "Destroy Sequential Targets",
+      "id": "2344",
+      "slug": "minimum-deletions-to-make-array-divisible",
+      "title": "Minimum Deletions to Make Array Divisible",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "sorting",
+        "heap-priority-queue",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
+    },
+    {
+      "id": "2345",
+      "slug": "finding-the-number-of-visible-mountains",
+      "title": "Finding the Number of Visible Mountains",
       "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "visibleMountains"
+    },
+    {
+      "id": "2346",
+      "slug": "compute-the-rank-as-a-percentage",
+      "title": "Compute the Rank as a Percentage",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2347",
+      "slug": "best-poker-hand",
+      "title": "Best Poker Hand",
+      "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "bestHand"
     },
     {
-      "id": "2454",
-      "slug": "next-greater-element-iv",
-      "title": "Next Greater Element IV",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "stack",
-        "sorting",
-        "heap-priority-queue",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2455",
-      "slug": "average-value-of-even-numbers-that-are-divisible-by-three",
-      "title": "Average Value of Even Numbers That Are Divisible by Three",
-      "difficulty": "EASY",
+      "id": "2348",
+      "slug": "number-of-zero-filled-subarrays",
+      "title": "Number of Zero-Filled Subarrays",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "zeroFilledSubarray"
     },
     {
-      "id": "2456",
-      "slug": "most-popular-video-creator",
-      "title": "Most Popular Video Creator",
+      "id": "2349",
+      "slug": "design-a-number-container-system",
+      "title": "Design a Number Container System",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "design",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "NumberContainers"
+    },
+    {
+      "id": "2350",
+      "slug": "shortest-impossible-sequence-of-rolls",
+      "title": "Shortest Impossible Sequence of Rolls",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestSequence"
+    },
+    {
+      "id": "2351",
+      "slug": "first-letter-to-appear-twice",
+      "title": "First Letter to Appear Twice",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "repeatedCharacter"
+    },
+    {
+      "id": "2352",
+      "slug": "equal-row-and-column-pairs",
+      "title": "Equal Row and Column Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "equalPairs"
+    },
+    {
+      "id": "2353",
+      "slug": "design-a-food-rating-system",
+      "title": "Design a Food Rating System",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
         "string",
-        "sorting",
-        "heap-priority-queue"
+        "design",
+        "heap-priority-queue",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "FoodRatings"
     },
     {
-      "id": "2457",
-      "slug": "minimum-addition-to-make-integer-beautiful",
-      "title": "Minimum Addition to Make Integer Beautiful",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2458",
-      "slug": "height-of-binary-tree-after-subtree-removal-queries",
-      "title": "Height of Binary Tree After Subtree Removal Queries",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2459",
-      "slug": "sort-array-by-moving-items-to-empty-space",
-      "title": "Sort Array by Moving Items to Empty Space",
+      "id": "2354",
+      "slug": "number-of-excellent-pairs",
+      "title": "Number of Excellent Pairs",
       "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
-        "sorting"
+        "binary-search",
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countExcellentPairs"
     },
     {
-      "id": "2460",
-      "slug": "apply-operations-to-an-array",
-      "title": "Apply Operations to an Array",
+      "id": "2355",
+      "slug": "maximum-number-of-books-you-can-take",
+      "title": "Maximum Number of Books You Can Take",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumBooks"
+    },
+    {
+      "id": "2356",
+      "slug": "number-of-unique-subjects-taught-by-each-teacher",
+      "title": "Number of Unique Subjects Taught by Each Teacher",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2357",
+      "slug": "make-array-zero-by-subtracting-equal-amounts",
+      "title": "Make Array Zero by Subtracting Equal Amounts",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "two-pointers",
+        "hash-table",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumOperations"
     },
     {
-      "id": "2461",
-      "slug": "maximum-sum-of-distinct-subarrays-with-length-k",
-      "title": "Maximum Sum of Distinct Subarrays With Length K",
+      "id": "2358",
+      "slug": "maximum-number-of-groups-entering-a-competition",
+      "title": "Maximum Number of Groups Entering a Competition",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "sliding-window"
+        "math",
+        "binary-search",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumGroups"
+    },
+    {
+      "id": "2359",
+      "slug": "find-closest-node-to-given-two-nodes",
+      "title": "Find Closest Node to Given Two Nodes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "closestMeetingNode"
+    },
+    {
+      "id": "2360",
+      "slug": "longest-cycle-in-a-graph",
+      "title": "Longest Cycle in a Graph",
+      "difficulty": "HARD",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestCycle"
     }
   ]
 }

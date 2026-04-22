@@ -2,247 +2,292 @@
   "batchId": "batch-037",
   "problems": [
     {
-      "id": "0819",
-      "slug": "most-common-word",
-      "title": "Most Common Word",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0820",
-      "slug": "short-encoding-of-words",
-      "title": "Short Encoding of Words",
+      "id": "0707",
+      "slug": "design-linked-list",
+      "title": "Design Linked List",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "trie"
+        "linked-list",
+        "design"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "MyLinkedList"
     },
     {
-      "id": "0821",
-      "slug": "shortest-distance-to-a-character",
-      "title": "Shortest Distance to a Character",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0822",
-      "slug": "card-flipping-game",
-      "title": "Card Flipping Game",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0823",
-      "slug": "binary-trees-with-factors",
-      "title": "Binary Trees With Factors",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "dynamic-programming",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0824",
-      "slug": "goat-latin",
-      "title": "Goat Latin",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0825",
-      "slug": "friends-of-appropriate-ages",
-      "title": "Friends Of Appropriate Ages",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0826",
-      "slug": "most-profit-assigning-work",
-      "title": "Most Profit Assigning Work",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0827",
-      "slug": "making-a-large-island",
-      "title": "Making A Large Island",
+      "id": "0716",
+      "slug": "max-stack",
+      "title": "Max Stack",
       "difficulty": "HARD",
+      "tags": [
+        "linked-list",
+        "stack",
+        "design",
+        "doubly-linked-list",
+        "ordered-set"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "MaxStack"
+    },
+    {
+      "id": "0723",
+      "slug": "candy-crush",
+      "title": "Candy Crush",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "candyCrush"
+    },
+    {
+      "id": "0724",
+      "slug": "find-pivot-index",
+      "title": "Find Pivot Index",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pivotIndex"
+    },
+    {
+      "id": "0725",
+      "slug": "split-linked-list-in-parts",
+      "title": "Split Linked List in Parts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "splitListToParts"
+    },
+    {
+      "id": "0726",
+      "slug": "number-of-atoms",
+      "title": "Number of Atoms",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "stack",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countOfAtoms"
+    },
+    {
+      "id": "0727",
+      "slug": "minimum-window-subsequence",
+      "title": "Minimum Window Subsequence",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minWindow"
+    },
+    {
+      "id": "0728",
+      "slug": "self-dividing-numbers",
+      "title": "Self Dividing Numbers",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "selfDividingNumbers"
+    },
+    {
+      "id": "0729",
+      "slug": "my-calendar-i",
+      "title": "My Calendar I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "design",
+        "segment-tree",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0730",
+      "slug": "count-different-palindromic-subsequences",
+      "title": "Count Different Palindromic Subsequences",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPalindromicSubsequences"
+    },
+    {
+      "id": "0731",
+      "slug": "my-calendar-ii",
+      "title": "My Calendar II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "design",
+        "segment-tree",
+        "prefix-sum",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "MyCalendarTwo"
+    },
+    {
+      "id": "0732",
+      "slug": "my-calendar-iii",
+      "title": "My Calendar III",
+      "difficulty": "HARD",
+      "tags": [
+        "binary-search",
+        "design",
+        "segment-tree",
+        "prefix-sum",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0733",
+      "slug": "flood-fill",
+      "title": "Flood Fill",
+      "difficulty": "EASY",
       "tags": [
         "array",
         "depth-first-search",
         "breadth-first-search",
-        "union-find",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "floodFill"
     },
     {
-      "id": "0828",
-      "slug": "count-unique-characters-of-all-substrings-of-a-given-string",
-      "title": "Count Unique Characters of All Substrings of a Given String",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0829",
-      "slug": "consecutive-numbers-sum",
-      "title": "Consecutive Numbers Sum",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0830",
-      "slug": "positions-of-large-groups",
-      "title": "Positions of Large Groups",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0831",
-      "slug": "masking-personal-information",
-      "title": "Masking Personal Information",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0832",
-      "slug": "flipping-an-image",
-      "title": "Flipping an Image",
+      "id": "0734",
+      "slug": "sentence-similarity",
+      "title": "Sentence Similarity",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "two-pointers",
-        "bit-manipulation",
-        "matrix",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "areSentencesSimilar"
+    },
+    {
+      "id": "0735",
+      "slug": "asteroid-collision",
+      "title": "Asteroid Collision",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "asteroidCollision"
     },
     {
-      "id": "0833",
-      "slug": "find-and-replace-in-string",
-      "title": "Find And Replace in String",
+      "id": "0736",
+      "slug": "parse-lisp-expression",
+      "title": "Parse Lisp Expression",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "evaluate"
+    },
+    {
+      "id": "0737",
+      "slug": "sentence-similarity-ii",
+      "title": "Sentence Similarity II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
         "string",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0834",
-      "slug": "sum-of-distances-in-tree",
-      "title": "Sum of Distances in Tree",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming",
-        "tree",
         "depth-first-search",
-        "graph"
+        "breadth-first-search",
+        "union-find"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "areSentencesSimilarTwo"
     },
     {
-      "id": "0835",
-      "slug": "image-overlap",
-      "title": "Image Overlap",
+      "id": "0738",
+      "slug": "monotone-increasing-digits",
+      "title": "Monotone Increasing Digits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "monotoneIncreasingDigits"
+    },
+    {
+      "id": "0739",
+      "slug": "daily-temperatures",
+      "title": "Daily Temperatures",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "matrix"
+        "stack",
+        "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "dailyTemperatures"
     },
     {
-      "id": "0836",
-      "slug": "rectangle-overlap",
-      "title": "Rectangle Overlap",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "geometry"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0837",
-      "slug": "new-21-game",
-      "title": "New 21 Game",
+      "id": "0740",
+      "slug": "delete-and-earn",
+      "title": "Delete and Earn",
       "difficulty": "MEDIUM",
       "tags": [
-        "math",
-        "dynamic-programming",
-        "sliding-window",
-        "probability-and-statistics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0838",
-      "slug": "push-dominoes",
-      "title": "Push Dominoes",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "two-pointers",
-        "string",
+        "array",
+        "hash-table",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "deleteAndEarn"
     }
   ]
 }

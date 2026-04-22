@@ -2,83 +2,57 @@
   "batchId": "batch-035",
   "problems": [
     {
-      "id": "0779",
-      "slug": "k-th-symbol-in-grammar",
-      "title": "K-th Symbol in Grammar",
+      "id": "0681",
+      "slug": "next-closest-time",
+      "title": "Next Closest Time",
       "difficulty": "MEDIUM",
       "tags": [
-        "math",
-        "bit-manipulation",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0780",
-      "slug": "reaching-points",
-      "title": "Reaching Points",
-      "difficulty": "HARD",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0781",
-      "slug": "rabbits-in-forest",
-      "title": "Rabbits in Forest",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "hash-table",
-        "math",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0782",
-      "slug": "transform-to-chessboard",
-      "title": "Transform to Chessboard",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math",
-        "bit-manipulation",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0783",
-      "slug": "minimum-distance-between-bst-nodes",
-      "title": "Minimum Distance Between BST Nodes",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0784",
-      "slug": "letter-case-permutation",
-      "title": "Letter Case Permutation",
-      "difficulty": "MEDIUM",
-      "tags": [
         "string",
         "backtracking",
-        "bit-manipulation"
+        "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nextClosestTime"
     },
     {
-      "id": "0785",
-      "slug": "is-graph-bipartite",
-      "title": "Is Graph Bipartite?",
+      "id": "0682",
+      "slug": "baseball-game",
+      "title": "Baseball Game",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "calPoints"
+    },
+    {
+      "id": "0683",
+      "slug": "k-empty-slots",
+      "title": "K Empty Slots",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-indexed-tree",
+        "segment-tree",
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "ordered-set",
+        "monotonic-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kEmptySlots"
+    },
+    {
+      "id": "0684",
+      "slug": "redundant-connection",
+      "title": "Redundant Connection",
       "difficulty": "MEDIUM",
       "tags": [
         "depth-first-search",
@@ -86,164 +60,250 @@
         "union-find",
         "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findRedundantConnection"
     },
     {
-      "id": "0786",
-      "slug": "k-th-smallest-prime-fraction",
-      "title": "K-th Smallest Prime Fraction",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0787",
-      "slug": "cheapest-flights-within-k-stops",
-      "title": "Cheapest Flights Within K Stops",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming",
-        "depth-first-search",
-        "breadth-first-search",
-        "graph",
-        "heap-priority-queue",
-        "shortest-path"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0788",
-      "slug": "rotated-digits",
-      "title": "Rotated Digits",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0789",
-      "slug": "escape-the-ghosts",
-      "title": "Escape The Ghosts",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0790",
-      "slug": "domino-and-tromino-tiling",
-      "title": "Domino and Tromino Tiling",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0791",
-      "slug": "custom-sort-string",
-      "title": "Custom Sort String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0792",
-      "slug": "number-of-matching-subsequences",
-      "title": "Number of Matching Subsequences",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "binary-search",
-        "dynamic-programming",
-        "trie",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0793",
-      "slug": "preimage-size-of-factorial-zeroes-function",
-      "title": "Preimage Size of Factorial Zeroes Function",
+      "id": "0685",
+      "slug": "redundant-connection-ii",
+      "title": "Redundant Connection II",
       "difficulty": "HARD",
       "tags": [
-        "math",
-        "binary-search"
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findRedundantDirectedConnection"
     },
     {
-      "id": "0794",
-      "slug": "valid-tic-tac-toe-state",
-      "title": "Valid Tic-Tac-Toe State",
+      "id": "0686",
+      "slug": "repeated-string-match",
+      "title": "Repeated String Match",
       "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0795",
-      "slug": "number-of-subarrays-with-bounded-maximum",
-      "title": "Number of Subarrays with Bounded Maximum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0796",
-      "slug": "rotate-string",
-      "title": "Rotate String",
-      "difficulty": "EASY",
       "tags": [
         "string",
         "string-matching"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "repeatedStringMatch"
     },
     {
-      "id": "0797",
-      "slug": "all-paths-from-source-to-target",
-      "title": "All Paths From Source to Target",
+      "id": "0687",
+      "slug": "longest-univalue-path",
+      "title": "Longest Univalue Path",
       "difficulty": "MEDIUM",
       "tags": [
-        "backtracking",
+        "tree",
         "depth-first-search",
-        "breadth-first-search",
-        "graph"
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestUnivaluePath"
     },
     {
-      "id": "0798",
-      "slug": "smallest-rotation-with-highest-score",
-      "title": "Smallest Rotation with Highest Score",
+      "id": "0688",
+      "slug": "knight-probability-in-chessboard",
+      "title": "Knight Probability in Chessboard",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "knightProbability"
+    },
+    {
+      "id": "0689",
+      "slug": "maximum-sum-of-3-non-overlapping-subarrays",
+      "title": "Maximum Sum of 3 Non-Overlapping Subarrays",
       "difficulty": "HARD",
       "tags": [
         "array",
+        "dynamic-programming",
+        "sliding-window",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSumOfThreeSubarrays"
+    },
+    {
+      "id": "0690",
+      "slug": "employee-importance",
+      "title": "Employee Importance",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "GetImportance"
+    },
+    {
+      "id": "0691",
+      "slug": "stickers-to-spell-word",
+      "title": "Stickers to Spell Word",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "memoization",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minStickers"
+    },
+    {
+      "id": "0692",
+      "slug": "top-k-frequent-words",
+      "title": "Top K Frequent Words",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie",
+        "sorting",
+        "heap-priority-queue",
+        "bucket-sort",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "topKFrequent"
+    },
+    {
+      "id": "0693",
+      "slug": "binary-number-with-alternating-bits",
+      "title": "Binary Number with Alternating Bits",
+      "difficulty": "EASY",
+      "tags": [
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "hasAlternatingBits"
+    },
+    {
+      "id": "0694",
+      "slug": "number-of-distinct-islands",
+      "title": "Number of Distinct Islands",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "sorting",
+        "matrix",
+        "hash-function"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numDistinctIslands"
+    },
+    {
+      "id": "0695",
+      "slug": "max-area-of-island",
+      "title": "Max Area of Island",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxAreaOfIsland"
+    },
+    {
+      "id": "0696",
+      "slug": "count-binary-substrings",
+      "title": "Count Binary Substrings",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countBinarySubstrings"
+    },
+    {
+      "id": "0697",
+      "slug": "degree-of-an-array",
+      "title": "Degree of an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findShortestSubArray"
+    },
+    {
+      "id": "0698",
+      "slug": "partition-to-k-equal-sum-subsets",
+      "title": "Partition to K Equal Sum Subsets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "memoization",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canPartitionKSubsets"
+    },
+    {
+      "id": "0699",
+      "slug": "falling-squares",
+      "title": "Falling Squares",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "segment-tree",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fallingSquares"
+    },
+    {
+      "id": "0700",
+      "slug": "search-in-a-binary-search-tree",
+      "title": "Search in a Binary Search Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "searchBST"
     }
   ]
 }

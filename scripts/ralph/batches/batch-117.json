@@ -2,257 +2,287 @@
   "batchId": "batch-117",
   "problems": [
     {
-      "id": "2422",
-      "slug": "merge-operations-to-turn-array-into-a-palindrome",
-      "title": "Merge Operations to Turn Array Into a Palindrome",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2423",
-      "slug": "remove-letter-to-equalize-frequency",
-      "title": "Remove Letter To Equalize Frequency",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2424",
-      "slug": "longest-uploaded-prefix",
-      "title": "Longest Uploaded Prefix",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "binary-search",
-        "union-find",
-        "design",
-        "binary-indexed-tree",
-        "segment-tree",
-        "heap-priority-queue",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2425",
-      "slug": "bitwise-xor-of-all-pairings",
-      "title": "Bitwise XOR of All Pairings",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "bit-manipulation",
-        "brainteaser"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2426",
-      "slug": "number-of-pairs-satisfying-inequality",
-      "title": "Number of Pairs Satisfying Inequality",
+      "id": "2321",
+      "slug": "maximum-score-of-spliced-array",
+      "title": "Maximum Score Of Spliced Array",
       "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "divide-and-conquer",
-        "binary-indexed-tree",
-        "segment-tree",
-        "merge-sort",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2427",
-      "slug": "number-of-common-factors",
-      "title": "Number of Common Factors",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "enumeration",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2428",
-      "slug": "maximum-sum-of-an-hourglass",
-      "title": "Maximum Sum of an Hourglass",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "matrix",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2429",
-      "slug": "minimize-xor",
-      "title": "Minimize XOR",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "greedy",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2430",
-      "slug": "maximum-deletions-on-a-string",
-      "title": "Maximum Deletions on a String",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "rolling-hash",
-        "string-matching",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2431",
-      "slug": "maximize-total-tastiness-of-purchased-fruits",
-      "title": "Maximize Total Tastiness of Purchased Fruits",
-      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumsSplicedArray"
     },
     {
-      "id": "2432",
-      "slug": "the-employee-that-worked-on-the-longest-task",
-      "title": "The Employee That Worked on the Longest Task",
-      "difficulty": "EASY",
+      "id": "2322",
+      "slug": "minimum-score-after-removals-on-a-tree",
+      "title": "Minimum Score After Removals on a Tree",
+      "difficulty": "HARD",
       "tags": [
-        "array"
+        "array",
+        "bit-manipulation",
+        "tree",
+        "depth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumScore"
     },
     {
-      "id": "2433",
-      "slug": "find-the-original-array-of-prefix-xor",
-      "title": "Find The Original Array of Prefix Xor",
+      "id": "2323",
+      "slug": "find-minimum-time-to-finish-all-jobs-ii",
+      "title": "Find Minimum Time to Finish All Jobs II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "bit-manipulation"
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumTime"
     },
     {
-      "id": "2434",
-      "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
-      "title": "Using a Robot to Print the Lexicographically Smallest String",
+      "id": "2324",
+      "slug": "product-sales-analysis-iv",
+      "title": "Product Sales Analysis IV",
       "difficulty": "MEDIUM",
       "tags": [
-        "hash-table",
-        "string",
-        "stack",
-        "greedy"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2435",
-      "slug": "paths-in-matrix-whose-sum-is-divisible-by-k",
-      "title": "Paths in Matrix Whose Sum Is Divisible by K",
+      "id": "2325",
+      "slug": "decode-the-message",
+      "title": "Decode the Message",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "decodeMessage"
+    },
+    {
+      "id": "2326",
+      "slug": "spiral-matrix-iv",
+      "title": "Spiral Matrix IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "linked-list",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "spiralMatrix"
+    },
+    {
+      "id": "2327",
+      "slug": "number-of-people-aware-of-a-secret",
+      "title": "Number of People Aware of a Secret",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "queue",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "peopleAwareOfSecret"
+    },
+    {
+      "id": "2328",
+      "slug": "number-of-increasing-paths-in-a-grid",
+      "title": "Number of Increasing Paths in a Grid",
       "difficulty": "HARD",
       "tags": [
         "array",
         "dynamic-programming",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort",
+        "memoization",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPaths"
     },
     {
-      "id": "2436",
-      "slug": "minimum-split-into-subarrays-with-gcd-greater-than-one",
-      "title": "Minimum Split Into Subarrays With GCD Greater Than One",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "greedy",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2437",
-      "slug": "number-of-valid-clock-times",
-      "title": "Number of Valid Clock Times",
+      "id": "2329",
+      "slug": "product-sales-analysis-v",
+      "title": "Product Sales Analysis V",
       "difficulty": "EASY",
       "tags": [
-        "string",
-        "enumeration"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2438",
-      "slug": "range-product-queries-of-powers",
-      "title": "Range Product Queries of Powers",
+      "id": "2330",
+      "slug": "valid-palindrome-iv",
+      "title": "Valid Palindrome IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "makePalindrome"
+    },
+    {
+      "id": "2331",
+      "slug": "evaluate-boolean-binary-tree",
+      "title": "Evaluate Boolean Binary Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "evaluateTree"
+    },
+    {
+      "id": "2332",
+      "slug": "the-latest-time-to-catch-a-bus",
+      "title": "The Latest Time to Catch a Bus",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "bit-manipulation",
-        "prefix-sum"
+        "two-pointers",
+        "binary-search",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "latestTimeCatchTheBus"
     },
     {
-      "id": "2439",
-      "slug": "minimize-maximum-of-array",
-      "title": "Minimize Maximum of Array",
+      "id": "2333",
+      "slug": "minimum-sum-of-squared-difference",
+      "title": "Minimum Sum of Squared Difference",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "binary-search",
-        "dynamic-programming",
         "greedy",
-        "prefix-sum"
+        "sorting",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSumSquareDiff"
     },
     {
-      "id": "2440",
-      "slug": "create-components-with-same-value",
-      "title": "Create Components With Same Value",
+      "id": "2334",
+      "slug": "subarray-with-elements-greater-than-varying-threshold",
+      "title": "Subarray With Elements Greater Than Varying Threshold",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "math",
-        "tree",
-        "depth-first-search",
-        "enumeration"
+        "stack",
+        "union-find",
+        "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validSubarraySize"
     },
     {
-      "id": "2441",
-      "slug": "largest-positive-integer-that-exists-with-its-negative",
-      "title": "Largest Positive Integer That Exists With Its Negative",
+      "id": "2335",
+      "slug": "minimum-amount-of-time-to-fill-cups",
+      "title": "Minimum Amount of Time to Fill Cups",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "hash-table",
-        "two-pointers",
-        "sorting"
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fillCups"
+    },
+    {
+      "id": "2336",
+      "slug": "smallest-number-in-infinite-set",
+      "title": "Smallest Number in Infinite Set",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "design",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "SmallestInfiniteSet"
+    },
+    {
+      "id": "2337",
+      "slug": "move-pieces-to-obtain-a-string",
+      "title": "Move Pieces to Obtain a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canChange"
+    },
+    {
+      "id": "2338",
+      "slug": "count-the-number-of-ideal-arrays",
+      "title": "Count the Number of Ideal Arrays",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "idealArrays"
+    },
+    {
+      "id": "2339",
+      "slug": "all-the-matches-of-the-league",
+      "title": "All the Matches of the League",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2340",
+      "slug": "minimum-adjacent-swaps-to-make-a-valid-array",
+      "title": "Minimum Adjacent Swaps to Make a Valid Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumSwaps"
     }
   ]
 }

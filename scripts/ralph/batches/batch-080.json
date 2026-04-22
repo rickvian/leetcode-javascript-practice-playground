@@ -2,247 +2,283 @@
   "batchId": "batch-080",
   "problems": [
     {
-      "id": "1682",
-      "slug": "longest-palindromic-subsequence-ii",
-      "title": "Longest Palindromic Subsequence II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1683",
-      "slug": "invalid-tweets",
-      "title": "Invalid Tweets",
+      "id": "1581",
+      "slug": "customer-who-visited-but-did-not-make-any-transactions",
+      "title": "Customer Who Visited but Did Not Make Any Transactions",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1684",
-      "slug": "count-the-number-of-consistent-strings",
-      "title": "Count the Number of Consistent Strings",
+      "id": "1582",
+      "slug": "special-positions-in-a-binary-matrix",
+      "title": "Special Positions in a Binary Matrix",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "hash-table",
-        "string",
-        "bit-manipulation",
-        "counting"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numSpecial"
     },
     {
-      "id": "1685",
-      "slug": "sum-of-absolute-differences-in-a-sorted-array",
-      "title": "Sum of Absolute Differences in a Sorted Array",
+      "id": "1583",
+      "slug": "count-unhappy-friends",
+      "title": "Count Unhappy Friends",
       "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "unhappyFriends"
+    },
+    {
+      "id": "1584",
+      "slug": "min-cost-to-connect-all-points",
+      "title": "Min Cost to Connect All Points",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "union-find",
+        "graph",
+        "minimum-spanning-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCostConnectPoints"
+    },
+    {
+      "id": "1585",
+      "slug": "check-if-string-is-transformable-with-substring-sort-operations",
+      "title": "Check If String Is Transformable With Substring Sort Operations",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isTransformable"
+    },
+    {
+      "id": "1586",
+      "slug": "binary-search-tree-iterator-ii",
+      "title": "Binary Search Tree Iterator II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "stack",
+        "tree",
+        "design",
+        "binary-search-tree",
+        "binary-tree",
+        "iterator"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "BSTIterator"
+    },
+    {
+      "id": "1587",
+      "slug": "bank-account-summary-ii",
+      "title": "Bank Account Summary II",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1588",
+      "slug": "sum-of-all-odd-length-subarrays",
+      "title": "Sum of All Odd Length Subarrays",
+      "difficulty": "EASY",
       "tags": [
         "array",
         "math",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumOddLengthSubarrays"
     },
     {
-      "id": "1686",
-      "slug": "stone-game-vi",
-      "title": "Stone Game VI",
+      "id": "1589",
+      "slug": "maximum-sum-obtained-of-any-permutation",
+      "title": "Maximum Sum Obtained of Any Permutation",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
         "greedy",
         "sorting",
-        "heap-priority-queue",
-        "game-theory"
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSumRangeQuery"
     },
     {
-      "id": "1687",
-      "slug": "delivering-boxes-from-storage-to-ports",
-      "title": "Delivering Boxes from Storage to Ports",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "segment-tree",
-        "queue",
-        "heap-priority-queue",
-        "prefix-sum",
-        "monotonic-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1688",
-      "slug": "count-of-matches-in-tournament",
-      "title": "Count of Matches in Tournament",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1689",
-      "slug": "partitioning-into-minimum-number-of-deci-binary-numbers",
-      "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1690",
-      "slug": "stone-game-vii",
-      "title": "Stone Game VII",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1691",
-      "slug": "maximum-height-by-stacking-cuboids",
-      "title": "Maximum Height by Stacking Cuboids ",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "sorting"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1692",
-      "slug": "count-ways-to-distribute-candies",
-      "title": "Count Ways to Distribute Candies",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1693",
-      "slug": "daily-leads-and-partners",
-      "title": "Daily Leads and Partners",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1694",
-      "slug": "reformat-phone-number",
-      "title": "Reformat Phone Number",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1695",
-      "slug": "maximum-erasure-value",
-      "title": "Maximum Erasure Value",
+      "id": "1590",
+      "slug": "make-sum-divisible-by-p",
+      "title": "Make Sum Divisible by P",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "sliding-window"
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSubarray"
     },
     {
-      "id": "1696",
-      "slug": "jump-game-vi",
-      "title": "Jump Game VI",
+      "id": "1591",
+      "slug": "strange-printer-ii",
+      "title": "Strange Printer II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "graph",
+        "topological-sort",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPrintable"
+    },
+    {
+      "id": "1592",
+      "slug": "rearrange-spaces-between-words",
+      "title": "Rearrange Spaces Between Words",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reorderSpaces"
+    },
+    {
+      "id": "1593",
+      "slug": "split-a-string-into-the-max-number-of-unique-substrings",
+      "title": "Split a String Into the Max Number of Unique Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxUniqueSplit"
+    },
+    {
+      "id": "1594",
+      "slug": "maximum-non-negative-product-in-a-matrix",
+      "title": "Maximum Non Negative Product in a Matrix",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming",
-        "queue",
-        "heap-priority-queue",
-        "monotonic-queue"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProductPath"
     },
     {
-      "id": "1697",
-      "slug": "checking-existence-of-edge-length-limited-paths",
-      "title": "Checking Existence of Edge Length Limited Paths",
+      "id": "1595",
+      "slug": "minimum-cost-to-connect-two-groups-of-points",
+      "title": "Minimum Cost to Connect Two Groups of Points",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "two-pointers",
-        "union-find",
-        "graph",
-        "sorting"
+        "dynamic-programming",
+        "bit-manipulation",
+        "matrix",
+        "bitmask"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "connectTwoGroups"
     },
     {
-      "id": "1698",
-      "slug": "number-of-distinct-substrings-in-a-string",
-      "title": "Number of Distinct Substrings in a String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "trie",
-        "rolling-hash",
-        "suffix-array",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1699",
-      "slug": "number-of-calls-between-two-persons",
-      "title": "Number of Calls Between Two Persons",
+      "id": "1596",
+      "slug": "the-most-frequently-ordered-products-for-each-customer",
+      "title": "The Most Frequently Ordered Products for Each Customer",
       "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1700",
-      "slug": "number-of-students-unable-to-eat-lunch",
-      "title": "Number of Students Unable to Eat Lunch",
+      "id": "1597",
+      "slug": "build-binary-expression-tree-from-infix-expression",
+      "title": "Build Binary Expression Tree From Infix Expression",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "stack",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "expTree"
+    },
+    {
+      "id": "1598",
+      "slug": "crawler-log-folder",
+      "title": "Crawler Log Folder",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "stack",
-        "queue",
-        "simulation"
+        "string",
+        "stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
     },
     {
-      "id": "1701",
-      "slug": "average-waiting-time",
-      "title": "Average Waiting Time",
+      "id": "1599",
+      "slug": "maximum-profit-of-operating-a-centennial-wheel",
+      "title": "Maximum Profit of Operating a Centennial Wheel",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperationsMaxProfit"
+    },
+    {
+      "id": "1600",
+      "slug": "throne-inheritance",
+      "title": "Throne Inheritance",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "design"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "ThroneInheritance"
     }
   ]
 }

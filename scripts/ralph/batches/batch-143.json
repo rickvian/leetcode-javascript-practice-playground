@@ -2,257 +2,290 @@
   "batchId": "batch-143",
   "problems": [
     {
-      "id": "2942",
-      "slug": "find-words-containing-character",
-      "title": "Find Words Containing Character",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2943",
-      "slug": "maximize-area-of-square-hole-in-grid",
-      "title": "Maximize Area of Square Hole in Grid",
+      "id": "2841",
+      "slug": "maximum-sum-of-almost-unique-subarray",
+      "title": "Maximum Sum of Almost Unique Subarray",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2944",
-      "slug": "minimum-number-of-coins-for-fruits",
-      "title": "Minimum Number of Coins for Fruits",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "queue",
-        "heap-priority-queue",
-        "monotonic-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2945",
-      "slug": "find-maximum-non-decreasing-array-length",
-      "title": "Find Maximum Non-decreasing Array Length",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "dynamic-programming",
-        "stack",
-        "queue",
-        "monotonic-stack",
-        "monotonic-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2946",
-      "slug": "matrix-similarity-after-cyclic-shifts",
-      "title": "Matrix Similarity After Cyclic Shifts",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "math",
-        "matrix",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2947",
-      "slug": "count-beautiful-substrings-i",
-      "title": "Count Beautiful Substrings I",
-      "difficulty": "MEDIUM",
-      "tags": [
         "hash-table",
-        "math",
-        "string",
-        "enumeration",
-        "number-theory",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2948",
-      "slug": "make-lexicographically-smallest-array-by-swapping-elements",
-      "title": "Make Lexicographically Smallest Array by Swapping Elements",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "union-find",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2949",
-      "slug": "count-beautiful-substrings-ii",
-      "title": "Count Beautiful Substrings II",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "math",
-        "string",
-        "number-theory",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2950",
-      "slug": "number-of-divisible-substrings",
-      "title": "Number of Divisible Substrings",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "counting",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2951",
-      "slug": "find-the-peaks",
-      "title": "Find the Peaks",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2952",
-      "slug": "minimum-number-of-coins-to-be-added",
-      "title": "Minimum Number of Coins to be Added",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2953",
-      "slug": "count-complete-substrings",
-      "title": "Count Complete Substrings",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "string",
         "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSum"
     },
     {
-      "id": "2954",
-      "slug": "count-the-number-of-infection-sequences",
-      "title": "Count the Number of Infection Sequences",
+      "id": "2842",
+      "slug": "count-k-subsequences-of-a-string-with-maximum-beauty",
+      "title": "Count K-Subsequences of a String With Maximum Beauty",
       "difficulty": "HARD",
       "tags": [
-        "array",
+        "hash-table",
         "math",
+        "string",
+        "greedy",
+        "sorting",
         "combinatorics"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2955",
-      "slug": "number-of-same-end-substrings",
-      "title": "Number of Same-End Substrings",
+      "id": "2843",
+      "slug": "count-symmetric-integers",
+      "title": "  Count Symmetric Integers",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSymmetricIntegers"
+    },
+    {
+      "id": "2844",
+      "slug": "minimum-operations-to-make-a-special-number",
+      "title": "Minimum Operations to Make a Special Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "greedy",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2845",
+      "slug": "count-of-interesting-subarrays",
+      "title": "Count of Interesting Subarrays",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "string",
-        "counting",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countInterestingSubarrays"
     },
     {
-      "id": "2956",
-      "slug": "find-common-elements-between-two-arrays",
-      "title": "Find Common Elements Between Two Arrays",
+      "id": "2846",
+      "slug": "minimum-edge-weight-equilibrium-queries-in-a-tree",
+      "title": "Minimum Edge Weight Equilibrium Queries in a Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperationsQueries"
+    },
+    {
+      "id": "2847",
+      "slug": "smallest-number-with-given-digit-product",
+      "title": "Smallest Number With Given Digit Product",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestNumber"
+    },
+    {
+      "id": "2848",
+      "slug": "points-that-intersect-with-cars",
+      "title": "Points That Intersect With Cars",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "hash-table"
+        "hash-table",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfPoints"
     },
     {
-      "id": "2957",
-      "slug": "remove-adjacent-almost-equal-characters",
-      "title": "Remove Adjacent Almost-Equal Characters",
+      "id": "2849",
+      "slug": "determine-if-a-cell-is-reachable-at-a-given-time",
+      "title": "Determine if a Cell Is Reachable at a Given Time",
       "difficulty": "MEDIUM",
       "tags": [
-        "string",
-        "dynamic-programming",
-        "greedy"
+        "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2958",
-      "slug": "length-of-longest-subarray-with-at-most-k-frequency",
-      "title": "Length of Longest Subarray With at Most K Frequency",
+      "id": "2850",
+      "slug": "minimum-moves-to-spread-stones-over-grid",
+      "title": "Minimum Moves to Spread Stones Over Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "matrix",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumMoves"
+    },
+    {
+      "id": "2851",
+      "slug": "string-transformation",
+      "title": "String Transformation",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "dynamic-programming",
+        "string-matching"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2852",
+      "slug": "sum-of-remoteness-of-all-cells",
+      "title": "Sum of Remoteness of All Cells",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "sliding-window"
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumRemoteness"
     },
     {
-      "id": "2959",
-      "slug": "number-of-possible-sets-of-closing-branches",
-      "title": "Number of Possible Sets of Closing Branches",
-      "difficulty": "HARD",
-      "tags": [
-        "bit-manipulation",
-        "graph",
-        "heap-priority-queue",
-        "enumeration",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2960",
-      "slug": "count-tested-devices-after-test-operations",
-      "title": "Count Tested Devices After Test Operations",
+      "id": "2853",
+      "slug": "highest-salaries-difference",
+      "title": "Highest Salaries Difference",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "simulation",
-        "counting"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2961",
-      "slug": "double-modular-exponentiation",
-      "title": "Double Modular Exponentiation",
+      "id": "2854",
+      "slug": "rolling-average-steps",
+      "title": "Rolling Average Steps",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2855",
+      "slug": "minimum-right-shifts-to-sort-the-array",
+      "title": "Minimum Right Shifts to Sort the Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumRightShifts"
+    },
+    {
+      "id": "2856",
+      "slug": "minimum-array-length-after-pair-removals",
+      "title": "Minimum Array Length After Pair Removals",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "simulation"
+        "hash-table",
+        "two-pointers",
+        "binary-search",
+        "greedy",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2857",
+      "slug": "count-pairs-of-points-with-distance-k",
+      "title": "Count Pairs of Points With Distance k",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2858",
+      "slug": "minimum-edge-reversals-so-every-node-is-reachable",
+      "title": "Minimum Edge Reversals So Every Node Is Reachable",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minEdgeReversals"
+    },
+    {
+      "id": "2859",
+      "slug": "sum-of-values-at-indices-with-k-set-bits",
+      "title": "Sum of Values at Indices With K Set Bits",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumIndicesWithKSetBits"
+    },
+    {
+      "id": "2860",
+      "slug": "happy-students",
+      "title": "Happy Students",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countWays"
     }
   ]
 }

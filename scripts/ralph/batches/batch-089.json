@@ -2,245 +2,282 @@
   "batchId": "batch-089",
   "problems": [
     {
-      "id": "1862",
-      "slug": "sum-of-floored-pairs",
-      "title": "Sum of Floored Pairs",
+      "id": "1761",
+      "slug": "minimum-degree-of-a-connected-trio-in-a-graph",
+      "title": "Minimum Degree of a Connected Trio in a Graph",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "math",
-        "binary-search",
-        "counting",
-        "enumeration",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1863",
-      "slug": "sum-of-all-subset-xor-totals",
-      "title": "Sum of All Subset XOR Totals",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "math",
-        "backtracking",
-        "bit-manipulation",
-        "combinatorics",
+        "graph",
         "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minTrioDegree"
     },
     {
-      "id": "1864",
-      "slug": "minimum-number-of-swaps-to-make-the-binary-string-alternating",
-      "title": "Minimum Number of Swaps to Make the Binary String Alternating",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1865",
-      "slug": "finding-pairs-with-a-certain-sum",
-      "title": "Finding Pairs With a Certain Sum",
+      "id": "1762",
+      "slug": "buildings-with-an-ocean-view",
+      "title": "Buildings With an Ocean View",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "design"
+        "stack",
+        "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findBuildings"
     },
     {
-      "id": "1866",
-      "slug": "number-of-ways-to-rearrange-sticks-with-k-sticks-visible",
-      "title": "Number of Ways to Rearrange Sticks With K Sticks Visible",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "combinatorics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1867",
-      "slug": "orders-with-maximum-quantity-above-average",
-      "title": "Orders With Maximum Quantity Above Average",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1868",
-      "slug": "product-of-two-run-length-encoded-arrays",
-      "title": "Product of Two Run-Length Encoded Arrays",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1869",
-      "slug": "longer-contiguous-segments-of-ones-than-zeros",
-      "title": "Longer Contiguous Segments of Ones than Zeros",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1870",
-      "slug": "minimum-speed-to-arrive-on-time",
-      "title": "Minimum Speed to Arrive on Time",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1871",
-      "slug": "jump-game-vii",
-      "title": "Jump Game VII",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "sliding-window",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1872",
-      "slug": "stone-game-viii",
-      "title": "Stone Game VIII",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "prefix-sum",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1873",
-      "slug": "calculate-special-bonus",
-      "title": "Calculate Special Bonus",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1874",
-      "slug": "minimize-product-sum-of-two-arrays",
-      "title": "Minimize Product Sum of Two Arrays",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1875",
-      "slug": "group-employees-of-the-same-salary",
-      "title": "Group Employees of the Same Salary",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1876",
-      "slug": "substrings-of-size-three-with-distinct-characters",
-      "title": "Substrings of Size Three with Distinct Characters",
+      "id": "1763",
+      "slug": "longest-nice-substring",
+      "title": "Longest Nice Substring",
       "difficulty": "EASY",
       "tags": [
         "hash-table",
         "string",
-        "sliding-window",
-        "counting"
+        "divide-and-conquer",
+        "bit-manipulation",
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestNiceSubstring"
     },
     {
-      "id": "1877",
-      "slug": "minimize-maximum-pair-sum-in-array",
-      "title": "Minimize Maximum Pair Sum in Array",
+      "id": "1764",
+      "slug": "form-array-by-concatenating-subarrays-of-another-array",
+      "title": "Form Array by Concatenating Subarrays of Another Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "two-pointers",
         "greedy",
-        "sorting"
+        "string-matching"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canChoose"
     },
     {
-      "id": "1878",
-      "slug": "get-biggest-three-rhombus-sums-in-a-grid",
-      "title": "Get Biggest Three Rhombus Sums in a Grid",
+      "id": "1765",
+      "slug": "map-of-highest-peak",
+      "title": "Map of Highest Peak",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "sorting",
-        "heap-priority-queue",
-        "matrix",
-        "prefix-sum"
+        "breadth-first-search",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "highestPeak"
     },
     {
-      "id": "1879",
-      "slug": "minimum-xor-sum-of-two-arrays",
-      "title": "Minimum XOR Sum of Two Arrays",
+      "id": "1766",
+      "slug": "tree-of-coprimes",
+      "title": "Tree of Coprimes",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "dynamic-programming",
-        "bit-manipulation",
-        "bitmask"
+        "math",
+        "tree",
+        "depth-first-search",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getCoprimes"
     },
     {
-      "id": "1880",
-      "slug": "check-if-word-equals-summation-of-two-words",
-      "title": "Check if Word Equals Summation of Two Words",
+      "id": "1767",
+      "slug": "find-the-subtasks-that-did-not-execute",
+      "title": "Find the Subtasks That Did Not Execute",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1768",
+      "slug": "merge-strings-alternately",
+      "title": "Merge Strings Alternately",
       "difficulty": "EASY",
       "tags": [
+        "two-pointers",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mergeAlternately"
     },
     {
-      "id": "1881",
-      "slug": "maximum-value-after-insertion",
-      "title": "Maximum Value after Insertion",
+      "id": "1769",
+      "slug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
+      "title": "Minimum Number of Operations to Move All Balls to Each Box",
       "difficulty": "MEDIUM",
       "tags": [
+        "array",
         "string",
-        "greedy"
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
+    },
+    {
+      "id": "1770",
+      "slug": "maximum-score-from-performing-multiplication-operations",
+      "title": "Maximum Score from Performing Multiplication Operations",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumScore"
+    },
+    {
+      "id": "1771",
+      "slug": "maximize-palindrome-length-from-subsequences",
+      "title": "Maximize Palindrome Length From Subsequences",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestPalindrome"
+    },
+    {
+      "id": "1772",
+      "slug": "sort-features-by-popularity",
+      "title": "Sort Features by Popularity",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortFeatures"
+    },
+    {
+      "id": "1773",
+      "slug": "count-items-matching-a-rule",
+      "title": "Count Items Matching a Rule",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countMatches"
+    },
+    {
+      "id": "1774",
+      "slug": "closest-dessert-cost",
+      "title": "Closest Dessert Cost",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "closestCost"
+    },
+    {
+      "id": "1775",
+      "slug": "equal-sum-arrays-with-minimum-number-of-operations",
+      "title": "Equal Sum Arrays With Minimum Number of Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
+    },
+    {
+      "id": "1776",
+      "slug": "car-fleet-ii",
+      "title": "Car Fleet II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "stack",
+        "heap-priority-queue",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getCollisionTimes"
+    },
+    {
+      "id": "1777",
+      "slug": "products-price-for-each-store",
+      "title": "Product's Price for Each Store",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1778",
+      "slug": "shortest-path-in-a-hidden-grid",
+      "title": "Shortest Path in a Hidden Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix",
+        "interactive"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findShortestPath"
+    },
+    {
+      "id": "1779",
+      "slug": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+      "title": "Find Nearest Point That Has the Same X or Y Coordinate",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nearestValidPoint"
+    },
+    {
+      "id": "1780",
+      "slug": "check-if-number-is-a-sum-of-powers-of-three",
+      "title": "Check if Number is a Sum of Powers of Three",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkPowersOfThree"
     }
   ]
 }

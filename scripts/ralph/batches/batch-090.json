@@ -2,237 +2,286 @@
   "batchId": "batch-090",
   "problems": [
     {
-      "id": "1882",
-      "slug": "process-tasks-using-servers",
-      "title": "Process Tasks Using Servers",
+      "id": "1781",
+      "slug": "sum-of-beauty-of-all-substrings",
+      "title": "Sum of Beauty of All Substrings",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1883",
-      "slug": "minimum-skips-to-arrive-at-meeting-on-time",
-      "title": "Minimum Skips to Arrive at Meeting On Time",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1884",
-      "slug": "egg-drop-with-2-eggs-and-n-floors",
-      "title": "Egg Drop With 2 Eggs and N Floors",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1885",
-      "slug": "count-pairs-in-two-arrays",
-      "title": "Count Pairs in Two Arrays",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1886",
-      "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
-      "title": "Determine Whether Matrix Can Be Obtained By Rotation",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1887",
-      "slug": "reduction-operations-to-make-the-array-elements-equal",
-      "title": "Reduction Operations to Make the Array Elements Equal",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1888",
-      "slug": "minimum-number-of-flips-to-make-the-binary-string-alternating",
-      "title": "Minimum Number of Flips to Make the Binary String Alternating",
-      "difficulty": "MEDIUM",
-      "tags": [
+        "hash-table",
         "string",
-        "dynamic-programming",
-        "sliding-window"
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "beautySum"
     },
     {
-      "id": "1889",
-      "slug": "minimum-space-wasted-from-packaging",
-      "title": "Minimum Space Wasted From Packaging",
+      "id": "1782",
+      "slug": "count-pairs-of-nodes",
+      "title": "Count Pairs Of Nodes",
       "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "sorting",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1890",
-      "slug": "the-latest-login-in-2020",
-      "title": "The Latest Login in 2020",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1891",
-      "slug": "cutting-ribbons",
-      "title": "Cutting Ribbons",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1892",
-      "slug": "page-recommendations-ii",
-      "title": "Page Recommendations II",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1893",
-      "slug": "check-if-all-the-integers-in-a-range-are-covered",
-      "title": "Check if All the Integers in a Range Are Covered",
-      "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1894",
-      "slug": "find-the-student-that-will-replace-the-chalk",
-      "title": "Find the Student that Will Replace the Chalk",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
+        "two-pointers",
         "binary-search",
-        "simulation",
-        "prefix-sum"
+        "graph",
+        "sorting",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPairs"
     },
     {
-      "id": "1895",
-      "slug": "largest-magic-square",
-      "title": "Largest Magic Square",
+      "id": "1783",
+      "slug": "grand-slam-titles",
+      "title": "Grand Slam Titles",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1784",
+      "slug": "check-if-binary-string-has-at-most-one-segment-of-ones",
+      "title": "Check if Binary String Has at Most One Segment of Ones",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkOnesSegment"
+    },
+    {
+      "id": "1785",
+      "slug": "minimum-elements-to-add-to-form-a-given-sum",
+      "title": "Minimum Elements to Add to Form a Given Sum",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "matrix",
-        "prefix-sum"
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minElements"
     },
     {
-      "id": "1896",
-      "slug": "minimum-cost-to-change-the-final-value-of-expression",
-      "title": "Minimum Cost to Change the Final Value of Expression",
+      "id": "1786",
+      "slug": "number-of-restricted-paths-from-first-to-last-node",
+      "title": "Number of Restricted Paths From First to Last Node",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "graph",
+        "topological-sort",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countRestrictedPaths"
+    },
+    {
+      "id": "1787",
+      "slug": "make-the-xor-of-all-segments-equal-to-zero",
+      "title": "Make the XOR of All Segments Equal to Zero",
       "difficulty": "HARD",
       "tags": [
-        "math",
-        "string",
+        "array",
+        "hash-table",
         "dynamic-programming",
-        "stack"
+        "bit-manipulation",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minChanges"
     },
     {
-      "id": "1897",
-      "slug": "redistribute-characters-to-make-all-strings-equal",
-      "title": "Redistribute Characters to Make All Strings Equal",
+      "id": "1788",
+      "slug": "maximize-the-beauty-of-the-garden",
+      "title": "Maximize the Beauty of the Garden",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumBeauty"
+    },
+    {
+      "id": "1789",
+      "slug": "primary-department-for-each-employee",
+      "title": "Primary Department for Each Employee",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1790",
+      "slug": "check-if-one-string-swap-can-make-strings-equal",
+      "title": "Check if One String Swap Can Make Strings Equal",
       "difficulty": "EASY",
       "tags": [
         "hash-table",
         "string",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "areAlmostEqual"
     },
     {
-      "id": "1898",
-      "slug": "maximum-number-of-removable-characters",
-      "title": "Maximum Number of Removable Characters",
+      "id": "1791",
+      "slug": "find-center-of-star-graph",
+      "title": "Find Center of Star Graph",
+      "difficulty": "EASY",
+      "tags": [
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findCenter"
+    },
+    {
+      "id": "1792",
+      "slug": "maximum-average-pass-ratio",
+      "title": "Maximum Average Pass Ratio",
       "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxAverageRatio"
+    },
+    {
+      "id": "1793",
+      "slug": "maximum-score-of-a-good-subarray",
+      "title": "Maximum Score of a Good Subarray",
+      "difficulty": "HARD",
       "tags": [
         "array",
         "two-pointers",
-        "string",
-        "binary-search"
+        "binary-search",
+        "stack",
+        "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumScore"
     },
     {
-      "id": "1899",
-      "slug": "merge-triplets-to-form-target-triplet",
-      "title": "Merge Triplets to Form Target Triplet",
+      "id": "1794",
+      "slug": "count-pairs-of-equal-substrings-with-minimum-difference",
+      "title": "Count Pairs of Equal Substrings With Minimum Difference",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
+        "hash-table",
+        "string",
         "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countQuadruples"
     },
     {
-      "id": "1900",
-      "slug": "the-earliest-and-latest-rounds-where-players-compete",
-      "title": "The Earliest and Latest Rounds Where Players Compete",
-      "difficulty": "HARD",
+      "id": "1795",
+      "slug": "rearrange-products-table",
+      "title": "Rearrange Products Table",
+      "difficulty": "EASY",
       "tags": [
-        "dynamic-programming",
-        "memoization"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1901",
-      "slug": "find-a-peak-element-ii",
-      "title": "Find a Peak Element II",
+      "id": "1796",
+      "slug": "second-largest-digit-in-a-string",
+      "title": "Second Largest Digit in a String",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "secondHighest"
+    },
+    {
+      "id": "1797",
+      "slug": "design-authentication-manager",
+      "title": "Design Authentication Manager",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "linked-list",
+        "design",
+        "doubly-linked-list"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "AuthenticationManager"
+    },
+    {
+      "id": "1798",
+      "slug": "maximum-number-of-consecutive-values-you-can-make",
+      "title": "Maximum Number of Consecutive Values You Can Make",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "binary-search",
-        "matrix"
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getMaximumConsecutive"
+    },
+    {
+      "id": "1799",
+      "slug": "maximize-score-after-n-operations",
+      "title": "Maximize Score After N Operations",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "number-theory",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxScore"
+    },
+    {
+      "id": "1800",
+      "slug": "maximum-ascending-subarray-sum",
+      "title": "Maximum Ascending Subarray Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxAscendingSum"
     }
   ]
 }

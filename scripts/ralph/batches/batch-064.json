@@ -2,246 +2,282 @@
   "batchId": "batch-064",
   "problems": [
     {
-      "id": "1362",
-      "slug": "closest-divisors",
-      "title": "Closest Divisors",
+      "id": "1261",
+      "slug": "find-elements-in-a-contaminated-binary-tree",
+      "title": "Find Elements in a Contaminated Binary Tree",
       "difficulty": "MEDIUM",
       "tags": [
-        "math"
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "design",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "FindElements"
     },
     {
-      "id": "1363",
-      "slug": "largest-multiple-of-three",
-      "title": "Largest Multiple of Three",
-      "difficulty": "HARD",
+      "id": "1262",
+      "slug": "greatest-sum-divisible-by-three",
+      "title": "Greatest Sum Divisible by Three",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
         "dynamic-programming",
         "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSumDivThree"
     },
     {
-      "id": "1364",
-      "slug": "number-of-trusted-contacts-of-a-customer",
-      "title": "Number of Trusted Contacts of a Customer",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1365",
-      "slug": "how-many-numbers-are-smaller-than-the-current-number",
-      "title": "How Many Numbers Are Smaller Than the Current Number",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "sorting",
-        "counting-sort"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1366",
-      "slug": "rank-teams-by-votes",
-      "title": "Rank Teams by Votes",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "sorting",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1367",
-      "slug": "linked-list-in-binary-tree",
-      "title": "Linked List in Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1368",
-      "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
-      "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+      "id": "1263",
+      "slug": "minimum-moves-to-move-a-box-to-their-target-location",
+      "title": "Minimum Moves to Move a Box to Their Target Location",
       "difficulty": "HARD",
       "tags": [
         "array",
         "breadth-first-search",
-        "graph",
         "heap-priority-queue",
-        "matrix",
-        "shortest-path"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minPushBox"
     },
     {
-      "id": "1369",
-      "slug": "get-the-second-most-recent-activity",
-      "title": "Get the Second Most Recent Activity",
-      "difficulty": "HARD",
+      "id": "1264",
+      "slug": "page-recommendations",
+      "title": "Page Recommendations",
+      "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1370",
-      "slug": "increasing-decreasing-string",
-      "title": "Increasing Decreasing String",
+      "id": "1265",
+      "slug": "print-immutable-linked-list-in-reverse",
+      "title": "Print Immutable Linked List in Reverse",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "printLinkedListInReverse"
+    },
+    {
+      "id": "1266",
+      "slug": "minimum-time-visiting-all-points",
+      "title": "Minimum Time Visiting All Points",
       "difficulty": "EASY",
       "tags": [
-        "hash-table",
-        "string",
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minTimeToVisitAllPoints"
+    },
+    {
+      "id": "1267",
+      "slug": "count-servers-that-communicate",
+      "title": "Count Servers that Communicate",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countServers"
     },
     {
-      "id": "1371",
-      "slug": "find-the-longest-substring-containing-vowels-in-even-counts",
-      "title": "Find the Longest Substring Containing Vowels in Even Counts",
+      "id": "1268",
+      "slug": "search-suggestions-system",
+      "title": "Search Suggestions System",
       "difficulty": "MEDIUM",
       "tags": [
-        "hash-table",
+        "array",
         "string",
-        "bit-manipulation",
-        "prefix-sum"
+        "binary-search",
+        "trie",
+        "sorting",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "suggestedProducts"
     },
     {
-      "id": "1372",
-      "slug": "longest-zigzag-path-in-a-binary-tree",
-      "title": "Longest ZigZag Path in a Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1373",
-      "slug": "maximum-sum-bst-in-binary-tree",
-      "title": "Maximum Sum BST in Binary Tree",
+      "id": "1269",
+      "slug": "number-of-ways-to-stay-in-the-same-place-after-some-steps",
+      "title": "Number of Ways to Stay in the Same Place After Some Steps",
       "difficulty": "HARD",
       "tags": [
-        "dynamic-programming",
-        "tree",
-        "depth-first-search",
-        "binary-search-tree",
-        "binary-tree"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numWays"
     },
     {
-      "id": "1374",
-      "slug": "generate-a-string-with-characters-that-have-odd-counts",
-      "title": "Generate a String With Characters That Have Odd Counts",
+      "id": "1270",
+      "slug": "all-people-report-to-the-given-manager",
+      "title": "All People Report to the Given Manager",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1271",
+      "slug": "hexspeak",
+      "title": "Hexspeak",
       "difficulty": "EASY",
       "tags": [
+        "math",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "toHexspeak"
     },
     {
-      "id": "1375",
-      "slug": "number-of-times-binary-string-is-prefix-aligned",
-      "title": "Number of Times Binary String Is Prefix-Aligned",
+      "id": "1272",
+      "slug": "remove-interval",
+      "title": "Remove Interval",
       "difficulty": "MEDIUM",
       "tags": [
         "array"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeInterval"
     },
     {
-      "id": "1376",
-      "slug": "time-needed-to-inform-all-employees",
-      "title": "Time Needed to Inform All Employees",
+      "id": "1273",
+      "slug": "delete-tree-nodes",
+      "title": "Delete Tree Nodes",
       "difficulty": "MEDIUM",
       "tags": [
+        "array",
         "tree",
         "depth-first-search",
         "breadth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "deleteTreeNodes"
     },
     {
-      "id": "1377",
-      "slug": "frog-position-after-t-seconds",
-      "title": "Frog Position After T Seconds",
+      "id": "1274",
+      "slug": "number-of-ships-in-a-rectangle",
+      "title": "Number of Ships in a Rectangle",
       "difficulty": "HARD",
       "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "graph"
+        "array",
+        "divide-and-conquer",
+        "interactive"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countShips"
     },
     {
-      "id": "1378",
-      "slug": "replace-employee-id-with-the-unique-identifier",
-      "title": "Replace Employee ID With The Unique Identifier",
+      "id": "1275",
+      "slug": "find-winner-on-a-tic-tac-toe-game",
+      "title": "Find Winner on a Tic Tac Toe Game",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "tictactoe"
+    },
+    {
+      "id": "1276",
+      "slug": "number-of-burgers-with-no-waste-of-ingredients",
+      "title": "Number of Burgers with No Waste of Ingredients",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numOfBurgers"
+    },
+    {
+      "id": "1277",
+      "slug": "count-square-submatrices-with-all-ones",
+      "title": "Count Square Submatrices with All Ones",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSquares"
+    },
+    {
+      "id": "1278",
+      "slug": "palindrome-partitioning-iii",
+      "title": "Palindrome Partitioning III",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "palindromePartition"
+    },
+    {
+      "id": "1279",
+      "slug": "traffic-light-controlled-intersection",
+      "title": "Traffic Light Controlled Intersection",
+      "difficulty": "EASY",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1280",
+      "slug": "students-and-examinations",
+      "title": "Students and Examinations",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "1379",
-      "slug": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
-      "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1380",
-      "slug": "lucky-numbers-in-a-matrix",
-      "title": "Lucky Numbers in a Matrix",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1381",
-      "slug": "design-a-stack-with-increment-operation",
-      "title": "Design a Stack With Increment Operation",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "stack",
-        "design"
-      ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

@@ -2,236 +2,282 @@
   "batchId": "batch-061",
   "problems": [
     {
-      "id": "1302",
-      "slug": "deepest-leaves-sum",
-      "title": "Deepest Leaves Sum",
+      "id": "1201",
+      "slug": "ugly-number-iii",
+      "title": "Ugly Number III",
       "difficulty": "MEDIUM",
       "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1303",
-      "slug": "find-the-team-size",
-      "title": "Find the Team Size",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1304",
-      "slug": "find-n-unique-integers-sum-up-to-zero",
-      "title": "Find N Unique Integers Sum up to Zero",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1305",
-      "slug": "all-elements-in-two-binary-search-trees",
-      "title": "All Elements in Two Binary Search Trees",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-search-tree",
-        "sorting",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1306",
-      "slug": "jump-game-iii",
-      "title": "Jump Game III",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1307",
-      "slug": "verbal-arithmetic-puzzle",
-      "title": "Verbal Arithmetic Puzzle",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
         "math",
-        "string",
-        "backtracking"
+        "binary-search",
+        "combinatorics",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nthUglyNumber"
     },
     {
-      "id": "1308",
-      "slug": "running-total-for-different-genders",
-      "title": "Running Total for Different Genders",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1309",
-      "slug": "decrypt-string-from-alphabet-to-integer-mapping",
-      "title": "Decrypt String from Alphabet to Integer Mapping",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1310",
-      "slug": "xor-queries-of-a-subarray",
-      "title": "XOR Queries of a Subarray",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "bit-manipulation",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1311",
-      "slug": "get-watched-videos-by-your-friends",
-      "title": "Get Watched Videos by Your Friends",
+      "id": "1202",
+      "slug": "smallest-string-with-swaps",
+      "title": "Smallest String With Swaps",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "breadth-first-search",
-        "graph",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1312",
-      "slug": "minimum-insertion-steps-to-make-a-string-palindrome",
-      "title": "Minimum Insertion Steps to Make a String Palindrome",
-      "difficulty": "HARD",
-      "tags": [
         "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1313",
-      "slug": "decompress-run-length-encoded-list",
-      "title": "Decompress Run-Length Encoded List",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1314",
-      "slug": "matrix-block-sum",
-      "title": "Matrix Block Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "matrix",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1315",
-      "slug": "sum-of-nodes-with-even-valued-grandparent",
-      "title": "Sum of Nodes with Even-Valued Grandparent",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1316",
-      "slug": "distinct-echo-substrings",
-      "title": "Distinct Echo Substrings",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "trie",
-        "rolling-hash",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1317",
-      "slug": "convert-integer-to-the-sum-of-two-no-zero-integers",
-      "title": "Convert Integer to the Sum of Two No-Zero Integers",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1318",
-      "slug": "minimum-flips-to-make-a-or-b-equal-to-c",
-      "title": "Minimum Flips to Make a OR b Equal to c",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1319",
-      "slug": "number-of-operations-to-make-network-connected",
-      "title": "Number of Operations to Make Network Connected",
-      "difficulty": "MEDIUM",
-      "tags": [
         "depth-first-search",
         "breadth-first-search",
         "union-find",
-        "graph"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestStringWithSwaps"
     },
     {
-      "id": "1320",
-      "slug": "minimum-distance-to-type-a-word-using-two-fingers",
-      "title": "Minimum Distance to Type a Word Using Two Fingers",
+      "id": "1203",
+      "slug": "sort-items-by-groups-respecting-dependencies",
+      "title": "Sort Items by Groups Respecting Dependencies",
       "difficulty": "HARD",
       "tags": [
-        "string",
-        "dynamic-programming"
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortItems"
     },
     {
-      "id": "1321",
-      "slug": "restaurant-growth",
-      "title": "Restaurant Growth",
+      "id": "1204",
+      "slug": "last-person-to-fit-in-the-bus",
+      "title": "Last Person to Fit in the Bus",
       "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1205",
+      "slug": "monthly-transactions-ii",
+      "title": "Monthly Transactions II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1206",
+      "slug": "design-skiplist",
+      "title": "Design Skiplist",
+      "difficulty": "HARD",
+      "tags": [
+        "linked-list",
+        "design"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "Skiplist"
+    },
+    {
+      "id": "1207",
+      "slug": "unique-number-of-occurrences",
+      "title": "Unique Number of Occurrences",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "uniqueOccurrences"
+    },
+    {
+      "id": "1208",
+      "slug": "get-equal-substrings-within-budget",
+      "title": "Get Equal Substrings Within Budget",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "binary-search",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "equalSubstring"
+    },
+    {
+      "id": "1209",
+      "slug": "remove-all-adjacent-duplicates-in-string-ii",
+      "title": "Remove All Adjacent Duplicates in String II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeDuplicates"
+    },
+    {
+      "id": "1210",
+      "slug": "minimum-moves-to-reach-target-with-rotations",
+      "title": "Minimum Moves to Reach Target with Rotations",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumMoves"
+    },
+    {
+      "id": "1211",
+      "slug": "queries-quality-and-percentage",
+      "title": "Queries Quality and Percentage",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1212",
+      "slug": "team-scores-in-football-tournament",
+      "title": "Team Scores in Football Tournament",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1213",
+      "slug": "intersection-of-three-sorted-arrays",
+      "title": "Intersection of Three Sorted Arrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "arraysIntersection"
+    },
+    {
+      "id": "1214",
+      "slug": "two-sum-bsts",
+      "title": "Two Sum BSTs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "binary-search",
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "twoSumBSTs"
+    },
+    {
+      "id": "1215",
+      "slug": "stepping-numbers",
+      "title": "Stepping Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "backtracking",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSteppingNumbers"
+    },
+    {
+      "id": "1216",
+      "slug": "valid-palindrome-iii",
+      "title": "Valid Palindrome III",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isValidPalindrome"
+    },
+    {
+      "id": "1217",
+      "slug": "minimum-cost-to-move-chips-to-the-same-position",
+      "title": "Minimum Cost to Move Chips to The Same Position",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCostToMoveChips"
+    },
+    {
+      "id": "1218",
+      "slug": "longest-arithmetic-subsequence-of-given-difference",
+      "title": "Longest Arithmetic Subsequence of Given Difference",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestSubsequence"
+    },
+    {
+      "id": "1219",
+      "slug": "path-with-maximum-gold",
+      "title": "Path with Maximum Gold",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getMaximumGold"
+    },
+    {
+      "id": "1220",
+      "slug": "count-vowels-permutation",
+      "title": "Count Vowels Permutation",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countVowelPermutation"
     }
   ]
 }

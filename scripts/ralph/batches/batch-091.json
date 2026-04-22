@@ -2,246 +2,288 @@
   "batchId": "batch-091",
   "problems": [
     {
-      "id": "1902",
-      "slug": "depth-of-bst-given-insertion-order",
-      "title": "Depth of BST Given Insertion Order",
+      "id": "1801",
+      "slug": "number-of-orders-in-the-backlog",
+      "title": "Number of Orders in the Backlog",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "tree",
-        "binary-search-tree",
-        "binary-tree",
-        "ordered-set"
+        "heap-priority-queue",
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getNumberOfBacklogOrders"
     },
     {
-      "id": "1903",
-      "slug": "largest-odd-number-in-string",
-      "title": "Largest Odd Number in String",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1904",
-      "slug": "the-number-of-full-rounds-you-have-played",
-      "title": "The Number of Full Rounds You Have Played",
+      "id": "1802",
+      "slug": "maximum-value-at-a-given-index-in-a-bounded-array",
+      "title": "Maximum Value at a Given Index in a Bounded Array",
       "difficulty": "MEDIUM",
       "tags": [
         "math",
-        "string"
+        "binary-search",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxValue"
     },
     {
-      "id": "1905",
-      "slug": "count-sub-islands",
-      "title": "Count Sub Islands",
+      "id": "1803",
+      "slug": "count-pairs-with-xor-in-a-range",
+      "title": "Count Pairs With XOR in a Range",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPairs"
+    },
+    {
+      "id": "1804",
+      "slug": "implement-trie-ii-prefix-tree",
+      "title": "Implement Trie II (Prefix Tree)",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "design",
+        "trie"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "Trie"
+    },
+    {
+      "id": "1805",
+      "slug": "number-of-different-integers-in-a-string",
+      "title": "Number of Different Integers in a String",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numDifferentIntegers"
+    },
+    {
+      "id": "1806",
+      "slug": "minimum-number-of-operations-to-reinitialize-a-permutation",
+      "title": "Minimum Number of Operations to Reinitialize a Permutation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reinitializePermutation"
+    },
+    {
+      "id": "1807",
+      "slug": "evaluate-the-bracket-pairs-of-a-string",
+      "title": "Evaluate the Bracket Pairs of a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "evaluate"
+    },
+    {
+      "id": "1808",
+      "slug": "maximize-number-of-nice-divisors",
+      "title": "Maximize Number of Nice Divisors",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "recursion",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxNiceDivisors"
+    },
+    {
+      "id": "1809",
+      "slug": "ad-free-sessions",
+      "title": "Ad-Free Sessions",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1810",
+      "slug": "minimum-path-cost-in-a-hidden-grid",
+      "title": "Minimum Path Cost in a Hidden Grid",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "depth-first-search",
         "breadth-first-search",
-        "union-find",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1906",
-      "slug": "minimum-absolute-difference-queries",
-      "title": "Minimum Absolute Difference Queries",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1907",
-      "slug": "count-salary-categories",
-      "title": "Count Salary Categories",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1908",
-      "slug": "game-of-nim",
-      "title": "Game of Nim",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "bit-manipulation",
-        "brainteaser",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1909",
-      "slug": "remove-one-element-to-make-the-array-strictly-increasing",
-      "title": "Remove One Element to Make the Array Strictly Increasing",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1910",
-      "slug": "remove-all-occurrences-of-a-substring",
-      "title": "Remove All Occurrences of a Substring",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "stack",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1911",
-      "slug": "maximum-alternating-subsequence-sum",
-      "title": "Maximum Alternating Subsequence Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1912",
-      "slug": "design-movie-rental-system",
-      "title": "Design Movie Rental System",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "design",
-        "heap-priority-queue",
-        "ordered-set"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1913",
-      "slug": "maximum-product-difference-between-two-pairs",
-      "title": "Maximum Product Difference Between Two Pairs",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1914",
-      "slug": "cyclically-rotating-a-grid",
-      "title": "Cyclically Rotating a Grid",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "matrix",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1915",
-      "slug": "number-of-wonderful-substrings",
-      "title": "Number of Wonderful Substrings",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "bit-manipulation",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1916",
-      "slug": "count-ways-to-build-rooms-in-an-ant-colony",
-      "title": "Count Ways to Build Rooms in an Ant Colony",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "tree",
-        "depth-first-search",
         "graph",
-        "topological-sort",
-        "combinatorics"
+        "heap-priority-queue",
+        "matrix",
+        "interactive",
+        "shortest-path"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findShortestPath"
     },
     {
-      "id": "1917",
-      "slug": "leetcodify-friends-recommendations",
-      "title": "Leetcodify Friends Recommendations",
-      "difficulty": "HARD",
+      "id": "1811",
+      "slug": "find-interview-candidates",
+      "title": "Find Interview Candidates",
+      "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1918",
-      "slug": "kth-smallest-subarray-sum",
-      "title": "Kth Smallest Subarray Sum",
+      "id": "1812",
+      "slug": "determine-color-of-a-chessboard-square",
+      "title": "Determine Color of a Chessboard Square",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "squareIsWhite"
+    },
+    {
+      "id": "1813",
+      "slug": "sentence-similarity-iii",
+      "title": "Sentence Similarity III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "areSentencesSimilar"
+    },
+    {
+      "id": "1814",
+      "slug": "count-nice-pairs-in-an-array",
+      "title": "Count Nice Pairs in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countNicePairs"
+    },
+    {
+      "id": "1815",
+      "slug": "maximum-number-of-groups-getting-fresh-donuts",
+      "title": "Maximum Number of Groups Getting Fresh Donuts",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "memoization",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxHappyGroups"
+    },
+    {
+      "id": "1816",
+      "slug": "truncate-sentence",
+      "title": "Truncate Sentence",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "truncateSentence"
+    },
+    {
+      "id": "1817",
+      "slug": "finding-the-users-active-minutes",
+      "title": "Finding the Users Active Minutes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findingUsersActiveMinutes"
+    },
+    {
+      "id": "1818",
+      "slug": "minimum-absolute-sum-difference",
+      "title": "Minimum Absolute Sum Difference",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "binary-search",
-        "sliding-window"
+        "sorting",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minAbsoluteSumDiff"
     },
     {
-      "id": "1919",
-      "slug": "leetcodify-similar-friends",
-      "title": "Leetcodify Similar Friends",
+      "id": "1819",
+      "slug": "number-of-different-subsequences-gcds",
+      "title": "Number of Different Subsequences GCDs",
       "difficulty": "HARD",
       "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1920",
-      "slug": "build-array-from-permutation",
-      "title": "Build Array from Permutation",
-      "difficulty": "EASY",
-      "tags": [
         "array",
-        "simulation"
+        "math",
+        "counting",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countDifferentSubsequenceGCDs"
     },
     {
-      "id": "1921",
-      "slug": "eliminate-maximum-number-of-monsters",
-      "title": "Eliminate Maximum Number of Monsters",
+      "id": "1820",
+      "slug": "maximum-number-of-accepted-invitations",
+      "title": "Maximum Number of Accepted Invitations",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "sorting"
+        "depth-first-search",
+        "graph",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumInvitations"
     }
   ]
 }

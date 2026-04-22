@@ -2,258 +2,272 @@
   "batchId": "batch-144",
   "problems": [
     {
-      "id": "2962",
-      "slug": "count-subarrays-where-max-element-appears-at-least-k-times",
-      "title": "Count Subarrays Where Max Element Appears at Least K Times",
+      "id": "2861",
+      "slug": "maximum-number-of-alloys",
+      "title": "Maximum Number of Alloys",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2963",
-      "slug": "count-the-number-of-good-partitions",
-      "title": "Count the Number of Good Partitions",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "combinatorics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2964",
-      "slug": "number-of-divisible-triplet-sums",
-      "title": "Number of Divisible Triplet Sums",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2965",
-      "slug": "find-missing-and-repeated-values",
-      "title": "Find Missing and Repeated Values",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2966",
-      "slug": "divide-array-into-arrays-with-max-difference",
-      "title": "Divide Array Into Arrays With Max Difference",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2967",
-      "slug": "minimum-cost-to-make-array-equalindromic",
-      "title": "Minimum Cost to Make Array Equalindromic",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "binary-search",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2968",
-      "slug": "apply-operations-to-maximize-frequency-score",
-      "title": "Apply Operations to Maximize Frequency Score",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "sliding-window",
-        "sorting",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2969",
-      "slug": "minimum-number-of-coins-for-fruits-ii",
-      "title": "Minimum Number of Coins for Fruits II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "queue",
-        "heap-priority-queue",
-        "monotonic-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2970",
-      "slug": "count-the-number-of-incremovable-subarrays-i",
-      "title": "Count the Number of Incremovable Subarrays I",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2971",
-      "slug": "find-polygon-with-the-largest-perimeter",
-      "title": "Find Polygon With the Largest Perimeter",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2972",
-      "slug": "count-the-number-of-incremovable-subarrays-ii",
-      "title": "Count the Number of Incremovable Subarrays II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "two-pointers",
         "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2973",
-      "slug": "find-number-of-coins-to-place-in-tree-nodes",
-      "title": "Find Number of Coins to Place in Tree Nodes",
+      "id": "2862",
+      "slug": "maximum-element-sum-of-a-complete-subset-of-indices",
+      "title": "Maximum Element-Sum of a Complete Subset of Indices",
       "difficulty": "HARD",
       "tags": [
+        "array",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumSum"
+    },
+    {
+      "id": "2863",
+      "slug": "maximum-length-of-semi-decreasing-subarrays",
+      "title": "Maximum Length of Semi-Decreasing Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSubarrayLength"
+    },
+    {
+      "id": "2864",
+      "slug": "maximum-odd-binary-number",
+      "title": "Maximum Odd Binary Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumOddBinaryNumber"
+    },
+    {
+      "id": "2865",
+      "slug": "beautiful-towers-i",
+      "title": "Beautiful Towers I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumSumOfHeights"
+    },
+    {
+      "id": "2866",
+      "slug": "beautiful-towers-ii",
+      "title": "Beautiful Towers II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2867",
+      "slug": "count-valid-paths-in-a-tree",
+      "title": "Count Valid Paths in a Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
         "dynamic-programming",
         "tree",
         "depth-first-search",
-        "sorting",
-        "heap-priority-queue"
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2974",
-      "slug": "minimum-number-game",
-      "title": "Minimum Number Game",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sorting",
-        "heap-priority-queue",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2975",
-      "slug": "maximum-square-area-by-removing-fences-from-a-field",
-      "title": "Maximum Square Area by Removing Fences From a Field",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2976",
-      "slug": "minimum-cost-to-convert-string-i",
-      "title": "Minimum Cost to Convert String I",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "graph",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2977",
-      "slug": "minimum-cost-to-convert-string-ii",
-      "title": "Minimum Cost to Convert String II",
+      "id": "2868",
+      "slug": "the-wording-game",
+      "title": "The Wording Game",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "string",
-        "dynamic-programming",
-        "graph",
-        "trie",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2978",
-      "slug": "symmetric-coordinates",
-      "title": "Symmetric Coordinates",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2979",
-      "slug": "most-expensive-item-that-can-not-be-bought",
-      "title": "Most Expensive Item That Can Not Be Bought",
-      "difficulty": "MEDIUM",
-      "tags": [
         "math",
-        "dynamic-programming",
-        "number-theory"
+        "two-pointers",
+        "string",
+        "greedy",
+        "game-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canAliceWin"
     },
     {
-      "id": "2980",
-      "slug": "check-if-bitwise-or-has-trailing-zeros",
-      "title": "Check if Bitwise OR Has Trailing Zeros",
+      "id": "2869",
+      "slug": "minimum-operations-to-collect-elements",
+      "title": "Minimum Operations to Collect Elements",
       "difficulty": "EASY",
       "tags": [
         "array",
+        "hash-table",
         "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
     },
     {
-      "id": "2981",
-      "slug": "find-longest-special-substring-that-occurs-thrice-i",
-      "title": "Find Longest Special Substring That Occurs Thrice I",
+      "id": "2870",
+      "slug": "minimum-number-of-operations-to-make-array-empty",
+      "title": "Minimum Number of Operations to Make Array Empty",
       "difficulty": "MEDIUM",
       "tags": [
+        "array",
         "hash-table",
-        "string",
-        "binary-search",
-        "sliding-window",
+        "greedy",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
+    },
+    {
+      "id": "2871",
+      "slug": "split-array-into-maximum-number-of-subarrays",
+      "title": "Split Array Into Maximum Number of Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSubarrays"
+    },
+    {
+      "id": "2872",
+      "slug": "maximum-number-of-k-divisible-components",
+      "title": "Maximum Number of K-Divisible Components",
+      "difficulty": "HARD",
+      "tags": [
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxKDivisibleComponents"
+    },
+    {
+      "id": "2873",
+      "slug": "maximum-value-of-an-ordered-triplet-i",
+      "title": "Maximum Value of an Ordered Triplet I",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumTripletValue"
+    },
+    {
+      "id": "2874",
+      "slug": "maximum-value-of-an-ordered-triplet-ii",
+      "title": "Maximum Value of an Ordered Triplet II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumTripletValue"
+    },
+    {
+      "id": "2875",
+      "slug": "minimum-size-subarray-in-infinite-array",
+      "title": "Minimum Size Subarray in Infinite Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2876",
+      "slug": "count-visited-nodes-in-a-directed-graph",
+      "title": "Count Visited Nodes in a Directed Graph",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "depth-first-search",
+        "graph",
+        "topological-sort",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2877",
+      "slug": "create-a-dataframe-from-list",
+      "title": "Create a DataFrame from List",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2878",
+      "slug": "get-the-size-of-a-dataframe",
+      "title": "Get the Size of a DataFrame",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2879",
+      "slug": "display-the-first-three-rows",
+      "title": "Display the First Three Rows",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2880",
+      "slug": "select-data",
+      "title": "Select Data",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

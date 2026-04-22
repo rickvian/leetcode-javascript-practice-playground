@@ -2,238 +2,299 @@
   "batchId": "batch-046",
   "problems": [
     {
-      "id": "1000",
-      "slug": "minimum-cost-to-merge-stones",
-      "title": "Minimum Cost to Merge Stones",
+      "id": "0900",
+      "slug": "rle-iterator",
+      "title": "RLE Iterator",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "design",
+        "counting",
+        "iterator"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "RLEIterator"
+    },
+    {
+      "id": "0902",
+      "slug": "numbers-at-most-n-given-digit-set",
+      "title": "Numbers At Most N Given Digit Set",
       "difficulty": "HARD",
       "tags": [
         "array",
+        "math",
+        "string",
+        "binary-search",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "atMostNGivenDigitSet"
+    },
+    {
+      "id": "0903",
+      "slug": "valid-permutations-for-di-sequence",
+      "title": "Valid Permutations for DI Sequence",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
         "dynamic-programming",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numPermsDISequence"
     },
     {
-      "id": "1001",
-      "slug": "grid-illumination",
-      "title": "Grid Illumination",
-      "difficulty": "HARD",
+      "id": "0904",
+      "slug": "fruit-into-baskets",
+      "title": "Fruit Into Baskets",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table"
+        "hash-table",
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "totalFruit"
     },
     {
-      "id": "1002",
-      "slug": "find-common-characters",
-      "title": "Find Common Characters",
+      "id": "0905",
+      "slug": "sort-array-by-parity",
+      "title": "Sort Array By Parity",
       "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortArrayByParity"
+    },
+    {
+      "id": "0906",
+      "slug": "super-palindromes",
+      "title": "Super Palindromes",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "superpalindromesInRange"
+    },
+    {
+      "id": "0907",
+      "slug": "sum-of-subarray-minimums",
+      "title": "Sum of Subarray Minimums",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumSubarrayMins"
+    },
+    {
+      "id": "0908",
+      "slug": "smallest-range-i",
+      "title": "Smallest Range I",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestRangeI"
+    },
+    {
+      "id": "0909",
+      "slug": "snakes-and-ladders",
+      "title": "Snakes and Ladders",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "snakesAndLadders"
+    },
+    {
+      "id": "0910",
+      "slug": "smallest-range-ii",
+      "title": "Smallest Range II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestRangeII"
+    },
+    {
+      "id": "0911",
+      "slug": "online-election",
+      "title": "Online Election",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "design"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "TopVotedCandidate"
+    },
+    {
+      "id": "0912",
+      "slug": "sort-an-array",
+      "title": "Sort an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "sorting",
+        "heap-priority-queue",
+        "merge-sort",
+        "bucket-sort",
+        "radix-sort",
+        "counting-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortArray"
+    },
+    {
+      "id": "0913",
+      "slug": "cat-and-mouse",
+      "title": "Cat and Mouse",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "graph",
+        "topological-sort",
+        "memoization",
+        "game-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "catMouseGame"
+    },
+    {
+      "id": "0914",
+      "slug": "x-of-a-kind-in-a-deck-of-cards",
+      "title": "X of a Kind in a Deck of Cards",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "counting",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "hasGroupsSizeX"
+    },
+    {
+      "id": "0915",
+      "slug": "partition-array-into-disjoint-intervals",
+      "title": "Partition Array into Disjoint Intervals",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "partitionDisjoint"
+    },
+    {
+      "id": "0916",
+      "slug": "word-subsets",
+      "title": "Word Subsets",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wordSubsets"
     },
     {
-      "id": "1003",
-      "slug": "check-if-word-is-valid-after-substitutions",
-      "title": "Check If Word Is Valid After Substitutions",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1004",
-      "slug": "max-consecutive-ones-iii",
-      "title": "Max Consecutive Ones III",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "sliding-window",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1005",
-      "slug": "maximize-sum-of-array-after-k-negations",
-      "title": "Maximize Sum Of Array After K Negations",
+      "id": "0917",
+      "slug": "reverse-only-letters",
+      "title": "Reverse Only Letters",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "greedy",
-        "sorting"
+        "two-pointers",
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverseOnlyLetters"
     },
     {
-      "id": "1006",
-      "slug": "clumsy-factorial",
-      "title": "Clumsy Factorial",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "stack",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1007",
-      "slug": "minimum-domino-rotations-for-equal-row",
-      "title": "Minimum Domino Rotations For Equal Row",
+      "id": "0918",
+      "slug": "maximum-sum-circular-subarray",
+      "title": "Maximum Sum Circular Subarray",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy"
+        "divide-and-conquer",
+        "dynamic-programming",
+        "queue",
+        "monotonic-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSubarraySumCircular"
     },
     {
-      "id": "1008",
-      "slug": "construct-binary-search-tree-from-preorder-traversal",
-      "title": "Construct Binary Search Tree from Preorder Traversal",
+      "id": "0919",
+      "slug": "complete-binary-tree-inserter",
+      "title": "Complete Binary Tree Inserter",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "stack",
         "tree",
-        "binary-search-tree",
-        "monotonic-stack",
+        "breadth-first-search",
+        "design",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "CBTInserter"
     },
     {
-      "id": "1009",
-      "slug": "complement-of-base-10-integer",
-      "title": "Complement of Base 10 Integer",
-      "difficulty": "EASY",
-      "tags": [
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1010",
-      "slug": "pairs-of-songs-with-total-durations-divisible-by-60",
-      "title": "Pairs of Songs With Total Durations Divisible by 60",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1011",
-      "slug": "capacity-to-ship-packages-within-d-days",
-      "title": "Capacity To Ship Packages Within D Days",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1012",
-      "slug": "numbers-with-repeated-digits",
-      "title": "Numbers With Repeated Digits",
+      "id": "0920",
+      "slug": "number-of-music-playlists",
+      "title": "Number of Music Playlists",
       "difficulty": "HARD",
       "tags": [
         "math",
-        "dynamic-programming"
+        "dynamic-programming",
+        "combinatorics"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "1013",
-      "slug": "partition-array-into-three-parts-with-equal-sum",
-      "title": "Partition Array Into Three Parts With Equal Sum",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1014",
-      "slug": "best-sightseeing-pair",
-      "title": "Best Sightseeing Pair",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1015",
-      "slug": "smallest-integer-divisible-by-k",
-      "title": "Smallest Integer Divisible by K",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1016",
-      "slug": "binary-string-with-substrings-representing-1-to-n",
-      "title": "Binary String With Substrings Representing 1 To N",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "bit-manipulation",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1017",
-      "slug": "convert-to-base-2",
-      "title": "Convert to Base -2",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1018",
-      "slug": "binary-prefix-divisible-by-5",
-      "title": "Binary Prefix Divisible By 5",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1020",
-      "slug": "number-of-enclaves",
-      "title": "Number of Enclaves",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "matrix"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numMusicPlaylists"
     }
   ]
 }

@@ -2,235 +2,282 @@
   "batchId": "batch-053",
   "problems": [
     {
-      "id": "1141",
-      "slug": "user-activity-for-the-past-30-days-i",
-      "title": "User Activity for the Past 30 Days I",
+      "id": "1041",
+      "slug": "robot-bounded-in-circle",
+      "title": "Robot Bounded In Circle",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isRobotBounded"
+    },
+    {
+      "id": "1042",
+      "slug": "flower-planting-with-no-adjacent",
+      "title": "Flower Planting With No Adjacent",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "gardenNoAdj"
+    },
+    {
+      "id": "1043",
+      "slug": "partition-array-for-maximum-sum",
+      "title": "Partition Array for Maximum Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSumAfterPartitioning"
+    },
+    {
+      "id": "1044",
+      "slug": "longest-duplicate-substring",
+      "title": "Longest Duplicate Substring",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "binary-search",
+        "sliding-window",
+        "rolling-hash",
+        "suffix-array",
+        "hash-function"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestDupSubstring"
+    },
+    {
+      "id": "1045",
+      "slug": "customers-who-bought-all-products",
+      "title": "Customers Who Bought All Products",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1046",
+      "slug": "last-stone-weight",
+      "title": "Last Stone Weight",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lastStoneWeight"
+    },
+    {
+      "id": "1047",
+      "slug": "remove-all-adjacent-duplicates-in-string",
+      "title": "Remove All Adjacent Duplicates In String",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeDuplicates"
+    },
+    {
+      "id": "1048",
+      "slug": "longest-string-chain",
+      "title": "Longest String Chain",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "string",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestStrChain"
+    },
+    {
+      "id": "1049",
+      "slug": "last-stone-weight-ii",
+      "title": "Last Stone Weight II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lastStoneWeightII"
+    },
+    {
+      "id": "1050",
+      "slug": "actors-and-directors-who-cooperated-at-least-three-times",
+      "title": "Actors and Directors Who Cooperated At Least Three Times",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1142",
-      "slug": "user-activity-for-the-past-30-days-ii",
-      "title": "User Activity for the Past 30 Days II",
+      "id": "1051",
+      "slug": "height-checker",
+      "title": "Height Checker",
       "difficulty": "EASY",
       "tags": [
-        "database"
+        "array",
+        "sorting",
+        "counting-sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "heightChecker"
     },
     {
-      "id": "1144",
-      "slug": "decrease-elements-to-make-array-zigzag",
-      "title": "Decrease Elements To Make Array Zigzag",
+      "id": "1052",
+      "slug": "grumpy-bookstore-owner",
+      "title": "Grumpy Bookstore Owner",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSatisfied"
+    },
+    {
+      "id": "1053",
+      "slug": "previous-permutation-with-one-swap",
+      "title": "Previous Permutation With One Swap",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "prevPermOpt1"
     },
     {
-      "id": "1145",
-      "slug": "binary-tree-coloring-game",
-      "title": "Binary Tree Coloring Game",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1146",
-      "slug": "snapshot-array",
-      "title": "Snapshot Array",
+      "id": "1054",
+      "slug": "distant-barcodes",
+      "title": "Distant Barcodes",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "binary-search",
-        "design"
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rearrangeBarcodes"
     },
     {
-      "id": "1147",
-      "slug": "longest-chunked-palindrome-decomposition",
-      "title": "Longest Chunked Palindrome Decomposition",
-      "difficulty": "HARD",
+      "id": "1055",
+      "slug": "shortest-way-to-form-string",
+      "title": "Shortest Way to Form String",
+      "difficulty": "MEDIUM",
       "tags": [
         "two-pointers",
         "string",
-        "dynamic-programming",
-        "greedy",
-        "rolling-hash",
-        "hash-function"
+        "binary-search",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestWay"
     },
     {
-      "id": "1148",
-      "slug": "article-views-i",
-      "title": "Article Views I",
+      "id": "1056",
+      "slug": "confusing-number",
+      "title": "Confusing Number",
       "difficulty": "EASY",
       "tags": [
-        "database"
+        "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "confusingNumber"
     },
     {
-      "id": "1149",
-      "slug": "article-views-ii",
-      "title": "Article Views II",
+      "id": "1057",
+      "slug": "campus-bikes",
+      "title": "Campus Bikes",
       "difficulty": "MEDIUM",
       "tags": [
-        "database"
+        "array",
+        "sorting",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "assignBikes"
     },
     {
-      "id": "1150",
-      "slug": "check-if-a-number-is-majority-element-in-a-sorted-array",
-      "title": "Check If a Number Is Majority Element in a Sorted Array",
-      "difficulty": "EASY",
+      "id": "1058",
+      "slug": "minimize-rounding-error-to-meet-target",
+      "title": "Minimize Rounding Error to Meet Target",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "string",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimizeError"
+    },
+    {
+      "id": "1059",
+      "slug": "all-paths-from-source-lead-to-destination",
+      "title": "All Paths from Source Lead to Destination",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "leadsToDestination"
+    },
+    {
+      "id": "1060",
+      "slug": "missing-element-in-sorted-array",
+      "title": "Missing Element in Sorted Array",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "binary-search"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "1151",
-      "slug": "minimum-swaps-to-group-all-1s-together",
-      "title": "Minimum Swaps to Group All 1's Together",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1152",
-      "slug": "analyze-user-website-visit-pattern",
-      "title": "Analyze User Website Visit Pattern",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1153",
-      "slug": "string-transforms-into-another-string",
-      "title": "String Transforms Into Another String",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "string",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1154",
-      "slug": "day-of-the-year",
-      "title": "Day of the Year",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1155",
-      "slug": "number-of-dice-rolls-with-target-sum",
-      "title": "Number of Dice Rolls With Target Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1156",
-      "slug": "swap-for-longest-repeated-character-substring",
-      "title": "Swap For Longest Repeated Character Substring",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1157",
-      "slug": "online-majority-element-in-subarray",
-      "title": "Online Majority Element In Subarray",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "design",
-        "binary-indexed-tree",
-        "segment-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1158",
-      "slug": "market-analysis-i",
-      "title": "Market Analysis I",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1159",
-      "slug": "market-analysis-ii",
-      "title": "Market Analysis II",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1160",
-      "slug": "find-words-that-can-be-formed-by-characters",
-      "title": "Find Words That Can Be Formed by Characters",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1161",
-      "slug": "maximum-level-sum-of-a-binary-tree",
-      "title": "Maximum Level Sum of a Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "missingElement"
     }
   ]
 }

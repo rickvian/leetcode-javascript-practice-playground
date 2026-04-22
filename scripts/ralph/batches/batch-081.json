@@ -2,235 +2,286 @@
   "batchId": "batch-081",
   "problems": [
     {
-      "id": "1702",
-      "slug": "maximum-binary-string-after-change",
-      "title": "Maximum Binary String After Change",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1703",
-      "slug": "minimum-adjacent-swaps-for-k-consecutive-ones",
-      "title": "Minimum Adjacent Swaps for K Consecutive Ones",
+      "id": "1601",
+      "slug": "maximum-number-of-achievable-transfer-requests",
+      "title": "Maximum Number of Achievable Transfer Requests",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "greedy",
-        "sliding-window",
-        "prefix-sum"
+        "backtracking",
+        "bit-manipulation",
+        "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumRequests"
     },
     {
-      "id": "1704",
-      "slug": "determine-if-string-halves-are-alike",
-      "title": "Determine if String Halves Are Alike",
+      "id": "1602",
+      "slug": "find-nearest-right-node-in-binary-tree",
+      "title": "Find Nearest Right Node in Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findNearestRightNode"
+    },
+    {
+      "id": "1603",
+      "slug": "design-parking-system",
+      "title": "Design Parking System",
       "difficulty": "EASY",
       "tags": [
-        "string",
+        "design",
+        "simulation",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "ParkingSystem"
     },
     {
-      "id": "1705",
-      "slug": "maximum-number-of-eaten-apples",
-      "title": "Maximum Number of Eaten Apples",
+      "id": "1604",
+      "slug": "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+      "title": "Alert Using Same Key-Card Three or More Times in a One Hour Period",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1706",
-      "slug": "where-will-the-ball-fall",
-      "title": "Where Will the Ball Fall",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "matrix",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1707",
-      "slug": "maximum-xor-with-an-element-from-array",
-      "title": "Maximum XOR With an Element From Array",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "bit-manipulation",
-        "trie"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1708",
-      "slug": "largest-subarray-length-k",
-      "title": "Largest Subarray Length K",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1709",
-      "slug": "biggest-window-between-visits",
-      "title": "Biggest Window Between Visits",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1710",
-      "slug": "maximum-units-on-a-truck",
-      "title": "Maximum Units on a Truck",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "greedy",
+        "hash-table",
+        "string",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "alertNames"
     },
     {
-      "id": "1711",
-      "slug": "count-good-meals",
-      "title": "Count Good Meals",
+      "id": "1605",
+      "slug": "find-valid-matrix-given-row-and-column-sums",
+      "title": "Find Valid Matrix Given Row and Column Sums",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table"
+        "greedy",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "restoreMatrix"
     },
     {
-      "id": "1712",
-      "slug": "ways-to-split-array-into-three-subarrays",
-      "title": "Ways to Split Array Into Three Subarrays",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1713",
-      "slug": "minimum-operations-to-make-a-subsequence",
-      "title": "Minimum Operations to Make a Subsequence",
+      "id": "1606",
+      "slug": "find-servers-that-handled-most-number-of-requests",
+      "title": "Find Servers That Handled Most Number of Requests",
       "difficulty": "HARD",
       "tags": [
         "array",
+        "heap-priority-queue",
+        "simulation",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "busiestServers"
+    },
+    {
+      "id": "1607",
+      "slug": "sellers-with-no-sales",
+      "title": "Sellers With No Sales",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1608",
+      "slug": "special-array-with-x-elements-greater-than-or-equal-x",
+      "title": "Special Array With X Elements Greater Than or Equal X",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1609",
+      "slug": "even-odd-tree",
+      "title": "Even Odd Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isEvenOddTree"
+    },
+    {
+      "id": "1610",
+      "slug": "maximum-number-of-visible-points",
+      "title": "Maximum Number of Visible Points",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "geometry",
+        "sliding-window",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "visiblePoints"
+    },
+    {
+      "id": "1611",
+      "slug": "minimum-one-bit-operations-to-make-integers-zero",
+      "title": "Minimum One Bit Operations to Make Integers Zero",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "bit-manipulation",
+        "recursion",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumOneBitOperations"
+    },
+    {
+      "id": "1612",
+      "slug": "check-if-two-expression-trees-are-equivalent",
+      "title": "Check If Two Expression Trees are Equivalent",
+      "difficulty": "MEDIUM",
+      "tags": [
         "hash-table",
-        "binary-search",
-        "greedy"
+        "tree",
+        "depth-first-search",
+        "binary-tree",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkEquivalence"
     },
     {
-      "id": "1714",
-      "slug": "sum-of-special-evenly-spaced-elements-in-array",
-      "title": "Sum Of Special Evenly-Spaced Elements In Array",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1715",
-      "slug": "count-apples-and-oranges",
-      "title": "Count Apples and Oranges",
+      "id": "1613",
+      "slug": "find-the-missing-ids",
+      "title": "Find the Missing IDs",
       "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1716",
-      "slug": "calculate-money-in-leetcode-bank",
-      "title": "Calculate Money in Leetcode Bank",
+      "id": "1614",
+      "slug": "maximum-nesting-depth-of-the-parentheses",
+      "title": "Maximum Nesting Depth of the Parentheses",
       "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1717",
-      "slug": "maximum-score-from-removing-substrings",
-      "title": "Maximum Score From Removing Substrings",
-      "difficulty": "MEDIUM",
       "tags": [
         "string",
-        "stack",
-        "greedy"
+        "stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDepth"
     },
     {
-      "id": "1718",
-      "slug": "construct-the-lexicographically-largest-valid-sequence",
-      "title": "Construct the Lexicographically Largest Valid Sequence",
+      "id": "1615",
+      "slug": "maximal-network-rank",
+      "title": "Maximal Network Rank",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximalNetworkRank"
+    },
+    {
+      "id": "1616",
+      "slug": "split-two-strings-to-make-palindrome",
+      "title": "Split Two Strings to Make Palindrome",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkPalindromeFormation"
+    },
+    {
+      "id": "1617",
+      "slug": "count-subtrees-with-max-distance-between-cities",
+      "title": "Count Subtrees With Max Distance Between Cities",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "bit-manipulation",
+        "tree",
+        "enumeration",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSubgraphsForEachDiameter"
+    },
+    {
+      "id": "1618",
+      "slug": "maximum-font-to-fit-a-sentence-in-a-screen",
+      "title": "Maximum Font to Fit a Sentence in a Screen",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "backtracking"
+        "string",
+        "binary-search",
+        "interactive"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxFont"
     },
     {
-      "id": "1719",
-      "slug": "number-of-ways-to-reconstruct-a-tree",
-      "title": "Number Of Ways To Reconstruct A Tree",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "tree",
-        "graph",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1720",
-      "slug": "decode-xored-array",
-      "title": "Decode XORed Array",
+      "id": "1619",
+      "slug": "mean-of-array-after-removing-some-elements",
+      "title": "Mean of Array After Removing Some Elements",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "bit-manipulation"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "trimMean"
     },
     {
-      "id": "1721",
-      "slug": "swapping-nodes-in-a-linked-list",
-      "title": "Swapping Nodes in a Linked List",
+      "id": "1620",
+      "slug": "coordinate-with-maximum-network-quality",
+      "title": "Coordinate With Maximum Network Quality",
       "difficulty": "MEDIUM",
       "tags": [
-        "linked-list",
-        "two-pointers"
+        "array",
+        "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "bestCoordinate"
     }
   ]
 }
