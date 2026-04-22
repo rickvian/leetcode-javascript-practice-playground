@@ -1,3 +1,23 @@
+## 2026-04-22 - US-012
+- **What was implemented:**
+  - Installed `ruamel.yaml` (required `--break-system-packages` on the Debian 12 Python 3.11 system; added via `python3 -m pip install ruamel.yaml --break-system-packages`)
+  - Created `scripts/ralph/expand_prd.py`: round-trip YAML writer using ruamel.yaml that appends the next 10 batch stories + 1 Expand story, bumps manifest.expandedUpTo, writes both files atomically via `.tmp` + `os.replace`
+  - Ran `expand_prd.py` once: seeded US-013 through US-022 (batch-001–batch-010) + US-023 (Expand prd window), expandedUpTo: 0 → 10 of 150
+  - Validated via js-yaml: 11 new stories, priorities 13–23, all passes: false ✓
+
+- **Files changed:**
+  - Added: scripts/ralph/expand_prd.py
+  - Modified: scripts/ralph/prd.yaml (US-012 passes: true + 11 new stories)
+  - Modified: scripts/ralph/manifest.json (expandedUpTo: 10)
+
+- **Learnings:**
+  - `ruamel.yaml` not installed by default on this Debian 12 Python 3.11 env; need `--break-system-packages` flag since pip is PEP 668-restricted
+  - ruamel.yaml rewrites all YAML formatting (indentation, flow styles) — the round-trip result looks visually different from hand-written YAML but is semantically identical
+  - Atomic write via `.tmp` + `os.replace` works correctly; ruamel's stream write + file rename is clean
+  - Stop condition is checked at the TOP of the script (expandedUpTo >= len(batches)) before appending anything; active_expand_story must be found and marked passes:true before printing COMPLETE
+
+---
+
 ## 2026-04-22 - US-011
 - **What was implemented:**
   - Rewrote `scripts/ralph/prompt.md` for the v2 oracle-backed flow
