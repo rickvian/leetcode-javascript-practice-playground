@@ -146,7 +146,7 @@ def get_assertion_template(problem, param_types, return_type):
     is_class_heavy = problem.get('classHeavy') and slug not in PLAIN_FN_SLUGS
     if is_class_heavy or (fn_name_ac and fn_name_ac[0].isupper()):
         return 'design-class-sequence'
-    if 'two-sum' in slug:
+    if 'two-sum' in slug and return_type != 'boolean':
         return 'any-valid-pair-summing'
     if any(kw in slug for kw in ('permutation', 'anagram', 'letter-combinations')):
         return 'permutation-invariant'
@@ -365,6 +365,21 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if 'fibonacci-number' in slug:
         # fib(1534236469) iterates ~1.5B times → timeout; use small n only
         return [[0], [1], [2], [5], [10], [20], [30]]
+
+    if '4-keys-keyboard' in slug:
+        # maxA(n): dp allocates n+1 array → OOM for large n
+        return [[1], [2], [3], [6], [7], [10]]
+
+    if 'replace-words' in slug:
+        # (dict: string[], sentence: string) — dict has root words to replace successors
+        return [
+            [["cat", "bat", "rat"], "the cattle was rattled by the battery"],
+            [["a", "aa", "aaa", "aaaa"], "a aa aaa aaaa"],
+            [["cat"], "catt catss cats"],
+            [["c"], "cat"],
+            [[], "hello world"],
+            [["hello"], "hello world"],
+        ]
 
     if 'count-primes' in slug:
         return [[0], [1], [2], [10], [100], [1000]]
@@ -1128,6 +1143,26 @@ def _build_design_inputs(problem, class_methods):
             [[fn_name], ['push', 1], ['push', 2], ['top'], ['pop'], ['empty']],
             [[fn_name], ['push', 3], ['top'], ['pop'], ['empty']],
             [[fn_name], ['push', 1], ['push', 2], ['pop'], ['top']],
+        ]
+
+    # LogSystem (put + retrieve with timestamp strings)
+    if 'put' in method_names and 'retrieve' in method_names:
+        return [
+            [[fn_name],
+             ['put', 1, "2017:01:01:23:59:59"],
+             ['put', 2, "2017:01:01:22:59:59"],
+             ['put', 3, "2016:01:01:00:00:00"],
+             ['retrieve', "2016:01:01:01:01:01", "2017:01:01:23:00:00", "Year"],
+             ['retrieve', "2016:01:01:01:01:01", "2017:01:01:23:00:00", "Hour"],
+             ['retrieve', "2017:01:01:00:00:00", "2017:01:01:23:59:00", "Second"]],
+            [[fn_name],
+             ['put', 1, "2017:01:01:00:00:00"],
+             ['retrieve', "2017:01:01:00:00:00", "2017:01:01:00:00:00", "Second"],
+             ['put', 2, "2017:01:01:00:00:01"],
+             ['retrieve', "2017:01:01:00:00:00", "2017:01:01:00:00:01", "Minute"]],
+            [[fn_name],
+             ['put', 10, "2017:03:15:12:30:00"],
+             ['retrieve', "2017:03:01:00:00:00", "2017:04:01:00:00:00", "Month"]],
         ]
 
     # LRU / cache-like

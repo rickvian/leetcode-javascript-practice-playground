@@ -828,5 +828,25 @@
     "id": "0630",
     "slug": "course-schedule-iii",
     "reason": "uses LeetCode platform PriorityQueue class"
+  },
+  {
+    "id": "0635",
+    "slug": "design-log-storage-system",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0648",
+    "slug": "replace-words",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0651",
+    "slug": "4-keys-keyboard",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0653",
+    "slug": "two-sum-iv-input-is-a-bst",
+    "reason": "validation failed after 3 attempts"
   }
 ]
