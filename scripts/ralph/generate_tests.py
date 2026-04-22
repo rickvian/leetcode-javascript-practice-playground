@@ -1119,6 +1119,47 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[[1,1,1],[1,1,1],[1,1,1]], [[0,0,0],[0,0,0],[0,0,0]]],
         ]
 
+    # ── numbers-at-most-n-given-digit-set: atMostNGivenDigitSet(digits: string[], n: number) ──
+    if 'numbers-at-most-n-given-digit-set' in slug:
+        return [
+            [["1","3","5","7"], 100],
+            [["1","4","9"], 1000000000],
+            [["7"], 8],
+            [["1"], 1],
+            [["1","2","3"], 27],
+            [["9"], 9],
+        ]
+
+    # ── cat-and-mouse: catMouseGame(graph: number[][]) — adjacency list, >=3 nodes ──
+    if 'cat-and-mouse' in slug:
+        return [
+            [[[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]],
+            [[[1,3],[0],[3],[0,2]]],
+            [[[1,5],[3],[1,3],[0,1,2],[1,3,5],[0,4]]],
+        ]
+
+    # ── word-subsets: wordSubsets(words1: string[], words2: string[]) ──
+    if 'word-subsets' in slug:
+        return [
+            [["amazon","apple","facebook","google","leetcode"], ["e","o"]],
+            [["amazon","apple","facebook","google","leetcode"], ["l","e"]],
+            [["a","b","c"], ["a"]],
+            [["amazon"], []],
+            [["warrior","world"], ["wrr"]],
+            [["wordgame","game"], ["game"]],
+        ]
+
+    # ── number-of-music-playlists: numMusicPlaylists(n, goal, k) — 1<=k<n<=goal ──
+    if 'number-of-music-playlists' in slug:
+        return [
+            [3, 3, 1],
+            [2, 3, 1],
+            [2, 3, 0],
+            [3, 6, 2],
+            [5, 8, 3],
+            [4, 4, 1],
+        ]
+
     # ── (number[][], number) ──
     if len(types) == 2 and types[0] in ('number[][]', 'integer[][]'):
         return [[[[1, 2, 3], [4, 5, 6]], 2], [[[1, 2], [3, 4]], 5], [[[1, 2, 3], [4, 5, 6], [7, 8, 9]], 15]]
@@ -1655,6 +1696,32 @@ def _build_design_inputs(problem, class_methods):
              ['f', 'w', 'd'],
              ['f', '', 'd'],
              ['f', 'word', 'word']],
+        ]
+
+    # RLEIterator: RLEIterator(encoding: number[]) + next(n: number)
+    if 'rle-iterator' in slug:
+        return [
+            [['RLEIterator', [3,8,0,9,2,5]], ['next', 2], ['next', 1], ['next', 1]],
+            [['RLEIterator', [1,1,2,2]], ['next', 1], ['next', 2], ['next', 1]],
+            [['RLEIterator', [10,5]], ['next', 5], ['next', 5], ['next', 1]],
+        ]
+
+    # OnlineElection: TopVotedCandidate(persons[], times[]) + q(t: number)
+    if 'online-election' in slug:
+        return [
+            [['TopVotedCandidate', [0,1,1,0,0,1,0], [0,5,10,15,20,25,30]],
+             ['q', 3], ['q', 12], ['q', 25], ['q', 15], ['q', 24], ['q', 8]],
+            [['TopVotedCandidate', [0,1,1,0], [0,5,10,15]],
+             ['q', 5], ['q', 10], ['q', 15]],
+            [['TopVotedCandidate', [0], [0]], ['q', 0]],
+        ]
+
+    # CBTInserter: CBTInserter(root: TreeNode) + insert(val) + get_root()
+    if 'complete-binary-tree-inserter' in slug:
+        return [
+            [['CBTInserter', [1,2]], ['insert', 3], ['get_root']],
+            [['CBTInserter', [1,2,3,4,5,6]], ['insert', 7], ['get_root']],
+            [['CBTInserter', [1]], ['insert', 2], ['insert', 3], ['get_root']],
         ]
 
     # Generic fallback: try up to 4 methods with dummy args

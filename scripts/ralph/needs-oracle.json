@@ -1073,5 +1073,40 @@
     "id": "0879",
     "slug": "profitable-schemes",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0900",
+    "slug": "rle-iterator",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0902",
+    "slug": "numbers-at-most-n-given-digit-set",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0911",
+    "slug": "online-election",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0913",
+    "slug": "cat-and-mouse",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0916",
+    "slug": "word-subsets",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0919",
+    "slug": "complete-binary-tree-inserter",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0920",
+    "slug": "number-of-music-playlists",
+    "reason": "no valid test cases generated"
   }
 ]
