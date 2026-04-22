@@ -1,0 +1,122 @@
+[
+  {
+    "id": "0082",
+    "slug": "remove-duplicates-from-sorted-list-ii",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0083",
+    "slug": "remove-duplicates-from-sorted-list",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0086",
+    "slug": "partition-list",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0088",
+    "slug": "merge-sorted-array",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0090",
+    "slug": "subsets-ii",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0092",
+    "slug": "reverse-linked-list-ii",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0095",
+    "slug": "unique-binary-search-trees-ii",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0097",
+    "slug": "interleaving-string",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0099",
+    "slug": "recover-binary-search-tree",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0142",
+    "slug": "linked-list-cycle-ii",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0143",
+    "slug": "reorder-list",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0147",
+    "slug": "insertion-sort-list",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0148",
+    "slug": "sort-list",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0156",
+    "slug": "binary-tree-upside-down",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0157",
+    "slug": "read-n-characters-given-read4",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0158",
+    "slug": "read-n-characters-given-read4-ii-call-multiple-times",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0160",
+    "slug": "intersection-of-two-linked-lists",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0022",
+    "slug": "generate-parentheses",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0023",
+    "slug": "merge-k-sorted-lists",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0024",
+    "slug": "swap-nodes-in-pairs",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0025",
+    "slug": "reverse-nodes-in-k-group",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0028",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0031",
+    "slug": "next-permutation",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0038",
+    "slug": "count-and-say",
+    "reason": "oracle_run failed"
+  }
+]
