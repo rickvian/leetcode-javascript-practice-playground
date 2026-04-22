@@ -1,3 +1,24 @@
+## 2026-04-22 - US-061
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-045` — first run: 15 generated, 5 missing/failed
+  - Fixed all 5 failures with slug overrides and 1 PLAIN_FN_SLUGS fix; re-ran: 5 more generated; total 20/20
+  - 0 permanent needs-oracle entries this batch
+  - Generated: 0881-0901 (skipping 0900 — not in batch)
+
+- **Files changed:**
+  - Added: 20 stubs (0881-0901) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (5 slug overrides + 1 PLAIN_FN_SLUGS + 1 substring fix)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `orderly-queue` (0899): slug contains 'queue' which triggers classHeavy → design-class. But `orderlyQueue` is a plain function (string, number) → (string). Fix: add 'orderly-queue' to PLAIN_FN_SLUGS.
+  - `spiral-matrix-iii` (0885): slug 'spiral-matrix-iii' contains 'spiral-matrix-ii' as substring, causing the existing `if 'spiral-matrix-ii' in slug` check to fire first and return single-integer inputs. Fix: add `and 'spiral-matrix-iii' not in slug` guard to that check. Also added slug override with proper 4-integer inputs (rows, cols, rStart, cStart).
+  - `reachable-nodes-in-subdivided-graph` (0882): `reachableNodes(edges: number[][], maxMoves: number, n: number)` — 3-param combo (2D array + 2 ints) has no generic handler. Fix: add slug override with valid (edges, maxMoves, n) triples where edges are [u,v,cnt] triples.
+  - `possible-bipartition` (0886): `possibleBipartition(n: number, dislikes: number[][])` — `(number, number[][])` combo has no generic handler. Fix: add slug override with valid (n, dislikes) pairs.
+  - `all-possible-full-binary-trees` (0894): `allPossibleFBT(n)` — returns `TreeNode[]`. Single integer, but large n (e.g. 1534236469) from generic handler would cause OOM. Fix: add slug override with small odd n values only (1,3,5,7,9,11).
+---
+
 ## 2026-04-22 - US-058
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-042` — first run: 15 generated, 5 missing/failed
