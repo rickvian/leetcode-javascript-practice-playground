@@ -88,7 +88,7 @@ userStories:
       - Add solutions-bank/ path to .gitignore block list check (must NOT be gitignored; these are committed to the repo)
       - 'Commit with message: feat [US-007] - Import JoshCrozier solutions into solutions-bank/'
     priority: 7
-    passes: false
+    passes: true
     notes: |
       solutions-bank/ is our single source of truth for oracle solutions - no submodule, no adapter layer. ~2786 files get committed to the repo as first-class citizens, editable if any are found to be wrong.
 
