@@ -98,6 +98,11 @@ def get_input_category(problem, param_types):
     tags       = [t.lower() for t in problem.get('tags', [])]
     class_heavy = problem.get('classHeavy', False)
 
+    # classHeavy tag fires on slug keywords like 'queue'; override for plain functions
+    PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',)
+    if slug in PLAIN_FN_SLUGS:
+        class_heavy = False
+
     fn_name = problem.get('oracleFnName', '')
     if class_heavy or (fn_name and fn_name[0].isupper()):
         return 'design-class'
@@ -129,7 +134,9 @@ def get_assertion_template(problem, param_types, return_type):
     slug = problem.get('slug', '')
     tags = [t.lower() for t in problem.get('tags', [])]
     fn_name_ac = problem.get('oracleFnName', '')
-    if problem.get('classHeavy') or (fn_name_ac and fn_name_ac[0].isupper()):
+    PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',)
+    is_class_heavy = problem.get('classHeavy') and slug not in PLAIN_FN_SLUGS
+    if is_class_heavy or (fn_name_ac and fn_name_ac[0].isupper()):
         return 'design-class-sequence'
     if 'two-sum' in slug:
         return 'any-valid-pair-summing'
@@ -166,6 +173,27 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     first = types[0] if types else ''
 
     # ── slug-specific overrides ──
+    if 'queue-reconstruction-by-height' in slug:
+        return [
+            [[[7,0],[4,4],[7,1],[5,0],[6,1],[5,2]]],
+            [[[6,0],[5,0],[4,0],[3,2],[2,2],[1,4]]],
+            [[[2,4],[3,4],[9,0],[0,6],[7,1],[6,0],[7,3],[2,5],[1,1],[3,0]]],
+            [[[1,0]]],
+            [[[1,0],[1,1]]],
+        ]
+
+    if 'fizz-buzz' in slug:
+        return [[1], [3], [5], [15], [10], [20]]
+
+    if 'minimum-unique-word-abbreviation' in slug:
+        return [
+            ["apple", ["blade"]],
+            ["apple", ["apple"]],
+            ["apple", []],
+            ["a", ["a"]],
+            ["abcdef", ["abcdef", "abcfeg"]],
+        ]
+
     if 'different-ways-to-add-parentheses' in slug:
         return [["2-1-1"], ["2*3-4*5"], ["1"], ["1+2"], ["1*2*3"]]
 
