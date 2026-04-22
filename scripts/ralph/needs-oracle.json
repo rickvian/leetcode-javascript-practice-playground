@@ -643,5 +643,75 @@
     "id": "0580",
     "slug": "count-student-number-in-departments",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0582",
+    "slug": "kill-process",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0588",
+    "slug": "design-in-memory-file-system",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0589",
+    "slug": "n-ary-tree-preorder-traversal",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0590",
+    "slug": "n-ary-tree-postorder-traversal",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0592",
+    "slug": "fraction-addition-and-subtraction",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0593",
+    "slug": "valid-square",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0598",
+    "slug": "range-addition-ii",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0599",
+    "slug": "minimum-index-sum-of-two-lists",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0584",
+    "slug": "find-customer-referee",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0585",
+    "slug": "investments-in-2016",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0586",
+    "slug": "customer-placing-the-largest-number-of-orders",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0595",
+    "slug": "big-countries",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0596",
+    "slug": "classes-with-at-least-5-students",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0597",
+    "slug": "friend-requests-i-overall-acceptance-rate",
+    "reason": "oracleTier=missing"
   }
 ]

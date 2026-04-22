@@ -23,11 +23,12 @@ const { expect } = vitestMod;
 const helpersUrl = pathToFileURL(
     path.resolve(PROJECT_ROOT, 'leetcode-playground/tests/__helpers__/test_helpers.js')
 ).href;
-const { ListNode, TreeNode, GraphNode } = await import(helpersUrl);
+const { ListNode, TreeNode, GraphNode, _Node } = await import(helpersUrl);
 globalThis.ListNode  = ListNode;
 globalThis.TreeNode  = TreeNode;
 globalThis.GraphNode = GraphNode;
 globalThis.Node      = GraphNode; // clone-graph and related oracles use Node
+globalThis._Node     = _Node;     // N-ary tree oracles use _Node
 
 let passed = 0;
 let failed = 0;

@@ -122,6 +122,10 @@ def get_input_category(problem, param_types):
                                     ('graph' in tags or 'graph' in slug)):
             return 'pointer-graph'
 
+    for ptype, _ in param_types:
+        if '_Node' in ptype:
+            return 'pointer-nary-tree'
+
     if slug not in PLAIN_FN_SLUGS and any(kw in slug for kw in (
             'remove-element', 'rotate', 'remove-duplicates',
             'move-zeroes', 'next-permutation', 'sort-colors',
@@ -165,6 +169,8 @@ def build_inputs(problem, param_types, return_type, input_category, class_method
         return _build_tree_inputs(problem, param_types)
     if input_category == 'pointer-graph':
         return _build_graph_inputs()
+    if input_category == 'pointer-nary-tree':
+        return _build_nary_tree_inputs(problem, param_types)
     if input_category == 'in-place-mutation':
         return _build_in_place_inputs(problem, param_types)
     return _build_plain_json_inputs(problem, param_types, return_type)
@@ -414,6 +420,16 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[-3, -2, -1, 0, 1], 0, 1, -1],
         ]
 
+    if 'range-addition-ii' in slug:
+        # (m: number, n: number, ops: number[][]) — count max elements after ops
+        return [
+            [3, 3, [[2, 2], [3, 3]]],
+            [3, 3, []],
+            [2, 2, [[1, 1], [2, 2], [1, 2]]],
+            [1, 1, [[1, 1]]],
+            [5, 4, [[2, 3], [3, 2], [4, 1]]],
+        ]
+
     if 'range-addition' in slug:
         return [
             [5, [[1, 3, 2], [2, 4, 3], [0, 2, -2]]],
@@ -439,6 +455,49 @@ def _build_plain_json_inputs(problem, param_types, return_type):
 
     if 'lexicographical-numbers' in slug:
         return [[1], [2], [10], [13], [100], [20]]
+
+    if 'kill-process' in slug:
+        # (pid: number[], ppid: number[], kill: number)
+        return [
+            [[1, 3, 10, 5], [3, 0, 5, 3], 5],
+            [[1, 2, 3], [0, 1, 2], 1],
+            [[1, 2, 3], [0, 1, 2], 2],
+            [[1], [0], 1],
+            [[1, 2, 3, 4], [0, 1, 1, 2], 3],
+        ]
+
+    if 'fraction-addition-and-subtraction' in slug:
+        return [
+            ["-1/2+1/2"],
+            ["-1/2+1/2+(-1/3)"],
+            ["1/3-1/2"],
+            ["5/3+1/3"],
+            ["1/4+2/4"],
+            ["1/2-1/4"],
+        ]
+
+    if 'valid-square' in slug:
+        # 4 points each as [x, y]
+        return [
+            [[0,0], [1,1], [1,0], [0,1]],
+            [[0,0], [1,1], [1,0], [0,12]],
+            [[1,0], [-1,0], [0,1], [0,-1]],
+            [[0,0], [0,0], [0,0], [0,0]],
+            [[1,0], [0,1], [-1,0], [0,-1]],
+            [[0,0], [2,0], [2,2], [0,2]],
+        ]
+
+    if 'minimum-index-sum-of-two-lists' in slug:
+        # Two lists with overlapping restaurants; find min index sum common ones
+        return [
+            [["Shogun","Tapioca Express","Burger King","KFC"],
+             ["Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"]],
+            [["Shogun","Tapioca Express","Burger King","KFC"],
+             ["KFC","Shogun","Burger King"]],
+            [["happy","sad","good"], ["sad","happy","good"]],
+            [["a"], ["a"]],
+            [["a","b","c"], ["c","b","a"]],
+        ]
 
     if 'evaluate-division' in slug:
         return [
@@ -796,6 +855,23 @@ def _build_graph_inputs():
         [[[2, 3], [1, 3], [1, 2]]],
     ]
 
+def _build_nary_tree_inputs(problem, param_types):
+    # N-ary tree: level-order with null separators between children groups
+    # [root, null, child1, child2, ..., null, grandchild1, ...]
+    bases = [
+        [[1, None, 3, 2, 4, None, 5, 6]],   # root with 3 children; 2 grandchildren
+        [[1, None, 3, 2]],                   # root with 2 children
+        [[1]],                               # single node
+        [[]],                                # null root
+        [[1, None, 2]],                      # single child
+        [[1, None, 1, 1, 1]],               # repetitive values
+    ]
+    non_nary = [(pt, pn) for pt, pn in param_types if '_Node' not in pt]
+    if non_nary:
+        extras = _default_extra_args(problem.get('slug', ''), non_nary)
+        return [b + extras for b in bases]
+    return bases
+
 def _build_in_place_inputs(problem, param_types):
     slug = problem.get('slug', '')
     if 'remove-element' in slug:
@@ -901,6 +977,29 @@ def _build_design_inputs(problem, class_methods):
     fn_name = problem.get('oracleFnName', '')
     slug    = problem.get('slug', '')
     method_names = [m for m, _ in class_methods]
+
+    # FileSystem / design-in-memory-file-system
+    if 'ls' in method_names and 'mkdir' in method_names:
+        return [
+            [[fn_name],
+             ['mkdir', '/a/b/c'],
+             ['ls', '/'],
+             ['ls', '/a/b'],
+             ['mkdir', '/a/b/d'],
+             ['ls', '/a/b']],
+            [[fn_name],
+             ['addContentToFile', '/file.txt', 'hello'],
+             ['readContentFromFile', '/file.txt'],
+             ['addContentToFile', '/file.txt', ' world'],
+             ['readContentFromFile', '/file.txt'],
+             ['ls', '/']],
+            [[fn_name],
+             ['mkdir', '/a'],
+             ['mkdir', '/a/b'],
+             ['addContentToFile', '/a/b/c', 'content'],
+             ['ls', '/a/b'],
+             ['readContentFromFile', '/a/b/c']],
+        ]
 
     # NumArray / range-sum-query
     if 'sumRange' in method_names:
@@ -1110,6 +1209,8 @@ def _js_arg(arg, ptype):
         return f'arrayToTree({json.dumps(arg)})'
     if ptype and ('GraphNode' in ptype or ptype.strip() == 'Node') and isinstance(arg, list):
         return f'arrayToGraphNode({json.dumps(arg)})'
+    if ptype and '_Node' in ptype and isinstance(arg, list):
+        return f'arrayToNaryNode({json.dumps(arg)})'
     return json.dumps(arg)
 
 def _padded_params(param_types):
@@ -1196,6 +1297,20 @@ def render_it_block(fn_name, input_args, oracle_out, param_types, return_type,
         body = (
             f'    const result = {call};\n'
             f'    expect(result.map(t => treeToArray(t))).toEqual({json.dumps(output)});'
+        )
+        return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
+
+    # ── pointer-nary-tree (plain number[] return, _Node input) ──
+    if input_category == 'pointer-nary-tree':
+        # N-ary tree functions return number[] — use exact-equal template
+        desc = f'{fn_name}(arrayToNaryNode({json.dumps(input_args[0] if input_args else [])}))'
+        call_args = []
+        for i, arg in enumerate(input_args):
+            ptype = param_types[i][0] if i < len(param_types) else None
+            call_args.append(_js_arg(arg, ptype))
+        body = (
+            f'    const result = {fn_name}({", ".join(call_args)});\n'
+            f'    expect(result).toEqual({json.dumps(output)});'
         )
         return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
 
@@ -1368,7 +1483,8 @@ def emit_stub_class(stub_path, problem, fn_name, class_methods, description):
 
 def needs_helpers_import(input_category, return_type, param_types=None):
     """True if the test file needs imports from test_helpers.js."""
-    if input_category in ('pointer-linked-list', 'pointer-tree', 'pointer-graph'):
+    if input_category in ('pointer-linked-list', 'pointer-tree', 'pointer-graph',
+                          'pointer-nary-tree'):
         return True
     if return_type and any(t in return_type for t in ('ListNode', 'TreeNode', 'GraphNode', 'Node')):
         return True
@@ -1390,6 +1506,9 @@ def helpers_import_names(input_category, param_types, return_type):
     if input_category == 'pointer-graph' or \
             any('GraphNode' in pt or pt.strip() == 'Node' for pt, _ in param_types):
         names.update(['arrayToGraphNode', 'graphToAdjList'])
+    if input_category == 'pointer-nary-tree' or \
+            any('_Node' in pt for pt, _ in param_types):
+        names.update(['arrayToNaryNode'])
     if return_type and 'ListNode' in return_type:
         names.update(['arrayToList', 'listToArray'])
     if return_type and 'TreeNode' in return_type:

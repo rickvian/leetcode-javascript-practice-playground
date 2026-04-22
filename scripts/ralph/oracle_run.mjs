@@ -61,16 +61,18 @@ const helpersUrl = pathToFileURL(
     path.resolve(PROJECT_ROOT, 'leetcode-playground/tests/__helpers__/test_helpers.js')
 ).href;
 const helpers = await import(helpersUrl);
-const { ListNode, TreeNode, GraphNode,
+const { ListNode, TreeNode, GraphNode, _Node,
         arrayToList, listToArray,
         arrayToTree, treeToArray,
-        arrayToGraphNode, graphToAdjList } = helpers;
+        arrayToGraphNode, graphToAdjList,
+        arrayToNaryNode } = helpers;
 
 // Inject as globals so oracles that reference them without importing work
 globalThis.ListNode  = ListNode;
 globalThis.TreeNode  = TreeNode;
 globalThis.GraphNode = GraphNode;
 globalThis.Node      = GraphNode; // some oracles use Node (clone-graph, etc.)
+globalThis._Node     = _Node;     // N-ary tree oracles use _Node
 
 // ---------- Load oracle ----------
 const absBank = path.isAbsolute(bankPath)
@@ -104,6 +106,8 @@ function convertArg(arg, ptype) {
     if (ptype.includes('TreeNode') && Array.isArray(arg)) return arrayToTree(arg);
     if ((ptype.includes('GraphNode') || ptype.trim() === 'Node') && Array.isArray(arg))
         return arrayToGraphNode(arg);
+    if (ptype.includes('_Node') && Array.isArray(arg))
+        return arrayToNaryNode(arg);
     return arg;
 }
 

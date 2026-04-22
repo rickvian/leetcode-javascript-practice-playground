@@ -114,9 +114,38 @@ function graphToAdjList(node) {
     return result;
 }
 
+// N-ary tree node (_Node) used by LeetCode N-ary tree problems
+function _Node(val, children) {
+    this.val = (val === undefined ? 0 : val);
+    this.children = (children === undefined ? [] : children);
+}
+
+// Convert level-order array with null separators to N-ary tree
+// Format: [root, null, child1, child2, null, grandchild1, ...]
+function arrayToNaryNode(arr) {
+    if (!arr || arr.length === 0) return null;
+    const root = new _Node(arr[0], []);
+    if (arr.length <= 1) return root;
+    const queue = [root];
+    let i = 2; // skip arr[0] (root val) and arr[1] (null separator)
+    let qi = 0;
+    while (i < arr.length && qi < queue.length) {
+        const parent = queue[qi++];
+        while (i < arr.length && arr[i] !== null) {
+            const child = new _Node(arr[i], []);
+            parent.children.push(child);
+            queue.push(child);
+            i++;
+        }
+        i++; // skip null separator
+    }
+    return root;
+}
+
 export {
-    ListNode, TreeNode, GraphNode,
+    ListNode, TreeNode, GraphNode, _Node,
     arrayToList, listToArray,
     arrayToTree, treeToArray,
     arrayToGraphNode, graphToAdjList,
+    arrayToNaryNode,
 };
