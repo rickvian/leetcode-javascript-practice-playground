@@ -116,7 +116,8 @@ def get_input_category(problem, param_types):
 
     if any(kw in slug for kw in ('remove-element', 'rotate', 'remove-duplicates',
                                   'move-zeroes', 'next-permutation', 'sort-colors',
-                                  'sort-list-in-place', 'merge-sorted-array')):
+                                  'sort-list-in-place', 'merge-sorted-array',
+                                  'reverse-words-in-a-string-ii')):
         return 'in-place-mutation'
 
     return 'plain-json'
@@ -226,6 +227,19 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[""]],
             [[]],
             [["ab", "a"]],
+        ]
+
+    # ── (number, number[]) – e.g. best-time-to-buy-and-sell-stock-iv (k, prices) ──
+    if (len(types) == 2
+            and types[0] in ('number', 'integer', 'int')
+            and types[1] == 'number[]'):
+        return [
+            [2, [3, 2, 6, 5, 0, 3]],
+            [2, [2, 1]],
+            [0, [3, 2, 6]],
+            [1, [1, 2, 3]],
+            [3, [1, 2, 3, 4, 5]],
+            [1, [7, 6, 4, 3, 1]],
         ]
 
     # ── (number[], number) – two-sum / target-based ──
@@ -455,6 +469,13 @@ def _build_in_place_inputs(problem, param_types):
             [[0]],
             [[1]],
             [[2, 2, 2]],
+        ]
+    if 'reverse-words-in-a-string-ii' in slug:
+        return [
+            [["t", "h", "e", " ", "s", "k", "y"]],
+            [["a", " ", "b"]],
+            [["a"]],
+            [["h", "e", "l", "l", "o", " ", "w", "o", "r", "l", "d"]],
         ]
     # generic fallback
     if len(param_types) >= 2:
