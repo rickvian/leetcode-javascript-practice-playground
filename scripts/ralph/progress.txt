@@ -497,3 +497,21 @@
   - Slug-based fallback for category detection is necessary when tags metadata is incomplete (e.g., clone-graph tagged as "depth-first-search" not "graph")
 
 ---
+
+## 2026-04-22 - US-020
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-008` — 5/20 generated (0142, 0147, 0148, 0156, 0160); 12 skipped (already existed); 3 in needs-oracle
+  - 0143-reorder-list: void-return ListNode in-place mutation — oracle_run.mjs in-place handler doesn't serialize ListNode results; needs custom handling
+  - 0157, 0158: read-n-characters-given-read4 problems require read4 API mock, cannot be auto-generated
+  - Removed stale 0133 entry from needs-oracle.json (fixed in batch-007)
+
+- **Files changed:**
+  - Added: 5 stubs (0142, 0147, 0148, 0156, 0160) in leetcode-playground/
+  - Added: 5 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json (removed 0133, added 0143, 0157, 0158)
+
+- **Learnings:**
+  - Void-return pointer-linked-list functions (reorderList) can't be auto-tested with current in-place handler because mutatedFirst is a ListNode object, not an array; would need listToArray(convertedArgs[0]) in oracle_run.mjs for ListNode in-place mutations
+  - read4 API problems (0157, 0158) depend on an external interface that the oracle can't simulate standalone; they belong in needs-oracle
+
+---
