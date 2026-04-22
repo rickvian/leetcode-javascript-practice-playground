@@ -162,6 +162,47 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     first = types[0] if types else ''
 
     # ── slug-specific overrides ──
+    if 'happy-number' in slug:
+        return [[1], [2], [7], [19], [20], [11], [4]]
+
+    if 'count-primes' in slug:
+        return [[0], [1], [2], [10], [100], [1000]]
+
+    if 'kth-largest' in slug:
+        return [
+            [[3, 2, 1, 5, 6, 4], 2],
+            [[3, 2, 3, 1, 2, 4, 5, 5, 6], 4],
+            [[1], 1],
+            [[1, 2], 1],
+            [[1, 2], 2],
+            [[5, 3, 1, 2, 4], 3],
+        ]
+
+    if 'word-search-ii' in slug:
+        return [
+            [[["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]],
+             ["oath","pea","eat","rain"]],
+            [[["a","b"],["c","d"]], ["abdc","abcd"]],
+        ]
+
+    if 'course-schedule' in slug:
+        return [
+            [2, [[1, 0]]],
+            [2, [[1, 0], [0, 1]]],
+            [3, [[1, 0], [2, 1]]],
+            [1, []],
+            [4, [[1, 0], [2, 0], [3, 1], [3, 2]]],
+        ]
+
+    if 'skyline' in slug:
+        return [
+            [[[2, 9, 10], [3, 7, 15], [5, 12, 12], [15, 20, 10], [19, 24, 8]]],
+            [[[0, 2, 3], [2, 5, 3]]],
+            [[[1, 5, 3]]],
+            [[]],
+            [[[1, 2, 1], [3, 4, 2], [5, 6, 3]]],
+        ]
+
     if 'generate-parentheses' in slug:
         return [[1], [2], [3], [4], [0]]
 
@@ -512,6 +553,31 @@ def _build_design_inputs(problem, class_methods):
             [[fn_name], ['push', 1], ['push', 2], ['push', 3], ['peek'], ['pop'], ['empty']],
             [[fn_name], ['push', 1], ['pop']],
         ]
+
+    # Trie / word-dictionary style (insert/add + search + startsWith)
+    if any(m in method_names for m in ('insert', 'addWord')) and 'search' in method_names:
+        word_method = 'insert' if 'insert' in method_names else 'addWord'
+        seqs = [
+            [[fn_name],
+             [word_method, 'apple'],
+             ['search', 'apple'],
+             ['search', 'app'],
+             ['startsWith', 'app'] if 'startsWith' in method_names else ['search', 'apple'],
+             [word_method, 'app'],
+             ['search', 'app']],
+            [[fn_name],
+             [word_method, 'bad'],
+             [word_method, 'dad'],
+             [word_method, 'mad'],
+             ['search', 'pad'],
+             ['search', 'bad'],
+             ['search', '.ad'] if 'startsWith' in method_names else ['search', 'bad']],
+            [[fn_name],
+             [word_method, 'a'],
+             ['search', 'a'],
+             ['search', 'b']],
+        ]
+        return seqs
 
     # BST Iterator (next / hasNext)
     if 'next' in method_names and 'hasNext' in method_names:
