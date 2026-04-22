@@ -1,3 +1,20 @@
+## 2026-04-22 - US-043
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-029` — 9 generated (0561-0567, 0572, 0575), 0 skipped, 11 missing/failed
+  - 8 SQL/no-oracle skips: 0569, 0570, 0571, 0574, 0577, 0578, 0579, 0580
+  - 3 additional missing/failed: 0568 (maximum-vacation-days), 0573 (squirrel-simulation), 0576 (out-of-boundary-paths)
+
+- **Files changed:**
+  - Added: 9 stubs (0561-0567, 0572, 0575) in leetcode-playground/
+  - Added: 9 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - No new slug overrides needed for this batch; all 9 generated successfully with existing generic handlers
+  - SQL problems (0569-0571, 0574, 0577-0580) skip cleanly via no-oracle path — 8 out of 20 SQL is typical for this range
+
+---
+
 ## 2026-04-22 - US-041
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-027` — 18 generated (0521-0540 except 0528/0534), 0 skipped, 2 missing/failed (0528, 0534)
