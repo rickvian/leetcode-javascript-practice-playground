@@ -275,6 +275,10 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if 'happy-number' in slug:
         return [[1], [2], [7], [19], [20], [11], [4]]
 
+    if 'fibonacci-number' in slug:
+        # fib(1534236469) iterates ~1.5B times → timeout; use small n only
+        return [[0], [1], [2], [5], [10], [20], [30]]
+
     if 'count-primes' in slug:
         return [[0], [1], [2], [10], [100], [1000]]
 
