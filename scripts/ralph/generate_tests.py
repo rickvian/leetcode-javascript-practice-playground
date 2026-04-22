@@ -162,6 +162,37 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     first = types[0] if types else ''
 
     # ── slug-specific overrides ──
+    if 'different-ways-to-add-parentheses' in slug:
+        return [["2-1-1"], ["2*3-4*5"], ["1"], ["1+2"], ["1*2*3"]]
+
+    if 'strobogrammatic-number-ii' in slug:
+        return [[1], [2], [3], [4]]
+
+    if 'meeting-rooms-ii' in slug:
+        return [
+            [[[0, 30], [5, 10], [15, 20]]],
+            [[[7, 10], [2, 4]]],
+            [[[1, 2], [2, 3], [3, 4]]],
+            [[]],
+        ]
+
+    if 'shortest-word-distance' in slug and 'ii' not in slug:
+        return [
+            [["practice", "makes", "perfect", "coding", "makes"],
+             "coding", "practice"],
+            [["practice", "makes", "perfect", "coding", "makes"],
+             "makes", "coding"],
+            [["a", "b"], "a", "b"],
+        ]
+
+    if 'shortest-word-distance-iii' in slug:
+        return [
+            [["practice", "makes", "perfect", "coding", "makes"],
+             "makes", "makes"],
+            [["practice", "makes", "perfect", "coding", "makes"],
+             "coding", "practice"],
+        ]
+
     if 'happy-number' in slug:
         return [[1], [2], [7], [19], [20], [11], [4]]
 
@@ -585,6 +616,18 @@ def _build_design_inputs(problem, class_methods):
         return [
             [[fn_name], ['push', 1], ['push', 2], ['push', 3], ['peek'], ['pop'], ['empty']],
             [[fn_name], ['push', 1], ['pop']],
+        ]
+
+    # WordDistance / shortest-word-distance-ii
+    if 'shortest' in method_names:
+        words = ["practice", "makes", "perfect", "coding", "makes"]
+        return [
+            [[fn_name, words],
+             ['shortest', 'coding', 'practice'],
+             ['shortest', 'makes', 'coding']],
+            [[fn_name, ['a', 'b', 'c', 'a']],
+             ['shortest', 'a', 'b'],
+             ['shortest', 'a', 'c']],
         ]
 
     # Trie / word-dictionary style (insert/add + search + startsWith)

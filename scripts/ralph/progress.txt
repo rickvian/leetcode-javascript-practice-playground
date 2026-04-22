@@ -604,3 +604,25 @@
   - 8-arg functions need explicit slug overrides since generic catalog only handles ≤2 args
 
 ---
+
+## 2026-04-22 - US-026
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-013` — 20/20 generated (0241-0260)
+  - Fixed different-ways-to-add-parentheses: needs arithmetic expression strings like "2-1-1" not generic strings
+  - Fixed strobogrammatic-number-ii: large n causes OOM; small n override
+  - Fixed meeting-rooms-ii: proper interval input format
+  - Fixed shortest-word-distance (0243, 0245): `(string[], string, string)` 3-param pattern added
+  - Fixed shortest-word-distance-ii (0244): added WordDistance design-class handler with string[] constructor
+
+- **Files changed:**
+  - Added: 20 stubs (0241-0260) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (arithmetic expressions, shortest-word-distance patterns, WordDistance handler)
+
+- **Learnings:**
+  - String params named "expression" need domain-specific inputs (arithmetic ops), not lorem ipsum
+  - Design classes with string[] constructors (WordDistance) need slug detection or method-name detection
+  - meeting-rooms interval format is identical to merge-intervals: [[start,end], ...]
+  - `(string[], string, string)` 3-param patterns need explicit handling; generic catalog only handles ≤2 args
+
+---
