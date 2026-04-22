@@ -115,7 +115,7 @@ def get_input_category(problem, param_types):
 
     if any(kw in slug for kw in ('remove-element', 'rotate', 'remove-duplicates',
                                   'move-zeroes', 'next-permutation', 'sort-colors',
-                                  'sort-list-in-place')):
+                                  'sort-list-in-place', 'merge-sorted-array')):
         return 'in-place-mutation'
 
     return 'plain-json'
@@ -181,6 +181,9 @@ def _build_plain_json_inputs(problem, param_types, return_type):
 
     if 'n-queens' in slug:
         return [[1], [4], [5], [6]]
+
+    if 'unique-binary-search-trees-ii' in slug:
+        return [[1], [2], [3], [4]]
 
     if 'spiral-matrix-ii' in slug:
         return [[1], [2], [3], [4], [5]]
@@ -261,6 +264,16 @@ def _build_plain_json_inputs(problem, param_types, return_type):
 
     if first == 'string' and len(types) == 2 and types[1] == 'string':
         return [["ADOBECODEBANC", "ABC"], ["a", "a"], ["a", "aa"], ["", "A"]]
+
+    if first == 'string' and len(types) == 3 and types[1] == 'string' and types[2] == 'string':
+        return [
+            ["aabcc", "dbbca", "aadbbcbcac"],
+            ["aabcc", "dbbca", "aadbbbaccc"],
+            ["", "", ""],
+            ["a", "", "a"],
+            ["", "a", "a"],
+            ["abc", "def", "adbcef"],
+        ]
 
     if first == 'string' and len(types) == 2 and types[1] in ('number', 'integer'):
         return [["abcdef", 2], ["", 1], ["a", 1], ["abba", 3], ["  hello  ", 2]]
@@ -423,6 +436,14 @@ def _build_in_place_inputs(problem, param_types):
             [[1, 2]],
             [[2, 3, 1]],
         ]
+    if 'merge-sorted-array' in slug:
+        return [
+            [[1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3],
+            [[1], 1, [], 0],
+            [[0], 0, [1], 1],
+            [[2, 0], 1, [1], 1],
+            [[1, 2, 0, 0, 0], 2, [3, 4, 5], 3],
+        ]
     if 'sort-colors' in slug:
         return [
             [[2, 0, 2, 1, 1, 0]],
@@ -512,6 +533,11 @@ def render_it_block(fn_name, input_args, oracle_out, param_types, return_type,
 
     output = oracle_out.get('output') if isinstance(oracle_out, dict) else oracle_out
 
+    # Skip void-return pointer-tree/graph problems (in-place mutations we can't test as exact-equal)
+    if output is None and input_category in ('pointer-tree', 'pointer-graph'):
+        if not (return_type and any(t in return_type for t in ('ListNode', 'TreeNode', 'GraphNode'))):
+            return None
+
     # Skip null/NaN outputs for non-pointer return types; asserting null is unreliable
     # (oracle may return NaN or undefined which serializes to null)
     if output is None and input_category not in ('pointer-linked-list', 'pointer-tree', 'pointer-graph'):
@@ -554,6 +580,15 @@ def render_it_block(fn_name, input_args, oracle_out, param_types, return_type,
                 f'    if ({ek_var} !== undefined) '
                 f'expect({idx_var}.slice(0, {ek_var}).sort((a,b)=>a-b)).toEqual({json.dumps(expected)});'
             )
+        return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
+
+    # ── TreeNode[] return ──
+    if return_type and return_type.strip() == 'TreeNode[]':
+        desc = f'{fn_name}({", ".join(json.dumps(a) for a in input_args[:2])})'
+        body = (
+            f'    const result = {call};\n'
+            f'    expect(result.map(t => treeToArray(t))).toEqual({json.dumps(output)});'
+        )
         return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
 
     # ── pointer-linked-list (ListNode return) ──
@@ -710,7 +745,7 @@ def needs_helpers_import(input_category, return_type):
     """True if the test file needs imports from test_helpers.js."""
     if input_category in ('pointer-linked-list', 'pointer-tree', 'pointer-graph'):
         return True
-    if return_type and any(t in return_type for t in ('ListNode', 'TreeNode', 'GraphNode')):
+    if return_type and any(t in return_type for t in ('ListNode', 'TreeNode', 'GraphNode', 'Node')):
         return True
     return False
 
@@ -731,6 +766,8 @@ def helpers_import_names(input_category, param_types, return_type):
         names.update(['arrayToList', 'listToArray'])
     if return_type and 'TreeNode' in return_type:
         names.update(['arrayToTree', 'treeToArray'])
+    if return_type and return_type.strip() in ('ListNode[]', 'TreeNode[]'):
+        names.update(['arrayToList', 'listToArray'] if 'ListNode' in return_type else ['arrayToTree', 'treeToArray'])
     return sorted(names)
 
 

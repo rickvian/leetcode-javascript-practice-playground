@@ -108,8 +108,12 @@ function convertArg(arg, ptype) {
 
 function serializeResult(result, rtype) {
     // For pointer return types always route through serializer (null/undefined → [] or [])
+    if (rtype && rtype.trim() === 'ListNode[]' && Array.isArray(result))
+        return result.map(n => listToArray(n));
     if (rtype && rtype.includes('ListNode'))
         return listToArray(result);
+    if (rtype && rtype.trim() === 'TreeNode[]' && Array.isArray(result))
+        return result.map(t => treeToArray(t));
     if (rtype && rtype.includes('TreeNode'))
         return treeToArray(result);
     if (rtype && (rtype.includes('GraphNode') || rtype.trim() === 'Node') && result != null)
