@@ -878,6 +878,27 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if first == 'string' and len(types) > 1 and types[1] in ('number', 'integer'):
         return [["abcdef", 2], ["", 1], ["a", 1], ["abba", 3]]
 
+    # ── flood-fill: (number[][], number, number, number) = image + sr + sc + newColor ──
+    if 'flood-fill' in slug:
+        return [
+            [[[1,1,1],[1,1,0],[1,0,1]], 1, 1, 2],
+            [[[0,0,0],[0,0,0],[0,0,0]], 0, 0, 2],
+            [[[1]], 0, 0, 5],
+            [[[1,1,1],[1,1,1],[1,1,1]], 1, 1, 2],
+            [[[0,0,0],[0,1,0],[0,0,0]], 1, 1, 1],
+        ]
+
+    # ── sentence-similarity / sentence-similarity-ii: (string[], string[], string[][]) ──
+    if 'sentence-similarity' in slug:
+        return [
+            [["great","acting","skill"], ["fine","drama","talent"], [["great","fine"],["drama","acting"],["skill","talent"]]],
+            [["I","love","leetcode"], ["I","love","leetcode"], []],
+            [["a"], ["b"], [["a","b"]]],
+            [[], [], []],
+            [["hello"], ["world"], []],
+            [["x","y"], ["x","z"], [["y","z"]]],
+        ]
+
     # ── (number[][], number) ──
     if len(types) == 2 and types[0] in ('number[][]', 'integer[][]'):
         return [[[[1, 2, 3], [4, 5, 6]], 2], [[[1, 2], [3, 4]], 5], [[[1, 2, 3], [4, 5, 6], [7, 8, 9]], 15]]
@@ -1497,6 +1518,15 @@ def render_it_block(fn_name, input_args, oracle_out, param_types, return_type,
         body = (
             f'    const result = {call};\n'
             f'    expect(result.map(t => treeToArray(t))).toEqual({json.dumps(output)});'
+        )
+        return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
+
+    # ── ListNode[] return (array of linked list heads) ──
+    if return_type and return_type.strip() == 'ListNode[]':
+        desc = f'{fn_name}({", ".join(json.dumps(a) for a in input_args[:2])})'
+        body = (
+            f'    const result = {call};\n'
+            f'    expect(result.map(n => listToArray(n))).toEqual({json.dumps(output)});'
         )
         return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
 
