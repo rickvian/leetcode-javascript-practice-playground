@@ -8,48 +8,72 @@
  * @return {number}
  */
 // Approach: Top-Down DP (memoized recursion)
-// dp(r,c) = side length of the largest square whose TOP-LEFT corner is (r,c)
-// Recurrence: if matrix[r][c] === '1'  →  1 + min(down, right, diagonal)
-//             else                      →  0
-// The minimum of the three neighbors is the bottleneck: a square can only
-// grow as large as the smallest square that can be formed in each direction.
-// Time:  O(m * n) — each cell computed once, all subsequent calls hit cache
-// Space: O(m * n) — cache stores one entry per cell; call stack O(m + n)
 var maximalSquare = function (matrix) {
-  let rows = matrix;
-  let cols = matrix[0];
+  // time complexity: o(m x n)
 
-  let cache = {};
+  // space complexity: o(m x n)
+
+  // 1,1  0
+  // 1,1  0
+  //   0  0
+
+  let rowsLength = matrix.length;
+  let colsLength = matrix[0].length;
+
+  // 2D array instead of Map — O(1) integer index vs string hash
+  const cache = Array.from({ length: rowsLength }, () =>
+    new Array(colsLength).fill(-1),
+  );
+
+  let maxLength = 0;
 
   function helper(r, c) {
-    if (r >= rows.length || c >= cols.length) {
+    if (r >= rowsLength || c >= colsLength) {
       return 0;
     }
 
-    if (cache[`${r}-${c}`] == undefined) {
-      let down = helper(r + 1, c);
-      let right = helper(r, c + 1);
-      let diagonal = helper(r + 1, c + 1);
+    if (cache[r][c] !== -1) return cache[r][c]; // cache exist
 
-      cache[`${r}-${c}`] = 0;
+    // else, we will build cache, by checking 3 direction
+    const bottom = helper(r + 1, c);
+    const diagonal = helper(r + 1, c + 1);
+    const right = helper(r, c + 1);
 
-      if (matrix[r][c] === "1") {
-        // min: any direction that can't expand becomes the bottleneck
-        cache[`${r}-${c}`] = 1 + Math.min(down, diagonal, right);
-      }
-    }
+    cache[r][c] =
+      matrix[r][c] === "1" ? 1 + Math.min(bottom, right, diagonal) : 0;
 
-    return cache[`${r}-${c}`];
+    if (cache[r][c] > maxLength) maxLength = cache[r][c];
+
+    return cache[r][c];
   }
 
   helper(0, 0);
 
-  let max = -Infinity;
-  for (let key in cache) {
-    max = Math.max(cache[key], max);
-  }
+  return maxLength * maxLength;
 
-  return max * max;
+  /*
+
+  intuition: cache 2d array, prefill with -1
+
+  prepare maxLength= 0
+
+  create helper(r,c) , invoke with helper(0,0) to perform top down recursive
+
+  base case : r>= row.length || c>= col.length return 0
+
+  else, not at edge, need check cache, if cache[r][c] != -1, return cache[r][c]
+else, we will build cache, by checking 3 direction
+  
+  if itself = "1" , then check how long it can expand into 3 direction, bottle neck will be the answer min(bottom, left, diagonal);
+  if not "1", then cannot la, zero lah
+
+  additionally use the new cache to check if its currently the maxLength.
+
+
+  at the end of function, maxLength should be updated with the longest possible length to expand square shape within the matrix
+  return maxLength * maxLength*
+
+  */
 };
 
 export { maximalSquare };
