@@ -294,8 +294,8 @@ userStories:
   - 'Commit with message: feat [US-012] - Write expand_prd.py and seed first batch
     window'
   priority: 12
-  passes: false
-  notes: Last prep story. After this runs, ralph iterates over US-013..US-022 
+  passes: true
+  notes: Last prep story. After this runs, ralph iterates over US-013..US-022
     (batches) then US-023 (next expand), which appends US-024..US-033 + US-034 
     (next expand), and so on until manifest is exhausted.
 - id: US-013
