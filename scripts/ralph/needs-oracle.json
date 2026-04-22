@@ -523,5 +523,30 @@
     "id": "0497",
     "slug": "random-point-in-non-overlapping-rectangles",
     "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0511",
+    "slug": "game-play-analysis-i",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0512",
+    "slug": "game-play-analysis-ii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0502",
+    "slug": "ipo",
+    "reason": "permanent: uses MinPriorityQueue/MaxPriorityQueue (LeetCode platform classes, unavailable in Node.js)"
+  },
+  {
+    "id": "0510",
+    "slug": "inorder-successor-in-bst-ii",
+    "reason": "permanent: requires _Node with parent pointer \u2014 not supported by test_helpers.js TreeNode"
+  },
+  {
+    "id": "0519",
+    "slug": "random-flip-matrix",
+    "reason": "permanent: non-deterministic randomized output cannot be oracle-validated"
   }
 ]
