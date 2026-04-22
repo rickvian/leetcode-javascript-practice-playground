@@ -1,3 +1,39 @@
+## 2026-04-22 - US-010
+- **What was implemented:**
+  - Created `leetcode-playground/tests/__helpers__/test_helpers.js` — ES Module exporting ListNode, TreeNode, GraphNode classes and bidirectional converters: arrayToList/listToArray, arrayToTree/treeToArray, arrayToGraphNode/graphToAdjList
+  - Created `scripts/ralph/run_test.mjs` — minimal vitest-compatible test runner for Node 18; imports from vitest/dist/index.js directly, bypassing rolldown CLI that requires Node 20+ for styleText
+  - Created `scripts/ralph/assertion_templates.py` — Python module with detect_template() and get_input_category() using slug/tag detection rules
+  - Created `scripts/ralph/oracle_run.mjs` — Node runner that injects ListNode/TreeNode/GraphNode globals, dynamic-imports oracle, converts inputs by paramType, runs oracle, serializes outputs, writes JSON; handles plain-json, pointer-linked-list, pointer-tree, pointer-graph, design-class, in-place-mutation categories
+  - Created `scripts/ralph/generate_tests.py` — main generator that: parses oracle JSDoc for param/return types, detects category+template, builds adversarial input catalog, runs oracle_run.mjs, emits stub + test files, validates with run_test.mjs (oracle import swap), retries up to 2x dropping failing cases
+  - Unit-tested on 5 problems spanning all categories; all pass with oracle, fail with stubs:
+    - 0001-two-sum (plain-json, any-valid-pair-summing): 6 passed
+    - 0002-add-two-numbers (pointer-linked-list): 6 passed
+    - 0094-binary-tree-inorder-traversal (pointer-tree): 6 passed
+    - 0155-min-stack (design-class): 3 passed
+    - 0027-remove-element (in-place-mutation): 6 passed
+  - Also generated all 20 problems in batch-001 (20/20 success)
+
+- **Files changed:**
+  - Added: leetcode-playground/tests/__helpers__/test_helpers.js
+  - Added: scripts/ralph/run_test.mjs
+  - Added: scripts/ralph/assertion_templates.py
+  - Added: scripts/ralph/oracle_run.mjs
+  - Added: scripts/ralph/generate_tests.py
+  - Added: scripts/ralph/needs-oracle.json (accumulated during generation)
+  - Added: 57 stub files in leetcode-playground/ (unit test evidence)
+  - Added: 56 test files in leetcode-playground/tests/ (unit test evidence)
+  - Modified: scripts/ralph/prd.yaml (US-010 passes: true)
+
+- **Learnings:**
+  - vitest 4.x uses rolldown which requires Node 20+ for `styleText` from node:util; workaround: import vitest/dist/index.js directly and use describe/it/expect as globals in a custom runner
+  - Oracle solutions that use `new ListNode()` / `new TreeNode()` without importing rely on platform globals; inject these via `globalThis.ListNode = ListNode` BEFORE dynamic import of the oracle module
+  - Input catalog must use exact type matching (`types[0] == 'number[]'`) not substring check (`'number[]' in first`) — substring `'number' in 'number[]'` matches both `number` and `number[]`
+  - NaN serializes to `null` in JSON; skip null oracle outputs for non-pointer return types to avoid asserting `toEqual(null)` against NaN
+  - Remove `if (result !== undefined)` guards from assertions — they cause stubs to pass trivially; `listToArray(undefined) = []` and `treeToArray(undefined) = []` produce meaningful failures for non-empty expected outputs
+  - For `removeElement` oracle: function returns undefined (no return statement) and splices nums in-place; oracle_run.mjs captures both returnValue and post-mutation array to build expectedElements
+
+---
+
 ## 2026-04-22 - US-009
 - **What was implemented:**
   - Added `SOLUTIONS_BANK_DIR` and `ORACLE_FN_RE` constants to build_batches.py

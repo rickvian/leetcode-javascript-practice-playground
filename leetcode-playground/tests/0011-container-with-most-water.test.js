@@ -1,4 +1,4 @@
-import { maxArea } from '../0011-container-with-most-water';
+import { maxArea } from '../0011-container-with-most-water.js';
 
 describe('0011-container-with-most-water', () => {
     it('should return 49 for [1,8,6,2,5,4,8,3,7]', () => {
@@ -47,5 +47,13 @@ describe('0011-container-with-most-water', () => {
 
     it('should handle large values at exact range limits', () => {
         expect(maxArea([10000, 10000])).toBe(10000);
+    });
+
+    it('should handle empty array', () => {
+        expect(maxArea([])).toBe(0);
+    });
+
+    it('should handle single element', () => {
+        expect(maxArea([1])).toBe(0);
     });
 });

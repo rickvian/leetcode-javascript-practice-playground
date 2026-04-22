@@ -143,7 +143,7 @@ userStories:
       - 'Unit-test generate_tests.py on 5 problems from batch-001 spanning categories: one plain-json (array problem), one pointer-linked-list, one pointer-tree, one design-class-heavy, one in-place-mutation. All 5 must produce solutions-bank-passing tests or the story does not pass.'
       - 'Commit with message: feat [US-010] - Write test_helpers.js + generate_tests.py + assertion_templates.py'
     priority: 10
-    passes: false
+    passes: true
     notes: |
       Core primitive of v2. Four invariants-
       1. Expected outputs ALWAYS come from running the solutions-bank oracle, never from model reasoning.
