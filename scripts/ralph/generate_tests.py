@@ -100,13 +100,15 @@ def get_input_category(problem, param_types):
 
     # classHeavy tag fires on slug keywords like 'queue'; override for plain functions
     # reverse-string-ii / reverse-words-in-a-string-iii are plain functions, not in-place
+    # employee-importance: GetImportance is PascalCase but is a plain function
     PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',
-                      'reverse-string-ii', 'reverse-words-in-a-string-iii')
+                      'reverse-string-ii', 'reverse-words-in-a-string-iii',
+                      'employee-importance')
     if slug in PLAIN_FN_SLUGS:
         class_heavy = False
 
     fn_name = problem.get('oracleFnName', '')
-    if class_heavy or (fn_name and fn_name[0].isupper()):
+    if class_heavy or (slug not in PLAIN_FN_SLUGS and fn_name and fn_name[0].isupper()):
         return 'design-class'
 
     for ptype, _ in param_types:
@@ -142,9 +144,10 @@ def get_assertion_template(problem, param_types, return_type):
     tags = [t.lower() for t in problem.get('tags', [])]
     fn_name_ac = problem.get('oracleFnName', '')
     PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',
-                      'reverse-string-ii', 'reverse-words-in-a-string-iii')
+                      'reverse-string-ii', 'reverse-words-in-a-string-iii',
+                      'employee-importance')
     is_class_heavy = problem.get('classHeavy') and slug not in PLAIN_FN_SLUGS
-    if is_class_heavy or (fn_name_ac and fn_name_ac[0].isupper()):
+    if is_class_heavy or (slug not in PLAIN_FN_SLUGS and fn_name_ac and fn_name_ac[0].isupper()):
         return 'design-class-sequence'
     if 'two-sum' in slug and return_type != 'boolean':
         return 'any-valid-pair-summing'
@@ -512,6 +515,54 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [["happy","sad","good"], ["sad","happy","good"]],
             [["a"], ["a"]],
             [["a","b","c"], ["c","b","a"]],
+        ]
+
+    if 'redundant-connection' in slug and '-ii' not in slug:
+        # edges: number[][], each [ai, bi] 1-indexed; must form a tree + exactly 1 redundant edge
+        return [
+            [[[1, 2], [1, 3], [2, 3]]],
+            [[[1, 2], [2, 3], [3, 4], [1, 4], [1, 5]]],
+            [[[1, 2], [2, 3], [1, 3]]],
+            [[[1, 2], [1, 3], [2, 4], [3, 4], [4, 5]]],
+            [[[1, 2], [2, 3], [3, 1]]],
+        ]
+
+    if 'knight-probability-in-chessboard' in slug:
+        # (n: number, k: number, row: number, column: number)
+        return [
+            [3, 2, 0, 0],
+            [3, 0, 0, 0],
+            [8, 1, 0, 0],
+            [5, 3, 2, 2],
+            [3, 1, 0, 0],
+            [1, 0, 0, 0],
+        ]
+
+    if 'employee-importance' in slug:
+        # (employees: {id, importance, subordinates}[], id: number)
+        return [
+            [[{"id": 1, "importance": 5, "subordinates": [2, 3]},
+              {"id": 2, "importance": 3, "subordinates": []},
+              {"id": 3, "importance": 3, "subordinates": []}], 1],
+            [[{"id": 1, "importance": 5, "subordinates": [2, 3]},
+              {"id": 2, "importance": 3, "subordinates": []},
+              {"id": 3, "importance": 3, "subordinates": []}], 2],
+            [[{"id": 1, "importance": 2, "subordinates": [2]},
+              {"id": 2, "importance": 3, "subordinates": []}], 1],
+            [[{"id": 1, "importance": 5, "subordinates": []}], 1],
+            [[{"id": 2, "importance": 11, "subordinates": [5]},
+              {"id": 5, "importance": -3, "subordinates": []}], 5],
+        ]
+
+    if 'falling-squares' in slug:
+        # positions: number[][], each [left, sideLength] — 2-element arrays
+        return [
+            [[[1, 2], [2, 3], [6, 1]]],
+            [[[100, 100], [200, 100]]],
+            [[[1, 5], [2, 2], [7, 5]]],
+            [[[1, 1]]],
+            [[[1, 2], [3, 1]]],
+            [[[2, 3], [2, 3], [2, 3]]],
         ]
 
     if 'evaluate-division' in slug:

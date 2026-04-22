@@ -873,5 +873,25 @@
     "id": "0679",
     "slug": "24-game",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0684",
+    "slug": "redundant-connection",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0688",
+    "slug": "knight-probability-in-chessboard",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0699",
+    "slug": "falling-squares",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0690",
+    "slug": "employee-importance",
+    "reason": "validation failed and no cases left to drop"
   }
 ]
