@@ -493,5 +493,35 @@
     "id": "0480",
     "slug": "sliding-window-median",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0481",
+    "slug": "magical-string",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0490",
+    "slug": "the-maze",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0492",
+    "slug": "construct-the-rectangle",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0496",
+    "slug": "next-greater-element-i",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0489",
+    "slug": "robot-room-cleaner",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0497",
+    "slug": "random-point-in-non-overlapping-rectangles",
+    "reason": "validation failed and no cases left to drop"
   }
 ]

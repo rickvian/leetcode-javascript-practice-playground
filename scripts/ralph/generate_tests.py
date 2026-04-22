@@ -166,9 +166,20 @@ def build_inputs(problem, param_types, return_type, input_category, class_method
     return _build_plain_json_inputs(problem, param_types, return_type)
 
 def _build_plain_json_inputs(problem, param_types, return_type):
+    slug  = problem.get('slug', '')
+
+    # ── pre-early-return slug overrides (for oracles missing @param JSDoc) ──
+    if 'the-maze-iii' in slug:
+        # (maze: number[][], ball: number[], hole: number[])
+        return [
+            [[[0,0,0,0,0],[1,1,0,0,1],[0,0,0,0,0],[0,1,0,0,1],[0,1,0,0,0]], [4,3], [0,1]],
+            [[[0,0,0,0,0],[1,1,0,0,1],[0,0,0,0,0],[0,1,0,0,1],[0,1,0,0,0]], [4,3], [3,0]],
+            [[[0,0,0],[0,0,0],[0,0,0]], [0,0], [2,2]],
+            [[[0,0],[0,0]], [0,0], [1,1]],
+        ]
+
     if not param_types:
         return []
-    slug  = problem.get('slug', '')
     types = [pt.strip() for pt, _ in param_types]
     first = types[0] if types else ''
 
@@ -223,6 +234,42 @@ def _build_plain_json_inputs(problem, param_types, return_type):
              "makes", "makes"],
             [["practice", "makes", "perfect", "coding", "makes"],
              "coding", "practice"],
+        ]
+
+    if 'magical-string' in slug:
+        return [[1], [3], [5], [6], [8], [10], [20]]
+
+    if 'construct-the-rectangle' in slug:
+        # area must be a positive integer; oracle returns NaN for ≤0
+        return [[4], [6], [12], [24], [25], [100]]
+
+    if 'next-greater-element-i' in slug:
+        # nums1 must be a strict subset of nums2 (per problem constraints)
+        return [
+            [[4, 1, 2], [1, 3, 4, 2]],
+            [[2, 4], [1, 2, 3, 4]],
+            [[1, 3, 5, 2, 4], [6, 5, 4, 3, 2, 1, 7]],
+            [[1], [1, 3, 5]],
+            [[1], [1]],
+            [[], [1, 2, 3]],
+        ]
+
+    if 'the-maze-iii' in slug:
+        # (maze: number[][], ball: number[], hole: number[])
+        return [
+            [[[0,0,0,0,0],[1,1,0,0,1],[0,0,0,0,0],[0,1,0,0,1],[0,1,0,0,0]], [4,3], [0,1]],
+            [[[0,0,0,0,0],[1,1,0,0,1],[0,0,0,0,0],[0,1,0,0,1],[0,1,0,0,0]], [4,3], [3,0]],
+            [[[0,0,0],[0,0,0],[0,0,0]], [0,0], [2,2]],
+            [[[0,0],[0,0]], [0,0], [1,1]],
+        ]
+
+    if 'the-maze' in slug:
+        # (maze: number[][], start: number[], destination: number[])
+        return [
+            [[[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]], [0,4], [4,4]],
+            [[[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]], [0,4], [3,2]],
+            [[[0,0,0],[0,0,0],[0,0,0]], [0,0], [2,2]],
+            [[[0,0],[0,0]], [0,0], [1,1]],
         ]
 
     if 'happy-number' in slug:
