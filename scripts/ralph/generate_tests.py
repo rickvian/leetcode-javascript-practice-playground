@@ -1014,6 +1014,62 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             ["the quick brown fox", ["the"]],
         ]
 
+    # ── shortest-distance-to-a-character: (s: string, c: character) ──
+    if 'shortest-distance-to-a-character' in slug:
+        return [
+            ["loveleetcode", "e"],
+            ["aaab", "b"],
+            ["a", "a"],
+            ["aaa", "a"],
+            ["abcde", "a"],
+            ["abcde", "e"],
+            ["zbcd", "z"],
+        ]
+
+    # ── most-profit-assigning-work: (difficulty: number[], profit: number[], worker: number[]) ──
+    if 'most-profit-assigning-work' in slug:
+        return [
+            [[2,4,6,8,10], [10,20,30,40,50], [4,5,6,7]],
+            [[85,47,57], [24,66,99], [40,25,25]],
+            [[1], [1], [1]],
+            [[], [], []],
+            [[5,5,5], [0,0,0], [3,5,10]],
+            [[10,20,30], [100,200,300], [5,15,25]],
+        ]
+
+    # ── find-and-replace-in-string: (s: string, indices: number[], sources: string[], targets: string[]) ──
+    if 'find-and-replace-in-string' in slug:
+        return [
+            ["abcd", [0,2], ["ab","ec"], ["eee","ffff"]],
+            ["abcd", [0,2], ["ab","cd"], ["eee","ffff"]],
+            ["vmokgggqzp", [3,5,1], ["kg","ggq","mo"], ["s","so","bfr"]],
+            ["abc", [], [], []],
+            ["aaa", [0], ["aaa"], ["b"]],
+            ["a", [0], ["b"], ["c"]],
+        ]
+
+    # ── sum-of-distances-in-tree: (n: number, edges: number[][]) ──
+    if 'sum-of-distances-in-tree' in slug:
+        return [
+            [6, [[0,1],[0,2],[2,3],[2,4],[2,5]]],
+            [1, []],
+            [2, [[1,0]]],
+            [3, [[0,1],[0,2]]],
+            [4, [[0,1],[1,2],[2,3]]],
+            [5, [[0,1],[0,2],[1,3],[1,4]]],
+        ]
+
+    # ── image-overlap: (img1: number[][], img2: number[][]) ──
+    if 'image-overlap' in slug:
+        return [
+            [[[1,1,0],[0,1,0],[0,1,0]], [[0,0,0],[0,1,1],[0,0,1]]],
+            [[[1]], [[1]]],
+            [[[0]], [[0]]],
+            [[[0,1],[1,0]], [[1,0],[0,1]]],
+            [[[1,0,0],[0,0,0],[0,0,0]], [[0,0,0],[0,0,0],[0,0,1]]],
+            [[[1,1,1],[1,1,1],[1,1,1]], [[0,0,0],[0,0,0],[0,0,0]]],
+        ]
+
     # ── (number[][], number) ──
     if len(types) == 2 and types[0] in ('number[][]', 'integer[][]'):
         return [[[[1, 2, 3], [4, 5, 6]], 2], [[[1, 2], [3, 4]], 5], [[[1, 2, 3], [4, 5, 6], [7, 8, 9]], 15]]

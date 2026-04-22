@@ -988,5 +988,30 @@
     "id": "0818",
     "slug": "race-car",
     "reason": "oracle_run failed"
+  },
+  {
+    "id": "0821",
+    "slug": "shortest-distance-to-a-character",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0826",
+    "slug": "most-profit-assigning-work",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0833",
+    "slug": "find-and-replace-in-string",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0834",
+    "slug": "sum-of-distances-in-tree",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0835",
+    "slug": "image-overlap",
+    "reason": "no valid test cases generated"
   }
 ]
