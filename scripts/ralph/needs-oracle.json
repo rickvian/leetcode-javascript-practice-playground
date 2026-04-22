@@ -153,5 +153,20 @@
     "id": "0056",
     "slug": "merge-intervals",
     "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0077",
+    "slug": "combinations",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0078",
+    "slug": "subsets",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0067",
+    "slug": "add-binary",
+    "reason": "no valid test cases generated"
   }
 ]
