@@ -1,3 +1,23 @@
+## 2026-04-22 - US-037
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-023` — 18 generated (0441-0460), 0 skipped, 2 missing/failed (0444, 0454)
+  - Fixed 0444 (sequence-reconstruction): `(number[], number[][])` param combo not matched by any generic handler; added slug override with valid (nums, sequences) pairs where nums is a permutation of [1,n]
+  - Fixed 0454 (4sum-ii): `(number[], number[], number[], number[])` four-array params fell through all generic checks; added slug override with balanced arrays summing to 0
+  - Re-ran generator: 2 generated, 18 skipped — 20/20 total
+
+- **Files changed:**
+  - Added: 20 stubs (0441-0460) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (slug overrides for sequence-reconstruction + 4sum-ii)
+  - Modified: scripts/ralph/needs-oracle.json (no new permanent entries — both fixed)
+
+- **Learnings:**
+  - `(number[], number[][])` (1D array + 2D array) is NOT matched by the `(number, number[][])` check (which expects a scalar first arg); needs separate slug override
+  - 4-param functions of identical type `(number[], number[], number[], number[])` have no generic handler; add explicit slug override for each
+  - sequence-reconstruction input constraint: nums must be a permutation of [1,n]; sequences must be valid subsequences of that range
+
+---
+
 ## 2026-04-22 - US-036
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-022` — 14 generated (0421-0425, 0430, 0432-0439), 6 missing/failed
