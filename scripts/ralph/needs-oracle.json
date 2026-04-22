@@ -453,5 +453,15 @@
     "id": "0440",
     "slug": "k-th-smallest-in-lexicographical-order",
     "reason": "oracle_run failed"
+  },
+  {
+    "id": "0444",
+    "slug": "sequence-reconstruction",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0454",
+    "slug": "4sum-ii",
+    "reason": "no valid test cases generated"
   }
 ]
