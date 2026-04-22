@@ -958,5 +958,35 @@
     "id": "0773",
     "slug": "sliding-puzzle",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0803",
+    "slug": "bricks-falling-when-hit",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0806",
+    "slug": "number-of-lines-to-write-string",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0809",
+    "slug": "expressive-words",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0817",
+    "slug": "linked-list-components",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0819",
+    "slug": "most-common-word",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0818",
+    "slug": "race-car",
+    "reason": "oracle_run failed"
   }
 ]

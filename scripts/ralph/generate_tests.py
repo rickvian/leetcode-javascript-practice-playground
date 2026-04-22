@@ -884,6 +884,10 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if 'domino-and-tromino-tiling' in slug:
         return [[1], [2], [3], [4], [5], [10]]
 
+    # ── race-car: (target: number) — large target causes timeout ──
+    if 'race-car' in slug:
+        return [[1], [3], [5], [6], [10], [7]]
+
     # ── single integer ──
     if len(types) == 1 and first in ('number', 'integer', 'int'):
         return [[121], [-121], [10], [0], [-1], [1534236469]]
@@ -967,6 +971,49 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [["x","y"], ["x","z"], [["y","z"]]],
         ]
 
+    # ── bricks-falling-when-hit: (grid: number[][], hits: number[][]) ──
+    if 'bricks-falling-when-hit' in slug:
+        return [
+            [[[1,0,0,0],[1,1,1,0]], [[1,0],[1,1],[1,2]]],
+            [[[1,0],[1,0],[1,0],[1,0],[1,0]], [[1,2],[0,0],[1,0]]],
+            [[[1,1,1],[1,0,0],[1,0,0]], [[0,0]]],
+            [[[0,1,1,1],[0,0,0,0]], [[0,0]]],
+            [[[1,0,0],[1,1,0]], [[0,0],[1,1]]],
+        ]
+
+    # ── number-of-lines-to-write-string: (widths: number[], s: string) ──
+    if 'number-of-lines-to-write-string' in slug:
+        return [
+            [[10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "abcdefghijklmnopqrstuvwxyz"],
+            [[4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "bbbccddaaa"],
+            [[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1], "a"],
+            [[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1], ""],
+            [[10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "aaaaaaaaaa"],
+            [[10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "aabcdef"],
+        ]
+
+    # ── expressive-words: (s: string, words: string[]) ──
+    if 'expressive-words' in slug:
+        return [
+            ["heeellooo", ["hello","hi","helo"]],
+            ["heeellooo", ["hello","helo"]],
+            ["zzzzzyyyyy", ["zzyy","zy","zyy"]],
+            ["abc", ["a","abc","ab"]],
+            ["aaa", ["a","aaaa","aa"]],
+            ["a", ["a","b"]],
+        ]
+
+    # ── most-common-word: (paragraph: string, banned: string[]) ──
+    if 'most-common-word' in slug:
+        return [
+            ["Bob hit a ball, the hit BALL flew far after it was hit.", ["hit"]],
+            ["a.", []],
+            ["Bob. hIt, baLl", ["bob","hit"]],
+            ["a a a b b c c", ["a"]],
+            ["Hello HELLO hello", []],
+            ["the quick brown fox", ["the"]],
+        ]
+
     # ── (number[][], number) ──
     if len(types) == 2 and types[0] in ('number[][]', 'integer[][]'):
         return [[[[1, 2, 3], [4, 5, 6]], 2], [[[1, 2], [3, 4]], 5], [[[1, 2, 3], [4, 5, 6], [7, 8, 9]], 15]]
@@ -980,6 +1027,19 @@ def _build_plain_json_inputs(problem, param_types, return_type):
 
 def _build_linked_list_inputs(problem, param_types):
     slug          = problem.get('slug', '')
+
+    # ── linked-list-components: (head: ListNode, nums: number[]) ──
+    # nums must be a subset of node values in the linked list
+    if 'linked-list-components' in slug:
+        return [
+            [[0,1,2,3], [0,1,3]],
+            [[0,1,2,3,4], [0,3,1,4]],
+            [[0], [0]],
+            [[0,1,2], [0,2]],
+            [[0,1], [1]],
+            [[0,1,2,3,4,5], [0,1,2]],
+        ]
+
     # ListNode[] means an array of linked list heads (e.g. merge-k-sorted-lists)
     list_of_lists = any(pt.strip() == 'ListNode[]' for pt, _ in param_types)
     list_ct       = sum(1 for pt, _ in param_types if 'ListNode' in pt)
