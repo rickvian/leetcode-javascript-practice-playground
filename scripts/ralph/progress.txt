@@ -1,3 +1,18 @@
+## 2026-04-22 - US-045
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/expand_prd.py` — seeded 10 batch stories (batch-031 through batch-040) + 1 Expand story
+  - expandedUpTo: 30 → 40 of 150
+
+- **Files changed:**
+  - Modified: scripts/ralph/prd.yaml (US-045 passes: true + US-046..US-056 appended)
+  - Modified: scripts/ralph/manifest.json (expandedUpTo: 40)
+
+- **Learnings:**
+  - ruamel.yaml not installed on Python 3.13 env; install via `curl -sS https://bootstrap.pypa.io/get-pip.py | python3 - --break-system-packages` then `python3 -m pip install ruamel.yaml --break-system-packages`
+  - expand_prd.py automatically marks the active Expand story passes: true before writing files
+
+---
+
 ## 2026-04-22 - US-044
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-030` — first run: 6 generated, 14 failed
