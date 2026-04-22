@@ -1,3 +1,19 @@
+## 2026-04-22 - US-013
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-001`
+  - All 20 problems already existed (generated during US-010 unit test run); script skipped all idempotently
+  - Validated all 20 test files with `node scripts/ralph/run_test.mjs` — all load without import errors; all fail assertions on blank stubs (expected)
+  - vitest CLI unusable on Node 18 (rolldown `styleText` issue); use run_test.mjs as equivalent validator
+
+- **Files changed:**
+  - Modified: scripts/ralph/prd.yaml (US-013 passes: true)
+
+- **Learnings:**
+  - generate_tests.py idempotent skip works correctly: all 20 batch-001 problems skipped cleanly
+  - When no new files are generated, still validate existing files load without import errors before marking story complete
+
+---
+
 ## 2026-04-22 - US-012
 - **What was implemented:**
   - Installed `ruamel.yaml` (required `--break-system-packages` on the Debian 12 Python 3.11 system; added via `python3 -m pip install ruamel.yaml --break-system-packages`)
