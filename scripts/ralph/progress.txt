@@ -1,3 +1,20 @@
+## 2026-04-22 - US-036
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-022` — 14 generated (0421-0425, 0430, 0432-0439), 6 missing/failed
+  - 6 missing/failed: 0426 (BST-to-doubly-linked-list: circular doubly-linked-list causes stack overflow in serializer), 0427 (construct-quad-tree: oracle timeout), 0428 (no oracle), 0429 (n-ary tree level order: oracle issue), 0431 (no oracle), 0440 (k-th-smallest-in-lexicographical-order: oracle issue)
+  - No code changes to generate_tests.py or oracle_run.mjs this batch
+
+- **Files changed:**
+  - Added: 14 stubs (0421-0425, 0430, 0432-0439) in leetcode-playground/
+  - Added: 14 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json (new entries from failed validation)
+
+- **Learnings:**
+  - BST-to-sorted-doubly-linked-list oracle returns a circular doubly-linked-list node; serialization with listToArray causes infinite recursion (Maximum call stack exceeded) — circular pointer structures cannot be serialized with existing helpers; permanent needs-oracle
+  - Oracle timeout (30s) on construct-quad-tree and k-th-smallest-in-lexicographical-order indicates either large input or complex oracle algorithm; these need slug overrides or needs-oracle
+
+---
+
 ## 2026-04-22 - US-035
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-021` — 3 new generated (0406, 0411, 0412), 16 skipped (already existed), 1 needs-oracle (0407)
