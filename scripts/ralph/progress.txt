@@ -1,3 +1,20 @@
+## 2026-04-22 - US-051
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-036` — first run: 16 generated, 4 missing/failed
+  - 4 permanent needs-oracle: 0702 (ArrayReader mock API), 0703 (PriorityQueue platform class), 0708 (circular linked list serialization loop), 0710 (non-deterministic pick())
+  - Generated: 0701, 0704-0706, 0709, 0711-0715, 0717-0722
+
+- **Files changed:**
+  - Added: 16 stubs (0701-0722 range) in leetcode-playground/
+  - Added: 16 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `ArrayReader` API (0702) is a mock interface like read4; oracle uses `reader.get(i)` not direct array access — permanent needs-oracle
+  - Circular linked list (0708) causes infinite recursion in serialization just like doubly-linked-list (0426) — permanent needs-oracle for any circular pointer structure
+  - `RandomPickWithBlacklist.pick()` (0710) is non-deterministic — permanent needs-oracle
+---
+
 ## 2026-04-22 - US-050
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-035` — first run: 16 generated, 4 missing/failed
