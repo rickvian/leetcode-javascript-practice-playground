@@ -1244,3 +1244,24 @@
   - Functions that return platform objects (NestedInteger) or use platform callbacks (guess) are permanent needs-oracle
 
 ---
+
+## 2026-04-22 - US-059
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-043` — 12 generated, 8 missing/failed
+  - Generated: 0841, 0844, 0845, 0847, 0849, 0852, 0854, 0855, 0856, 0858, 0859, 0860
+
+- **Files changed:**
+  - Added: 12 stubs in leetcode-playground/
+  - Added: 12 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `split-array-into-fibonacci-sequence` (0842): oracle returns NaN instead of null for invalid/non-fibonacci inputs — validation mismatch (expected null[], got NaN[]). Logged to needs-oracle.
+  - `guess-the-word` (0843): design/interactive problem with no oracle support; skipped/logged to needs-oracle.
+  - `hand-of-straights` (0846): `(hand: number[], groupSize: number)` — (number[], number) combo not handled by generic; logged to needs-oracle.
+  - `shifting-letters` (0848): `(s: string, shifts: number[])` — (string, number[]) combo falls through; logged to needs-oracle.
+  - `rectangle-area-ii` (0850): complex geometry input; logged to needs-oracle.
+  - `loud-and-rich` (0851): `(richer: number[][], quiet: number[])` — mixed 2D+1D array combo; logged to needs-oracle.
+  - `car-fleet` (0853): `(target: number, position: number[], speed: number[])` — (number, number[], number[]) combo not covered by generic handlers; logged to needs-oracle.
+  - `minimum-cost-to-hire-k-workers` (0857): uses PriorityQueue platform class — skipped by generate_tests.py skip rule.
+---
