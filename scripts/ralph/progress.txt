@@ -670,3 +670,21 @@
   - Some oracle solutions use LeetCode platform globals (MinPriorityQueue) that aren't available in Node → permanent needs-oracle
 
 ---
+## 2026-04-22 - US-029
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-016` — 2 generated (0308, 0310), 18 skipped
+  - Fixed 2 bugs discovered during batch-016:
+    1. Design-class input mutation: oracle_run.mjs didn't snapshot the sequence before running design-class ops. Oracles that store array/matrix references (e.g. NumMatrix `this.matrix = matrix`) mutate the input when `update()` is called, so the saved `input` in the output contained the post-mutation matrix. Fix: `const snapshot = JSON.parse(JSON.stringify(sequence))` before the ops loop; save `snapshot` in `outputs.push({ input: snapshot, ... })`. This mirrors the existing plain-json snapshot fix.
+    2. minimum-height-trees needs undirected tree edges: the slug override shared `course-schedule/graph-valid-tree/minimum-height-trees` inputs. course-schedule inputs include cycles `[[1,0],[0,1]]` and invalid trees (n-1+1 edges), causing the oracle to return wrong results. Fix: separate slug override for `minimum-height-trees` with valid tree inputs (star graph, path, single node, two-node).
+
+- **Files changed:**
+  - Added: 2 stubs (0308, 0310) in leetcode-playground/
+  - Added: 2 tests (0308, 0310) in leetcode-playground/tests/
+  - Modified: scripts/ralph/oracle_run.mjs (snapshot design-class input before ops loop)
+  - Modified: scripts/ralph/generate_tests.py (separate minimum-height-trees slug override)
+
+- **Learnings:**
+  - Design-class oracles that store mutable constructor args (matrix, array) will corrupt the input snapshot unless we snapshot BEFORE the ops loop in oracle_run.mjs
+  - Graph/tree problems sharing the same param types `(number, number[][])` need separate slug overrides: course-schedule allows cycles/directed edges; minimum-height-trees requires a valid undirected tree (exactly n-1 edges, no cycles)
+
+---

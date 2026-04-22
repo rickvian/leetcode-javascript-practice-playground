@@ -129,6 +129,8 @@ const outputs = [];
 
 if (inputCategory === 'design-class') {
     for (const sequence of inputs) {
+        // Snapshot BEFORE running — oracles that store matrix/array references will mutate input
+        const snapshot = JSON.parse(JSON.stringify(sequence));
         const results = [];
         let instance  = null;
         for (const [method, ...opArgs] of sequence) {
@@ -152,7 +154,7 @@ if (inputCategory === 'design-class') {
                 results.push(null);
             }
         }
-        outputs.push({ input: sequence, output: results });
+        outputs.push({ input: snapshot, output: results });
     }
 
 } else if (inputCategory === 'in-place-mutation') {

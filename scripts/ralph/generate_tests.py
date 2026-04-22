@@ -222,13 +222,42 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[["a","b"],["c","d"]], ["abdc","abcd"]],
         ]
 
-    if 'course-schedule' in slug or 'graph-valid-tree' in slug:
+    if 'minimum-height-trees' in slug:
+        return [
+            [4, [[1, 0], [1, 2], [1, 3]]],
+            [6, [[3, 0], [3, 1], [3, 2], [3, 4], [5, 4]]],
+            [1, []],
+            [2, [[0, 1]]],
+            [3, [[1, 0], [1, 2]]],
+        ]
+
+    if any(kw in slug for kw in ('course-schedule', 'graph-valid-tree')):
         return [
             [2, [[1, 0]]],
             [2, [[1, 0], [0, 1]]],
             [3, [[1, 0], [2, 1]]],
             [1, []],
             [4, [[1, 0], [2, 0], [3, 1], [3, 2]]],
+        ]
+
+    if 'number-of-islands-ii' in slug:
+        return [
+            [3, 3, [[0, 0], [0, 1], [1, 2], [2, 1]]],
+            [1, 1, [[0, 0]]],
+            [2, 2, [[0, 0], [1, 1], [0, 1]]],
+        ]
+
+    if 'smallest-rectangle' in slug:
+        return [
+            [[["0","0","1","0"],["0","1","1","0"],["0","1","0","0"]], 0, 2],
+            [[["1"]], 0, 0],
+        ]
+
+    if 'sparse-matrix' in slug:
+        return [
+            [[[1, 0, 0], [-1, 0, 3]], [[7, 0, 0], [0, 0, 0], [0, 0, 1]]],
+            [[[0]], [[0]]],
+            [[[1, 2], [3, 4]], [[5, 6], [7, 8]]],
         ]
 
     if 'skyline' in slug:
@@ -604,6 +633,37 @@ def _build_design_inputs(problem, class_methods):
     fn_name = problem.get('oracleFnName', '')
     slug    = problem.get('slug', '')
     method_names = [m for m, _ in class_methods]
+
+    # NumArray / range-sum-query
+    if 'sumRange' in method_names:
+        if 'update' in method_names:
+            # Mutable version
+            return [
+                [[fn_name, [1, 3, 5, 7, 9, 11]],
+                 ['sumRange', 0, 2], ['update', 1, 2], ['sumRange', 0, 2]],
+                [[fn_name, [1, 2, 3, 4, 5]],
+                 ['sumRange', 0, 4], ['update', 2, 10], ['sumRange', 0, 4]],
+            ]
+        else:
+            # Immutable version
+            return [
+                [[fn_name, [-2, 0, 3, -5, 2, -1]],
+                 ['sumRange', 0, 2], ['sumRange', 2, 5], ['sumRange', 0, 5]],
+                [[fn_name, [1, 2, 3]], ['sumRange', 0, 0], ['sumRange', 1, 2]],
+            ]
+
+    # NumMatrix / range-sum-query-2d
+    if 'sumRegion' in method_names:
+        if 'update' in method_names:
+            return [
+                [[fn_name, [[3, 0, 1, 4, 2], [5, 6, 3, 2, 1], [1, 2, 0, 1, 5], [4, 1, 0, 1, 7], [1, 0, 3, 0, 5]]],
+                 ['sumRegion', 2, 1, 4, 3], ['update', 3, 2, 2], ['sumRegion', 2, 1, 4, 3]],
+            ]
+        else:
+            return [
+                [[fn_name, [[3, 0, 1, 4, 2], [5, 6, 3, 2, 1], [1, 2, 0, 1, 5], [4, 1, 0, 1, 7], [1, 0, 3, 0, 5]]],
+                 ['sumRegion', 2, 1, 4, 3], ['sumRegion', 1, 1, 2, 2], ['sumRegion', 1, 2, 2, 4]],
+            ]
 
     # MedianFinder
     if 'addNum' in method_names and 'findMedian' in method_names:
