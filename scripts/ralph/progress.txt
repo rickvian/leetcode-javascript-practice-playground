@@ -1,3 +1,24 @@
+## 2026-04-22 - US-049
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-034` — first run: 15 generated, 5 missing/failed
+  - Fixed 0676 (MagicDictionary): generic Trie handler doesn't handle `buildDict(string[])` constructor; added dedicated handler
+  - Fixed 0677 (MapSum): generic fallback passes integer 1 for string keys; added `insert+sum` handler with proper (string, number) pairs
+  - Fixed 0642 (AutocompleteSystem): Trie handler fires (oracle has `insert`+`search` helpers) but constructor needs `(sentences[], times[])`; generic fallback called constructor with no args → `sentences.length` TypeError. Added slug-based AutocompleteSystem handler before Trie handler
+  - Re-ran: 3 more generated; total 18/20 generated; 2 permanent no-oracle (0675, 0679)
+  - Generated: 0642, 0662-0674, 0676-0678, 0680
+
+- **Files changed:**
+  - Added: 18 stubs (0642-0680 range) in leetcode-playground/
+  - Added: 18 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (AutocompleteSystem handler, MagicDictionary handler, MapSum handler)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `MagicDictionary.buildDict(string[])` is not `insert` or `addWord`; the Trie handler won't fire, and generic fallback passes integer 1 for the array param → TypeError. Add dedicated `buildDict` method-name handler.
+  - `MapSum.insert(string, number)` has `insert` in method_names but NOT `search`; the Trie handler requires `insert+search` so it won't fire, but the generic fallback passes integer 1 for string keys. Guard the MapSum handler as `insert+sum+not search`.
+  - `AutocompleteSystem` oracle has internal `insert(sentence, count)` and `search(node, prefix, candidates)` helper methods on the prototype; `parse_class_methods` picks them up, so `method_names = ['input', 'insert', 'search']`. The Trie handler fires and generates sequences with `[fn_name]` (no constructor args), crashing on `sentences.length`. Fix: add slug-based check for `autocomplete` in slug OR detect by `input+insert+search` combo — placed BEFORE the Trie handler.
+---
+
 ## 2026-04-22 - US-048
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-033` — first run: 16 generated, 4 missing/failed
