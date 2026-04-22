@@ -1013,5 +1013,45 @@
     "id": "0835",
     "slug": "image-overlap",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0842",
+    "slug": "split-array-into-fibonacci-sequence",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0843",
+    "slug": "guess-the-word",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0846",
+    "slug": "hand-of-straights",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0848",
+    "slug": "shifting-letters",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0850",
+    "slug": "rectangle-area-ii",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0851",
+    "slug": "loud-and-rich",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0853",
+    "slug": "car-fleet",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0857",
+    "slug": "minimum-cost-to-hire-k-workers",
+    "reason": "uses LeetCode platform PriorityQueue class"
   }
 ]
