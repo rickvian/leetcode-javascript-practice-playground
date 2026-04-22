@@ -1,3 +1,22 @@
+## 2026-04-22 - US-052
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-037` — first run: 13 generated, 7 missing/failed
+  - Fixed 4 failures and re-ran: 4 more generated; total 17/20
+  - 3 permanent needs-oracle: 0716 (PriorityQueue), 0729 (no oracle), 0732 (no oracle)
+  - Generated: 0707, 0723-0728, 0730-0731, 0733-0740 (minus missing)
+
+- **Files changed:**
+  - Added: 17 stubs (0707-0740 range) in leetcode-playground/
+  - Added: 17 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (ListNode[] render fix, flood-fill slug override, sentence-similarity slug override)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `ListNode[]` return type was matched by the generic `'ListNode' in return_type` check in `render_it_block`, generating `expect(listToArray(result)).toEqual(...)` — but `listToArray` expects a single ListNode, not an array. `listToArray([ListNode1, ListNode2])` returns `[undefined]` (array has no .val, loop exits after 1 step). Fix: add dedicated `ListNode[]` check BEFORE the generic check, using `result.map(n => listToArray(n))`.
+  - `(number[][], number, number, number)` 4-param pattern (flood-fill: image + sr + sc + newColor) has no generic handler; falls to fallback which emits single-array inputs missing the 3 int params. Need slug override.
+  - `(string[], string[], string[][])` 3-param pattern (sentence-similarity: sentence1 + sentence2 + similarPairs) has no generic handler; falls to fallback. Need slug override with valid sentence pairs and similarPairs matrix.
+---
+
 ## 2026-04-22 - US-051
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-036` — first run: 16 generated, 4 missing/failed
