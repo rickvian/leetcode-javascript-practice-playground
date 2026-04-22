@@ -476,3 +476,24 @@
   - All 6 test cases pass successfully
 
 ---
+
+## 2026-04-22 - US-019
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-007` — 18/20 generated (0121-0140), 2 in needs-oracle (0130-surrounded-regions char[][] board, 0138-copy-list-with-random-pointer special random pointer)
+  - Fixed pointer-graph (clone-graph) test generation: render_it_block now wraps result with `graphToAdjList()` instead of comparing raw GraphNode object
+  - Fixed pointer-graph detection: added `'graph' in slug` check alongside tag-based detection
+  - Fixed oracle_run.mjs + run_test.mjs: injected `globalThis.Node = GraphNode` so oracles referencing `Node` (not `GraphNode`) work without import
+
+- **Files changed:**
+  - Added: 18 stubs (0121-0140 except 0130, 0138) in leetcode-playground/
+  - Added: 18 tests (0121-0140 except 0130, 0138) in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (pointer-graph render_it_block + slug detection)
+  - Modified: scripts/ralph/oracle_run.mjs (globalThis.Node injection)
+  - Modified: scripts/ralph/run_test.mjs (globalThis.Node injection)
+
+- **Learnings:**
+  - Pointer-graph return types must use graphToAdjList() in test assertions — expect(result).toEqual([...]) fails because result is a GraphNode object, not an adjacency list array
+  - Some LeetCode oracles declare `Node` instead of `GraphNode` as the type; both globals must be injected to `globalThis` before dynamic import of any oracle
+  - Slug-based fallback for category detection is necessary when tags metadata is incomplete (e.g., clone-graph tagged as "depth-first-search" not "graph")
+
+---
