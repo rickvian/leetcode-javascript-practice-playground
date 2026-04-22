@@ -418,5 +418,10 @@
     "id": "0398",
     "slug": "random-pick-index",
     "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0407",
+    "slug": "trapping-rain-water-ii",
+    "reason": "no valid test cases generated"
   }
 ]
