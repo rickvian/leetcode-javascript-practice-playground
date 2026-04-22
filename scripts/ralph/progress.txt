@@ -1,3 +1,25 @@
+## 2026-04-22 - US-007
+- **What was implemented:**
+  - Created scripts/ralph/import_oracle.py
+  - Script clones https://github.com/JoshCrozier/leetcode-javascript.git into a temp dir, extracts `var fnName = function` via regex, appends `export { fnName };`, writes to solutions-bank/
+  - Created solutions-bank/package.json with `{"type": "module"}`
+  - Logged 43 files that failed regex to scripts/ralph/import-skipped.json
+  - Scratch clone deleted on completion; script is idempotent
+
+- **Files changed:**
+  - Added: scripts/ralph/import_oracle.py
+  - Added: scripts/ralph/import-skipped.json
+  - Added: solutions-bank/package.json + 2743 solution files
+  - Modified: scripts/ralph/prd.yaml (US-007 passes: true)
+
+- **Learnings:**
+  - JoshCrozier repo has 2743 matching files (not 2786); 43 skipped due to alternate patterns (class-based, arrow fn, or exports already present)
+  - Dynamic import from project root works: `node -e "import('./solutions-bank/0001-two-sum.js').then(m => console.log(typeof m.twoSum))"` — the `./` prefix resolves relative to CWD, so run from project root
+  - Writing the tmp spot-check file to /tmp and using a relative path fails; use an absolute import path or a dynamic import from the project root CWD instead
+  - git add solutions-bank/ stages all 2744 files (including package.json) in one command
+
+---
+
 ## 2026-04-17 - US-004
 - **What was implemented:**
   - Created scripts/ralph/build_batches.py — loads the full LeetCode dump, excludes the 101 already-implemented 4-digit-prefixed files, sorts by int(questionFrontendId) ascending, caps at 2899 new (→ 3000 total), tags classHeavy by slug prefix `design-` OR keyword match (cache/stack/queue/heap/trie/iterator/serialize/randomized/median-finder/lfu/lru/union-find), packs into 20-problem batches with a FIFO overflow deque enforcing <=2 classHeavy per batch
