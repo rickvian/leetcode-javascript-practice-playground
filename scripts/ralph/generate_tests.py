@@ -196,6 +196,42 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if 'fizz-buzz' in slug:
         return [[1], [3], [5], [15], [10], [20]]
 
+    if 'longest-word-in-dictionary-through-deleting' in slug:
+        # (string s, string[] dictionary) — needs domain-specific inputs
+        return [
+            ["abpcplea", ["ale", "apple", "monkey", "plea"]],
+            ["abpcplea", ["a", "b", "c"]],
+            ["a", ["b", "a"]],
+            ["", ["a", "b"]],
+            ["abc", ["ab", "abc", "a"]],
+            ["aewfafwafjlwajflwajflwafj", ["apple", "ewaf", "awef", "awefe"]],
+        ]
+
+    if 'beautiful-arrangement' in slug:
+        # backtracking; large n causes timeout — use small n only
+        return [[1], [2], [3], [4], [5], [10]]
+
+    if 'minesweeper' in slug:
+        # (char[][] board, number[] click) — board uses 'M'/'E'/'B' chars
+        return [
+            [[["E","E","E","E","E"],["E","E","M","E","E"],["E","E","E","E","E"],["E","E","E","E","E"]], [3, 0]],
+            [[["B","1","E","1","B"],["B","1","M","1","B"],["B","1","1","1","B"],["B","B","B","B","B"]], [1, 2]],
+            [[["M"]], [0, 0]],
+            [[["E"]], [0, 0]],
+            [[["E","E"],["E","M"]], [0, 0]],
+        ]
+
+    if 'minimum-time-difference' in slug:
+        # (string[] timePoints) — expects "HH:MM" formatted strings
+        return [
+            [["23:59", "00:00"]],
+            [["00:00", "23:59", "00:00"]],
+            [["12:00", "00:00"]],
+            [["01:00", "00:00", "12:00"]],
+            [["00:00", "04:00", "22:00"]],
+            [["00:00"]],
+        ]
+
     if 'minimum-unique-word-abbreviation' in slug:
         return [
             ["apple", ["blade"]],
