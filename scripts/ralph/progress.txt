@@ -1,3 +1,27 @@
+## 2026-04-22 - US-050
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-035` — first run: 16 generated, 4 missing/failed
+  - Fixed 0684 (redundant-connection): generic `number[][]` handler emits `[[]]` and `[[1]]` (invalid edges); added slug override with valid `[ai, bi]` edge pairs forming trees with one redundant edge
+  - Fixed 0688 (knight-probability-in-chessboard): 4-param `(n, k, row, column)` has no generic 4-int handler; added slug override with valid board+move+position inputs
+  - Fixed 0690 (employee-importance): `GetImportance` is PascalCase → detected as design-class; added to PLAIN_FN_SLUGS and added slug override with Employee `{id, importance, subordinates}` objects; also fixed `get_input_category` and `get_assertion_template` to skip PascalCase check for PLAIN_FN_SLUGS entries
+  - Fixed 0699 (falling-squares): generic `number[][]` handler emits `[[1]]` (invalid 1-element position); added slug override with valid `[left, sideLength]` 2-element pairs
+  - Re-ran: all 20/20 generated; 0 permanent no-oracle entries this batch
+  - Generated: 0681-0700
+
+- **Files changed:**
+  - Added: 20 stubs (0681-0700) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (PLAIN_FN_SLUGS extended; PascalCase bypass for PLAIN_FN_SLUGS in get_input_category + get_assertion_template; slug overrides for 0684/0688/0690/0699)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - PascalCase function name detection (`fn_name[0].isupper()`) must be bypassed for PLAIN_FN_SLUGS entries in both `get_input_category` and `get_assertion_template`; just setting `class_heavy = False` is insufficient when the PascalCase check runs independently
+  - `employee-importance` oracle uses `GetImportance(employees[], id)` — PascalCase but plain function; Employee objects are plain JSON `{id, importance, subordinates}` and pass through `convertArg` unchanged (ptype=undefined path)
+  - `redundant-connection` edges must be `[ai, bi]` 1-indexed pairs forming a tree + 1 redundant edge; generic `number[][]` catalog includes `[[]]` and `[[1]]` (invalid formats) which crash the oracle
+  - `falling-squares` positions must be `[left, sideLength]` 2-element arrays with sideLength > 0; generic `number[][]` catalog emits 1-element sub-arrays causing NaN results
+  - 4-param integer functions (n, k, row, column) have no generic handler; always need slug override
+---
+
 ## 2026-04-22 - US-049
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-034` — first run: 15 generated, 5 missing/failed
