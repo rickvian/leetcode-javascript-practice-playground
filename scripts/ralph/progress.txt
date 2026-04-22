@@ -1,3 +1,28 @@
+## 2026-04-22 - US-014
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-002`
+  - Generated 6 new stubs+tests: 0022, 0023, 0024, 0025, 0031, 0038
+  - Fixed 4 bugs discovered during generation:
+    1. `ListNode[]` param type (array of linked list heads) was being converted with `arrayToList` instead of mapping each sub-array → fixed `convertArg` and `_build_linked_list_inputs`
+    2. `serializeResult` returned raw `null` for null ListNode/TreeNode returns instead of routing through `listToArray`/`treeToArray` → test asserted `toEqual(null)` but validator got `[]`
+    3. `nextPermutation` (void-return in-place) generated no test cases because oracle output had no `output` field → added in-place-mutation detection for `next-permutation` slug + added `returnVoid` flag to oracle output + changed render to use direct `toEqual` without slice/sort
+    4. `generateParentheses`/`countAndSay` used generic integer catalog (n=1534236469, n=10) causing OOM → added slug-specific overrides with small n values
+  - Added `--max-old-space-size=512` and `timeout=30` to all subprocess calls to prevent OOM hangs
+
+- **Files changed:**
+  - Added: leetcode-playground/{0022,0023,0024,0025,0031,0038}-*.js (6 stubs)
+  - Added: leetcode-playground/tests/{0022,0023,0024,0025,0031,0038}-*.test.js (6 tests)
+  - Modified: scripts/ralph/oracle_run.mjs (ListNode[] fix, null serialization fix, returnVoid flag)
+  - Modified: scripts/ralph/generate_tests.py (input catalog fixes, slug overrides, timeout handling)
+
+- **Learnings:**
+  - `ListNode[]` (array of LinkedList heads) needs map-style conversion; `arrayToList` only converts a flat array to a single list
+  - Pointer-type `serializeResult` must always route through `listToArray`/`treeToArray` even for null results (null → [])
+  - Void-return in-place mutations: oracle result has no `output` key (undefined is dropped by JSON.stringify); must detect and handle separately
+  - Generic integer catalog [121, -121, 10, 0, -1, 1534236469] causes OOM/timeout for combinatorial problems — add slug-specific overrides for generate-parentheses, count-and-say
+
+---
+
 ## 2026-04-22 - US-013
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-001`
