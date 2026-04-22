@@ -168,5 +168,25 @@
     "id": "0099",
     "slug": "recover-binary-search-tree",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0118",
+    "slug": "pascals-triangle",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0119",
+    "slug": "pascals-triangle-ii",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0114",
+    "slug": "flatten-binary-tree-to-linked-list",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0116",
+    "slug": "populating-next-right-pointers-in-each-node",
+    "reason": "no valid test cases generated"
   }
 ]
