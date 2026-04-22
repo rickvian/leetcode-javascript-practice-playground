@@ -893,5 +893,25 @@
     "id": "0690",
     "slug": "employee-importance",
     "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0702",
+    "slug": "search-in-a-sorted-array-of-unknown-size",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0703",
+    "slug": "kth-largest-element-in-a-stream",
+    "reason": "uses LeetCode platform PriorityQueue class"
+  },
+  {
+    "id": "0708",
+    "slug": "insert-into-a-sorted-circular-linked-list",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0710",
+    "slug": "random-pick-with-blacklist",
+    "reason": "validation failed and no cases left to drop"
   }
 ]
