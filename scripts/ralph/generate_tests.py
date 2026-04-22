@@ -203,6 +203,23 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[[1, 2, 1], [3, 4, 2], [5, 6, 3]]],
         ]
 
+    if 'maximal-square' in slug:
+        return [
+            [[["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]],
+            [[["0"]]],
+            [[["1"]]],
+            [[["0","1"],["1","0"]]],
+            [[["1","1","1"],["1","1","1"],["1","1","1"]]],
+        ]
+
+    if 'rectangle-area' in slug:
+        return [
+            [-3, 0, 3, 4, 0, -1, 9, 2],
+            [-2, -2, 2, 2, -2, -2, 2, 2],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [-1000000000, -1000000000, 0, 0, 0, 0, 1000000000, 1000000000],
+        ]
+
     if 'generate-parentheses' in slug:
         return [[1], [2], [3], [4], [0]]
 
@@ -528,8 +545,8 @@ def _build_design_inputs(problem, class_methods):
     slug    = problem.get('slug', '')
     method_names = [m for m, _ in class_methods]
 
-    # MinStack / stack-like
-    if any(m in method_names for m in ('push', 'pop', 'getMin', 'top', 'peek')):
+    # MinStack (must have getMin)
+    if 'getMin' in method_names:
         seqs = [
             [[fn_name], ['push', -2], ['push', 0], ['push', -3],
              ['getMin'], ['pop'], ['top'], ['getMin']],
@@ -537,6 +554,14 @@ def _build_design_inputs(problem, class_methods):
             [[fn_name], ['push', 0]],
         ]
         return seqs
+
+    # MyStack (stack using queues): push, pop, top, empty
+    if 'top' in method_names and 'empty' in method_names and 'push' in method_names:
+        return [
+            [[fn_name], ['push', 1], ['push', 2], ['top'], ['pop'], ['empty']],
+            [[fn_name], ['push', 3], ['top'], ['pop'], ['empty']],
+            [[fn_name], ['push', 1], ['push', 2], ['pop'], ['top']],
+        ]
 
     # LRU / cache-like
     if 'lru' in slug or 'cache' in slug or any(m in method_names for m in ('get', 'put')):
@@ -547,8 +572,16 @@ def _build_design_inputs(problem, class_methods):
             [[fn_name, 1], ['put', 2, 1], ['get', 2], ['put', 3, 2], ['get', 2], ['get', 3]],
         ]
 
+    # MyQueue (queue using stacks): push, pop, peek, empty
+    if 'peek' in method_names and 'empty' in method_names and 'push' in method_names:
+        return [
+            [[fn_name], ['push', 1], ['push', 2], ['peek'], ['pop'], ['empty']],
+            [[fn_name], ['push', 3], ['peek'], ['pop'], ['empty']],
+            [[fn_name], ['push', 1], ['push', 2], ['pop'], ['peek']],
+        ]
+
     # Queue-like
-    if any(m in method_names for m in ('enqueue', 'dequeue', 'peek', 'empty')):
+    if any(m in method_names for m in ('enqueue', 'dequeue')):
         return [
             [[fn_name], ['push', 1], ['push', 2], ['push', 3], ['peek'], ['pop'], ['empty']],
             [[fn_name], ['push', 1], ['pop']],

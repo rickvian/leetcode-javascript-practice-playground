@@ -581,3 +581,26 @@
   - For slugs that need (integer, number[][]), generic detection fails; use explicit slug overrides
 
 ---
+
+## 2026-04-22 - US-025
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-012` — 19/20 generated (0221-0240 except 0237); 1 in needs-oracle
+  - Fixed MinStack handler: changed from matching any push/pop to specifically requiring getMin in method_names
+  - Added MyStack handler (stack-using-queues): fires when top+empty+push present without getMin
+  - Added MyQueue handler (queue-using-stacks): fires when peek+empty+push present
+  - Fixed maximal-square: added char[][] (0/1 characters) slug override
+  - Fixed rectangle-area: 8 integer params not handled by generic; added 8-arg slug override
+  - 0237-delete-node-in-a-linked-list: void-return ListNode — same limitation as reorderList; in needs-oracle
+
+- **Files changed:**
+  - Added: 19 stubs (0221-0240 except 0237) in leetcode-playground/
+  - Added: 19 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (MinStack/MyStack/MyQueue handlers, char[][], 8-int overrides)
+
+- **Learnings:**
+  - MinStack handler must check getMin specifically, not just push/pop; any stack class matches push/pop
+  - Separate handlers needed for MyStack (top+empty) vs MyQueue (peek+empty) vs MinStack (getMin)
+  - maximal-square uses character[][] matrix with '0'/'1' strings, not integers
+  - 8-arg functions need explicit slug overrides since generic catalog only handles ≤2 args
+
+---
