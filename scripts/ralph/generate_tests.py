@@ -99,7 +99,9 @@ def get_input_category(problem, param_types):
     class_heavy = problem.get('classHeavy', False)
 
     # classHeavy tag fires on slug keywords like 'queue'; override for plain functions
-    PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',)
+    # reverse-string-ii / reverse-words-in-a-string-iii are plain functions, not in-place
+    PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',
+                      'reverse-string-ii', 'reverse-words-in-a-string-iii')
     if slug in PLAIN_FN_SLUGS:
         class_heavy = False
 
@@ -120,12 +122,13 @@ def get_input_category(problem, param_types):
                                     ('graph' in tags or 'graph' in slug)):
             return 'pointer-graph'
 
-    if any(kw in slug for kw in ('remove-element', 'rotate', 'remove-duplicates',
-                                  'move-zeroes', 'next-permutation', 'sort-colors',
-                                  'sort-list-in-place', 'merge-sorted-array',
-                                  'reverse-words-in-a-string-ii', 'wiggle-sort',
-                                  'walls-and-gates', 'game-of-life',
-                                  'reverse-string')):
+    if slug not in PLAIN_FN_SLUGS and any(kw in slug for kw in (
+            'remove-element', 'rotate', 'remove-duplicates',
+            'move-zeroes', 'next-permutation', 'sort-colors',
+            'sort-list-in-place', 'merge-sorted-array',
+            'reverse-words-in-a-string-ii', 'wiggle-sort',
+            'walls-and-gates', 'game-of-life',
+            'reverse-string')):
         return 'in-place-mutation'
 
     return 'plain-json'
@@ -134,7 +137,8 @@ def get_assertion_template(problem, param_types, return_type):
     slug = problem.get('slug', '')
     tags = [t.lower() for t in problem.get('tags', [])]
     fn_name_ac = problem.get('oracleFnName', '')
-    PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',)
+    PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',
+                      'reverse-string-ii', 'reverse-words-in-a-string-iii')
     is_class_heavy = problem.get('classHeavy') and slug not in PLAIN_FN_SLUGS
     if is_class_heavy or (fn_name_ac and fn_name_ac[0].isupper()):
         return 'design-class-sequence'
@@ -241,6 +245,28 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             ["abcdef", ["abcdef", "abcfeg"]],
         ]
 
+    if 'reverse-string-ii' in slug:
+        # reverseStr(s, k) — reverse first k chars every 2k window
+        return [
+            ["abcdefg", 2],
+            ["abcd", 2],
+            ["", 1],
+            ["a", 1],
+            ["abcde", 3],
+            ["abcdefghij", 5],
+        ]
+
+    if 'reverse-words-in-a-string-iii' in slug:
+        # multi-word sentences for "reverse each word" function
+        return [
+            ["Let's take LeetCode contest"],
+            ["God Ding"],
+            ["hello world"],
+            ["a"],
+            [""],
+            ["  leading spaces"],
+        ]
+
     if 'different-ways-to-add-parentheses' in slug:
         return [["2-1-1"], ["2*3-4*5"], ["1"], ["1+2"], ["1*2*3"]]
 
@@ -310,6 +336,25 @@ def _build_plain_json_inputs(problem, param_types, return_type):
 
     if 'happy-number' in slug:
         return [[1], [2], [7], [19], [20], [11], [4]]
+
+    if '01-matrix' in slug:
+        # matrix must contain at least one 0; all-nonzero matrices produce Infinity
+        return [
+            [[[0, 0, 0], [0, 1, 0], [0, 0, 0]]],
+            [[[0, 0, 0], [0, 1, 0], [1, 1, 1]]],
+            [[[0]]],
+            [[[1, 0], [0, 1]]],
+            [[[0, 1, 0, 1, 1]]],
+            [[[1, 1], [1, 0]]],
+        ]
+
+    if 'output-contest-matches' in slug:
+        # n must be a power of 2 (contest bracket structure)
+        return [[2], [4], [8], [16]]
+
+    if 'student-attendance-record-ii' in slug:
+        # n=1534236469 causes OOM; use small n only
+        return [[0], [1], [2], [3], [5], [10]]
 
     if 'fibonacci-number' in slug:
         # fib(1534236469) iterates ~1.5B times → timeout; use small n only
