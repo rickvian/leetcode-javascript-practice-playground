@@ -110,7 +110,8 @@ def get_input_category(problem, param_types):
             return 'pointer-tree'
 
     for ptype, _ in param_types:
-        if 'GraphNode' in ptype or (ptype.strip() == 'Node' and 'graph' in tags):
+        if 'GraphNode' in ptype or (ptype.strip() == 'Node' and
+                                    ('graph' in tags or 'graph' in slug)):
             return 'pointer-graph'
 
     if any(kw in slug for kw in ('remove-element', 'rotate', 'remove-duplicates',
@@ -583,6 +584,16 @@ def render_it_block(fn_name, input_args, oracle_out, param_types, return_type,
                 f'    if ({ek_var} !== undefined) '
                 f'expect({idx_var}.slice(0, {ek_var}).sort((a,b)=>a-b)).toEqual({json.dumps(expected)});'
             )
+        return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
+
+    # ── pointer-graph (GraphNode/Node return) ──
+    if return_type and (return_type.strip() in ('GraphNode', 'Node') or
+                        'GraphNode' in return_type):
+        desc = f'{fn_name}({", ".join(json.dumps(a) for a in input_args[:2])})'
+        body = (
+            f'    const result = {call};\n'
+            f'    expect(graphToAdjList(result)).toEqual({json.dumps(output)});'
+        )
         return f'  it({json.dumps(desc)}, () => {{\n{body}\n  }});'
 
     # ── TreeNode[] return ──

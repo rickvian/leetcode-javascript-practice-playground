@@ -27,6 +27,7 @@ const { ListNode, TreeNode, GraphNode } = await import(helpersUrl);
 globalThis.ListNode  = ListNode;
 globalThis.TreeNode  = TreeNode;
 globalThis.GraphNode = GraphNode;
+globalThis.Node      = GraphNode; // clone-graph and related oracles use Node
 
 let passed = 0;
 let failed = 0;

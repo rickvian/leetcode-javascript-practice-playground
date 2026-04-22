@@ -70,6 +70,7 @@ const { ListNode, TreeNode, GraphNode,
 globalThis.ListNode  = ListNode;
 globalThis.TreeNode  = TreeNode;
 globalThis.GraphNode = GraphNode;
+globalThis.Node      = GraphNode; // some oracles use Node (clone-graph, etc.)
 
 // ---------- Load oracle ----------
 const absBank = path.isAbsolute(bankPath)
