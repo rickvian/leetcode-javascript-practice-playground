@@ -555,3 +555,29 @@
   - Bash/shell script problems (0192-0197) and SQL problems (0181-0185) have no JS oracle and skip cleanly
 
 ---
+
+## 2026-04-22 - US-024
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-011` — 20/20 generated (0201-0220)
+  - Fixed happy-number (n=1534236469 causes infinite loop): slug override with small n
+  - Fixed count-primes (n=1.5B causes OOM): slug override with small n ≤ 1000
+  - Fixed kth-largest: slug override with valid (nums, k) pairs where k ≤ len(nums)
+  - Fixed course-schedule/course-schedule-ii: (number, number[][]) pattern wasn't handled; added slug override with proper [numCourses, prerequisites] inputs
+  - Fixed skyline-problem: number[][] catalog generates 2-element arrays but buildings need 3 elements [left, right, height]; added slug override
+  - Fixed implement-trie-prefix-tree (0208) and design-add-and-search-words (0211): generic fallback passed integer 1 for string params, oracle iterated over word; added Trie/dictionary design-class handler using string words
+  - Fixed word-search-ii: char[][] board + string[] words not matched by any generic case; added slug override
+
+- **Files changed:**
+  - Added: 20 stubs (0201-0220) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (many slug overrides + Trie design handler)
+
+- **Learnings:**
+  - Happy-number with large n (>1M) enters long cycles; always use small n for testing
+  - count-primes is O(n log log n) → 1.5B causes OOM; need n < 10000 for test generation
+  - kth-largest k must be ≤ array length; generic (number[], number) catalog passes k=9 for 4-element arrays
+  - Trie-like design-classes need string inputs for insert/search; generic fallback passes integer 1
+  - skyline-problem buildings are 3-tuples [l, r, h]; number[][] catalog generates [[1,2],[3,4]] (2-tuples)
+  - For slugs that need (integer, number[][]), generic detection fails; use explicit slug overrides
+
+---

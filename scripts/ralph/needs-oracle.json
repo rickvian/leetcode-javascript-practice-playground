@@ -1,282 +1,282 @@
 [
-  {
-    "id": "0082",
-    "slug": "remove-duplicates-from-sorted-list-ii",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0083",
-    "slug": "remove-duplicates-from-sorted-list",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0086",
-    "slug": "partition-list",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0090",
-    "slug": "subsets-ii",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0092",
-    "slug": "reverse-linked-list-ii",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0142",
-    "slug": "linked-list-cycle-ii",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0147",
-    "slug": "insertion-sort-list",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0148",
-    "slug": "sort-list",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0156",
-    "slug": "binary-tree-upside-down",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0160",
-    "slug": "intersection-of-two-linked-lists",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0023",
-    "slug": "merge-k-sorted-lists",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0024",
-    "slug": "swap-nodes-in-pairs",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0025",
-    "slug": "reverse-nodes-in-k-group",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0022",
-    "slug": "generate-parentheses",
-    "reason": "oracle_run failed"
-  },
-  {
-    "id": "0031",
-    "slug": "next-permutation",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0038",
-    "slug": "count-and-say",
-    "reason": "oracle_run failed"
-  },
-  {
-    "id": "0028",
-    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0043",
-    "slug": "multiply-strings",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0051",
-    "slug": "n-queens",
-    "reason": "oracle_run failed"
-  },
-  {
-    "id": "0052",
-    "slug": "n-queens-ii",
-    "reason": "oracle_run failed"
-  },
-  {
-    "id": "0057",
-    "slug": "insert-interval",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0059",
-    "slug": "spiral-matrix-ii",
-    "reason": "oracle_run failed"
-  },
-  {
-    "id": "0053",
-    "slug": "maximum-subarray",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0056",
-    "slug": "merge-intervals",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0077",
-    "slug": "combinations",
-    "reason": "oracle_run failed"
-  },
-  {
-    "id": "0078",
-    "slug": "subsets",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0067",
-    "slug": "add-binary",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0088",
-    "slug": "merge-sorted-array",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0097",
-    "slug": "interleaving-string",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0095",
-    "slug": "unique-binary-search-trees-ii",
-    "reason": "oracle_run failed"
-  },
-  {
-    "id": "0099",
-    "slug": "recover-binary-search-tree",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0118",
-    "slug": "pascals-triangle",
-    "reason": "oracle_run failed"
-  },
-  {
-    "id": "0119",
-    "slug": "pascals-triangle-ii",
-    "reason": "oracle_run failed"
-  },
-  {
-    "id": "0114",
-    "slug": "flatten-binary-tree-to-linked-list",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0116",
-    "slug": "populating-next-right-pointers-in-each-node",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0130",
-    "slug": "surrounded-regions",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0138",
-    "slug": "copy-list-with-random-pointer",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0143",
-    "slug": "reorder-list",
-    "reason": "validation failed after 3 attempts"
-  },
-  {
-    "id": "0157",
-    "slug": "read-n-characters-given-read4",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0158",
-    "slug": "read-n-characters-given-read4-ii-call-multiple-times",
-    "reason": "no valid test cases generated"
-  },
-  {
-    "id": "0175",
-    "slug": "combine-two-tables",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0176",
-    "slug": "second-highest-salary",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0177",
-    "slug": "nth-highest-salary",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0178",
-    "slug": "rank-scores",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0180",
-    "slug": "consecutive-numbers",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0181",
-    "slug": "employees-earning-more-than-their-managers",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0182",
-    "slug": "duplicate-emails",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0183",
-    "slug": "customers-who-never-order",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0184",
-    "slug": "department-highest-salary",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0185",
-    "slug": "department-top-three-salaries",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0192",
-    "slug": "word-frequency",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0193",
-    "slug": "valid-phone-numbers",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0194",
-    "slug": "transpose-file",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0195",
-    "slug": "tenth-line",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0196",
-    "slug": "delete-duplicate-emails",
-    "reason": "oracleTier=missing"
-  },
-  {
-    "id": "0197",
-    "slug": "rising-temperature",
-    "reason": "oracleTier=missing"
-  }
+    {
+        "id": "0082",
+        "slug": "remove-duplicates-from-sorted-list-ii",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0083",
+        "slug": "remove-duplicates-from-sorted-list",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0086",
+        "slug": "partition-list",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0090",
+        "slug": "subsets-ii",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0092",
+        "slug": "reverse-linked-list-ii",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0142",
+        "slug": "linked-list-cycle-ii",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0147",
+        "slug": "insertion-sort-list",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0148",
+        "slug": "sort-list",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0156",
+        "slug": "binary-tree-upside-down",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0160",
+        "slug": "intersection-of-two-linked-lists",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0023",
+        "slug": "merge-k-sorted-lists",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0024",
+        "slug": "swap-nodes-in-pairs",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0025",
+        "slug": "reverse-nodes-in-k-group",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0022",
+        "slug": "generate-parentheses",
+        "reason": "oracle_run failed"
+    },
+    {
+        "id": "0031",
+        "slug": "next-permutation",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0038",
+        "slug": "count-and-say",
+        "reason": "oracle_run failed"
+    },
+    {
+        "id": "0028",
+        "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0043",
+        "slug": "multiply-strings",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0051",
+        "slug": "n-queens",
+        "reason": "oracle_run failed"
+    },
+    {
+        "id": "0052",
+        "slug": "n-queens-ii",
+        "reason": "oracle_run failed"
+    },
+    {
+        "id": "0057",
+        "slug": "insert-interval",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0059",
+        "slug": "spiral-matrix-ii",
+        "reason": "oracle_run failed"
+    },
+    {
+        "id": "0053",
+        "slug": "maximum-subarray",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0056",
+        "slug": "merge-intervals",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0077",
+        "slug": "combinations",
+        "reason": "oracle_run failed"
+    },
+    {
+        "id": "0078",
+        "slug": "subsets",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0067",
+        "slug": "add-binary",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0088",
+        "slug": "merge-sorted-array",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0097",
+        "slug": "interleaving-string",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0095",
+        "slug": "unique-binary-search-trees-ii",
+        "reason": "oracle_run failed"
+    },
+    {
+        "id": "0099",
+        "slug": "recover-binary-search-tree",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0118",
+        "slug": "pascals-triangle",
+        "reason": "oracle_run failed"
+    },
+    {
+        "id": "0119",
+        "slug": "pascals-triangle-ii",
+        "reason": "oracle_run failed"
+    },
+    {
+        "id": "0114",
+        "slug": "flatten-binary-tree-to-linked-list",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0116",
+        "slug": "populating-next-right-pointers-in-each-node",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0130",
+        "slug": "surrounded-regions",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0138",
+        "slug": "copy-list-with-random-pointer",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0143",
+        "slug": "reorder-list",
+        "reason": "validation failed after 3 attempts"
+    },
+    {
+        "id": "0157",
+        "slug": "read-n-characters-given-read4",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0158",
+        "slug": "read-n-characters-given-read4-ii-call-multiple-times",
+        "reason": "no valid test cases generated"
+    },
+    {
+        "id": "0175",
+        "slug": "combine-two-tables",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0176",
+        "slug": "second-highest-salary",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0177",
+        "slug": "nth-highest-salary",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0178",
+        "slug": "rank-scores",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0180",
+        "slug": "consecutive-numbers",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0181",
+        "slug": "employees-earning-more-than-their-managers",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0182",
+        "slug": "duplicate-emails",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0183",
+        "slug": "customers-who-never-order",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0184",
+        "slug": "department-highest-salary",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0185",
+        "slug": "department-top-three-salaries",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0192",
+        "slug": "word-frequency",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0193",
+        "slug": "valid-phone-numbers",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0194",
+        "slug": "transpose-file",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0195",
+        "slug": "tenth-line",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0196",
+        "slug": "delete-duplicate-emails",
+        "reason": "oracleTier=missing"
+    },
+    {
+        "id": "0197",
+        "slug": "rising-temperature",
+        "reason": "oracleTier=missing"
+    }
 ]
