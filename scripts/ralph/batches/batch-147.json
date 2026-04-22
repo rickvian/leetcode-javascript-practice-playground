@@ -1,0 +1,289 @@
+{
+  "batchId": "batch-147",
+  "problems": [
+    {
+      "id": "2921",
+      "slug": "maximum-profitable-triplets-with-increasing-prices-ii",
+      "title": "Maximum Profitable Triplets With Increasing Prices II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-indexed-tree",
+        "segment-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProfit"
+    },
+    {
+      "id": "2922",
+      "slug": "market-analysis-iii",
+      "title": "Market Analysis III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2923",
+      "slug": "find-champion-i",
+      "title": "Find Champion I",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findChampion"
+    },
+    {
+      "id": "2924",
+      "slug": "find-champion-ii",
+      "title": "Find Champion II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findChampion"
+    },
+    {
+      "id": "2925",
+      "slug": "maximum-score-after-applying-operations-on-a-tree",
+      "title": "Maximum Score After Applying Operations on a Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumScoreAfterOperations"
+    },
+    {
+      "id": "2926",
+      "slug": "maximum-balanced-subsequence-sum",
+      "title": "Maximum Balanced Subsequence Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "binary-indexed-tree",
+        "segment-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2927",
+      "slug": "distribute-candies-among-children-iii",
+      "title": "Distribute Candies Among Children III",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "combinatorics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distributeCandies"
+    },
+    {
+      "id": "2928",
+      "slug": "distribute-candies-among-children-i",
+      "title": "Distribute Candies Among Children I",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "combinatorics",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distributeCandies"
+    },
+    {
+      "id": "2929",
+      "slug": "distribute-candies-among-children-ii",
+      "title": "Distribute Candies Among Children II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "combinatorics",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distributeCandies"
+    },
+    {
+      "id": "2930",
+      "slug": "number-of-strings-which-can-be-rearranged-to-contain-substring",
+      "title": "Number of Strings Which Can Be Rearranged to Contain Substring",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2931",
+      "slug": "maximum-spending-after-buying-items",
+      "title": "Maximum Spending After Buying Items",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2932",
+      "slug": "maximum-strong-pair-xor-i",
+      "title": "Maximum Strong Pair XOR I",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "trie",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumStrongPairXor"
+    },
+    {
+      "id": "2933",
+      "slug": "high-access-employees",
+      "title": "High-Access Employees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findHighAccessEmployees"
+    },
+    {
+      "id": "2934",
+      "slug": "minimum-operations-to-maximize-last-elements-in-arrays",
+      "title": "Minimum Operations to Maximize Last Elements in Arrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
+    },
+    {
+      "id": "2935",
+      "slug": "maximum-strong-pair-xor-ii",
+      "title": "Maximum Strong Pair XOR II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "trie",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2936",
+      "slug": "number-of-equal-numbers-blocks",
+      "title": "Number of Equal Numbers Blocks",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "interactive"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countBlocks"
+    },
+    {
+      "id": "2937",
+      "slug": "make-three-strings-equal",
+      "title": "Make Three Strings Equal",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMinimumOperations"
+    },
+    {
+      "id": "2938",
+      "slug": "separate-black-and-white-balls",
+      "title": "Separate Black and White Balls",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumSteps"
+    },
+    {
+      "id": "2939",
+      "slug": "maximum-xor-product",
+      "title": "Maximum Xor Product",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2940",
+      "slug": "find-building-where-alice-and-bob-can-meet",
+      "title": "Find Building Where Alice and Bob Can Meet",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "stack",
+        "binary-indexed-tree",
+        "segment-tree",
+        "heap-priority-queue",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    }
+  ]
+}

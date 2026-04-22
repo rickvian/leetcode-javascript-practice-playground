@@ -2,223 +2,287 @@
   "batchId": "batch-007",
   "problems": [
     {
-      "id": "0172",
-      "slug": "factorial-trailing-zeroes",
-      "title": "Factorial Trailing Zeroes",
-      "difficulty": "MEDIUM",
+      "id": "0121",
+      "slug": "best-time-to-buy-and-sell-stock",
+      "title": "Best Time to Buy and Sell Stock",
+      "difficulty": "EASY",
       "tags": [
-        "math"
+        "array",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProfit"
     },
     {
-      "id": "0173",
-      "slug": "binary-search-tree-iterator",
-      "title": "Binary Search Tree Iterator",
+      "id": "0122",
+      "slug": "best-time-to-buy-and-sell-stock-ii",
+      "title": "Best Time to Buy and Sell Stock II",
       "difficulty": "MEDIUM",
-      "tags": [
-        "stack",
-        "tree",
-        "design",
-        "binary-search-tree",
-        "binary-tree",
-        "iterator"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0174",
-      "slug": "dungeon-game",
-      "title": "Dungeon Game",
-      "difficulty": "HARD",
       "tags": [
         "array",
         "dynamic-programming",
-        "matrix"
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProfit"
     },
     {
-      "id": "0175",
-      "slug": "combine-two-tables",
-      "title": "Combine Two Tables",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0176",
-      "slug": "second-highest-salary",
-      "title": "Second Highest Salary",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0177",
-      "slug": "nth-highest-salary",
-      "title": "Nth Highest Salary",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0178",
-      "slug": "rank-scores",
-      "title": "Rank Scores",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0179",
-      "slug": "largest-number",
-      "title": "Largest Number",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0180",
-      "slug": "consecutive-numbers",
-      "title": "Consecutive Numbers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0181",
-      "slug": "employees-earning-more-than-their-managers",
-      "title": "Employees Earning More Than Their Managers",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0182",
-      "slug": "duplicate-emails",
-      "title": "Duplicate Emails",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0183",
-      "slug": "customers-who-never-order",
-      "title": "Customers Who Never Order",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0184",
-      "slug": "department-highest-salary",
-      "title": "Department Highest Salary",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0185",
-      "slug": "department-top-three-salaries",
-      "title": "Department Top Three Salaries",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0186",
-      "slug": "reverse-words-in-a-string-ii",
-      "title": "Reverse Words in a String II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0187",
-      "slug": "repeated-dna-sequences",
-      "title": "Repeated DNA Sequences",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "bit-manipulation",
-        "sliding-window",
-        "rolling-hash",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0188",
-      "slug": "best-time-to-buy-and-sell-stock-iv",
-      "title": "Best Time to Buy and Sell Stock IV",
+      "id": "0123",
+      "slug": "best-time-to-buy-and-sell-stock-iii",
+      "title": "Best Time to Buy and Sell Stock III",
       "difficulty": "HARD",
       "tags": [
         "array",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProfit"
     },
     {
-      "id": "0189",
-      "slug": "rotate-array",
-      "title": "Rotate Array",
+      "id": "0124",
+      "slug": "binary-tree-maximum-path-sum",
+      "title": "Binary Tree Maximum Path Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxPathSum"
+    },
+    {
+      "id": "0125",
+      "slug": "valid-palindrome",
+      "title": "Valid Palindrome",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPalindrome"
+    },
+    {
+      "id": "0126",
+      "slug": "word-ladder-ii",
+      "title": "Word Ladder II",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findLadders"
+    },
+    {
+      "id": "0127",
+      "slug": "word-ladder",
+      "title": "Word Ladder",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "ladderLength"
+    },
+    {
+      "id": "0128",
+      "slug": "longest-consecutive-sequence",
+      "title": "Longest Consecutive Sequence",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "two-pointers"
+        "hash-table",
+        "union-find"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestConsecutive"
     },
     {
-      "id": "0192",
-      "slug": "word-frequency",
-      "title": "Word Frequency",
+      "id": "0129",
+      "slug": "sum-root-to-leaf-numbers",
+      "title": "Sum Root to Leaf Numbers",
       "difficulty": "MEDIUM",
       "tags": [
-        "shell"
+        "tree",
+        "depth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumNumbers"
     },
     {
-      "id": "0193",
-      "slug": "valid-phone-numbers",
-      "title": "Valid Phone Numbers",
+      "id": "0130",
+      "slug": "surrounded-regions",
+      "title": "Surrounded Regions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "solve"
+    },
+    {
+      "id": "0131",
+      "slug": "palindrome-partitioning",
+      "title": "Palindrome Partitioning",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "partition"
+    },
+    {
+      "id": "0132",
+      "slug": "palindrome-partitioning-ii",
+      "title": "Palindrome Partitioning II",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCut"
+    },
+    {
+      "id": "0133",
+      "slug": "clone-graph",
+      "title": "Clone Graph",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "cloneGraph"
+    },
+    {
+      "id": "0134",
+      "slug": "gas-station",
+      "title": "Gas Station",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canCompleteCircuit"
+    },
+    {
+      "id": "0135",
+      "slug": "candy",
+      "title": "Candy",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "candy"
+    },
+    {
+      "id": "0136",
+      "slug": "single-number",
+      "title": "Single Number",
       "difficulty": "EASY",
       "tags": [
-        "shell"
+        "array",
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "singleNumber"
+    },
+    {
+      "id": "0137",
+      "slug": "single-number-ii",
+      "title": "Single Number II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "singleNumber"
+    },
+    {
+      "id": "0138",
+      "slug": "copy-list-with-random-pointer",
+      "title": "Copy List with Random Pointer",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "copyRandomList"
+    },
+    {
+      "id": "0139",
+      "slug": "word-break",
+      "title": "Word Break",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "trie",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wordBreak"
+    },
+    {
+      "id": "0140",
+      "slug": "word-break-ii",
+      "title": "Word Break II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "backtracking",
+        "trie",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wordBreak"
     }
   ]
 }

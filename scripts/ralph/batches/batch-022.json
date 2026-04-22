@@ -2,252 +2,290 @@
   "batchId": "batch-022",
   "problems": [
     {
-      "id": "0515",
-      "slug": "find-largest-value-in-each-tree-row",
-      "title": "Find Largest Value in Each Tree Row",
+      "id": "0421",
+      "slug": "maximum-xor-of-two-numbers-in-an-array",
+      "title": "Maximum XOR of Two Numbers in an Array",
       "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMaximumXOR"
+    },
+    {
+      "id": "0422",
+      "slug": "valid-word-square",
+      "title": "Valid Word Square",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validWordSquare"
+    },
+    {
+      "id": "0423",
+      "slug": "reconstruct-original-digits-from-english",
+      "title": "Reconstruct Original Digits from English",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "originalDigits"
+    },
+    {
+      "id": "0424",
+      "slug": "longest-repeating-character-replacement",
+      "title": "Longest Repeating Character Replacement",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "characterReplacement"
+    },
+    {
+      "id": "0425",
+      "slug": "word-squares",
+      "title": "Word Squares",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "backtracking",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wordSquares"
+    },
+    {
+      "id": "0426",
+      "slug": "convert-binary-search-tree-to-sorted-doubly-linked-list",
+      "title": "Convert Binary Search Tree to Sorted Doubly Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree",
+        "doubly-linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "treeToDoublyList"
+    },
+    {
+      "id": "0427",
+      "slug": "construct-quad-tree",
+      "title": "Construct Quad Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "tree",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "construct"
+    },
+    {
+      "id": "0428",
+      "slug": "serialize-and-deserialize-n-ary-tree",
+      "title": "Serialize and Deserialize N-ary Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": true,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0429",
+      "slug": "n-ary-tree-level-order-traversal",
+      "title": "N-ary Tree Level Order Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "levelOrder"
+    },
+    {
+      "id": "0430",
+      "slug": "flatten-a-multilevel-doubly-linked-list",
+      "title": "Flatten a Multilevel Doubly Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "depth-first-search",
+        "doubly-linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "flatten"
+    },
+    {
+      "id": "0431",
+      "slug": "encode-n-ary-tree-to-binary-tree",
+      "title": "Encode N-ary Tree to Binary Tree",
+      "difficulty": "HARD",
       "tags": [
         "tree",
         "depth-first-search",
         "breadth-first-search",
+        "design",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0516",
-      "slug": "longest-palindromic-subsequence",
-      "title": "Longest Palindromic Subsequence",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0517",
-      "slug": "super-washing-machines",
-      "title": "Super Washing Machines",
+      "id": "0432",
+      "slug": "all-oone-data-structure",
+      "title": "All O`one Data Structure",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "greedy"
+        "hash-table",
+        "linked-list",
+        "design",
+        "doubly-linked-list"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "AllOne"
     },
     {
-      "id": "0518",
-      "slug": "coin-change-ii",
-      "title": "Coin Change II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0519",
-      "slug": "random-flip-matrix",
-      "title": "Random Flip Matrix",
+      "id": "0433",
+      "slug": "minimum-genetic-mutation",
+      "title": "Minimum Genetic Mutation",
       "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
-        "math",
-        "reservoir-sampling",
-        "randomized"
+        "string",
+        "breadth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minMutation"
     },
     {
-      "id": "0520",
-      "slug": "detect-capital",
-      "title": "Detect Capital",
+      "id": "0434",
+      "slug": "number-of-segments-in-a-string",
+      "title": "Number of Segments in a String",
       "difficulty": "EASY",
       "tags": [
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSegments"
     },
     {
-      "id": "0521",
-      "slug": "longest-uncommon-subsequence-i",
-      "title": "Longest Uncommon Subsequence I",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0522",
-      "slug": "longest-uncommon-subsequence-ii",
-      "title": "Longest Uncommon Subsequence II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "two-pointers",
-        "string",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0523",
-      "slug": "continuous-subarray-sum",
-      "title": "Continuous Subarray Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0524",
-      "slug": "longest-word-in-dictionary-through-deleting",
-      "title": "Longest Word in Dictionary through Deleting",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "string",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0525",
-      "slug": "contiguous-array",
-      "title": "Contiguous Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0526",
-      "slug": "beautiful-arrangement",
-      "title": "Beautiful Arrangement",
+      "id": "0435",
+      "slug": "non-overlapping-intervals",
+      "title": "Non-overlapping Intervals",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0527",
-      "slug": "word-abbreviation",
-      "title": "Word Abbreviation",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "string",
         "greedy",
-        "trie",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "eraseOverlapIntervals"
     },
     {
-      "id": "0528",
-      "slug": "random-pick-with-weight",
-      "title": "Random Pick with Weight",
+      "id": "0436",
+      "slug": "find-right-interval",
+      "title": "Find Right Interval",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
         "binary-search",
-        "prefix-sum",
-        "randomized"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findRightInterval"
     },
     {
-      "id": "0529",
-      "slug": "minesweeper",
-      "title": "Minesweeper",
+      "id": "0437",
+      "slug": "path-sum-iii",
+      "title": "Path Sum III",
       "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0530",
-      "slug": "minimum-absolute-difference-in-bst",
-      "title": "Minimum Absolute Difference in BST",
-      "difficulty": "EASY",
       "tags": [
         "tree",
         "depth-first-search",
-        "breadth-first-search",
-        "binary-search-tree",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pathSum"
     },
     {
-      "id": "0531",
-      "slug": "lonely-pixel-i",
-      "title": "Lonely Pixel I",
+      "id": "0438",
+      "slug": "find-all-anagrams-in-a-string",
+      "title": "Find All Anagrams in a String",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
         "hash-table",
-        "matrix"
+        "string",
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findAnagrams"
     },
     {
-      "id": "0532",
-      "slug": "k-diff-pairs-in-an-array",
-      "title": "K-diff Pairs in an Array",
+      "id": "0439",
+      "slug": "ternary-expression-parser",
+      "title": "Ternary Expression Parser",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "hash-table",
-        "two-pointers",
-        "binary-search",
-        "sorting"
+        "string",
+        "stack",
+        "recursion"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "parseTernary"
     },
     {
-      "id": "0533",
-      "slug": "lonely-pixel-ii",
-      "title": "Lonely Pixel II",
-      "difficulty": "MEDIUM",
+      "id": "0440",
+      "slug": "k-th-smallest-in-lexicographical-order",
+      "title": "K-th Smallest in Lexicographical Order",
+      "difficulty": "HARD",
       "tags": [
-        "array",
-        "hash-table",
-        "matrix"
+        "trie"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "0534",
-      "slug": "game-play-analysis-iii",
-      "title": "Game Play Analysis III",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findKthNumber"
     }
   ]
 }

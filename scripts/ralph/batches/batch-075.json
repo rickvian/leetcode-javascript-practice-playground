@@ -2,246 +2,294 @@
   "batchId": "batch-075",
   "problems": [
     {
-      "id": "1582",
-      "slug": "special-positions-in-a-binary-matrix",
-      "title": "Special Positions in a Binary Matrix",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1583",
-      "slug": "count-unhappy-friends",
-      "title": "Count Unhappy Friends",
+      "id": "1481",
+      "slug": "least-number-of-unique-integers-after-k-removals",
+      "title": "Least Number of Unique Integers after K Removals",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1584",
-      "slug": "min-cost-to-connect-all-points",
-      "title": "Min Cost to Connect All Points",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "union-find",
-        "graph",
-        "minimum-spanning-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1585",
-      "slug": "check-if-string-is-transformable-with-substring-sort-operations",
-      "title": "Check If String Is Transformable With Substring Sort Operations",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1586",
-      "slug": "binary-search-tree-iterator-ii",
-      "title": "Binary Search Tree Iterator II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "stack",
-        "tree",
-        "design",
-        "binary-search-tree",
-        "binary-tree",
-        "iterator"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1587",
-      "slug": "bank-account-summary-ii",
-      "title": "Bank Account Summary II",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1588",
-      "slug": "sum-of-all-odd-length-subarrays",
-      "title": "Sum of All Odd Length Subarrays",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "math",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1589",
-      "slug": "maximum-sum-obtained-of-any-permutation",
-      "title": "Maximum Sum Obtained of Any Permutation",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
+        "hash-table",
         "greedy",
         "sorting",
-        "prefix-sum"
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findLeastNumOfUniqueInts"
     },
     {
-      "id": "1590",
-      "slug": "make-sum-divisible-by-p",
-      "title": "Make Sum Divisible by P",
+      "id": "1482",
+      "slug": "minimum-number-of-days-to-make-m-bouquets",
+      "title": "Minimum Number of Days to Make m Bouquets",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "prefix-sum"
+        "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minDays"
     },
     {
-      "id": "1591",
-      "slug": "strange-printer-ii",
-      "title": "Strange Printer II",
+      "id": "1483",
+      "slug": "kth-ancestor-of-a-tree-node",
+      "title": "Kth Ancestor of a Tree Node",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "graph",
-        "topological-sort",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1592",
-      "slug": "rearrange-spaces-between-words",
-      "title": "Rearrange Spaces Between Words",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1593",
-      "slug": "split-a-string-into-the-max-number-of-unique-substrings",
-      "title": "Split a String Into the Max Number of Unique Substrings",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "backtracking"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1594",
-      "slug": "maximum-non-negative-product-in-a-matrix",
-      "title": "Maximum Non Negative Product in a Matrix",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1595",
-      "slug": "minimum-cost-to-connect-two-groups-of-points",
-      "title": "Minimum Cost to Connect Two Groups of Points",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
+        "binary-search",
         "dynamic-programming",
         "bit-manipulation",
-        "matrix",
-        "bitmask"
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "design"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "TreeAncestor"
     },
     {
-      "id": "1596",
-      "slug": "the-most-frequently-ordered-products-for-each-customer",
-      "title": "The Most Frequently Ordered Products for Each Customer",
-      "difficulty": "MEDIUM",
+      "id": "1484",
+      "slug": "group-sold-products-by-the-date",
+      "title": "Group Sold Products By The Date",
+      "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1597",
-      "slug": "build-binary-expression-tree-from-infix-expression",
-      "title": "Build Binary Expression Tree From Infix Expression",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "stack",
-        "tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1598",
-      "slug": "crawler-log-folder",
-      "title": "Crawler Log Folder",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "string",
-        "stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1599",
-      "slug": "maximum-profit-of-operating-a-centennial-wheel",
-      "title": "Maximum Profit of Operating a Centennial Wheel",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1600",
-      "slug": "throne-inheritance",
-      "title": "Throne Inheritance",
+      "id": "1485",
+      "slug": "clone-binary-tree-with-random-pointer",
+      "title": "Clone Binary Tree With Random Pointer",
       "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
         "tree",
         "depth-first-search",
-        "design"
+        "breadth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "copyRandomBinaryTree"
     },
     {
-      "id": "1601",
-      "slug": "maximum-number-of-achievable-transfer-requests",
-      "title": "Maximum Number of Achievable Transfer Requests",
+      "id": "1486",
+      "slug": "xor-operation-in-an-array",
+      "title": "XOR Operation in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "xorOperation"
+    },
+    {
+      "id": "1487",
+      "slug": "making-file-names-unique",
+      "title": "Making File Names Unique",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getFolderNames"
+    },
+    {
+      "id": "1488",
+      "slug": "avoid-flood-in-the-city",
+      "title": "Avoid Flood in The City",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "avoidFlood"
+    },
+    {
+      "id": "1489",
+      "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+      "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "union-find",
+        "graph",
+        "sorting",
+        "minimum-spanning-tree",
+        "strongly-connected-component"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findCriticalAndPseudoCriticalEdges"
+    },
+    {
+      "id": "1490",
+      "slug": "clone-n-ary-tree",
+      "title": "Clone N-ary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "cloneTree"
+    },
+    {
+      "id": "1491",
+      "slug": "average-salary-excluding-the-minimum-and-maximum-salary",
+      "title": "Average Salary Excluding the Minimum and Maximum Salary",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "average"
+    },
+    {
+      "id": "1492",
+      "slug": "the-kth-factor-of-n",
+      "title": "The kth Factor of n",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthFactor"
+    },
+    {
+      "id": "1493",
+      "slug": "longest-subarray-of-1s-after-deleting-one-element",
+      "title": "Longest Subarray of 1's After Deleting One Element",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestSubarray"
+    },
+    {
+      "id": "1494",
+      "slug": "parallel-courses-ii",
+      "title": "Parallel Courses II",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "bit-manipulation",
+        "graph",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minNumberOfSemesters"
+    },
+    {
+      "id": "1495",
+      "slug": "friendly-movies-streamed-last-month",
+      "title": "Friendly Movies Streamed Last Month",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1496",
+      "slug": "path-crossing",
+      "title": "Path Crossing",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPathCrossing"
+    },
+    {
+      "id": "1497",
+      "slug": "check-if-array-pairs-are-divisible-by-k",
+      "title": "Check If Array Pairs Are Divisible by k",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canArrange"
+    },
+    {
+      "id": "1498",
+      "slug": "number-of-subsequences-that-satisfy-the-given-sum-condition",
+      "title": "Number of Subsequences That Satisfy the Given Sum Condition",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numSubseq"
+    },
+    {
+      "id": "1499",
+      "slug": "max-value-of-equation",
+      "title": "Max Value of Equation",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "backtracking",
-        "bit-manipulation",
-        "enumeration"
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "monotonic-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMaxValueOfEquation"
+    },
+    {
+      "id": "1500",
+      "slug": "design-a-file-sharing-system",
+      "title": "Design a File Sharing System",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "design",
+        "sorting",
+        "heap-priority-queue",
+        "data-stream"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "FileSharing"
     }
   ]
 }

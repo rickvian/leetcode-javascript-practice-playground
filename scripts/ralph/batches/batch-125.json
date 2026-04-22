@@ -2,257 +2,285 @@
   "batchId": "batch-125",
   "problems": [
     {
-      "id": "2582",
-      "slug": "pass-the-pillow",
-      "title": "Pass the Pillow",
+      "id": "2481",
+      "slug": "minimum-cuts-to-divide-a-circle",
+      "title": "Minimum Cuts to Divide a Circle",
       "difficulty": "EASY",
       "tags": [
         "math",
-        "simulation"
+        "geometry"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfCuts"
     },
     {
-      "id": "2583",
-      "slug": "kth-largest-sum-in-a-binary-tree",
-      "title": "Kth Largest Sum in a Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "breadth-first-search",
-        "sorting",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2584",
-      "slug": "split-the-array-to-make-coprime-products",
-      "title": "Split the Array to Make Coprime Products",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2585",
-      "slug": "number-of-ways-to-earn-points",
-      "title": "Number of Ways to Earn Points",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2586",
-      "slug": "count-the-number-of-vowel-strings-in-range",
-      "title": "Count the Number of Vowel Strings in Range",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2587",
-      "slug": "rearrange-array-to-maximize-prefix-score",
-      "title": "Rearrange Array to Maximize Prefix Score",
+      "id": "2482",
+      "slug": "difference-between-ones-and-zeros-in-row-and-column",
+      "title": "Difference Between Ones and Zeros in Row and Column",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "sorting",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2588",
-      "slug": "count-the-number-of-beautiful-subarrays",
-      "title": "Count the Number of Beautiful Subarrays",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "bit-manipulation",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2589",
-      "slug": "minimum-time-to-complete-all-tasks",
-      "title": "Minimum Time to Complete All Tasks",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "stack",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2590",
-      "slug": "design-a-todo-list",
-      "title": "Design a Todo List",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "design",
-        "sorting"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "2591",
-      "slug": "distribute-money-to-maximum-children",
-      "title": "Distribute Money to Maximum Children",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2592",
-      "slug": "maximize-greatness-of-an-array",
-      "title": "Maximize Greatness of an Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2593",
-      "slug": "find-score-of-an-array-after-marking-all-elements",
-      "title": "Find Score of an Array After Marking All Elements",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "sorting",
-        "heap-priority-queue",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2594",
-      "slug": "minimum-time-to-repair-cars",
-      "title": "Minimum Time to Repair Cars",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2595",
-      "slug": "number-of-even-and-odd-bits",
-      "title": "Number of Even and Odd Bits",
-      "difficulty": "EASY",
-      "tags": [
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2596",
-      "slug": "check-knight-tour-configuration",
-      "title": "Check Knight Tour Configuration",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "breadth-first-search",
         "matrix",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "onesMinusZeros"
     },
     {
-      "id": "2597",
-      "slug": "the-number-of-beautiful-subsets",
-      "title": "The Number of Beautiful Subsets",
+      "id": "2483",
+      "slug": "minimum-penalty-for-a-shop",
+      "title": "Minimum Penalty for a Shop",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "dynamic-programming",
-        "backtracking",
-        "sorting",
-        "combinatorics"
+        "string",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "bestClosingTime"
     },
     {
-      "id": "2598",
-      "slug": "smallest-missing-non-negative-integer-after-operations",
-      "title": "Smallest Missing Non-negative Integer After Operations",
-      "difficulty": "MEDIUM",
+      "id": "2484",
+      "slug": "count-palindromic-subsequences",
+      "title": "Count Palindromic Subsequences",
+      "difficulty": "HARD",
       "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "greedy"
+        "string",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPalindromes"
     },
     {
-      "id": "2599",
-      "slug": "make-the-prefix-sum-non-negative",
-      "title": "Make the Prefix Sum Non-negative",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2600",
-      "slug": "k-items-with-the-maximum-sum",
-      "title": "K Items With the Maximum Sum",
+      "id": "2485",
+      "slug": "find-the-pivot-integer",
+      "title": "Find the Pivot Integer",
       "difficulty": "EASY",
       "tags": [
         "math",
-        "greedy"
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pivotInteger"
     },
     {
-      "id": "2601",
-      "slug": "prime-subtraction-operation",
-      "title": "Prime Subtraction Operation",
+      "id": "2486",
+      "slug": "append-characters-to-string-to-make-subsequence",
+      "title": "Append Characters to String to Make Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "appendCharacters"
+    },
+    {
+      "id": "2487",
+      "slug": "remove-nodes-from-linked-list",
+      "title": "Remove Nodes From Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "stack",
+        "recursion",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeNodes"
+    },
+    {
+      "id": "2488",
+      "slug": "count-subarrays-with-median-k",
+      "title": "Count Subarrays With Median K",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSubarrays"
+    },
+    {
+      "id": "2489",
+      "slug": "number-of-substrings-with-fixed-ratio",
+      "title": "Number of Substrings With Fixed Ratio",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fixedRatio"
+    },
+    {
+      "id": "2490",
+      "slug": "circular-sentence",
+      "title": "Circular Sentence",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isCircularSentence"
+    },
+    {
+      "id": "2491",
+      "slug": "divide-players-into-teams-of-equal-skill",
+      "title": "Divide Players Into Teams of Equal Skill",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "dividePlayers"
+    },
+    {
+      "id": "2492",
+      "slug": "minimum-score-of-a-path-between-two-cities",
+      "title": "Minimum Score of a Path Between Two Cities",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minScore"
+    },
+    {
+      "id": "2493",
+      "slug": "divide-nodes-into-the-maximum-number-of-groups",
+      "title": "Divide Nodes Into the Maximum Number of Groups",
+      "difficulty": "HARD",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "magnificentSets"
+    },
+    {
+      "id": "2494",
+      "slug": "merge-overlapping-events-in-the-same-hall",
+      "title": "Merge Overlapping Events in the Same Hall",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2495",
+      "slug": "number-of-subarrays-having-even-product",
+      "title": "Number of Subarrays Having Even Product",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "math",
-        "binary-search",
-        "greedy",
-        "number-theory"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "evenProduct"
+    },
+    {
+      "id": "2496",
+      "slug": "maximum-value-of-a-string-in-an-array",
+      "title": "Maximum Value of a String in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumValue"
+    },
+    {
+      "id": "2497",
+      "slug": "maximum-star-sum-of-a-graph",
+      "title": "Maximum Star Sum of a Graph",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "graph",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2498",
+      "slug": "frog-jump-ii",
+      "title": "Frog Jump II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxJump"
+    },
+    {
+      "id": "2499",
+      "slug": "minimum-total-cost-to-make-arrays-unequal",
+      "title": "Minimum Total Cost to Make Arrays Unequal",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumTotalCost"
+    },
+    {
+      "id": "2500",
+      "slug": "delete-greatest-value-in-each-row",
+      "title": "Delete Greatest Value in Each Row",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "deleteGreatestValue"
     }
   ]
 }

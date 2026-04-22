@@ -2,242 +2,293 @@
   "batchId": "batch-050",
   "problems": [
     {
-      "id": "1081",
-      "slug": "smallest-subsequence-of-distinct-characters",
-      "title": "Smallest Subsequence of Distinct Characters",
+      "id": "0981",
+      "slug": "time-based-key-value-store",
+      "title": "Time Based Key-Value Store",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "binary-search",
+        "design"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "TimeMap"
+    },
+    {
+      "id": "0982",
+      "slug": "triples-with-bitwise-and-equal-to-zero",
+      "title": "Triples with Bitwise AND Equal To Zero",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countTriplets"
+    },
+    {
+      "id": "0983",
+      "slug": "minimum-cost-for-tickets",
+      "title": "Minimum Cost For Tickets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mincostTickets"
+    },
+    {
+      "id": "0984",
+      "slug": "string-without-aaa-or-bbb",
+      "title": "String Without AAA or BBB",
       "difficulty": "MEDIUM",
       "tags": [
         "string",
-        "stack",
-        "greedy",
-        "monotonic-stack"
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "strWithout3a3b"
     },
     {
-      "id": "1082",
-      "slug": "sales-analysis-i",
-      "title": "Sales Analysis I",
-      "difficulty": "EASY",
+      "id": "0985",
+      "slug": "sum-of-even-numbers-after-queries",
+      "title": "Sum of Even Numbers After Queries",
+      "difficulty": "MEDIUM",
       "tags": [
-        "database"
+        "array",
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumEvenAfterQueries"
     },
     {
-      "id": "1083",
-      "slug": "sales-analysis-ii",
-      "title": "Sales Analysis II",
-      "difficulty": "EASY",
+      "id": "0986",
+      "slug": "interval-list-intersections",
+      "title": "Interval List Intersections",
+      "difficulty": "MEDIUM",
       "tags": [
-        "database"
+        "array",
+        "two-pointers",
+        "line-sweep"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "intervalIntersection"
     },
     {
-      "id": "1084",
-      "slug": "sales-analysis-iii",
-      "title": "Sales Analysis III",
-      "difficulty": "EASY",
+      "id": "0987",
+      "slug": "vertical-order-traversal-of-a-binary-tree",
+      "title": "Vertical Order Traversal of a Binary Tree",
+      "difficulty": "HARD",
       "tags": [
-        "database"
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "sorting",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "verticalTraversal"
     },
     {
-      "id": "1085",
-      "slug": "sum-of-digits-in-the-minimum-number",
-      "title": "Sum of Digits in the Minimum Number",
+      "id": "0988",
+      "slug": "smallest-string-starting-from-leaf",
+      "title": "Smallest String Starting From Leaf",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestFromLeaf"
+    },
+    {
+      "id": "0989",
+      "slug": "add-to-array-form-of-integer",
+      "title": "Add to Array-Form of Integer",
       "difficulty": "EASY",
       "tags": [
         "array",
         "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addToArrayForm"
     },
     {
-      "id": "1086",
-      "slug": "high-five",
-      "title": "High Five",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1087",
-      "slug": "brace-expansion",
-      "title": "Brace Expansion",
+      "id": "0990",
+      "slug": "satisfiability-of-equality-equations",
+      "title": "Satisfiability of Equality Equations",
       "difficulty": "MEDIUM",
       "tags": [
+        "array",
         "string",
-        "backtracking",
-        "stack",
-        "breadth-first-search",
-        "sorting"
+        "union-find",
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "equationsPossible"
     },
     {
-      "id": "1088",
-      "slug": "confusing-number-ii",
-      "title": "Confusing Number II",
-      "difficulty": "HARD",
+      "id": "0991",
+      "slug": "broken-calculator",
+      "title": "Broken Calculator",
+      "difficulty": "MEDIUM",
       "tags": [
         "math",
-        "backtracking"
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "brokenCalc"
     },
     {
-      "id": "1089",
-      "slug": "duplicate-zeros",
-      "title": "Duplicate Zeros",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1090",
-      "slug": "largest-values-from-labels",
-      "title": "Largest Values From Labels",
-      "difficulty": "MEDIUM",
+      "id": "0992",
+      "slug": "subarrays-with-k-different-integers",
+      "title": "Subarrays with K Different Integers",
+      "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
-        "greedy",
-        "sorting",
+        "sliding-window",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "subarraysWithKDistinct"
     },
     {
-      "id": "1091",
-      "slug": "shortest-path-in-binary-matrix",
-      "title": "Shortest Path in Binary Matrix",
+      "id": "0993",
+      "slug": "cousins-in-binary-tree",
+      "title": "Cousins in Binary Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isCousins"
+    },
+    {
+      "id": "0994",
+      "slug": "rotting-oranges",
+      "title": "Rotting Oranges",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "breadth-first-search",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "orangesRotting"
     },
     {
-      "id": "1092",
-      "slug": "shortest-common-supersequence",
-      "title": "Shortest Common Supersequence ",
+      "id": "0995",
+      "slug": "minimum-number-of-k-consecutive-bit-flips",
+      "title": "Minimum Number of K Consecutive Bit Flips",
       "difficulty": "HARD",
       "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1093",
-      "slug": "statistics-from-a-large-sample",
-      "title": "Statistics from a Large Sample",
-      "difficulty": "MEDIUM",
-      "tags": [
         "array",
-        "math",
-        "probability-and-statistics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1094",
-      "slug": "car-pooling",
-      "title": "Car Pooling",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sorting",
-        "heap-priority-queue",
-        "simulation",
+        "bit-manipulation",
+        "queue",
+        "sliding-window",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minKBitFlips"
     },
     {
-      "id": "1095",
-      "slug": "find-in-mountain-array",
-      "title": "Find in Mountain Array",
+      "id": "0996",
+      "slug": "number-of-squareful-arrays",
+      "title": "Number of Squareful Arrays",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "binary-search",
-        "interactive"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1096",
-      "slug": "brace-expansion-ii",
-      "title": "Brace Expansion II",
-      "difficulty": "HARD",
-      "tags": [
         "hash-table",
-        "string",
+        "math",
+        "dynamic-programming",
         "backtracking",
-        "stack",
-        "breadth-first-search",
-        "sorting"
+        "bit-manipulation",
+        "bitmask"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numSquarefulPerms"
     },
     {
-      "id": "1097",
-      "slug": "game-play-analysis-v",
-      "title": "Game Play Analysis V",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1098",
-      "slug": "unpopular-books",
-      "title": "Unpopular Books",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1099",
-      "slug": "two-sum-less-than-k",
-      "title": "Two Sum Less Than K",
+      "id": "0997",
+      "slug": "find-the-town-judge",
+      "title": "Find the Town Judge",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "two-pointers",
-        "binary-search",
-        "sorting"
+        "hash-table",
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findJudge"
     },
     {
-      "id": "1100",
-      "slug": "find-k-length-substrings-with-no-repeated-characters",
-      "title": "Find K-Length Substrings With No Repeated Characters",
+      "id": "0998",
+      "slug": "maximum-binary-tree-ii",
+      "title": "Maximum Binary Tree II",
       "difficulty": "MEDIUM",
       "tags": [
-        "hash-table",
-        "string",
-        "sliding-window"
+        "tree",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "insertIntoMaxTree"
+    },
+    {
+      "id": "0999",
+      "slug": "available-captures-for-rook",
+      "title": "Available Captures for Rook",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numRookCaptures"
+    },
+    {
+      "id": "1000",
+      "slug": "minimum-cost-to-merge-stones",
+      "title": "Minimum Cost to Merge Stones",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mergeStones"
     }
   ]
 }

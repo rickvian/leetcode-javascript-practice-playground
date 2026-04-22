@@ -2,237 +2,281 @@
   "batchId": "batch-059",
   "problems": [
     {
-      "id": "1262",
-      "slug": "greatest-sum-divisible-by-three",
-      "title": "Greatest Sum Divisible by Three",
+      "id": "1161",
+      "slug": "maximum-level-sum-of-a-binary-tree",
+      "title": "Maximum Level Sum of a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxLevelSum"
+    },
+    {
+      "id": "1162",
+      "slug": "as-far-from-land-as-possible",
+      "title": "As Far from Land as Possible",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1263",
-      "slug": "minimum-moves-to-move-a-box-to-their-target-location",
-      "title": "Minimum Moves to Move a Box to Their Target Location",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
         "breadth-first-search",
-        "heap-priority-queue",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDistance"
     },
     {
-      "id": "1264",
-      "slug": "page-recommendations",
-      "title": "Page Recommendations",
+      "id": "1163",
+      "slug": "last-substring-in-lexicographical-order",
+      "title": "Last Substring in Lexicographical Order",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lastSubstring"
+    },
+    {
+      "id": "1164",
+      "slug": "product-price-at-a-given-date",
+      "title": "Product Price at a Given Date",
       "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1265",
-      "slug": "print-immutable-linked-list-in-reverse",
-      "title": "Print Immutable Linked List in Reverse",
+      "id": "1165",
+      "slug": "single-row-keyboard",
+      "title": "Single-Row Keyboard",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "calculateTime"
+    },
+    {
+      "id": "1166",
+      "slug": "design-file-system",
+      "title": "Design File System",
       "difficulty": "MEDIUM",
       "tags": [
-        "linked-list",
-        "two-pointers",
-        "stack",
-        "recursion"
+        "hash-table",
+        "string",
+        "design",
+        "trie"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "FileSystem"
     },
     {
-      "id": "1266",
-      "slug": "minimum-time-visiting-all-points",
-      "title": "Minimum Time Visiting All Points",
+      "id": "1167",
+      "slug": "minimum-cost-to-connect-sticks",
+      "title": "Minimum Cost to Connect Sticks",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "connectSticks"
+    },
+    {
+      "id": "1168",
+      "slug": "optimize-water-distribution-in-a-village",
+      "title": "Optimize Water Distribution in a Village",
+      "difficulty": "HARD",
+      "tags": [
+        "union-find",
+        "graph",
+        "heap-priority-queue",
+        "minimum-spanning-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCostToSupplyWater"
+    },
+    {
+      "id": "1169",
+      "slug": "invalid-transactions",
+      "title": "Invalid Transactions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "invalidTransactions"
+    },
+    {
+      "id": "1170",
+      "slug": "compare-strings-by-frequency-of-the-smallest-character",
+      "title": "Compare Strings by Frequency of the Smallest Character",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numSmallerByFrequency"
+    },
+    {
+      "id": "1171",
+      "slug": "remove-zero-sum-consecutive-nodes-from-linked-list",
+      "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeZeroSumSublists"
+    },
+    {
+      "id": "1172",
+      "slug": "dinner-plate-stacks",
+      "title": "Dinner Plate Stacks",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "stack",
+        "design",
+        "heap-priority-queue"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "DinnerPlates"
+    },
+    {
+      "id": "1173",
+      "slug": "immediate-food-delivery-i",
+      "title": "Immediate Food Delivery I",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1174",
+      "slug": "immediate-food-delivery-ii",
+      "title": "Immediate Food Delivery II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1175",
+      "slug": "prime-arrangements",
+      "title": "Prime Arrangements",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numPrimeArrangements"
+    },
+    {
+      "id": "1176",
+      "slug": "diet-plan-performance",
+      "title": "Diet Plan Performance",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "math",
-        "geometry"
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "dietPlanPerformance"
     },
     {
-      "id": "1267",
-      "slug": "count-servers-that-communicate",
-      "title": "Count Servers that Communicate",
+      "id": "1177",
+      "slug": "can-make-palindrome-from-substring",
+      "title": "Can Make Palindrome from Substring",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "matrix",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1268",
-      "slug": "search-suggestions-system",
-      "title": "Search Suggestions System",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
+        "hash-table",
         "string",
-        "binary-search",
-        "trie",
-        "sorting",
-        "heap-priority-queue"
+        "bit-manipulation",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canMakePaliQueries"
     },
     {
-      "id": "1269",
-      "slug": "number-of-ways-to-stay-in-the-same-place-after-some-steps",
-      "title": "Number of Ways to Stay in the Same Place After Some Steps",
+      "id": "1178",
+      "slug": "number-of-valid-words-for-each-puzzle",
+      "title": "Number of Valid Words for Each Puzzle",
       "difficulty": "HARD",
       "tags": [
-        "dynamic-programming"
+        "array",
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "trie"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findNumOfValidWords"
     },
     {
-      "id": "1270",
-      "slug": "all-people-report-to-the-given-manager",
-      "title": "All People Report to the Given Manager",
-      "difficulty": "MEDIUM",
+      "id": "1179",
+      "slug": "reformat-department-table",
+      "title": "Reformat Department Table",
+      "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1271",
-      "slug": "hexspeak",
-      "title": "Hexspeak",
+      "id": "1180",
+      "slug": "count-substrings-with-only-one-distinct-letter",
+      "title": "Count Substrings with Only One Distinct Letter",
       "difficulty": "EASY",
       "tags": [
         "math",
         "string"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "1272",
-      "slug": "remove-interval",
-      "title": "Remove Interval",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1273",
-      "slug": "delete-tree-nodes",
-      "title": "Delete Tree Nodes",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1274",
-      "slug": "number-of-ships-in-a-rectangle",
-      "title": "Number of Ships in a Rectangle",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "divide-and-conquer",
-        "interactive"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1275",
-      "slug": "find-winner-on-a-tic-tac-toe-game",
-      "title": "Find Winner on a Tic Tac Toe Game",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "matrix",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1276",
-      "slug": "number-of-burgers-with-no-waste-of-ingredients",
-      "title": "Number of Burgers with No Waste of Ingredients",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1277",
-      "slug": "count-square-submatrices-with-all-ones",
-      "title": "Count Square Submatrices with All Ones",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1278",
-      "slug": "palindrome-partitioning-iii",
-      "title": "Palindrome Partitioning III",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1279",
-      "slug": "traffic-light-controlled-intersection",
-      "title": "Traffic Light Controlled Intersection",
-      "difficulty": "EASY",
-      "tags": [
-        "concurrency"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1280",
-      "slug": "students-and-examinations",
-      "title": "Students and Examinations",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1281",
-      "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
-      "title": "Subtract the Product and Sum of Digits of an Integer",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countLetters"
     }
   ]
 }

@@ -2,45 +2,202 @@
   "batchId": "batch-033",
   "problems": [
     {
-      "id": "0739",
-      "slug": "daily-temperatures",
-      "title": "Daily Temperatures",
+      "id": "0635",
+      "slug": "design-log-storage-system",
+      "title": "Design Log Storage System",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "design",
+        "ordered-set"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "LogSystem"
+    },
+    {
+      "id": "0641",
+      "slug": "design-circular-deque",
+      "title": "Design Circular Deque",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "stack",
-        "monotonic-stack"
+        "linked-list",
+        "design",
+        "queue"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "MyCircularDeque"
     },
     {
-      "id": "0740",
-      "slug": "delete-and-earn",
-      "title": "Delete and Earn",
+      "id": "0644",
+      "slug": "maximum-average-subarray-ii",
+      "title": "Maximum Average Subarray II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMaxAverage"
+    },
+    {
+      "id": "0645",
+      "slug": "set-mismatch",
+      "title": "Set Mismatch",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findErrorNums"
+    },
+    {
+      "id": "0646",
+      "slug": "maximum-length-of-pair-chain",
+      "title": "Maximum Length of Pair Chain",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findLongestChain"
+    },
+    {
+      "id": "0647",
+      "slug": "palindromic-substrings",
+      "title": "Palindromic Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSubstrings"
+    },
+    {
+      "id": "0648",
+      "slug": "replace-words",
+      "title": "Replace Words",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
+        "string",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "replaceWords"
+    },
+    {
+      "id": "0649",
+      "slug": "dota2-senate",
+      "title": "Dota2 Senate",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy",
+        "queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "predictPartyVictory"
+    },
+    {
+      "id": "0650",
+      "slug": "2-keys-keyboard",
+      "title": "2 Keys Keyboard",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSteps"
     },
     {
-      "id": "0741",
-      "slug": "cherry-pickup",
-      "title": "Cherry Pickup",
-      "difficulty": "HARD",
+      "id": "0651",
+      "slug": "4-keys-keyboard",
+      "title": "4 Keys Keyboard",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxA"
+    },
+    {
+      "id": "0652",
+      "slug": "find-duplicate-subtrees",
+      "title": "Find Duplicate Subtrees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findDuplicateSubtrees"
+    },
+    {
+      "id": "0653",
+      "slug": "two-sum-iv-input-is-a-bst",
+      "title": "Two Sum IV - Input is a BST",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "two-pointers",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findTarget"
+    },
+    {
+      "id": "0654",
+      "slug": "maximum-binary-tree",
+      "title": "Maximum Binary Tree",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming",
-        "matrix"
+        "divide-and-conquer",
+        "stack",
+        "tree",
+        "monotonic-stack",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "constructMaximumBinaryTree"
     },
     {
-      "id": "0742",
-      "slug": "closest-leaf-in-a-binary-tree",
-      "title": "Closest Leaf in a Binary Tree",
+      "id": "0655",
+      "slug": "print-binary-tree",
+      "title": "Print Binary Tree",
       "difficulty": "MEDIUM",
       "tags": [
         "tree",
@@ -48,205 +205,92 @@
         "breadth-first-search",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "printTree"
     },
     {
-      "id": "0743",
-      "slug": "network-delay-time",
-      "title": "Network Delay Time",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "depth-first-search",
-        "breadth-first-search",
-        "graph",
-        "heap-priority-queue",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0744",
-      "slug": "find-smallest-letter-greater-than-target",
-      "title": "Find Smallest Letter Greater Than Target",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0745",
-      "slug": "prefix-and-suffix-search",
-      "title": "Prefix and Suffix Search",
+      "id": "0656",
+      "slug": "coin-path",
+      "title": "Coin Path",
       "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "design",
-        "trie"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0746",
-      "slug": "min-cost-climbing-stairs",
-      "title": "Min Cost Climbing Stairs",
-      "difficulty": "EASY",
       "tags": [
         "array",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "cheapestJump"
     },
     {
-      "id": "0747",
-      "slug": "largest-number-at-least-twice-of-others",
-      "title": "Largest Number At Least Twice of Others",
+      "id": "0657",
+      "slug": "robot-return-to-origin",
+      "title": "Robot Return to Origin",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0748",
-      "slug": "shortest-completing-word",
-      "title": "Shortest Completing Word",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0749",
-      "slug": "contain-virus",
-      "title": "Contain Virus",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "breadth-first-search",
-        "matrix",
+        "string",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "judgeCircle"
     },
     {
-      "id": "0750",
-      "slug": "number-of-corner-rectangles",
-      "title": "Number Of Corner Rectangles",
+      "id": "0658",
+      "slug": "find-k-closest-elements",
+      "title": "Find K Closest Elements",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "dynamic-programming",
+        "two-pointers",
+        "binary-search",
+        "sliding-window",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findClosestElements"
+    },
+    {
+      "id": "0659",
+      "slug": "split-array-into-consecutive-subsequences",
+      "title": "Split Array into Consecutive Subsequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPossible"
+    },
+    {
+      "id": "0660",
+      "slug": "remove-9",
+      "title": "Remove 9",
+      "difficulty": "HARD",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "newInteger"
+    },
+    {
+      "id": "0661",
+      "slug": "image-smoother",
+      "title": "Image Smoother",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
         "matrix"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "0751",
-      "slug": "ip-to-cidr",
-      "title": "IP to CIDR",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0752",
-      "slug": "open-the-lock",
-      "title": "Open the Lock",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0753",
-      "slug": "cracking-the-safe",
-      "title": "Cracking the Safe",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "depth-first-search",
-        "graph",
-        "eulerian-circuit"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0754",
-      "slug": "reach-a-number",
-      "title": "Reach a Number",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0755",
-      "slug": "pour-water",
-      "title": "Pour Water",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0756",
-      "slug": "pyramid-transition-matrix",
-      "title": "Pyramid Transition Matrix",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "backtracking",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0757",
-      "slug": "set-intersection-size-at-least-two",
-      "title": "Set Intersection Size At Least Two",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0758",
-      "slug": "bold-words-in-string",
-      "title": "Bold Words in String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "trie",
-        "string-matching"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "imageSmoother"
     }
   ]
 }

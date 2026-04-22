@@ -2,233 +2,295 @@
   "batchId": "batch-049",
   "problems": [
     {
-      "id": "1061",
-      "slug": "lexicographically-smallest-equivalent-string",
-      "title": "Lexicographically Smallest Equivalent String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "union-find"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1062",
-      "slug": "longest-repeating-substring",
-      "title": "Longest Repeating Substring",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "binary-search",
-        "dynamic-programming",
-        "rolling-hash",
-        "suffix-array",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1063",
-      "slug": "number-of-valid-subarrays",
-      "title": "Number of Valid Subarrays",
-      "difficulty": "HARD",
+      "id": "0961",
+      "slug": "n-repeated-element-in-size-2n-array",
+      "title": "N-Repeated Element in Size 2N Array",
+      "difficulty": "EASY",
       "tags": [
         "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "repeatedNTimes"
+    },
+    {
+      "id": "0962",
+      "slug": "maximum-width-ramp",
+      "title": "Maximum Width Ramp",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
         "stack",
         "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxWidthRamp"
     },
     {
-      "id": "1064",
-      "slug": "fixed-point",
-      "title": "Fixed Point",
-      "difficulty": "EASY",
+      "id": "0963",
+      "slug": "minimum-area-rectangle-ii",
+      "title": "Minimum Area Rectangle II",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "binary-search"
+        "hash-table",
+        "math",
+        "geometry"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minAreaFreeRect"
     },
     {
-      "id": "1065",
-      "slug": "index-pairs-of-a-string",
-      "title": "Index Pairs of a String",
+      "id": "0964",
+      "slug": "least-operators-to-express-number",
+      "title": "Least Operators to Express Number",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "leastOpsExpressTarget"
+    },
+    {
+      "id": "0965",
+      "slug": "univalued-binary-tree",
+      "title": "Univalued Binary Tree",
       "difficulty": "EASY",
       "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isUnivalTree"
+    },
+    {
+      "id": "0966",
+      "slug": "vowel-spellchecker",
+      "title": "Vowel Spellchecker",
+      "difficulty": "MEDIUM",
+      "tags": [
         "array",
-        "string",
-        "trie",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "spellchecker"
+    },
+    {
+      "id": "0967",
+      "slug": "numbers-with-same-consecutive-differences",
+      "title": "Numbers With Same Consecutive Differences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "backtracking",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numsSameConsecDiff"
+    },
+    {
+      "id": "0968",
+      "slug": "binary-tree-cameras",
+      "title": "Binary Tree Cameras",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCameraCover"
+    },
+    {
+      "id": "0969",
+      "slug": "pancake-sorting",
+      "title": "Pancake Sorting",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pancakeSort"
     },
     {
-      "id": "1066",
-      "slug": "campus-bikes-ii",
-      "title": "Campus Bikes II",
+      "id": "0970",
+      "slug": "powerful-integers",
+      "title": "Powerful Integers",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1067",
-      "slug": "digit-count-in-range",
-      "title": "Digit Count in Range",
-      "difficulty": "HARD",
-      "tags": [
+        "hash-table",
         "math",
-        "dynamic-programming"
+        "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "powerfulIntegers"
     },
     {
-      "id": "1068",
-      "slug": "product-sales-analysis-i",
-      "title": "Product Sales Analysis I",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1069",
-      "slug": "product-sales-analysis-ii",
-      "title": "Product Sales Analysis II",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1070",
-      "slug": "product-sales-analysis-iii",
-      "title": "Product Sales Analysis III",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1071",
-      "slug": "greatest-common-divisor-of-strings",
-      "title": "Greatest Common Divisor of Strings",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1072",
-      "slug": "flip-columns-for-maximum-number-of-equal-rows",
-      "title": "Flip Columns For Maximum Number of Equal Rows",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1073",
-      "slug": "adding-two-negabinary-numbers",
-      "title": "Adding Two Negabinary Numbers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1074",
-      "slug": "number-of-submatrices-that-sum-to-target",
-      "title": "Number of Submatrices That Sum to Target",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "matrix",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1075",
-      "slug": "project-employees-i",
-      "title": "Project Employees I",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1076",
-      "slug": "project-employees-ii",
-      "title": "Project Employees II",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1077",
-      "slug": "project-employees-iii",
-      "title": "Project Employees III",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1078",
-      "slug": "occurrences-after-bigram",
-      "title": "Occurrences After Bigram",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1079",
-      "slug": "letter-tile-possibilities",
-      "title": "Letter Tile Possibilities",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "backtracking",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1080",
-      "slug": "insufficient-nodes-in-root-to-leaf-paths",
-      "title": "Insufficient Nodes in Root to Leaf Paths",
+      "id": "0971",
+      "slug": "flip-binary-tree-to-match-preorder-traversal",
+      "title": "Flip Binary Tree To Match Preorder Traversal",
       "difficulty": "MEDIUM",
       "tags": [
         "tree",
         "depth-first-search",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "flipMatchVoyage"
+    },
+    {
+      "id": "0972",
+      "slug": "equal-rational-numbers",
+      "title": "Equal Rational Numbers",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isRationalEqual"
+    },
+    {
+      "id": "0973",
+      "slug": "k-closest-points-to-origin",
+      "title": "K Closest Points to Origin",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "divide-and-conquer",
+        "geometry",
+        "sorting",
+        "heap-priority-queue",
+        "quickselect"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kClosest"
+    },
+    {
+      "id": "0974",
+      "slug": "subarray-sums-divisible-by-k",
+      "title": "Subarray Sums Divisible by K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "subarraysDivByK"
+    },
+    {
+      "id": "0975",
+      "slug": "odd-even-jump",
+      "title": "Odd Even Jump",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "sorting",
+        "monotonic-stack",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "oddEvenJumps"
+    },
+    {
+      "id": "0976",
+      "slug": "largest-perimeter-triangle",
+      "title": "Largest Perimeter Triangle",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestPerimeter"
+    },
+    {
+      "id": "0977",
+      "slug": "squares-of-a-sorted-array",
+      "title": "Squares of a Sorted Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortedSquares"
+    },
+    {
+      "id": "0978",
+      "slug": "longest-turbulent-subarray",
+      "title": "Longest Turbulent Subarray",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxTurbulenceSize"
+    },
+    {
+      "id": "0979",
+      "slug": "distribute-coins-in-binary-tree",
+      "title": "Distribute Coins in Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distributeCoins"
+    },
+    {
+      "id": "0980",
+      "slug": "unique-paths-iii",
+      "title": "Unique Paths III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "backtracking",
+        "bit-manipulation",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "uniquePathsIII"
     }
   ]
 }

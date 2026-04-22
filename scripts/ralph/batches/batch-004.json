@@ -2,260 +2,277 @@
   "batchId": "batch-004",
   "problems": [
     {
-      "id": "0090",
-      "slug": "subsets-ii",
-      "title": "Subsets II",
+      "id": "0061",
+      "slug": "rotate-list",
+      "title": "Rotate List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rotateRight"
+    },
+    {
+      "id": "0062",
+      "slug": "unique-paths",
+      "title": "Unique Paths",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "uniquePaths"
+    },
+    {
+      "id": "0063",
+      "slug": "unique-paths-ii",
+      "title": "Unique Paths II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "uniquePathsWithObstacles"
+    },
+    {
+      "id": "0064",
+      "slug": "minimum-path-sum",
+      "title": "Minimum Path Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minPathSum"
+    },
+    {
+      "id": "0065",
+      "slug": "valid-number",
+      "title": "Valid Number",
+      "difficulty": "HARD",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isNumber"
+    },
+    {
+      "id": "0066",
+      "slug": "plus-one",
+      "title": "Plus One",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "plusOne"
+    },
+    {
+      "id": "0067",
+      "slug": "add-binary",
+      "title": "Add Binary",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string",
+        "bit-manipulation",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addBinary"
+    },
+    {
+      "id": "0068",
+      "slug": "text-justification",
+      "title": "Text Justification",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fullJustify"
+    },
+    {
+      "id": "0069",
+      "slug": "sqrtx",
+      "title": "Sqrt(x)",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mySqrt"
+    },
+    {
+      "id": "0070",
+      "slug": "climbing-stairs",
+      "title": "Climbing Stairs",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "climbStairs"
+    },
+    {
+      "id": "0071",
+      "slug": "simplify-path",
+      "title": "Simplify Path",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "simplifyPath"
+    },
+    {
+      "id": "0072",
+      "slug": "edit-distance",
+      "title": "Edit Distance",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minDistance"
+    },
+    {
+      "id": "0073",
+      "slug": "set-matrix-zeroes",
+      "title": "Set Matrix Zeroes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "setZeroes"
+    },
+    {
+      "id": "0074",
+      "slug": "search-a-2d-matrix",
+      "title": "Search a 2D Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "searchMatrix"
+    },
+    {
+      "id": "0075",
+      "slug": "sort-colors",
+      "title": "Sort Colors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortColors"
+    },
+    {
+      "id": "0076",
+      "slug": "minimum-window-substring",
+      "title": "Minimum Window Substring",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minWindow"
+    },
+    {
+      "id": "0077",
+      "slug": "combinations",
+      "title": "Combinations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "combine"
+    },
+    {
+      "id": "0078",
+      "slug": "subsets",
+      "title": "Subsets",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "backtracking",
         "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "subsets"
     },
     {
-      "id": "0093",
-      "slug": "restore-ip-addresses",
-      "title": "Restore IP Addresses",
+      "id": "0079",
+      "slug": "word-search",
+      "title": "Word Search",
       "difficulty": "MEDIUM",
       "tags": [
+        "array",
         "string",
-        "backtracking"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0095",
-      "slug": "unique-binary-search-trees-ii",
-      "title": "Unique Binary Search Trees II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming",
         "backtracking",
-        "tree",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0096",
-      "slug": "unique-binary-search-trees",
-      "title": "Unique Binary Search Trees",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "tree",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0097",
-      "slug": "interleaving-string",
-      "title": "Interleaving String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0099",
-      "slug": "recover-binary-search-tree",
-      "title": "Recover Binary Search Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
         "depth-first-search",
-        "binary-search-tree",
-        "binary-tree"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "exist"
     },
     {
-      "id": "0101",
-      "slug": "symmetric-tree",
-      "title": "Symmetric Tree",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0106",
-      "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
-      "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+      "id": "0080",
+      "slug": "remove-duplicates-from-sorted-array-ii",
+      "title": "Remove Duplicates from Sorted Array II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "divide-and-conquer",
-        "tree",
-        "binary-tree"
+        "two-pointers"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "0107",
-      "slug": "binary-tree-level-order-traversal-ii",
-      "title": "Binary Tree Level Order Traversal II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0108",
-      "slug": "convert-sorted-array-to-binary-search-tree",
-      "title": "Convert Sorted Array to Binary Search Tree",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "divide-and-conquer",
-        "tree",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0109",
-      "slug": "convert-sorted-list-to-binary-search-tree",
-      "title": "Convert Sorted List to Binary Search Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "divide-and-conquer",
-        "tree",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0111",
-      "slug": "minimum-depth-of-binary-tree",
-      "title": "Minimum Depth of Binary Tree",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0112",
-      "slug": "path-sum",
-      "title": "Path Sum",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0113",
-      "slug": "path-sum-ii",
-      "title": "Path Sum II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "backtracking",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0114",
-      "slug": "flatten-binary-tree-to-linked-list",
-      "title": "Flatten Binary Tree to Linked List",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "stack",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0115",
-      "slug": "distinct-subsequences",
-      "title": "Distinct Subsequences",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0116",
-      "slug": "populating-next-right-pointers-in-each-node",
-      "title": "Populating Next Right Pointers in Each Node",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0117",
-      "slug": "populating-next-right-pointers-in-each-node-ii",
-      "title": "Populating Next Right Pointers in Each Node II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0118",
-      "slug": "pascals-triangle",
-      "title": "Pascal's Triangle",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0119",
-      "slug": "pascals-triangle-ii",
-      "title": "Pascal's Triangle II",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeDuplicates"
     }
   ]
 }

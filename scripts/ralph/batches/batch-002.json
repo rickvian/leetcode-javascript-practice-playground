@@ -2,6 +2,141 @@
   "batchId": "batch-002",
   "problems": [
     {
+      "id": "0021",
+      "slug": "merge-two-sorted-lists",
+      "title": "Merge Two Sorted Lists",
+      "difficulty": "EASY",
+      "tags": [
+        "linked-list",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mergeTwoLists"
+    },
+    {
+      "id": "0022",
+      "slug": "generate-parentheses",
+      "title": "Generate Parentheses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "generateParenthesis"
+    },
+    {
+      "id": "0023",
+      "slug": "merge-k-sorted-lists",
+      "title": "Merge k Sorted Lists",
+      "difficulty": "HARD",
+      "tags": [
+        "linked-list",
+        "divide-and-conquer",
+        "heap-priority-queue",
+        "merge-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mergeKLists"
+    },
+    {
+      "id": "0024",
+      "slug": "swap-nodes-in-pairs",
+      "title": "Swap Nodes in Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "swapPairs"
+    },
+    {
+      "id": "0025",
+      "slug": "reverse-nodes-in-k-group",
+      "title": "Reverse Nodes in k-Group",
+      "difficulty": "HARD",
+      "tags": [
+        "linked-list",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverseKGroup"
+    },
+    {
+      "id": "0026",
+      "slug": "remove-duplicates-from-sorted-array",
+      "title": "Remove Duplicates from Sorted Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeDuplicates"
+    },
+    {
+      "id": "0027",
+      "slug": "remove-element",
+      "title": "Remove Element",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeElement"
+    },
+    {
+      "id": "0028",
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "title": "Find the Index of the First Occurrence in a String",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string",
+        "string-matching"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0029",
+      "slug": "divide-two-integers",
+      "title": "Divide Two Integers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "divide"
+    },
+    {
+      "id": "0030",
+      "slug": "substring-with-concatenation-of-all-words",
+      "title": "Substring with Concatenation of All Words",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findSubstring"
+    },
+    {
       "id": "0031",
       "slug": "next-permutation",
       "title": "Next Permutation",
@@ -10,7 +145,9 @@
         "array",
         "two-pointers"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nextPermutation"
     },
     {
       "id": "0032",
@@ -22,7 +159,22 @@
         "dynamic-programming",
         "stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestValidParentheses"
+    },
+    {
+      "id": "0033",
+      "slug": "search-in-rotated-sorted-array",
+      "title": "Search in Rotated Sorted Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "search"
     },
     {
       "id": "0034",
@@ -33,7 +185,9 @@
         "array",
         "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "searchRange"
     },
     {
       "id": "0035",
@@ -44,7 +198,9 @@
         "array",
         "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "searchInsert"
     },
     {
       "id": "0036",
@@ -56,7 +212,9 @@
         "hash-table",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isValidSudoku"
     },
     {
       "id": "0037",
@@ -69,7 +227,9 @@
         "backtracking",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "solveSudoku"
     },
     {
       "id": "0038",
@@ -79,7 +239,22 @@
       "tags": [
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countAndSay"
+    },
+    {
+      "id": "0039",
+      "slug": "combination-sum",
+      "title": "Combination Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "combinationSum"
     },
     {
       "id": "0040",
@@ -90,144 +265,9 @@
         "array",
         "backtracking"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "0041",
-      "slug": "first-missing-positive",
-      "title": "First Missing Positive",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0043",
-      "slug": "multiply-strings",
-      "title": "Multiply Strings",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "string",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0044",
-      "slug": "wildcard-matching",
-      "title": "Wildcard Matching",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "greedy",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0045",
-      "slug": "jump-game-ii",
-      "title": "Jump Game II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0047",
-      "slug": "permutations-ii",
-      "title": "Permutations II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "backtracking",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0051",
-      "slug": "n-queens",
-      "title": "N-Queens",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "backtracking"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0052",
-      "slug": "n-queens-ii",
-      "title": "N-Queens II",
-      "difficulty": "HARD",
-      "tags": [
-        "backtracking"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0058",
-      "slug": "length-of-last-word",
-      "title": "Length of Last Word",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0059",
-      "slug": "spiral-matrix-ii",
-      "title": "Spiral Matrix II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "matrix",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0060",
-      "slug": "permutation-sequence",
-      "title": "Permutation Sequence",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0061",
-      "slug": "rotate-list",
-      "title": "Rotate List",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0063",
-      "slug": "unique-paths-ii",
-      "title": "Unique Paths II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "matrix"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "combinationSum2"
     }
   ]
 }

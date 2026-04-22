@@ -2,242 +2,279 @@
   "batchId": "batch-093",
   "problems": [
     {
-      "id": "1942",
-      "slug": "the-number-of-the-smallest-unoccupied-chair",
-      "title": "The Number of the Smallest Unoccupied Chair",
+      "id": "1841",
+      "slug": "league-statistics",
+      "title": "League Statistics",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "hash-table",
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1842",
+      "slug": "next-palindrome-using-same-digits",
+      "title": "Next Palindrome Using Same Digits",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nextPalindrome"
+    },
+    {
+      "id": "1843",
+      "slug": "suspicious-bank-accounts",
+      "title": "Suspicious Bank Accounts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1844",
+      "slug": "replace-all-digits-with-characters",
+      "title": "Replace All Digits with Characters",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "replaceDigits"
+    },
+    {
+      "id": "1845",
+      "slug": "seat-reservation-manager",
+      "title": "Seat Reservation Manager",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "design",
         "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "SeatManager"
     },
     {
-      "id": "1943",
-      "slug": "describe-the-painting",
-      "title": "Describe the Painting",
+      "id": "1846",
+      "slug": "maximum-element-after-decreasing-and-rearranging",
+      "title": "Maximum Element After Decreasing and Rearranging",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumElementAfterDecrementingAndRearranging"
+    },
+    {
+      "id": "1847",
+      "slug": "closest-room",
+      "title": "Closest Room",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "closestRoom"
+    },
+    {
+      "id": "1848",
+      "slug": "minimum-distance-to-the-target-element",
+      "title": "Minimum Distance to the Target Element",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getMinDistance"
+    },
+    {
+      "id": "1849",
+      "slug": "splitting-a-string-into-descending-consecutive-values",
+      "title": "Splitting a String Into Descending Consecutive Values",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "splitString"
+    },
+    {
+      "id": "1850",
+      "slug": "minimum-adjacent-swaps-to-reach-the-kth-smallest-number",
+      "title": "Minimum Adjacent Swaps to Reach the Kth Smallest Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getMinSwaps"
+    },
+    {
+      "id": "1851",
+      "slug": "minimum-interval-to-include-each-query",
+      "title": "Minimum Interval to Include Each Query",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "line-sweep",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minInterval"
+    },
+    {
+      "id": "1852",
+      "slug": "distinct-numbers-in-each-subarray",
+      "title": "Distinct Numbers in Each Subarray",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "sorting",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distinctNumbers"
+    },
+    {
+      "id": "1853",
+      "slug": "convert-date-format",
+      "title": "Convert Date Format",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1854",
+      "slug": "maximum-population-year",
+      "title": "Maximum Population Year",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "counting",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumPopulation"
     },
     {
-      "id": "1944",
-      "slug": "number-of-visible-people-in-a-queue",
-      "title": "Number of Visible People in a Queue",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "stack",
-        "monotonic-stack"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1945",
-      "slug": "sum-of-digits-of-string-after-convert",
-      "title": "Sum of Digits of String After Convert",
-      "difficulty": "EASY",
-      "tags": [
-        "string",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1946",
-      "slug": "largest-number-after-mutating-substring",
-      "title": "Largest Number After Mutating Substring",
+      "id": "1855",
+      "slug": "maximum-distance-between-a-pair-of-values",
+      "title": "Maximum Distance Between a Pair of Values",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1947",
-      "slug": "maximum-compatibility-score-sum",
-      "title": "Maximum Compatibility Score Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1948",
-      "slug": "delete-duplicate-folders-in-system",
-      "title": "Delete Duplicate Folders in System",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "trie",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1949",
-      "slug": "strong-friendship",
-      "title": "Strong Friendship",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1950",
-      "slug": "maximum-of-minimum-values-in-all-subarrays",
-      "title": "Maximum of Minimum Values in All Subarrays",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "stack",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1951",
-      "slug": "all-the-pairs-with-the-maximum-number-of-common-followers",
-      "title": "All the Pairs With the Maximum Number of Common Followers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1952",
-      "slug": "three-divisors",
-      "title": "Three Divisors",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "enumeration",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1953",
-      "slug": "maximum-number-of-weeks-for-which-you-can-work",
-      "title": "Maximum Number of Weeks for Which You Can Work",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1954",
-      "slug": "minimum-garden-perimeter-to-collect-enough-apples",
-      "title": "Minimum Garden Perimeter to Collect Enough Apples",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
+        "two-pointers",
         "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDistance"
     },
     {
-      "id": "1955",
-      "slug": "count-number-of-special-subsequences",
-      "title": "Count Number of Special Subsequences",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1956",
-      "slug": "minimum-time-for-k-virus-variants-to-spread",
-      "title": "Minimum Time For K Virus Variants to Spread",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math",
-        "binary-search",
-        "geometry",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1957",
-      "slug": "delete-characters-to-make-fancy-string",
-      "title": "Delete Characters to Make Fancy String",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1958",
-      "slug": "check-if-move-is-legal",
-      "title": "Check if Move is Legal",
+      "id": "1856",
+      "slug": "maximum-subarray-min-product",
+      "title": "Maximum Subarray Min-Product",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "matrix",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1959",
-      "slug": "minimum-total-space-wasted-with-k-resizing-operations",
-      "title": "Minimum Total Space Wasted With K Resizing Operations",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
+        "stack",
+        "monotonic-stack",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSumMinProduct"
     },
     {
-      "id": "1960",
-      "slug": "maximum-product-of-the-length-of-two-palindromic-substrings",
-      "title": "Maximum Product of the Length of Two Palindromic Substrings",
+      "id": "1857",
+      "slug": "largest-color-value-in-a-directed-graph",
+      "title": "Largest Color Value in a Directed Graph",
       "difficulty": "HARD",
       "tags": [
-        "two-pointers",
+        "hash-table",
         "string",
-        "rolling-hash",
-        "hash-function"
+        "dynamic-programming",
+        "graph",
+        "topological-sort",
+        "memoization",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestPathValue"
     },
     {
-      "id": "1961",
-      "slug": "check-if-string-is-a-prefix-of-array",
-      "title": "Check If String Is a Prefix of Array",
-      "difficulty": "EASY",
+      "id": "1858",
+      "slug": "longest-word-with-all-prefixes",
+      "title": "Longest Word With All Prefixes",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "two-pointers",
-        "string"
+        "string",
+        "depth-first-search",
+        "trie"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestWord"
+    },
+    {
+      "id": "1859",
+      "slug": "sorting-the-sentence",
+      "title": "Sorting the Sentence",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortSentence"
+    },
+    {
+      "id": "1860",
+      "slug": "incremental-memory-leak",
+      "title": "Incremental Memory Leak",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "memLeak"
     }
   ]
 }

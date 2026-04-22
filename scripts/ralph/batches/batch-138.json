@@ -2,249 +2,259 @@
   "batchId": "batch-138",
   "problems": [
     {
-      "id": "2842",
-      "slug": "count-k-subsequences-of-a-string-with-maximum-beauty",
-      "title": "Count K-Subsequences of a String With Maximum Beauty",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "math",
-        "string",
-        "greedy",
-        "sorting",
-        "combinatorics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2843",
-      "slug": "count-symmetric-integers",
-      "title": "  Count Symmetric Integers",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2844",
-      "slug": "minimum-operations-to-make-a-special-number",
-      "title": "Minimum Operations to Make a Special Number",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "string",
-        "greedy",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2845",
-      "slug": "count-of-interesting-subarrays",
-      "title": "Count of Interesting Subarrays",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2846",
-      "slug": "minimum-edge-weight-equilibrium-queries-in-a-tree",
-      "title": "Minimum Edge Weight Equilibrium Queries in a Tree",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "bit-manipulation",
-        "tree",
-        "depth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2847",
-      "slug": "smallest-number-with-given-digit-product",
-      "title": "Smallest Number With Given Digit Product",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2848",
-      "slug": "points-that-intersect-with-cars",
-      "title": "Points That Intersect With Cars",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2849",
-      "slug": "determine-if-a-cell-is-reachable-at-a-given-time",
-      "title": "Determine if a Cell Is Reachable at a Given Time",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2850",
-      "slug": "minimum-moves-to-spread-stones-over-grid",
-      "title": "Minimum Moves to Spread Stones Over Grid",
+      "id": "2741",
+      "slug": "special-permutations",
+      "title": "Special Permutations",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming",
-        "backtracking",
         "bit-manipulation",
-        "matrix",
         "bitmask"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2851",
-      "slug": "string-transformation",
-      "title": "String Transformation",
+      "id": "2742",
+      "slug": "painting-the-walls",
+      "title": "Painting the Walls",
       "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "paintWalls"
+    },
+    {
+      "id": "2743",
+      "slug": "count-substrings-without-repeating-character",
+      "title": "Count Substrings Without Repeating Character",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfSpecialSubstrings"
+    },
+    {
+      "id": "2744",
+      "slug": "find-maximum-number-of-string-pairs",
+      "title": "Find Maximum Number of String Pairs",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumNumberOfStringPairs"
+    },
+    {
+      "id": "2745",
+      "slug": "construct-the-longest-new-string",
+      "title": "Construct the Longest New String",
+      "difficulty": "MEDIUM",
       "tags": [
         "math",
-        "string",
         "dynamic-programming",
-        "string-matching"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2852",
-      "slug": "sum-of-remoteness-of-all-cells",
-      "title": "Sum of Remoteness of All Cells",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2853",
-      "slug": "highest-salaries-difference",
-      "title": "Highest Salaries Difference",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2854",
-      "slug": "rolling-average-steps",
-      "title": "Rolling Average Steps",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2855",
-      "slug": "minimum-right-shifts-to-sort-the-array",
-      "title": "Minimum Right Shifts to Sort the Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2856",
-      "slug": "minimum-array-length-after-pair-removals",
-      "title": "Minimum Array Length After Pair Removals",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "two-pointers",
-        "binary-search",
         "greedy",
-        "counting"
+        "brainteaser"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestString"
     },
     {
-      "id": "2857",
-      "slug": "count-pairs-of-points-with-distance-k",
-      "title": "Count Pairs of Points With Distance k",
+      "id": "2746",
+      "slug": "decremental-string-concatenation",
+      "title": "Decremental String Concatenation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2747",
+      "slug": "count-zero-request-servers",
+      "title": "Count Zero Request Servers",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "bit-manipulation"
+        "sliding-window",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2858",
-      "slug": "minimum-edge-reversals-so-every-node-is-reachable",
-      "title": "Minimum Edge Reversals So Every Node Is Reachable",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming",
-        "depth-first-search",
-        "breadth-first-search",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2859",
-      "slug": "sum-of-values-at-indices-with-k-set-bits",
-      "title": "Sum of Values at Indices With K Set Bits",
+      "id": "2748",
+      "slug": "number-of-beautiful-pairs",
+      "title": "Number of Beautiful Pairs",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "bit-manipulation"
+        "hash-table",
+        "math",
+        "counting",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countBeautifulPairs"
     },
     {
-      "id": "2860",
-      "slug": "happy-students",
-      "title": "Happy Students",
+      "id": "2749",
+      "slug": "minimum-operations-to-make-the-integer-zero",
+      "title": "Minimum Operations to Make the Integer Zero",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "sorting",
+        "bit-manipulation",
+        "brainteaser",
         "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "makeTheIntegerZero"
     },
     {
-      "id": "2861",
-      "slug": "maximum-number-of-alloys",
-      "title": "Maximum Number of Alloys",
+      "id": "2750",
+      "slug": "ways-to-split-array-into-good-subarrays",
+      "title": "Ways to Split Array Into Good Subarrays",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "binary-search"
+        "math",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2751",
+      "slug": "robot-collisions",
+      "title": "Robot Collisions",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "stack",
+        "sorting",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "survivedRobotsHealths"
+    },
+    {
+      "id": "2752",
+      "slug": "customers-with-maximum-number-of-transactions-on-consecutive-days",
+      "title": "Customers with Maximum Number of Transactions on Consecutive Days",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2753",
+      "slug": "count-houses-in-a-circular-street-ii",
+      "title": "Count Houses in a Circular Street II",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "houseCount"
+    },
+    {
+      "id": "2754",
+      "slug": "bind-function-to-context",
+      "title": "Bind Function to Context",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2755",
+      "slug": "deep-merge-of-two-objects",
+      "title": "Deep Merge of Two Objects",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "deepMerge"
+    },
+    {
+      "id": "2756",
+      "slug": "query-batching",
+      "title": "Query Batching",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "QueryBatcher"
+    },
+    {
+      "id": "2757",
+      "slug": "generate-circular-array-values",
+      "title": "Generate Circular Array Values",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "cycleGenerator"
+    },
+    {
+      "id": "2758",
+      "slug": "next-day",
+      "title": "Next Day",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2759",
+      "slug": "convert-json-string-to-object",
+      "title": "Convert JSON String to Object",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "jsonParse"
+    },
+    {
+      "id": "2760",
+      "slug": "longest-even-odd-subarray-with-threshold",
+      "title": "Longest Even Odd Subarray With Threshold",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

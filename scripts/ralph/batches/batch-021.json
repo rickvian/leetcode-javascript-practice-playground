@@ -2,256 +2,287 @@
   "batchId": "batch-021",
   "problems": [
     {
-      "id": "0495",
-      "slug": "teemo-attacking",
-      "title": "Teemo Attacking",
+      "id": "0401",
+      "slug": "binary-watch",
+      "title": "Binary Watch",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "simulation"
+        "backtracking",
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "readBinaryWatch"
     },
     {
-      "id": "0496",
-      "slug": "next-greater-element-i",
-      "title": "Next Greater Element I",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "stack",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0497",
-      "slug": "random-point-in-non-overlapping-rectangles",
-      "title": "Random Point in Non-overlapping Rectangles",
+      "id": "0402",
+      "slug": "remove-k-digits",
+      "title": "Remove K Digits",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "math",
-        "binary-search",
-        "reservoir-sampling",
-        "prefix-sum",
-        "ordered-set",
-        "randomized"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0498",
-      "slug": "diagonal-traverse",
-      "title": "Diagonal Traverse",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "matrix",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0499",
-      "slug": "the-maze-iii",
-      "title": "The Maze III",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
         "string",
-        "depth-first-search",
-        "breadth-first-search",
-        "graph",
-        "heap-priority-queue",
-        "matrix",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0500",
-      "slug": "keyboard-row",
-      "title": "Keyboard Row",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0501",
-      "slug": "find-mode-in-binary-search-tree",
-      "title": "Find Mode in Binary Search Tree",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0502",
-      "slug": "ipo",
-      "title": "IPO",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
+        "stack",
         "greedy",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0503",
-      "slug": "next-greater-element-ii",
-      "title": "Next Greater Element II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "stack",
         "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeKdigits"
     },
     {
-      "id": "0504",
-      "slug": "base-7",
-      "title": "Base 7",
+      "id": "0403",
+      "slug": "frog-jump",
+      "title": "Frog Jump",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canCross"
+    },
+    {
+      "id": "0404",
+      "slug": "sum-of-left-leaves",
+      "title": "Sum of Left Leaves",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumOfLeftLeaves"
+    },
+    {
+      "id": "0405",
+      "slug": "convert-a-number-to-hexadecimal",
+      "title": "Convert a Number to Hexadecimal",
       "difficulty": "EASY",
       "tags": [
         "math",
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "toHex"
+    },
+    {
+      "id": "0406",
+      "slug": "queue-reconstruction-by-height",
+      "title": "Queue Reconstruction by Height",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-indexed-tree",
+        "segment-tree",
+        "sorting"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "reconstructQueue"
+    },
+    {
+      "id": "0407",
+      "slug": "trapping-rain-water-ii",
+      "title": "Trapping Rain Water II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "trapRainWater"
+    },
+    {
+      "id": "0408",
+      "slug": "valid-word-abbreviation",
+      "title": "Valid Word Abbreviation",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validWordAbbreviation"
     },
     {
-      "id": "0505",
-      "slug": "the-maze-ii",
-      "title": "The Maze II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "breadth-first-search",
-        "graph",
-        "heap-priority-queue",
-        "matrix",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0506",
-      "slug": "relative-ranks",
-      "title": "Relative Ranks",
+      "id": "0409",
+      "slug": "longest-palindrome",
+      "title": "Longest Palindrome",
       "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0507",
-      "slug": "perfect-number",
-      "title": "Perfect Number",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0508",
-      "slug": "most-frequent-subtree-sum",
-      "title": "Most Frequent Subtree Sum",
-      "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
+        "string",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestPalindrome"
     },
     {
-      "id": "0509",
-      "slug": "fibonacci-number",
-      "title": "Fibonacci Number",
+      "id": "0410",
+      "slug": "split-array-largest-sum",
+      "title": "Split Array Largest Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "greedy",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "splitArray"
+    },
+    {
+      "id": "0411",
+      "slug": "minimum-unique-word-abbreviation",
+      "title": "Minimum Unique Word Abbreviation",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minAbbreviation"
+    },
+    {
+      "id": "0412",
+      "slug": "fizz-buzz",
+      "title": "Fizz Buzz",
       "difficulty": "EASY",
       "tags": [
         "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fizzBuzz"
+    },
+    {
+      "id": "0413",
+      "slug": "arithmetic-slices",
+      "title": "Arithmetic Slices",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
         "dynamic-programming",
-        "recursion",
-        "memoization"
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfArithmeticSlices"
     },
     {
-      "id": "0510",
-      "slug": "inorder-successor-in-bst-ii",
-      "title": "Inorder Successor in BST II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0511",
-      "slug": "game-play-analysis-i",
-      "title": "Game Play Analysis I",
+      "id": "0414",
+      "slug": "third-maximum-number",
+      "title": "Third Maximum Number",
       "difficulty": "EASY",
       "tags": [
-        "database"
+        "array",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "thirdMax"
     },
     {
-      "id": "0512",
-      "slug": "game-play-analysis-ii",
-      "title": "Game Play Analysis II",
+      "id": "0415",
+      "slug": "add-strings",
+      "title": "Add Strings",
       "difficulty": "EASY",
       "tags": [
-        "database"
+        "math",
+        "string",
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addStrings"
     },
     {
-      "id": "0513",
-      "slug": "find-bottom-left-tree-value",
-      "title": "Find Bottom Left Tree Value",
+      "id": "0416",
+      "slug": "partition-equal-subset-sum",
+      "title": "Partition Equal Subset Sum",
       "difficulty": "MEDIUM",
       "tags": [
-        "tree",
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canPartition"
+    },
+    {
+      "id": "0417",
+      "slug": "pacific-atlantic-water-flow",
+      "title": "Pacific Atlantic Water Flow",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
         "depth-first-search",
         "breadth-first-search",
-        "binary-tree"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pacificAtlantic"
     },
     {
-      "id": "0514",
-      "slug": "freedom-trail",
-      "title": "Freedom Trail",
+      "id": "0418",
+      "slug": "sentence-screen-fitting",
+      "title": "Sentence Screen Fitting",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wordsTyping"
+    },
+    {
+      "id": "0419",
+      "slug": "battleships-in-a-board",
+      "title": "Battleships in a Board",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countBattleships"
+    },
+    {
+      "id": "0420",
+      "slug": "strong-password-checker",
+      "title": "Strong Password Checker",
       "difficulty": "HARD",
       "tags": [
         "string",
-        "dynamic-programming",
-        "depth-first-search",
-        "breadth-first-search"
+        "greedy",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "strongPasswordChecker"
     }
   ]
 }

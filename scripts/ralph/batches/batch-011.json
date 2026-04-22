@@ -2,249 +2,295 @@
   "batchId": "batch-011",
   "problems": [
     {
-      "id": "0281",
-      "slug": "zigzag-iterator",
-      "title": "Zigzag Iterator",
+      "id": "0201",
+      "slug": "bitwise-and-of-numbers-range",
+      "title": "Bitwise AND of Numbers Range",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "design",
-        "queue",
-        "iterator"
+        "bit-manipulation"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rangeBitwiseAnd"
     },
     {
-      "id": "0282",
-      "slug": "expression-add-operators",
-      "title": "Expression Add Operators",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "string",
-        "backtracking"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0283",
-      "slug": "move-zeroes",
-      "title": "Move Zeroes",
+      "id": "0202",
+      "slug": "happy-number",
+      "title": "Happy Number",
       "difficulty": "EASY",
       "tags": [
-        "array",
+        "hash-table",
+        "math",
         "two-pointers"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isHappy"
     },
     {
-      "id": "0284",
-      "slug": "peeking-iterator",
-      "title": "Peeking Iterator",
+      "id": "0203",
+      "slug": "remove-linked-list-elements",
+      "title": "Remove Linked List Elements",
+      "difficulty": "EASY",
+      "tags": [
+        "linked-list",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeElements"
+    },
+    {
+      "id": "0204",
+      "slug": "count-primes",
+      "title": "Count Primes",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "design",
-        "iterator"
+        "math",
+        "enumeration",
+        "number-theory"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPrimes"
     },
     {
-      "id": "0285",
-      "slug": "inorder-successor-in-bst",
-      "title": "Inorder Successor in BST",
+      "id": "0205",
+      "slug": "isomorphic-strings",
+      "title": "Isomorphic Strings",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isIsomorphic"
+    },
+    {
+      "id": "0206",
+      "slug": "reverse-linked-list",
+      "title": "Reverse Linked List",
+      "difficulty": "EASY",
+      "tags": [
+        "linked-list",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverseList"
+    },
+    {
+      "id": "0207",
+      "slug": "course-schedule",
+      "title": "Course Schedule",
       "difficulty": "MEDIUM",
       "tags": [
-        "tree",
         "depth-first-search",
-        "binary-search-tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0286",
-      "slug": "walls-and-gates",
-      "title": "Walls and Gates",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "breadth-first-search",
-        "matrix"
+        "graph",
+        "topological-sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canFinish"
     },
     {
-      "id": "0288",
-      "slug": "unique-word-abbreviation",
-      "title": "Unique Word Abbreviation",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "design"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0289",
-      "slug": "game-of-life",
-      "title": "Game of Life",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "matrix",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0290",
-      "slug": "word-pattern",
-      "title": "Word Pattern",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0291",
-      "slug": "word-pattern-ii",
-      "title": "Word Pattern II",
+      "id": "0208",
+      "slug": "implement-trie-prefix-tree",
+      "title": "Implement Trie (Prefix Tree)",
       "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
         "string",
-        "backtracking"
+        "design",
+        "trie"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "Trie"
     },
     {
-      "id": "0292",
-      "slug": "nim-game",
-      "title": "Nim Game",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "brainteaser",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0293",
-      "slug": "flip-game",
-      "title": "Flip Game",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0294",
-      "slug": "flip-game-ii",
-      "title": "Flip Game II",
+      "id": "0209",
+      "slug": "minimum-size-subarray-sum",
+      "title": "Minimum Size Subarray Sum",
       "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "backtracking",
-        "memoization",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0296",
-      "slug": "best-meeting-point",
-      "title": "Best Meeting Point",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math",
-        "sorting",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0298",
-      "slug": "binary-tree-longest-consecutive-sequence",
-      "title": "Binary Tree Longest Consecutive Sequence",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0299",
-      "slug": "bulls-and-cows",
-      "title": "Bulls and Cows",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0301",
-      "slug": "remove-invalid-parentheses",
-      "title": "Remove Invalid Parentheses",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "backtracking",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0302",
-      "slug": "smallest-rectangle-enclosing-black-pixels",
-      "title": "Smallest Rectangle Enclosing Black Pixels",
-      "difficulty": "HARD",
       "tags": [
         "array",
         "binary-search",
-        "depth-first-search",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0303",
-      "slug": "range-sum-query-immutable",
-      "title": "Range Sum Query - Immutable",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "design",
+        "sliding-window",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSubArrayLen"
     },
     {
-      "id": "0304",
-      "slug": "range-sum-query-2d-immutable",
-      "title": "Range Sum Query 2D - Immutable",
+      "id": "0210",
+      "slug": "course-schedule-ii",
+      "title": "Course Schedule II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findOrder"
+    },
+    {
+      "id": "0211",
+      "slug": "design-add-and-search-words-data-structure",
+      "title": "Design Add and Search Words Data Structure",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "depth-first-search",
+        "design",
+        "trie"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "WordDictionary"
+    },
+    {
+      "id": "0212",
+      "slug": "word-search-ii",
+      "title": "Word Search II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "backtracking",
+        "trie",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findWords"
+    },
+    {
+      "id": "0213",
+      "slug": "house-robber-ii",
+      "title": "House Robber II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "design",
-        "matrix",
-        "prefix-sum"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rob"
+    },
+    {
+      "id": "0214",
+      "slug": "shortest-palindrome",
+      "title": "Shortest Palindrome",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "rolling-hash",
+        "string-matching",
+        "hash-function"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestPalindrome"
+    },
+    {
+      "id": "0215",
+      "slug": "kth-largest-element-in-an-array",
+      "title": "Kth Largest Element in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "sorting",
+        "heap-priority-queue",
+        "quickselect"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findKthLargest"
+    },
+    {
+      "id": "0216",
+      "slug": "combination-sum-iii",
+      "title": "Combination Sum III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "combinationSum3"
+    },
+    {
+      "id": "0217",
+      "slug": "contains-duplicate",
+      "title": "Contains Duplicate",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "containsDuplicate"
+    },
+    {
+      "id": "0218",
+      "slug": "the-skyline-problem",
+      "title": "The Skyline Problem",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "line-sweep",
+        "sorting",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getSkyline"
+    },
+    {
+      "id": "0219",
+      "slug": "contains-duplicate-ii",
+      "title": "Contains Duplicate II",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "containsNearbyDuplicate"
+    },
+    {
+      "id": "0220",
+      "slug": "contains-duplicate-iii",
+      "title": "Contains Duplicate III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "sliding-window",
+        "sorting",
+        "bucket-sort",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "containsNearbyAlmostDuplicate"
     }
   ]
 }

@@ -2,254 +2,288 @@
   "batchId": "batch-043",
   "problems": [
     {
-      "id": "0940",
-      "slug": "distinct-subsequences-ii",
-      "title": "Distinct Subsequences II",
-      "difficulty": "HARD",
+      "id": "0841",
+      "slug": "keys-and-rooms",
+      "title": "Keys and Rooms",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canVisitAllRooms"
+    },
+    {
+      "id": "0842",
+      "slug": "split-array-into-fibonacci-sequence",
+      "title": "Split Array into Fibonacci Sequence",
+      "difficulty": "MEDIUM",
       "tags": [
         "string",
-        "dynamic-programming"
+        "backtracking"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "splitIntoFibonacci"
     },
     {
-      "id": "0941",
-      "slug": "valid-mountain-array",
-      "title": "Valid Mountain Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0942",
-      "slug": "di-string-match",
-      "title": "DI String Match",
-      "difficulty": "EASY",
+      "id": "0843",
+      "slug": "guess-the-word",
+      "title": "Guess the Word",
+      "difficulty": "HARD",
       "tags": [
         "array",
+        "math",
+        "string",
+        "interactive",
+        "game-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findSecretWord"
+    },
+    {
+      "id": "0844",
+      "slug": "backspace-string-compare",
+      "title": "Backspace String Compare",
+      "difficulty": "EASY",
+      "tags": [
         "two-pointers",
         "string",
-        "greedy"
+        "stack",
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "backspaceCompare"
     },
     {
-      "id": "0943",
-      "slug": "find-the-shortest-superstring",
-      "title": "Find the Shortest Superstring",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "string",
-        "dynamic-programming",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0944",
-      "slug": "delete-columns-to-make-sorted",
-      "title": "Delete Columns to Make Sorted",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0945",
-      "slug": "minimum-increment-to-make-array-unique",
-      "title": "Minimum Increment to Make Array Unique",
+      "id": "0845",
+      "slug": "longest-mountain-in-array",
+      "title": "Longest Mountain in Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "sorting",
-        "counting"
+        "two-pointers",
+        "dynamic-programming",
+        "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestMountain"
     },
     {
-      "id": "0946",
-      "slug": "validate-stack-sequences",
-      "title": "Validate Stack Sequences",
+      "id": "0846",
+      "slug": "hand-of-straights",
+      "title": "Hand of Straights",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isNStraightHand"
+    },
+    {
+      "id": "0847",
+      "slug": "shortest-path-visiting-all-nodes",
+      "title": "Shortest Path Visiting All Nodes",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "bit-manipulation",
+        "breadth-first-search",
+        "graph",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestPathLength"
+    },
+    {
+      "id": "0848",
+      "slug": "shifting-letters",
+      "title": "Shifting Letters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shiftingLetters"
+    },
+    {
+      "id": "0849",
+      "slug": "maximize-distance-to-closest-person",
+      "title": "Maximize Distance to Closest Person",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDistToClosest"
+    },
+    {
+      "id": "0850",
+      "slug": "rectangle-area-ii",
+      "title": "Rectangle Area II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "segment-tree",
+        "line-sweep",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rectangleArea"
+    },
+    {
+      "id": "0851",
+      "slug": "loud-and-rich",
+      "title": "Loud and Rich",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "loudAndRich"
+    },
+    {
+      "id": "0852",
+      "slug": "peak-index-in-a-mountain-array",
+      "title": "Peak Index in a Mountain Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "peakIndexInMountainArray"
+    },
+    {
+      "id": "0853",
+      "slug": "car-fleet",
+      "title": "Car Fleet",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "stack",
-        "simulation"
+        "sorting",
+        "monotonic-stack"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "carFleet"
     },
     {
-      "id": "0947",
-      "slug": "most-stones-removed-with-same-row-or-column",
-      "title": "Most Stones Removed with Same Row or Column",
-      "difficulty": "MEDIUM",
+      "id": "0854",
+      "slug": "k-similar-strings",
+      "title": "K-Similar Strings",
+      "difficulty": "HARD",
       "tags": [
         "hash-table",
-        "depth-first-search",
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0948",
-      "slug": "bag-of-tokens",
-      "title": "Bag of Tokens",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0949",
-      "slug": "largest-time-for-given-digits",
-      "title": "Largest Time for Given Digits",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "string",
-        "backtracking",
-        "enumeration"
+        "breadth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kSimilarity"
     },
     {
-      "id": "0950",
-      "slug": "reveal-cards-in-increasing-order",
-      "title": "Reveal Cards In Increasing Order",
+      "id": "0855",
+      "slug": "exam-room",
+      "title": "Exam Room",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "queue",
-        "sorting",
-        "simulation"
+        "design",
+        "heap-priority-queue",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "ExamRoom"
     },
     {
-      "id": "0951",
-      "slug": "flip-equivalent-binary-trees",
-      "title": "Flip Equivalent Binary Trees",
+      "id": "0856",
+      "slug": "score-of-parentheses",
+      "title": "Score of Parentheses",
       "difficulty": "MEDIUM",
       "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
+        "string",
+        "stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "scoreOfParentheses"
     },
     {
-      "id": "0952",
-      "slug": "largest-component-size-by-common-factor",
-      "title": "Largest Component Size by Common Factor",
+      "id": "0857",
+      "slug": "minimum-cost-to-hire-k-workers",
+      "title": "Minimum Cost to Hire K Workers",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "hash-table",
-        "math",
-        "union-find",
-        "number-theory"
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mincostToHireWorkers"
     },
     {
-      "id": "0953",
-      "slug": "verifying-an-alien-dictionary",
-      "title": "Verifying an Alien Dictionary",
+      "id": "0858",
+      "slug": "mirror-reflection",
+      "title": "Mirror Reflection",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "geometry",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mirrorReflection"
+    },
+    {
+      "id": "0859",
+      "slug": "buddy-strings",
+      "title": "Buddy Strings",
       "difficulty": "EASY",
       "tags": [
-        "array",
         "hash-table",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "buddyStrings"
     },
     {
-      "id": "0954",
-      "slug": "array-of-doubled-pairs",
-      "title": "Array of Doubled Pairs",
-      "difficulty": "MEDIUM",
+      "id": "0860",
+      "slug": "lemonade-change",
+      "title": "Lemonade Change",
+      "difficulty": "EASY",
       "tags": [
         "array",
-        "hash-table",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0955",
-      "slug": "delete-columns-to-make-sorted-ii",
-      "title": "Delete Columns to Make Sorted II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
         "greedy"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "0956",
-      "slug": "tallest-billboard",
-      "title": "Tallest Billboard",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0957",
-      "slug": "prison-cells-after-n-days",
-      "title": "Prison Cells After N Days",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0958",
-      "slug": "check-completeness-of-a-binary-tree",
-      "title": "Check Completeness of a Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0959",
-      "slug": "regions-cut-by-slashes",
-      "title": "Regions Cut By Slashes",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "matrix"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lemonadeChange"
     }
   ]
 }

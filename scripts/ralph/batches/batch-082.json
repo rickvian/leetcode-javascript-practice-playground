@@ -2,255 +2,288 @@
   "batchId": "batch-082",
   "problems": [
     {
-      "id": "1722",
-      "slug": "minimize-hamming-distance-after-swap-operations",
-      "title": "Minimize Hamming Distance After Swap Operations",
+      "id": "1621",
+      "slug": "number-of-sets-of-k-non-overlapping-line-segments",
+      "title": "Number of Sets of K Non-Overlapping Line Segments",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "depth-first-search",
-        "union-find"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1723",
-      "slug": "find-minimum-time-to-finish-all-jobs",
-      "title": "Find Minimum Time to Finish All Jobs",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1724",
-      "slug": "checking-existence-of-edge-length-limited-paths-ii",
-      "title": "Checking Existence of Edge Length Limited Paths II",
-      "difficulty": "HARD",
-      "tags": [
-        "depth-first-search",
-        "union-find",
-        "graph",
-        "design",
-        "sorting",
-        "heap-priority-queue",
-        "minimum-spanning-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1725",
-      "slug": "number-of-rectangles-that-can-form-the-largest-square",
-      "title": "Number Of Rectangles That Can Form The Largest Square",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1726",
-      "slug": "tuple-with-same-product",
-      "title": "Tuple with Same Product",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1727",
-      "slug": "largest-submatrix-with-rearrangements",
-      "title": "Largest Submatrix With Rearrangements",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1728",
-      "slug": "cat-and-mouse-ii",
-      "title": "Cat and Mouse II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "graph",
-        "topological-sort",
-        "memoization",
-        "matrix",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1729",
-      "slug": "find-followers-count",
-      "title": "Find Followers Count",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1730",
-      "slug": "shortest-path-to-get-food",
-      "title": "Shortest Path to Get Food",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1731",
-      "slug": "the-number-of-employees-which-report-to-each-employee",
-      "title": "The Number of Employees Which Report to Each Employee",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1732",
-      "slug": "find-the-highest-altitude",
-      "title": "Find the Highest Altitude",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1733",
-      "slug": "minimum-number-of-people-to-teach",
-      "title": "Minimum Number of People to Teach",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1734",
-      "slug": "decode-xored-permutation",
-      "title": "Decode XORed Permutation",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1735",
-      "slug": "count-ways-to-make-array-with-product",
-      "title": "Count Ways to Make Array With Product",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
         "math",
         "dynamic-programming",
         "combinatorics",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1736",
-      "slug": "latest-time-by-replacing-hidden-digits",
-      "title": "Latest Time by Replacing Hidden Digits",
-      "difficulty": "EASY",
-      "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1737",
-      "slug": "change-minimum-characters-to-satisfy-one-of-three-conditions",
-      "title": "Change Minimum Characters to Satisfy One of Three Conditions",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "counting",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfSets"
     },
     {
-      "id": "1738",
-      "slug": "find-kth-largest-xor-coordinate-value",
-      "title": "Find Kth Largest XOR Coordinate Value",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "divide-and-conquer",
-        "bit-manipulation",
-        "sorting",
-        "heap-priority-queue",
-        "matrix",
-        "prefix-sum",
-        "quickselect"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1739",
-      "slug": "building-boxes",
-      "title": "Building Boxes",
+      "id": "1622",
+      "slug": "fancy-sequence",
+      "title": "Fancy Sequence",
       "difficulty": "HARD",
       "tags": [
         "math",
-        "binary-search",
-        "greedy"
+        "design",
+        "segment-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "Fancy"
     },
     {
-      "id": "1740",
-      "slug": "find-distance-in-a-binary-tree",
-      "title": "Find Distance in a Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1741",
-      "slug": "find-total-time-spent-by-each-employee",
-      "title": "Find Total Time Spent by Each Employee",
+      "id": "1623",
+      "slug": "all-valid-triplets-that-can-represent-a-country",
+      "title": "All Valid Triplets That Can Represent a Country",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1624",
+      "slug": "largest-substring-between-two-equal-characters",
+      "title": "Largest Substring Between Two Equal Characters",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxLengthBetweenEqualCharacters"
+    },
+    {
+      "id": "1625",
+      "slug": "lexicographically-smallest-string-after-applying-operations",
+      "title": "Lexicographically Smallest String After Applying Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "depth-first-search",
+        "breadth-first-search",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findLexSmallestString"
+    },
+    {
+      "id": "1626",
+      "slug": "best-team-with-no-conflicts",
+      "title": "Best Team With No Conflicts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "bestTeamScore"
+    },
+    {
+      "id": "1627",
+      "slug": "graph-connectivity-with-threshold",
+      "title": "Graph Connectivity With Threshold",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "union-find",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "areConnected"
+    },
+    {
+      "id": "1628",
+      "slug": "design-an-expression-tree-with-evaluate-function",
+      "title": "Design an Expression Tree With Evaluate Function",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "stack",
+        "tree",
+        "design",
+        "binary-tree"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "Node"
+    },
+    {
+      "id": "1629",
+      "slug": "slowest-key",
+      "title": "Slowest Key",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "slowestKey"
+    },
+    {
+      "id": "1630",
+      "slug": "arithmetic-subarrays",
+      "title": "Arithmetic Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkArithmeticSubarrays"
+    },
+    {
+      "id": "1631",
+      "slug": "path-with-minimum-effort",
+      "title": "Path With Minimum Effort",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumEffortPath"
+    },
+    {
+      "id": "1632",
+      "slug": "rank-transform-of-a-matrix",
+      "title": "Rank Transform of a Matrix",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "union-find",
+        "graph",
+        "topological-sort",
+        "sorting",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "matrixRankTransform"
+    },
+    {
+      "id": "1633",
+      "slug": "percentage-of-users-attended-a-contest",
+      "title": "Percentage of Users Attended a Contest",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1634",
+      "slug": "add-two-polynomials-represented-as-linked-lists",
+      "title": "Add Two Polynomials Represented as Linked Lists",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "math",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addPoly"
+    },
+    {
+      "id": "1635",
+      "slug": "hopper-company-queries-i",
+      "title": "Hopper Company Queries I",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1636",
+      "slug": "sort-array-by-increasing-frequency",
+      "title": "Sort Array by Increasing Frequency",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "frequencySort"
+    },
+    {
+      "id": "1637",
+      "slug": "widest-vertical-area-between-two-points-containing-no-points",
+      "title": "Widest Vertical Area Between Two Points Containing No Points",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxWidthOfVerticalArea"
+    },
+    {
+      "id": "1638",
+      "slug": "count-substrings-that-differ-by-one-character",
+      "title": "Count Substrings That Differ by One Character",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSubstrings"
+    },
+    {
+      "id": "1639",
+      "slug": "number-of-ways-to-form-a-target-string-given-a-dictionary",
+      "title": "Number of Ways to Form a Target String Given a Dictionary",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numWays"
+    },
+    {
+      "id": "1640",
+      "slug": "check-array-formation-through-concatenation",
+      "title": "Check Array Formation Through Concatenation",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canFormArray"
     }
   ]
 }

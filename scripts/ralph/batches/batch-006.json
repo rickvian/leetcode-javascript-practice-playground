@@ -2,239 +2,299 @@
   "batchId": "batch-006",
   "problems": [
     {
-      "id": "0150",
-      "slug": "evaluate-reverse-polish-notation",
-      "title": "Evaluate Reverse Polish Notation",
+      "id": "0101",
+      "slug": "symmetric-tree",
+      "title": "Symmetric Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isSymmetric"
+    },
+    {
+      "id": "0102",
+      "slug": "binary-tree-level-order-traversal",
+      "title": "Binary Tree Level Order Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "levelOrder"
+    },
+    {
+      "id": "0103",
+      "slug": "binary-tree-zigzag-level-order-traversal",
+      "title": "Binary Tree Zigzag Level Order Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "zigzagLevelOrder"
+    },
+    {
+      "id": "0104",
+      "slug": "maximum-depth-of-binary-tree",
+      "title": "Maximum Depth of Binary Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDepth"
+    },
+    {
+      "id": "0105",
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "stack"
+        "hash-table",
+        "divide-and-conquer",
+        "tree",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "buildTree"
     },
     {
-      "id": "0151",
-      "slug": "reverse-words-in-a-string",
-      "title": "Reverse Words in a String",
+      "id": "0106",
+      "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "title": "Construct Binary Tree from Inorder and Postorder Traversal",
       "difficulty": "MEDIUM",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0154",
-      "slug": "find-minimum-in-rotated-sorted-array-ii",
-      "title": "Find Minimum in Rotated Sorted Array II",
-      "difficulty": "HARD",
       "tags": [
         "array",
-        "binary-search"
+        "hash-table",
+        "divide-and-conquer",
+        "tree",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "buildTree"
     },
     {
-      "id": "0155",
-      "slug": "min-stack",
-      "title": "Min Stack",
+      "id": "0107",
+      "slug": "binary-tree-level-order-traversal-ii",
+      "title": "Binary Tree Level Order Traversal II",
       "difficulty": "MEDIUM",
       "tags": [
-        "stack",
-        "design"
+        "tree",
+        "breadth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "levelOrderBottom"
     },
     {
-      "id": "0156",
-      "slug": "binary-tree-upside-down",
-      "title": "Binary Tree Upside Down",
+      "id": "0108",
+      "slug": "convert-sorted-array-to-binary-search-tree",
+      "title": "Convert Sorted Array to Binary Search Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortedArrayToBST"
+    },
+    {
+      "id": "0109",
+      "slug": "convert-sorted-list-to-binary-search-tree",
+      "title": "Convert Sorted List to Binary Search Tree",
       "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "divide-and-conquer",
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortedListToBST"
+    },
+    {
+      "id": "0110",
+      "slug": "balanced-binary-tree",
+      "title": "Balanced Binary Tree",
+      "difficulty": "EASY",
       "tags": [
         "tree",
         "depth-first-search",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isBalanced"
     },
     {
-      "id": "0157",
-      "slug": "read-n-characters-given-read4",
-      "title": "Read N Characters Given Read4",
+      "id": "0111",
+      "slug": "minimum-depth-of-binary-tree",
+      "title": "Minimum Depth of Binary Tree",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "simulation",
-        "interactive"
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minDepth"
     },
     {
-      "id": "0158",
-      "slug": "read-n-characters-given-read4-ii-call-multiple-times",
-      "title": "Read N Characters Given read4 II - Call Multiple Times",
+      "id": "0112",
+      "slug": "path-sum",
+      "title": "Path Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "hasPathSum"
+    },
+    {
+      "id": "0113",
+      "slug": "path-sum-ii",
+      "title": "Path Sum II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "backtracking",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pathSum"
+    },
+    {
+      "id": "0114",
+      "slug": "flatten-binary-tree-to-linked-list",
+      "title": "Flatten Binary Tree to Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "flatten"
+    },
+    {
+      "id": "0115",
+      "slug": "distinct-subsequences",
+      "title": "Distinct Subsequences",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "simulation",
-        "interactive"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0159",
-      "slug": "longest-substring-with-at-most-two-distinct-characters",
-      "title": "Longest Substring with At Most Two Distinct Characters",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
         "string",
-        "sliding-window"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numDistinct"
     },
     {
-      "id": "0160",
-      "slug": "intersection-of-two-linked-lists",
-      "title": "Intersection of Two Linked Lists",
-      "difficulty": "EASY",
+      "id": "0116",
+      "slug": "populating-next-right-pointers-in-each-node",
+      "title": "Populating Next Right Pointers in Each Node",
+      "difficulty": "MEDIUM",
       "tags": [
-        "hash-table",
         "linked-list",
-        "two-pointers"
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "connect"
     },
     {
-      "id": "0161",
-      "slug": "one-edit-distance",
-      "title": "One Edit Distance",
+      "id": "0117",
+      "slug": "populating-next-right-pointers-in-each-node-ii",
+      "title": "Populating Next Right Pointers in Each Node II",
       "difficulty": "MEDIUM",
       "tags": [
-        "two-pointers",
-        "string"
+        "linked-list",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "connect"
     },
     {
-      "id": "0162",
-      "slug": "find-peak-element",
-      "title": "Find Peak Element",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0163",
-      "slug": "missing-ranges",
-      "title": "Missing Ranges",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0164",
-      "slug": "maximum-gap",
-      "title": "Maximum Gap",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sorting",
-        "bucket-sort",
-        "radix-sort"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0165",
-      "slug": "compare-version-numbers",
-      "title": "Compare Version Numbers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0166",
-      "slug": "fraction-to-recurring-decimal",
-      "title": "Fraction to Recurring Decimal",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "math",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0167",
-      "slug": "two-sum-ii-input-array-is-sorted",
-      "title": "Two Sum II - Input Array Is Sorted",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0168",
-      "slug": "excel-sheet-column-title",
-      "title": "Excel Sheet Column Title",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0169",
-      "slug": "majority-element",
-      "title": "Majority Element",
+      "id": "0118",
+      "slug": "pascals-triangle",
+      "title": "Pascal's Triangle",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "hash-table",
-        "divide-and-conquer",
-        "sorting",
-        "counting"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "generate"
     },
     {
-      "id": "0170",
-      "slug": "two-sum-iii-data-structure-design",
-      "title": "Two Sum III - Data structure design",
+      "id": "0119",
+      "slug": "pascals-triangle-ii",
+      "title": "Pascal's Triangle II",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "hash-table",
-        "two-pointers",
-        "design",
-        "data-stream"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getRow"
     },
     {
-      "id": "0171",
-      "slug": "excel-sheet-column-number",
-      "title": "Excel Sheet Column Number",
-      "difficulty": "EASY",
+      "id": "0120",
+      "slug": "triangle",
+      "title": "Triangle",
+      "difficulty": "MEDIUM",
       "tags": [
-        "math",
-        "string"
+        "array",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumTotal"
     }
   ]
 }

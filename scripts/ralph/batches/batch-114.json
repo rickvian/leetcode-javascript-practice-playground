@@ -2,244 +2,294 @@
   "batchId": "batch-114",
   "problems": [
     {
-      "id": "2362",
-      "slug": "generate-the-invoice",
-      "title": "Generate the Invoice",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2363",
-      "slug": "merge-similar-items",
-      "title": "Merge Similar Items",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "sorting",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2364",
-      "slug": "count-number-of-bad-pairs",
-      "title": "Count Number of Bad Pairs",
+      "id": "2261",
+      "slug": "k-divisible-elements-subarrays",
+      "title": "K Divisible Elements Subarrays",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "math",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2365",
-      "slug": "task-scheduler-ii",
-      "title": "Task Scheduler II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2366",
-      "slug": "minimum-replacements-to-sort-the-array",
-      "title": "Minimum Replacements to Sort the Array",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2367",
-      "slug": "number-of-arithmetic-triplets",
-      "title": "Number of Arithmetic Triplets",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "two-pointers",
+        "trie",
+        "rolling-hash",
+        "hash-function",
         "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countDistinct"
     },
     {
-      "id": "2368",
-      "slug": "reachable-nodes-with-restrictions",
-      "title": "Reachable Nodes With Restrictions",
-      "difficulty": "MEDIUM",
+      "id": "2262",
+      "slug": "total-appeal-of-a-string",
+      "title": "Total Appeal of A String",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "appealSum"
+    },
+    {
+      "id": "2263",
+      "slug": "make-array-non-decreasing-or-non-increasing",
+      "title": "Make Array Non-decreasing or Non-increasing",
+      "difficulty": "HARD",
       "tags": [
         "array",
-        "hash-table",
+        "dynamic-programming",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "convertArray"
+    },
+    {
+      "id": "2264",
+      "slug": "largest-3-same-digit-number-in-string",
+      "title": "Largest 3-Same-Digit Number in String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestGoodInteger"
+    },
+    {
+      "id": "2265",
+      "slug": "count-nodes-equal-to-average-of-subtree",
+      "title": "Count Nodes Equal to Average of Subtree",
+      "difficulty": "MEDIUM",
+      "tags": [
         "tree",
         "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "graph"
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "averageOfSubtree"
     },
     {
-      "id": "2369",
-      "slug": "check-if-there-is-a-valid-partition-for-the-array",
-      "title": "Check if There is a Valid Partition For The Array",
+      "id": "2266",
+      "slug": "count-number-of-texts",
+      "title": "Count Number of Texts",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
+        "hash-table",
+        "math",
+        "string",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countTexts"
     },
     {
-      "id": "2370",
-      "slug": "longest-ideal-subsequence",
-      "title": "Longest Ideal Subsequence",
+      "id": "2267",
+      "slug": "check-if-there-is-a-valid-parentheses-string-path",
+      "title": " Check if There Is a Valid Parentheses String Path",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "hasValidPath"
+    },
+    {
+      "id": "2268",
+      "slug": "minimum-number-of-keypresses",
+      "title": "Minimum Number of Keypresses",
       "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
         "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2371",
-      "slug": "minimize-maximum-value-in-a-grid",
-      "title": "Minimize Maximum Value in a Grid",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "union-find",
-        "graph",
-        "topological-sort",
+        "greedy",
         "sorting",
-        "matrix"
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumKeypresses"
     },
     {
-      "id": "2372",
-      "slug": "calculate-the-influence-of-each-salesperson",
-      "title": "Calculate the Influence of Each Salesperson",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2373",
-      "slug": "largest-local-values-in-a-matrix",
-      "title": "Largest Local Values in a Matrix",
+      "id": "2269",
+      "slug": "find-the-k-beauty-of-a-number",
+      "title": "Find the K-Beauty of a Number",
       "difficulty": "EASY",
-      "tags": [
-        "array",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2374",
-      "slug": "node-with-highest-edge-score",
-      "title": "Node With Highest Edge Score",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2375",
-      "slug": "construct-smallest-number-from-di-string",
-      "title": "Construct Smallest Number From DI String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "backtracking",
-        "stack",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2376",
-      "slug": "count-special-integers",
-      "title": "Count Special Integers",
-      "difficulty": "HARD",
       "tags": [
         "math",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2377",
-      "slug": "sort-the-olympic-table",
-      "title": "Sort the Olympic Table",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2378",
-      "slug": "choose-edges-to-maximize-score-in-a-tree",
-      "title": "Choose Edges to Maximize Score in a Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming",
-        "tree",
-        "depth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2379",
-      "slug": "minimum-recolors-to-get-k-consecutive-black-blocks",
-      "title": "Minimum Recolors to Get K Consecutive Black Blocks",
-      "difficulty": "EASY",
-      "tags": [
         "string",
         "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "divisorSubstrings"
     },
     {
-      "id": "2380",
-      "slug": "time-needed-to-rearrange-a-binary-string",
-      "title": "Time Needed to Rearrange a Binary String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2381",
-      "slug": "shifting-letters-ii",
-      "title": "Shifting Letters II",
+      "id": "2270",
+      "slug": "number-of-ways-to-split-array",
+      "title": "Number of Ways to Split Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "string",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "waysToSplitArray"
+    },
+    {
+      "id": "2271",
+      "slug": "maximum-white-tiles-covered-by-a-carpet",
+      "title": "Maximum White Tiles Covered by a Carpet",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "sliding-window",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumWhiteTiles"
+    },
+    {
+      "id": "2272",
+      "slug": "substring-with-largest-variance",
+      "title": "Substring With Largest Variance",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestVariance"
+    },
+    {
+      "id": "2273",
+      "slug": "find-resultant-array-after-removing-anagrams",
+      "title": "Find Resultant Array After Removing Anagrams",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeAnagrams"
+    },
+    {
+      "id": "2274",
+      "slug": "maximum-consecutive-floors-without-special-floors",
+      "title": "Maximum Consecutive Floors Without Special Floors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxConsecutive"
+    },
+    {
+      "id": "2275",
+      "slug": "largest-combination-with-bitwise-and-greater-than-zero",
+      "title": "Largest Combination With Bitwise AND Greater Than Zero",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestCombination"
+    },
+    {
+      "id": "2276",
+      "slug": "count-integers-in-intervals",
+      "title": "Count Integers in Intervals",
+      "difficulty": "HARD",
+      "tags": [
+        "design",
+        "segment-tree",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "CountIntervals"
+    },
+    {
+      "id": "2277",
+      "slug": "closest-node-to-path-in-tree",
+      "title": "Closest Node to Path in Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "closestNode"
+    },
+    {
+      "id": "2278",
+      "slug": "percentage-of-letter-in-string",
+      "title": "Percentage of Letter in String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "percentageLetter"
+    },
+    {
+      "id": "2279",
+      "slug": "maximum-bags-with-full-capacity-of-rocks",
+      "title": "Maximum Bags With Full Capacity of Rocks",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumBags"
+    },
+    {
+      "id": "2280",
+      "slug": "minimum-lines-to-represent-a-line-chart",
+      "title": "Minimum Lines to Represent a Line Chart",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "geometry",
+        "sorting",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumLines"
     }
   ]
 }

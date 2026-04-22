@@ -2,251 +2,296 @@
   "batchId": "batch-039",
   "problems": [
     {
-      "id": "0859",
-      "slug": "buddy-strings",
-      "title": "Buddy Strings",
+      "id": "0761",
+      "slug": "special-binary-string",
+      "title": "Special Binary String",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "divide-and-conquer",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0762",
+      "slug": "prime-number-of-set-bits-in-binary-representation",
+      "title": "Prime Number of Set Bits in Binary Representation",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPrimeSetBits"
+    },
+    {
+      "id": "0763",
+      "slug": "partition-labels",
+      "title": "Partition Labels",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "partitionLabels"
+    },
+    {
+      "id": "0764",
+      "slug": "largest-plus-sign",
+      "title": "Largest Plus Sign",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0765",
+      "slug": "couples-holding-hands",
+      "title": "Couples Holding Hands",
+      "difficulty": "HARD",
+      "tags": [
+        "greedy",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0766",
+      "slug": "toeplitz-matrix",
+      "title": "Toeplitz Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0767",
+      "slug": "reorganize-string",
+      "title": "Reorganize String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reorganizeString"
+    },
+    {
+      "id": "0768",
+      "slug": "max-chunks-to-make-sorted-ii",
+      "title": "Max Chunks To Make Sorted II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "stack",
+        "greedy",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxChunksToSorted"
+    },
+    {
+      "id": "0769",
+      "slug": "max-chunks-to-make-sorted",
+      "title": "Max Chunks To Make Sorted",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "greedy",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxChunksToSorted"
+    },
+    {
+      "id": "0770",
+      "slug": "basic-calculator-iv",
+      "title": "Basic Calculator IV",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "basicCalculatorIV"
+    },
+    {
+      "id": "0771",
+      "slug": "jewels-and-stones",
+      "title": "Jewels and Stones",
       "difficulty": "EASY",
       "tags": [
         "hash-table",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numJewelsInStones"
     },
     {
-      "id": "0860",
-      "slug": "lemonade-change",
-      "title": "Lemonade Change",
-      "difficulty": "EASY",
+      "id": "0772",
+      "slug": "basic-calculator-iii",
+      "title": "Basic Calculator III",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "calculate"
+    },
+    {
+      "id": "0773",
+      "slug": "sliding-puzzle",
+      "title": "Sliding Puzzle",
+      "difficulty": "HARD",
       "tags": [
         "array",
-        "greedy"
+        "dynamic-programming",
+        "backtracking",
+        "breadth-first-search",
+        "memoization",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "slidingPuzzle"
     },
     {
-      "id": "0861",
-      "slug": "score-after-flipping-matrix",
-      "title": "Score After Flipping Matrix",
+      "id": "0774",
+      "slug": "minimize-max-distance-to-gas-station",
+      "title": "Minimize Max Distance to Gas Station",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minmaxGasDist"
+    },
+    {
+      "id": "0775",
+      "slug": "global-and-local-inversions",
+      "title": "Global and Local Inversions",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "bit-manipulation",
-        "matrix"
+        "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isIdealPermutation"
     },
     {
-      "id": "0862",
-      "slug": "shortest-subarray-with-sum-at-least-k",
-      "title": "Shortest Subarray with Sum at Least K",
+      "id": "0776",
+      "slug": "split-bst",
+      "title": "Split BST",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "binary-search-tree",
+        "recursion",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "splitBST"
+    },
+    {
+      "id": "0777",
+      "slug": "swap-adjacent-in-lr-string",
+      "title": "Swap Adjacent in LR String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canTransform"
+    },
+    {
+      "id": "0778",
+      "slug": "swim-in-rising-water",
+      "title": "Swim in Rising Water",
       "difficulty": "HARD",
       "tags": [
         "array",
         "binary-search",
-        "queue",
-        "sliding-window",
-        "heap-priority-queue",
-        "prefix-sum",
-        "monotonic-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0863",
-      "slug": "all-nodes-distance-k-in-binary-tree",
-      "title": "All Nodes Distance K in Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "tree",
         "depth-first-search",
         "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0864",
-      "slug": "shortest-path-to-get-all-keys",
-      "title": "Shortest Path to Get All Keys",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "bit-manipulation",
-        "breadth-first-search",
+        "union-find",
+        "heap-priority-queue",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "swimInWater"
     },
     {
-      "id": "0865",
-      "slug": "smallest-subtree-with-all-the-deepest-nodes",
-      "title": "Smallest Subtree with all the Deepest Nodes",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0866",
-      "slug": "prime-palindrome",
-      "title": "Prime Palindrome",
+      "id": "0779",
+      "slug": "k-th-symbol-in-grammar",
+      "title": "K-th Symbol in Grammar",
       "difficulty": "MEDIUM",
       "tags": [
         "math",
-        "number-theory"
+        "bit-manipulation",
+        "recursion"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthGrammar"
     },
     {
-      "id": "0867",
-      "slug": "transpose-matrix",
-      "title": "Transpose Matrix",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "matrix",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0868",
-      "slug": "binary-gap",
-      "title": "Binary Gap",
-      "difficulty": "EASY",
-      "tags": [
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0869",
-      "slug": "reordered-power-of-2",
-      "title": "Reordered Power of 2",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "math",
-        "sorting",
-        "counting",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0870",
-      "slug": "advantage-shuffle",
-      "title": "Advantage Shuffle",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0871",
-      "slug": "minimum-number-of-refueling-stops",
-      "title": "Minimum Number of Refueling Stops",
+      "id": "0780",
+      "slug": "reaching-points",
+      "title": "Reaching Points",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "dynamic-programming",
-        "greedy",
-        "heap-priority-queue"
+        "math"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "0872",
-      "slug": "leaf-similar-trees",
-      "title": "Leaf-Similar Trees",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0873",
-      "slug": "length-of-longest-fibonacci-subsequence",
-      "title": "Length of Longest Fibonacci Subsequence",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0874",
-      "slug": "walking-robot-simulation",
-      "title": "Walking Robot Simulation",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0876",
-      "slug": "middle-of-the-linked-list",
-      "title": "Middle of the Linked List",
-      "difficulty": "EASY",
-      "tags": [
-        "linked-list",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0877",
-      "slug": "stone-game",
-      "title": "Stone Game",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0878",
-      "slug": "nth-magical-number",
-      "title": "Nth Magical Number",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0879",
-      "slug": "profitable-schemes",
-      "title": "Profitable Schemes",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reachingPoints"
     }
   ]
 }

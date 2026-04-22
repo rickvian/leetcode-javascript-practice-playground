@@ -2,253 +2,289 @@
   "batchId": "batch-042",
   "problems": [
     {
-      "id": "0920",
-      "slug": "number-of-music-playlists",
-      "title": "Number of Music Playlists",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "combinatorics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0921",
-      "slug": "minimum-add-to-make-parentheses-valid",
-      "title": "Minimum Add to Make Parentheses Valid",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "stack",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0922",
-      "slug": "sort-array-by-parity-ii",
-      "title": "Sort Array By Parity II",
+      "id": "0821",
+      "slug": "shortest-distance-to-a-character",
+      "title": "Shortest Distance to a Character",
       "difficulty": "EASY",
       "tags": [
         "array",
         "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestToChar"
+    },
+    {
+      "id": "0822",
+      "slug": "card-flipping-game",
+      "title": "Card Flipping Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "flipgame"
+    },
+    {
+      "id": "0823",
+      "slug": "binary-trees-with-factors",
+      "title": "Binary Trees With Factors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "dynamic-programming",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numFactoredBinaryTrees"
     },
     {
-      "id": "0923",
-      "slug": "3sum-with-multiplicity",
-      "title": "3Sum With Multiplicity",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "two-pointers",
-        "sorting",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0924",
-      "slug": "minimize-malware-spread",
-      "title": "Minimize Malware Spread",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0925",
-      "slug": "long-pressed-name",
-      "title": "Long Pressed Name",
+      "id": "0824",
+      "slug": "goat-latin",
+      "title": "Goat Latin",
       "difficulty": "EASY",
       "tags": [
-        "two-pointers",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "toGoatLatin"
     },
     {
-      "id": "0926",
-      "slug": "flip-string-to-monotone-increasing",
-      "title": "Flip String to Monotone Increasing",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0927",
-      "slug": "three-equal-parts",
-      "title": "Three Equal Parts",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0928",
-      "slug": "minimize-malware-spread-ii",
-      "title": "Minimize Malware Spread II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0929",
-      "slug": "unique-email-addresses",
-      "title": "Unique Email Addresses",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0930",
-      "slug": "binary-subarrays-with-sum",
-      "title": "Binary Subarrays With Sum",
+      "id": "0825",
+      "slug": "friends-of-appropriate-ages",
+      "title": "Friends Of Appropriate Ages",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "sliding-window",
-        "prefix-sum"
+        "two-pointers",
+        "binary-search",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numFriendRequests"
     },
     {
-      "id": "0931",
-      "slug": "minimum-falling-path-sum",
-      "title": "Minimum Falling Path Sum",
+      "id": "0826",
+      "slug": "most-profit-assigning-work",
+      "title": "Most Profit Assigning Work",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0932",
-      "slug": "beautiful-array",
-      "title": "Beautiful Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "divide-and-conquer"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0933",
-      "slug": "number-of-recent-calls",
-      "title": "Number of Recent Calls",
-      "difficulty": "EASY",
-      "tags": [
-        "design",
-        "queue",
-        "data-stream"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0934",
-      "slug": "shortest-bridge",
-      "title": "Shortest Bridge",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0935",
-      "slug": "knight-dialer",
-      "title": "Knight Dialer",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0936",
-      "slug": "stamping-the-sequence",
-      "title": "Stamping The Sequence",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "stack",
+        "two-pointers",
+        "binary-search",
         "greedy",
-        "queue"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProfitAssignment"
     },
     {
-      "id": "0937",
-      "slug": "reorder-data-in-log-files",
-      "title": "Reorder Data in Log Files",
+      "id": "0827",
+      "slug": "making-a-large-island",
+      "title": "Making A Large Island",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestIsland"
+    },
+    {
+      "id": "0828",
+      "slug": "count-unique-characters-of-all-substrings-of-a-given-string",
+      "title": "Count Unique Characters of All Substrings of a Given String",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "uniqueLetterString"
+    },
+    {
+      "id": "0829",
+      "slug": "consecutive-numbers-sum",
+      "title": "Consecutive Numbers Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "consecutiveNumbersSum"
+    },
+    {
+      "id": "0830",
+      "slug": "positions-of-large-groups",
+      "title": "Positions of Large Groups",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largeGroupPositions"
+    },
+    {
+      "id": "0831",
+      "slug": "masking-personal-information",
+      "title": "Masking Personal Information",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maskPII"
+    },
+    {
+      "id": "0832",
+      "slug": "flipping-an-image",
+      "title": "Flipping an Image",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "bit-manipulation",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "flipAndInvertImage"
+    },
+    {
+      "id": "0833",
+      "slug": "find-and-replace-in-string",
+      "title": "Find And Replace in String",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
+        "hash-table",
         "string",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findReplaceString"
     },
     {
-      "id": "0938",
-      "slug": "range-sum-of-bst",
-      "title": "Range Sum of BST",
-      "difficulty": "EASY",
+      "id": "0834",
+      "slug": "sum-of-distances-in-tree",
+      "title": "Sum of Distances in Tree",
+      "difficulty": "HARD",
       "tags": [
+        "dynamic-programming",
         "tree",
         "depth-first-search",
-        "binary-search-tree",
-        "binary-tree"
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumOfDistancesInTree"
     },
     {
-      "id": "0939",
-      "slug": "minimum-area-rectangle",
-      "title": "Minimum Area Rectangle",
+      "id": "0835",
+      "slug": "image-overlap",
+      "title": "Image Overlap",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestOverlap"
+    },
+    {
+      "id": "0836",
+      "slug": "rectangle-overlap",
+      "title": "Rectangle Overlap",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isRectangleOverlap"
+    },
+    {
+      "id": "0837",
+      "slug": "new-21-game",
+      "title": "New 21 Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "sliding-window",
+        "probability-and-statistics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "new21Game"
+    },
+    {
+      "id": "0838",
+      "slug": "push-dominoes",
+      "title": "Push Dominoes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pushDominoes"
+    },
+    {
+      "id": "0839",
+      "slug": "similar-string-groups",
+      "title": "Similar String Groups",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numSimilarGroups"
+    },
+    {
+      "id": "0840",
+      "slug": "magic-squares-in-grid",
+      "title": "Magic Squares In Grid",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
         "math",
-        "geometry",
-        "sorting"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numMagicSquaresInside"
     }
   ]
 }

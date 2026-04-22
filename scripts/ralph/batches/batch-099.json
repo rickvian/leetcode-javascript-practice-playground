@@ -2,237 +2,284 @@
   "batchId": "batch-099",
   "problems": [
     {
-      "id": "2062",
-      "slug": "count-vowel-substrings-of-a-string",
-      "title": "Count Vowel Substrings of a String",
+      "id": "1961",
+      "slug": "check-if-string-is-a-prefix-of-array",
+      "title": "Check If String Is a Prefix of Array",
       "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2063",
-      "slug": "vowels-of-all-substrings",
-      "title": "Vowels of All Substrings",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "string",
-        "dynamic-programming",
-        "combinatorics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2064",
-      "slug": "minimized-maximum-of-products-distributed-to-any-store",
-      "title": "Minimized Maximum of Products Distributed to Any Store",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2065",
-      "slug": "maximum-path-quality-of-a-graph",
-      "title": "Maximum Path Quality of a Graph",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "backtracking",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2066",
-      "slug": "account-balance",
-      "title": "Account Balance",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2067",
-      "slug": "number-of-equal-count-substrings",
-      "title": "Number of Equal Count Substrings",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "sliding-window",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2068",
-      "slug": "check-whether-two-strings-are-almost-equivalent",
-      "title": "Check Whether Two Strings are Almost Equivalent",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2069",
-      "slug": "walking-robot-simulation-ii",
-      "title": "Walking Robot Simulation II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "design",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2070",
-      "slug": "most-beautiful-item-for-each-query",
-      "title": "Most Beautiful Item for Each Query",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2071",
-      "slug": "maximum-number-of-tasks-you-can-assign",
-      "title": "Maximum Number of Tasks You Can Assign",
-      "difficulty": "HARD",
       "tags": [
         "array",
         "two-pointers",
-        "binary-search",
-        "greedy",
-        "queue",
-        "sorting",
-        "monotonic-queue"
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPrefixString"
     },
     {
-      "id": "2072",
-      "slug": "the-winner-university",
-      "title": "The Winner University",
+      "id": "1962",
+      "slug": "remove-stones-to-minimize-the-total",
+      "title": "Remove Stones to Minimize the Total",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minStoneSum"
+    },
+    {
+      "id": "1963",
+      "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+      "title": "Minimum Number of Swaps to Make the String Balanced",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSwaps"
+    },
+    {
+      "id": "1964",
+      "slug": "find-the-longest-valid-obstacle-course-at-each-position",
+      "title": "Find the Longest Valid Obstacle Course at Each Position",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "binary-indexed-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestObstacleCourseAtEachPosition"
+    },
+    {
+      "id": "1965",
+      "slug": "employees-with-missing-information",
+      "title": "Employees With Missing Information",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2073",
-      "slug": "time-needed-to-buy-tickets",
-      "title": "Time Needed to Buy Tickets",
+      "id": "1966",
+      "slug": "binary-searchable-numbers-in-an-unsorted-array",
+      "title": "Binary Searchable Numbers in an Unsorted Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "binarySearchableNumbers"
+    },
+    {
+      "id": "1967",
+      "slug": "number-of-strings-that-appear-as-substrings-in-word",
+      "title": "Number of Strings That Appear as Substrings in Word",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "queue",
-        "simulation"
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numOfStrings"
     },
     {
-      "id": "2074",
-      "slug": "reverse-nodes-in-even-length-groups",
-      "title": "Reverse Nodes in Even Length Groups",
+      "id": "1968",
+      "slug": "array-with-elements-not-equal-to-average-of-neighbors",
+      "title": "Array With Elements Not Equal to Average of Neighbors",
       "difficulty": "MEDIUM",
       "tags": [
-        "linked-list"
+        "array",
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rearrangeArray"
     },
     {
-      "id": "2075",
-      "slug": "decode-the-slanted-ciphertext",
-      "title": "Decode the Slanted Ciphertext",
+      "id": "1969",
+      "slug": "minimum-non-zero-product-of-the-array-elements",
+      "title": "Minimum Non-Zero Product of the Array Elements",
       "difficulty": "MEDIUM",
       "tags": [
-        "string",
-        "simulation"
+        "math",
+        "greedy",
+        "recursion"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minNonZeroProduct"
     },
     {
-      "id": "2076",
-      "slug": "process-restricted-friend-requests",
-      "title": "Process Restricted Friend Requests",
+      "id": "1970",
+      "slug": "last-day-where-you-can-still-cross",
+      "title": "Last Day Where You Can Still Cross",
       "difficulty": "HARD",
       "tags": [
+        "array",
+        "binary-search",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "latestDayToCross"
+    },
+    {
+      "id": "1971",
+      "slug": "find-if-path-exists-in-graph",
+      "title": "Find if Path Exists in Graph",
+      "difficulty": "EASY",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
         "union-find",
         "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validPath"
     },
     {
-      "id": "2077",
-      "slug": "paths-in-maze-that-lead-to-same-room",
-      "title": "Paths in Maze That Lead to Same Room",
+      "id": "1972",
+      "slug": "first-and-last-call-on-the-same-day",
+      "title": "First and Last Call On the Same Day",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1973",
+      "slug": "count-nodes-equal-to-sum-of-descendants",
+      "title": "Count Nodes Equal to Sum of Descendants",
       "difficulty": "MEDIUM",
       "tags": [
-        "graph"
+        "tree",
+        "depth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "equalToDescendants"
     },
     {
-      "id": "2078",
-      "slug": "two-furthest-houses-with-different-colors",
-      "title": "Two Furthest Houses With Different Colors",
+      "id": "1974",
+      "slug": "minimum-time-to-type-word-using-special-typewriter",
+      "title": "Minimum Time to Type Word Using Special Typewriter",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minTimeToType"
+    },
+    {
+      "id": "1975",
+      "slug": "maximum-matrix-sum",
+      "title": "Maximum Matrix Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxMatrixSum"
+    },
+    {
+      "id": "1976",
+      "slug": "number-of-ways-to-arrive-at-destination",
+      "title": "Number of Ways to Arrive at Destination",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "graph",
+        "topological-sort",
+        "shortest-path"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPaths"
+    },
+    {
+      "id": "1977",
+      "slug": "number-of-ways-to-separate-numbers",
+      "title": "Number of Ways to Separate Numbers",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "suffix-array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfCombinations"
+    },
+    {
+      "id": "1978",
+      "slug": "employees-whose-manager-left-the-company",
+      "title": "Employees Whose Manager Left the Company",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1979",
+      "slug": "find-greatest-common-divisor-of-array",
+      "title": "Find Greatest Common Divisor of Array",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "greedy"
+        "math",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findGCD"
     },
     {
-      "id": "2079",
-      "slug": "watering-plants",
-      "title": "Watering Plants",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2080",
-      "slug": "range-frequency-queries",
-      "title": "Range Frequency Queries",
+      "id": "1980",
+      "slug": "find-unique-binary-string",
+      "title": "Find Unique Binary String",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "binary-search",
-        "design",
-        "segment-tree"
+        "string",
+        "backtracking"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "2081",
-      "slug": "sum-of-k-mirror-numbers",
-      "title": "Sum of k-Mirror Numbers",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "enumeration"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findDifferentBinaryString"
     }
   ]
 }

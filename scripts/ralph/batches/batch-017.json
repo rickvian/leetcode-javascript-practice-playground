@@ -2,251 +2,300 @@
   "batchId": "batch-017",
   "problems": [
     {
-      "id": "0412",
-      "slug": "fizz-buzz",
-      "title": "Fizz Buzz",
-      "difficulty": "EASY",
+      "id": "0321",
+      "slug": "create-maximum-number",
+      "title": "Create Maximum Number",
+      "difficulty": "HARD",
       "tags": [
-        "math",
-        "string",
-        "simulation"
+        "array",
+        "two-pointers",
+        "stack",
+        "greedy",
+        "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxNumber"
     },
     {
-      "id": "0413",
-      "slug": "arithmetic-slices",
-      "title": "Arithmetic Slices",
+      "id": "0322",
+      "slug": "coin-change",
+      "title": "Coin Change",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming",
-        "sliding-window"
+        "breadth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "coinChange"
     },
     {
-      "id": "0414",
-      "slug": "third-maximum-number",
-      "title": "Third Maximum Number",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0415",
-      "slug": "add-strings",
-      "title": "Add Strings",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "string",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0416",
-      "slug": "partition-equal-subset-sum",
-      "title": "Partition Equal Subset Sum",
+      "id": "0323",
+      "slug": "number-of-connected-components-in-an-undirected-graph",
+      "title": "Number of Connected Components in an Undirected Graph",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0418",
-      "slug": "sentence-screen-fitting",
-      "title": "Sentence Screen Fitting",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0419",
-      "slug": "battleships-in-a-board",
-      "title": "Battleships in a Board",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "depth-first-search",
-        "matrix"
+        "breadth-first-search",
+        "union-find",
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countComponents"
     },
     {
-      "id": "0420",
-      "slug": "strong-password-checker",
-      "title": "Strong Password Checker",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "greedy",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0421",
-      "slug": "maximum-xor-of-two-numbers-in-an-array",
-      "title": "Maximum XOR of Two Numbers in an Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "bit-manipulation",
-        "trie"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0422",
-      "slug": "valid-word-square",
-      "title": "Valid Word Square",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0423",
-      "slug": "reconstruct-original-digits-from-english",
-      "title": "Reconstruct Original Digits from English",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "math",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0425",
-      "slug": "word-squares",
-      "title": "Word Squares",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "string",
-        "backtracking",
-        "trie"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0426",
-      "slug": "convert-binary-search-tree-to-sorted-doubly-linked-list",
-      "title": "Convert Binary Search Tree to Sorted Doubly Linked List",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "stack",
-        "tree",
-        "depth-first-search",
-        "binary-search-tree",
-        "binary-tree",
-        "doubly-linked-list"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0427",
-      "slug": "construct-quad-tree",
-      "title": "Construct Quad Tree",
+      "id": "0324",
+      "slug": "wiggle-sort-ii",
+      "title": "Wiggle Sort II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "divide-and-conquer",
-        "tree",
-        "matrix"
+        "greedy",
+        "sorting",
+        "quickselect"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wiggleSort"
     },
     {
-      "id": "0428",
-      "slug": "serialize-and-deserialize-n-ary-tree",
-      "title": "Serialize and Deserialize N-ary Tree",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0429",
-      "slug": "n-ary-tree-level-order-traversal",
-      "title": "N-ary Tree Level Order Traversal",
+      "id": "0325",
+      "slug": "maximum-size-subarray-sum-equals-k",
+      "title": "Maximum Size Subarray Sum Equals k",
       "difficulty": "MEDIUM",
       "tags": [
-        "tree",
-        "breadth-first-search"
+        "array",
+        "hash-table",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSubArrayLen"
     },
     {
-      "id": "0430",
-      "slug": "flatten-a-multilevel-doubly-linked-list",
-      "title": "Flatten a Multilevel Doubly Linked List",
-      "difficulty": "MEDIUM",
+      "id": "0326",
+      "slug": "power-of-three",
+      "title": "Power of Three",
+      "difficulty": "EASY",
       "tags": [
-        "linked-list",
-        "depth-first-search",
-        "doubly-linked-list"
+        "math",
+        "recursion"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPowerOfThree"
     },
     {
-      "id": "0431",
-      "slug": "encode-n-ary-tree-to-binary-tree",
-      "title": "Encode N-ary Tree to Binary Tree",
+      "id": "0327",
+      "slug": "count-of-range-sum",
+      "title": "Count of Range Sum",
       "difficulty": "HARD",
       "tags": [
-        "tree",
+        "array",
+        "binary-search",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countRangeSum"
+    },
+    {
+      "id": "0328",
+      "slug": "odd-even-linked-list",
+      "title": "Odd Even Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "oddEvenList"
+    },
+    {
+      "id": "0329",
+      "slug": "longest-increasing-path-in-a-matrix",
+      "title": "Longest Increasing Path in a Matrix",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
         "depth-first-search",
         "breadth-first-search",
-        "design",
-        "binary-tree"
+        "graph",
+        "topological-sort",
+        "memoization",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestIncreasingPath"
     },
     {
-      "id": "0432",
-      "slug": "all-oone-data-structure",
-      "title": "All O`one Data Structure",
+      "id": "0330",
+      "slug": "patching-array",
+      "title": "Patching Array",
       "difficulty": "HARD",
       "tags": [
-        "hash-table",
-        "linked-list",
-        "design",
-        "doubly-linked-list"
+        "array",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minPatches"
     },
     {
-      "id": "0433",
-      "slug": "minimum-genetic-mutation",
-      "title": "Minimum Genetic Mutation",
+      "id": "0331",
+      "slug": "verify-preorder-serialization-of-a-binary-tree",
+      "title": "Verify Preorder Serialization of a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isValidSerialization"
+    },
+    {
+      "id": "0332",
+      "slug": "reconstruct-itinerary",
+      "title": "Reconstruct Itinerary",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "depth-first-search",
+        "graph",
+        "sorting",
+        "heap-priority-queue",
+        "eulerian-circuit"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findItinerary"
+    },
+    {
+      "id": "0333",
+      "slug": "largest-bst-subtree",
+      "title": "Largest BST Subtree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestBSTSubtree"
+    },
+    {
+      "id": "0334",
+      "slug": "increasing-triplet-subsequence",
+      "title": "Increasing Triplet Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "increasingTriplet"
+    },
+    {
+      "id": "0335",
+      "slug": "self-crossing",
+      "title": "Self Crossing",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isSelfCrossing"
+    },
+    {
+      "id": "0336",
+      "slug": "palindrome-pairs",
+      "title": "Palindrome Pairs",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "palindromePairs"
+    },
+    {
+      "id": "0337",
+      "slug": "house-robber-iii",
+      "title": "House Robber III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rob"
+    },
+    {
+      "id": "0338",
+      "slug": "counting-bits",
+      "title": "Counting Bits",
+      "difficulty": "EASY",
+      "tags": [
+        "dynamic-programming",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countBits"
+    },
+    {
+      "id": "0339",
+      "slug": "nested-list-weight-sum",
+      "title": "Nested List Weight Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "depthSum"
+    },
+    {
+      "id": "0340",
+      "slug": "longest-substring-with-at-most-k-distinct-characters",
+      "title": "Longest Substring with At Most K Distinct Characters",
       "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
         "string",
-        "breadth-first-search"
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lengthOfLongestSubstringKDistinct"
     }
   ]
 }

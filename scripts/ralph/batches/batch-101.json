@@ -2,238 +2,296 @@
   "batchId": "batch-101",
   "problems": [
     {
-      "id": "2102",
-      "slug": "sequentially-ordinal-rank-tracker",
-      "title": "Sequentially Ordinal Rank Tracker",
-      "difficulty": "HARD",
-      "tags": [
-        "design",
-        "heap-priority-queue",
-        "data-stream",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2103",
-      "slug": "rings-and-rods",
-      "title": "Rings and Rods",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2104",
-      "slug": "sum-of-subarray-ranges",
-      "title": "Sum of Subarray Ranges",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "stack",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2105",
-      "slug": "watering-plants-ii",
-      "title": "Watering Plants II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2106",
-      "slug": "maximum-fruits-harvested-after-at-most-k-steps",
-      "title": "Maximum Fruits Harvested After at Most K Steps",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "sliding-window",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2107",
-      "slug": "number-of-unique-flavors-after-sharing-k-candies",
-      "title": "Number of Unique Flavors After Sharing K Candies",
+      "id": "2001",
+      "slug": "number-of-pairs-of-interchangeable-rectangles",
+      "title": "Number of Pairs of Interchangeable Rectangles",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2108",
-      "slug": "find-first-palindromic-string-in-the-array",
-      "title": "Find First Palindromic String in the Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2109",
-      "slug": "adding-spaces-to-a-string",
-      "title": "Adding Spaces to a String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "string",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2110",
-      "slug": "number-of-smooth-descent-periods-of-a-stock",
-      "title": "Number of Smooth Descent Periods of a Stock",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "math",
-        "two-pointers",
-        "dynamic-programming",
-        "sliding-window"
+        "counting",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "interchangeableRectangles"
     },
     {
-      "id": "2111",
-      "slug": "minimum-operations-to-make-the-array-k-increasing",
-      "title": "Minimum Operations to Make the Array K-Increasing",
+      "id": "2002",
+      "slug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+      "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProduct"
+    },
+    {
+      "id": "2003",
+      "slug": "smallest-missing-genetic-value-in-each-subtree",
+      "title": "Smallest Missing Genetic Value in Each Subtree",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "binary-search"
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "union-find"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestMissingValueSubtree"
     },
     {
-      "id": "2112",
-      "slug": "the-airport-with-the-most-traffic",
-      "title": "The Airport With the Most Traffic",
-      "difficulty": "MEDIUM",
+      "id": "2004",
+      "slug": "the-number-of-seniors-and-juniors-to-join-the-company",
+      "title": "The Number of Seniors and Juniors to Join the Company",
+      "difficulty": "HARD",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2113",
-      "slug": "elements-in-array-after-removing-and-replacing-elements",
-      "title": "Elements in Array After Removing and Replacing Elements",
+      "id": "2005",
+      "slug": "subtree-removal-game-with-fibonacci-tree",
+      "title": "Subtree Removal Game with Fibonacci Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "tree",
+        "binary-tree",
+        "game-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findGameWinner"
+    },
+    {
+      "id": "2006",
+      "slug": "count-number-of-pairs-with-absolute-difference-k",
+      "title": "Count Number of Pairs With Absolute Difference K",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countKDifference"
+    },
+    {
+      "id": "2007",
+      "slug": "find-original-array-from-doubled-array",
+      "title": "Find Original Array From Doubled Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findOriginalArray"
+    },
+    {
+      "id": "2008",
+      "slug": "maximum-earnings-from-taxi",
+      "title": "Maximum Earnings From Taxi",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxTaxiEarnings"
+    },
+    {
+      "id": "2009",
+      "slug": "minimum-number-of-operations-to-make-array-continuous",
+      "title": "Minimum Number of Operations to Make Array Continuous",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
+    },
+    {
+      "id": "2010",
+      "slug": "the-number-of-seniors-and-juniors-to-join-the-company-ii",
+      "title": "The Number of Seniors and Juniors to Join the Company II",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2011",
+      "slug": "final-value-of-variable-after-performing-operations",
+      "title": "Final Value of Variable After Performing Operations",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "finalValueAfterOperations"
+    },
+    {
+      "id": "2012",
+      "slug": "sum-of-beauty-in-the-array",
+      "title": "Sum of Beauty in the Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumOfBeauties"
     },
     {
-      "id": "2114",
-      "slug": "maximum-number-of-words-found-in-sentences",
-      "title": "Maximum Number of Words Found in Sentences",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2115",
-      "slug": "find-all-possible-recipes-from-given-supplies",
-      "title": "Find All Possible Recipes from Given Supplies",
+      "id": "2013",
+      "slug": "detect-squares",
+      "title": "Detect Squares",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "string",
-        "graph",
-        "topological-sort"
+        "design",
+        "counting",
+        "data-stream"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "DetectSquares"
     },
     {
-      "id": "2116",
-      "slug": "check-if-a-parentheses-string-can-be-valid",
-      "title": "Check if a Parentheses String Can Be Valid",
+      "id": "2014",
+      "slug": "longest-subsequence-repeated-k-times",
+      "title": "Longest Subsequence Repeated k Times",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "two-pointers",
+        "string",
+        "backtracking",
+        "counting",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestSubsequenceRepeatedK"
+    },
+    {
+      "id": "2015",
+      "slug": "average-height-of-buildings-in-each-segment",
+      "title": "Average Height of Buildings in Each Segment",
       "difficulty": "MEDIUM",
       "tags": [
-        "string",
-        "stack",
-        "greedy"
+        "array",
+        "sorting",
+        "heap-priority-queue",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "averageHeightOfBuildings"
     },
     {
-      "id": "2117",
-      "slug": "abbreviating-the-product-of-a-range",
-      "title": "Abbreviating the Product of a Range",
+      "id": "2016",
+      "slug": "maximum-difference-between-increasing-elements",
+      "title": "Maximum Difference Between Increasing Elements",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumDifference"
+    },
+    {
+      "id": "2017",
+      "slug": "grid-game",
+      "title": "Grid Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "gridGame"
+    },
+    {
+      "id": "2018",
+      "slug": "check-if-word-can-be-placed-in-crossword",
+      "title": "Check if Word Can Be Placed In Crossword",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "placeWordInCrossword"
+    },
+    {
+      "id": "2019",
+      "slug": "the-score-of-students-solving-math-expression",
+      "title": "The Score of Students Solving Math Expression",
       "difficulty": "HARD",
       "tags": [
+        "array",
+        "hash-table",
         "math",
-        "number-theory"
+        "string",
+        "dynamic-programming",
+        "stack",
+        "memoization"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "scoreOfStudents"
     },
     {
-      "id": "2118",
-      "slug": "build-the-equation",
-      "title": "Build the Equation",
-      "difficulty": "HARD",
+      "id": "2020",
+      "slug": "number-of-accounts-that-did-not-stream",
+      "title": "Number of Accounts That Did Not Stream",
+      "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "2119",
-      "slug": "a-number-after-a-double-reversal",
-      "title": "A Number After a Double Reversal",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2120",
-      "slug": "execution-of-all-suffix-instructions-staying-in-a-grid",
-      "title": "Execution of All Suffix Instructions Staying in a Grid",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2121",
-      "slug": "intervals-between-identical-elements",
-      "title": "Intervals Between Identical Elements",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "prefix-sum"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

@@ -2,249 +2,289 @@
   "batchId": "batch-015",
   "problems": [
     {
-      "id": "0362",
-      "slug": "design-hit-counter",
-      "title": "Design Hit Counter",
+      "id": "0281",
+      "slug": "zigzag-iterator",
+      "title": "Zigzag Iterator",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "binary-search",
         "design",
         "queue",
-        "data-stream"
+        "iterator"
       ],
-      "classHeavy": true
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "ZigzagIterator"
     },
     {
-      "id": "0370",
-      "slug": "range-addition",
-      "title": "Range Addition",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0372",
-      "slug": "super-pow",
-      "title": "Super Pow",
-      "difficulty": "MEDIUM",
+      "id": "0282",
+      "slug": "expression-add-operators",
+      "title": "Expression Add Operators",
+      "difficulty": "HARD",
       "tags": [
         "math",
-        "divide-and-conquer"
+        "string",
+        "backtracking"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addOperators"
     },
     {
-      "id": "0373",
-      "slug": "find-k-pairs-with-smallest-sums",
-      "title": "Find K Pairs with Smallest Sums",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0374",
-      "slug": "guess-number-higher-or-lower",
-      "title": "Guess Number Higher or Lower",
+      "id": "0283",
+      "slug": "move-zeroes",
+      "title": "Move Zeroes",
       "difficulty": "EASY",
       "tags": [
-        "binary-search",
-        "interactive"
+        "array",
+        "two-pointers"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "moveZeroes"
     },
     {
-      "id": "0375",
-      "slug": "guess-number-higher-or-lower-ii",
-      "title": "Guess Number Higher or Lower II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0376",
-      "slug": "wiggle-subsequence",
-      "title": "Wiggle Subsequence",
+      "id": "0284",
+      "slug": "peeking-iterator",
+      "title": "Peeking Iterator",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming",
-        "greedy"
+        "design",
+        "iterator"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "PeekingIterator"
     },
     {
-      "id": "0377",
-      "slug": "combination-sum-iv",
-      "title": "Combination Sum IV",
+      "id": "0285",
+      "slug": "inorder-successor-in-bst",
+      "title": "Inorder Successor in BST",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "inorderSuccessor"
+    },
+    {
+      "id": "0286",
+      "slug": "walls-and-gates",
+      "title": "Walls and Gates",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0378",
-      "slug": "kth-smallest-element-in-a-sorted-matrix",
-      "title": "Kth Smallest Element in a Sorted Matrix",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "sorting",
-        "heap-priority-queue",
+        "breadth-first-search",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wallsAndGates"
     },
     {
-      "id": "0379",
-      "slug": "design-phone-directory",
-      "title": "Design Phone Directory",
+      "id": "0287",
+      "slug": "find-the-duplicate-number",
+      "title": "Find the Duplicate Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findDuplicate"
+    },
+    {
+      "id": "0288",
+      "slug": "unique-word-abbreviation",
+      "title": "Unique Word Abbreviation",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "linked-list",
-        "design",
-        "queue"
+        "string",
+        "design"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "ValidWordAbbr"
     },
     {
-      "id": "0381",
-      "slug": "insert-delete-getrandom-o1-duplicates-allowed",
-      "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+      "id": "0289",
+      "slug": "game-of-life",
+      "title": "Game of Life",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "gameOfLife"
+    },
+    {
+      "id": "0290",
+      "slug": "word-pattern",
+      "title": "Word Pattern",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wordPattern"
+    },
+    {
+      "id": "0291",
+      "slug": "word-pattern-ii",
+      "title": "Word Pattern II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wordPatternMatch"
+    },
+    {
+      "id": "0292",
+      "slug": "nim-game",
+      "title": "Nim Game",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "brainteaser",
+        "game-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canWinNim"
+    },
+    {
+      "id": "0293",
+      "slug": "flip-game",
+      "title": "Flip Game",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "generatePossibleNextMoves"
+    },
+    {
+      "id": "0294",
+      "slug": "flip-game-ii",
+      "title": "Flip Game II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "backtracking",
+        "memoization",
+        "game-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canWin"
+    },
+    {
+      "id": "0295",
+      "slug": "find-median-from-data-stream",
+      "title": "Find Median from Data Stream",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "design",
+        "sorting",
+        "heap-priority-queue",
+        "data-stream"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "MedianFinder"
+    },
+    {
+      "id": "0296",
+      "slug": "best-meeting-point",
+      "title": "Best Meeting Point",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "hash-table",
         "math",
-        "design",
-        "randomized"
+        "sorting",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minTotalDistance"
     },
     {
-      "id": "0382",
-      "slug": "linked-list-random-node",
-      "title": "Linked List Random Node",
+      "id": "0298",
+      "slug": "binary-tree-longest-consecutive-sequence",
+      "title": "Binary Tree Longest Consecutive Sequence",
       "difficulty": "MEDIUM",
       "tags": [
-        "linked-list",
-        "math",
-        "reservoir-sampling",
-        "randomized"
+        "tree",
+        "depth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestConsecutive"
     },
     {
-      "id": "0383",
-      "slug": "ransom-note",
-      "title": "Ransom Note",
-      "difficulty": "EASY",
+      "id": "0299",
+      "slug": "bulls-and-cows",
+      "title": "Bulls and Cows",
+      "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
         "string",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getHint"
     },
     {
-      "id": "0384",
-      "slug": "shuffle-an-array",
-      "title": "Shuffle an Array",
+      "id": "0300",
+      "slug": "longest-increasing-subsequence",
+      "title": "Longest Increasing Subsequence",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "design",
-        "randomized"
+        "binary-search",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lengthOfLIS"
     },
     {
-      "id": "0385",
-      "slug": "mini-parser",
-      "title": "Mini Parser",
-      "difficulty": "MEDIUM",
+      "id": "0301",
+      "slug": "remove-invalid-parentheses",
+      "title": "Remove Invalid Parentheses",
+      "difficulty": "HARD",
       "tags": [
         "string",
-        "stack",
-        "depth-first-search"
+        "backtracking",
+        "breadth-first-search"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "0386",
-      "slug": "lexicographical-numbers",
-      "title": "Lexicographical Numbers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "depth-first-search",
-        "trie"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0387",
-      "slug": "first-unique-character-in-a-string",
-      "title": "First Unique Character in a String",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string",
-        "queue",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0388",
-      "slug": "longest-absolute-file-path",
-      "title": "Longest Absolute File Path",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "stack",
-        "depth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0389",
-      "slug": "find-the-difference",
-      "title": "Find the Difference",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string",
-        "bit-manipulation",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0390",
-      "slug": "elimination-game",
-      "title": "Elimination Game",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "recursion"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeInvalidParentheses"
     }
   ]
 }

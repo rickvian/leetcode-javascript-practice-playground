@@ -2,237 +2,286 @@
   "batchId": "batch-107",
   "problems": [
     {
-      "id": "2222",
-      "slug": "number-of-ways-to-select-buildings",
-      "title": "Number of Ways to Select Buildings",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2223",
-      "slug": "sum-of-scores-of-built-strings",
-      "title": "Sum of Scores of Built Strings",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "binary-search",
-        "rolling-hash",
-        "suffix-array",
-        "string-matching",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2224",
-      "slug": "minimum-number-of-operations-to-convert-time",
-      "title": "Minimum Number of Operations to Convert Time",
-      "difficulty": "EASY",
-      "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2225",
-      "slug": "find-players-with-zero-or-one-losses",
-      "title": "Find Players With Zero or One Losses",
+      "id": "2121",
+      "slug": "intervals-between-identical-elements",
+      "title": "Intervals Between Identical Elements",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "sorting",
-        "counting"
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getDistances"
     },
     {
-      "id": "2226",
-      "slug": "maximum-candies-allocated-to-k-children",
-      "title": "Maximum Candies Allocated to K Children",
+      "id": "2122",
+      "slug": "recover-the-original-array",
+      "title": "Recover the Original Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "sorting",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "recoverArray"
+    },
+    {
+      "id": "2123",
+      "slug": "minimum-operations-to-remove-adjacent-ones-in-matrix",
+      "title": "Minimum Operations to Remove Adjacent Ones in Matrix",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "graph",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumOperations"
+    },
+    {
+      "id": "2124",
+      "slug": "check-if-all-as-appears-before-all-bs",
+      "title": "Check if All A's Appears Before All B's",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkString"
+    },
+    {
+      "id": "2125",
+      "slug": "number-of-laser-beams-in-a-bank",
+      "title": "Number of Laser Beams in a Bank",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "string",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfBeams"
+    },
+    {
+      "id": "2126",
+      "slug": "destroying-asteroids",
+      "title": "Destroying Asteroids",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "asteroidsDestroyed"
+    },
+    {
+      "id": "2127",
+      "slug": "maximum-employees-to-be-invited-to-a-meeting",
+      "title": "Maximum Employees to Be Invited to a Meeting",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "depth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumInvitations"
+    },
+    {
+      "id": "2128",
+      "slug": "remove-all-ones-with-row-and-column-flips",
+      "title": "Remove All Ones With Row and Column Flips",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "bit-manipulation",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeOnes"
+    },
+    {
+      "id": "2129",
+      "slug": "capitalize-the-title",
+      "title": "Capitalize the Title",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "capitalizeTitle"
+    },
+    {
+      "id": "2130",
+      "slug": "maximum-twin-sum-of-a-linked-list",
+      "title": "Maximum Twin Sum of a Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers",
+        "stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pairSum"
+    },
+    {
+      "id": "2131",
+      "slug": "longest-palindrome-by-concatenating-two-letter-words",
+      "title": "Longest Palindrome by Concatenating Two Letter Words",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestPalindrome"
+    },
+    {
+      "id": "2132",
+      "slug": "stamping-the-grid",
+      "title": "Stamping the Grid",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "possibleToStamp"
+    },
+    {
+      "id": "2133",
+      "slug": "check-if-every-row-and-column-contains-all-numbers",
+      "title": "Check if Every Row and Column Contains All Numbers",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkValid"
+    },
+    {
+      "id": "2134",
+      "slug": "minimum-swaps-to-group-all-1s-together-ii",
+      "title": "Minimum Swaps to Group All 1's Together II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSwaps"
+    },
+    {
+      "id": "2135",
+      "slug": "count-words-obtained-after-adding-a-letter",
+      "title": "Count Words Obtained After Adding a Letter",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wordCount"
+    },
+    {
+      "id": "2136",
+      "slug": "earliest-possible-day-of-full-bloom",
+      "title": "Earliest Possible Day of Full Bloom",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "earliestFullBloom"
+    },
+    {
+      "id": "2137",
+      "slug": "pour-water-between-buckets-to-make-water-levels-equal",
+      "title": "Pour Water Between Buckets to Make Water Levels Equal",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "equalizeWater"
     },
     {
-      "id": "2227",
-      "slug": "encrypt-and-decrypt-strings",
-      "title": "Encrypt and Decrypt Strings",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "design",
-        "trie"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2228",
-      "slug": "users-with-two-purchases-within-seven-days",
-      "title": "Users With Two Purchases Within Seven Days",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2229",
-      "slug": "check-if-an-array-is-consecutive",
-      "title": "Check if an Array Is Consecutive",
+      "id": "2138",
+      "slug": "divide-a-string-into-groups-of-size-k",
+      "title": "Divide a String Into Groups of Size k",
       "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2230",
-      "slug": "the-users-that-are-eligible-for-discount",
-      "title": "The Users That Are Eligible for Discount",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2231",
-      "slug": "largest-number-after-digit-swaps-by-parity",
-      "title": "Largest Number After Digit Swaps by Parity",
-      "difficulty": "EASY",
-      "tags": [
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2232",
-      "slug": "minimize-result-by-adding-parentheses-to-expression",
-      "title": "Minimize Result by Adding Parentheses to Expression",
-      "difficulty": "MEDIUM",
       "tags": [
         "string",
-        "enumeration"
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "divideString"
     },
     {
-      "id": "2233",
-      "slug": "maximum-product-after-k-increments",
-      "title": "Maximum Product After K Increments",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2234",
-      "slug": "maximum-total-beauty-of-the-gardens",
-      "title": "Maximum Total Beauty of the Gardens",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "greedy",
-        "sorting",
-        "enumeration",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2235",
-      "slug": "add-two-integers",
-      "title": "Add Two Integers",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2236",
-      "slug": "root-equals-sum-of-children",
-      "title": "Root Equals Sum of Children",
-      "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2237",
-      "slug": "count-positions-on-street-with-required-brightness",
-      "title": "Count Positions on Street With Required Brightness",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2238",
-      "slug": "number-of-times-a-driver-was-a-passenger",
-      "title": "Number of Times a Driver Was a Passenger",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2239",
-      "slug": "find-closest-number-to-zero",
-      "title": "Find Closest Number to Zero",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2240",
-      "slug": "number-of-ways-to-buy-pens-and-pencils",
-      "title": "Number of Ways to Buy Pens and Pencils",
+      "id": "2139",
+      "slug": "minimum-moves-to-reach-target-score",
+      "title": "Minimum Moves to Reach Target Score",
       "difficulty": "MEDIUM",
       "tags": [
         "math",
-        "enumeration"
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minMoves"
     },
     {
-      "id": "2241",
-      "slug": "design-an-atm-machine",
-      "title": "Design an ATM Machine",
+      "id": "2140",
+      "slug": "solving-questions-with-brainpower",
+      "title": "Solving Questions With Brainpower",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "design"
+        "dynamic-programming"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mostPoints"
     }
   ]
 }

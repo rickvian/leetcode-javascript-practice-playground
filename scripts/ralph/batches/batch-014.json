@@ -2,261 +2,289 @@
   "batchId": "batch-014",
   "problems": [
     {
-      "id": "0349",
-      "slug": "intersection-of-two-arrays",
-      "title": "Intersection of Two Arrays",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "two-pointers",
-        "binary-search",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0350",
-      "slug": "intersection-of-two-arrays-ii",
-      "title": "Intersection of Two Arrays II",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "two-pointers",
-        "binary-search",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0351",
-      "slug": "android-unlock-patterns",
-      "title": "Android Unlock Patterns",
+      "id": "0261",
+      "slug": "graph-valid-tree",
+      "title": "Graph Valid Tree",
       "difficulty": "MEDIUM",
       "tags": [
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0352",
-      "slug": "data-stream-as-disjoint-intervals",
-      "title": "Data Stream as Disjoint Intervals",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "binary-search",
+        "depth-first-search",
+        "breadth-first-search",
         "union-find",
-        "design",
-        "data-stream",
-        "ordered-set"
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validTree"
     },
     {
-      "id": "0353",
-      "slug": "design-snake-game",
-      "title": "Design Snake Game",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "design",
-        "queue",
-        "simulation"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0354",
-      "slug": "russian-doll-envelopes",
-      "title": "Russian Doll Envelopes",
+      "id": "0262",
+      "slug": "trips-and-users",
+      "title": "Trips and Users",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "binary-search",
-        "dynamic-programming",
-        "sorting"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0355",
-      "slug": "design-twitter",
-      "title": "Design Twitter",
-      "difficulty": "MEDIUM",
+      "id": "0263",
+      "slug": "ugly-number",
+      "title": "Ugly Number",
+      "difficulty": "EASY",
       "tags": [
-        "hash-table",
-        "linked-list",
-        "design",
-        "heap-priority-queue"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0356",
-      "slug": "line-reflection",
-      "title": "Line Reflection",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
         "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isUgly"
     },
     {
-      "id": "0357",
-      "slug": "count-numbers-with-unique-digits",
-      "title": "Count Numbers with Unique Digits",
+      "id": "0264",
+      "slug": "ugly-number-ii",
+      "title": "Ugly Number II",
       "difficulty": "MEDIUM",
       "tags": [
+        "hash-table",
         "math",
         "dynamic-programming",
-        "backtracking"
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nthUglyNumber"
     },
     {
-      "id": "0358",
-      "slug": "rearrange-string-k-distance-apart",
-      "title": "Rearrange String k Distance Apart",
+      "id": "0265",
+      "slug": "paint-house-ii",
+      "title": "Paint House II",
       "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCostII"
+    },
+    {
+      "id": "0266",
+      "slug": "palindrome-permutation",
+      "title": "Palindrome Permutation",
+      "difficulty": "EASY",
       "tags": [
         "hash-table",
         "string",
-        "greedy",
-        "sorting",
-        "heap-priority-queue",
-        "counting"
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canPermutePalindrome"
     },
     {
-      "id": "0359",
-      "slug": "logger-rate-limiter",
-      "title": "Logger Rate Limiter",
-      "difficulty": "EASY",
+      "id": "0267",
+      "slug": "palindrome-permutation-ii",
+      "title": "Palindrome Permutation II",
+      "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
-        "design",
-        "data-stream"
+        "string",
+        "backtracking"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "generatePalindromes"
     },
     {
-      "id": "0360",
-      "slug": "sort-transformed-array",
-      "title": "Sort Transformed Array",
-      "difficulty": "MEDIUM",
+      "id": "0268",
+      "slug": "missing-number",
+      "title": "Missing Number",
+      "difficulty": "EASY",
       "tags": [
         "array",
+        "hash-table",
         "math",
-        "two-pointers",
+        "binary-search",
+        "bit-manipulation",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "missingNumber"
     },
     {
-      "id": "0361",
-      "slug": "bomb-enemy",
-      "title": "Bomb Enemy",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0363",
-      "slug": "max-sum-of-rectangle-no-larger-than-k",
-      "title": "Max Sum of Rectangle No Larger Than K",
+      "id": "0269",
+      "slug": "alien-dictionary",
+      "title": "Alien Dictionary",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "binary-search",
-        "matrix",
-        "prefix-sum",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0364",
-      "slug": "nested-list-weight-sum-ii",
-      "title": "Nested List Weight Sum II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "stack",
+        "string",
         "depth-first-search",
-        "breadth-first-search"
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "alienOrder"
     },
     {
-      "id": "0365",
-      "slug": "water-and-jug-problem",
-      "title": "Water and Jug Problem",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "depth-first-search",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0366",
-      "slug": "find-leaves-of-binary-tree",
-      "title": "Find Leaves of Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0367",
-      "slug": "valid-perfect-square",
-      "title": "Valid Perfect Square",
+      "id": "0270",
+      "slug": "closest-binary-search-tree-value",
+      "title": "Closest Binary Search Tree Value",
       "difficulty": "EASY",
       "tags": [
-        "math",
-        "binary-search"
+        "binary-search",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "closestValue"
     },
     {
-      "id": "0368",
-      "slug": "largest-divisible-subset",
-      "title": "Largest Divisible Subset",
+      "id": "0271",
+      "slug": "encode-and-decode-strings",
+      "title": "Encode and Decode Strings",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "dynamic-programming",
-        "sorting"
+        "string",
+        "design"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "encode"
     },
     {
-      "id": "0369",
-      "slug": "plus-one-linked-list",
-      "title": "Plus One Linked List",
+      "id": "0272",
+      "slug": "closest-binary-search-tree-value-ii",
+      "title": "Closest Binary Search Tree Value II",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "heap-priority-queue",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "closestKValues"
+    },
+    {
+      "id": "0273",
+      "slug": "integer-to-english-words",
+      "title": "Integer to English Words",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberToWords"
+    },
+    {
+      "id": "0274",
+      "slug": "h-index",
+      "title": "H-Index",
       "difficulty": "MEDIUM",
       "tags": [
-        "linked-list",
-        "math"
+        "array",
+        "sorting",
+        "counting-sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "hIndex"
+    },
+    {
+      "id": "0275",
+      "slug": "h-index-ii",
+      "title": "H-Index II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "hIndex"
+    },
+    {
+      "id": "0276",
+      "slug": "paint-fence",
+      "title": "Paint Fence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numWays"
+    },
+    {
+      "id": "0277",
+      "slug": "find-the-celebrity",
+      "title": "Find the Celebrity",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "graph",
+        "interactive"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "solution"
+    },
+    {
+      "id": "0278",
+      "slug": "first-bad-version",
+      "title": "First Bad Version",
+      "difficulty": "EASY",
+      "tags": [
+        "binary-search",
+        "interactive"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "solution"
+    },
+    {
+      "id": "0279",
+      "slug": "perfect-squares",
+      "title": "Perfect Squares",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numSquares"
+    },
+    {
+      "id": "0280",
+      "slug": "wiggle-sort",
+      "title": "Wiggle Sort",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wiggleSort"
     }
   ]
 }

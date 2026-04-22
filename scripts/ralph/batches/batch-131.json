@@ -2,228 +2,290 @@
   "batchId": "batch-131",
   "problems": [
     {
-      "id": "2702",
-      "slug": "minimum-operations-to-make-numbers-non-positive",
-      "title": "Minimum Operations to Make Numbers Non-positive",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2703",
-      "slug": "return-length-of-arguments-passed",
-      "title": "Return Length of Arguments Passed",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2704",
-      "slug": "to-be-or-not-to-be",
-      "title": "To Be Or Not To Be",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2705",
-      "slug": "compact-object",
-      "title": "Compact Object",
+      "id": "2601",
+      "slug": "prime-subtraction-operation",
+      "title": "Prime Subtraction Operation",
       "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2706",
-      "slug": "buy-two-chocolates",
-      "title": "Buy Two Chocolates",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2707",
-      "slug": "extra-characters-in-a-string",
-      "title": "Extra Characters in a String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "dynamic-programming",
-        "trie"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2708",
-      "slug": "maximum-strength-of-a-group",
-      "title": "Maximum Strength of a Group",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "backtracking",
-        "greedy",
-        "bit-manipulation",
-        "sorting",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2709",
-      "slug": "greatest-common-divisor-traversal",
-      "title": "Greatest Common Divisor Traversal",
-      "difficulty": "HARD",
       "tags": [
         "array",
         "math",
-        "union-find",
+        "binary-search",
+        "greedy",
         "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "primeSubOperation"
     },
     {
-      "id": "2710",
-      "slug": "remove-trailing-zeros-from-a-string",
-      "title": "Remove Trailing Zeros From a String",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2711",
-      "slug": "difference-of-number-of-distinct-values-on-diagonals",
-      "title": "Difference of Number of Distinct Values on Diagonals",
+      "id": "2602",
+      "slug": "minimum-operations-to-make-all-array-elements-equal",
+      "title": "Minimum Operations to Make All Array Elements Equal",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2712",
-      "slug": "minimum-cost-to-make-all-characters-equal",
-      "title": "Minimum Cost to Make All Characters Equal",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2713",
-      "slug": "maximum-strictly-increasing-cells-in-a-matrix",
-      "title": "Maximum Strictly Increasing Cells in a Matrix",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
         "binary-search",
-        "dynamic-programming",
-        "memoization",
         "sorting",
-        "matrix",
-        "ordered-set"
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2714",
-      "slug": "find-shortest-path-with-k-hops",
-      "title": "Find Shortest Path with K Hops",
+      "id": "2603",
+      "slug": "collect-coins-in-a-tree",
+      "title": "Collect Coins in a Tree",
       "difficulty": "HARD",
       "tags": [
+        "array",
+        "tree",
         "graph",
-        "heap-priority-queue",
-        "shortest-path"
+        "topological-sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2715",
-      "slug": "timeout-cancellation",
-      "title": "Timeout Cancellation",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2716",
-      "slug": "minimize-string-length",
-      "title": "Minimize String Length",
-      "difficulty": "EASY",
+      "id": "2604",
+      "slug": "minimum-time-to-eat-all-grains",
+      "title": "Minimum Time to Eat All Grains",
+      "difficulty": "HARD",
       "tags": [
-        "hash-table",
-        "string"
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumTime"
     },
     {
-      "id": "2717",
-      "slug": "semi-ordered-permutation",
-      "title": "Semi-Ordered Permutation",
+      "id": "2605",
+      "slug": "form-smallest-number-from-two-digit-arrays",
+      "title": "Form Smallest Number From Two Digit Arrays",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "simulation"
+        "hash-table",
+        "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minNumber"
     },
     {
-      "id": "2718",
-      "slug": "sum-of-matrix-after-queries",
-      "title": "Sum of Matrix After Queries",
+      "id": "2606",
+      "slug": "find-the-substring-with-maximum-cost",
+      "title": "Find the Substring With Maximum Cost",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumCostSubstring"
+    },
+    {
+      "id": "2607",
+      "slug": "make-k-subarray-sums-equal",
+      "title": "Make K-Subarray Sums Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "greedy",
+        "sorting",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2608",
+      "slug": "shortest-cycle-in-a-graph",
+      "title": "Shortest Cycle in a Graph",
+      "difficulty": "HARD",
+      "tags": [
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2609",
+      "slug": "find-the-longest-balanced-substring-of-a-binary-string",
+      "title": "Find the Longest Balanced Substring of a Binary String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findTheLongestBalancedSubstring"
+    },
+    {
+      "id": "2610",
+      "slug": "convert-an-array-into-a-2d-array-with-conditions",
+      "title": "Convert an Array Into a 2D Array With Conditions",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMatrix"
     },
     {
-      "id": "2719",
-      "slug": "count-of-integers",
-      "title": "Count of Integers",
+      "id": "2611",
+      "slug": "mice-and-cheese",
+      "title": "Mice and Cheese",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2612",
+      "slug": "minimum-reverse-operations",
+      "title": "Minimum Reverse Operations",
       "difficulty": "HARD",
       "tags": [
+        "array",
+        "hash-table",
+        "breadth-first-search",
+        "union-find",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2613",
+      "slug": "beautiful-pairs",
+      "title": "Beautiful Pairs",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
         "math",
-        "string",
-        "dynamic-programming"
+        "divide-and-conquer",
+        "geometry",
+        "sorting",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "beautifulPair"
     },
     {
-      "id": "2720",
-      "slug": "popularity-percentage",
-      "title": "Popularity Percentage",
+      "id": "2614",
+      "slug": "prime-in-diagonal",
+      "title": "Prime In Diagonal",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "matrix",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2615",
+      "slug": "sum-of-distances",
+      "title": "Sum of Distances",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distance"
+    },
+    {
+      "id": "2616",
+      "slug": "minimize-the-maximum-difference-of-pairs",
+      "title": "Minimize the Maximum Difference of Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimizeMax"
+    },
+    {
+      "id": "2617",
+      "slug": "minimum-number-of-visited-cells-in-a-grid",
+      "title": "Minimum Number of Visited Cells in a Grid",
       "difficulty": "HARD",
       "tags": [
-        "database"
+        "array",
+        "dynamic-programming",
+        "stack",
+        "breadth-first-search",
+        "union-find",
+        "heap-priority-queue",
+        "matrix",
+        "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2721",
-      "slug": "execute-asynchronous-functions-in-parallel",
-      "title": "Execute Asynchronous Functions in Parallel",
+      "id": "2618",
+      "slug": "check-if-object-instance-of-class",
+      "title": "Check if Object Instance of Class",
       "difficulty": "MEDIUM",
       "tags": [],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkIfInstanceOf"
+    },
+    {
+      "id": "2619",
+      "slug": "array-prototype-last",
+      "title": "Array Prototype Last",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2620",
+      "slug": "counter",
+      "title": "Counter",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "createCounter"
     }
   ]
 }

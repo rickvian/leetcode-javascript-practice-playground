@@ -2,260 +2,289 @@
   "batchId": "batch-041",
   "problems": [
     {
-      "id": "0900",
-      "slug": "rle-iterator",
-      "title": "RLE Iterator",
+      "id": "0801",
+      "slug": "minimum-swaps-to-make-sequences-increasing",
+      "title": "Minimum Swaps To Make Sequences Increasing",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSwap"
+    },
+    {
+      "id": "0802",
+      "slug": "find-eventual-safe-states",
+      "title": "Find Eventual Safe States",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "eventualSafeNodes"
+    },
+    {
+      "id": "0803",
+      "slug": "bricks-falling-when-hit",
+      "title": "Bricks Falling When Hit",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "hitBricks"
+    },
+    {
+      "id": "0804",
+      "slug": "unique-morse-code-words",
+      "title": "Unique Morse Code Words",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "uniqueMorseRepresentations"
+    },
+    {
+      "id": "0805",
+      "slug": "split-array-with-same-average",
+      "title": "Split Array With Same Average",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "splitArraySameAverage"
+    },
+    {
+      "id": "0806",
+      "slug": "number-of-lines-to-write-string",
+      "title": "Number of Lines To Write String",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfLines"
+    },
+    {
+      "id": "0807",
+      "slug": "max-increase-to-keep-city-skyline",
+      "title": "Max Increase to Keep City Skyline",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "design",
-        "counting",
-        "iterator"
+        "greedy",
+        "matrix"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxIncreaseKeepingSkyline"
     },
     {
-      "id": "0901",
-      "slug": "online-stock-span",
-      "title": "Online Stock Span",
+      "id": "0808",
+      "slug": "soup-servings",
+      "title": "Soup Servings",
       "difficulty": "MEDIUM",
       "tags": [
-        "stack",
-        "design",
-        "monotonic-stack",
-        "data-stream"
+        "math",
+        "dynamic-programming",
+        "probability-and-statistics"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "soupServings"
     },
     {
-      "id": "0902",
-      "slug": "numbers-at-most-n-given-digit-set",
-      "title": "Numbers At Most N Given Digit Set",
+      "id": "0809",
+      "slug": "expressive-words",
+      "title": "Expressive Words",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "expressiveWords"
+    },
+    {
+      "id": "0810",
+      "slug": "chalkboard-xor-game",
+      "title": "Chalkboard XOR Game",
       "difficulty": "HARD",
       "tags": [
         "array",
         "math",
-        "string",
-        "binary-search",
-        "dynamic-programming"
+        "bit-manipulation",
+        "brainteaser",
+        "game-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "xorGame"
     },
     {
-      "id": "0903",
-      "slug": "valid-permutations-for-di-sequence",
-      "title": "Valid Permutations for DI Sequence",
-      "difficulty": "HARD",
+      "id": "0811",
+      "slug": "subdomain-visit-count",
+      "title": "Subdomain Visit Count",
+      "difficulty": "MEDIUM",
       "tags": [
+        "array",
+        "hash-table",
         "string",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "subdomainVisits"
+    },
+    {
+      "id": "0812",
+      "slug": "largest-triangle-area",
+      "title": "Largest Triangle Area",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestTriangleArea"
+    },
+    {
+      "id": "0813",
+      "slug": "largest-sum-of-averages",
+      "title": "Largest Sum of Averages",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
         "dynamic-programming",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestSumOfAverages"
     },
     {
-      "id": "0904",
-      "slug": "fruit-into-baskets",
-      "title": "Fruit Into Baskets",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0905",
-      "slug": "sort-array-by-parity",
-      "title": "Sort Array By Parity",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "two-pointers",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0906",
-      "slug": "super-palindromes",
-      "title": "Super Palindromes",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "string",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0907",
-      "slug": "sum-of-subarray-minimums",
-      "title": "Sum of Subarray Minimums",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "stack",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0908",
-      "slug": "smallest-range-i",
-      "title": "Smallest Range I",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0909",
-      "slug": "snakes-and-ladders",
-      "title": "Snakes and Ladders",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0910",
-      "slug": "smallest-range-ii",
-      "title": "Smallest Range II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0911",
-      "slug": "online-election",
-      "title": "Online Election",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "binary-search",
-        "design"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0912",
-      "slug": "sort-an-array",
-      "title": "Sort an Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "divide-and-conquer",
-        "sorting",
-        "heap-priority-queue",
-        "merge-sort",
-        "bucket-sort",
-        "radix-sort",
-        "counting-sort"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0913",
-      "slug": "cat-and-mouse",
-      "title": "Cat and Mouse",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "graph",
-        "topological-sort",
-        "memoization",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0914",
-      "slug": "x-of-a-kind-in-a-deck-of-cards",
-      "title": "X of a Kind in a Deck of Cards",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "counting",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0915",
-      "slug": "partition-array-into-disjoint-intervals",
-      "title": "Partition Array into Disjoint Intervals",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0916",
-      "slug": "word-subsets",
-      "title": "Word Subsets",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0917",
-      "slug": "reverse-only-letters",
-      "title": "Reverse Only Letters",
-      "difficulty": "EASY",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0918",
-      "slug": "maximum-sum-circular-subarray",
-      "title": "Maximum Sum Circular Subarray",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "divide-and-conquer",
-        "dynamic-programming",
-        "queue",
-        "monotonic-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0919",
-      "slug": "complete-binary-tree-inserter",
-      "title": "Complete Binary Tree Inserter",
+      "id": "0814",
+      "slug": "binary-tree-pruning",
+      "title": "Binary Tree Pruning",
       "difficulty": "MEDIUM",
       "tags": [
         "tree",
-        "breadth-first-search",
-        "design",
+        "depth-first-search",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "pruneTree"
+    },
+    {
+      "id": "0815",
+      "slug": "bus-routes",
+      "title": "Bus Routes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numBusesToDestination"
+    },
+    {
+      "id": "0816",
+      "slug": "ambiguous-coordinates",
+      "title": "Ambiguous Coordinates",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "ambiguousCoordinates"
+    },
+    {
+      "id": "0817",
+      "slug": "linked-list-components",
+      "title": "Linked List Components",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numComponents"
+    },
+    {
+      "id": "0818",
+      "slug": "race-car",
+      "title": "Race Car",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "racecar"
+    },
+    {
+      "id": "0819",
+      "slug": "most-common-word",
+      "title": "Most Common Word",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mostCommonWord"
+    },
+    {
+      "id": "0820",
+      "slug": "short-encoding-of-words",
+      "title": "Short Encoding of Words",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumLengthEncoding"
     }
   ]
 }

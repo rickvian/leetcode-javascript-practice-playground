@@ -2,182 +2,290 @@
   "batchId": "batch-127",
   "problems": [
     {
-      "id": "2622",
-      "slug": "cache-with-time-limit",
-      "title": "Cache With Time Limit",
+      "id": "2521",
+      "slug": "distinct-prime-factors-of-product-of-array",
+      "title": "Distinct Prime Factors of Product of Array",
       "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": true
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distinctPrimeFactors"
     },
     {
-      "id": "2623",
-      "slug": "memoize",
-      "title": "Memoize",
+      "id": "2522",
+      "slug": "partition-string-into-substrings-with-values-at-most-k",
+      "title": "Partition String Into Substrings With Values at Most K",
       "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumPartition"
     },
     {
-      "id": "2624",
-      "slug": "snail-traversal",
-      "title": "Snail Traversal",
+      "id": "2523",
+      "slug": "closest-prime-numbers-in-range",
+      "title": "Closest Prime Numbers in Range",
       "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
+      "tags": [
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "closestPrimes"
     },
     {
-      "id": "2625",
-      "slug": "flatten-deeply-nested-array",
-      "title": "Flatten Deeply Nested Array",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2626",
-      "slug": "array-reduce-transformation",
-      "title": "Array Reduce Transformation",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2627",
-      "slug": "debounce",
-      "title": "Debounce",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2628",
-      "slug": "json-deep-equal",
-      "title": "JSON Deep Equal",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2629",
-      "slug": "function-composition",
-      "title": "Function Composition",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2630",
-      "slug": "memoize-ii",
-      "title": "Memoize II",
+      "id": "2524",
+      "slug": "maximum-frequency-score-of-a-subarray",
+      "title": "Maximum Frequency Score of a Subarray",
       "difficulty": "HARD",
-      "tags": [],
-      "classHeavy": false
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "stack",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxFrequencyScore"
     },
     {
-      "id": "2631",
-      "slug": "group-by",
-      "title": "Group By",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2632",
-      "slug": "curry",
-      "title": "Curry",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2633",
-      "slug": "convert-object-to-json-string",
-      "title": "Convert Object to JSON String",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2634",
-      "slug": "filter-elements-from-array",
-      "title": "Filter Elements from Array",
+      "id": "2525",
+      "slug": "categorize-box-according-to-criteria",
+      "title": "Categorize Box According to Criteria",
       "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2635",
-      "slug": "apply-transform-over-each-element-in-array",
-      "title": "Apply Transform Over Each Element in Array",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2636",
-      "slug": "promise-pool",
-      "title": "Promise Pool",
+      "id": "2526",
+      "slug": "find-consecutive-integers-from-a-data-stream",
+      "title": "Find Consecutive Integers from a Data Stream",
       "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
+      "tags": [
+        "hash-table",
+        "design",
+        "queue",
+        "counting",
+        "data-stream"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2637",
-      "slug": "promise-time-limit",
-      "title": "Promise Time Limit",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2638",
-      "slug": "count-the-number-of-k-free-subsets",
-      "title": "Count the Number of K-Free Subsets",
+      "id": "2527",
+      "slug": "find-xor-beauty-of-array",
+      "title": "Find Xor-Beauty of Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "math",
-        "dynamic-programming",
-        "sorting",
-        "combinatorics"
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "xorBeauty"
     },
     {
-      "id": "2639",
-      "slug": "find-the-width-of-columns-of-a-grid",
-      "title": "Find the Width of Columns of a Grid",
+      "id": "2528",
+      "slug": "maximize-the-minimum-powered-city",
+      "title": "Maximize the Minimum Powered City",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "queue",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2529",
+      "slug": "maximum-count-of-positive-integer-and-negative-integer",
+      "title": "Maximum Count of Positive Integer and Negative Integer",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "matrix"
+        "binary-search",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumCount"
     },
     {
-      "id": "2640",
-      "slug": "find-the-score-of-all-prefixes-of-an-array",
-      "title": "Find the Score of All Prefixes of an Array",
+      "id": "2530",
+      "slug": "maximal-score-after-applying-k-operations",
+      "title": "Maximal Score After Applying K Operations",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "prefix-sum"
+        "greedy",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2641",
-      "slug": "cousins-in-binary-tree-ii",
-      "title": "Cousins in Binary Tree II",
+      "id": "2531",
+      "slug": "make-number-of-distinct-characters-equal",
+      "title": "Make Number of Distinct Characters Equal",
       "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
+        "string",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2532",
+      "slug": "time-to-cross-a-bridge",
+      "title": "Time to Cross a Bridge",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "heap-priority-queue",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2533",
+      "slug": "number-of-good-binary-strings",
+      "title": "Number of Good Binary Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "goodBinaryStrings"
+    },
+    {
+      "id": "2534",
+      "slug": "time-taken-to-cross-the-door",
+      "title": "Time Taken to Cross the Door",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "queue",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "timeTaken"
+    },
+    {
+      "id": "2535",
+      "slug": "difference-between-element-sum-and-digit-sum-of-an-array",
+      "title": "Difference Between Element Sum and Digit Sum of an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "differenceOfSum"
+    },
+    {
+      "id": "2536",
+      "slug": "increment-submatrices-by-one",
+      "title": "Increment Submatrices by One",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rangeAddQueries"
+    },
+    {
+      "id": "2537",
+      "slug": "count-the-number-of-good-subarrays",
+      "title": "Count the Number of Good Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countGood"
+    },
+    {
+      "id": "2538",
+      "slug": "difference-between-maximum-and-minimum-price-sum",
+      "title": "Difference Between Maximum and Minimum Price Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2539",
+      "slug": "count-the-number-of-good-subsequences",
+      "title": "Count the Number of Good Subsequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "combinatorics",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countGoodSubsequences"
+    },
+    {
+      "id": "2540",
+      "slug": "minimum-common-value",
+      "title": "Minimum Common Value",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getCommon"
     }
   ]
 }

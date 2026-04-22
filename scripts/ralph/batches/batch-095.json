@@ -2,255 +2,276 @@
   "batchId": "batch-095",
   "problems": [
     {
-      "id": "1982",
-      "slug": "find-array-given-subset-sums",
-      "title": "Find Array Given Subset Sums",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "divide-and-conquer"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1983",
-      "slug": "widest-pair-of-indices-with-equal-range-sum",
-      "title": "Widest Pair of Indices With Equal Range Sum",
+      "id": "1881",
+      "slug": "maximum-value-after-insertion",
+      "title": "Maximum Value after Insertion",
       "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1984",
-      "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
-      "title": "Minimum Difference Between Highest and Lowest of K Scores",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sliding-window",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1985",
-      "slug": "find-the-kth-largest-integer-in-the-array",
-      "title": "Find the Kth Largest Integer in the Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "divide-and-conquer",
-        "sorting",
-        "heap-priority-queue",
-        "quickselect"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1986",
-      "slug": "minimum-number-of-work-sessions-to-finish-the-tasks",
-      "title": "Minimum Number of Work Sessions to Finish the Tasks",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1987",
-      "slug": "number-of-unique-good-subsequences",
-      "title": "Number of Unique Good Subsequences",
-      "difficulty": "HARD",
       "tags": [
         "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1988",
-      "slug": "find-cutoff-score-for-each-school",
-      "title": "Find Cutoff Score for Each School",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1989",
-      "slug": "maximum-number-of-people-that-can-be-caught-in-tag",
-      "title": "Maximum Number of People That Can Be Caught in Tag",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
         "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxValue"
     },
     {
-      "id": "1990",
-      "slug": "count-the-number-of-experiments",
-      "title": "Count the Number of Experiments",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1991",
-      "slug": "find-the-middle-index-in-array",
-      "title": "Find the Middle Index in Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1992",
-      "slug": "find-all-groups-of-farmland",
-      "title": "Find All Groups of Farmland",
+      "id": "1882",
+      "slug": "process-tasks-using-servers",
+      "title": "Process Tasks Using Servers",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "depth-first-search",
-        "breadth-first-search",
-        "matrix"
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "assignTasks"
     },
     {
-      "id": "1993",
-      "slug": "operations-on-tree",
-      "title": "Operations on Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "design"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1994",
-      "slug": "the-number-of-good-subsets",
-      "title": "The Number of Good Subsets",
+      "id": "1883",
+      "slug": "minimum-skips-to-arrive-at-meeting-on-time",
+      "title": "Minimum Skips to Arrive at Meeting On Time",
       "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "dynamic-programming",
-        "bit-manipulation",
-        "counting",
-        "number-theory",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1995",
-      "slug": "count-special-quadruplets",
-      "title": "Count Special Quadruplets",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1996",
-      "slug": "the-number-of-weak-characters-in-the-game",
-      "title": "The Number of Weak Characters in the Game",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "stack",
-        "greedy",
-        "sorting",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1997",
-      "slug": "first-day-where-you-have-been-in-all-the-rooms",
-      "title": "First Day Where You Have Been in All the Rooms",
-      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSkips"
     },
     {
-      "id": "1998",
-      "slug": "gcd-sort-of-an-array",
-      "title": "GCD Sort of an Array",
+      "id": "1884",
+      "slug": "egg-drop-with-2-eggs-and-n-floors",
+      "title": "Egg Drop With 2 Eggs and N Floors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "twoEggDrop"
+    },
+    {
+      "id": "1885",
+      "slug": "count-pairs-in-two-arrays",
+      "title": "Count Pairs in Two Arrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPairs"
+    },
+    {
+      "id": "1886",
+      "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
+      "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findRotation"
+    },
+    {
+      "id": "1887",
+      "slug": "reduction-operations-to-make-the-array-elements-equal",
+      "title": "Reduction Operations to Make the Array Elements Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reductionOperations"
+    },
+    {
+      "id": "1888",
+      "slug": "minimum-number-of-flips-to-make-the-binary-string-alternating",
+      "title": "Minimum Number of Flips to Make the Binary String Alternating",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minFlips"
+    },
+    {
+      "id": "1889",
+      "slug": "minimum-space-wasted-from-packaging",
+      "title": "Minimum Space Wasted From Packaging",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "math",
-        "union-find",
+        "binary-search",
         "sorting",
-        "number-theory"
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minWastedSpace"
     },
     {
-      "id": "1999",
-      "slug": "smallest-greater-multiple-made-of-two-digits",
-      "title": "Smallest Greater Multiple Made of Two Digits",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2000",
-      "slug": "reverse-prefix-of-word",
-      "title": "Reverse Prefix of Word",
+      "id": "1890",
+      "slug": "the-latest-login-in-2020",
+      "title": "The Latest Login in 2020",
       "difficulty": "EASY",
       "tags": [
-        "two-pointers",
-        "string",
-        "stack"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2001",
-      "slug": "number-of-pairs-of-interchangeable-rectangles",
-      "title": "Number of Pairs of Interchangeable Rectangles",
+      "id": "1891",
+      "slug": "cutting-ribbons",
+      "title": "Cutting Ribbons",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "math",
-        "counting",
-        "number-theory"
+        "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxLength"
+    },
+    {
+      "id": "1892",
+      "slug": "page-recommendations-ii",
+      "title": "Page Recommendations II",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1893",
+      "slug": "check-if-all-the-integers-in-a-range-are-covered",
+      "title": "Check if All the Integers in a Range Are Covered",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isCovered"
+    },
+    {
+      "id": "1894",
+      "slug": "find-the-student-that-will-replace-the-chalk",
+      "title": "Find the Student that Will Replace the Chalk",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "simulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "chalkReplacer"
+    },
+    {
+      "id": "1895",
+      "slug": "largest-magic-square",
+      "title": "Largest Magic Square",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestMagicSquare"
+    },
+    {
+      "id": "1896",
+      "slug": "minimum-cost-to-change-the-final-value-of-expression",
+      "title": "Minimum Cost to Change the Final Value of Expression",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "dynamic-programming",
+        "stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperationsToFlip"
+    },
+    {
+      "id": "1897",
+      "slug": "redistribute-characters-to-make-all-strings-equal",
+      "title": "Redistribute Characters to Make All Strings Equal",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "makeEqual"
+    },
+    {
+      "id": "1898",
+      "slug": "maximum-number-of-removable-characters",
+      "title": "Maximum Number of Removable Characters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumRemovals"
+    },
+    {
+      "id": "1899",
+      "slug": "merge-triplets-to-form-target-triplet",
+      "title": "Merge Triplets to Form Target Triplet",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mergeTriplets"
+    },
+    {
+      "id": "1900",
+      "slug": "the-earliest-and-latest-rounds-where-players-compete",
+      "title": "The Earliest and Latest Rounds Where Players Compete",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "earliestAndLatest"
     }
   ]
 }

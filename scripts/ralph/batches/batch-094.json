@@ -2,244 +2,286 @@
   "batchId": "batch-094",
   "problems": [
     {
-      "id": "1962",
-      "slug": "remove-stones-to-minimize-the-total",
-      "title": "Remove Stones to Minimize the Total",
+      "id": "1861",
+      "slug": "rotating-the-box",
+      "title": "Rotating the Box",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1963",
-      "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
-      "title": "Minimum Number of Swaps to Make the String Balanced",
-      "difficulty": "MEDIUM",
-      "tags": [
         "two-pointers",
-        "string",
-        "stack",
-        "greedy"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rotateTheBox"
     },
     {
-      "id": "1964",
-      "slug": "find-the-longest-valid-obstacle-course-at-each-position",
-      "title": "Find the Longest Valid Obstacle Course at Each Position",
+      "id": "1862",
+      "slug": "sum-of-floored-pairs",
+      "title": "Sum of Floored Pairs",
       "difficulty": "HARD",
       "tags": [
         "array",
+        "math",
         "binary-search",
-        "binary-indexed-tree"
+        "counting",
+        "enumeration",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumOfFlooredPairs"
     },
     {
-      "id": "1965",
-      "slug": "employees-with-missing-information",
-      "title": "Employees With Missing Information",
+      "id": "1863",
+      "slug": "sum-of-all-subset-xor-totals",
+      "title": "Sum of All Subset XOR Totals",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "backtracking",
+        "bit-manipulation",
+        "combinatorics",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "subsetXORSum"
+    },
+    {
+      "id": "1864",
+      "slug": "minimum-number-of-swaps-to-make-the-binary-string-alternating",
+      "title": "Minimum Number of Swaps to Make the Binary String Alternating",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSwaps"
+    },
+    {
+      "id": "1865",
+      "slug": "finding-pairs-with-a-certain-sum",
+      "title": "Finding Pairs With a Certain Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "design"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "FindSumPairs"
+    },
+    {
+      "id": "1866",
+      "slug": "number-of-ways-to-rearrange-sticks-with-k-sticks-visible",
+      "title": "Number of Ways to Rearrange Sticks With K Sticks Visible",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rearrangeSticks"
+    },
+    {
+      "id": "1867",
+      "slug": "orders-with-maximum-quantity-above-average",
+      "title": "Orders With Maximum Quantity Above Average",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1868",
+      "slug": "product-of-two-run-length-encoded-arrays",
+      "title": "Product of Two Run-Length Encoded Arrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findRLEArray"
+    },
+    {
+      "id": "1869",
+      "slug": "longer-contiguous-segments-of-ones-than-zeros",
+      "title": "Longer Contiguous Segments of Ones than Zeros",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkZeroOnes"
+    },
+    {
+      "id": "1870",
+      "slug": "minimum-speed-to-arrive-on-time",
+      "title": "Minimum Speed to Arrive on Time",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSpeedOnTime"
+    },
+    {
+      "id": "1871",
+      "slug": "jump-game-vii",
+      "title": "Jump Game VII",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canReach"
+    },
+    {
+      "id": "1872",
+      "slug": "stone-game-viii",
+      "title": "Stone Game VIII",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "prefix-sum",
+        "game-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "stoneGameVIII"
+    },
+    {
+      "id": "1873",
+      "slug": "calculate-special-bonus",
+      "title": "Calculate Special Bonus",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1966",
-      "slug": "binary-searchable-numbers-in-an-unsorted-array",
-      "title": "Binary Searchable Numbers in an Unsorted Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "stack",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1967",
-      "slug": "number-of-strings-that-appear-as-substrings-in-word",
-      "title": "Number of Strings That Appear as Substrings in Word",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1968",
-      "slug": "array-with-elements-not-equal-to-average-of-neighbors",
-      "title": "Array With Elements Not Equal to Average of Neighbors",
+      "id": "1874",
+      "slug": "minimize-product-sum-of-two-arrays",
+      "title": "Minimize Product Sum of Two Arrays",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minProductSum"
     },
     {
-      "id": "1969",
-      "slug": "minimum-non-zero-product-of-the-array-elements",
-      "title": "Minimum Non-Zero Product of the Array Elements",
+      "id": "1875",
+      "slug": "group-employees-of-the-same-salary",
+      "title": "Group Employees of the Same Salary",
       "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "greedy",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1970",
-      "slug": "last-day-where-you-can-still-cross",
-      "title": "Last Day Where You Can Still Cross",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1971",
-      "slug": "find-if-path-exists-in-graph",
-      "title": "Find if Path Exists in Graph",
-      "difficulty": "EASY",
-      "tags": [
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1972",
-      "slug": "first-and-last-call-on-the-same-day",
-      "title": "First and Last Call On the Same Day",
-      "difficulty": "HARD",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1973",
-      "slug": "count-nodes-equal-to-sum-of-descendants",
-      "title": "Count Nodes Equal to Sum of Descendants",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1974",
-      "slug": "minimum-time-to-type-word-using-special-typewriter",
-      "title": "Minimum Time to Type Word Using Special Typewriter",
+      "id": "1876",
+      "slug": "substrings-of-size-three-with-distinct-characters",
+      "title": "Substrings of Size Three with Distinct Characters",
       "difficulty": "EASY",
       "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1975",
-      "slug": "maximum-matrix-sum",
-      "title": "Maximum Matrix Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1976",
-      "slug": "number-of-ways-to-arrive-at-destination",
-      "title": "Number of Ways to Arrive at Destination",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming",
-        "graph",
-        "topological-sort",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1977",
-      "slug": "number-of-ways-to-separate-numbers",
-      "title": "Number of Ways to Separate Numbers",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "suffix-array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1978",
-      "slug": "employees-whose-manager-left-the-company",
-      "title": "Employees Whose Manager Left the Company",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1979",
-      "slug": "find-greatest-common-divisor-of-array",
-      "title": "Find Greatest Common Divisor of Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "math",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1980",
-      "slug": "find-unique-binary-string",
-      "title": "Find Unique Binary String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "hash-table",
         "string",
-        "backtracking"
+        "sliding-window",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countGoodSubstrings"
     },
     {
-      "id": "1981",
-      "slug": "minimize-the-difference-between-target-and-chosen-elements",
-      "title": "Minimize the Difference Between Target and Chosen Elements",
+      "id": "1877",
+      "slug": "minimize-maximum-pair-sum-in-array",
+      "title": "Minimize Maximum Pair Sum in Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming",
-        "matrix"
+        "two-pointers",
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minPairSum"
+    },
+    {
+      "id": "1878",
+      "slug": "get-biggest-three-rhombus-sums-in-a-grid",
+      "title": "Get Biggest Three Rhombus Sums in a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "sorting",
+        "heap-priority-queue",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getBiggestThree"
+    },
+    {
+      "id": "1879",
+      "slug": "minimum-xor-sum-of-two-arrays",
+      "title": "Minimum XOR Sum of Two Arrays",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumXORSum"
+    },
+    {
+      "id": "1880",
+      "slug": "check-if-word-equals-summation-of-two-words",
+      "title": "Check if Word Equals Summation of Two Words",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isSumEqual"
     }
   ]
 }

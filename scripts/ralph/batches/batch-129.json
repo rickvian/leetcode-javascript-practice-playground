@@ -2,217 +2,292 @@
   "batchId": "batch-129",
   "problems": [
     {
-      "id": "2662",
-      "slug": "minimum-cost-of-a-path-with-special-roads",
-      "title": "Minimum Cost of a Path With Special Roads",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "graph",
-        "heap-priority-queue",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2663",
-      "slug": "lexicographically-smallest-beautiful-string",
-      "title": "Lexicographically Smallest Beautiful String",
+      "id": "2561",
+      "slug": "rearranging-fruits",
+      "title": "Rearranging Fruits",
       "difficulty": "HARD",
       "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2664",
-      "slug": "the-knights-tour",
-      "title": "The Knight\u2019s Tour",
-      "difficulty": "MEDIUM",
-      "tags": [
         "array",
-        "backtracking",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2665",
-      "slug": "counter-ii",
-      "title": "Counter II",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2666",
-      "slug": "allow-one-function-call",
-      "title": "Allow One Function Call",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2667",
-      "slug": "create-hello-world-function",
-      "title": "Create Hello World Function",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2668",
-      "slug": "find-latest-salaries",
-      "title": "Find Latest Salaries",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2669",
-      "slug": "count-artist-occurrences-on-spotify-ranking-list",
-      "title": "Count Artist Occurrences On Spotify Ranking List",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2670",
-      "slug": "find-the-distinct-difference-array",
-      "title": "Find the Distinct Difference Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2671",
-      "slug": "frequency-tracker",
-      "title": "Frequency Tracker",
-      "difficulty": "MEDIUM",
-      "tags": [
         "hash-table",
-        "design"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2672",
-      "slug": "number-of-adjacent-elements-with-the-same-color",
-      "title": "Number of Adjacent Elements With the Same Color",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2673",
-      "slug": "make-costs-of-paths-equal-in-a-binary-tree",
-      "title": "Make Costs of Paths Equal in a Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
         "greedy",
-        "tree",
-        "binary-tree"
+        "sort"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCost"
     },
     {
-      "id": "2674",
-      "slug": "split-a-circular-linked-list",
-      "title": "Split a Circular Linked List",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2675",
-      "slug": "array-of-objects-to-matrix",
-      "title": "Array of Objects to Matrix",
-      "difficulty": "HARD",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2676",
-      "slug": "throttle",
-      "title": "Throttle",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2677",
-      "slug": "chunk-array",
-      "title": "Chunk Array",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2678",
-      "slug": "number-of-senior-citizens",
-      "title": "Number of Senior Citizens",
+      "id": "2562",
+      "slug": "find-the-array-concatenation-value",
+      "title": "Find the Array Concatenation Value",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2679",
-      "slug": "sum-in-a-matrix",
-      "title": "Sum in a Matrix",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sorting",
-        "heap-priority-queue",
-        "matrix",
+        "two-pointers",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findTheArrayConcVal"
     },
     {
-      "id": "2680",
-      "slug": "maximum-or",
-      "title": "Maximum OR",
+      "id": "2563",
+      "slug": "count-the-number-of-fair-pairs",
+      "title": "Count the Number of Fair Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countFairPairs"
+    },
+    {
+      "id": "2564",
+      "slug": "substring-xor-queries",
+      "title": "Substring XOR Queries",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2565",
+      "slug": "subsequence-with-the-minimum-score",
+      "title": "Subsequence With the Minimum Score",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "string",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2566",
+      "slug": "maximum-difference-by-remapping-a-digit",
+      "title": "Maximum Difference by Remapping a Digit",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minMaxDifference"
+    },
+    {
+      "id": "2567",
+      "slug": "minimum-score-by-changing-two-elements",
+      "title": "Minimum Score by Changing Two Elements",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "greedy",
-        "bit-manipulation",
-        "prefix-sum"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimizeSum"
     },
     {
-      "id": "2681",
-      "slug": "power-of-heroes",
-      "title": "Power of Heroes",
+      "id": "2568",
+      "slug": "minimum-impossible-or",
+      "title": "Minimum Impossible OR",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "brainteaser"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minImpossibleOR"
+    },
+    {
+      "id": "2569",
+      "slug": "handling-sum-queries-after-update",
+      "title": "Handling Sum Queries After Update",
       "difficulty": "HARD",
+      "tags": [
+        "array",
+        "segment-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2570",
+      "slug": "merge-two-2d-arrays-by-summing-values",
+      "title": "Merge Two 2D Arrays by Summing Values",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mergeArrays"
+    },
+    {
+      "id": "2571",
+      "slug": "minimum-operations-to-reduce-an-integer-to-0",
+      "title": "Minimum Operations to Reduce an Integer to 0",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "greedy",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
+    },
+    {
+      "id": "2572",
+      "slug": "count-the-number-of-square-free-subsets",
+      "title": "Count the Number of Square-Free Subsets",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "math",
         "dynamic-programming",
-        "sorting",
+        "bit-manipulation",
+        "number-theory",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2573",
+      "slug": "find-the-string-with-lcp",
+      "title": "Find the String with LCP",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming",
+        "greedy",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2574",
+      "slug": "left-and-right-sum-differences",
+      "title": "Left and Right Sum Differences",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
         "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "leftRightDifference"
+    },
+    {
+      "id": "2575",
+      "slug": "find-the-divisibility-array-of-a-string",
+      "title": "Find the Divisibility Array of a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2576",
+      "slug": "find-the-maximum-number-of-marked-indices",
+      "title": "Find the Maximum Number of Marked Indices",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxNumOfMarkedIndices"
+    },
+    {
+      "id": "2577",
+      "slug": "minimum-time-to-visit-a-cell-in-a-grid",
+      "title": "Minimum Time to Visit a Cell In a Grid",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "matrix",
+        "shortest-path"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2578",
+      "slug": "split-with-minimum-sum",
+      "title": "Split With Minimum Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "splitNum"
+    },
+    {
+      "id": "2579",
+      "slug": "count-total-number-of-colored-cells",
+      "title": "Count Total Number of Colored Cells",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "coloredCells"
+    },
+    {
+      "id": "2580",
+      "slug": "count-ways-to-group-overlapping-ranges",
+      "title": "Count Ways to Group Overlapping Ranges",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

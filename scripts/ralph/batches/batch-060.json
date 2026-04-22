@@ -2,235 +2,272 @@
   "batchId": "batch-060",
   "problems": [
     {
-      "id": "1282",
-      "slug": "group-the-people-given-the-group-size-they-belong-to",
-      "title": "Group the People Given the Group Size They Belong To",
+      "id": "1181",
+      "slug": "before-and-after-puzzle",
+      "title": "Before and After Puzzle",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1283",
-      "slug": "find-the-smallest-divisor-given-a-threshold",
-      "title": "Find the Smallest Divisor Given a Threshold",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1284",
-      "slug": "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
-      "title": "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "bit-manipulation",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1285",
-      "slug": "find-the-start-and-end-number-of-continuous-ranges",
-      "title": "Find the Start and End Number of Continuous Ranges",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1286",
-      "slug": "iterator-for-combination",
-      "title": "Iterator for Combination",
-      "difficulty": "MEDIUM",
-      "tags": [
         "string",
-        "backtracking",
-        "design",
-        "iterator"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1287",
-      "slug": "element-appearing-more-than-25-in-sorted-array",
-      "title": "Element Appearing More Than 25% In Sorted Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1288",
-      "slug": "remove-covered-intervals",
-      "title": "Remove Covered Intervals",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "beforeAndAfterPuzzles"
     },
     {
-      "id": "1289",
-      "slug": "minimum-falling-path-sum-ii",
-      "title": "Minimum Falling Path Sum II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1290",
-      "slug": "convert-binary-number-in-a-linked-list-to-integer",
-      "title": "Convert Binary Number in a Linked List to Integer",
-      "difficulty": "EASY",
-      "tags": [
-        "linked-list",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1291",
-      "slug": "sequential-digits",
-      "title": "Sequential Digits",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1292",
-      "slug": "maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold",
-      "title": "Maximum Side Length of a Square with Sum Less than or Equal to Threshold",
+      "id": "1182",
+      "slug": "shortest-distance-to-target-color",
+      "title": "Shortest Distance to Target Color",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "binary-search",
-        "matrix",
-        "prefix-sum"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestDistanceColor"
     },
     {
-      "id": "1293",
-      "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
-      "title": "Shortest Path in a Grid with Obstacles Elimination",
+      "id": "1183",
+      "slug": "maximum-number-of-ones",
+      "title": "Maximum Number of Ones",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "breadth-first-search",
-        "matrix"
+        "math",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumNumberOfOnes"
     },
     {
-      "id": "1294",
-      "slug": "weather-type-in-each-country",
-      "title": "Weather Type in Each Country",
+      "id": "1184",
+      "slug": "distance-between-bus-stops",
+      "title": "Distance Between Bus Stops",
       "difficulty": "EASY",
       "tags": [
-        "database"
+        "array"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distanceBetweenBusStops"
     },
     {
-      "id": "1295",
-      "slug": "find-numbers-with-even-number-of-digits",
-      "title": "Find Numbers with Even Number of Digits",
+      "id": "1185",
+      "slug": "day-of-the-week",
+      "title": "Day of the Week",
       "difficulty": "EASY",
       "tags": [
-        "array",
         "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "dayOfTheWeek"
     },
     {
-      "id": "1296",
-      "slug": "divide-array-in-sets-of-k-consecutive-numbers",
-      "title": "Divide Array in Sets of K Consecutive Numbers",
+      "id": "1186",
+      "slug": "maximum-subarray-sum-with-one-deletion",
+      "title": "Maximum Subarray Sum with One Deletion",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumSum"
+    },
+    {
+      "id": "1187",
+      "slug": "make-array-strictly-increasing",
+      "title": "Make Array Strictly Increasing",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "makeArrayIncreasing"
+    },
+    {
+      "id": "1188",
+      "slug": "design-bounded-blocking-queue",
+      "title": "Design Bounded Blocking Queue",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": true,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1189",
+      "slug": "maximum-number-of-balloons",
+      "title": "Maximum Number of Balloons",
+      "difficulty": "EASY",
+      "tags": [
         "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxNumberOfBalloons"
+    },
+    {
+      "id": "1190",
+      "slug": "reverse-substrings-between-each-pair-of-parentheses",
+      "title": "Reverse Substrings Between Each Pair of Parentheses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverseParentheses"
+    },
+    {
+      "id": "1191",
+      "slug": "k-concatenation-maximum-sum",
+      "title": "K-Concatenation Maximum Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kConcatenationMaxSum"
+    },
+    {
+      "id": "1192",
+      "slug": "critical-connections-in-a-network",
+      "title": "Critical Connections in a Network",
+      "difficulty": "HARD",
+      "tags": [
+        "depth-first-search",
+        "graph",
+        "biconnected-component"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "criticalConnections"
+    },
+    {
+      "id": "1193",
+      "slug": "monthly-transactions-i",
+      "title": "Monthly Transactions I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1194",
+      "slug": "tournament-winners",
+      "title": "Tournament Winners",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1195",
+      "slug": "fizz-buzz-multithreaded",
+      "title": "Fizz Buzz Multithreaded",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1196",
+      "slug": "how-many-apples-can-you-put-into-the-basket",
+      "title": "How Many Apples Can You Put into the Basket",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
         "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxNumberOfApples"
     },
     {
-      "id": "1297",
-      "slug": "maximum-number-of-occurrences-of-a-substring",
-      "title": "Maximum Number of Occurrences of a Substring",
+      "id": "1197",
+      "slug": "minimum-knight-moves",
+      "title": "Minimum Knight Moves",
       "difficulty": "MEDIUM",
       "tags": [
-        "hash-table",
-        "string",
-        "sliding-window"
+        "breadth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minKnightMoves"
     },
     {
-      "id": "1298",
-      "slug": "maximum-candies-you-can-get-from-boxes",
-      "title": "Maximum Candies You Can Get from Boxes",
+      "id": "1198",
+      "slug": "find-smallest-common-element-in-all-rows",
+      "title": "Find Smallest Common Element in All Rows",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "matrix",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestCommonElement"
+    },
+    {
+      "id": "1199",
+      "slug": "minimum-time-to-build-blocks",
+      "title": "Minimum Time to Build Blocks",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "breadth-first-search",
-        "graph"
+        "math",
+        "greedy",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minBuildTime"
     },
     {
-      "id": "1299",
-      "slug": "replace-elements-with-greatest-element-on-right-side",
-      "title": "Replace Elements with Greatest Element on Right Side",
+      "id": "1200",
+      "slug": "minimum-absolute-difference",
+      "title": "Minimum Absolute Difference",
       "difficulty": "EASY",
       "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1300",
-      "slug": "sum-of-mutated-array-closest-to-target",
-      "title": "Sum of Mutated Array Closest to Target",
-      "difficulty": "MEDIUM",
-      "tags": [
         "array",
-        "binary-search",
         "sorting"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "1301",
-      "slug": "number-of-paths-with-max-score",
-      "title": "Number of Paths with Max Score",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "matrix"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumAbsDifference"
     }
   ]
 }

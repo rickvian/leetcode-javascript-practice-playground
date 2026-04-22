@@ -2,231 +2,290 @@
   "batchId": "batch-128",
   "problems": [
     {
-      "id": "2642",
-      "slug": "design-graph-with-shortest-path-calculator",
-      "title": "Design Graph With Shortest Path Calculator",
-      "difficulty": "HARD",
-      "tags": [
-        "graph",
-        "design",
-        "heap-priority-queue",
-        "shortest-path"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "2643",
-      "slug": "row-with-maximum-ones",
-      "title": "Row With Maximum Ones",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2644",
-      "slug": "find-the-maximum-divisibility-score",
-      "title": "Find the Maximum Divisibility Score",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2645",
-      "slug": "minimum-additions-to-make-valid-string",
-      "title": "Minimum Additions to Make Valid String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "stack",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2646",
-      "slug": "minimize-the-total-price-of-the-trips",
-      "title": "Minimize the Total Price of the Trips",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "tree",
-        "depth-first-search",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2647",
-      "slug": "color-the-triangle-red",
-      "title": "Color the Triangle Red",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2648",
-      "slug": "generate-fibonacci-sequence",
-      "title": "Generate Fibonacci Sequence",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2649",
-      "slug": "nested-array-generator",
-      "title": "Nested Array Generator",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2650",
-      "slug": "design-cancellable-function",
-      "title": "Design Cancellable Function",
-      "difficulty": "HARD",
-      "tags": [],
-      "classHeavy": true
-    },
-    {
-      "id": "2651",
-      "slug": "calculate-delayed-arrival-time",
-      "title": "Calculate Delayed Arrival Time",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2652",
-      "slug": "sum-multiples",
-      "title": "Sum Multiples",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2653",
-      "slug": "sliding-subarray-beauty",
-      "title": "Sliding Subarray Beauty",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2654",
-      "slug": "minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
-      "title": "Minimum Number of Operations to Make All Array Elements Equal to 1",
+      "id": "2541",
+      "slug": "minimum-operations-to-make-array-equal-ii",
+      "title": "Minimum Operations to Make Array Equal II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "math",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2655",
-      "slug": "find-maximal-uncovered-ranges",
-      "title": "Find Maximal Uncovered Ranges",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2656",
-      "slug": "maximum-sum-with-exactly-k-elements",
-      "title": "Maximum Sum With Exactly K Elements ",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
         "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2657",
-      "slug": "find-the-prefix-common-array-of-two-arrays",
-      "title": "Find the Prefix Common Array of Two Arrays",
+      "id": "2542",
+      "slug": "maximum-subsequence-score",
+      "title": "Maximum Subsequence Score",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "bit-manipulation"
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxScore"
     },
     {
-      "id": "2658",
-      "slug": "maximum-number-of-fish-in-a-grid",
-      "title": "Maximum Number of Fish in a Grid",
+      "id": "2543",
+      "slug": "check-if-point-is-reachable",
+      "title": "Check if Point Is Reachable",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isReachable"
+    },
+    {
+      "id": "2544",
+      "slug": "alternating-digit-sum",
+      "title": "Alternating Digit Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "alternateDigitSum"
+    },
+    {
+      "id": "2545",
+      "slug": "sort-the-students-by-their-kth-score",
+      "title": "Sort the Students by Their Kth Score",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
+        "sorting",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortTheStudents"
     },
     {
-      "id": "2659",
-      "slug": "make-array-empty",
-      "title": "Make Array Empty",
+      "id": "2546",
+      "slug": "apply-bitwise-operations-to-make-strings-equal",
+      "title": "Apply Bitwise Operations to Make Strings Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "makeStringsEqual"
+    },
+    {
+      "id": "2547",
+      "slug": "minimum-cost-to-split-an-array",
+      "title": "Minimum Cost to Split an Array",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "binary-search",
-        "greedy",
-        "binary-indexed-tree",
-        "segment-tree",
-        "sorting",
-        "ordered-set"
+        "hash-table",
+        "dynamic-programming",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCost"
     },
     {
-      "id": "2660",
-      "slug": "determine-the-winner-of-a-bowling-game",
-      "title": "Determine the Winner of a Bowling Game",
+      "id": "2548",
+      "slug": "maximum-price-to-fill-a-bag",
+      "title": "Maximum Price to Fill a Bag",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxPrice"
+    },
+    {
+      "id": "2549",
+      "slug": "count-distinct-numbers-on-board",
+      "title": "Count Distinct Numbers on Board",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distinctIntegers"
+    },
+    {
+      "id": "2550",
+      "slug": "count-collisions-of-monkeys-on-a-polygon",
+      "title": "Count Collisions of Monkeys on a Polygon",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2551",
+      "slug": "put-marbles-in-bags",
+      "title": "Put Marbles in Bags",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "putMarbles"
+    },
+    {
+      "id": "2552",
+      "slug": "count-increasing-quadruplets",
+      "title": "Count Increasing Quadruplets",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "binary-indexed-tree",
+        "enumeration",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2553",
+      "slug": "separate-the-digits-in-an-array",
+      "title": "Separate the Digits in an Array",
       "difficulty": "EASY",
       "tags": [
         "array",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "separateDigits"
     },
     {
-      "id": "2661",
-      "slug": "first-completely-painted-row-or-column",
-      "title": "First Completely Painted Row or Column",
+      "id": "2554",
+      "slug": "maximum-number-of-integers-to-choose-from-a-range-i",
+      "title": "Maximum Number of Integers to Choose From a Range I",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxCount"
+    },
+    {
+      "id": "2555",
+      "slug": "maximize-win-from-two-segments",
+      "title": "Maximize Win From Two Segments",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2556",
+      "slug": "disconnect-path-in-a-binary-matrix-by-at-most-one-flip",
+      "title": "Disconnect Path in a Binary Matrix by at Most One Flip",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "depth-first-search",
+        "breadth-first-search",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2557",
+      "slug": "maximum-number-of-integers-to-choose-from-a-range-ii",
+      "title": "Maximum Number of Integers to Choose From a Range II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxCount"
+    },
+    {
+      "id": "2558",
+      "slug": "take-gifts-from-the-richest-pile",
+      "title": "Take Gifts From the Richest Pile",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "heap-priority-queue",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2559",
+      "slug": "count-vowel-strings-in-ranges",
+      "title": "Count Vowel Strings in Ranges",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "vowelStrings"
+    },
+    {
+      "id": "2560",
+      "slug": "house-robber-iv",
+      "title": "House Robber IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCapability"
     }
   ]
 }

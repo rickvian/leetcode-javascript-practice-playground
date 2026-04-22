@@ -2,172 +2,197 @@
   "batchId": "batch-047",
   "problems": [
     {
-      "id": "1021",
-      "slug": "remove-outermost-parentheses",
-      "title": "Remove Outermost Parentheses",
-      "difficulty": "EASY",
+      "id": "0921",
+      "slug": "minimum-add-to-make-parentheses-valid",
+      "title": "Minimum Add to Make Parentheses Valid",
+      "difficulty": "MEDIUM",
       "tags": [
         "string",
-        "stack"
+        "stack",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minAddToMakeValid"
     },
     {
-      "id": "1022",
-      "slug": "sum-of-root-to-leaf-binary-numbers",
-      "title": "Sum of Root To Leaf Binary Numbers",
+      "id": "0922",
+      "slug": "sort-array-by-parity-ii",
+      "title": "Sort Array By Parity II",
       "difficulty": "EASY",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1023",
-      "slug": "camelcase-matching",
-      "title": "Camelcase Matching",
-      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "two-pointers",
-        "string",
-        "trie",
-        "string-matching"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortArrayByParityII"
     },
     {
-      "id": "1024",
-      "slug": "video-stitching",
-      "title": "Video Stitching",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1025",
-      "slug": "divisor-game",
-      "title": "Divisor Game",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "brainteaser",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1026",
-      "slug": "maximum-difference-between-node-and-ancestor",
-      "title": "Maximum Difference Between Node and Ancestor",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1027",
-      "slug": "longest-arithmetic-subsequence",
-      "title": "Longest Arithmetic Subsequence",
+      "id": "0923",
+      "slug": "3sum-with-multiplicity",
+      "title": "3Sum With Multiplicity",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "binary-search",
-        "dynamic-programming"
+        "two-pointers",
+        "sorting",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "threeSumMulti"
     },
     {
-      "id": "1028",
-      "slug": "recover-a-tree-from-preorder-traversal",
-      "title": "Recover a Tree From Preorder Traversal",
+      "id": "0924",
+      "slug": "minimize-malware-spread",
+      "title": "Minimize Malware Spread",
       "difficulty": "HARD",
       "tags": [
-        "string",
-        "tree",
+        "array",
+        "hash-table",
         "depth-first-search",
-        "binary-tree"
+        "breadth-first-search",
+        "union-find",
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minMalwareSpread"
     },
     {
-      "id": "1029",
-      "slug": "two-city-scheduling",
-      "title": "Two City Scheduling",
+      "id": "0925",
+      "slug": "long-pressed-name",
+      "title": "Long Pressed Name",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isLongPressedName"
+    },
+    {
+      "id": "0926",
+      "slug": "flip-string-to-monotone-increasing",
+      "title": "Flip String to Monotone Increasing",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "greedy",
-        "sorting"
+        "string",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minFlipsMonoIncr"
     },
     {
-      "id": "1030",
-      "slug": "matrix-cells-in-distance-order",
-      "title": "Matrix Cells in Distance Order",
+      "id": "0927",
+      "slug": "three-equal-parts",
+      "title": "Three Equal Parts",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "threeEqualParts"
+    },
+    {
+      "id": "0928",
+      "slug": "minimize-malware-spread-ii",
+      "title": "Minimize Malware Spread II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minMalwareSpread"
+    },
+    {
+      "id": "0929",
+      "slug": "unique-email-addresses",
+      "title": "Unique Email Addresses",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "math",
-        "geometry",
-        "sorting",
-        "matrix"
+        "hash-table",
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numUniqueEmails"
     },
     {
-      "id": "1031",
-      "slug": "maximum-sum-of-two-non-overlapping-subarrays",
-      "title": "Maximum Sum of Two Non-Overlapping Subarrays",
+      "id": "0930",
+      "slug": "binary-subarrays-with-sum",
+      "title": "Binary Subarrays With Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numSubarraysWithSum"
+    },
+    {
+      "id": "0931",
+      "slug": "minimum-falling-path-sum",
+      "title": "Minimum Falling Path Sum",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming",
-        "sliding-window"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minFallingPathSum"
     },
     {
-      "id": "1032",
-      "slug": "stream-of-characters",
-      "title": "Stream of Characters",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "string",
-        "design",
-        "trie",
-        "data-stream"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1033",
-      "slug": "moving-stones-until-consecutive",
-      "title": "Moving Stones Until Consecutive",
+      "id": "0932",
+      "slug": "beautiful-array",
+      "title": "Beautiful Array",
       "difficulty": "MEDIUM",
       "tags": [
+        "array",
         "math",
-        "brainteaser"
+        "divide-and-conquer"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "beautifulArray"
     },
     {
-      "id": "1034",
-      "slug": "coloring-a-border",
-      "title": "Coloring A Border",
+      "id": "0933",
+      "slug": "number-of-recent-calls",
+      "title": "Number of Recent Calls",
+      "difficulty": "EASY",
+      "tags": [
+        "design",
+        "queue",
+        "data-stream"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "RecentCounter"
+    },
+    {
+      "id": "0934",
+      "slug": "shortest-bridge",
+      "title": "Shortest Bridge",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
@@ -175,80 +200,94 @@
         "breadth-first-search",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestBridge"
     },
     {
-      "id": "1035",
-      "slug": "uncrossed-lines",
-      "title": "Uncrossed Lines",
+      "id": "0935",
+      "slug": "knight-dialer",
+      "title": "Knight Dialer",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "knightDialer"
     },
     {
-      "id": "1036",
-      "slug": "escape-a-large-maze",
-      "title": "Escape a Large Maze",
+      "id": "0936",
+      "slug": "stamping-the-sequence",
+      "title": "Stamping The Sequence",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "hash-table",
-        "depth-first-search",
-        "breadth-first-search"
+        "string",
+        "stack",
+        "greedy",
+        "queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "movesToStamp"
     },
     {
-      "id": "1037",
-      "slug": "valid-boomerang",
-      "title": "Valid Boomerang",
-      "difficulty": "EASY",
+      "id": "0937",
+      "slug": "reorder-data-in-log-files",
+      "title": "Reorder Data in Log Files",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "geometry"
+        "string",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reorderLogFiles"
     },
     {
-      "id": "1038",
-      "slug": "binary-search-tree-to-greater-sum-tree",
-      "title": "Binary Search Tree to Greater Sum Tree",
-      "difficulty": "MEDIUM",
+      "id": "0938",
+      "slug": "range-sum-of-bst",
+      "title": "Range Sum of BST",
+      "difficulty": "EASY",
       "tags": [
         "tree",
         "depth-first-search",
         "binary-search-tree",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rangeSumBST"
     },
     {
-      "id": "1039",
-      "slug": "minimum-score-triangulation-of-polygon",
-      "title": "Minimum Score Triangulation of Polygon",
+      "id": "0939",
+      "slug": "minimum-area-rectangle",
+      "title": "Minimum Area Rectangle",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1040",
-      "slug": "moving-stones-until-consecutive-ii",
-      "title": "Moving Stones Until Consecutive II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
+        "hash-table",
         "math",
-        "sliding-window",
+        "geometry",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minAreaRect"
+    },
+    {
+      "id": "0940",
+      "slug": "distinct-subsequences-ii",
+      "title": "Distinct Subsequences II",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distinctSubseqII"
     }
   ]
 }

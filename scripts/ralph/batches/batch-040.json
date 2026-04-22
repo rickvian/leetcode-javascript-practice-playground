@@ -2,82 +2,69 @@
   "batchId": "batch-040",
   "problems": [
     {
-      "id": "0880",
-      "slug": "decoded-string-at-index",
-      "title": "Decoded String at Index",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0881",
-      "slug": "boats-to-save-people",
-      "title": "Boats to Save People",
+      "id": "0781",
+      "slug": "rabbits-in-forest",
+      "title": "Rabbits in Forest",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "two-pointers",
-        "greedy",
-        "sorting"
+        "hash-table",
+        "math",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numRabbits"
     },
     {
-      "id": "0882",
-      "slug": "reachable-nodes-in-subdivided-graph",
-      "title": "Reachable Nodes In Subdivided Graph",
+      "id": "0782",
+      "slug": "transform-to-chessboard",
+      "title": "Transform to Chessboard",
       "difficulty": "HARD",
-      "tags": [
-        "graph",
-        "heap-priority-queue",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0883",
-      "slug": "projection-area-of-3d-shapes",
-      "title": "Projection Area of 3D Shapes",
-      "difficulty": "EASY",
       "tags": [
         "array",
         "math",
-        "geometry",
+        "bit-manipulation",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "movesToChessboard"
     },
     {
-      "id": "0884",
-      "slug": "uncommon-words-from-two-sentences",
-      "title": "Uncommon Words from Two Sentences",
+      "id": "0783",
+      "slug": "minimum-distance-between-bst-nodes",
+      "title": "Minimum Distance Between BST Nodes",
       "difficulty": "EASY",
       "tags": [
-        "hash-table",
-        "string",
-        "counting"
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-search-tree",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minDiffInBST"
     },
     {
-      "id": "0885",
-      "slug": "spiral-matrix-iii",
-      "title": "Spiral Matrix III",
+      "id": "0784",
+      "slug": "letter-case-permutation",
+      "title": "Letter Case Permutation",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "matrix",
-        "simulation"
+        "string",
+        "backtracking",
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "letterCasePermutation"
     },
     {
-      "id": "0886",
-      "slug": "possible-bipartition",
-      "title": "Possible Bipartition",
+      "id": "0785",
+      "slug": "is-graph-bipartite",
+      "title": "Is Graph Bipartite?",
       "difficulty": "MEDIUM",
       "tags": [
         "depth-first-search",
@@ -85,171 +72,218 @@
         "union-find",
         "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isBipartite"
     },
     {
-      "id": "0887",
-      "slug": "super-egg-drop",
-      "title": "Super Egg Drop",
-      "difficulty": "HARD",
+      "id": "0786",
+      "slug": "k-th-smallest-prime-fraction",
+      "title": "K-th Smallest Prime Fraction",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthSmallestPrimeFraction"
+    },
+    {
+      "id": "0787",
+      "slug": "cheapest-flights-within-k-stops",
+      "title": "Cheapest Flights Within K Stops",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "findCheapestPrice"
+    },
+    {
+      "id": "0788",
+      "slug": "rotated-digits",
+      "title": "Rotated Digits",
+      "difficulty": "MEDIUM",
       "tags": [
         "math",
-        "binary-search",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rotatedDigits"
     },
     {
-      "id": "0888",
-      "slug": "fair-candy-swap",
-      "title": "Fair Candy Swap",
-      "difficulty": "EASY",
+      "id": "0789",
+      "slug": "escape-the-ghosts",
+      "title": "Escape The Ghosts",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "escapeGhosts"
+    },
+    {
+      "id": "0790",
+      "slug": "domino-and-tromino-tiling",
+      "title": "Domino and Tromino Tiling",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numTilings"
+    },
+    {
+      "id": "0791",
+      "slug": "custom-sort-string",
+      "title": "Custom Sort String",
+      "difficulty": "MEDIUM",
+      "tags": [
         "hash-table",
-        "binary-search",
+        "string",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "customSortString"
     },
     {
-      "id": "0889",
-      "slug": "construct-binary-tree-from-preorder-and-postorder-traversal",
-      "title": "Construct Binary Tree from Preorder and Postorder Traversal",
+      "id": "0792",
+      "slug": "number-of-matching-subsequences",
+      "title": "Number of Matching Subsequences",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "divide-and-conquer",
-        "tree",
-        "binary-tree"
+        "string",
+        "binary-search",
+        "dynamic-programming",
+        "trie",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numMatchingSubseq"
     },
     {
-      "id": "0890",
-      "slug": "find-and-replace-pattern",
-      "title": "Find and Replace Pattern",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0891",
-      "slug": "sum-of-subsequence-widths",
-      "title": "Sum of Subsequence Widths",
+      "id": "0793",
+      "slug": "preimage-size-of-factorial-zeroes-function",
+      "title": "Preimage Size of Factorial Zeroes Function",
       "difficulty": "HARD",
       "tags": [
-        "array",
         "math",
-        "sorting"
+        "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "preimageSizeFZF"
     },
     {
-      "id": "0892",
-      "slug": "surface-area-of-3d-shapes",
-      "title": "Surface Area of 3D Shapes",
-      "difficulty": "EASY",
+      "id": "0794",
+      "slug": "valid-tic-tac-toe-state",
+      "title": "Valid Tic-Tac-Toe State",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "geometry",
         "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validTicTacToe"
     },
     {
-      "id": "0893",
-      "slug": "groups-of-special-equivalent-strings",
-      "title": "Groups of Special-Equivalent Strings",
+      "id": "0795",
+      "slug": "number-of-subarrays-with-bounded-maximum",
+      "title": "Number of Subarrays with Bounded Maximum",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numSubarrayBoundedMax"
+    },
+    {
+      "id": "0796",
+      "slug": "rotate-string",
+      "title": "Rotate String",
+      "difficulty": "EASY",
+      "tags": [
         "string",
-        "sorting"
+        "string-matching"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rotateString"
     },
     {
-      "id": "0894",
-      "slug": "all-possible-full-binary-trees",
-      "title": "All Possible Full Binary Trees",
+      "id": "0797",
+      "slug": "all-paths-from-source-to-target",
+      "title": "All Paths From Source to Target",
       "difficulty": "MEDIUM",
       "tags": [
-        "dynamic-programming",
-        "tree",
-        "recursion",
-        "memoization",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0895",
-      "slug": "maximum-frequency-stack",
-      "title": "Maximum Frequency Stack",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "stack",
-        "design",
-        "ordered-set"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0896",
-      "slug": "monotonic-array",
-      "title": "Monotonic Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0897",
-      "slug": "increasing-order-search-tree",
-      "title": "Increasing Order Search Tree",
-      "difficulty": "EASY",
-      "tags": [
-        "stack",
-        "tree",
+        "backtracking",
         "depth-first-search",
-        "binary-search-tree",
-        "binary-tree"
+        "breadth-first-search",
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "allPathsSourceTarget"
     },
     {
-      "id": "0898",
-      "slug": "bitwise-ors-of-subarrays",
-      "title": "Bitwise ORs of Subarrays",
-      "difficulty": "MEDIUM",
+      "id": "0798",
+      "slug": "smallest-rotation-with-highest-score",
+      "title": "Smallest Rotation with Highest Score",
+      "difficulty": "HARD",
       "tags": [
         "array",
-        "dynamic-programming",
-        "bit-manipulation"
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "bestRotation"
     },
     {
-      "id": "0899",
-      "slug": "orderly-queue",
-      "title": "Orderly Queue",
-      "difficulty": "HARD",
+      "id": "0799",
+      "slug": "champagne-tower",
+      "title": "Champagne Tower",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "champagneTower"
+    },
+    {
+      "id": "0800",
+      "slug": "similar-rgb-color",
+      "title": "Similar RGB Color",
+      "difficulty": "EASY",
       "tags": [
         "math",
         "string",
-        "sorting"
+        "enumeration"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "similarRGB"
     }
   ]
 }

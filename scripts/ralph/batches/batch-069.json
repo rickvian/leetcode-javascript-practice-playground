@@ -2,95 +2,266 @@
   "batchId": "batch-069",
   "problems": [
     {
-      "id": "1462",
-      "slug": "course-schedule-iv",
-      "title": "Course Schedule IV",
+      "id": "1361",
+      "slug": "validate-binary-tree-nodes",
+      "title": "Validate Binary Tree Nodes",
       "difficulty": "MEDIUM",
       "tags": [
+        "tree",
         "depth-first-search",
         "breadth-first-search",
+        "union-find",
         "graph",
-        "topological-sort"
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validateBinaryTreeNodes"
     },
     {
-      "id": "1463",
-      "slug": "cherry-pickup-ii",
-      "title": "Cherry Pickup II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1464",
-      "slug": "maximum-product-of-two-elements-in-an-array",
-      "title": "Maximum Product of Two Elements in an Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1465",
-      "slug": "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
-      "title": "Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts",
+      "id": "1362",
+      "slug": "closest-divisors",
+      "title": "Closest Divisors",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "greedy",
-        "sorting"
+        "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1466",
-      "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
-      "title": "Reorder Routes to Make All Paths Lead to the City Zero",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "depth-first-search",
-        "breadth-first-search",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1467",
-      "slug": "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls",
-      "title": "Probability of a Two Boxes Having The Same Number of Distinct Balls",
+      "id": "1363",
+      "slug": "largest-multiple-of-three",
+      "title": "Largest Multiple of Three",
       "difficulty": "HARD",
       "tags": [
         "array",
         "math",
         "dynamic-programming",
-        "backtracking",
-        "combinatorics",
-        "probability-and-statistics"
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestMultipleOfThree"
     },
     {
-      "id": "1468",
-      "slug": "calculate-salaries",
-      "title": "Calculate Salaries",
+      "id": "1364",
+      "slug": "number-of-trusted-contacts-of-a-customer",
+      "title": "Number of Trusted Contacts of a Customer",
       "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1469",
-      "slug": "find-all-the-lonely-nodes",
-      "title": "Find All The Lonely Nodes",
+      "id": "1365",
+      "slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "title": "How Many Numbers Are Smaller Than the Current Number",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "counting-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallerNumbersThanCurrent"
+    },
+    {
+      "id": "1366",
+      "slug": "rank-teams-by-votes",
+      "title": "Rank Teams by Votes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rankTeams"
+    },
+    {
+      "id": "1367",
+      "slug": "linked-list-in-binary-tree",
+      "title": "Linked List in Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isSubPath"
+    },
+    {
+      "id": "1368",
+      "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+      "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "matrix",
+        "shortest-path"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCost"
+    },
+    {
+      "id": "1369",
+      "slug": "get-the-second-most-recent-activity",
+      "title": "Get the Second Most Recent Activity",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1370",
+      "slug": "increasing-decreasing-string",
+      "title": "Increasing Decreasing String",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortString"
+    },
+    {
+      "id": "1371",
+      "slug": "find-the-longest-substring-containing-vowels-in-even-counts",
+      "title": "Find the Longest Substring Containing Vowels in Even Counts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findTheLongestSubstring"
+    },
+    {
+      "id": "1372",
+      "slug": "longest-zigzag-path-in-a-binary-tree",
+      "title": "Longest ZigZag Path in a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestZigZag"
+    },
+    {
+      "id": "1373",
+      "slug": "maximum-sum-bst-in-binary-tree",
+      "title": "Maximum Sum BST in Binary Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSumBST"
+    },
+    {
+      "id": "1374",
+      "slug": "generate-a-string-with-characters-that-have-odd-counts",
+      "title": "Generate a String With Characters That Have Odd Counts",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "generateTheString"
+    },
+    {
+      "id": "1375",
+      "slug": "number-of-times-binary-string-is-prefix-aligned",
+      "title": "Number of Times Binary String Is Prefix-Aligned",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numTimesAllBlue"
+    },
+    {
+      "id": "1376",
+      "slug": "time-needed-to-inform-all-employees",
+      "title": "Time Needed to Inform All Employees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numOfMinutes"
+    },
+    {
+      "id": "1377",
+      "slug": "frog-position-after-t-seconds",
+      "title": "Frog Position After T Seconds",
+      "difficulty": "HARD",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "frogPosition"
+    },
+    {
+      "id": "1378",
+      "slug": "replace-employee-id-with-the-unique-identifier",
+      "title": "Replace Employee ID With The Unique Identifier",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1379",
+      "slug": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+      "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
       "difficulty": "EASY",
       "tags": [
         "tree",
@@ -98,151 +269,22 @@
         "breadth-first-search",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getTargetCopy"
     },
     {
-      "id": "1470",
-      "slug": "shuffle-the-array",
-      "title": "Shuffle the Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1471",
-      "slug": "the-k-strongest-values-in-an-array",
-      "title": "The k Strongest Values in an Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1472",
-      "slug": "design-browser-history",
-      "title": "Design Browser History",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "linked-list",
-        "stack",
-        "design",
-        "doubly-linked-list",
-        "data-stream"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1473",
-      "slug": "paint-house-iii",
-      "title": "Paint House III",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1474",
-      "slug": "delete-n-nodes-after-m-nodes-of-a-linked-list",
-      "title": "Delete N Nodes After M Nodes of a Linked List",
-      "difficulty": "EASY",
-      "tags": [
-        "linked-list"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1475",
-      "slug": "final-prices-with-a-special-discount-in-a-shop",
-      "title": "Final Prices With a Special Discount in a Shop",
+      "id": "1380",
+      "slug": "lucky-numbers-in-a-matrix",
+      "title": "Lucky Numbers in a Matrix",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "stack",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1476",
-      "slug": "subrectangle-queries",
-      "title": "Subrectangle Queries",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "design",
         "matrix"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "1477",
-      "slug": "find-two-non-overlapping-sub-arrays-each-with-target-sum",
-      "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "binary-search",
-        "dynamic-programming",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1478",
-      "slug": "allocate-mailboxes",
-      "title": "Allocate Mailboxes",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1479",
-      "slug": "sales-by-day-of-the-week",
-      "title": "Sales by Day of the Week",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1480",
-      "slug": "running-sum-of-1d-array",
-      "title": "Running Sum of 1d Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1481",
-      "slug": "least-number-of-unique-integers-after-k-removals",
-      "title": "Least Number of Unique Integers after K Removals",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "greedy",
-        "sorting",
-        "counting"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "luckyNumbers"
     }
   ]
 }

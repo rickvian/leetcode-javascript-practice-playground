@@ -2,6 +2,47 @@
   "batchId": "batch-001",
   "problems": [
     {
+      "id": "0001",
+      "slug": "two-sum",
+      "title": "Two Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "twoSum"
+    },
+    {
+      "id": "0002",
+      "slug": "add-two-numbers",
+      "title": "Add Two Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "math",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addTwoNumbers"
+    },
+    {
+      "id": "0003",
+      "slug": "longest-substring-without-repeating-characters",
+      "title": "Longest Substring Without Repeating Characters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lengthOfLongestSubstring"
+    },
+    {
       "id": "0004",
       "slug": "median-of-two-sorted-arrays",
       "title": "Median of Two Sorted Arrays",
@@ -11,7 +52,23 @@
         "binary-search",
         "divide-and-conquer"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMedianSortedArrays"
+    },
+    {
+      "id": "0005",
+      "slug": "longest-palindromic-substring",
+      "title": "Longest Palindromic Substring",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestPalindrome"
     },
     {
       "id": "0006",
@@ -21,7 +78,9 @@
       "tags": [
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "convert"
     },
     {
       "id": "0007",
@@ -31,7 +90,9 @@
       "tags": [
         "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverse"
     },
     {
       "id": "0008",
@@ -41,7 +102,9 @@
       "tags": [
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "myAtoi"
     },
     {
       "id": "0009",
@@ -51,7 +114,9 @@
       "tags": [
         "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isPalindrome"
     },
     {
       "id": "0010",
@@ -63,7 +128,23 @@
         "dynamic-programming",
         "recursion"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isMatch"
+    },
+    {
+      "id": "0011",
+      "slug": "container-with-most-water",
+      "title": "Container With Most Water",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxArea"
     },
     {
       "id": "0012",
@@ -75,7 +156,9 @@
         "math",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "intToRoman"
     },
     {
       "id": "0013",
@@ -87,7 +170,9 @@
         "math",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "romanToInt"
     },
     {
       "id": "0014",
@@ -99,7 +184,23 @@
         "string",
         "trie"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestCommonPrefix"
+    },
+    {
+      "id": "0015",
+      "slug": "3sum",
+      "title": "3Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "threeSum"
     },
     {
       "id": "0016",
@@ -111,7 +212,9 @@
         "two-pointers",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "threeSumClosest"
     },
     {
       "id": "0017",
@@ -123,7 +226,9 @@
         "string",
         "backtracking"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "letterCombinations"
     },
     {
       "id": "0018",
@@ -135,98 +240,35 @@
         "two-pointers",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fourSum"
     },
     {
-      "id": "0022",
-      "slug": "generate-parentheses",
-      "title": "Generate Parentheses",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "backtracking"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0024",
-      "slug": "swap-nodes-in-pairs",
-      "title": "Swap Nodes in Pairs",
+      "id": "0019",
+      "slug": "remove-nth-node-from-end-of-list",
+      "title": "Remove Nth Node From End of List",
       "difficulty": "MEDIUM",
       "tags": [
         "linked-list",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0025",
-      "slug": "reverse-nodes-in-k-group",
-      "title": "Reverse Nodes in k-Group",
-      "difficulty": "HARD",
-      "tags": [
-        "linked-list",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0026",
-      "slug": "remove-duplicates-from-sorted-array",
-      "title": "Remove Duplicates from Sorted Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
         "two-pointers"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeNthFromEnd"
     },
     {
-      "id": "0027",
-      "slug": "remove-element",
-      "title": "Remove Element",
+      "id": "0020",
+      "slug": "valid-parentheses",
+      "title": "Valid Parentheses",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0028",
-      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
-      "title": "Find the Index of the First Occurrence in a String",
-      "difficulty": "EASY",
-      "tags": [
-        "two-pointers",
         "string",
-        "string-matching"
+        "stack"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "0029",
-      "slug": "divide-two-integers",
-      "title": "Divide Two Integers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0030",
-      "slug": "substring-with-concatenation-of-all-words",
-      "title": "Substring with Concatenation of All Words",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "string",
-        "sliding-window"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isValid"
     }
   ]
 }

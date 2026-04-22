@@ -2,160 +2,26 @@
   "batchId": "batch-030",
   "problems": [
     {
-      "id": "0678",
-      "slug": "valid-parenthesis-string",
-      "title": "Valid Parenthesis String",
+      "id": "0581",
+      "slug": "shortest-unsorted-continuous-subarray",
+      "title": "Shortest Unsorted Continuous Subarray",
       "difficulty": "MEDIUM",
       "tags": [
-        "string",
-        "dynamic-programming",
-        "stack",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0679",
-      "slug": "24-game",
-      "title": "24 Game",
-      "difficulty": "HARD",
-      "tags": [
         "array",
-        "math",
-        "backtracking"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0680",
-      "slug": "valid-palindrome-ii",
-      "title": "Valid Palindrome II",
-      "difficulty": "EASY",
-      "tags": [
         "two-pointers",
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0681",
-      "slug": "next-closest-time",
-      "title": "Next Closest Time",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "backtracking",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0682",
-      "slug": "baseball-game",
-      "title": "Baseball Game",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
         "stack",
-        "simulation"
+        "greedy",
+        "sorting",
+        "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findUnsortedSubarray"
     },
     {
-      "id": "0683",
-      "slug": "k-empty-slots",
-      "title": "K Empty Slots",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-indexed-tree",
-        "segment-tree",
-        "queue",
-        "sliding-window",
-        "heap-priority-queue",
-        "ordered-set",
-        "monotonic-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0684",
-      "slug": "redundant-connection",
-      "title": "Redundant Connection",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0685",
-      "slug": "redundant-connection-ii",
-      "title": "Redundant Connection II",
-      "difficulty": "HARD",
-      "tags": [
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0686",
-      "slug": "repeated-string-match",
-      "title": "Repeated String Match",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "string-matching"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0687",
-      "slug": "longest-univalue-path",
-      "title": "Longest Univalue Path",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0688",
-      "slug": "knight-probability-in-chessboard",
-      "title": "Knight Probability in Chessboard",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0689",
-      "slug": "maximum-sum-of-3-non-overlapping-subarrays",
-      "title": "Maximum Sum of 3 Non-Overlapping Subarrays",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "sliding-window",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0690",
-      "slug": "employee-importance",
-      "title": "Employee Importance",
+      "id": "0582",
+      "slug": "kill-process",
+      "title": "Kill Process",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
@@ -164,104 +30,247 @@
         "depth-first-search",
         "breadth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "killProcess"
     },
     {
-      "id": "0691",
-      "slug": "stickers-to-spell-word",
-      "title": "Stickers to Spell Word",
+      "id": "0583",
+      "slug": "delete-operation-for-two-strings",
+      "title": "Delete Operation for Two Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minDistance"
+    },
+    {
+      "id": "0584",
+      "slug": "find-customer-referee",
+      "title": "Find Customer Referee",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0585",
+      "slug": "investments-in-2016",
+      "title": "Investments in 2016",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0586",
+      "slug": "customer-placing-the-largest-number-of-orders",
+      "title": "Customer Placing the Largest Number of Orders",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0587",
+      "slug": "erect-the-fence",
+      "title": "Erect the Fence",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "hash-table",
-        "string",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "memoization",
-        "bitmask"
+        "math",
+        "geometry"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "outerTrees"
     },
     {
-      "id": "0692",
-      "slug": "top-k-frequent-words",
-      "title": "Top K Frequent Words",
+      "id": "0588",
+      "slug": "design-in-memory-file-system",
+      "title": "Design In-Memory File System",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "design",
+        "trie",
+        "sorting"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "FileSystem"
+    },
+    {
+      "id": "0589",
+      "slug": "n-ary-tree-preorder-traversal",
+      "title": "N-ary Tree Preorder Traversal",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "preorder"
+    },
+    {
+      "id": "0590",
+      "slug": "n-ary-tree-postorder-traversal",
+      "title": "N-ary Tree Postorder Traversal",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "postorder"
+    },
+    {
+      "id": "0591",
+      "slug": "tag-validator",
+      "title": "Tag Validator",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isValid"
+    },
+    {
+      "id": "0592",
+      "slug": "fraction-addition-and-subtraction",
+      "title": "Fraction Addition and Subtraction",
       "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fractionAddition"
+    },
+    {
+      "id": "0593",
+      "slug": "valid-square",
+      "title": "Valid Square",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validSquare"
+    },
+    {
+      "id": "0594",
+      "slug": "longest-harmonious-subsequence",
+      "title": "Longest Harmonious Subsequence",
+      "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "string",
-        "trie",
+        "sliding-window",
         "sorting",
-        "heap-priority-queue",
-        "bucket-sort",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findLHS"
     },
     {
-      "id": "0693",
-      "slug": "binary-number-with-alternating-bits",
-      "title": "Binary Number with Alternating Bits",
+      "id": "0595",
+      "slug": "big-countries",
+      "title": "Big Countries",
       "difficulty": "EASY",
       "tags": [
-        "bit-manipulation"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0694",
-      "slug": "number-of-distinct-islands",
-      "title": "Number of Distinct Islands",
-      "difficulty": "MEDIUM",
+      "id": "0596",
+      "slug": "classes-with-at-least-5-students",
+      "title": "Classes With at Least 5 Students",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0597",
+      "slug": "friend-requests-i-overall-acceptance-rate",
+      "title": "Friend Requests I: Overall Acceptance Rate",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0598",
+      "slug": "range-addition-ii",
+      "title": "Range Addition II",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxCount"
+    },
+    {
+      "id": "0599",
+      "slug": "minimum-index-sum-of-two-lists",
+      "title": "Minimum Index Sum of Two Lists",
+      "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "sorting",
-        "matrix",
-        "hash-function"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0695",
-      "slug": "max-area-of-island",
-      "title": "Max Area of Island",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0696",
-      "slug": "count-binary-substrings",
-      "title": "Count Binary Substrings",
-      "difficulty": "EASY",
-      "tags": [
-        "two-pointers",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findRestaurant"
     },
     {
-      "id": "0697",
-      "slug": "degree-of-an-array",
-      "title": "Degree of an Array",
-      "difficulty": "EASY",
+      "id": "0600",
+      "slug": "non-negative-integers-without-consecutive-ones",
+      "title": "Non-negative Integers without Consecutive Ones",
+      "difficulty": "HARD",
       "tags": [
-        "array",
-        "hash-table"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findIntegers"
     }
   ]
 }

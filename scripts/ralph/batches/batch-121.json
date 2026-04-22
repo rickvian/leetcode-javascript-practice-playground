@@ -2,255 +2,295 @@
   "batchId": "batch-121",
   "problems": [
     {
-      "id": "2502",
-      "slug": "design-memory-allocator",
-      "title": "Design Memory Allocator",
+      "id": "2401",
+      "slug": "longest-nice-subarray",
+      "title": "Longest Nice Subarray",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestNiceSubarray"
+    },
+    {
+      "id": "2402",
+      "slug": "meeting-rooms-iii",
+      "title": "Meeting Rooms III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "heap-priority-queue",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mostBooked"
+    },
+    {
+      "id": "2403",
+      "slug": "minimum-time-to-kill-all-monsters",
+      "title": "Minimum Time to Kill All Monsters",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumTime"
+    },
+    {
+      "id": "2404",
+      "slug": "most-frequent-even-element",
+      "title": "Most Frequent Even Element",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mostFrequentEven"
+    },
+    {
+      "id": "2405",
+      "slug": "optimal-partition-of-string",
+      "title": "Optimal Partition of String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "partitionString"
+    },
+    {
+      "id": "2406",
+      "slug": "divide-intervals-into-minimum-number-of-groups",
+      "title": "Divide Intervals Into Minimum Number of Groups",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minGroups"
+    },
+    {
+      "id": "2407",
+      "slug": "longest-increasing-subsequence-ii",
+      "title": "Longest Increasing Subsequence II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "dynamic-programming",
+        "binary-indexed-tree",
+        "segment-tree",
+        "queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lengthOfLIS"
+    },
+    {
+      "id": "2408",
+      "slug": "design-sql",
+      "title": "Design SQL",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "design",
-        "simulation"
+        "string",
+        "design"
       ],
-      "classHeavy": true
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "SQL"
     },
     {
-      "id": "2503",
-      "slug": "maximum-number-of-points-from-grid-queries",
-      "title": "Maximum Number of Points From Grid Queries",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "two-pointers",
-        "breadth-first-search",
-        "union-find",
-        "sorting",
-        "heap-priority-queue",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2504",
-      "slug": "concatenate-the-name-and-the-profession",
-      "title": "Concatenate the Name and the Profession",
+      "id": "2409",
+      "slug": "count-days-spent-together",
+      "title": "Count Days Spent Together",
       "difficulty": "EASY",
       "tags": [
-        "database"
+        "math",
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countDaysTogether"
     },
     {
-      "id": "2505",
-      "slug": "bitwise-or-of-all-subsequence-sums",
-      "title": "Bitwise OR of All Subsequence Sums",
+      "id": "2410",
+      "slug": "maximum-matching-of-players-with-trainers",
+      "title": "Maximum Matching of Players With Trainers",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "bit-manipulation",
-        "brainteaser",
-        "prefix-sum"
+        "two-pointers",
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "matchPlayersAndTrainers"
     },
     {
-      "id": "2506",
-      "slug": "count-pairs-of-similar-strings",
-      "title": "Count Pairs Of Similar Strings",
+      "id": "2411",
+      "slug": "smallest-subarrays-with-maximum-bitwise-or",
+      "title": "Smallest Subarrays With Maximum Bitwise OR",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "bit-manipulation",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestSubarrays"
+    },
+    {
+      "id": "2412",
+      "slug": "minimum-money-required-before-transactions",
+      "title": "Minimum Money Required Before Transactions",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumMoney"
+    },
+    {
+      "id": "2413",
+      "slug": "smallest-even-multiple",
+      "title": "Smallest Even Multiple",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestEvenMultiple"
+    },
+    {
+      "id": "2414",
+      "slug": "length-of-the-longest-alphabetical-continuous-substring",
+      "title": "Length of the Longest Alphabetical Continuous Substring",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestContinuousSubstring"
+    },
+    {
+      "id": "2415",
+      "slug": "reverse-odd-levels-of-binary-tree",
+      "title": "Reverse Odd Levels of Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverseOddLevels"
+    },
+    {
+      "id": "2416",
+      "slug": "sum-of-prefix-scores-of-strings",
+      "title": "Sum of Prefix Scores of Strings",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "trie",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumPrefixScores"
+    },
+    {
+      "id": "2417",
+      "slug": "closest-fair-integer",
+      "title": "Closest Fair Integer",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "closestFair"
+    },
+    {
+      "id": "2418",
+      "slug": "sort-the-people",
+      "title": "Sort the People",
       "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
         "string",
-        "bit-manipulation",
-        "counting"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortPeople"
     },
     {
-      "id": "2507",
-      "slug": "smallest-value-after-replacing-with-sum-of-prime-factors",
-      "title": "Smallest Value After Replacing With Sum of Prime Factors",
+      "id": "2419",
+      "slug": "longest-subarray-with-maximum-bitwise-and",
+      "title": "Longest Subarray With Maximum Bitwise AND",
       "difficulty": "MEDIUM",
       "tags": [
-        "math",
-        "simulation",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2508",
-      "slug": "add-edges-to-make-degrees-of-all-nodes-even",
-      "title": "Add Edges to Make Degrees of All Nodes Even",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "graph"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2509",
-      "slug": "cycle-length-queries-in-a-tree",
-      "title": "Cycle Length Queries in a Tree",
-      "difficulty": "HARD",
-      "tags": [
         "array",
-        "tree",
-        "binary-tree"
+        "bit-manipulation",
+        "brainteaser"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestSubarray"
     },
     {
-      "id": "2510",
-      "slug": "check-if-there-is-a-path-with-equal-number-of-0s-and-1s",
-      "title": "Check if There is a Path With Equal Number of 0's And 1's",
+      "id": "2420",
+      "slug": "find-all-good-indices",
+      "title": "Find All Good Indices",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming",
-        "matrix"
+        "prefix-sum"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "2511",
-      "slug": "maximum-enemy-forts-that-can-be-captured",
-      "title": "Maximum Enemy Forts That Can Be Captured",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2512",
-      "slug": "reward-top-k-students",
-      "title": "Reward Top K Students",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2513",
-      "slug": "minimize-the-maximum-of-two-arrays",
-      "title": "Minimize the Maximum of Two Arrays",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "binary-search",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2514",
-      "slug": "count-anagrams",
-      "title": "Count Anagrams",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "math",
-        "string",
-        "combinatorics",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2515",
-      "slug": "shortest-distance-to-target-string-in-a-circular-array",
-      "title": "Shortest Distance to Target String in a Circular Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2516",
-      "slug": "take-k-of-each-character-from-left-and-right",
-      "title": "Take K of Each Character From Left and Right",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2517",
-      "slug": "maximum-tastiness-of-candy-basket",
-      "title": "Maximum Tastiness of Candy Basket",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2518",
-      "slug": "number-of-great-partitions",
-      "title": "Number of Great Partitions",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2519",
-      "slug": "count-the-number-of-k-big-indices",
-      "title": "Count the Number of K-Big Indices",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "divide-and-conquer",
-        "binary-indexed-tree",
-        "segment-tree",
-        "merge-sort",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2520",
-      "slug": "count-the-digits-that-divide-a-number",
-      "title": "Count the Digits That Divide a Number",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2521",
-      "slug": "distinct-prime-factors-of-product-of-array",
-      "title": "Distinct Prime Factors of Product of Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "math",
-        "number-theory"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "goodIndices"
     }
   ]
 }

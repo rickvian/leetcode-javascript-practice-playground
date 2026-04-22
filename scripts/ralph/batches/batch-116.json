@@ -2,258 +2,284 @@
   "batchId": "batch-116",
   "problems": [
     {
-      "id": "2402",
-      "slug": "meeting-rooms-iii",
-      "title": "Meeting Rooms III",
+      "id": "2301",
+      "slug": "match-substring-after-replacement",
+      "title": "Match Substring After Replacement",
       "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "sorting",
-        "heap-priority-queue",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2403",
-      "slug": "minimum-time-to-kill-all-monsters",
-      "title": "Minimum Time to Kill All Monsters",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "bit-manipulation",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2404",
-      "slug": "most-frequent-even-element",
-      "title": "Most Frequent Even Element",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2405",
-      "slug": "optimal-partition-of-string",
-      "title": "Optimal Partition of String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2406",
-      "slug": "divide-intervals-into-minimum-number-of-groups",
-      "title": "Divide Intervals Into Minimum Number of Groups",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "greedy",
-        "sorting",
-        "heap-priority-queue",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2407",
-      "slug": "longest-increasing-subsequence-ii",
-      "title": "Longest Increasing Subsequence II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "divide-and-conquer",
-        "dynamic-programming",
-        "binary-indexed-tree",
-        "segment-tree",
-        "queue",
-        "monotonic-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2408",
-      "slug": "design-sql",
-      "title": "Design SQL",
-      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
         "string",
-        "design"
+        "string-matching"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "matchReplacement"
     },
     {
-      "id": "2409",
-      "slug": "count-days-spent-together",
-      "title": "Count Days Spent Together",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2410",
-      "slug": "maximum-matching-of-players-with-trainers",
-      "title": "Maximum Matching of Players With Trainers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2411",
-      "slug": "smallest-subarrays-with-maximum-bitwise-or",
-      "title": "Smallest Subarrays With Maximum Bitwise OR",
-      "difficulty": "MEDIUM",
+      "id": "2302",
+      "slug": "count-subarrays-with-score-less-than-k",
+      "title": "Count Subarrays With Score Less Than K",
+      "difficulty": "HARD",
       "tags": [
         "array",
         "binary-search",
-        "bit-manipulation",
-        "sliding-window"
+        "sliding-window",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSubarrays"
     },
     {
-      "id": "2412",
-      "slug": "minimum-money-required-before-transactions",
-      "title": "Minimum Money Required Before Transactions",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2413",
-      "slug": "smallest-even-multiple",
-      "title": "Smallest Even Multiple",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2414",
-      "slug": "length-of-the-longest-alphabetical-continuous-substring",
-      "title": "Length of the Longest Alphabetical Continuous Substring",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2415",
-      "slug": "reverse-odd-levels-of-binary-tree",
-      "title": "Reverse Odd Levels of Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2416",
-      "slug": "sum-of-prefix-scores-of-strings",
-      "title": "Sum of Prefix Scores of Strings",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "string",
-        "trie",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2417",
-      "slug": "closest-fair-integer",
-      "title": "Closest Fair Integer",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2418",
-      "slug": "sort-the-people",
-      "title": "Sort the People",
+      "id": "2303",
+      "slug": "calculate-amount-paid-in-taxes",
+      "title": "Calculate Amount Paid in Taxes",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "hash-table",
-        "string",
-        "sorting"
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "calculateTax"
     },
     {
-      "id": "2419",
-      "slug": "longest-subarray-with-maximum-bitwise-and",
-      "title": "Longest Subarray With Maximum Bitwise AND",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "bit-manipulation",
-        "brainteaser"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2420",
-      "slug": "find-all-good-indices",
-      "title": "Find All Good Indices",
+      "id": "2304",
+      "slug": "minimum-path-cost-in-a-grid",
+      "title": "Minimum Path Cost in a Grid",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming",
-        "prefix-sum"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minPathCost"
     },
     {
-      "id": "2421",
-      "slug": "number-of-good-paths",
-      "title": "Number of Good Paths",
+      "id": "2305",
+      "slug": "fair-distribution-of-cookies",
+      "title": "Fair Distribution of Cookies",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distributeCookies"
+    },
+    {
+      "id": "2306",
+      "slug": "naming-a-company",
+      "title": "Naming a Company",
       "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
-        "tree",
-        "union-find",
-        "graph",
-        "sorting"
+        "string",
+        "bit-manipulation",
+        "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distinctNames"
+    },
+    {
+      "id": "2307",
+      "slug": "check-for-contradictions-in-equations",
+      "title": "Check for Contradictions in Equations",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkContradictions"
+    },
+    {
+      "id": "2308",
+      "slug": "arrange-table-by-gender",
+      "title": "Arrange Table by Gender",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2309",
+      "slug": "greatest-english-letter-in-upper-and-lower-case",
+      "title": "Greatest English Letter in Upper and Lower Case",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "greatestLetter"
+    },
+    {
+      "id": "2310",
+      "slug": "sum-of-numbers-with-units-digit-k",
+      "title": "Sum of Numbers With Units Digit K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "greedy",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumNumbers"
+    },
+    {
+      "id": "2311",
+      "slug": "longest-binary-subsequence-less-than-or-equal-to-k",
+      "title": "Longest Binary Subsequence Less Than or Equal to K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "greedy",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestSubsequence"
+    },
+    {
+      "id": "2312",
+      "slug": "selling-pieces-of-wood",
+      "title": "Selling Pieces of Wood",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sellingWood"
+    },
+    {
+      "id": "2313",
+      "slug": "minimum-flips-in-binary-tree-to-get-result",
+      "title": "Minimum Flips in Binary Tree to Get Result",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumFlips"
+    },
+    {
+      "id": "2314",
+      "slug": "the-first-day-of-the-maximum-recorded-degree-in-each-city",
+      "title": "The First Day of the Maximum Recorded Degree in Each City",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2315",
+      "slug": "count-asterisks",
+      "title": "Count Asterisks",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countAsterisks"
+    },
+    {
+      "id": "2316",
+      "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+      "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPairs"
+    },
+    {
+      "id": "2317",
+      "slug": "maximum-xor-after-operations",
+      "title": "Maximum XOR After Operations ",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumXOR"
+    },
+    {
+      "id": "2318",
+      "slug": "number-of-distinct-roll-sequences",
+      "title": "Number of Distinct Roll Sequences",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distinctSequences"
+    },
+    {
+      "id": "2319",
+      "slug": "check-if-matrix-is-x-matrix",
+      "title": "Check if Matrix Is X-Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkXMatrix"
+    },
+    {
+      "id": "2320",
+      "slug": "count-number-of-ways-to-place-houses",
+      "title": "Count Number of Ways to Place Houses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countHousePlacements"
     }
   ]
 }

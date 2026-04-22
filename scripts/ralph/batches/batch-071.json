@@ -2,247 +2,272 @@
   "batchId": "batch-071",
   "problems": [
     {
-      "id": "1502",
-      "slug": "can-make-arithmetic-progression-from-sequence",
-      "title": "Can Make Arithmetic Progression From Sequence",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1503",
-      "slug": "last-moment-before-all-ants-fall-out-of-a-plank",
-      "title": "Last Moment Before All Ants Fall Out of a Plank",
+      "id": "1401",
+      "slug": "circle-and-rectangle-overlapping",
+      "title": "Circle and Rectangle Overlapping",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "brainteaser",
-        "simulation"
+        "math",
+        "geometry"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkOverlap"
     },
     {
-      "id": "1504",
-      "slug": "count-submatrices-with-all-ones",
-      "title": "Count Submatrices With All Ones",
-      "difficulty": "MEDIUM",
+      "id": "1402",
+      "slug": "reducing-dishes",
+      "title": "Reducing Dishes",
+      "difficulty": "HARD",
       "tags": [
         "array",
         "dynamic-programming",
-        "stack",
-        "matrix",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1505",
-      "slug": "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
-      "title": "Minimum Possible Integer After at Most K Adjacent Swaps On Digits",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
         "greedy",
-        "binary-indexed-tree",
-        "segment-tree"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxSatisfaction"
     },
     {
-      "id": "1506",
-      "slug": "find-root-of-n-ary-tree",
-      "title": "Find Root of N-Ary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "bit-manipulation",
-        "tree",
-        "depth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1507",
-      "slug": "reformat-date",
-      "title": "Reformat Date",
+      "id": "1403",
+      "slug": "minimum-subsequence-in-non-increasing-order",
+      "title": "Minimum Subsequence in Non-Increasing Order",
       "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1508",
-      "slug": "range-sum-of-sorted-subarray-sums",
-      "title": "Range Sum of Sorted Subarray Sums",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "sorting",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1509",
-      "slug": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
-      "title": "Minimum Difference Between Largest and Smallest Value in Three Moves",
-      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minSubsequence"
     },
     {
-      "id": "1510",
-      "slug": "stone-game-iv",
-      "title": "Stone Game IV",
+      "id": "1404",
+      "slug": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+      "title": "Number of Steps to Reduce a Number in Binary Representation to One",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "bit-manipulation",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numSteps"
+    },
+    {
+      "id": "1405",
+      "slug": "longest-happy-string",
+      "title": "Longest Happy String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestDiverseString"
+    },
+    {
+      "id": "1406",
+      "slug": "stone-game-iii",
+      "title": "Stone Game III",
       "difficulty": "HARD",
       "tags": [
+        "array",
         "math",
         "dynamic-programming",
         "game-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "stoneGameIII"
     },
     {
-      "id": "1511",
-      "slug": "customer-order-frequency",
-      "title": "Customer Order Frequency",
+      "id": "1407",
+      "slug": "top-travellers",
+      "title": "Top Travellers",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1512",
-      "slug": "number-of-good-pairs",
-      "title": "Number of Good Pairs",
+      "id": "1408",
+      "slug": "string-matching-in-an-array",
+      "title": "String Matching in an Array",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "hash-table",
-        "math",
-        "counting"
+        "string",
+        "string-matching"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "stringMatching"
     },
     {
-      "id": "1513",
-      "slug": "number-of-substrings-with-only-1s",
-      "title": "Number of Substrings With Only 1s",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1514",
-      "slug": "path-with-maximum-probability",
-      "title": "Path with Maximum Probability",
+      "id": "1409",
+      "slug": "queries-on-a-permutation-with-key",
+      "title": "Queries on a Permutation With Key",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "graph",
-        "heap-priority-queue",
-        "shortest-path"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1515",
-      "slug": "best-position-for-a-service-centre",
-      "title": "Best Position for a Service Centre",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math",
-        "geometry",
-        "randomized"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1516",
-      "slug": "move-sub-tree-of-n-ary-tree",
-      "title": "Move Sub-Tree of N-Ary Tree",
-      "difficulty": "HARD",
-      "tags": [
-        "tree",
-        "depth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1517",
-      "slug": "find-users-with-valid-e-mails",
-      "title": "Find Users With Valid E-Mails",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1518",
-      "slug": "water-bottles",
-      "title": "Water Bottles",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
+        "binary-indexed-tree",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "processQueries"
     },
     {
-      "id": "1519",
-      "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
-      "title": "Number of Nodes in the Sub-Tree With the Same Label",
+      "id": "1410",
+      "slug": "html-entity-parser",
+      "title": "HTML Entity Parser",
       "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "counting"
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "entityParser"
     },
     {
-      "id": "1520",
-      "slug": "maximum-number-of-non-overlapping-substrings",
-      "title": "Maximum Number of Non-Overlapping Substrings",
+      "id": "1411",
+      "slug": "number-of-ways-to-paint-n-3-grid",
+      "title": "Number of Ways to Paint N \u00d7 3 Grid",
       "difficulty": "HARD",
       "tags": [
-        "hash-table",
-        "string",
-        "greedy",
-        "sorting"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numOfWays"
     },
     {
-      "id": "1521",
-      "slug": "find-a-value-of-a-mysterious-function-closest-to-target",
-      "title": "Find a Value of a Mysterious Function Closest to Target",
+      "id": "1412",
+      "slug": "find-the-quiet-students-in-all-exams",
+      "title": "Find the Quiet Students in All Exams",
       "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1413",
+      "slug": "minimum-value-to-get-positive-step-by-step-sum",
+      "title": "Minimum Value to Get Positive Step by Step Sum",
+      "difficulty": "EASY",
       "tags": [
         "array",
-        "binary-search",
-        "bit-manipulation",
-        "segment-tree"
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minStartValue"
+    },
+    {
+      "id": "1414",
+      "slug": "find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k",
+      "title": "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMinFibonacciNumbers"
+    },
+    {
+      "id": "1415",
+      "slug": "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n",
+      "title": "The k-th Lexicographical String of All Happy Strings of Length n",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getHappyString"
+    },
+    {
+      "id": "1416",
+      "slug": "restore-the-array",
+      "title": "Restore The Array",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1417",
+      "slug": "reformat-the-string",
+      "title": "Reformat The String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reformat"
+    },
+    {
+      "id": "1418",
+      "slug": "display-table-of-food-orders-in-a-restaurant",
+      "title": "Display Table of Food Orders in a Restaurant",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "displayTable"
+    },
+    {
+      "id": "1419",
+      "slug": "minimum-number-of-frogs-croaking",
+      "title": "Minimum Number of Frogs Croaking",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minNumberOfFrogs"
+    },
+    {
+      "id": "1420",
+      "slug": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+      "title": "Build Array Where You Can Find The Maximum Exactly K Comparisons",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

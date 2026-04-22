@@ -2,238 +2,282 @@
   "batchId": "batch-057",
   "problems": [
     {
-      "id": "1222",
-      "slug": "queens-that-can-attack-the-king",
-      "title": "Queens That Can Attack the King",
+      "id": "1121",
+      "slug": "divide-array-into-increasing-sequences",
+      "title": "Divide Array Into Increasing Sequences",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canDivideIntoSubsequences"
+    },
+    {
+      "id": "1122",
+      "slug": "relative-sort-array",
+      "title": "Relative Sort Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "counting-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "relativeSortArray"
+    },
+    {
+      "id": "1123",
+      "slug": "lowest-common-ancestor-of-deepest-leaves",
+      "title": "Lowest Common Ancestor of Deepest Leaves",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lcaDeepestLeaves"
+    },
+    {
+      "id": "1124",
+      "slug": "longest-well-performing-interval",
+      "title": "Longest Well-Performing Interval",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "matrix",
-        "simulation"
+        "hash-table",
+        "stack",
+        "monotonic-stack",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestWPI"
     },
     {
-      "id": "1223",
-      "slug": "dice-roll-simulation",
-      "title": "Dice Roll Simulation",
+      "id": "1125",
+      "slug": "smallest-sufficient-team",
+      "title": "Smallest Sufficient Team",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestSufficientTeam"
     },
     {
-      "id": "1224",
-      "slug": "maximum-equal-frequency",
-      "title": "Maximum Equal Frequency",
-      "difficulty": "HARD",
+      "id": "1126",
+      "slug": "active-businesses",
+      "title": "Active Businesses",
+      "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "hash-table"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1225",
-      "slug": "report-contiguous-dates",
-      "title": "Report Contiguous Dates",
+      "id": "1127",
+      "slug": "user-purchase-platform",
+      "title": "User Purchase Platform",
       "difficulty": "HARD",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1226",
-      "slug": "the-dining-philosophers",
-      "title": "The Dining Philosophers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "concurrency"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1227",
-      "slug": "airplane-seat-assignment-probability",
-      "title": "Airplane Seat Assignment Probability",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "brainteaser",
-        "probability-and-statistics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1228",
-      "slug": "missing-number-in-arithmetic-progression",
-      "title": "Missing Number In Arithmetic Progression",
+      "id": "1128",
+      "slug": "number-of-equivalent-domino-pairs",
+      "title": "Number of Equivalent Domino Pairs",
       "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numEquivDominoPairs"
+    },
+    {
+      "id": "1129",
+      "slug": "shortest-path-with-alternating-colors",
+      "title": "Shortest Path with Alternating Colors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestAlternatingPaths"
+    },
+    {
+      "id": "1130",
+      "slug": "minimum-cost-tree-from-leaf-values",
+      "title": "Minimum Cost Tree From Leaf Values",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "greedy",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mctFromLeafValues"
+    },
+    {
+      "id": "1131",
+      "slug": "maximum-of-absolute-value-expression",
+      "title": "Maximum of Absolute Value Expression",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxAbsValExpr"
     },
     {
-      "id": "1229",
-      "slug": "meeting-scheduler",
-      "title": "Meeting Scheduler",
+      "id": "1132",
+      "slug": "reported-posts-ii",
+      "title": "Reported Posts II",
       "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1230",
-      "slug": "toss-strange-coins",
-      "title": "Toss Strange Coins",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "probability-and-statistics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1231",
-      "slug": "divide-chocolate",
-      "title": "Divide Chocolate",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1232",
-      "slug": "check-if-it-is-a-straight-line",
-      "title": "Check If It Is a Straight Line",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "math",
-        "geometry"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1233",
-      "slug": "remove-sub-folders-from-the-filesystem",
-      "title": "Remove Sub-Folders from the Filesystem",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "depth-first-search",
-        "trie"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1234",
-      "slug": "replace-the-substring-for-balanced-string",
-      "title": "Replace the Substring for Balanced String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1235",
-      "slug": "maximum-profit-in-job-scheduling",
-      "title": "Maximum Profit in Job Scheduling",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "dynamic-programming",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1236",
-      "slug": "web-crawler",
-      "title": "Web Crawler",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "depth-first-search",
-        "breadth-first-search",
-        "interactive"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1237",
-      "slug": "find-positive-integer-solution-for-a-given-equation",
-      "title": "Find Positive Integer Solution for a Given Equation",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "two-pointers",
-        "binary-search",
-        "interactive"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1238",
-      "slug": "circular-permutation-in-binary-representation",
-      "title": "Circular Permutation in Binary Representation",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "backtracking",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1239",
-      "slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
-      "title": "Maximum Length of a Concatenated String with Unique Characters",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "backtracking",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1240",
-      "slug": "tiling-a-rectangle-with-the-fewest-squares",
-      "title": "Tiling a Rectangle with the Fewest Squares",
-      "difficulty": "HARD",
-      "tags": [
-        "backtracking"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1241",
-      "slug": "number-of-comments-per-post",
-      "title": "Number of Comments per Post",
-      "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1133",
+      "slug": "largest-unique-number",
+      "title": "Largest Unique Number",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestUniqueNumber"
+    },
+    {
+      "id": "1134",
+      "slug": "armstrong-number",
+      "title": "Armstrong Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isArmstrong"
+    },
+    {
+      "id": "1135",
+      "slug": "connecting-cities-with-minimum-cost",
+      "title": "Connecting Cities With Minimum Cost",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "union-find",
+        "graph",
+        "heap-priority-queue",
+        "minimum-spanning-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumCost"
+    },
+    {
+      "id": "1136",
+      "slug": "parallel-courses",
+      "title": "Parallel Courses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumSemesters"
+    },
+    {
+      "id": "1137",
+      "slug": "n-th-tribonacci-number",
+      "title": "N-th Tribonacci Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "tribonacci"
+    },
+    {
+      "id": "1138",
+      "slug": "alphabet-board-path",
+      "title": "Alphabet Board Path",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "alphabetBoardPath"
+    },
+    {
+      "id": "1139",
+      "slug": "largest-1-bordered-square",
+      "title": "Largest 1-Bordered Square",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largest1BorderedSquare"
+    },
+    {
+      "id": "1140",
+      "slug": "stone-game-ii",
+      "title": "Stone Game II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "prefix-sum",
+        "game-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "stoneGameII"
     }
   ]
 }

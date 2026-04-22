@@ -2,224 +2,284 @@
   "batchId": "batch-026",
   "problems": [
     {
-      "id": "0597",
-      "slug": "friend-requests-i-overall-acceptance-rate",
-      "title": "Friend Requests I: Overall Acceptance Rate",
+      "id": "0501",
+      "slug": "find-mode-in-binary-search-tree",
+      "title": "Find Mode in Binary Search Tree",
       "difficulty": "EASY",
       "tags": [
-        "database"
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMode"
     },
     {
-      "id": "0598",
-      "slug": "range-addition-ii",
-      "title": "Range Addition II",
-      "difficulty": "EASY",
+      "id": "0502",
+      "slug": "ipo",
+      "title": "IPO",
+      "difficulty": "HARD",
       "tags": [
         "array",
-        "math"
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMaximizedCapital"
     },
     {
-      "id": "0599",
-      "slug": "minimum-index-sum-of-two-lists",
-      "title": "Minimum Index Sum of Two Lists",
-      "difficulty": "EASY",
+      "id": "0503",
+      "slug": "next-greater-element-ii",
+      "title": "Next Greater Element II",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nextGreaterElements"
+    },
+    {
+      "id": "0504",
+      "slug": "base-7",
+      "title": "Base 7",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "convertToBase7"
     },
     {
-      "id": "0600",
-      "slug": "non-negative-integers-without-consecutive-ones",
-      "title": "Non-negative Integers without Consecutive Ones",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0601",
-      "slug": "human-traffic-of-stadium",
-      "title": "Human Traffic of Stadium",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0602",
-      "slug": "friend-requests-ii-who-has-the-most-friends",
-      "title": "Friend Requests II: Who Has the Most Friends",
+      "id": "0505",
+      "slug": "the-maze-ii",
+      "title": "The Maze II",
       "difficulty": "MEDIUM",
       "tags": [
-        "database"
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "matrix",
+        "shortest-path"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestDistance"
     },
     {
-      "id": "0603",
-      "slug": "consecutive-available-seats",
-      "title": "Consecutive Available Seats",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0604",
-      "slug": "design-compressed-string-iterator",
-      "title": "Design Compressed String Iterator",
+      "id": "0506",
+      "slug": "relative-ranks",
+      "title": "Relative Ranks",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "string",
-        "design",
-        "iterator"
+        "sorting",
+        "heap-priority-queue"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findRelativeRanks"
     },
     {
-      "id": "0605",
-      "slug": "can-place-flowers",
-      "title": "Can Place Flowers",
+      "id": "0507",
+      "slug": "perfect-number",
+      "title": "Perfect Number",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "greedy"
+        "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkPerfectNumber"
     },
     {
-      "id": "0606",
-      "slug": "construct-string-from-binary-tree",
-      "title": "Construct String from Binary Tree",
+      "id": "0508",
+      "slug": "most-frequent-subtree-sum",
+      "title": "Most Frequent Subtree Sum",
       "difficulty": "MEDIUM",
       "tags": [
-        "string",
+        "hash-table",
         "tree",
         "depth-first-search",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findFrequentTreeSum"
     },
     {
-      "id": "0607",
-      "slug": "sales-person",
-      "title": "Sales Person",
+      "id": "0509",
+      "slug": "fibonacci-number",
+      "title": "Fibonacci Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "recursion",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fib"
+    },
+    {
+      "id": "0510",
+      "slug": "inorder-successor-in-bst-ii",
+      "title": "Inorder Successor in BST II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "inorderSuccessor"
+    },
+    {
+      "id": "0511",
+      "slug": "game-play-analysis-i",
+      "title": "Game Play Analysis I",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0608",
-      "slug": "tree-node",
-      "title": "Tree Node",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0609",
-      "slug": "find-duplicate-file-in-system",
-      "title": "Find Duplicate File in System",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0610",
-      "slug": "triangle-judgement",
-      "title": "Triangle Judgement",
+      "id": "0512",
+      "slug": "game-play-analysis-ii",
+      "title": "Game Play Analysis II",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0611",
-      "slug": "valid-triangle-number",
-      "title": "Valid Triangle Number",
+      "id": "0513",
+      "slug": "find-bottom-left-tree-value",
+      "title": "Find Bottom Left Tree Value",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "greedy",
-        "sorting"
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findBottomLeftValue"
     },
     {
-      "id": "0612",
-      "slug": "shortest-distance-in-a-plane",
-      "title": "Shortest Distance in a Plane",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0613",
-      "slug": "shortest-distance-in-a-line",
-      "title": "Shortest Distance in a Line",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0614",
-      "slug": "second-degree-follower",
-      "title": "Second Degree Follower",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0615",
-      "slug": "average-salary-departments-vs-company",
-      "title": "Average Salary: Departments VS Company",
+      "id": "0514",
+      "slug": "freedom-trail",
+      "title": "Freedom Trail",
       "difficulty": "HARD",
       "tags": [
-        "database"
+        "string",
+        "dynamic-programming",
+        "depth-first-search",
+        "breadth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findRotateSteps"
     },
     {
-      "id": "0616",
-      "slug": "add-bold-tag-in-string",
-      "title": "Add Bold Tag in String",
+      "id": "0515",
+      "slug": "find-largest-value-in-each-tree-row",
+      "title": "Find Largest Value in Each Tree Row",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestValues"
+    },
+    {
+      "id": "0516",
+      "slug": "longest-palindromic-subsequence",
+      "title": "Longest Palindromic Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestPalindromeSubseq"
+    },
+    {
+      "id": "0517",
+      "slug": "super-washing-machines",
+      "title": "Super Washing Machines",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMinMoves"
+    },
+    {
+      "id": "0518",
+      "slug": "coin-change-ii",
+      "title": "Coin Change II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "string",
-        "trie",
-        "string-matching"
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "change"
+    },
+    {
+      "id": "0519",
+      "slug": "random-flip-matrix",
+      "title": "Random Flip Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "reservoir-sampling",
+        "randomized"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "Solution"
+    },
+    {
+      "id": "0520",
+      "slug": "detect-capital",
+      "title": "Detect Capital",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "detectCapitalUse"
     }
   ]
 }

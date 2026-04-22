@@ -2,235 +2,299 @@
   "batchId": "batch-083",
   "problems": [
     {
-      "id": "1742",
-      "slug": "maximum-number-of-balls-in-a-box",
-      "title": "Maximum Number of Balls in a Box",
-      "difficulty": "EASY",
+      "id": "1641",
+      "slug": "count-sorted-vowel-strings",
+      "title": "Count Sorted Vowel Strings",
+      "difficulty": "MEDIUM",
       "tags": [
-        "hash-table",
         "math",
-        "counting"
+        "dynamic-programming",
+        "combinatorics"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countVowelStrings"
     },
     {
-      "id": "1743",
-      "slug": "restore-the-array-from-adjacent-pairs",
-      "title": "Restore the Array From Adjacent Pairs",
+      "id": "1642",
+      "slug": "furthest-building-you-can-reach",
+      "title": "Furthest Building You Can Reach",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "depth-first-search"
+        "greedy",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "furthestBuilding"
     },
     {
-      "id": "1744",
-      "slug": "can-you-eat-your-favorite-candy-on-your-favorite-day",
-      "title": "Can You Eat Your Favorite Candy on Your Favorite Day?",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1745",
-      "slug": "palindrome-partitioning-iv",
-      "title": "Palindrome Partitioning IV",
+      "id": "1643",
+      "slug": "kth-smallest-instructions",
+      "title": "Kth Smallest Instructions",
       "difficulty": "HARD",
       "tags": [
-        "string",
-        "dynamic-programming"
+        "array",
+        "math",
+        "dynamic-programming",
+        "combinatorics"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "kthSmallestPath"
     },
     {
-      "id": "1746",
-      "slug": "maximum-subarray-sum-after-one-operation",
-      "title": "Maximum Subarray Sum After One Operation",
+      "id": "1644",
+      "slug": "lowest-common-ancestor-of-a-binary-tree-ii",
+      "title": "Lowest Common Ancestor of a Binary Tree II",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "dynamic-programming"
+        "tree",
+        "depth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lowestCommonAncestor"
     },
     {
-      "id": "1747",
-      "slug": "leetflex-banned-accounts",
-      "title": "Leetflex Banned Accounts",
-      "difficulty": "MEDIUM",
+      "id": "1645",
+      "slug": "hopper-company-queries-ii",
+      "title": "Hopper Company Queries II",
+      "difficulty": "HARD",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1748",
-      "slug": "sum-of-unique-elements",
-      "title": "Sum of Unique Elements",
+      "id": "1646",
+      "slug": "get-maximum-in-generated-array",
+      "title": "Get Maximum in Generated Array",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "hash-table",
-        "counting"
+        "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getMaximumGenerated"
     },
     {
-      "id": "1749",
-      "slug": "maximum-absolute-sum-of-any-subarray",
-      "title": "Maximum Absolute Sum of Any Subarray",
+      "id": "1647",
+      "slug": "minimum-deletions-to-make-character-frequencies-unique",
+      "title": "Minimum Deletions to Make Character Frequencies Unique",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minDeletions"
+    },
+    {
+      "id": "1648",
+      "slug": "sell-diminishing-valued-colored-balls",
+      "title": "Sell Diminishing-Valued Colored Balls",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming"
+        "math",
+        "binary-search",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProfit"
     },
     {
-      "id": "1750",
-      "slug": "minimum-length-of-string-after-deleting-similar-ends",
-      "title": "Minimum Length of String After Deleting Similar Ends",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1751",
-      "slug": "maximum-number-of-events-that-can-be-attended-ii",
-      "title": "Maximum Number of Events That Can Be Attended II",
+      "id": "1649",
+      "slug": "create-sorted-array-through-instructions",
+      "title": "Create Sorted Array through Instructions",
       "difficulty": "HARD",
       "tags": [
         "array",
         "binary-search",
-        "dynamic-programming",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1752",
-      "slug": "check-if-array-is-sorted-and-rotated",
-      "title": "Check if Array Is Sorted and Rotated",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1753",
-      "slug": "maximum-score-from-removing-stones",
-      "title": "Maximum Score From Removing Stones",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "greedy",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1754",
-      "slug": "largest-merge-of-two-strings",
-      "title": "Largest Merge Of Two Strings",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "two-pointers",
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1755",
-      "slug": "closest-subsequence-sum",
-      "title": "Closest Subsequence Sum",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "two-pointers",
-        "dynamic-programming",
-        "bit-manipulation",
-        "sorting",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1756",
-      "slug": "design-most-recently-used-queue",
-      "title": "Design Most Recently Used Queue",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "linked-list",
         "divide-and-conquer",
-        "design",
-        "simulation",
-        "doubly-linked-list"
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "ordered-set"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "createSortedArray"
     },
     {
-      "id": "1757",
-      "slug": "recyclable-and-low-fat-products",
-      "title": "Recyclable and Low Fat Products",
-      "difficulty": "EASY",
+      "id": "1650",
+      "slug": "lowest-common-ancestor-of-a-binary-tree-iii",
+      "title": "Lowest Common Ancestor of a Binary Tree III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "two-pointers",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lowestCommonAncestor"
+    },
+    {
+      "id": "1651",
+      "slug": "hopper-company-queries-iii",
+      "title": "Hopper Company Queries III",
+      "difficulty": "HARD",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1758",
-      "slug": "minimum-changes-to-make-alternating-binary-string",
-      "title": "Minimum Changes To Make Alternating Binary String",
+      "id": "1652",
+      "slug": "defuse-the-bomb",
+      "title": "Defuse the Bomb",
       "difficulty": "EASY",
       "tags": [
-        "string"
+        "array",
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "decrypt"
     },
     {
-      "id": "1759",
-      "slug": "count-number-of-homogenous-substrings",
-      "title": "Count Number of Homogenous Substrings",
+      "id": "1653",
+      "slug": "minimum-deletions-to-make-string-balanced",
+      "title": "Minimum Deletions to Make String Balanced",
       "difficulty": "MEDIUM",
       "tags": [
-        "math",
-        "string"
+        "string",
+        "dynamic-programming",
+        "stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumDeletions"
     },
     {
-      "id": "1760",
-      "slug": "minimum-limit-of-balls-in-a-bag",
-      "title": "Minimum Limit of Balls in a Bag",
+      "id": "1654",
+      "slug": "minimum-jumps-to-reach-home",
+      "title": "Minimum Jumps to Reach Home",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "binary-search"
+        "hash-table",
+        "breadth-first-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumJumps"
     },
     {
-      "id": "1761",
-      "slug": "minimum-degree-of-a-connected-trio-in-a-graph",
-      "title": "Minimum Degree of a Connected Trio in a Graph",
+      "id": "1655",
+      "slug": "distribute-repeating-integers",
+      "title": "Distribute Repeating Integers",
       "difficulty": "HARD",
       "tags": [
-        "graph",
-        "enumeration"
+        "array",
+        "hash-table",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "counting",
+        "bitmask"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canDistribute"
+    },
+    {
+      "id": "1656",
+      "slug": "design-an-ordered-stream",
+      "title": "Design an Ordered Stream",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "design",
+        "data-stream"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "OrderedStream"
+    },
+    {
+      "id": "1657",
+      "slug": "determine-if-two-strings-are-close",
+      "title": "Determine if Two Strings Are Close",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "closeStrings"
+    },
+    {
+      "id": "1658",
+      "slug": "minimum-operations-to-reduce-x-to-zero",
+      "title": "Minimum Operations to Reduce X to Zero",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
+    },
+    {
+      "id": "1659",
+      "slug": "maximize-grid-happiness",
+      "title": "Maximize Grid Happiness",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "bit-manipulation",
+        "memoization",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getMaxGridHappiness"
+    },
+    {
+      "id": "1660",
+      "slug": "correct-a-binary-tree",
+      "title": "Correct a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "correctBinaryTree"
     }
   ]
 }

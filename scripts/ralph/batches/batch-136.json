@@ -2,230 +2,270 @@
   "batchId": "batch-136",
   "problems": [
     {
-      "id": "2802",
-      "slug": "find-the-k-th-lucky-number",
-      "title": "Find The K-th Lucky Number",
-      "difficulty": "MEDIUM",
+      "id": "2701",
+      "slug": "consecutive-transactions-with-increasing-amounts",
+      "title": "Consecutive Transactions with Increasing Amounts",
+      "difficulty": "HARD",
       "tags": [
-        "math",
-        "string",
-        "bit-manipulation"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2803",
-      "slug": "factorial-generator",
-      "title": "Factorial Generator",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2804",
-      "slug": "array-prototype-foreach",
-      "title": "Array Prototype ForEach",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2805",
-      "slug": "custom-interval",
-      "title": "Custom Interval",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2806",
-      "slug": "account-balance-after-rounded-purchase",
-      "title": "Account Balance After Rounded Purchase",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2807",
-      "slug": "insert-greatest-common-divisors-in-linked-list",
-      "title": "Insert Greatest Common Divisors in Linked List",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "math",
-        "number-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2808",
-      "slug": "minimum-seconds-to-equalize-a-circular-array",
-      "title": "Minimum Seconds to Equalize a Circular Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2809",
-      "slug": "minimum-time-to-make-array-sum-at-most-x",
-      "title": "Minimum Time to Make Array Sum At Most x",
+      "id": "2702",
+      "slug": "minimum-operations-to-make-numbers-non-positive",
+      "title": "Minimum Operations to Make Numbers Non-positive",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "dynamic-programming",
-        "sorting"
+        "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
     },
     {
-      "id": "2810",
-      "slug": "faulty-keyboard",
-      "title": "Faulty Keyboard",
+      "id": "2703",
+      "slug": "return-length-of-arguments-passed",
+      "title": "Return Length of Arguments Passed",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "argumentsLength"
+    },
+    {
+      "id": "2704",
+      "slug": "to-be-or-not-to-be",
+      "title": "To Be Or Not To Be",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "expect"
+    },
+    {
+      "id": "2705",
+      "slug": "compact-object",
+      "title": "Compact Object",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "compactObject"
+    },
+    {
+      "id": "2706",
+      "slug": "buy-two-chocolates",
+      "title": "Buy Two Chocolates",
       "difficulty": "EASY",
       "tags": [
-        "string",
-        "simulation"
+        "array",
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "buyChoco"
     },
     {
-      "id": "2811",
-      "slug": "check-if-it-is-possible-to-split-array",
-      "title": "Check if it is Possible to Split Array",
+      "id": "2707",
+      "slug": "extra-characters-in-a-string",
+      "title": "Extra Characters in a String",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minExtraChar"
+    },
+    {
+      "id": "2708",
+      "slug": "maximum-strength-of-a-group",
+      "title": "Maximum Strength of a Group",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "greedy",
+        "bit-manipulation",
+        "sorting",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2709",
+      "slug": "greatest-common-divisor-traversal",
+      "title": "Greatest Common Divisor Traversal",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "union-find",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canTraverseAllPairs"
+    },
+    {
+      "id": "2710",
+      "slug": "remove-trailing-zeros-from-a-string",
+      "title": "Remove Trailing Zeros From a String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "removeTrailingZeros"
+    },
+    {
+      "id": "2711",
+      "slug": "difference-of-number-of-distinct-values-on-diagonals",
+      "title": "Difference of Number of Distinct Values on Diagonals",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "differenceOfDistinctValues"
+    },
+    {
+      "id": "2712",
+      "slug": "minimum-cost-to-make-all-characters-equal",
+      "title": "Minimum Cost to Make All Characters Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
         "dynamic-programming",
         "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumCost"
     },
     {
-      "id": "2812",
-      "slug": "find-the-safest-path-in-a-grid",
-      "title": "Find the Safest Path in a Grid",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "breadth-first-search",
-        "union-find",
-        "heap-priority-queue",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2813",
-      "slug": "maximum-elegance-of-a-k-length-subsequence",
-      "title": "Maximum Elegance of a K-Length Subsequence",
+      "id": "2713",
+      "slug": "maximum-strictly-increasing-cells-in-a-matrix",
+      "title": "Maximum Strictly Increasing Cells in a Matrix",
       "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
-        "stack",
-        "greedy",
+        "binary-search",
+        "dynamic-programming",
+        "memoization",
         "sorting",
-        "heap-priority-queue"
+        "matrix",
+        "ordered-set"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2814",
-      "slug": "minimum-time-takes-to-reach-destination-without-drowning",
-      "title": "Minimum Time Takes to Reach Destination Without Drowning",
+      "id": "2714",
+      "slug": "find-shortest-path-with-k-hops",
+      "title": "Find Shortest Path with K Hops",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "breadth-first-search",
-        "matrix"
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestPathWithHops"
     },
     {
-      "id": "2815",
-      "slug": "max-pair-sum-in-an-array",
-      "title": "Max Pair Sum in an Array",
+      "id": "2715",
+      "slug": "timeout-cancellation",
+      "title": "Timeout Cancellation",
       "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "cancellable"
+    },
+    {
+      "id": "2716",
+      "slug": "minimize-string-length",
+      "title": "Minimize String Length",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimizedStringLength"
+    },
+    {
+      "id": "2717",
+      "slug": "semi-ordered-permutation",
+      "title": "Semi-Ordered Permutation",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "semiOrderedPermutation"
+    },
+    {
+      "id": "2718",
+      "slug": "sum-of-matrix-after-queries",
+      "title": "Sum of Matrix After Queries",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2816",
-      "slug": "double-a-number-represented-as-a-linked-list",
-      "title": "Double a Number Represented as a Linked List",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "math",
-        "stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2817",
-      "slug": "minimum-absolute-difference-between-elements-with-constraint",
-      "title": "Minimum Absolute Difference Between Elements With Constraint",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2818",
-      "slug": "apply-operations-to-maximize-score",
-      "title": "Apply Operations to Maximize Score",
+      "id": "2719",
+      "slug": "count-of-integers",
+      "title": "Count of Integers",
       "difficulty": "HARD",
       "tags": [
-        "array",
         "math",
-        "stack",
-        "greedy",
-        "sorting",
-        "monotonic-stack",
-        "number-theory"
+        "string",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2819",
-      "slug": "minimum-relative-loss-after-buying-chocolates",
-      "title": "Minimum Relative Loss After Buying Chocolates",
+      "id": "2720",
+      "slug": "popularity-percentage",
+      "title": "Popularity Percentage",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "binary-search",
-        "sorting",
-        "prefix-sum"
+        "database"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "2820",
-      "slug": "election-results",
-      "title": "Election Results",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2821",
-      "slug": "delay-the-resolution-of-each-promise",
-      "title": "Delay the Resolution of Each Promise",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

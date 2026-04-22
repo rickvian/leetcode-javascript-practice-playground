@@ -2,199 +2,259 @@
   "batchId": "batch-140",
   "problems": [
     {
-      "id": "2882",
-      "slug": "drop-duplicate-rows",
-      "title": "Drop Duplicate Rows",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2883",
-      "slug": "drop-missing-data",
-      "title": "Drop Missing Data",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2884",
-      "slug": "modify-columns",
-      "title": "Modify Columns",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2885",
-      "slug": "rename-columns",
-      "title": "Rename Columns",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2886",
-      "slug": "change-data-type",
-      "title": "Change Data Type",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2887",
-      "slug": "fill-missing-data",
-      "title": "Fill Missing Data",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2888",
-      "slug": "reshape-data-concatenate",
-      "title": "Reshape Data: Concatenate",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2889",
-      "slug": "reshape-data-pivot",
-      "title": "Reshape Data: Pivot",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2890",
-      "slug": "reshape-data-melt",
-      "title": "Reshape Data: Melt",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2891",
-      "slug": "method-chaining",
-      "title": "Method Chaining",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2892",
-      "slug": "minimizing-array-after-replacing-pairs-with-their-product",
-      "title": "Minimizing Array After Replacing Pairs With Their Product",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2893",
-      "slug": "calculate-orders-within-each-interval",
-      "title": "Calculate Orders Within Each Interval",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2894",
-      "slug": "divisible-and-non-divisible-sums-difference",
-      "title": "Divisible and Non-divisible Sums Difference",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2895",
-      "slug": "minimum-processing-time",
-      "title": "Minimum Processing Time",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2896",
-      "slug": "apply-operations-to-make-two-strings-equal",
-      "title": "Apply Operations to Make Two Strings Equal",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2897",
-      "slug": "apply-operations-on-array-to-maximize-sum-of-squares",
-      "title": "Apply Operations on Array to Maximize Sum of Squares",
+      "id": "2781",
+      "slug": "length-of-the-longest-valid-substring",
+      "title": "Length of the Longest Valid Substring",
       "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
-        "greedy",
-        "bit-manipulation"
+        "string",
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "2898",
-      "slug": "maximum-linear-stock-score",
-      "title": "Maximum Linear Stock Score",
+      "id": "2782",
+      "slug": "number-of-unique-categories",
+      "title": "Number of Unique Categories",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "hash-table"
+        "union-find",
+        "interactive",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfCategories"
     },
     {
-      "id": "2899",
-      "slug": "last-visited-integers",
-      "title": "Last Visited Integers",
+      "id": "2783",
+      "slug": "flight-occupancy-and-waitlist-analysis",
+      "title": "Flight Occupancy and Waitlist Analysis",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2784",
+      "slug": "check-if-array-is-good",
+      "title": "Check if Array is Good",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "simulation"
+        "hash-table",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isGood"
     },
     {
-      "id": "2900",
-      "slug": "longest-unequal-adjacent-groups-subsequence-i",
-      "title": "Longest Unequal Adjacent Groups Subsequence I",
-      "difficulty": "EASY",
+      "id": "2785",
+      "slug": "sort-vowels-in-a-string",
+      "title": "Sort Vowels in a String",
+      "difficulty": "MEDIUM",
       "tags": [
-        "array",
         "string",
-        "dynamic-programming",
-        "greedy"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sortVowels"
     },
     {
-      "id": "2901",
-      "slug": "longest-unequal-adjacent-groups-subsequence-ii",
-      "title": "Longest Unequal Adjacent Groups Subsequence II",
+      "id": "2786",
+      "slug": "visit-array-positions-to-maximize-score",
+      "title": "Visit Array Positions to Maximize Score",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "string",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2787",
+      "slug": "ways-to-express-an-integer-as-sum-of-powers",
+      "title": "Ways to Express an Integer as Sum of Powers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfWays"
+    },
+    {
+      "id": "2788",
+      "slug": "split-strings-by-separator",
+      "title": "Split Strings by Separator",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "splitWordsBySeparator"
+    },
+    {
+      "id": "2789",
+      "slug": "largest-element-in-an-array-after-merge-operations",
+      "title": "Largest Element in an Array after Merge Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxArrayValue"
+    },
+    {
+      "id": "2790",
+      "slug": "maximum-number-of-groups-with-increasing-length",
+      "title": "Maximum Number of Groups With Increasing Length",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2791",
+      "slug": "count-paths-that-can-form-a-palindrome-in-a-tree",
+      "title": "Count Paths That Can Form a Palindrome in a Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "dynamic-programming",
+        "bit-manipulation",
+        "tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPalindromePaths"
+    },
+    {
+      "id": "2792",
+      "slug": "count-nodes-that-are-great-enough",
+      "title": "Count Nodes That Are Great Enough",
+      "difficulty": "HARD",
+      "tags": [
+        "divide-and-conquer",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countGreatEnoughNodes"
+    },
+    {
+      "id": "2793",
+      "slug": "status-of-flight-tickets",
+      "title": "Status of Flight Tickets",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2794",
+      "slug": "create-object-from-two-arrays",
+      "title": "Create Object from Two Arrays",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "createObject"
+    },
+    {
+      "id": "2795",
+      "slug": "parallel-execution-of-promises-for-individual-results-retrieval",
+      "title": "Parallel Execution of Promises for Individual Results Retrieval",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "promiseAllSettled"
+    },
+    {
+      "id": "2796",
+      "slug": "repeat-string",
+      "title": "Repeat String",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2797",
+      "slug": "partial-function-with-placeholders",
+      "title": "Partial Function with Placeholders",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "partial"
+    },
+    {
+      "id": "2798",
+      "slug": "number-of-employees-who-met-the-target",
+      "title": "Number of Employees Who Met the Target",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfEmployeesWhoMetTarget"
+    },
+    {
+      "id": "2799",
+      "slug": "count-complete-subarrays-in-an-array",
+      "title": "Count Complete Subarrays in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countCompleteSubarrays"
+    },
+    {
+      "id": "2800",
+      "slug": "shortest-string-that-contains-three-strings",
+      "title": "Shortest String That Contains Three Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

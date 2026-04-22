@@ -2,259 +2,280 @@
   "batchId": "batch-097",
   "problems": [
     {
-      "id": "2022",
-      "slug": "convert-1d-array-into-2d-array",
-      "title": "Convert 1D Array Into 2D Array",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "matrix",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2023",
-      "slug": "number-of-pairs-of-strings-with-concatenation-equal-to-target",
-      "title": "Number of Pairs of Strings With Concatenation Equal to Target",
+      "id": "1921",
+      "slug": "eliminate-maximum-number-of-monsters",
+      "title": "Eliminate Maximum Number of Monsters",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "hash-table",
-        "string",
-        "counting"
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "eliminateMaximum"
     },
     {
-      "id": "2024",
-      "slug": "maximize-the-confusion-of-an-exam",
-      "title": "Maximize the Confusion of an Exam",
+      "id": "1922",
+      "slug": "count-good-numbers",
+      "title": "Count Good Numbers",
       "difficulty": "MEDIUM",
       "tags": [
-        "string",
-        "binary-search",
-        "sliding-window",
-        "prefix-sum"
+        "math",
+        "recursion"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countGoodNumbers"
     },
     {
-      "id": "2025",
-      "slug": "maximum-number-of-ways-to-partition-an-array",
-      "title": "Maximum Number of Ways to Partition an Array",
+      "id": "1923",
+      "slug": "longest-common-subpath",
+      "title": "Longest Common Subpath",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "hash-table",
-        "counting",
-        "enumeration",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2026",
-      "slug": "low-quality-problems",
-      "title": "Low-Quality Problems",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2027",
-      "slug": "minimum-moves-to-convert-string",
-      "title": "Minimum Moves to Convert String",
-      "difficulty": "EASY",
-      "tags": [
-        "string",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2028",
-      "slug": "find-missing-observations",
-      "title": "Find Missing Observations",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2029",
-      "slug": "stone-game-ix",
-      "title": "Stone Game IX",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "greedy",
-        "counting",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2030",
-      "slug": "smallest-k-length-subsequence-with-occurrences-of-a-letter",
-      "title": "Smallest K-Length Subsequence With Occurrences of a Letter",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "stack",
-        "greedy",
-        "monotonic-stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2031",
-      "slug": "count-subarrays-with-more-ones-than-zeros",
-      "title": "Count Subarrays With More Ones Than Zeros",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
         "binary-search",
-        "divide-and-conquer",
-        "binary-indexed-tree",
-        "segment-tree",
-        "merge-sort",
-        "ordered-set"
+        "rolling-hash",
+        "suffix-array",
+        "hash-function"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestCommonSubpath"
     },
     {
-      "id": "2032",
-      "slug": "two-out-of-three",
-      "title": "Two Out of Three",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2033",
-      "slug": "minimum-operations-to-make-a-uni-value-grid",
-      "title": "Minimum Operations to Make a Uni-Value Grid",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "sorting",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2034",
-      "slug": "stock-price-fluctuation",
-      "title": "Stock Price Fluctuation ",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "design",
-        "heap-priority-queue",
-        "data-stream",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2035",
-      "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
-      "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+      "id": "1924",
+      "slug": "erect-the-fence-ii",
+      "title": "Erect the Fence II",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "two-pointers",
-        "binary-search",
-        "dynamic-programming",
-        "bit-manipulation",
-        "sorting",
-        "ordered-set",
-        "bitmask"
+        "math",
+        "geometry"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "outerTrees"
     },
     {
-      "id": "2036",
-      "slug": "maximum-alternating-subarray-sum",
-      "title": "Maximum Alternating Subarray Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2037",
-      "slug": "minimum-number-of-moves-to-seat-everyone",
-      "title": "Minimum Number of Moves to Seat Everyone",
+      "id": "1925",
+      "slug": "count-square-sum-triples",
+      "title": "Count Square Sum Triples",
       "difficulty": "EASY",
       "tags": [
-        "array",
-        "greedy",
-        "sorting",
-        "counting-sort"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2038",
-      "slug": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
-      "title": "Remove Colored Pieces if Both Neighbors are the Same Color",
-      "difficulty": "MEDIUM",
-      "tags": [
         "math",
-        "string",
-        "greedy",
-        "game-theory"
+        "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countTriples"
     },
     {
-      "id": "2039",
-      "slug": "the-time-when-the-network-becomes-idle",
-      "title": "The Time When the Network Becomes Idle",
+      "id": "1926",
+      "slug": "nearest-exit-from-entrance-in-maze",
+      "title": "Nearest Exit from Entrance in Maze",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "breadth-first-search",
-        "graph"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nearestExit"
     },
     {
-      "id": "2040",
-      "slug": "kth-smallest-product-of-two-sorted-arrays",
-      "title": "Kth Smallest Product of Two Sorted Arrays",
+      "id": "1927",
+      "slug": "sum-game",
+      "title": "Sum Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "greedy",
+        "game-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumGame"
+    },
+    {
+      "id": "1928",
+      "slug": "minimum-cost-to-reach-destination-in-time",
+      "title": "Minimum Cost to Reach Destination in Time",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "binary-search"
+        "dynamic-programming",
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCost"
     },
     {
-      "id": "2041",
-      "slug": "accepted-candidates-from-the-interviews",
-      "title": "Accepted Candidates From the Interviews",
+      "id": "1929",
+      "slug": "concatenation-of-array",
+      "title": "Concatenation of Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getConcatenation"
+    },
+    {
+      "id": "1930",
+      "slug": "unique-length-3-palindromic-subsequences",
+      "title": "Unique Length-3 Palindromic Subsequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countPalindromicSubsequence"
+    },
+    {
+      "id": "1931",
+      "slug": "painting-a-grid-with-three-different-colors",
+      "title": "Painting a Grid With Three Different Colors",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "colorTheGrid"
+    },
+    {
+      "id": "1932",
+      "slug": "merge-bsts-to-create-single-bst",
+      "title": "Merge BSTs to Create Single BST",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canMerge"
+    },
+    {
+      "id": "1933",
+      "slug": "check-if-string-is-decomposable-into-value-equal-substrings",
+      "title": "Check if String Is Decomposable Into Value-Equal Substrings",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isDecomposable"
+    },
+    {
+      "id": "1934",
+      "slug": "confirmation-rate",
+      "title": "Confirmation Rate",
       "difficulty": "MEDIUM",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1935",
+      "slug": "maximum-number-of-words-you-can-type",
+      "title": "Maximum Number of Words You Can Type",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canBeTypedWords"
+    },
+    {
+      "id": "1936",
+      "slug": "add-minimum-number-of-rungs",
+      "title": "Add Minimum Number of Rungs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addRungs"
+    },
+    {
+      "id": "1937",
+      "slug": "maximum-number-of-points-with-cost",
+      "title": "Maximum Number of Points with Cost",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxPoints"
+    },
+    {
+      "id": "1938",
+      "slug": "maximum-genetic-difference-query",
+      "title": "Maximum Genetic Difference Query",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "depth-first-search",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxGeneticDifference"
+    },
+    {
+      "id": "1939",
+      "slug": "users-that-actively-request-confirmation-messages",
+      "title": "Users That Actively Request Confirmation Messages",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1940",
+      "slug": "longest-common-subsequence-between-sorted-arrays",
+      "title": "Longest Common Subsequence Between Sorted Arrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestCommonSubsequence"
     }
   ]
 }

@@ -2,245 +2,283 @@
   "batchId": "batch-005",
   "problems": [
     {
-      "id": "0120",
-      "slug": "triangle",
-      "title": "Triangle",
+      "id": "0081",
+      "slug": "search-in-rotated-sorted-array-ii",
+      "title": "Search in Rotated Sorted Array II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "dynamic-programming"
+        "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "search"
     },
     {
-      "id": "0122",
-      "slug": "best-time-to-buy-and-sell-stock-ii",
-      "title": "Best Time to Buy and Sell Stock II",
+      "id": "0082",
+      "slug": "remove-duplicates-from-sorted-list-ii",
+      "title": "Remove Duplicates from Sorted List II",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "dynamic-programming",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0123",
-      "slug": "best-time-to-buy-and-sell-stock-iii",
-      "title": "Best Time to Buy and Sell Stock III",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0126",
-      "slug": "word-ladder-ii",
-      "title": "Word Ladder II",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "string",
-        "backtracking",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0127",
-      "slug": "word-ladder",
-      "title": "Word Ladder",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "string",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0129",
-      "slug": "sum-root-to-leaf-numbers",
-      "title": "Sum Root to Leaf Numbers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0130",
-      "slug": "surrounded-regions",
-      "title": "Surrounded Regions",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0131",
-      "slug": "palindrome-partitioning",
-      "title": "Palindrome Partitioning",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "backtracking"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0132",
-      "slug": "palindrome-partitioning-ii",
-      "title": "Palindrome Partitioning II",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0134",
-      "slug": "gas-station",
-      "title": "Gas Station",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0135",
-      "slug": "candy",
-      "title": "Candy",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0136",
-      "slug": "single-number",
-      "title": "Single Number",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0137",
-      "slug": "single-number-ii",
-      "title": "Single Number II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0138",
-      "slug": "copy-list-with-random-pointer",
-      "title": "Copy List with Random Pointer",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "linked-list"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0140",
-      "slug": "word-break-ii",
-      "title": "Word Break II",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "dynamic-programming",
-        "backtracking",
-        "trie",
-        "memoization"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0142",
-      "slug": "linked-list-cycle-ii",
-      "title": "Linked List Cycle II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
         "linked-list",
         "two-pointers"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "deleteDuplicates"
     },
     {
-      "id": "0144",
-      "slug": "binary-tree-preorder-traversal",
-      "title": "Binary Tree Preorder Traversal",
+      "id": "0083",
+      "slug": "remove-duplicates-from-sorted-list",
+      "title": "Remove Duplicates from Sorted List",
       "difficulty": "EASY",
       "tags": [
-        "stack",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
+        "linked-list"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "deleteDuplicates"
     },
     {
-      "id": "0145",
-      "slug": "binary-tree-postorder-traversal",
-      "title": "Binary Tree Postorder Traversal",
-      "difficulty": "EASY",
-      "tags": [
-        "stack",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0147",
-      "slug": "insertion-sort-list",
-      "title": "Insertion Sort List",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "linked-list",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0149",
-      "slug": "max-points-on-a-line",
-      "title": "Max Points on a Line",
+      "id": "0084",
+      "slug": "largest-rectangle-in-histogram",
+      "title": "Largest Rectangle in Histogram",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "hash-table",
-        "math",
-        "geometry"
+        "stack",
+        "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestRectangleArea"
+    },
+    {
+      "id": "0085",
+      "slug": "maximal-rectangle",
+      "title": "Maximal Rectangle",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "matrix",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximalRectangle"
+    },
+    {
+      "id": "0086",
+      "slug": "partition-list",
+      "title": "Partition List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "partition"
+    },
+    {
+      "id": "0087",
+      "slug": "scramble-string",
+      "title": "Scramble String",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isScramble"
+    },
+    {
+      "id": "0088",
+      "slug": "merge-sorted-array",
+      "title": "Merge Sorted Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "merge"
+    },
+    {
+      "id": "0089",
+      "slug": "gray-code",
+      "title": "Gray Code",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "grayCode"
+    },
+    {
+      "id": "0090",
+      "slug": "subsets-ii",
+      "title": "Subsets II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "subsetsWithDup"
+    },
+    {
+      "id": "0091",
+      "slug": "decode-ways",
+      "title": "Decode Ways",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numDecodings"
+    },
+    {
+      "id": "0092",
+      "slug": "reverse-linked-list-ii",
+      "title": "Reverse Linked List II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverseBetween"
+    },
+    {
+      "id": "0093",
+      "slug": "restore-ip-addresses",
+      "title": "Restore IP Addresses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "restoreIpAddresses"
+    },
+    {
+      "id": "0094",
+      "slug": "binary-tree-inorder-traversal",
+      "title": "Binary Tree Inorder Traversal",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "inorderTraversal"
+    },
+    {
+      "id": "0095",
+      "slug": "unique-binary-search-trees-ii",
+      "title": "Unique Binary Search Trees II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "backtracking",
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "generateTrees"
+    },
+    {
+      "id": "0096",
+      "slug": "unique-binary-search-trees",
+      "title": "Unique Binary Search Trees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numTrees"
+    },
+    {
+      "id": "0097",
+      "slug": "interleaving-string",
+      "title": "Interleaving String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isInterleave"
+    },
+    {
+      "id": "0098",
+      "slug": "validate-binary-search-tree",
+      "title": "Validate Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isValidBST"
+    },
+    {
+      "id": "0099",
+      "slug": "recover-binary-search-tree",
+      "title": "Recover Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "recoverTree"
+    },
+    {
+      "id": "0100",
+      "slug": "same-tree",
+      "title": "Same Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isSameTree"
     }
   ]
 }

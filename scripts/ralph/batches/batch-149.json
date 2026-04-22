@@ -1,0 +1,297 @@
+{
+  "batchId": "batch-149",
+  "problems": [
+    {
+      "id": "2961",
+      "slug": "double-modular-exponentiation",
+      "title": "Double Modular Exponentiation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getGoodIndices"
+    },
+    {
+      "id": "2962",
+      "slug": "count-subarrays-where-max-element-appears-at-least-k-times",
+      "title": "Count Subarrays Where Max Element Appears at Least K Times",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countSubarrays"
+    },
+    {
+      "id": "2963",
+      "slug": "count-the-number-of-good-partitions",
+      "title": "Count the Number of Good Partitions",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "combinatorics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numberOfGoodPartitions"
+    },
+    {
+      "id": "2964",
+      "slug": "number-of-divisible-triplet-sums",
+      "title": "Number of Divisible Triplet Sums",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "divisibleTripletCount"
+    },
+    {
+      "id": "2965",
+      "slug": "find-missing-and-repeated-values",
+      "title": "Find Missing and Repeated Values",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMissingAndRepeatedValues"
+    },
+    {
+      "id": "2966",
+      "slug": "divide-array-into-arrays-with-max-difference",
+      "title": "Divide Array Into Arrays With Max Difference",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "divideArray"
+    },
+    {
+      "id": "2967",
+      "slug": "minimum-cost-to-make-array-equalindromic",
+      "title": "Minimum Cost to Make Array Equalindromic",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2968",
+      "slug": "apply-operations-to-maximize-frequency-score",
+      "title": "Apply Operations to Maximize Frequency Score",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "sliding-window",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2969",
+      "slug": "minimum-number-of-coins-for-fruits-ii",
+      "title": "Minimum Number of Coins for Fruits II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "queue",
+        "heap-priority-queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumCoins"
+    },
+    {
+      "id": "2970",
+      "slug": "count-the-number-of-incremovable-subarrays-i",
+      "title": "Count the Number of Incremovable Subarrays I",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "incremovableSubarrayCount"
+    },
+    {
+      "id": "2971",
+      "slug": "find-polygon-with-the-largest-perimeter",
+      "title": "Find Polygon With the Largest Perimeter",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestPerimeter"
+    },
+    {
+      "id": "2972",
+      "slug": "count-the-number-of-incremovable-subarrays-ii",
+      "title": "Count the Number of Incremovable Subarrays II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2973",
+      "slug": "find-number-of-coins-to-place-in-tree-nodes",
+      "title": "Find Number of Coins to Place in Tree Nodes",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2974",
+      "slug": "minimum-number-game",
+      "title": "Minimum Number Game",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2975",
+      "slug": "maximum-square-area-by-removing-fences-from-a-field",
+      "title": "Maximum Square Area by Removing Fences From a Field",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "enumeration"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2976",
+      "slug": "minimum-cost-to-convert-string-i",
+      "title": "Minimum Cost to Convert String I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "graph",
+        "shortest-path"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumCost"
+    },
+    {
+      "id": "2977",
+      "slug": "minimum-cost-to-convert-string-ii",
+      "title": "Minimum Cost to Convert String II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming",
+        "graph",
+        "trie",
+        "shortest-path"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2978",
+      "slug": "symmetric-coordinates",
+      "title": "Symmetric Coordinates",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2979",
+      "slug": "most-expensive-item-that-can-not-be-bought",
+      "title": "Most Expensive Item That Can Not Be Bought",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mostExpensiveItem"
+    },
+    {
+      "id": "2980",
+      "slug": "check-if-bitwise-or-has-trailing-zeros",
+      "title": "Check if Bitwise OR Has Trailing Zeros",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "hasTrailingZeros"
+    }
+  ]
+}

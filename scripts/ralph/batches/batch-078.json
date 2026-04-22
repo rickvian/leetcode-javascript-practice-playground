@@ -2,257 +2,270 @@
   "batchId": "batch-078",
   "problems": [
     {
-      "id": "1642",
-      "slug": "furthest-building-you-can-reach",
-      "title": "Furthest Building You Can Reach",
+      "id": "1541",
+      "slug": "minimum-insertions-to-balance-a-parentheses-string",
+      "title": "Minimum Insertions to Balance a Parentheses String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minInsertions"
+    },
+    {
+      "id": "1542",
+      "slug": "find-longest-awesome-substring",
+      "title": "Find Longest Awesome Substring",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestAwesome"
+    },
+    {
+      "id": "1543",
+      "slug": "fix-product-name-format",
+      "title": "Fix Product Name Format",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1544",
+      "slug": "make-the-string-great",
+      "title": "Make The String Great",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "makeGood"
+    },
+    {
+      "id": "1545",
+      "slug": "find-kth-bit-in-nth-binary-string",
+      "title": "Find Kth Bit in Nth Binary String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "recursion",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findKthBit"
+    },
+    {
+      "id": "1546",
+      "slug": "maximum-number-of-non-overlapping-subarrays-with-sum-equals-target",
+      "title": "Maximum Number of Non-Overlapping Subarrays With Sum Equals Target",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxNonOverlapping"
+    },
+    {
+      "id": "1547",
+      "slug": "minimum-cost-to-cut-a-stick",
+      "title": "Minimum Cost to Cut a Stick",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCost"
+    },
+    {
+      "id": "1548",
+      "slug": "the-most-similar-path-in-a-graph",
+      "title": "The Most Similar Path in a Graph",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mostSimilar"
+    },
+    {
+      "id": "1549",
+      "slug": "the-most-recent-orders-for-each-product",
+      "title": "The Most Recent Orders for Each Product",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1550",
+      "slug": "three-consecutive-odds",
+      "title": "Three Consecutive Odds",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "threeConsecutiveOdds"
+    },
+    {
+      "id": "1551",
+      "slug": "minimum-operations-to-make-array-equal",
+      "title": "Minimum Operations to Make Array Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
+    },
+    {
+      "id": "1552",
+      "slug": "magnetic-force-between-two-balls",
+      "title": "Magnetic Force Between Two Balls",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDistance"
+    },
+    {
+      "id": "1553",
+      "slug": "minimum-number-of-days-to-eat-n-oranges",
+      "title": "Minimum Number of Days to Eat N Oranges",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minDays"
+    },
+    {
+      "id": "1554",
+      "slug": "strings-differ-by-one-character",
+      "title": "Strings Differ by One Character",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "rolling-hash",
+        "hash-function"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "differByOne"
+    },
+    {
+      "id": "1555",
+      "slug": "bank-account-summary",
+      "title": "Bank Account Summary",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1556",
+      "slug": "thousand-separator",
+      "title": "Thousand Separator",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "thousandSeparator"
+    },
+    {
+      "id": "1557",
+      "slug": "minimum-number-of-vertices-to-reach-all-nodes",
+      "title": "Minimum Number of Vertices to Reach All Nodes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findSmallestSetOfVertices"
+    },
+    {
+      "id": "1558",
+      "slug": "minimum-numbers-of-function-calls-to-make-target-array",
+      "title": "Minimum Numbers of Function Calls to Make Target Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "greedy",
-        "heap-priority-queue"
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minOperations"
     },
     {
-      "id": "1643",
-      "slug": "kth-smallest-instructions",
-      "title": "Kth Smallest Instructions",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "combinatorics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1644",
-      "slug": "lowest-common-ancestor-of-a-binary-tree-ii",
-      "title": "Lowest Common Ancestor of a Binary Tree II",
+      "id": "1559",
+      "slug": "detect-cycles-in-2d-grid",
+      "title": "Detect Cycles in 2D Grid",
       "difficulty": "MEDIUM",
       "tags": [
-        "tree",
+        "array",
         "depth-first-search",
-        "binary-tree"
+        "breadth-first-search",
+        "union-find",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "containsCycle"
     },
     {
-      "id": "1645",
-      "slug": "hopper-company-queries-ii",
-      "title": "Hopper Company Queries II",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1646",
-      "slug": "get-maximum-in-generated-array",
-      "title": "Get Maximum in Generated Array",
+      "id": "1560",
+      "slug": "most-visited-sector-in-a-circular-track",
+      "title": "Most Visited Sector in  a Circular Track",
       "difficulty": "EASY",
       "tags": [
         "array",
         "simulation"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "1647",
-      "slug": "minimum-deletions-to-make-character-frequencies-unique",
-      "title": "Minimum Deletions to Make Character Frequencies Unique",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1648",
-      "slug": "sell-diminishing-valued-colored-balls",
-      "title": "Sell Diminishing-Valued Colored Balls",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "binary-search",
-        "greedy",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1649",
-      "slug": "create-sorted-array-through-instructions",
-      "title": "Create Sorted Array through Instructions",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "divide-and-conquer",
-        "binary-indexed-tree",
-        "segment-tree",
-        "merge-sort",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1650",
-      "slug": "lowest-common-ancestor-of-a-binary-tree-iii",
-      "title": "Lowest Common Ancestor of a Binary Tree III",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "two-pointers",
-        "tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1651",
-      "slug": "hopper-company-queries-iii",
-      "title": "Hopper Company Queries III",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1652",
-      "slug": "defuse-the-bomb",
-      "title": "Defuse the Bomb",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1653",
-      "slug": "minimum-deletions-to-make-string-balanced",
-      "title": "Minimum Deletions to Make String Balanced",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1654",
-      "slug": "minimum-jumps-to-reach-home",
-      "title": "Minimum Jumps to Reach Home",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1655",
-      "slug": "distribute-repeating-integers",
-      "title": "Distribute Repeating Integers",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "dynamic-programming",
-        "backtracking",
-        "bit-manipulation",
-        "counting",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1656",
-      "slug": "design-an-ordered-stream",
-      "title": "Design an Ordered Stream",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "hash-table",
-        "design",
-        "data-stream"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1657",
-      "slug": "determine-if-two-strings-are-close",
-      "title": "Determine if Two Strings Are Close",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "sorting",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1658",
-      "slug": "minimum-operations-to-reduce-x-to-zero",
-      "title": "Minimum Operations to Reduce X to Zero",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "binary-search",
-        "sliding-window",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1659",
-      "slug": "maximize-grid-happiness",
-      "title": "Maximize Grid Happiness",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming",
-        "bit-manipulation",
-        "memoization",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1660",
-      "slug": "correct-a-binary-tree",
-      "title": "Correct a Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1661",
-      "slug": "average-time-of-process-per-machine",
-      "title": "Average Time of Process per Machine",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mostVisited"
     }
   ]
 }

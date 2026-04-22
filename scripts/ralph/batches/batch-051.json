@@ -2,226 +2,279 @@
   "batchId": "batch-051",
   "problems": [
     {
-      "id": "1101",
-      "slug": "the-earliest-moment-when-everyone-become-friends",
-      "title": "The Earliest Moment When Everyone Become Friends",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "union-find",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1102",
-      "slug": "path-with-maximum-minimum-value",
-      "title": "Path With Maximum Minimum Value",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "binary-search",
-        "depth-first-search",
-        "breadth-first-search",
-        "union-find",
-        "heap-priority-queue",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1103",
-      "slug": "distribute-candies-to-people",
-      "title": "Distribute Candies to People",
-      "difficulty": "EASY",
-      "tags": [
-        "math",
-        "simulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1104",
-      "slug": "path-in-zigzag-labelled-binary-tree",
-      "title": "Path In Zigzag Labelled Binary Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "tree",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1105",
-      "slug": "filling-bookcase-shelves",
-      "title": "Filling Bookcase Shelves",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1106",
-      "slug": "parsing-a-boolean-expression",
-      "title": "Parsing A Boolean Expression",
+      "id": "1001",
+      "slug": "grid-illumination",
+      "title": "Grid Illumination",
       "difficulty": "HARD",
       "tags": [
-        "string",
-        "stack",
-        "recursion"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1107",
-      "slug": "new-users-daily-count",
-      "title": "New Users Daily Count",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1108",
-      "slug": "defanging-an-ip-address",
-      "title": "Defanging an IP Address",
-      "difficulty": "EASY",
-      "tags": [
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1109",
-      "slug": "corporate-flight-bookings",
-      "title": "Corporate Flight Bookings",
-      "difficulty": "MEDIUM",
-      "tags": [
         "array",
-        "prefix-sum"
+        "hash-table"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "gridIllumination"
     },
     {
-      "id": "1110",
-      "slug": "delete-nodes-and-return-forest",
-      "title": "Delete Nodes And Return Forest",
-      "difficulty": "MEDIUM",
+      "id": "1002",
+      "slug": "find-common-characters",
+      "title": "Find Common Characters",
+      "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "commonChars"
     },
     {
-      "id": "1111",
-      "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
-      "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+      "id": "1003",
+      "slug": "check-if-word-is-valid-after-substitutions",
+      "title": "Check If Word Is Valid After Substitutions",
       "difficulty": "MEDIUM",
       "tags": [
         "string",
         "stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isValid"
     },
     {
-      "id": "1112",
-      "slug": "highest-grade-for-each-student",
-      "title": "Highest Grade For Each Student",
+      "id": "1004",
+      "slug": "max-consecutive-ones-iii",
+      "title": "Max Consecutive Ones III",
       "difficulty": "MEDIUM",
       "tags": [
-        "database"
+        "array",
+        "binary-search",
+        "sliding-window",
+        "prefix-sum"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestOnes"
     },
     {
-      "id": "1113",
-      "slug": "reported-posts",
-      "title": "Reported Posts",
+      "id": "1005",
+      "slug": "maximize-sum-of-array-after-k-negations",
+      "title": "Maximize Sum Of Array After K Negations",
       "difficulty": "EASY",
       "tags": [
-        "database"
+        "array",
+        "greedy",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestSumAfterKNegations"
     },
     {
-      "id": "1114",
-      "slug": "print-in-order",
-      "title": "Print in Order",
+      "id": "1006",
+      "slug": "clumsy-factorial",
+      "title": "Clumsy Factorial",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "clumsy"
+    },
+    {
+      "id": "1007",
+      "slug": "minimum-domino-rotations-for-equal-row",
+      "title": "Minimum Domino Rotations For Equal Row",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minDominoRotations"
+    },
+    {
+      "id": "1008",
+      "slug": "construct-binary-search-tree-from-preorder-traversal",
+      "title": "Construct Binary Search Tree from Preorder Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "tree",
+        "binary-search-tree",
+        "monotonic-stack",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "bstFromPreorder"
+    },
+    {
+      "id": "1009",
+      "slug": "complement-of-base-10-integer",
+      "title": "Complement of Base 10 Integer",
       "difficulty": "EASY",
       "tags": [
-        "concurrency"
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "bitwiseComplement"
     },
     {
-      "id": "1115",
-      "slug": "print-foobar-alternately",
-      "title": "Print FooBar Alternately",
+      "id": "1010",
+      "slug": "pairs-of-songs-with-total-durations-divisible-by-60",
+      "title": "Pairs of Songs With Total Durations Divisible by 60",
       "difficulty": "MEDIUM",
       "tags": [
-        "concurrency"
+        "array",
+        "hash-table",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numPairsDivisibleBy60"
     },
     {
-      "id": "1116",
-      "slug": "print-zero-even-odd",
-      "title": "Print Zero Even Odd",
+      "id": "1011",
+      "slug": "capacity-to-ship-packages-within-d-days",
+      "title": "Capacity To Ship Packages Within D Days",
       "difficulty": "MEDIUM",
       "tags": [
-        "concurrency"
+        "array",
+        "binary-search"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shipWithinDays"
     },
     {
-      "id": "1117",
-      "slug": "building-h2o",
-      "title": "Building H2O",
-      "difficulty": "MEDIUM",
+      "id": "1012",
+      "slug": "numbers-with-repeated-digits",
+      "title": "Numbers With Repeated Digits",
+      "difficulty": "HARD",
       "tags": [
-        "concurrency"
+        "math",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numDupDigitsAtMostN"
     },
     {
-      "id": "1118",
-      "slug": "number-of-days-in-a-month",
-      "title": "Number of Days in a Month",
+      "id": "1013",
+      "slug": "partition-array-into-three-parts-with-equal-sum",
+      "title": "Partition Array Into Three Parts With Equal Sum",
       "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canThreePartsEqualSum"
+    },
+    {
+      "id": "1014",
+      "slug": "best-sightseeing-pair",
+      "title": "Best Sightseeing Pair",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxScoreSightseeingPair"
+    },
+    {
+      "id": "1015",
+      "slug": "smallest-integer-divisible-by-k",
+      "title": "Smallest Integer Divisible by K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestRepunitDivByK"
+    },
+    {
+      "id": "1016",
+      "slug": "binary-string-with-substrings-representing-1-to-n",
+      "title": "Binary String With Substrings Representing 1 To N",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "queryString"
+    },
+    {
+      "id": "1017",
+      "slug": "convert-to-base-2",
+      "title": "Convert to Base -2",
+      "difficulty": "MEDIUM",
       "tags": [
         "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "baseNeg2"
     },
     {
-      "id": "1119",
-      "slug": "remove-vowels-from-a-string",
-      "title": "Remove Vowels from a String",
+      "id": "1018",
+      "slug": "binary-prefix-divisible-by-5",
+      "title": "Binary Prefix Divisible By 5",
       "difficulty": "EASY",
       "tags": [
-        "string"
+        "array",
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "prefixesDivBy5"
     },
     {
-      "id": "1120",
-      "slug": "maximum-average-subtree",
-      "title": "Maximum Average Subtree",
+      "id": "1019",
+      "slug": "next-greater-node-in-linked-list",
+      "title": "Next Greater Node In Linked List",
       "difficulty": "MEDIUM",
       "tags": [
-        "tree",
-        "depth-first-search",
-        "binary-tree"
+        "array",
+        "linked-list",
+        "stack",
+        "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "nextLargerNodes"
+    },
+    {
+      "id": "1020",
+      "slug": "number-of-enclaves",
+      "title": "Number of Enclaves",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numEnclaves"
     }
   ]
 }

@@ -2,243 +2,263 @@
   "batchId": "batch-010",
   "problems": [
     {
-      "id": "0256",
-      "slug": "paint-house",
-      "title": "Paint House",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0257",
-      "slug": "binary-tree-paths",
-      "title": "Binary Tree Paths",
+      "id": "0181",
+      "slug": "employees-earning-more-than-their-managers",
+      "title": "Employees Earning More Than Their Managers",
       "difficulty": "EASY",
       "tags": [
-        "string",
-        "backtracking",
-        "tree",
-        "depth-first-search",
-        "binary-tree"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0258",
-      "slug": "add-digits",
-      "title": "Add Digits",
+      "id": "0182",
+      "slug": "duplicate-emails",
+      "title": "Duplicate Emails",
       "difficulty": "EASY",
       "tags": [
-        "math",
-        "simulation",
-        "number-theory"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0259",
-      "slug": "3sum-smaller",
-      "title": "3Sum Smaller",
+      "id": "0183",
+      "slug": "customers-who-never-order",
+      "title": "Customers Who Never Order",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0184",
+      "slug": "department-highest-salary",
+      "title": "Department Highest Salary",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "sorting"
+        "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0260",
-      "slug": "single-number-iii",
-      "title": "Single Number III",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0262",
-      "slug": "trips-and-users",
-      "title": "Trips and Users",
+      "id": "0185",
+      "slug": "department-top-three-salaries",
+      "title": "Department Top Three Salaries",
       "difficulty": "HARD",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0263",
-      "slug": "ugly-number",
-      "title": "Ugly Number",
-      "difficulty": "EASY",
+      "id": "0186",
+      "slug": "reverse-words-in-a-string-ii",
+      "title": "Reverse Words in a String II",
+      "difficulty": "MEDIUM",
       "tags": [
-        "math"
+        "two-pointers",
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverseWords"
     },
     {
-      "id": "0264",
-      "slug": "ugly-number-ii",
-      "title": "Ugly Number II",
+      "id": "0187",
+      "slug": "repeated-dna-sequences",
+      "title": "Repeated DNA Sequences",
       "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
-        "math",
-        "dynamic-programming",
-        "heap-priority-queue"
+        "string",
+        "bit-manipulation",
+        "sliding-window",
+        "rolling-hash",
+        "hash-function"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findRepeatedDnaSequences"
     },
     {
-      "id": "0265",
-      "slug": "paint-house-ii",
-      "title": "Paint House II",
+      "id": "0188",
+      "slug": "best-time-to-buy-and-sell-stock-iv",
+      "title": "Best Time to Buy and Sell Stock IV",
       "difficulty": "HARD",
       "tags": [
         "array",
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxProfit"
     },
     {
-      "id": "0266",
-      "slug": "palindrome-permutation",
-      "title": "Palindrome Permutation",
+      "id": "0189",
+      "slug": "rotate-array",
+      "title": "Rotate Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "two-pointers"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rotate"
+    },
+    {
+      "id": "0190",
+      "slug": "reverse-bits",
+      "title": "Reverse Bits",
       "difficulty": "EASY",
       "tags": [
-        "hash-table",
-        "string",
+        "divide-and-conquer",
         "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "reverseBits"
     },
     {
-      "id": "0267",
-      "slug": "palindrome-permutation-ii",
-      "title": "Palindrome Permutation II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "backtracking"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0270",
-      "slug": "closest-binary-search-tree-value",
-      "title": "Closest Binary Search Tree Value",
+      "id": "0191",
+      "slug": "number-of-1-bits",
+      "title": "Number of 1 Bits",
       "difficulty": "EASY",
       "tags": [
-        "binary-search",
-        "tree",
-        "depth-first-search",
-        "binary-search-tree",
-        "binary-tree"
+        "divide-and-conquer",
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "hammingWeight"
     },
     {
-      "id": "0272",
-      "slug": "closest-binary-search-tree-value-ii",
-      "title": "Closest Binary Search Tree Value II",
-      "difficulty": "HARD",
+      "id": "0192",
+      "slug": "word-frequency",
+      "title": "Word Frequency",
+      "difficulty": "MEDIUM",
       "tags": [
-        "two-pointers",
-        "stack",
-        "tree",
-        "depth-first-search",
-        "binary-search-tree",
-        "heap-priority-queue",
-        "binary-tree"
+        "shell"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0273",
-      "slug": "integer-to-english-words",
-      "title": "Integer to English Words",
-      "difficulty": "HARD",
+      "id": "0193",
+      "slug": "valid-phone-numbers",
+      "title": "Valid Phone Numbers",
+      "difficulty": "EASY",
       "tags": [
-        "math",
-        "string",
-        "recursion"
+        "shell"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "0275",
-      "slug": "h-index-ii",
-      "title": "H-Index II",
+      "id": "0194",
+      "slug": "transpose-file",
+      "title": "Transpose File",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "shell"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0195",
+      "slug": "tenth-line",
+      "title": "Tenth Line",
+      "difficulty": "EASY",
+      "tags": [
+        "shell"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0196",
+      "slug": "delete-duplicate-emails",
+      "title": "Delete Duplicate Emails",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0197",
+      "slug": "rising-temperature",
+      "title": "Rising Temperature",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0198",
+      "slug": "house-robber",
+      "title": "House Robber",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0276",
-      "slug": "paint-fence",
-      "title": "Paint Fence",
-      "difficulty": "MEDIUM",
-      "tags": [
         "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rob"
     },
     {
-      "id": "0277",
-      "slug": "find-the-celebrity",
-      "title": "Find the Celebrity",
+      "id": "0199",
+      "slug": "binary-tree-right-side-view",
+      "title": "Binary Tree Right Side View",
       "difficulty": "MEDIUM",
       "tags": [
-        "two-pointers",
-        "graph",
-        "interactive"
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rightSideView"
     },
     {
-      "id": "0278",
-      "slug": "first-bad-version",
-      "title": "First Bad Version",
-      "difficulty": "EASY",
-      "tags": [
-        "binary-search",
-        "interactive"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0279",
-      "slug": "perfect-squares",
-      "title": "Perfect Squares",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0280",
-      "slug": "wiggle-sort",
-      "title": "Wiggle Sort",
+      "id": "0200",
+      "slug": "number-of-islands",
+      "title": "Number of Islands",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "greedy",
-        "sorting"
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numIslands"
     }
   ]
 }

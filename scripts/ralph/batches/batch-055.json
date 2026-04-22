@@ -2,232 +2,282 @@
   "batchId": "batch-055",
   "problems": [
     {
-      "id": "1182",
-      "slug": "shortest-distance-to-target-color",
-      "title": "Shortest Distance to Target Color",
+      "id": "1081",
+      "slug": "smallest-subsequence-of-distinct-characters",
+      "title": "Smallest Subsequence of Distinct Characters",
       "difficulty": "MEDIUM",
       "tags": [
-        "array",
-        "binary-search",
-        "dynamic-programming"
+        "string",
+        "stack",
+        "greedy",
+        "monotonic-stack"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestSubsequence"
     },
     {
-      "id": "1183",
-      "slug": "maximum-number-of-ones",
-      "title": "Maximum Number of Ones",
-      "difficulty": "HARD",
+      "id": "1082",
+      "slug": "sales-analysis-i",
+      "title": "Sales Analysis I",
+      "difficulty": "EASY",
       "tags": [
-        "math",
-        "greedy",
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1083",
+      "slug": "sales-analysis-ii",
+      "title": "Sales Analysis II",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1084",
+      "slug": "sales-analysis-iii",
+      "title": "Sales Analysis III",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1085",
+      "slug": "sum-of-digits-in-the-minimum-number",
+      "title": "Sum of Digits in the Minimum Number",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumOfDigits"
+    },
+    {
+      "id": "1086",
+      "slug": "high-five",
+      "title": "High Five",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
         "sorting",
         "heap-priority-queue"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "highFive"
     },
     {
-      "id": "1184",
-      "slug": "distance-between-bus-stops",
-      "title": "Distance Between Bus Stops",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1185",
-      "slug": "day-of-the-week",
-      "title": "Day of the Week",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1186",
-      "slug": "maximum-subarray-sum-with-one-deletion",
-      "title": "Maximum Subarray Sum with One Deletion",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1187",
-      "slug": "make-array-strictly-increasing",
-      "title": "Make Array Strictly Increasing",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "dynamic-programming",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1188",
-      "slug": "design-bounded-blocking-queue",
-      "title": "Design Bounded Blocking Queue",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "concurrency"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1189",
-      "slug": "maximum-number-of-balloons",
-      "title": "Maximum Number of Balloons",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1190",
-      "slug": "reverse-substrings-between-each-pair-of-parentheses",
-      "title": "Reverse Substrings Between Each Pair of Parentheses",
+      "id": "1087",
+      "slug": "brace-expansion",
+      "title": "Brace Expansion",
       "difficulty": "MEDIUM",
       "tags": [
         "string",
-        "stack"
+        "backtracking",
+        "stack",
+        "breadth-first-search",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "expand"
     },
     {
-      "id": "1191",
-      "slug": "k-concatenation-maximum-sum",
-      "title": "K-Concatenation Maximum Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1192",
-      "slug": "critical-connections-in-a-network",
-      "title": "Critical Connections in a Network",
+      "id": "1088",
+      "slug": "confusing-number-ii",
+      "title": "Confusing Number II",
       "difficulty": "HARD",
       "tags": [
-        "depth-first-search",
-        "graph",
-        "biconnected-component"
+        "math",
+        "backtracking"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "confusingNumberII"
     },
     {
-      "id": "1193",
-      "slug": "monthly-transactions-i",
-      "title": "Monthly Transactions I",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1194",
-      "slug": "tournament-winners",
-      "title": "Tournament Winners",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1195",
-      "slug": "fizz-buzz-multithreaded",
-      "title": "Fizz Buzz Multithreaded",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "concurrency"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1196",
-      "slug": "how-many-apples-can-you-put-into-the-basket",
-      "title": "How Many Apples Can You Put into the Basket",
+      "id": "1089",
+      "slug": "duplicate-zeros",
+      "title": "Duplicate Zeros",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "greedy",
-        "sorting"
+        "two-pointers"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "duplicateZeros"
     },
     {
-      "id": "1197",
-      "slug": "minimum-knight-moves",
-      "title": "Minimum Knight Moves",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "breadth-first-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1198",
-      "slug": "find-smallest-common-element-in-all-rows",
-      "title": "Find Smallest Common Element in All Rows",
+      "id": "1090",
+      "slug": "largest-values-from-labels",
+      "title": "Largest Values From Labels",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "binary-search",
-        "matrix",
+        "greedy",
+        "sorting",
         "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "largestValsFromLabels"
     },
     {
-      "id": "1199",
-      "slug": "minimum-time-to-build-blocks",
-      "title": "Minimum Time to Build Blocks",
+      "id": "1091",
+      "slug": "shortest-path-in-binary-matrix",
+      "title": "Shortest Path in Binary Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestPathBinaryMatrix"
+    },
+    {
+      "id": "1092",
+      "slug": "shortest-common-supersequence",
+      "title": "Shortest Common Supersequence ",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "shortestCommonSupersequence"
+    },
+    {
+      "id": "1093",
+      "slug": "statistics-from-a-large-sample",
+      "title": "Statistics from a Large Sample",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "probability-and-statistics"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sampleStats"
+    },
+    {
+      "id": "1094",
+      "slug": "car-pooling",
+      "title": "Car Pooling",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue",
+        "simulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "carPooling"
+    },
+    {
+      "id": "1095",
+      "slug": "find-in-mountain-array",
+      "title": "Find in Mountain Array",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "math",
-        "greedy",
-        "heap-priority-queue"
+        "binary-search",
+        "interactive"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findInMountainArray"
     },
     {
-      "id": "1200",
-      "slug": "minimum-absolute-difference",
-      "title": "Minimum Absolute Difference",
+      "id": "1096",
+      "slug": "brace-expansion-ii",
+      "title": "Brace Expansion II",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking",
+        "stack",
+        "breadth-first-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "braceExpansionII"
+    },
+    {
+      "id": "1097",
+      "slug": "game-play-analysis-v",
+      "title": "Game Play Analysis V",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1098",
+      "slug": "unpopular-books",
+      "title": "Unpopular Books",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1099",
+      "slug": "two-sum-less-than-k",
+      "title": "Two Sum Less Than K",
       "difficulty": "EASY",
       "tags": [
         "array",
+        "two-pointers",
+        "binary-search",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "twoSumLessThanK"
     },
     {
-      "id": "1201",
-      "slug": "ugly-number-iii",
-      "title": "Ugly Number III",
+      "id": "1100",
+      "slug": "find-k-length-substrings-with-no-repeated-characters",
+      "title": "Find K-Length Substrings With No Repeated Characters",
       "difficulty": "MEDIUM",
       "tags": [
-        "math",
-        "binary-search",
-        "combinatorics",
-        "number-theory"
+        "hash-table",
+        "string",
+        "sliding-window"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numKLenSubstrNoRepeats"
     }
   ]
 }

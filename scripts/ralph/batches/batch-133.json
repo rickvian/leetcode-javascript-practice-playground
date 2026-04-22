@@ -2,219 +2,273 @@
   "batchId": "batch-133",
   "problems": [
     {
-      "id": "2742",
-      "slug": "painting-the-walls",
-      "title": "Painting the Walls",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2743",
-      "slug": "count-substrings-without-repeating-character",
-      "title": "Count Substrings Without Repeating Character",
+      "id": "2641",
+      "slug": "cousins-in-binary-tree-ii",
+      "title": "Cousins in Binary Tree II",
       "difficulty": "MEDIUM",
       "tags": [
         "hash-table",
-        "string",
-        "sliding-window"
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "replaceValueInTree"
     },
     {
-      "id": "2744",
-      "slug": "find-maximum-number-of-string-pairs",
-      "title": "Find Maximum Number of String Pairs",
+      "id": "2642",
+      "slug": "design-graph-with-shortest-path-calculator",
+      "title": "Design Graph With Shortest Path Calculator",
+      "difficulty": "HARD",
+      "tags": [
+        "graph",
+        "design",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": true,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2643",
+      "slug": "row-with-maximum-ones",
+      "title": "Row With Maximum Ones",
       "difficulty": "EASY",
       "tags": [
         "array",
-        "hash-table",
-        "string",
-        "simulation"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "rowAndMaximumOnes"
     },
     {
-      "id": "2745",
-      "slug": "construct-the-longest-new-string",
-      "title": "Construct the Longest New String",
+      "id": "2644",
+      "slug": "find-the-maximum-divisibility-score",
+      "title": "Find the Maximum Divisibility Score",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxDivScore"
+    },
+    {
+      "id": "2645",
+      "slug": "minimum-additions-to-make-valid-string",
+      "title": "Minimum Additions to Make Valid String",
       "difficulty": "MEDIUM",
       "tags": [
-        "math",
+        "string",
         "dynamic-programming",
-        "greedy",
-        "brainteaser"
+        "stack",
+        "greedy"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addMinimum"
     },
     {
-      "id": "2746",
-      "slug": "decremental-string-concatenation",
-      "title": "Decremental String Concatenation",
-      "difficulty": "MEDIUM",
+      "id": "2646",
+      "slug": "minimize-the-total-price-of-the-trips",
+      "title": "Minimize the Total Price of the Trips",
+      "difficulty": "HARD",
       "tags": [
         "array",
-        "string",
-        "dynamic-programming"
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumTotalPrice"
     },
     {
-      "id": "2747",
-      "slug": "count-zero-request-servers",
-      "title": "Count Zero Request Servers",
+      "id": "2647",
+      "slug": "color-the-triangle-red",
+      "title": "Color the Triangle Red",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "colorRed"
+    },
+    {
+      "id": "2648",
+      "slug": "generate-fibonacci-sequence",
+      "title": "Generate Fibonacci Sequence",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fibGenerator"
+    },
+    {
+      "id": "2649",
+      "slug": "nested-array-generator",
+      "title": "Nested Array Generator",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "inorderTraversal"
+    },
+    {
+      "id": "2650",
+      "slug": "design-cancellable-function",
+      "title": "Design Cancellable Function",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "cancellable"
+    },
+    {
+      "id": "2651",
+      "slug": "calculate-delayed-arrival-time",
+      "title": "Calculate Delayed Arrival Time",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findDelayedArrivalTime"
+    },
+    {
+      "id": "2652",
+      "slug": "sum-multiples",
+      "title": "Sum Multiples",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sumOfMultiples"
+    },
+    {
+      "id": "2653",
+      "slug": "sliding-subarray-beauty",
+      "title": "Sliding Subarray Beauty",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "sliding-window",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2654",
+      "slug": "minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
+      "title": "Minimum Number of Operations to Make All Array Elements Equal to 1",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2655",
+      "slug": "find-maximal-uncovered-ranges",
+      "title": "Find Maximal Uncovered Ranges",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMaximalUncoveredRanges"
     },
     {
-      "id": "2748",
-      "slug": "number-of-beautiful-pairs",
-      "title": "Number of Beautiful Pairs",
+      "id": "2656",
+      "slug": "maximum-sum-with-exactly-k-elements",
+      "title": "Maximum Sum With Exactly K Elements ",
       "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximizeSum"
+    },
+    {
+      "id": "2657",
+      "slug": "find-the-prefix-common-array-of-two-arrays",
+      "title": "Find the Prefix Common Array of Two Arrays",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "math",
-        "counting",
-        "number-theory"
+        "bit-manipulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findThePrefixCommonArray"
     },
     {
-      "id": "2749",
-      "slug": "minimum-operations-to-make-the-integer-zero",
-      "title": "Minimum Operations to Make the Integer Zero",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "bit-manipulation",
-        "brainteaser",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2750",
-      "slug": "ways-to-split-array-into-good-subarrays",
-      "title": "Ways to Split Array Into Good Subarrays",
+      "id": "2658",
+      "slug": "maximum-number-of-fish-in-a-grid",
+      "title": "Maximum Number of Fish in a Grid",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "math",
-        "dynamic-programming"
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMaxFish"
     },
     {
-      "id": "2751",
-      "slug": "robot-collisions",
-      "title": "Robot Collisions",
+      "id": "2659",
+      "slug": "make-array-empty",
+      "title": "Make Array Empty",
       "difficulty": "HARD",
       "tags": [
         "array",
-        "stack",
+        "binary-search",
+        "greedy",
+        "binary-indexed-tree",
+        "segment-tree",
         "sorting",
+        "ordered-set"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2660",
+      "slug": "determine-the-winner-of-a-bowling-game",
+      "title": "Determine the Winner of a Bowling Game",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
         "simulation"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "2752",
-      "slug": "customers-with-maximum-number-of-transactions-on-consecutive-days",
-      "title": "Customers with Maximum Number of Transactions on Consecutive Days",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2753",
-      "slug": "count-houses-in-a-circular-street-ii",
-      "title": "Count Houses in a Circular Street II",
-      "difficulty": "HARD",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2754",
-      "slug": "bind-function-to-context",
-      "title": "Bind Function to Context",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2755",
-      "slug": "deep-merge-of-two-objects",
-      "title": "Deep Merge of Two Objects",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2756",
-      "slug": "query-batching",
-      "title": "Query Batching",
-      "difficulty": "HARD",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2757",
-      "slug": "generate-circular-array-values",
-      "title": "Generate Circular Array Values",
-      "difficulty": "MEDIUM",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2758",
-      "slug": "next-day",
-      "title": "Next Day",
-      "difficulty": "EASY",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2759",
-      "slug": "convert-json-string-to-object",
-      "title": "Convert JSON String to Object",
-      "difficulty": "HARD",
-      "tags": [],
-      "classHeavy": false
-    },
-    {
-      "id": "2760",
-      "slug": "longest-even-odd-subarray-with-threshold",
-      "title": "Longest Even Odd Subarray With Threshold",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2761",
-      "slug": "prime-pairs-with-target-sum",
-      "title": "Prime Pairs With Target Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "enumeration",
-        "number-theory"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

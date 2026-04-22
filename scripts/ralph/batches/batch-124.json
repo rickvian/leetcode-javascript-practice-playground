@@ -2,253 +2,287 @@
   "batchId": "batch-124",
   "problems": [
     {
-      "id": "2562",
-      "slug": "find-the-array-concatenation-value",
-      "title": "Find the Array Concatenation Value",
-      "difficulty": "EASY",
+      "id": "2461",
+      "slug": "maximum-sum-of-distinct-subarrays-with-length-k",
+      "title": "Maximum Sum of Distinct Subarrays With Length K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maximumSubarraySum"
+    },
+    {
+      "id": "2462",
+      "slug": "total-cost-to-hire-k-workers",
+      "title": "Total Cost to Hire K Workers",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "two-pointers",
+        "heap-priority-queue",
         "simulation"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "totalCost"
     },
     {
-      "id": "2563",
-      "slug": "count-the-number-of-fair-pairs",
-      "title": "Count the Number of Fair Pairs",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "two-pointers",
-        "binary-search",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2564",
-      "slug": "substring-xor-queries",
-      "title": "Substring XOR Queries",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2565",
-      "slug": "subsequence-with-the-minimum-score",
-      "title": "Subsequence With the Minimum Score",
+      "id": "2463",
+      "slug": "minimum-total-distance-traveled",
+      "title": "Minimum Total Distance Traveled",
       "difficulty": "HARD",
       "tags": [
-        "two-pointers",
-        "string",
-        "binary-search"
+        "array",
+        "dynamic-programming",
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumTotalDistance"
     },
     {
-      "id": "2566",
-      "slug": "maximum-difference-by-remapping-a-digit",
-      "title": "Maximum Difference by Remapping a Digit",
-      "difficulty": "EASY",
+      "id": "2464",
+      "slug": "minimum-subarrays-in-a-valid-split",
+      "title": "Minimum Subarrays in a Valid Split",
+      "difficulty": "MEDIUM",
       "tags": [
+        "array",
         "math",
-        "greedy"
+        "dynamic-programming",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validSubarraySplit"
     },
     {
-      "id": "2567",
-      "slug": "minimum-score-by-changing-two-elements",
-      "title": "Minimum Score by Changing Two Elements",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2568",
-      "slug": "minimum-impossible-or",
-      "title": "Minimum Impossible OR",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "bit-manipulation",
-        "brainteaser"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2569",
-      "slug": "handling-sum-queries-after-update",
-      "title": "Handling Sum Queries After Update",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "segment-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2570",
-      "slug": "merge-two-2d-arrays-by-summing-values",
-      "title": "Merge Two 2D Arrays by Summing Values",
+      "id": "2465",
+      "slug": "number-of-distinct-averages",
+      "title": "Number of Distinct Averages",
       "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "two-pointers"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2571",
-      "slug": "minimum-operations-to-reduce-an-integer-to-0",
-      "title": "Minimum Operations to Reduce an Integer to 0",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "dynamic-programming",
-        "greedy",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2572",
-      "slug": "count-the-number-of-square-free-subsets",
-      "title": "Count the Number of Square-Free Subsets",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "bit-manipulation",
-        "number-theory",
-        "bitmask"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2573",
-      "slug": "find-the-string-with-lcp",
-      "title": "Find the String with LCP",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "string",
-        "dynamic-programming",
-        "greedy",
-        "union-find",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2574",
-      "slug": "left-and-right-sum-differences",
-      "title": "Left and Right Sum Differences",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "prefix-sum"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2575",
-      "slug": "find-the-divisibility-array-of-a-string",
-      "title": "Find the Divisibility Array of a String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "2576",
-      "slug": "find-the-maximum-number-of-marked-indices",
-      "title": "Find the Maximum Number of Marked Indices",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
         "two-pointers",
-        "binary-search",
-        "greedy",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "distinctAverages"
     },
     {
-      "id": "2577",
-      "slug": "minimum-time-to-visit-a-cell-in-a-grid",
-      "title": "Minimum Time to Visit a Cell In a Grid",
-      "difficulty": "HARD",
+      "id": "2466",
+      "slug": "count-ways-to-build-good-strings",
+      "title": "Count Ways To Build Good Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countGoodStrings"
+    },
+    {
+      "id": "2467",
+      "slug": "most-profitable-path-in-a-tree",
+      "title": "Most Profitable Path in a Tree",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
+        "tree",
+        "depth-first-search",
         "breadth-first-search",
-        "graph",
-        "heap-priority-queue",
-        "matrix",
-        "shortest-path"
+        "graph"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "mostProfitablePath"
     },
     {
-      "id": "2578",
-      "slug": "split-with-minimum-sum",
-      "title": "Split With Minimum Sum",
-      "difficulty": "EASY",
+      "id": "2468",
+      "slug": "split-message-based-on-limit",
+      "title": "Split Message Based on Limit",
+      "difficulty": "HARD",
       "tags": [
-        "math",
-        "greedy",
-        "sorting"
+        "string",
+        "enumeration"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "splitMessage"
     },
     {
-      "id": "2579",
-      "slug": "count-total-number-of-colored-cells",
-      "title": "Count Total Number of Colored Cells",
-      "difficulty": "MEDIUM",
+      "id": "2469",
+      "slug": "convert-the-temperature",
+      "title": "Convert the Temperature",
+      "difficulty": "EASY",
       "tags": [
         "math"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "convertTemperature"
     },
     {
-      "id": "2580",
-      "slug": "count-ways-to-group-overlapping-ranges",
-      "title": "Count Ways to Group Overlapping Ranges",
+      "id": "2470",
+      "slug": "number-of-subarrays-with-lcm-equal-to-k",
+      "title": "Number of Subarrays With LCM Equal to K",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "sorting"
+        "math",
+        "number-theory"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "subarrayLCM"
     },
     {
-      "id": "2581",
-      "slug": "count-number-of-possible-root-nodes",
-      "title": "Count Number of Possible Root Nodes",
+      "id": "2471",
+      "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+      "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumOperations"
+    },
+    {
+      "id": "2472",
+      "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
+      "title": "Maximum Number of Non-overlapping Palindrome Substrings",
       "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxPalindromes"
+    },
+    {
+      "id": "2473",
+      "slug": "minimum-cost-to-buy-apples",
+      "title": "Minimum Cost to Buy Apples",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minCost"
+    },
+    {
+      "id": "2474",
+      "slug": "customers-with-strictly-increasing-purchases",
+      "title": "Customers With Strictly Increasing Purchases",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2475",
+      "slug": "number-of-unequal-triplets-in-array",
+      "title": "Number of Unequal Triplets in Array",
+      "difficulty": "EASY",
       "tags": [
         "array",
         "hash-table",
-        "dynamic-programming",
-        "tree",
-        "depth-first-search"
+        "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "unequalTriplets"
+    },
+    {
+      "id": "2476",
+      "slug": "closest-nodes-queries-in-a-binary-search-tree",
+      "title": "Closest Nodes Queries in a Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "closestNodes"
+    },
+    {
+      "id": "2477",
+      "slug": "minimum-fuel-cost-to-report-to-the-capital",
+      "title": "Minimum Fuel Cost to Report to the Capital",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "minimumFuelCost"
+    },
+    {
+      "id": "2478",
+      "slug": "number-of-beautiful-partitions",
+      "title": "Number of Beautiful Partitions",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "2479",
+      "slug": "maximum-xor-of-two-non-overlapping-subtrees",
+      "title": "Maximum XOR of Two Non-Overlapping Subtrees",
+      "difficulty": "HARD",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "graph",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxXor"
+    },
+    {
+      "id": "2480",
+      "slug": "form-a-chemical-bond",
+      "title": "Form a Chemical Bond",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     }
   ]
 }

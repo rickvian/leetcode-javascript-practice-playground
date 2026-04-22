@@ -2,244 +2,299 @@
   "batchId": "batch-027",
   "problems": [
     {
-      "id": "0617",
-      "slug": "merge-two-binary-trees",
-      "title": "Merge Two Binary Trees",
+      "id": "0521",
+      "slug": "longest-uncommon-subsequence-i",
+      "title": "Longest Uncommon Subsequence I",
       "difficulty": "EASY",
       "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
+        "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findLUSlength"
     },
     {
-      "id": "0618",
-      "slug": "students-report-by-geography",
-      "title": "Students Report By Geography",
-      "difficulty": "HARD",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0619",
-      "slug": "biggest-single-number",
-      "title": "Biggest Single Number",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0620",
-      "slug": "not-boring-movies",
-      "title": "Not Boring Movies",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0621",
-      "slug": "task-scheduler",
-      "title": "Task Scheduler",
+      "id": "0522",
+      "slug": "longest-uncommon-subsequence-ii",
+      "title": "Longest Uncommon Subsequence II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "greedy",
-        "sorting",
-        "heap-priority-queue",
-        "counting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0622",
-      "slug": "design-circular-queue",
-      "title": "Design Circular Queue",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "linked-list",
-        "design",
-        "queue"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "0623",
-      "slug": "add-one-row-to-tree",
-      "title": "Add One Row to Tree",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "tree",
-        "depth-first-search",
-        "breadth-first-search",
-        "binary-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0624",
-      "slug": "maximum-distance-in-arrays",
-      "title": "Maximum Distance in Arrays",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0625",
-      "slug": "minimum-factorization",
-      "title": "Minimum Factorization",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0626",
-      "slug": "exchange-seats",
-      "title": "Exchange Seats",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0627",
-      "slug": "swap-sex-of-employees",
-      "title": "Swap Sex of Employees",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0628",
-      "slug": "maximum-product-of-three-numbers",
-      "title": "Maximum Product of Three Numbers",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "math",
+        "two-pointers",
+        "string",
         "sorting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findLUSlength"
     },
     {
-      "id": "0629",
-      "slug": "k-inverse-pairs-array",
-      "title": "K Inverse Pairs Array",
-      "difficulty": "HARD",
-      "tags": [
-        "dynamic-programming"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0630",
-      "slug": "course-schedule-iii",
-      "title": "Course Schedule III",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "greedy",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0631",
-      "slug": "design-excel-sum-formula",
-      "title": "Design Excel Sum Formula",
-      "difficulty": "HARD",
+      "id": "0523",
+      "slug": "continuous-subarray-sum",
+      "title": "Continuous Subarray Sum",
+      "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
+        "math",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "checkSubarraySum"
+    },
+    {
+      "id": "0524",
+      "slug": "longest-word-in-dictionary-through-deleting",
+      "title": "Longest Word in Dictionary through Deleting",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
         "string",
-        "graph",
-        "design",
-        "topological-sort",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findLongestWord"
+    },
+    {
+      "id": "0525",
+      "slug": "contiguous-array",
+      "title": "Contiguous Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMaxLength"
+    },
+    {
+      "id": "0526",
+      "slug": "beautiful-arrangement",
+      "title": "Beautiful Arrangement",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "countArrangement"
+    },
+    {
+      "id": "0527",
+      "slug": "word-abbreviation",
+      "title": "Word Abbreviation",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "greedy",
+        "trie",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "wordsAbbreviation"
+    },
+    {
+      "id": "0528",
+      "slug": "random-pick-with-weight",
+      "title": "Random Pick with Weight",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "binary-search",
+        "prefix-sum",
+        "randomized"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "Solution"
+    },
+    {
+      "id": "0529",
+      "slug": "minesweeper",
+      "title": "Minesweeper",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
         "matrix"
       ],
-      "classHeavy": true
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "updateBoard"
     },
     {
-      "id": "0632",
-      "slug": "smallest-range-covering-elements-from-k-lists",
-      "title": "Smallest Range Covering Elements from K Lists",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "hash-table",
-        "greedy",
-        "sliding-window",
-        "sorting",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0633",
-      "slug": "sum-of-square-numbers",
-      "title": "Sum of Square Numbers",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "two-pointers",
-        "binary-search"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0634",
-      "slug": "find-the-derangement-of-an-array",
-      "title": "Find the Derangement of An Array",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "math",
-        "dynamic-programming",
-        "combinatorics"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0636",
-      "slug": "exclusive-time-of-functions",
-      "title": "Exclusive Time of Functions",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "stack"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0637",
-      "slug": "average-of-levels-in-binary-tree",
-      "title": "Average of Levels in Binary Tree",
+      "id": "0530",
+      "slug": "minimum-absolute-difference-in-bst",
+      "title": "Minimum Absolute Difference in BST",
       "difficulty": "EASY",
       "tags": [
         "tree",
         "depth-first-search",
         "breadth-first-search",
+        "binary-search-tree",
         "binary-tree"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "getMinimumDifference"
+    },
+    {
+      "id": "0531",
+      "slug": "lonely-pixel-i",
+      "title": "Lonely Pixel I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findLonelyPixel"
+    },
+    {
+      "id": "0532",
+      "slug": "k-diff-pairs-in-an-array",
+      "title": "K-diff Pairs in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findPairs"
+    },
+    {
+      "id": "0533",
+      "slug": "lonely-pixel-ii",
+      "title": "Lonely Pixel II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findBlackPixel"
+    },
+    {
+      "id": "0534",
+      "slug": "game-play-analysis-iii",
+      "title": "Game Play Analysis III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "0535",
+      "slug": "encode-and-decode-tinyurl",
+      "title": "Encode and Decode TinyURL",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "design",
+        "hash-function"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "encode"
+    },
+    {
+      "id": "0536",
+      "slug": "construct-binary-tree-from-string",
+      "title": "Construct Binary Tree from String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "str2tree"
+    },
+    {
+      "id": "0537",
+      "slug": "complex-number-multiplication",
+      "title": "Complex Number Multiplication",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "complexNumberMultiply"
+    },
+    {
+      "id": "0538",
+      "slug": "convert-bst-to-greater-tree",
+      "title": "Convert BST to Greater Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "convertBST"
+    },
+    {
+      "id": "0539",
+      "slug": "minimum-time-difference",
+      "title": "Minimum Time Difference",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findMinDifference"
+    },
+    {
+      "id": "0540",
+      "slug": "single-element-in-a-sorted-array",
+      "title": "Single Element in a Sorted Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "singleNonDuplicate"
     }
   ]
 }

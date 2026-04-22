@@ -2,241 +2,273 @@
   "batchId": "batch-054",
   "problems": [
     {
-      "id": "1162",
-      "slug": "as-far-from-land-as-possible",
-      "title": "As Far from Land as Possible",
+      "id": "1061",
+      "slug": "lexicographically-smallest-equivalent-string",
+      "title": "Lexicographically Smallest Equivalent String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "union-find"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "smallestEquivalentString"
+    },
+    {
+      "id": "1062",
+      "slug": "longest-repeating-substring",
+      "title": "Longest Repeating Substring",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "binary-search",
+        "dynamic-programming",
+        "rolling-hash",
+        "suffix-array",
+        "hash-function"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestRepeatingSubstring"
+    },
+    {
+      "id": "1063",
+      "slug": "number-of-valid-subarrays",
+      "title": "Number of Valid Subarrays",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validSubarrays"
+    },
+    {
+      "id": "1064",
+      "slug": "fixed-point",
+      "title": "Fixed Point",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "fixedPoint"
+    },
+    {
+      "id": "1065",
+      "slug": "index-pairs-of-a-string",
+      "title": "Index Pairs of a String",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "trie",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "indexPairs"
+    },
+    {
+      "id": "1066",
+      "slug": "campus-bikes-ii",
+      "title": "Campus Bikes II",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "dynamic-programming",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1163",
-      "slug": "last-substring-in-lexicographical-order",
-      "title": "Last Substring in Lexicographical Order",
-      "difficulty": "HARD",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1164",
-      "slug": "product-price-at-a-given-date",
-      "title": "Product Price at a Given Date",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1165",
-      "slug": "single-row-keyboard",
-      "title": "Single-Row Keyboard",
-      "difficulty": "EASY",
-      "tags": [
-        "hash-table",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1166",
-      "slug": "design-file-system",
-      "title": "Design File System",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "string",
-        "design",
-        "trie"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1167",
-      "slug": "minimum-cost-to-connect-sticks",
-      "title": "Minimum Cost to Connect Sticks",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "greedy",
-        "heap-priority-queue"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1168",
-      "slug": "optimize-water-distribution-in-a-village",
-      "title": "Optimize Water Distribution in a Village",
-      "difficulty": "HARD",
-      "tags": [
-        "union-find",
-        "graph",
-        "heap-priority-queue",
-        "minimum-spanning-tree"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1169",
-      "slug": "invalid-transactions",
-      "title": "Invalid Transactions",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1170",
-      "slug": "compare-strings-by-frequency-of-the-smallest-character",
-      "title": "Compare Strings by Frequency of the Smallest Character",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "binary-search",
-        "sorting"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1171",
-      "slug": "remove-zero-sum-consecutive-nodes-from-linked-list",
-      "title": "Remove Zero Sum Consecutive Nodes from Linked List",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "hash-table",
-        "linked-list"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1172",
-      "slug": "dinner-plate-stacks",
-      "title": "Dinner Plate Stacks",
-      "difficulty": "HARD",
-      "tags": [
-        "hash-table",
-        "stack",
-        "design",
-        "heap-priority-queue"
-      ],
-      "classHeavy": true
-    },
-    {
-      "id": "1173",
-      "slug": "immediate-food-delivery-i",
-      "title": "Immediate Food Delivery I",
-      "difficulty": "EASY",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1174",
-      "slug": "immediate-food-delivery-ii",
-      "title": "Immediate Food Delivery II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "database"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1175",
-      "slug": "prime-arrangements",
-      "title": "Prime Arrangements",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1176",
-      "slug": "diet-plan-performance",
-      "title": "Diet Plan Performance",
-      "difficulty": "EASY",
-      "tags": [
-        "array",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "1177",
-      "slug": "can-make-palindrome-from-substring",
-      "title": "Can Make Palindrome from Substring",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "string",
+        "backtracking",
         "bit-manipulation",
-        "prefix-sum"
+        "bitmask"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "assignBikes"
     },
     {
-      "id": "1178",
-      "slug": "number-of-valid-words-for-each-puzzle",
-      "title": "Number of Valid Words for Each Puzzle",
+      "id": "1067",
+      "slug": "digit-count-in-range",
+      "title": "Digit Count in Range",
       "difficulty": "HARD",
       "tags": [
-        "array",
-        "hash-table",
-        "string",
-        "bit-manipulation",
-        "trie"
+        "math",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "digitsCount"
     },
     {
-      "id": "1179",
-      "slug": "reformat-department-table",
-      "title": "Reformat Department Table",
+      "id": "1068",
+      "slug": "product-sales-analysis-i",
+      "title": "Product Sales Analysis I",
       "difficulty": "EASY",
       "tags": [
         "database"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
     },
     {
-      "id": "1180",
-      "slug": "count-substrings-with-only-one-distinct-letter",
-      "title": "Count Substrings with Only One Distinct Letter",
+      "id": "1069",
+      "slug": "product-sales-analysis-ii",
+      "title": "Product Sales Analysis II",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1070",
+      "slug": "product-sales-analysis-iii",
+      "title": "Product Sales Analysis III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1071",
+      "slug": "greatest-common-divisor-of-strings",
+      "title": "Greatest Common Divisor of Strings",
       "difficulty": "EASY",
       "tags": [
         "math",
         "string"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "gcdOfStrings"
     },
     {
-      "id": "1181",
-      "slug": "before-and-after-puzzle",
-      "title": "Before and After Puzzle",
+      "id": "1072",
+      "slug": "flip-columns-for-maximum-number-of-equal-rows",
+      "title": "Flip Columns For Maximum Number of Equal Rows",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "hash-table",
-        "string",
-        "sorting"
+        "matrix"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxEqualRowsAfterFlips"
+    },
+    {
+      "id": "1073",
+      "slug": "adding-two-negabinary-numbers",
+      "title": "Adding Two Negabinary Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "addNegabinary"
+    },
+    {
+      "id": "1074",
+      "slug": "number-of-submatrices-that-sum-to-target",
+      "title": "Number of Submatrices That Sum to Target",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numSubmatrixSumTarget"
+    },
+    {
+      "id": "1075",
+      "slug": "project-employees-i",
+      "title": "Project Employees I",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1076",
+      "slug": "project-employees-ii",
+      "title": "Project Employees II",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1077",
+      "slug": "project-employees-iii",
+      "title": "Project Employees III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false,
+      "oracleTier": "missing",
+      "oracleFnName": null
+    },
+    {
+      "id": "1078",
+      "slug": "occurrences-after-bigram",
+      "title": "Occurrences After Bigram",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findOcurrences"
+    },
+    {
+      "id": "1079",
+      "slug": "letter-tile-possibilities",
+      "title": "Letter Tile Possibilities",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "numTilePossibilities"
+    },
+    {
+      "id": "1080",
+      "slug": "insufficient-nodes-in-root-to-leaf-paths",
+      "title": "Insufficient Nodes in Root to Leaf Paths",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "sufficientSubset"
     }
   ]
 }

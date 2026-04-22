@@ -2,246 +2,296 @@
   "batchId": "batch-020",
   "problems": [
     {
-      "id": "0475",
-      "slug": "heaters",
-      "title": "Heaters",
+      "id": "0362",
+      "slug": "design-hit-counter",
+      "title": "Design Hit Counter",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
-        "two-pointers",
         "binary-search",
-        "sorting"
+        "design",
+        "queue",
+        "data-stream"
       ],
-      "classHeavy": false
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "HitCounter"
     },
     {
-      "id": "0476",
-      "slug": "number-complement",
-      "title": "Number Complement",
+      "id": "0379",
+      "slug": "design-phone-directory",
+      "title": "Design Phone Directory",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "linked-list",
+        "design",
+        "queue"
+      ],
+      "classHeavy": true,
+      "oracleTier": "bank",
+      "oracleFnName": "PhoneDirectory"
+    },
+    {
+      "id": "0383",
+      "slug": "ransom-note",
+      "title": "Ransom Note",
       "difficulty": "EASY",
       "tags": [
-        "bit-manipulation"
+        "hash-table",
+        "string",
+        "counting"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "canConstruct"
     },
     {
-      "id": "0477",
-      "slug": "total-hamming-distance",
-      "title": "Total Hamming Distance",
+      "id": "0384",
+      "slug": "shuffle-an-array",
+      "title": "Shuffle an Array",
       "difficulty": "MEDIUM",
       "tags": [
         "array",
         "math",
-        "bit-manipulation"
+        "design",
+        "randomized"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "Solution"
     },
     {
-      "id": "0478",
-      "slug": "generate-random-point-in-a-circle",
-      "title": "Generate Random Point in a Circle",
+      "id": "0385",
+      "slug": "mini-parser",
+      "title": "Mini Parser",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "depth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "deserialize"
+    },
+    {
+      "id": "0386",
+      "slug": "lexicographical-numbers",
+      "title": "Lexicographical Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "trie"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lexicalOrder"
+    },
+    {
+      "id": "0387",
+      "slug": "first-unique-character-in-a-string",
+      "title": "First Unique Character in a String",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "queue",
+        "counting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "firstUniqChar"
+    },
+    {
+      "id": "0388",
+      "slug": "longest-absolute-file-path",
+      "title": "Longest Absolute File Path",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "depth-first-search"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lengthLongestPath"
+    },
+    {
+      "id": "0389",
+      "slug": "find-the-difference",
+      "title": "Find the Difference",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "sorting"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findTheDifference"
+    },
+    {
+      "id": "0390",
+      "slug": "elimination-game",
+      "title": "Elimination Game",
       "difficulty": "MEDIUM",
       "tags": [
         "math",
-        "geometry",
-        "rejection-sampling",
-        "randomized"
+        "recursion"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "lastRemaining"
     },
     {
-      "id": "0479",
-      "slug": "largest-palindrome-product",
-      "title": "Largest Palindrome Product",
-      "difficulty": "HARD",
-      "tags": [
-        "math",
-        "enumeration"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0480",
-      "slug": "sliding-window-median",
-      "title": "Sliding Window Median",
+      "id": "0391",
+      "slug": "perfect-rectangle",
+      "title": "Perfect Rectangle",
       "difficulty": "HARD",
       "tags": [
         "array",
         "hash-table",
-        "sliding-window",
-        "heap-priority-queue"
+        "math",
+        "geometry",
+        "line-sweep"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isRectangleCover"
     },
     {
-      "id": "0481",
-      "slug": "magical-string",
-      "title": "Magical String",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "two-pointers",
-        "string"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0482",
-      "slug": "license-key-formatting",
-      "title": "License Key Formatting",
+      "id": "0392",
+      "slug": "is-subsequence",
+      "title": "Is Subsequence",
       "difficulty": "EASY",
       "tags": [
-        "string"
+        "two-pointers",
+        "string",
+        "dynamic-programming"
       ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "isSubsequence"
     },
     {
-      "id": "0483",
-      "slug": "smallest-good-base",
-      "title": "Smallest Good Base",
-      "difficulty": "HARD",
+      "id": "0393",
+      "slug": "utf-8-validation",
+      "title": "UTF-8 Validation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "validUtf8"
+    },
+    {
+      "id": "0394",
+      "slug": "decode-string",
+      "title": "Decode String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "decodeString"
+    },
+    {
+      "id": "0395",
+      "slug": "longest-substring-with-at-least-k-repeating-characters",
+      "title": "Longest Substring with At Least K Repeating Characters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "divide-and-conquer",
+        "sliding-window"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "longestSubstring"
+    },
+    {
+      "id": "0396",
+      "slug": "rotate-function",
+      "title": "Rotate Function",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "maxRotateFunction"
+    },
+    {
+      "id": "0397",
+      "slug": "integer-replacement",
+      "title": "Integer Replacement",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "greedy",
+        "bit-manipulation",
+        "memoization"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "integerReplacement"
+    },
+    {
+      "id": "0398",
+      "slug": "random-pick-index",
+      "title": "Random Pick Index",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "reservoir-sampling",
+        "randomized"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "Solution"
+    },
+    {
+      "id": "0399",
+      "slug": "evaluate-division",
+      "title": "Evaluate Division",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph",
+        "shortest-path"
+      ],
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "calcEquation"
+    },
+    {
+      "id": "0400",
+      "slug": "nth-digit",
+      "title": "Nth Digit",
+      "difficulty": "MEDIUM",
       "tags": [
         "math",
         "binary-search"
       ],
-      "classHeavy": false
-    },
-    {
-      "id": "0484",
-      "slug": "find-permutation",
-      "title": "Find Permutation",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "string",
-        "stack",
-        "greedy"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0485",
-      "slug": "max-consecutive-ones",
-      "title": "Max Consecutive Ones",
-      "difficulty": "EASY",
-      "tags": [
-        "array"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0486",
-      "slug": "predict-the-winner",
-      "title": "Predict the Winner",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "math",
-        "dynamic-programming",
-        "recursion",
-        "game-theory"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0487",
-      "slug": "max-consecutive-ones-ii",
-      "title": "Max Consecutive Ones II",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "sliding-window"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0488",
-      "slug": "zuma-game",
-      "title": "Zuma Game",
-      "difficulty": "HARD",
-      "tags": [
-        "string",
-        "dynamic-programming",
-        "stack",
-        "breadth-first-search",
-        "memoization"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0489",
-      "slug": "robot-room-cleaner",
-      "title": "Robot Room Cleaner",
-      "difficulty": "HARD",
-      "tags": [
-        "backtracking",
-        "interactive"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0490",
-      "slug": "the-maze",
-      "title": "The Maze",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "depth-first-search",
-        "breadth-first-search",
-        "matrix"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0491",
-      "slug": "non-decreasing-subsequences",
-      "title": "Non-decreasing Subsequences",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "hash-table",
-        "backtracking",
-        "bit-manipulation"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0492",
-      "slug": "construct-the-rectangle",
-      "title": "Construct the Rectangle",
-      "difficulty": "EASY",
-      "tags": [
-        "math"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0493",
-      "slug": "reverse-pairs",
-      "title": "Reverse Pairs",
-      "difficulty": "HARD",
-      "tags": [
-        "array",
-        "binary-search",
-        "divide-and-conquer",
-        "binary-indexed-tree",
-        "segment-tree",
-        "merge-sort",
-        "ordered-set"
-      ],
-      "classHeavy": false
-    },
-    {
-      "id": "0494",
-      "slug": "target-sum",
-      "title": "Target Sum",
-      "difficulty": "MEDIUM",
-      "tags": [
-        "array",
-        "dynamic-programming",
-        "backtracking"
-      ],
-      "classHeavy": false
+      "classHeavy": false,
+      "oracleTier": "bank",
+      "oracleFnName": "findNthDigit"
     }
   ]
 }
