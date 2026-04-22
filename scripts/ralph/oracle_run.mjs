@@ -93,7 +93,13 @@ if (typeof fn !== 'function') {
 // ---------- Conversion helpers ----------
 function convertArg(arg, ptype) {
     if (!ptype) return arg;
+    // ListNode[] = array of linked list heads; each sub-array → arrayToList
+    if (ptype.trim() === 'ListNode[]' && Array.isArray(arg))
+        return arg.map(a => Array.isArray(a) ? arrayToList(a) : a);
     if (ptype.includes('ListNode') && Array.isArray(arg)) return arrayToList(arg);
+    // TreeNode[] = array of tree roots
+    if (ptype.trim() === 'TreeNode[]' && Array.isArray(arg))
+        return arg.map(a => Array.isArray(a) ? arrayToTree(a) : a);
     if (ptype.includes('TreeNode') && Array.isArray(arg)) return arrayToTree(arg);
     if ((ptype.includes('GraphNode') || ptype.trim() === 'Node') && Array.isArray(arg))
         return arrayToGraphNode(arg);
@@ -101,16 +107,14 @@ function convertArg(arg, ptype) {
 }
 
 function serializeResult(result, rtype) {
-    if (result === null || result === undefined) return result;
-    if (rtype && rtype.includes('ListNode') &&
-        result && typeof result === 'object' && 'next' in result)
+    // For pointer return types always route through serializer (null/undefined → [] or [])
+    if (rtype && rtype.includes('ListNode'))
         return listToArray(result);
-    if (rtype && rtype.includes('TreeNode') &&
-        result && typeof result === 'object' && 'left' in result)
+    if (rtype && rtype.includes('TreeNode'))
         return treeToArray(result);
-    if (rtype && (rtype.includes('GraphNode') || rtype.trim() === 'Node') &&
-        result && typeof result === 'object' && Array.isArray(result.neighbors))
+    if (rtype && (rtype.includes('GraphNode') || rtype.trim() === 'Node') && result != null)
         return graphToAdjList(result);
+    if (result === null || result === undefined) return result;
     return result;
 }
 
@@ -151,20 +155,29 @@ if (inputCategory === 'design-class') {
             const argsCopy = JSON.parse(JSON.stringify(inputArgs));
             const convertedArgs = inputArgs.map((a, i) => convertArg(a, paramTypes[i]));
             const returnValue   = fn(...convertedArgs);
+            const returnVoid    = returnValue === undefined || returnValue === null;
             // convertedArgs[0] is the (possibly mutated) first array
             const mutatedFirst  = Array.isArray(convertedArgs[0])
                 ? [...convertedArgs[0]]
                 : convertedArgs[0];
-            // expected elements = slice(0, k) sorted
-            const k = (returnValue !== undefined && returnValue !== null)
-                ? returnValue
-                : (Array.isArray(mutatedFirst) ? mutatedFirst.length : undefined);
-            const expectedElements = Array.isArray(mutatedFirst) && k !== undefined
-                ? [...mutatedFirst].slice(0, k).sort((a, b) => a - b)
-                : mutatedFirst;
+            let expectedElements;
+            if (returnVoid) {
+                // void-return in-place (e.g. nextPermutation): store full mutated array as-is
+                expectedElements = Array.isArray(mutatedFirst) ? [...mutatedFirst] : mutatedFirst;
+            } else {
+                // returns k: slice(0, k) then sort (e.g. removeElement)
+                const k = returnValue;
+                expectedElements = Array.isArray(mutatedFirst) && k !== undefined
+                    ? [...mutatedFirst].slice(0, k).sort((a, b) => a - b)
+                    : mutatedFirst;
+            }
             outputs.push({
                 input: argsCopy,
-                output: { returnValue: returnValue !== undefined ? returnValue : null, expectedElements },
+                output: {
+                    returnValue: returnVoid ? null : returnValue,
+                    expectedElements,
+                    returnVoid,
+                },
             });
         } catch (e) {
             outputs.push({ input: inputArgs, threw: true, errorName: e.constructor.name, message: e.message });

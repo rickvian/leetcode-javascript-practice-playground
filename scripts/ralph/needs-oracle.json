@@ -85,11 +85,6 @@
     "reason": "validation failed after 3 attempts"
   },
   {
-    "id": "0022",
-    "slug": "generate-parentheses",
-    "reason": "oracle_run failed"
-  },
-  {
     "id": "0023",
     "slug": "merge-k-sorted-lists",
     "reason": "no valid test cases generated"
@@ -105,9 +100,9 @@
     "reason": "validation failed after 3 attempts"
   },
   {
-    "id": "0028",
-    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
-    "reason": "oracleTier=missing"
+    "id": "0022",
+    "slug": "generate-parentheses",
+    "reason": "oracle_run failed"
   },
   {
     "id": "0031",
@@ -118,5 +113,10 @@
     "id": "0038",
     "slug": "count-and-say",
     "reason": "oracle_run failed"
+  },
+  {
+    "id": "0028",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "reason": "oracleTier=missing"
   }
 ]
