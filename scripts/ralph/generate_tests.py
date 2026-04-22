@@ -101,9 +101,10 @@ def get_input_category(problem, param_types):
     # classHeavy tag fires on slug keywords like 'queue'; override for plain functions
     # reverse-string-ii / reverse-words-in-a-string-iii are plain functions, not in-place
     # employee-importance: GetImportance is PascalCase but is a plain function
+    # orderly-queue: plain function despite 'queue' in slug
     PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',
                       'reverse-string-ii', 'reverse-words-in-a-string-iii',
-                      'employee-importance')
+                      'employee-importance', 'orderly-queue')
     if slug in PLAIN_FN_SLUGS:
         class_heavy = False
 
@@ -752,7 +753,7 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if 'pascals-triangle' in slug:
         return [[1], [2], [3], [4], [5], [0]]
 
-    if 'spiral-matrix-ii' in slug:
+    if 'spiral-matrix-ii' in slug and 'spiral-matrix-iii' not in slug:
         return [[1], [2], [3], [4], [5]]
 
     if 'multiply-strings' in slug:
@@ -887,6 +888,54 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     # ── race-car: (target: number) — large target causes timeout ──
     if 'race-car' in slug:
         return [[1], [3], [5], [6], [10], [7]]
+
+    # ── all-possible-full-binary-trees: allPossibleFBT(n) — large n causes OOM ──
+    if 'all-possible-full-binary-trees' in slug:
+        return [[1], [3], [5], [7], [9], [11]]
+
+    # ── spiral-matrix-iii: spiralMatrixIII(rows, cols, rStart, cStart) — 4 integers ──
+    if 'spiral-matrix-iii' in slug:
+        return [
+            [1, 4, 0, 0],
+            [5, 6, 1, 4],
+            [1, 1, 0, 0],
+            [3, 3, 1, 1],
+            [2, 2, 0, 0],
+            [4, 4, 2, 2],
+        ]
+
+    # ── reachable-nodes-in-subdivided-graph: reachableNodes(edges, maxMoves, n) ──
+    if 'reachable-nodes-in-subdivided-graph' in slug:
+        return [
+            [[[0,1,10],[0,2,1],[1,2,2]], 6, 3],
+            [[[0,1,4],[1,2,6],[0,2,8],[1,3,1]], 10, 4],
+            [[], 0, 1],
+            [[[0,1,0]], 1, 2],
+            [[[0,1,5],[1,2,5]], 5, 3],
+            [[[0,1,2],[0,2,3]], 4, 3],
+        ]
+
+    # ── possible-bipartition: possibleBipartition(n, dislikes) — (number, number[][]) ──
+    if 'possible-bipartition' in slug:
+        return [
+            [4, [[1,2],[1,3],[2,4]]],
+            [3, [[1,2],[1,3],[2,3]]],
+            [5, [[1,2],[2,3],[3,4],[4,5],[1,5]]],
+            [1, []],
+            [2, [[1,2]]],
+            [4, [[1,2],[3,4]]],
+        ]
+
+    # ── orderly-queue: orderlyQueue(s, k) — (string, number) ──
+    if 'orderly-queue' in slug:
+        return [
+            ["cba", 1],
+            ["baaca", 3],
+            ["a", 1],
+            ["dcba", 2],
+            ["zyx", 1],
+            ["abcd", 4],
+        ]
 
     # ── single integer ──
     if len(types) == 1 and first in ('number', 'integer', 'int'):

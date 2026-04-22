@@ -1053,5 +1053,25 @@
     "id": "0857",
     "slug": "minimum-cost-to-hire-k-workers",
     "reason": "uses LeetCode platform PriorityQueue class"
+  },
+  {
+    "id": "0871",
+    "slug": "minimum-number-of-refueling-stops",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0874",
+    "slug": "walking-robot-simulation",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0878",
+    "slug": "nth-magical-number",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0879",
+    "slug": "profitable-schemes",
+    "reason": "no valid test cases generated"
   }
 ]
