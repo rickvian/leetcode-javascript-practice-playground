@@ -84,33 +84,38 @@ var minSubArrayLenGenerateSumApproach = function (target, nums) {
 
 var minSubarrayLenMinimalApproach = function (target, nums) {
   let left = 0;
+  let minLength = Infinity;
   let currentSum = 0;
-  let minimalLength = Infinity;
 
-  // target: 11
-  // [1,2,3,4,5]
-  //    L
-  //          R
-  //  i
-  // currentSum : 14
+  // [1, 2, 3, 4, 5]
+  //  L
+  //  R
 
-  // min 5
+  // while the pointer moves, we can maintain running sum, moving right means add more to sum
+  // moving left, means subtract it.
+  // so we will always keep the sum of the range without extra loop
 
-  // iterate over right
   for (let right = 0; right < nums.length; right++) {
-    //
-    currentSum += nums[right]; // maintain running sum variable.
+    currentSum += nums[right]; // when right moves, we add into running sum
 
-    // Shrink the window as much as possible while maintaining the sum >= target
     while (currentSum >= target) {
-      // fullfil criteria
-      minimalLength = Math.min(minimalLength, right - left + 1);
+      // if the currentSum finally more than target, we will keep moving left pointer to shrink it to minimum
+      // found new match,
+      // as it shrinking the width, we update the new record
+      minLength = Math.min(minLength, right - left + 1); // +1 because inclusive
+
+      // since left take out number, we have to exclude from new sum
       currentSum -= nums[left];
+
+      // move left
       left++;
-    }
+    } // when left moved enough, right will continue move until last one
   }
 
-  return minimalLength === Infinity ? 0 : minimalLength;
+  // edge case if we cant find
+
+  if (minLength === Infinity) return 0;
+  return minLength;
 };
 
 var minSubArrayLen = minSubarrayLenMinimalApproach;
