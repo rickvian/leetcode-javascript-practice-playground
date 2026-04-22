@@ -161,7 +161,7 @@ userStories:
       - Add an explicit ban - "Never write expected outputs or test assertions from your own reasoning; ralph has no oracle except the scripts in scripts/ralph/ and the solutions in solutions-bank/"
       - 'Commit with message: feat [US-011] - Update prompt.md for v2 oracle-backed flow'
     priority: 11
-    passes: false
+    passes: true
     notes: Prompt is the contract ralph follows each iteration. Must land before US-012 seeds batches, so the very first batch-story iteration picks up the new prompt.
 
   - id: US-012
