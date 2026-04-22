@@ -1046,6 +1046,20 @@ def _build_design_inputs(problem, class_methods):
     slug    = problem.get('slug', '')
     method_names = [m for m, _ in class_methods]
 
+    # AutocompleteSystem (sentences[], times[], input(char))
+    if 'autocomplete' in slug.lower() or ('input' in method_names and 'insert' in method_names and 'search' in method_names and 'sum' not in method_names and 'get' not in method_names):
+        return [
+            [[fn_name, ['i love you', 'island', 'iroman'], [5, 3, 2]],
+             ['input', 'i'], ['input', ' '], ['input', '#'],
+             ['input', 'i'], ['input', ' '], ['input', 'a']],
+            [[fn_name, ['abc', 'abcd', 'ab'], [2, 1, 3]],
+             ['input', 'a'], ['input', 'b'], ['input', 'c'], ['input', '#'],
+             ['input', 'a'], ['input', 'b']],
+            [[fn_name, [], []],
+             ['input', 'a'], ['input', 'b'], ['input', '#'],
+             ['input', 'a']],
+        ]
+
     # FileSystem / design-in-memory-file-system
     if 'ls' in method_names and 'mkdir' in method_names:
         return [
@@ -1286,6 +1300,37 @@ def _build_design_inputs(problem, class_methods):
             [[fn_name, 3, 2, [[1, 2], [0, 1]]],
              ['move', 'R'], ['move', 'D'], ['move', 'R'],
              ['move', 'U'], ['move', 'L'], ['move', 'U']],
+        ]
+
+    # MagicDictionary (buildDict(string[]) + search(string))
+    if 'buildDict' in method_names:
+        return [
+            [[fn_name],
+             ['buildDict', ['hello', 'leetcode']],
+             ['search', 'hello'], ['search', 'hhllo'],
+             ['search', 'hell'], ['search', 'leetcoded']],
+            [[fn_name],
+             ['buildDict', ['a', 'abc']],
+             ['search', 'a'], ['search', 'b'],
+             ['search', 'abc'], ['search', 'abd']],
+            [[fn_name],
+             ['buildDict', ['cat', 'car', 'bar']],
+             ['search', 'cat'], ['search', 'bat'],
+             ['search', 'cas']],
+        ]
+
+    # MapSum (insert(string, number) + sum(string prefix))
+    if 'insert' in method_names and 'sum' in method_names and 'search' not in method_names:
+        return [
+            [[fn_name],
+             ['insert', 'apple', 3], ['sum', 'ap'],
+             ['insert', 'app', 2], ['sum', 'ap']],
+            [[fn_name],
+             ['insert', 'aa', 3], ['insert', 'aa', 2],
+             ['sum', 'a']],
+            [[fn_name],
+             ['insert', 'abc', 1], ['insert', 'abd', 2], ['insert', 'bc', 5],
+             ['sum', 'ab'], ['sum', 'b'], ['sum', 'z']],
         ]
 
     # Generic fallback: try up to 4 methods with dummy args
