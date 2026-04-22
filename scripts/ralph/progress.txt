@@ -1,3 +1,20 @@
+## 2026-04-22 - US-046
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-031` — 6 generated, 14 missing/failed
+  - 13 SQL/no-oracle skips: 0601, 0602, 0603, 0607, 0608, 0610, 0612, 0613, 0614, 0615, 0618, 0619, 0620
+  - 1 failed validation: 0616 (add-bold-tag-in-string) — no valid test cases generated, logged to needs-oracle.json
+  - Generated: 0604, 0605, 0606, 0609, 0611, 0617
+
+- **Files changed:**
+  - Added: 6 stubs (0604-0617 range) in leetcode-playground/
+  - Added: 6 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json (0616 added)
+
+- **Learnings:**
+  - `add-bold-tag-in-string` (0616) has `(string, string[])` param combo; generic catalog generated no valid cases (validation failed all 3 attempts); needs slug override to produce proper (s, words) pairs
+
+---
+
 ## 2026-04-22 - US-045
 - **What was implemented:**
   - Ran `python3 scripts/ralph/expand_prd.py` — seeded 10 batch stories (batch-031 through batch-040) + 1 Expand story
