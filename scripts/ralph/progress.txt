@@ -515,3 +515,25 @@
   - read4 API problems (0157, 0158) depend on an external interface that the oracle can't simulate standalone; they belong in needs-oracle
 
 ---
+
+## 2026-04-22 - US-021
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-009` — 15/20 generated (0161-0174, 0179); 5 SQL problems with no oracle (0175-0178, 0180)
+  - Fixed any-valid-pair-summing for 1-indexed two-sum-ii: checks `'two-sum-ii' in slug` and uses `nums[result[0]-1] + nums[result[1]-1]` instead of 0-indexed
+  - Fixed design-class BSTIterator: oracle_run.mjs constructor args weren't converted (TreeNode received as raw array); fixed by applying convertArg to constructor opArgs
+  - Fixed _build_design_inputs: added BST iterator handler (next/hasNext methods) that passes a real tree to the constructor
+  - Fixed _render_design_it: uses _js_arg for constructor args (arrayToTree for TreeNode), handles non-null object results from hasNext with toBeTruthy()
+
+- **Files changed:**
+  - Added: 15 stubs (0161-0174 + 0179) in leetcode-playground/
+  - Added: 15 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/oracle_run.mjs (convertArg for design-class constructor)
+  - Modified: scripts/ralph/generate_tests.py (two-sum-ii fix, BSTIterator handler, _render_design_it)
+
+- **Learnings:**
+  - two-sum-ii uses 1-indexed output; classic two-sum uses 0-indexed; need slug-specific check
+  - Design-class constructors that take TreeNode/ListNode need arg conversion in oracle_run.mjs; the existing handler was passing raw arrays
+  - hasNext() returning `this.root || this.stack.length` returns a truthy object/number, not boolean; test with toBeTruthy() for object results, toEqual() for numbers
+  - BST iterator needs specific input sequences with a real tree passed as constructor arg
+
+---
