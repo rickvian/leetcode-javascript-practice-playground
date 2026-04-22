@@ -1,0 +1,608 @@
+[
+  {
+    "base": "0001-two-sum",
+    "stub": "leetcode-playground/0001-two-sum.js",
+    "test": "leetcode-playground/tests/0001-two-sum.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0002-add-two-numbers",
+    "stub": "leetcode-playground/0002-add-two-numbers.js",
+    "test": "leetcode-playground/tests/0002-add-two-numbers.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0003-longest-substring-without-repeating-characters",
+    "stub": "leetcode-playground/0003-longest-substring-without-repeating-characters.js",
+    "test": "leetcode-playground/tests/0003-longest-substring-without-repeating-characters.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0005-longest-palindromic-substring",
+    "stub": "leetcode-playground/0005-longest-palindromic-substring.js",
+    "test": "leetcode-playground/tests/0005-longest-palindromic-substring.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0011-container-with-most-water",
+    "stub": "leetcode-playground/0011-container-with-most-water.js",
+    "test": "leetcode-playground/tests/0011-container-with-most-water.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0015-3sum",
+    "stub": "leetcode-playground/0015-3sum.js",
+    "test": "leetcode-playground/tests/0015-3sum.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0019-remove-nth-node-from-end-of-list",
+    "stub": "leetcode-playground/0019-remove-nth-node-from-end-of-list.js",
+    "test": "leetcode-playground/tests/0019-remove-nth-node-from-end-of-list.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0020-valid-parentheses",
+    "stub": "leetcode-playground/0020-valid-parentheses.js",
+    "test": "leetcode-playground/tests/0020-valid-parentheses.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0021-merge-two-sorted-lists",
+    "stub": "leetcode-playground/0021-merge-two-sorted-lists.js",
+    "test": "leetcode-playground/tests/0021-merge-two-sorted-lists.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0023-merge-k-sorted-lists",
+    "stub": "leetcode-playground/0023-merge-k-sorted-lists.js",
+    "test": "leetcode-playground/tests/0023-merge-k-sorted-lists.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0033-search-in-rotated-sorted-array",
+    "stub": "leetcode-playground/0033-search-in-rotated-sorted-array.js",
+    "test": "leetcode-playground/tests/0033-search-in-rotated-sorted-array.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0039-combination-sum",
+    "stub": "leetcode-playground/0039-combination-sum.js",
+    "test": "leetcode-playground/tests/0039-combination-sum.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0042-trapping-rain-water",
+    "stub": "leetcode-playground/0042-trapping-rain-water.js",
+    "test": "leetcode-playground/tests/0042-trapping-rain-water.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0046-permutations",
+    "stub": "leetcode-playground/0046-permutations.js",
+    "test": "leetcode-playground/tests/0046-permutations.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0048-rotate-image",
+    "stub": "leetcode-playground/0048-rotate-image.js",
+    "test": "leetcode-playground/tests/0048-rotate-image.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0049-group-anagrams",
+    "stub": "leetcode-playground/0049-group-anagrams.js",
+    "test": "leetcode-playground/tests/0049-group-anagrams.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0050-powx-n",
+    "stub": "leetcode-playground/0050-powx-n.js",
+    "test": "leetcode-playground/tests/0050-powx-n.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0053-maximum-subarray",
+    "stub": "leetcode-playground/0053-maximum-subarray.js",
+    "test": "leetcode-playground/tests/0053-maximum-subarray.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0054-spiral-matrix",
+    "stub": "leetcode-playground/0054-spiral-matrix.js",
+    "test": "leetcode-playground/tests/0054-spiral-matrix.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0055-jump-game",
+    "stub": "leetcode-playground/0055-jump-game.js",
+    "test": "leetcode-playground/tests/0055-jump-game.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0056-merge-intervals",
+    "stub": "leetcode-playground/0056-merge-intervals.js",
+    "test": "leetcode-playground/tests/0056-merge-intervals.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0057-insert-interval",
+    "stub": "leetcode-playground/0057-insert-interval.js",
+    "test": "leetcode-playground/tests/0057-insert-interval.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0062-unique-paths",
+    "stub": "leetcode-playground/0062-unique-paths.js",
+    "test": "leetcode-playground/tests/0062-unique-paths.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0070-climbing-stairs",
+    "stub": "leetcode-playground/0070-climbing-stairs.js",
+    "test": "leetcode-playground/tests/0070-climbing-stairs.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0073-set-matrix-zeroes",
+    "stub": "leetcode-playground/0073-set-matrix-zeroes.js",
+    "test": "leetcode-playground/tests/0073-set-matrix-zeroes.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0074-search-a-2d-matrix",
+    "stub": "leetcode-playground/0074-search-a-2d-matrix.js",
+    "test": "leetcode-playground/tests/0074-search-a-2d-matrix.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0076-minimum-window-substring",
+    "stub": "leetcode-playground/0076-minimum-window-substring.js",
+    "test": "leetcode-playground/tests/0076-minimum-window-substring.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0079-word-search",
+    "stub": "leetcode-playground/0079-word-search.js",
+    "test": "leetcode-playground/tests/0079-word-search.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0084-largest-rectangle-in-histogram",
+    "stub": "leetcode-playground/0084-largest-rectangle-in-histogram.js",
+    "test": "leetcode-playground/tests/0084-largest-rectangle-in-histogram.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0091-decode-ways",
+    "stub": "leetcode-playground/0091-decode-ways.js",
+    "test": "leetcode-playground/tests/0091-decode-ways.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0092-reverse-linked-list-ii",
+    "stub": "leetcode-playground/0092-reverse-linked-list-ii.js",
+    "test": "leetcode-playground/tests/0092-reverse-linked-list-ii.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0094-rotting-orange",
+    "stub": "leetcode-playground/0094-rotting-orange.js",
+    "test": "leetcode-playground/tests/0094-rotting-orange.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0098-validate-binary-search-tree",
+    "stub": "leetcode-playground/0098-validate-binary-search-tree.js",
+    "test": "leetcode-playground/tests/0098-validate-binary-search-tree.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0100-same-tree",
+    "stub": "leetcode-playground/0100-same-tree.js",
+    "test": "leetcode-playground/tests/0100-same-tree.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0102-binary-tree-level-order-traversal",
+    "stub": "leetcode-playground/0102-binary-tree-level-order-traversal.js",
+    "test": "leetcode-playground/tests/0102-binary-tree-level-order-traversal.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0103-binary-tree-zigzag-level-order-traversal",
+    "stub": "leetcode-playground/0103-binary-tree-zigzag-level-order-traversal.js",
+    "test": "leetcode-playground/tests/0103-binary-tree-zigzag-level-order-traversal.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0104-maximum-depth-of-binary-tree",
+    "stub": "leetcode-playground/0104-maximum-depth-of-binary-tree.js",
+    "test": "leetcode-playground/tests/0104-maximum-depth-of-binary-tree.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0105-construct-binary-tree-from-preorder-and-inorder-traversal",
+    "stub": "leetcode-playground/0105-construct-binary-tree-from-preorder-and-inorder-traversal.js",
+    "test": "leetcode-playground/tests/0105-construct-binary-tree-from-preorder-and-inorder-traversal.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0110-balanced-binary-tree",
+    "stub": "leetcode-playground/0110-balanced-binary-tree.js",
+    "test": "leetcode-playground/tests/0110-balanced-binary-tree.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0121-best-time-to-buy-and-sell-stock",
+    "stub": "leetcode-playground/0121-best-time-to-buy-and-sell-stock.js",
+    "test": "leetcode-playground/tests/0121-best-time-to-buy-and-sell-stock.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0124-binary-tree-maximum-path-sum",
+    "stub": "leetcode-playground/0124-binary-tree-maximum-path-sum.js",
+    "test": "leetcode-playground/tests/0124-binary-tree-maximum-path-sum.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0125-valid-palindrome",
+    "stub": "leetcode-playground/0125-valid-palindrome.js",
+    "test": "leetcode-playground/tests/0125-valid-palindrome.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0128-longest-consecutive-sequence",
+    "stub": "leetcode-playground/0128-longest-consecutive-sequence.js",
+    "test": "leetcode-playground/tests/0128-longest-consecutive-sequence.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0133-clone-graph",
+    "stub": "leetcode-playground/0133-clone-graph.js",
+    "test": "leetcode-playground/tests/0133-clone-graph.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0139-word-break",
+    "stub": "leetcode-playground/0139-word-break.js",
+    "test": "leetcode-playground/tests/0139-word-break.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0141-linked-list-cycle",
+    "stub": "leetcode-playground/0141-linked-list-cycle.js",
+    "test": "leetcode-playground/tests/0141-linked-list-cycle.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0143-reorder-list",
+    "stub": "leetcode-playground/0143-reorder-list.js",
+    "test": "leetcode-playground/tests/0143-reorder-list.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0146-LRU-cache",
+    "stub": "leetcode-playground/0146-LRU-cache.js",
+    "test": "leetcode-playground/tests/0146-LRU-cache.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0148-sort-list",
+    "stub": "leetcode-playground/0148-sort-list.js",
+    "test": "leetcode-playground/tests/0148-sort-list.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0152-maximum-product-subarray",
+    "stub": "leetcode-playground/0152-maximum-product-subarray.js",
+    "test": "leetcode-playground/tests/0152-maximum-product-subarray.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0153-find-minimum-in-rotated-sorted-array",
+    "stub": "leetcode-playground/0153-find-minimum-in-rotated-sorted-array.js",
+    "test": "leetcode-playground/tests/0153-find-minimum-in-rotated-sorted-array.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0190-reverse-bits",
+    "stub": "leetcode-playground/0190-reverse-bits.js",
+    "test": "leetcode-playground/tests/0190-reverse-bits.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0191-number-of-1-bits",
+    "stub": "leetcode-playground/0191-number-of-1-bits.js",
+    "test": "leetcode-playground/tests/0191-number-of-1-bits.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0198-house-robber",
+    "stub": "leetcode-playground/0198-house-robber.js",
+    "test": "leetcode-playground/tests/0198-house-robber.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0200-number-of-islands",
+    "stub": "leetcode-playground/0200-number-of-islands.js",
+    "test": "leetcode-playground/tests/0200-number-of-islands.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0206-reverse-linked-list",
+    "stub": "leetcode-playground/0206-reverse-linked-list.js",
+    "test": "leetcode-playground/tests/0206-reverse-linked-list.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0207-course-schedule",
+    "stub": "leetcode-playground/0207-course-schedule.js",
+    "test": "leetcode-playground/tests/0207-course-schedule.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0208-implement-trie",
+    "stub": "leetcode-playground/0208-implement-trie.js",
+    "test": "leetcode-playground/tests/0208-implement-trie.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0210-course-schedule-ii",
+    "stub": "leetcode-playground/0210-course-schedule-ii.js",
+    "test": "leetcode-playground/tests/0210-course-schedule-ii.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0211-design-add-and-search-words",
+    "stub": "leetcode-playground/0211-design-add-and-search-words.js",
+    "test": "leetcode-playground/tests/0211-design-add-and-search-words.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0212-word-search-ii",
+    "stub": "leetcode-playground/0212-word-search-ii.js",
+    "test": "leetcode-playground/tests/0212-word-search-ii.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0213-house-robber-ii",
+    "stub": "leetcode-playground/0213-house-robber-ii.js",
+    "test": "leetcode-playground/tests/0213-house-robber-ii.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0215-kth-largest-element-in-an-array",
+    "stub": "leetcode-playground/0215-kth-largest-element-in-an-array.js",
+    "test": "leetcode-playground/tests/0215-kth-largest-element-in-an-array.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0216-combination-sum-iii",
+    "stub": "leetcode-playground/0216-combination-sum-iii.js",
+    "test": "leetcode-playground/tests/0216-combination-sum-iii.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0217-contains-duplicate",
+    "stub": "leetcode-playground/0217-contains-duplicate.js",
+    "test": "leetcode-playground/tests/0217-contains-duplicate.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0221-maximal-square",
+    "stub": "leetcode-playground/0221-maximal-square.js",
+    "test": "leetcode-playground/tests/0221-maximal-square.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0224-basic-calculator",
+    "stub": "leetcode-playground/0224-basic-calculator.js",
+    "test": "leetcode-playground/tests/0224-basic-calculator.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0226-invert-binary-tree",
+    "stub": "leetcode-playground/0226-invert-binary-tree.js",
+    "test": "leetcode-playground/tests/0226-invert-binary-tree.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0227-basic-calculator-ii",
+    "stub": "leetcode-playground/0227-basic-calculator-ii.js",
+    "test": "leetcode-playground/tests/0227-basic-calculator-ii.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0230-kth-smallest-element-in-a-bst",
+    "stub": "leetcode-playground/0230-kth-smallest-element-in-a-bst.js",
+    "test": "leetcode-playground/tests/0230-kth-smallest-element-in-a-bst.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0235-lowest-common-ancestor-of-a-binary-search-tree",
+    "stub": "leetcode-playground/0235-lowest-common-ancestor-of-a-binary-search-tree.js",
+    "test": "leetcode-playground/tests/0235-lowest-common-ancestor-of-a-binary-search-tree.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0238-product-of-array-except-self",
+    "stub": "leetcode-playground/0238-product-of-array-except-self.js",
+    "test": "leetcode-playground/tests/0238-product-of-array-except-self.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0242-valid-anagram",
+    "stub": "leetcode-playground/0242-valid-anagram.js",
+    "test": "leetcode-playground/tests/0242-valid-anagram.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0252-meeting-rooms",
+    "stub": "leetcode-playground/0252-meeting-rooms.js",
+    "test": "leetcode-playground/tests/0252-meeting-rooms.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0253-meeting-rooms-ii",
+    "stub": "leetcode-playground/0253-meeting-rooms-ii.js",
+    "test": "leetcode-playground/tests/0253-meeting-rooms-ii.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0261-graph-valid-tree",
+    "stub": "leetcode-playground/0261-graph-valid-tree.js",
+    "test": "leetcode-playground/tests/0261-graph-valid-tree.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0268-missing-number",
+    "stub": "leetcode-playground/0268-missing-number.js",
+    "test": "leetcode-playground/tests/0268-missing-number.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0269-alien-dictionary",
+    "stub": "leetcode-playground/0269-alien-dictionary.js",
+    "test": "leetcode-playground/tests/0269-alien-dictionary.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0271-encode-and-decode-strings",
+    "stub": "leetcode-playground/0271-encode-and-decode-strings.js",
+    "test": "leetcode-playground/tests/0271-encode-and-decode-strings.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0274-h-index",
+    "stub": "leetcode-playground/0274-h-index.js",
+    "test": "leetcode-playground/tests/0274-h-index.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0287-find-the-duplicate-number",
+    "stub": "leetcode-playground/0287-find-the-duplicate-number.js",
+    "test": "leetcode-playground/tests/0287-find-the-duplicate-number.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0295-find-median-from-data-stream",
+    "stub": "leetcode-playground/0295-find-median-from-data-stream.js",
+    "test": "leetcode-playground/tests/0295-find-median-from-data-stream.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0297-serialize-and-deserialize-binary-tree",
+    "stub": "leetcode-playground/0297-serialize-and-deserialize-binary-tree.js",
+    "test": "leetcode-playground/tests/0297-serialize-and-deserialize-binary-tree.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0300-longest-increasing-subsequence",
+    "stub": "leetcode-playground/0300-longest-increasing-subsequence.js",
+    "test": "leetcode-playground/tests/0300-longest-increasing-subsequence.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0322-coin-change",
+    "stub": "leetcode-playground/0322-coin-change.js",
+    "test": "leetcode-playground/tests/0322-coin-change.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0323-number-of-connected-components-in-an-undirected-graph",
+    "stub": "leetcode-playground/0323-number-of-connected-components-in-an-undirected-graph.js",
+    "test": "leetcode-playground/tests/0323-number-of-connected-components-in-an-undirected-graph.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0338-counting-bits",
+    "stub": "leetcode-playground/0338-counting-bits.js",
+    "test": "leetcode-playground/tests/0338-counting-bits.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0347-top-k-frequent-elements",
+    "stub": "leetcode-playground/0347-top-k-frequent-elements.js",
+    "test": "leetcode-playground/tests/0347-top-k-frequent-elements.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0371-sum-of-two-integers",
+    "stub": "leetcode-playground/0371-sum-of-two-integers.js",
+    "test": "leetcode-playground/tests/0371-sum-of-two-integers.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0380-insert-delete-getrandom-01",
+    "stub": "leetcode-playground/0380-insert-delete-getrandom-01.js",
+    "test": "leetcode-playground/tests/0380-insert-delete-getrandom-01.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0394-decode-string",
+    "stub": "leetcode-playground/0394-decode-string.js",
+    "test": "leetcode-playground/tests/0394-decode-string.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0417-pacific-atlantic-water-flow",
+    "stub": "leetcode-playground/0417-pacific-atlantic-water-flow.js",
+    "test": "leetcode-playground/tests/0417-pacific-atlantic-water-flow.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0424-longest-repeating-character-replacement",
+    "stub": "leetcode-playground/0424-longest-repeating-character-replacement.js",
+    "test": "leetcode-playground/tests/0424-longest-repeating-character-replacement.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0435-non-overlapping-intervals",
+    "stub": "leetcode-playground/0435-non-overlapping-intervals.js",
+    "test": "leetcode-playground/tests/0435-non-overlapping-intervals.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0543-diameter-of-binary-tree",
+    "stub": "leetcode-playground/0543-diameter-of-binary-tree.js",
+    "test": "leetcode-playground/tests/0543-diameter-of-binary-tree.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0572-subtree-of-another-tree",
+    "stub": "leetcode-playground/0572-subtree-of-another-tree.js",
+    "test": "leetcode-playground/tests/0572-subtree-of-another-tree.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0647-palindromic-substrings",
+    "stub": "leetcode-playground/0647-palindromic-substrings.js",
+    "test": "leetcode-playground/tests/0647-palindromic-substrings.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0735-asteroid-collision",
+    "stub": "leetcode-playground/0735-asteroid-collision.js",
+    "test": "leetcode-playground/tests/0735-asteroid-collision.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "0875-koko-eating-bananas",
+    "stub": "leetcode-playground/0875-koko-eating-bananas.js",
+    "test": "leetcode-playground/tests/0875-koko-eating-bananas.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "1019-next-greater-node-in-linked-list",
+    "stub": "leetcode-playground/1019-next-greater-node-in-linked-list.js",
+    "test": "leetcode-playground/tests/1019-next-greater-node-in-linked-list.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  },
+  {
+    "base": "1143-longest-common-subsequence",
+    "stub": "leetcode-playground/1143-longest-common-subsequence.js",
+    "test": "leetcode-playground/tests/1143-longest-common-subsequence.test.js",
+    "reason": "v1: no solutions-oracle-adapter import"
+  }
+]
