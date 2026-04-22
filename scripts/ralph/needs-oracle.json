@@ -388,5 +388,35 @@
     "id": "0382",
     "slug": "linked-list-random-node",
     "reason": "permanent: non-deterministic getRandom() - cannot use exact-equal assertions"
+  },
+  {
+    "id": "0379",
+    "slug": "design-phone-directory",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0386",
+    "slug": "lexicographical-numbers",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0399",
+    "slug": "evaluate-division",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0384",
+    "slug": "shuffle-an-array",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0385",
+    "slug": "mini-parser",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0398",
+    "slug": "random-pick-index",
+    "reason": "validation failed and no cases left to drop"
   }
 ]

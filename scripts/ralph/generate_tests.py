@@ -277,6 +277,15 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if 'water-and-jug' in slug:
         return [[3, 5, 4], [2, 6, 5], [1, 2, 3], [3, 5, 3], [0, 0, 0], [2, 4, 3]]
 
+    if 'lexicographical-numbers' in slug:
+        return [[1], [2], [10], [13], [100], [20]]
+
+    if 'evaluate-division' in slug:
+        return [
+            [[["a","b"],["b","c"]], [2.0,3.0], [["a","c"],["b","a"],["a","e"],["a","a"],["x","x"]]],
+            [[["a","b"]], [0.5], [["a","b"],["b","a"],["a","c"],["x","y"]]],
+        ]
+
     if any(kw in slug for kw in ('course-schedule', 'graph-valid-tree',
                                    'connected-components')):
         return [
@@ -766,7 +775,7 @@ def _build_design_inputs(problem, class_methods):
         ]
 
     # LRU / cache-like
-    if 'lru' in slug or 'cache' in slug or any(m in method_names for m in ('get', 'put')):
+    if 'lru' in slug or 'cache' in slug or ('get' in method_names and 'put' in method_names):
         return [
             [[fn_name, 2], ['put', 1, 1], ['put', 2, 2],
              ['get', 1], ['put', 3, 3], ['get', 2],
@@ -840,6 +849,21 @@ def _build_design_inputs(problem, class_methods):
             [[fn_name, [4, 2, 7, 1, 3]], ['hasNext'], ['next'], ['hasNext'], ['next'], ['hasNext'], ['next']],
             [[fn_name, [3, 1, 2]], ['hasNext'], ['next'], ['next'], ['hasNext']],
             [[fn_name, [7]], ['hasNext'], ['next'], ['hasNext']],
+        ]
+
+    # Shuffle (reset + shuffle with array constructor)
+    if 'shuffle' in method_names and 'reset' in method_names:
+        return [
+            [[fn_name, [1, 2, 3]], ['shuffle'], ['reset'], ['shuffle']],
+            [[fn_name, [1, 2]], ['reset'], ['shuffle']],
+        ]
+
+    # PhoneDirectory (get + check + release)
+    if 'get' in method_names and 'check' in method_names and 'release' in method_names:
+        return [
+            [[fn_name, 3],
+             ['get'], ['get'], ['check', 2], ['get'],
+             ['release', 2], ['check', 2], ['get']],
         ]
 
     # LinkedListRandomNode / getRandom (ListNode constructor)
