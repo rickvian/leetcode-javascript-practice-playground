@@ -783,5 +783,50 @@
     "id": "0620",
     "slug": "not-boring-movies",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0621",
+    "slug": "task-scheduler",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0631",
+    "slug": "design-excel-sum-formula",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0636",
+    "slug": "exclusive-time-of-functions",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0638",
+    "slug": "shopping-offers",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0640",
+    "slug": "solve-the-equation",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0643",
+    "slug": "maximum-average-subarray-i",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0626",
+    "slug": "exchange-seats",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0627",
+    "slug": "swap-sex-of-employees",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0630",
+    "slug": "course-schedule-iii",
+    "reason": "uses LeetCode platform PriorityQueue class"
   }
 ]

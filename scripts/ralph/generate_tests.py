@@ -505,6 +505,59 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[["a","b"]], [0.5], [["a","b"],["b","a"],["a","c"],["x","y"]]],
         ]
 
+    if 'task-scheduler' in slug:
+        # (tasks: character[], n: number) — tasks are uppercase letters, n is cooldown
+        return [
+            [["A","A","A","B","B","B"], 2],
+            [["A","A","A","B","B","B"], 0],
+            [["A","A","A","A","A","A","B","C","D","E","F","G"], 2],
+            [["A","A","A","B","B","B","C","C","C"], 3],
+            [["A"], 0],
+            [["A","A","B","B"], 2],
+        ]
+
+    if 'exclusive-time-of-functions' in slug:
+        # (n: number, logs: string[]) — logs formatted as "fnId:start|end:timestamp"
+        return [
+            [2, ["0:start:0","1:start:2","1:end:5","0:end:6"]],
+            [1, ["0:start:0","0:start:2","0:end:5","0:end:7"]],
+            [2, ["0:start:0","0:end:0","1:start:1","1:end:1"]],
+            [1, ["0:start:0","0:end:0"]],
+            [2, ["0:start:0","1:start:2","1:end:3","0:end:4"]],
+        ]
+
+    if 'shopping-offers' in slug:
+        # (price: number[], special: number[][], needs: number[])
+        return [
+            [[2,5], [[3,0,5],[1,2,10]], [3,2]],
+            [[2,3,4], [[1,1,0,4],[2,2,1,9]], [1,2,1]],
+            [[2,5], [], [3,2]],
+            [[1,1], [[1,1,1]], [2,2]],
+            [[2,5], [[3,0,5],[1,2,10]], [0,0]],
+        ]
+
+    if 'solve-the-equation' in slug:
+        # (equation: string) — format "lhs=rhs", x+constant terms
+        return [
+            ["x+5-3+x=6+x-2"],
+            ["x=x"],
+            ["2x=x"],
+            ["0x=0"],
+            ["x+1=2"],
+            ["2x+1=3"],
+        ]
+
+    if 'maximum-average-subarray-i' in slug:
+        # (nums: number[], k: number) — k must be ≥1 and ≤len(nums)
+        return [
+            [[1,12,-5,-6,50,3], 4],
+            [[5], 1],
+            [[1,2,3,4,5], 2],
+            [[0,4,0,3,2], 1],
+            [[-1,-2,-3,-4,-5], 3],
+            [[1,1,1,1,1,1], 3],
+        ]
+
     if any(kw in slug for kw in ('course-schedule', 'graph-valid-tree',
                                    'connected-components')):
         return [
@@ -1161,6 +1214,22 @@ def _build_design_inputs(problem, class_methods):
             [[fn_name, [1, 2]], ['reset'], ['shuffle']],
         ]
 
+    # Excel design (set + get + sum with char column args)
+    if 'design-excel' in slug or ('set' in method_names and 'get' in method_names and 'sum' in method_names):
+        return [
+            [[fn_name, 3, 'C'],
+             ['set', 1, 'A', 2], ['set', 2, 'B', 2],
+             ['get', 1, 'A'],
+             ['sum', 3, 'C', ['A1', 'A1:B2']],
+             ['set', 2, 'B', 3],
+             ['get', 3, 'C']],
+            [[fn_name, 5, 'E'],
+             ['set', 1, 'A', 5], ['set', 1, 'B', 4],
+             ['get', 1, 'A'],
+             ['sum', 2, 'A', ['A1']],
+             ['get', 2, 'A']],
+        ]
+
     # PhoneDirectory (get + check + release)
     if 'get' in method_names and 'check' in method_names and 'release' in method_names:
         return [
@@ -1671,6 +1740,14 @@ def process_problem(problem):
         return 'missing'
 
     oracle_source = bank_file.read_text()
+
+    # Skip oracles that use LeetCode platform classes unavailable in Node.js
+    if re.search(r'new\s+(MaxPriorityQueue|MinPriorityQueue|PriorityQueue)\s*\(', oracle_source):
+        append_needs_oracle({'id': problem_id, 'slug': slug,
+                             'reason': 'uses LeetCode platform PriorityQueue class'})
+        print(f'  skip (platform PriorityQueue): {problem_id}-{slug}')
+        return 'missing'
+
     param_types, return_type = parse_oracle(oracle_source)
     class_methods            = parse_class_methods(oracle_source, fn_name)
     description              = extract_description(oracle_source)
