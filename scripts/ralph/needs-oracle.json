@@ -308,5 +308,50 @@
     "id": "0295",
     "slug": "find-median-from-data-stream",
     "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0308",
+    "slug": "range-sum-query-2d-mutable",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "0310",
+    "slug": "minimum-height-trees",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0321",
+    "slug": "create-maximum-number",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0323",
+    "slug": "number-of-connected-components-in-an-undirected-graph",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0338",
+    "slug": "counting-bits",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0344",
+    "slug": "reverse-string",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0360",
+    "slug": "sort-transformed-array",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "0363",
+    "slug": "max-sum-of-rectangle-no-larger-than-k",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0341",
+    "slug": "flatten-nested-list-iterator",
+    "reason": "validation failed after 3 attempts"
   }
 ]
