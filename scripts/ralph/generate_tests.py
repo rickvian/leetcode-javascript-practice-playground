@@ -878,6 +878,48 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if first == 'string' and len(types) > 1 and types[1] in ('number', 'integer'):
         return [["abcdef", 2], ["", 1], ["a", 1], ["abba", 3]]
 
+    # ── network-delay-time: (times: number[][], n: number, k: number) — times[i]=[u,v,w] ──
+    if 'network-delay-time' in slug:
+        return [
+            [[[2,1,1],[2,3,1],[3,4,1]], 4, 2],
+            [[[1,2,1]], 2, 1],
+            [[[1,2,1],[2,3,2],[1,3,4]], 3, 1],
+            [[[1,2,1]], 2, 2],
+            [[[1,2,1],[2,3,1],[3,1,1]], 3, 1],
+        ]
+
+    # ── shortest-completing-word: (licensePlate: string, words: string[]) ──
+    if 'shortest-completing-word' in slug:
+        return [
+            ["1s3 PSt", ["step", "steps", "stripe", "stepple"]],
+            ["1s3 456", ["looks", "pest", "stew", "show"]],
+            ["Ah71752", ["suggest", "letter", "of", "husband", "easy", "education"]],
+            ["OgEu755", ["enough", "these", "play", "wide", "wonder", "box"]],
+            ["iMSlpe52", ["worry", "tired", "pies", "skill", "sleep"]],
+            ["a", ["apple", "b", "aa"]],
+        ]
+
+    # ── pyramid-transition-matrix: (bottom: string, allowed: string[]) ──
+    if 'pyramid-transition-matrix' in slug:
+        return [
+            ["BCD", ["BCC","CDE","CEA","FFF"]],
+            ["AABA", ["AAA","AAB","ABA","ABB","BAC"]],
+            ["A", ["AAA"]],
+            ["AB", ["AAA","AAB","ABC"]],
+            ["ABC", ["ABC","ABD","ABE"]],
+        ]
+
+    # ── bold-words-in-string: (words: string[], s: string) ──
+    if 'bold-words-in-string' in slug:
+        return [
+            [["ab","bc"], "aabcd"],
+            [["aa","b"], "aab"],
+            [["a","b"], "ab"],
+            [[], "hello"],
+            [["hello"], "hello world"],
+            [["a"], ""],
+        ]
+
     # ── flood-fill: (number[][], number, number, number) = image + sr + sc + newColor ──
     if 'flood-fill' in slug:
         return [
@@ -1403,6 +1445,25 @@ def _build_design_inputs(problem, class_methods):
             [[fn_name],
              ['insert', 'abc', 1], ['insert', 'abd', 2], ['insert', 'bc', 5],
              ['sum', 'ab'], ['sum', 'b'], ['sum', 'z']],
+        ]
+
+    # WordFilter (prefix-and-suffix-search): constructor(string[] words) + f(pref, suff)
+    if 'prefix-and-suffix' in slug or 'f' in method_names and fn_name == 'WordFilter':
+        words = ["apple"]
+        return [
+            [[fn_name, ["apple"]],
+             ['f', 'a', 'e'],
+             ['f', 'app', 'le'],
+             ['f', 'a', 'apple'],
+             ['f', 'b', 'e']],
+            [[fn_name, ["apple", "ape", "cape"]],
+             ['f', 'a', 'e'],
+             ['f', 'c', 'e'],
+             ['f', '', '']],
+            [[fn_name, ["word"]],
+             ['f', 'w', 'd'],
+             ['f', '', 'd'],
+             ['f', 'word', 'word']],
         ]
 
     # Generic fallback: try up to 4 methods with dummy args
