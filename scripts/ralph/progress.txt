@@ -1,3 +1,25 @@
+## 2026-04-22 - US-040
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-026` — 15 generated (0501, 0503-0509, 0513-0518, 0520), 0 skipped, 5 missing/failed (0502, 0510, 0511, 0512, 0519)
+  - Fixed 0509 (fibonacci-number): generic single-int catalog includes n=1534236469 → fib iterates ~1.5B times → timeout. Added slug override with small n values (0, 1, 2, 5, 10, 20, 30).
+  - 0502 (ipo): uses `MinPriorityQueue`/`MaxPriorityQueue` (LeetCode platform classes, unavailable in Node.js) → permanent needs-oracle.
+  - 0510 (inorder-successor-in-bst-ii): requires `_Node` with parent pointer — a different node type from `TreeNode`; not supported by test_helpers.js → permanent needs-oracle.
+  - 0519 (random-flip-matrix): randomized/non-deterministic → permanent needs-oracle.
+  - 0511, 0512: SQL database problems, oracleTier=missing → skipped.
+
+- **Files changed:**
+  - Added: 15 stubs (0501, 0503-0509, 0513-0518, 0520) in leetcode-playground/
+  - Added: 15 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (fibonacci-number slug override)
+  - Modified: scripts/ralph/needs-oracle.json (0502, 0510, 0519 marked permanent)
+
+- **Learnings:**
+  - `fib(n)` with n=1534236469 iterates through a loop of 1.5B steps → timeout; add slug override for fibonacci-number with small n values
+  - 0502-ipo uses `MinPriorityQueue`/`MaxPriorityQueue` despite being tagged as a plain function (not design-class); these LeetCode platform classes are unavailable in Node.js → permanent needs-oracle
+  - `_Node` with `.parent` pointer (inorder-successor-in-bst-ii) is a different structure from TreeNode; test_helpers.js only builds standard BSTs without parent pointers → permanent needs-oracle for parent-pointer problems
+
+---
+
 ## 2026-04-22 - US-039
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-025` — 18 generated (0481-0500 except 0489/0497), 0 skipped, 2 permanent needs-oracle
