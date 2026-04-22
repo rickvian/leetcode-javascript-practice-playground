@@ -1,3 +1,27 @@
+## 2026-04-22 - US-041
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-027` — 18 generated (0521-0540 except 0528/0534), 0 skipped, 2 missing/failed (0528, 0534)
+  - Fixed 0524 (longest-word-in-dictionary-through-deleting): `(string s, string[] dictionary)` fell through to fallback. Added slug override with proper (s, dictionary) pairs.
+  - Fixed 0526 (beautiful-arrangement): backtracking with large n (1534236469) → timeout. Added slug override with small n values (1-10).
+  - Fixed 0529 (minesweeper): `(char[][] board, number[] click)` — no generic handler for char[][] + int[]. Added slug override with 'M'/'E'/'B' boards + click coordinates.
+  - Fixed 0539 (minimum-time-difference): generic `string[]` catalog passes arbitrary strings; oracle expects "HH:MM" format. Added slug override with proper time strings.
+  - 0528 (random-pick-with-weight): pickIndex() is non-deterministic → permanent needs-oracle.
+  - 0534 (game-play-analysis-iii): SQL/database problem, no oracle → skipped.
+
+- **Files changed:**
+  - Added: 18 stubs (0521-0540 except 0528/0534) in leetcode-playground/
+  - Added: 18 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (slug overrides for 0524/0526/0529/0539)
+  - Modified: scripts/ralph/needs-oracle.json (0528 marked permanent)
+
+- **Learnings:**
+  - `(string, string[])` (string s + string[] dictionary) has no generic handler; falls through to fallback which passes wrong types. Add slug override for each such problem.
+  - Backtracking functions (beautiful-arrangement) time out with large n same as fib; use slug override with small n values.
+  - `(char[][], number[])` board+click combos need explicit slug overrides; no generic path handles char[][] inputs.
+  - `string[]` generic catalog passes arbitrary strings; domain-specific string arrays (HH:MM, arithmetic expressions, etc.) need slug overrides.
+
+---
+
 ## 2026-04-22 - US-040
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-026` — 15 generated (0501, 0503-0509, 0513-0518, 0520), 0 skipped, 5 missing/failed (0502, 0510, 0511, 0512, 0519)
