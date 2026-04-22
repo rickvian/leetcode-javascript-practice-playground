@@ -713,5 +713,75 @@
     "id": "0597",
     "slug": "friend-requests-i-overall-acceptance-rate",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0601",
+    "slug": "human-traffic-of-stadium",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0602",
+    "slug": "friend-requests-ii-who-has-the-most-friends",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0603",
+    "slug": "consecutive-available-seats",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0607",
+    "slug": "sales-person",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0608",
+    "slug": "tree-node",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0610",
+    "slug": "triangle-judgement",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0612",
+    "slug": "shortest-distance-in-a-plane",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0613",
+    "slug": "shortest-distance-in-a-line",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0614",
+    "slug": "second-degree-follower",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0615",
+    "slug": "average-salary-departments-vs-company",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0616",
+    "slug": "add-bold-tag-in-string",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0618",
+    "slug": "students-report-by-geography",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0619",
+    "slug": "biggest-single-number",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "0620",
+    "slug": "not-boring-movies",
+    "reason": "oracleTier=missing"
   }
 ]
