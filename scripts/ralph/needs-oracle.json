@@ -1488,5 +1488,45 @@
     "id": "1179",
     "slug": "reformat-department-table",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1182",
+    "slug": "shortest-distance-to-target-color",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1185",
+    "slug": "day-of-the-week",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1188",
+    "slug": "design-bounded-blocking-queue",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1192",
+    "slug": "critical-connections-in-a-network",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1193",
+    "slug": "monthly-transactions-i",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1194",
+    "slug": "tournament-winners",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1195",
+    "slug": "fizz-buzz-multithreaded",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1199",
+    "slug": "minimum-time-to-build-blocks",
+    "reason": "uses LeetCode platform PriorityQueue class"
   }
 ]
