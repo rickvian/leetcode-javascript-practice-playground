@@ -102,9 +102,11 @@ def get_input_category(problem, param_types):
     # reverse-string-ii / reverse-words-in-a-string-iii are plain functions, not in-place
     # employee-importance: GetImportance is PascalCase but is a plain function
     # orderly-queue: plain function despite 'queue' in slug
+    # validate-stack-sequences: classHeavy:true in batch JSON but is a plain fn (pushed,popped args)
     PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',
                       'reverse-string-ii', 'reverse-words-in-a-string-iii',
-                      'employee-importance', 'orderly-queue')
+                      'employee-importance', 'orderly-queue',
+                      'validate-stack-sequences')
     if slug in PLAIN_FN_SLUGS:
         class_heavy = False
 
@@ -146,7 +148,7 @@ def get_assertion_template(problem, param_types, return_type):
     fn_name_ac = problem.get('oracleFnName', '')
     PLAIN_FN_SLUGS = ('queue-reconstruction-by-height',
                       'reverse-string-ii', 'reverse-words-in-a-string-iii',
-                      'employee-importance')
+                      'employee-importance', 'validate-stack-sequences')
     is_class_heavy = problem.get('classHeavy') and slug not in PLAIN_FN_SLUGS
     if is_class_heavy or (slug not in PLAIN_FN_SLUGS and fn_name_ac and fn_name_ac[0].isupper()):
         return 'design-class-sequence'
@@ -946,6 +948,17 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[[1,1,1],[1,1,1],[1,1,1]], [0,1]],
             [[[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]], [1,3]],
             [[[1,1,0,0],[1,1,0,0],[0,0,1,1],[0,0,1,1]], [0,2,3]],
+        ]
+
+    # ── verifying-an-alien-dictionary: isAlienSorted(words: string[], order: string) ──
+    if 'verifying-an-alien-dictionary' in slug:
+        return [
+            [["hello","leetcode"], "hlabcdefgijkmnopqrstuvwxyz"],
+            [["word","world","row"], "worldabcefghijkmnpqstuvxyz"],
+            [["apple","app"], "abcdefghijklmnopqrstuvwxyz"],
+            [["kuvp","q"], "ngrkuqesjclbmiyvxpdfwhoatz"],
+            [["a"], "abcdefghijklmnopqrstuvwxyz"],
+            [[], "abcdefghijklmnopqrstuvwxyz"],
         ]
 
     # ── beautiful-array: beautifulArray(n) — large n causes OOM ──

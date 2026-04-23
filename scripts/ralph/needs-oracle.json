@@ -1108,5 +1108,25 @@
     "id": "0920",
     "slug": "number-of-music-playlists",
     "reason": "no valid test cases generated"
-  }
+  },
+  {
+    "id": "0924",
+    "slug": "minimize-malware-spread",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0928",
+    "slug": "minimize-malware-spread-ii",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0932",
+    "slug": "beautiful-array",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0935",
+    "slug": "knight-dialer",
+    "reason": "oracle_run failed"
+  },
 ]
