@@ -1,3 +1,21 @@
+## 2026-04-23 - US-063
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-047` — first run: 16 generated, 4 missing/failed
+  - Fixed all 4 failures with slug overrides; re-ran: 4 more generated; total 20/20
+  - 0 permanent needs-oracle entries this batch
+  - Generated: 0921-0940
+
+- **Files changed:**
+  - Added: 20 stubs (0921-0940) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (3 new slug overrides)
+
+- **Learnings:**
+  - `minimize-malware-spread` (0924) and `minimize-malware-spread-ii` (0928): Both take `(graph: number[][], initial: number[])` — `(number[][], number[])` combo has no generic handler; falls to single-array fallback. Fix: add `'minimize-malware-spread' in slug` override with valid adjacency matrices and sorted initial infected node lists.
+  - `beautiful-array` (0932): `beautifulArray(n)` — single integer, but generic handler passes n=1534236469 which causes OOM (divide-and-conquer recursion allocates O(n) total elements). Fix: add slug override with small n values [1..6] only.
+  - `knight-dialer` (0935): `knightDialer(n)` — single integer, but generic handler passes n=1534236469; even with O(n) DP and modulo, 1.5B iterations causes oracle timeout. Fix: add slug override with small n values [1..6] only.
+---
+
 ## 2026-04-22 - US-062
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-046` — first run: 13 generated, 7 missing/failed
