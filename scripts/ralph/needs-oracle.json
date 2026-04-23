@@ -1298,5 +1298,60 @@
     "id": "1098",
     "slug": "unpopular-books",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1102",
+    "slug": "path-with-maximum-minimum-value",
+    "reason": "uses LeetCode platform PriorityQueue class"
+  },
+  {
+    "id": "1107",
+    "slug": "new-users-daily-count",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1109",
+    "slug": "corporate-flight-bookings",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "1110",
+    "slug": "delete-nodes-and-return-forest",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1111",
+    "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "1112",
+    "slug": "highest-grade-for-each-student",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1113",
+    "slug": "reported-posts",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1114",
+    "slug": "print-in-order",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1115",
+    "slug": "print-foobar-alternately",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1116",
+    "slug": "print-zero-even-odd",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1117",
+    "slug": "building-h2o",
+    "reason": "oracleTier=missing"
   }
 ]
