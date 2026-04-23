@@ -1562,3 +1562,19 @@
   - `online-majority-element-in-subarray` (1157): `MajorityChecker(arr: number[])` — design class where constructor takes `arr: number[]`. Generic fallback passes no constructor args → `arr` is undefined → `arr.length` throws. Fix: add slug override before the generic fallback in `_build_design_inputs`.
   - `find-words-that-can-be-formed-by-characters` (1160): `countCharacters(words: string[], chars: string)` — `(string[], string)` combo has no generic handler. Added slug override (placed after the `string[]` handler which only covers single-array case).
 ---
+
+## 2026-04-23 - US-077
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-060` — 12 generated, 8 missing/failed
+  - Skipped: 1188 (design-bounded-blocking-queue, no oracle), 1193-1195 (SQL/multithreaded, no oracle), 1199 (PriorityQueue platform skip)
+  - Generated: 1181, 1183-1184, 1186-1187, 1189-1191, 1196-1198, 1200
+
+- **Files changed:**
+  - Added: 12 stubs in leetcode-playground/
+  - Added: 12 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - 1182 (shortest-distance-to-target-color) and 1185 (day-of-the-week) and 1192 (critical-connections-in-a-network) showed no "→ ok" lines in generator output — likely generator ran but produced 0 test cases or the oracle returned empty. No stubs were emitted for these.
+  - `design-bounded-blocking-queue` (1188), SQL problems (1193-1194), multithreaded (1195), PriorityQueue (1199) are expected permanent skips.
+---
