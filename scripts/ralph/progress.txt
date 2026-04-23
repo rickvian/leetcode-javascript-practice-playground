@@ -1,3 +1,21 @@
+## 2026-04-23 - US-064
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-048` — first run: 18 generated, 2 missing/failed
+  - Fixed both failures with PLAIN_FN_SLUGS addition + slug override; re-ran: 2 more generated; total 20/20
+  - 0 permanent needs-oracle entries this batch
+  - Generated: 0941-0960
+
+- **Files changed:**
+  - Added: 20 stubs (0941-0960) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (PLAIN_FN_SLUGS + 1 new slug override)
+  - Modified: scripts/ralph/needs-oracle.json (removed 0946 and 0953)
+
+- **Learnings:**
+  - `validate-stack-sequences` (0946): `classHeavy: true` in batch JSON but is actually a plain two-arg function `validateStackSequences(pushed: number[], popped: number[])`. Generator was treating it as design-class. Fix: add to PLAIN_FN_SLUGS in both `get_input_category` and `get_assertion_template`.
+  - `verifying-an-alien-dictionary` (0953): `isAlienSorted(words: string[], order: string)` — `(string[], string)` combo has no generic handler; only `(string[], )` single-array is handled. Fix: add slug override with valid word arrays (sorted by alien order) and 26-char permutation order strings.
+---
+
 ## 2026-04-23 - US-063
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-047` — first run: 16 generated, 4 missing/failed
