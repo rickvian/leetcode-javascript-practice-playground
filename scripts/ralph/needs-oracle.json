@@ -1138,5 +1138,30 @@
     "id": "0966",
     "slug": "vowel-spellchecker",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0985",
+    "slug": "sum-of-even-numbers-after-queries",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0992",
+    "slug": "subarrays-with-k-different-integers",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0993",
+    "slug": "cousins-in-binary-tree",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0997",
+    "slug": "find-the-town-judge",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "0999",
+    "slug": "available-captures-for-rook",
+    "reason": "no valid test cases generated"
   }
 ]
