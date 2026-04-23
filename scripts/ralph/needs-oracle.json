@@ -1558,5 +1558,95 @@
     "id": "1212",
     "slug": "team-scores-in-football-tournament",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1222",
+    "slug": "queens-that-can-attack-the-king",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1225",
+    "slug": "report-contiguous-dates",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1226",
+    "slug": "the-dining-philosophers",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1229",
+    "slug": "meeting-scheduler",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1236",
+    "slug": "web-crawler",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1237",
+    "slug": "find-positive-integer-solution-for-a-given-equation",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1238",
+    "slug": "circular-permutation-in-binary-representation",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "1239",
+    "slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1240",
+    "slug": "tiling-a-rectangle-with-the-fewest-squares",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1241",
+    "slug": "number-of-comments-per-post",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1242",
+    "slug": "web-crawler-multithreaded",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1247",
+    "slug": "minimum-swaps-to-make-strings-equal",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1251",
+    "slug": "average-selling-price",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1252",
+    "slug": "cells-with-odd-values-in-a-matrix",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1253",
+    "slug": "reconstruct-a-2-row-binary-matrix",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1255",
+    "slug": "maximum-score-words-formed-by-letters",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1257",
+    "slug": "smallest-common-region",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1258",
+    "slug": "synonymous-sentences",
+    "reason": "no valid test cases generated"
   }
 ]
