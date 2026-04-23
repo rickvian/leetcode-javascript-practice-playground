@@ -1353,5 +1353,90 @@
     "id": "1117",
     "slug": "building-h2o",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1125",
+    "slug": "smallest-sufficient-team",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1126",
+    "slug": "active-businesses",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1127",
+    "slug": "user-purchase-platform",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1129",
+    "slug": "shortest-path-with-alternating-colors",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1132",
+    "slug": "reported-posts-ii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1135",
+    "slug": "connecting-cities-with-minimum-cost",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1136",
+    "slug": "parallel-courses",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1137",
+    "slug": "n-th-tribonacci-number",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "1155",
+    "slug": "number-of-dice-rolls-with-target-sum",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1157",
+    "slug": "online-majority-element-in-subarray",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "1160",
+    "slug": "find-words-that-can-be-formed-by-characters",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1141",
+    "slug": "user-activity-for-the-past-30-days-i",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1142",
+    "slug": "user-activity-for-the-past-30-days-ii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1148",
+    "slug": "article-views-i",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1149",
+    "slug": "article-views-ii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1158",
+    "slug": "market-analysis-i",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1159",
+    "slug": "market-analysis-ii",
+    "reason": "oracleTier=missing"
   }
 ]

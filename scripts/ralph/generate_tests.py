@@ -868,6 +868,17 @@ def _build_plain_json_inputs(problem, param_types, return_type):
                 [["ab", "a", "abc"]],
             ]
 
+    # ── day-of-the-year: dayOfYear(date: string) — date must be YYYY-MM-DD formatted ──
+    if 'day-of-the-year' in slug:
+        return [
+            ["2019-01-09"],
+            ["2019-02-10"],
+            ["2003-03-01"],
+            ["2004-03-01"],
+            ["2019-12-31"],
+            ["2000-01-01"],
+        ]
+
     # ── single plain string ──
     if first == 'string' and len(types) == 1:
         return [["abcabcbb"], ["bbbbb"], ["pwwkew"], [""], [" "], ["a"], ["aaaaaa"]]
@@ -1009,6 +1020,28 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [["word"], ["word","Word","wOrd"]],
             [["a"], ["a","A","b"]],
             [[], ["hello"]],
+        ]
+
+    # ── number-of-dice-rolls-with-target-sum: numRollsToTarget(n, k, target) — 3 integers ──
+    if 'number-of-dice-rolls-with-target-sum' in slug:
+        return [
+            [1, 6, 3],
+            [2, 6, 7],
+            [30, 30, 500],
+            [1, 1, 1],
+            [2, 6, 13],
+            [3, 4, 5],
+        ]
+
+    # ── find-words-that-can-be-formed-by-characters: countCharacters(words: string[], chars: string) ──
+    if 'find-words-that-can-be-formed-by-characters' in slug:
+        return [
+            [["cat","bt","hat","tree"], "atach"],
+            [["hello","world","leetcode"], "welldonehoneyr"],
+            [["a","b","c"], "abc"],
+            [[], "abc"],
+            [["aa","bb"], "ab"],
+            [["a"], ""],
         ]
 
     # ── single integer ──
@@ -1796,6 +1829,16 @@ def _build_design_inputs(problem, class_methods):
             [['CBTInserter', [1,2]], ['insert', 3], ['get_root']],
             [['CBTInserter', [1,2,3,4,5,6]], ['insert', 7], ['get_root']],
             [['CBTInserter', [1]], ['insert', 2], ['insert', 3], ['get_root']],
+        ]
+
+    # MajorityChecker: constructor(arr: number[]) + query(left, right, threshold)
+    if 'online-majority-element-in-subarray' in slug:
+        arr = [1, 1, 2, 2, 1, 1]
+        return [
+            [[fn_name, arr], ['query', 0, 5, 4]],
+            [[fn_name, [1, 2, 3, 2, 1, 2]], ['query', 0, 5, 3], ['query', 1, 3, 2]],
+            [[fn_name, [1, 1, 1, 1, 1]], ['query', 0, 4, 3]],
+            [[fn_name, [3, 3, 3, 3, 3]], ['query', 0, 4, 5]],
         ]
 
     # Generic fallback: try up to 4 methods with dummy args
