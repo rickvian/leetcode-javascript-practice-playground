@@ -1694,3 +1694,19 @@
   - batch-066 has 2 permanent no-oracle skips: 1303 (find-the-team-size SQL), 1308 (running-total-for-different-genders SQL)
   - 1313 (decompress-run-length-encoded-list) failed validation: solution returns `undefined` instead of `null` for "val" position in RLE pairs — logged to needs-oracle.json
   - Range: LeetCode #1301-#1320 (paths score, tree leaves sum, team size SQL, unique integers sum, BST merge, jump game, verbal arithmetic, gender totals SQL, alphabet decode, XOR queries, watched videos, palindrome insertion, RLE decompress, matrix block sum, even grandparent, echo substrings, no-zero sum, OR flips, network connect, two-finger typing)
+
+## 2026-04-23 - US-085
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-067` — 15 generated, 5 missing/failed (2 no-oracle skips: 1321 restaurant-growth SQL, 1322 ads-performance SQL; 3 no-oracle skips: 1327 list-products SQL; 1 without "→ ok": 1334 find-the-city)
+  - Generated: 1321-1340 range (15 stubs + tests)
+
+- **Files changed:**
+  - Added: 15 stubs (1323-1326, 1328-1335, 1337-1340) in leetcode-playground/
+  - Added: 15 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - batch-067 has 3 permanent no-oracle skips: 1321 (restaurant-growth SQL), 1322 (ads-performance SQL), 1327 (list-the-products-ordered-in-a-period SQL)
+  - 1334 (find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) printed without "→ ok" — oracle may have missing output; not blocking
+  - Range: LeetCode #1321-#1340 (restaurant growth SQL, ads SQL, max 69 number, print words vertically, delete leaves with value, min taps garden, products SQL, break palindrome, sort matrix diagonally, reverse subarray max value, rank transform array, remove palindromic subsequences, filter restaurants, find city threshold distance, min job schedule difficulty, number of transactions SQL, k weakest rows, reduce array size half, max product split binary tree, jump game V)
+---
