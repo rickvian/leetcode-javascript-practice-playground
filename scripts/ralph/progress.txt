@@ -1,3 +1,23 @@
+## 2026-04-23 - US-072
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-055` — first run: 10 generated, 10 missing/failed
+  - Fixed 4 failures with generator fixes; re-ran: 4 more generated; total 14/20 (6 permanent: 5 SQL no-oracle + 1 MountainArray interface)
+  - Generated: 1081-1100 (14 stubs + tests)
+
+- **Files changed:**
+  - Added: 14 stubs (1081, 1085-1094, 1096, 1099-1100) in leetcode-playground/
+  - Added: 14 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (4 fixes)
+  - Modified: scripts/ralph/needs-oracle.json (removed resolved entries)
+
+- **Learnings:**
+  - `two-sum-less-than-k` (1099): `twoSumLessThanK(nums, k)` returns a single integer (max sum < k, or -1), NOT a pair of indices. The `'two-sum' in slug` check was routing it to `any-valid-pair-summing` template which calls `.toHaveLength(2)` on the result. Fix: add `'two-sum-less-than-k' not in slug` guard to the any-valid-pair-summing branch.
+  - `high-five` (1086): `highFive(items)` requires valid `[id, score]` pairs. The generic `number[][]` handler generates bare integers like `[[1]]` which causes `Math.floor(undefined/5) = NaN` mismatch vs oracle null. Fix: add slug override with proper `[[id, score], ...]` test inputs.
+  - `statistics-from-a-large-sample` (1093): `sampleStats(count)` requires exactly 256-element arrays. Generic `number[]` handler passes short arrays (e.g. `[]`, `[-1, 0, 1]`) which are out-of-constraint, producing NaN/undefined vs oracle null. Fix: add slug override generating valid 256-element count arrays via `[0]*256` base + specific frequency assignments.
+  - `duplicate-zeros` (1089): `duplicateZeros(arr)` modifies array in-place and returns void, but was classified as `plain-json` (not in the `in-place-mutation` keyword list). Oracle output was `null` which gets skipped (line 1856 filter). Fix: add `'duplicate-zeros'` to the `in-place-mutation` slug keywords.
+  - `find-in-mountain-array` (1095): Uses a `MountainArray` interface (`.get(k)`, `.length()`), not a plain array. The oracle runner cannot construct this interface from plain JSON inputs. Permanent needs-oracle entry.
+---
+
 ## 2026-04-23 - US-064
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-048` — first run: 18 generated, 2 missing/failed
