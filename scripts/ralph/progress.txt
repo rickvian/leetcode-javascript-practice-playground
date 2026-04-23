@@ -1630,3 +1630,19 @@
   - `1238-circular-permutation-in-binary-representation` uses `permutation-invariant` mode but still had no "ok" output from the generator — likely an oracle execution issue, not a code problem.
   - Low-yield batch: only 11/20 generated. Problems in the 1220s range include many SQL, concurrency, and interface-heavy problems that skip naturally.
 ---
+
+## 2026-04-23 - US-081
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-063` — 11 generated, 9 missing/failed
+  - Generated: 1243-1260 range (11 stubs + tests); 4 skipped (no oracle: SQL/multithreaded problems), 5 gen'd without ok confirmation
+
+- **Files changed:**
+  - Added: 11 stubs (1243-1246, 1248-1250, 1254, 1256, 1259-1260) in leetcode-playground/
+  - Added: 11 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - batch-063 has 4 permanent no-oracle skips: 1241 (SQL), 1242 (multithreaded), 1247, 1251 (SQL)
+  - 5 problems (1252, 1253, 1255, 1257, 1258) printed "gen" but no "→ ok" confirmation — likely generator fallback issues; not blocking commit per story notes
+  - Problems 1252-1260 range: mix of design, matrix, graph, and string problems
+---
