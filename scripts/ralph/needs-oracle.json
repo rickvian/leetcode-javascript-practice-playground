@@ -1163,5 +1163,45 @@
     "id": "0999",
     "slug": "available-captures-for-rook",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1001",
+    "slug": "grid-illumination",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1005",
+    "slug": "maximize-sum-of-array-after-k-negations",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "1028",
+    "slug": "recover-a-tree-from-preorder-traversal",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "1032",
+    "slug": "stream-of-characters",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "1033",
+    "slug": "moving-stones-until-consecutive",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "1034",
+    "slug": "coloring-a-border",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1036",
+    "slug": "escape-a-large-maze",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1040",
+    "slug": "moving-stones-until-consecutive-ii",
+    "reason": "validation failed after 3 attempts"
   }
 ]
