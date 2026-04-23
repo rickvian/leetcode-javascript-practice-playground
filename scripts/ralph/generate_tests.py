@@ -937,6 +937,25 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             ["abcd", 4],
         ]
 
+    # ── minimize-malware-spread / minimize-malware-spread-ii: (graph: number[][], initial: number[]) ──
+    if 'minimize-malware-spread' in slug:
+        return [
+            [[[1,1,0],[1,1,0],[0,0,1]], [0,1]],
+            [[[1,1,0],[1,1,0],[0,0,1]], [0,2]],
+            [[[1,0,0],[0,1,0],[0,0,1]], [0,2]],
+            [[[1,1,1],[1,1,1],[1,1,1]], [0,1]],
+            [[[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]], [1,3]],
+            [[[1,1,0,0],[1,1,0,0],[0,0,1,1],[0,0,1,1]], [0,2,3]],
+        ]
+
+    # ── beautiful-array: beautifulArray(n) — large n causes OOM ──
+    if 'beautiful-array' in slug:
+        return [[1], [2], [3], [4], [5], [6]]
+
+    # ── knight-dialer: knightDialer(n) — large n causes timeout ──
+    if 'knight-dialer' in slug:
+        return [[1], [2], [3], [4], [5], [6]]
+
     # ── single integer ──
     if len(types) == 1 and first in ('number', 'integer', 'int'):
         return [[121], [-121], [10], [0], [-1], [1534236469]]

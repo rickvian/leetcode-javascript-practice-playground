@@ -4,4 +4,5 @@ node_modules/
 .env
 
 .vscode/
+scripts/ralph/__pycache__/generate_tests.cpython-313.pyc
 core
