@@ -1648,5 +1648,60 @@
     "id": "1258",
     "slug": "synonymous-sentences",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1261",
+    "slug": "find-elements-in-a-contaminated-binary-tree",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "1263",
+    "slug": "minimum-moves-to-move-a-box-to-their-target-location",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1264",
+    "slug": "page-recommendations",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1265",
+    "slug": "print-immutable-linked-list-in-reverse",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "1268",
+    "slug": "search-suggestions-system",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1270",
+    "slug": "all-people-report-to-the-given-manager",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1272",
+    "slug": "remove-interval",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1273",
+    "slug": "delete-tree-nodes",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1274",
+    "slug": "number-of-ships-in-a-rectangle",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1279",
+    "slug": "traffic-light-controlled-intersection",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1280",
+    "slug": "students-and-examinations",
+    "reason": "oracleTier=missing"
   }
 ]
