@@ -390,7 +390,7 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if 'count-primes' in slug:
         return [[0], [1], [2], [10], [100], [1000]]
 
-    if 'ugly-number-ii' in slug or 'perfect-squares' in slug:
+    if ('ugly-number-ii' in slug and 'ugly-number-iii' not in slug) or 'perfect-squares' in slug:
         return [[1], [2], [3], [4], [10], [12]]
 
     if 'kth-largest' in slug:
@@ -1047,6 +1047,28 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     # ── prime-arrangements: numPrimeArrangements(n) — 1<=n<=100, avoid large n timeout ──
     if 'prime-arrangements' in slug:
         return [[1], [2], [3], [5], [10], [100]]
+
+    # ── ugly-number-iii: nthUglyNumber(n, a, b, c) — 4 integers; avoid large a*b LCM overflow ──
+    if 'ugly-number-iii' in slug:
+        return [
+            [3, 2, 3, 5],
+            [4, 2, 3, 4],
+            [5, 2, 11, 13],
+            [1, 1, 2, 3],
+            [10, 6, 10, 15],
+            [100, 2, 3, 5],
+        ]
+
+    # ── smallest-string-with-swaps: smallestStringWithSwaps(s, pairs) — (string, number[][]) ──
+    if 'smallest-string-with-swaps' in slug:
+        return [
+            ["dcab", [[0,3],[1,2]]],
+            ["dcab", [[0,3],[1,2],[0,2]]],
+            ["cba", [[0,1],[1,2]]],
+            ["a", []],
+            ["ab", [[0,1]]],
+            ["zyx", [[0,1],[1,2],[0,2]]],
+        ]
 
     # ── single integer ──
     if len(types) == 1 and first in ('number', 'integer', 'int'):

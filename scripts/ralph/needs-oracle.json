@@ -1528,5 +1528,35 @@
     "id": "1199",
     "slug": "minimum-time-to-build-blocks",
     "reason": "uses LeetCode platform PriorityQueue class"
+  },
+  {
+    "id": "1202",
+    "slug": "smallest-string-with-swaps",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1201",
+    "slug": "ugly-number-iii",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1204",
+    "slug": "last-person-to-fit-in-the-bus",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1205",
+    "slug": "monthly-transactions-ii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1211",
+    "slug": "queries-quality-and-percentage",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1212",
+    "slug": "team-scores-in-football-tournament",
+    "reason": "oracleTier=missing"
   }
 ]
