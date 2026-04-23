@@ -1411,3 +1411,22 @@
   - Problems 1002-1020 all used plain-json/exact-equal category with no special handling needed
   - 1019-next-greater-node-in-linked-list used pointer-linked-list/exact-equal category (linked list input)
 ---
+
+## 2026-04-23 - US-069
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-052` — 14 generated, 6 missing/failed
+  - 3 permanent needs-oracle entries (1028, 1033, 1040); 3 others (1032, 1034, 1036) had no "ok" status (skipped or design-class)
+  - Generated: 1021-1039 (14 of 20)
+
+- **Files changed:**
+  - Added: 14 stubs in leetcode-playground/
+  - Added: 14 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json (3 new entries for 1028, 1033, 1040)
+
+- **Learnings:**
+  - 1028-recover-a-tree-from-preorder-traversal: validation failed — oracle returns nodes, not plain JSON; logged to needs-oracle.json
+  - 1033-moving-stones-until-consecutive: validation failed — tuple output with NaN in second slot; needs manual oracle
+  - 1040-moving-stones-until-consecutive-ii: validation failed — same tuple/NaN issue as 1033
+  - 1032-stream-of-characters: design-class sequence type; requires class instantiation — generator skipped it without emitting
+  - 1034/1036: no test files emitted (silent skip or missing oracle data)
+---
