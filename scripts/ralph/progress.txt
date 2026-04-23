@@ -1,3 +1,25 @@
+## 2026-04-23 - US-076
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-059` — first run: 10 generated, 10 missing/failed
+  - Fixed 6 failures with generator fixes; re-ran twice; total 16/20 (4 permanent: SQL no-oracle)
+  - Generated: 1161-1180 (16 stubs + tests)
+
+- **Files changed:**
+  - Added: 16 stubs (1161-1163, 1165-1172, 1175-1178, 1180) in leetcode-playground/
+  - Added: 16 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (5 slug overrides + 1 design-class override)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `design-file-system` (1166): Generic fallback passes `1` as path arg to `createPath(path: string, value: number)` → `path.lastIndexOf is not a function`. Fix: add `design-file-system` slug override in `_build_design_inputs` with proper `/path/string` args.
+  - `optimize-water-distribution-in-a-village` (1168): `minCostToSupplyWater(n, wells, pipes)` — `(number, number[], number[][])` 3-param combo has no generic handler; falls to fallback. Fix: add slug override.
+  - `compare-strings-by-frequency` (1170): `numSmallerByFrequency(queries: string[], words: string[])` — `(string[], string[])` combo falls through all handlers to fallback (returns number arrays). Fix: add slug override before fallback.
+  - `prime-arrangements` (1175): `numPrimeArrangements(n)` — single integer, but generic handler passes `n=1534236469` → `isPrime` loops to sqrt(1.5B)≈39K, and outer loop counts primes up to 1.5B ≈ timeout. Fix: add slug override BEFORE the generic single-integer check (line ~1048), not after it, since the generic handler returns first.
+  - `can-make-palindrome-from-substring` (1177): `canMakePaliQueries(s: string, queries: number[][])` — `(string, number[][])` combo has no handler. Fix: add slug override.
+  - `number-of-valid-words-for-each-puzzle` (1178): `findNumOfValidWords(words: string[], puzzles: string[])` — same `(string[], string[])` pattern as 1170. Fix: add slug override.
+  - **Placement matters**: Slug overrides for single-integer problems MUST be placed before the `# ── single integer ──` generic check (line ~1048), not near the bottom fallback — the generic check returns early and the bottom code is never reached.
+---
+
 ## 2026-04-23 - US-072
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-055` — first run: 10 generated, 10 missing/failed
