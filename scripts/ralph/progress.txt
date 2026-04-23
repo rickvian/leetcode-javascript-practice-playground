@@ -1502,3 +1502,22 @@
   - 1111 (maximum-nesting-depth-of-two-valid-parentheses-strings): Stub returns `-0` instead of `+0` for zero elements in the result array — JavaScript sign-of-zero issue in stub arithmetic.
   - 1110 (delete-nodes-and-return-forest): Classified as pointer-tree but no test file was emitted, likely because the return type is an array of TreeNodes, not a single TreeNode.
 ---
+
+## 2026-04-23 - US-074
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-057` — 12 generated, 8 missing/failed
+  - 3 permanent skips (SQL no-oracle): 1126-active-businesses, 1127-user-purchase-platform, 1132-reported-posts-ii
+  - 5 missing cases: 1125-smallest-sufficient-team, 1129-shortest-path-with-alternating-colors, 1135-connecting-cities-with-minimum-cost, 1136-parallel-courses, 1137-n-th-tribonacci-number (no oracle or timeout)
+  - Generated: 1121-1124, 1128, 1130-1131, 1133-1134, 1138-1140 (12 stubs + tests)
+
+- **Files changed:**
+  - Added: 12 stubs in leetcode-playground/
+  - Added: 12 tests in leetcode-playground/tests/
+
+- **Learnings:**
+  - oracle_run timeout (30s) printed at start — some problems time out during oracle execution and produce no output, resulting in missing/failed counts
+  - 1125-smallest-sufficient-team likely times out (NP-hard bitmask DP); no output from oracle
+  - 1129-shortest-path-with-alternating-colors: possibly times out or needs special graph structure input
+  - 1135/1136: graph problems (MST, parallel courses) may time out or lack oracle
+  - 1137-n-th-tribonacci-number: missing oracle despite being simple — may be in needs-oracle.json
+---
