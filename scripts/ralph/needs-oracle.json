@@ -1773,5 +1773,30 @@
     "id": "1319",
     "slug": "number-of-operations-to-make-network-connected",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1321",
+    "slug": "restaurant-growth",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1322",
+    "slug": "ads-performance",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1327",
+    "slug": "list-the-products-ordered-in-a-period",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1334",
+    "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1336",
+    "slug": "number-of-transactions-per-visit",
+    "reason": "oracleTier=missing"
   }
 ]
