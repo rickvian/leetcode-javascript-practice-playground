@@ -1044,6 +1044,10 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [["a"], ""],
         ]
 
+    # ── prime-arrangements: numPrimeArrangements(n) — 1<=n<=100, avoid large n timeout ──
+    if 'prime-arrangements' in slug:
+        return [[1], [2], [3], [5], [10], [100]]
+
     # ── single integer ──
     if len(types) == 1 and first in ('number', 'integer', 'int'):
         return [[121], [-121], [10], [0], [-1], [1534236469]]
@@ -1274,6 +1278,48 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     # ── number[][] ──
     if len(types) == 1 and first in ('number[][]', 'integer[][]'):
         return [[[[1, 2], [3, 4]]], [[[1]]], [[[]]], [[[1, 2, 3], [4, 5, 6], [7, 8, 9]]]]
+
+    # ── optimize-water-distribution: minCostToSupplyWater(n, wells, pipes) — (number, number[], number[][]) ──
+    if 'optimize-water-distribution' in slug:
+        return [
+            [1, [2], []],
+            [2, [1, 1], [[1, 2, 1]]],
+            [3, [1, 2, 2], [[1, 2, 1], [2, 3, 1]]],
+            [3, [1, 2, 2], [[1, 2, 1], [2, 3, 1], [1, 3, 2]]],
+            [2, [10, 10], []],
+            [1, [1], []],
+        ]
+
+    # ── compare-strings-by-frequency: numSmallerByFrequency(queries: string[], words: string[]) ──
+    if 'compare-strings-by-frequency' in slug:
+        return [
+            [["cbd"], ["zaaaz"]],
+            [["bbb","cc"], ["a","aa","aaa","aaaa"]],
+            [["a"], ["a","aa","aaa"]],
+            [[], ["a"]],
+            [["dc"], ["dc"]],
+            [["zzz"], ["a","b"]],
+        ]
+
+    # ── can-make-palindrome-from-substring: canMakePaliQueries(s: string, queries: number[][]) ──
+    if 'can-make-palindrome-from-substring' in slug:
+        return [
+            ["abcda", [[3,3,0],[1,2,0],[0,3,1],[0,3,2],[0,4,1]]],
+            ["lyb", [[0,1,0],[2,2,1]]],
+            ["a", [[0,0,0]]],
+            ["aab", [[0,2,0],[0,2,1]]],
+            ["abcd", [[0,3,0],[0,3,1],[0,3,2]]],
+        ]
+
+    # ── number-of-valid-words-for-each-puzzle: findNumOfValidWords(words: string[], puzzles: string[]) ──
+    if 'number-of-valid-words-for-each-puzzle' in slug:
+        return [
+            [["aaaa","asas","able","ability","actt","actor","access"],["aboveyz","abrodyz","abslute","absoryz","actresz","gaswxyz"]],
+            [["apple","pleas","please"],["aelps","aelpz","aelpsz"]],
+            [[], ["abcdefg"]],
+            [["a","b","c"], ["abc","def"]],
+            [["hello","world"], ["helo","wrd"]],
+        ]
 
     # fallback: try single number array
     return [[[1, 2, 3]], [[]], [[0]], [[-1, 0, 1]]]
@@ -1839,6 +1885,31 @@ def _build_design_inputs(problem, class_methods):
             [[fn_name, [1, 2, 3, 2, 1, 2]], ['query', 0, 5, 3], ['query', 1, 3, 2]],
             [[fn_name, [1, 1, 1, 1, 1]], ['query', 0, 4, 3]],
             [[fn_name, [3, 3, 3, 3, 3]], ['query', 0, 4, 5]],
+        ]
+
+    # design-file-system: FileSystem() + createPath(path: string, value: number) + get(path: string)
+    if 'design-file-system' in slug and fn_name == 'FileSystem':
+        return [
+            [[fn_name],
+             ['createPath', '/leet', 1],
+             ['createPath', '/leet/code', 2],
+             ['get', '/leet'],
+             ['get', '/leet/code'],
+             ['createPath', '/c/d', 1]],
+            [[fn_name],
+             ['createPath', '/a', 1],
+             ['createPath', '/a/b', 2],
+             ['createPath', '/a/b/c', 3],
+             ['get', '/a'],
+             ['get', '/a/b/c'],
+             ['get', '/z']],
+            [[fn_name],
+             ['createPath', '/root', 10],
+             ['createPath', '/root/child', 20],
+             ['createPath', '/root', 5],
+             ['get', '/root'],
+             ['createPath', '/orphan/child', 1],
+             ['get', '/orphan']],
         ]
 
     # Generic fallback: try up to 4 methods with dummy args

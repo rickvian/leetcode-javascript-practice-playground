@@ -1438,5 +1438,55 @@
     "id": "1159",
     "slug": "market-analysis-ii",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1166",
+    "slug": "design-file-system",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "1168",
+    "slug": "optimize-water-distribution-in-a-village",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1170",
+    "slug": "compare-strings-by-frequency-of-the-smallest-character",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1177",
+    "slug": "can-make-palindrome-from-substring",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1178",
+    "slug": "number-of-valid-words-for-each-puzzle",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1175",
+    "slug": "prime-arrangements",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "1164",
+    "slug": "product-price-at-a-given-date",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1173",
+    "slug": "immediate-food-delivery-i",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1174",
+    "slug": "immediate-food-delivery-ii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1179",
+    "slug": "reformat-department-table",
+    "reason": "oracleTier=missing"
   }
 ]
