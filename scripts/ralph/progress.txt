@@ -1613,3 +1613,20 @@
   - Script output format: "Seeded N batch stories (batch-XXX through batch-YYY) + 1 Expand story" when still expanding
   - Script emits `<promise>COMPLETE</promise>` only when all 150 batches are seeded
 ---
+
+## 2026-04-23 - US-080
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-062` — 11 generated, 9 missing/failed
+  - No generator fixes needed; 9 problems had no oracle (SQL, concurrent, or complex types)
+  - Generated: 1221, 1223-1224, 1227-1228, 1230-1235 (11 stubs + tests)
+
+- **Files changed:**
+  - Added: 11 stubs in leetcode-playground/
+  - Added: 11 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - Batch-062 (1221-1240): 9 problems had no oracle — SQL (1225), concurrency (1226, 1237?), interface-dependent (1236 web crawler), permutation-invariant with no output generated (1238), and combinatorial hard problems (1239, 1240).
+  - `1238-circular-permutation-in-binary-representation` uses `permutation-invariant` mode but still had no "ok" output from the generator — likely an oracle execution issue, not a code problem.
+  - Low-yield batch: only 11/20 generated. Problems in the 1220s range include many SQL, concurrency, and interface-heavy problems that skip naturally.
+---
