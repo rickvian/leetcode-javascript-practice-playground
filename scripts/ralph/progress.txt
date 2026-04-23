@@ -1449,3 +1449,19 @@
   - 1057-campus-bikes: validation failed after 3 attempts — return type is number[] (bike index per worker), but test cases with non-square inputs caused expected [ null, null ] vs actual
   - 1059-all-paths-from-source-lead-to-destination: "no valid test cases generated" — boolean return but oracle couldn't produce valid cases for DAG inputs
 ---
+
+## 2026-04-23 - US-071
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-054` — 12 generated, 8 missing/failed
+  - 8 skipped: 1066-campus-bikes-ii (no "→ ok"), 1067-digit-count-in-range (no "→ ok"), and 6 SQL problems (1068-1070, 1075-1077)
+  - Generated: 1061-1065, 1071-1074, 1078-1080
+
+- **Files changed:**
+  - Added: 12 stubs in leetcode-playground/
+  - Added: 12 tests in leetcode-playground/tests/
+
+- **Learnings:**
+  - Batch-054 has 6 SQL/database problems (1068-1070 product-sales-analysis, 1075-1077 project-employees) — these have no oracle and are permanently skipped.
+  - 1066 (campus-bikes-ii) and 1067 (digit-count-in-range) showed in generator output without "→ ok" confirmation — no test files were emitted; likely missing oracle data.
+  - Red test output (all stubs return undefined) is expected and does NOT block the commit per story notes.
+---
