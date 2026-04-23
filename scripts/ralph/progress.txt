@@ -1678,3 +1678,19 @@
   - 1296 (divide-array-in-sets-of-k-consecutive-numbers) and 1298 (maximum-candies-you-can-get-from-boxes) generated stubs but printed without "→ ok" confirmation — likely fallback oracle issues; not blocking per story notes
   - Range: LeetCode #1281-#1300 (digit operations, grouping, divisor, binary matrix, combination iterator, sorted array, intervals, DP, linked list, sequential digits, square threshold, digit count, divide array, substring, candies, replace elements, mutated array)
 ---
+---
+
+## 2026-04-23 - US-084
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-066` — 11 generated, 9 missing/failed (2 no-oracle skips: 1303, 1308 SQL; 1 validation failure: 1313; 5 without "→ ok": 1304, 1307, 1310, 1311, 1318, 1319)
+  - Generated: 1301-1320 range (11 stubs + tests)
+
+- **Files changed:**
+  - Added: 11 stubs (1301-1302, 1305-1306, 1309, 1312, 1314-1317, 1320) in leetcode-playground/
+  - Added: 11 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - batch-066 has 2 permanent no-oracle skips: 1303 (find-the-team-size SQL), 1308 (running-total-for-different-genders SQL)
+  - 1313 (decompress-run-length-encoded-list) failed validation: solution returns `undefined` instead of `null` for "val" position in RLE pairs — logged to needs-oracle.json
+  - Range: LeetCode #1301-#1320 (paths score, tree leaves sum, team size SQL, unique integers sum, BST merge, jump game, verbal arithmetic, gender totals SQL, alphabet decode, XOR queries, watched videos, palindrome insertion, RLE decompress, matrix block sum, even grandparent, echo substrings, no-zero sum, OR flips, network connect, two-finger typing)
