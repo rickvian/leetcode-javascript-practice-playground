@@ -10,71 +10,97 @@
  * @return {string}
  */
 var minWindow = function (s, t) {
-  // Solution implementation
-
-  //! BREAKDOWN
   if (t === "") return "";
-  let countT = new Map(); // target character to compare
-  let window = new Map(); // current window of string
 
-  //! build count of targets mapping.
+  // A D O B E C O D E B A N C
+  //                   L
+  //                         R
+  //
+  // target: A B C
+  // -
+  // found: A D O B E C - length  6
+  // found: D O B E C O D E B A - length 10 (we have B as duplicate here, thats why we attempt shrink to hope finding smaller window that still satisfy)
+  // found: C O D E B A - length 6
+  // found: O D E B A N C - length 7
+  // found : B A N C - length 4 (shortest)
+  // we perform length collection and coordinate saving as we go
+
+  // approach: we will use pointer to check the substring,
+  // we will check if all characters in window satisfy all in target
+  // this will involve check the characters occurrence and its count
+  // so when the windows first satisfy, we can shrink from left
+  // we attempt to check if there are shorter string that satisfy it,
+  // if not, then we had to keep moving right to find new occurence windows
+
+  let l = 0;
+  let r = 0;
+
+  //! prepare, build counter for T
+
+  let countT = new Map(); // map character count
+  let window = new Map(); // map character count
+
   for (let c of t) {
-    countT.set(c, 1 + (countT.get(c) ?? 0));
+    countT.set(c, 1 + (countT.get(c) ?? 0)); // increment character occurrence
   }
 
-  // countT.set(c,1 + countT.get(c))
+  // we have t map now
 
-  let have = 0; // number of unique characters count that we have satisfy against
-  let need = countT.size; // get the number of unique characters required by t (target)
-  let res = [-1, -1]; // coordinate of minimum left and right substring
-  let resLen = Infinity; // tracks the minimum length and updates as we collect
-  let l = 0; // sliding window, left pointer.
+  // A D O B E C O D E B A N C
+  // L
+  // R
+  // target: A B C
 
-  // iterate through character within S
+  // window: { A: 1 }
+  // countT : { A: 1: B:1 C:1 }
+  let have = 0; // unique characters we collected in window
+  let need = countT.size; // unique characters to satisfy
+
+  let res = [-1, -1]; // substring of lowest substring record
+  let lowestLen = Infinity; // to store record low
+
+  // now go through window and perform check
   for (let r = 0; r < s.length; r++) {
-    //! t the count of each window's character
-    let c = s[r];
-    window.set(c, 1 + (window.get(c) ?? 0)); // increment counter to the window.
+    window.set(s[r], 1 + (window.get(s[r]) ?? 0)); // increment new counters in window
 
-    //! we compare and update how many unique character we satisfy so far
-    if (countT.has(c) && window.get(c) === countT.get(c)) {
-      have += 1; // count the matching pair we have right now
+    // when we satisfy the target unique character counter, we increment "have"
+    if (countT.has(s[r]) && countT.get(s[r]) === window.get(s[r])) {
+      have += 1;
     }
 
-    //!
     while (have === need) {
-      //  means current window has satisfy the target
-      //> update our result
+      // we satisfy the target, record the length and coordinate
+      let windowLength = r - l + 1;
 
-      const windowLength = r - l + 1;
-
-      if (windowLength < resLen) {
-        // we found a smaller length
+      if (windowLength < lowestLen) {
+        // found new record
         res = [l, r];
-        resLen = windowLength;
+        lowestLen = windowLength;
       }
 
-      //! pop from the left of our window
-      const leftChar = s[l];
-      window.set(leftChar, window.get(leftChar) - 1); // remove the counter of that character because we move the window out
-      // check if the removal cause us lost what we have to satisfy the target
+      // now we can try shrink the window, by moving l see if we can find more record low
+
+      // directly attempt to pop left
+
+      let leftChar = s[l];
+      window.set(leftChar, window.get(leftChar) - 1);
+
+      // does that affect the requirement againts the target
       if (countT.has(leftChar) && window.get(leftChar) < countT.get(leftChar)) {
-        have -= 1; // no longer satisfy this char.
+        have--; // yes, it affects the requirement
       }
-      l += 1; // move left pointer because we want to find minimum, checking smaller window.
-      // until we no longer have ===
+
+      l++;
     }
   }
 
-  // at this point we already have coordinates on minimum string
-  let [lRes, rRes] = res; // get the coordinate
+  // now we should have the coordinate of the shortest
 
-  if (resLen != Infinity) {
-    // means new min is found, return it
-    return s.slice(lRes, rRes + 1); // include character in r
+  let [resLeft, resRight] = res;
+
+  if (lowestLen != Infinity) {
+    return s.slice(resLeft, resRight + 1);
   }
-
-  // else
 
   return "";
 };
