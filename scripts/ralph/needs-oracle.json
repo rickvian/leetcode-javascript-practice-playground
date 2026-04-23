@@ -1703,5 +1703,75 @@
     "id": "1280",
     "slug": "students-and-examinations",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1285",
+    "slug": "find-the-start-and-end-number-of-continuous-ranges",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1293",
+    "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1294",
+    "slug": "weather-type-in-each-country",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1296",
+    "slug": "divide-array-in-sets-of-k-consecutive-numbers",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "1298",
+    "slug": "maximum-candies-you-can-get-from-boxes",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1303",
+    "slug": "find-the-team-size",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1304",
+    "slug": "find-n-unique-integers-sum-up-to-zero",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "1307",
+    "slug": "verbal-arithmetic-puzzle",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1308",
+    "slug": "running-total-for-different-genders",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1310",
+    "slug": "xor-queries-of-a-subarray",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1311",
+    "slug": "get-watched-videos-by-your-friends",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1313",
+    "slug": "decompress-run-length-encoded-list",
+    "reason": "validation failed after 3 attempts"
+  },
+  {
+    "id": "1318",
+    "slug": "minimum-flips-to-make-a-or-b-equal-to-c",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1319",
+    "slug": "number-of-operations-to-make-network-connected",
+    "reason": "no valid test cases generated"
   }
 ]
