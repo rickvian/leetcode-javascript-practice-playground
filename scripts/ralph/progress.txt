@@ -1521,3 +1521,22 @@
   - 1135/1136: graph problems (MST, parallel courses) may time out or lack oracle
   - 1137-n-th-tribonacci-number: missing oracle despite being simple — may be in needs-oracle.json
 ---
+
+## 2026-04-23 - US-075
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-058` — first run: 10 generated, 10 missing/failed
+  - Fixed 4 failures with generator fixes; re-ran: 4 more generated; total 14/20 (6 permanent: 6 SQL no-oracle)
+  - Generated: 1143-1160 (14 stubs + tests)
+
+- **Files changed:**
+  - Added: 14 stubs (1143-1147, 1150-1157, 1160) in leetcode-playground/
+  - Added: 14 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (4 new slug overrides)
+  - Modified: scripts/ralph/needs-oracle.json (removed resolved entries)
+
+- **Learnings:**
+  - `day-of-the-year` (1154): `dayOfYear(date: string)` — date must be YYYY-MM-DD formatted. Added slug override, BUT placement order matters: slug override must come BEFORE the generic `if first == 'string' and len(types) == 1:` handler, otherwise the generic handler returns first. Slug overrides placed after generic type-based handlers are silently bypassed.
+  - `number-of-dice-rolls-with-target-sum` (1155): `numRollsToTarget(n, k, target)` takes 3 integers. No generic 3-integer handler exists in `_build_plain_json_inputs`. Added slug override with valid (n, k, target) tuples before the generic handlers.
+  - `online-majority-element-in-subarray` (1157): `MajorityChecker(arr: number[])` — design class where constructor takes `arr: number[]`. Generic fallback passes no constructor args → `arr` is undefined → `arr.length` throws. Fix: add slug override before the generic fallback in `_build_design_inputs`.
+  - `find-words-that-can-be-formed-by-characters` (1160): `countCharacters(words: string[], chars: string)` — `(string[], string)` combo has no generic handler. Added slug override (placed after the `string[]` handler which only covers single-array case).
+---
