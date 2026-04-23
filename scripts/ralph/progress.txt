@@ -1360,3 +1360,22 @@
   - batch-044 produced 4 missing/failed out of 20 — no slug override attempts were made this iteration (let generate_tests.py handle it natively; logged to needs-oracle.json).
   - Red test output (undefined vs expected) is correct — stubs are blank `// implement` placeholders, not a regression.
 ---
+
+## 2026-04-23 - US-065
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-049` — first run (after needs-oracle.json trailing-comma fix): 15 generated, 3 skipped, 2 missing/failed
+  - Fixed both failures with slug overrides; re-ran: 2 more generated; total 20/20
+  - 0 permanent needs-oracle entries this batch
+  - Generated: 0961-0980
+
+- **Files changed:**
+  - Added: 20 stubs (0961-0980) in leetcode-playground/
+  - Added: 20 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (2 new slug overrides)
+  - Fixed: scripts/ralph/needs-oracle.json (trailing comma caused JSONDecodeError — fixed by stripping trailing commas)
+
+- **Learnings:**
+  - `least-operators-to-express-number` (0964): `leastOpsExpressTarget(x, target)` — two integers, but generic two-integer handler passes x=0 and x=1 which cause infinite loops (division by x with x=0→NaN, x=1→target never shrinks). Fix: add slug override with valid inputs where x ≥ 2 (LeetCode constraint: 2 ≤ x ≤ 100).
+  - `vowel-spellchecker` (0966): `spellchecker(words, queries)` — `(string[], string[])` combo has no generic handler in _build_plain_json_inputs. Fix: add slug override with wordlists and query arrays covering exact match, capitalization match, vowel match, and no match cases.
+  - `needs-oracle.json` trailing comma: The file had a trailing comma before the closing `]` that caused `json.JSONDecodeError`. Fix: use `re.sub(r',\s*([}\]])', r'\1', content)` to strip trailing commas before loading.
+---
