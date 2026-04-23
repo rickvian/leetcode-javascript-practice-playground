@@ -267,8 +267,8 @@ userStories:
     (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
     newly generated test files\n- Commit with message: feat [US-079] - Implement batch-061"
   priority: 79
-  passes: false
-  notes: Stubs intentionally fail assertions — red test output is the expected 
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected
     state and does NOT block the commit. Do not run the full suite; scope to new
     files only.
 - id: US-080

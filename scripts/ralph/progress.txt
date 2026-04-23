@@ -1,3 +1,22 @@
+## 2026-04-23 - US-079
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-061` — first run: 14 generated, 6 missing/failed
+  - Fixed 2 failures with generator fixes; re-ran; total 16/20 (4 permanent: SQL no-oracle)
+  - Generated: 1201-1220 (16 stubs + tests)
+
+- **Files changed:**
+  - Added: 16 stubs (1201-1203, 1206-1210, 1213-1220) in leetcode-playground/
+  - Added: 16 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (3 fixes)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `ugly-number-iii` (1201): `'ugly-number-ii' in slug` check at line 393 matches `'ugly-number-iii'` because `-ii` is a substring of `-iii`. The generator fell into the wrong handler returning `[[1],[2],[3],...]` (1-arg inputs), causing `nthUglyNumber(1)` → `gcd(undefined,undefined)` infinite recursion → stack overflow. Fix: add `and 'ugly-number-iii' not in slug` guard to the `ugly-number-ii` check.
+  - `nthUglyNumber(n, a, b, c)` (1201): 4-integer signature needs slug override BEFORE any generic handler. Avoid `[1000000000, large_divisor1, large_divisor2]` inputs — `a*b` in the LCM computation overflows `Number.MAX_SAFE_INTEGER` for divisors ~2e8. Use small divisors (2, 3, 5, 6, etc.).
+  - `smallestStringWithSwaps` (1202): `(string, number[][])` combo has no generic handler, falls to fallback. Fix: add slug override with `[s, [[i,j],...]` test inputs.
+  - **Pattern**: slug substring matching is order-dependent. When adding a slug override for `foo-ii`, always check if `foo-iii` (or any future `foo-iiX`) could accidentally match — add exclusion guards if needed.
+---
+
 ## 2026-04-23 - US-076
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-059` — first run: 10 generated, 10 missing/failed
@@ -1577,4 +1596,20 @@
 - **Learnings:**
   - 1182 (shortest-distance-to-target-color) and 1185 (day-of-the-week) and 1192 (critical-connections-in-a-network) showed no "→ ok" lines in generator output — likely generator ran but produced 0 test cases or the oracle returned empty. No stubs were emitted for these.
   - `design-bounded-blocking-queue` (1188), SQL problems (1193-1194), multithreaded (1195), PriorityQueue (1199) are expected permanent skips.
+---
+
+## 2026-04-23 - US-078
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/expand_prd.py` to append next batch window
+  - Seeded 10 batch stories (batch-061 through batch-070) + 1 Expand story
+  - expandedUpTo: 60 → 70 of 150
+
+- **Files changed:**
+  - Modified: scripts/ralph/prd.yaml (143 insertions)
+  - Modified: scripts/ralph/manifest.json
+
+- **Learnings:**
+  - `expand_prd.py` automatically sets `passes: true` for the current Expand story in prd.yaml — no manual edit needed
+  - Script output format: "Seeded N batch stories (batch-XXX through batch-YYY) + 1 Expand story" when still expanding
+  - Script emits `<promise>COMPLETE</promise>` only when all 150 batches are seeded
 ---
