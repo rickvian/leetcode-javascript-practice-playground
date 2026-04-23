@@ -969,6 +969,21 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     if 'knight-dialer' in slug:
         return [[1], [2], [3], [4], [5], [6]]
 
+    # ── least-operators-to-express-number: leastOpsExpressTarget(x, target) — x=0 or x=1 causes infinite loop ──
+    if 'least-operators-to-express-number' in slug:
+        return [[3, 19], [5, 501], [2, 125], [10, 1000], [3, 1], [2, 2]]
+
+    # ── vowel-spellchecker: spellchecker(words, queries) — (string[], string[]) combo has no generic handler ──
+    if 'vowel-spellchecker' in slug:
+        return [
+            [["KiTe","KiTtY","hELLo"], ["kite","kitty","hello","kite"]],
+            [["yellow"], ["YellOw","yolow","yello","yells"]],
+            [["ae","aa"], ["Ae","aE","ae"]],
+            [["word"], ["word","Word","wOrd"]],
+            [["a"], ["a","A","b"]],
+            [[], ["hello"]],
+        ]
+
     # ── single integer ──
     if len(types) == 1 and first in ('number', 'integer', 'int'):
         return [[121], [-121], [10], [0], [-1], [1534236469]]

@@ -1129,4 +1129,14 @@
     "slug": "knight-dialer",
     "reason": "oracle_run failed"
   },
+  {
+    "id": "0964",
+    "slug": "least-operators-to-express-number",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "0966",
+    "slug": "vowel-spellchecker",
+    "reason": "no valid test cases generated"
+  }
 ]
