@@ -1663,3 +1663,18 @@
   - Problems 1263, 1268, 1272, 1273, 1274 printed "gen" but without "→ ok" confirmation — fallback issues; not blocking per story notes
   - Range: LeetCode #1261-#1280 (binary tree design, DP, BFS, linked list, geometry, grid, string problems)
 ---
+
+## 2026-04-23 - US-083
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-065` — 15 generated, 5 missing/failed (3 no-oracle skips: 1285, 1293, 1294 SQL/private; 2 with missing oracle output: 1296, 1298)
+  - Generated: 1281-1300 range (15 stubs + tests)
+
+- **Files changed:**
+  - Added: 15 stubs (1281-1284, 1286-1292, 1295, 1297, 1299-1300) in leetcode-playground/
+  - Added: 15 tests in leetcode-playground/tests/
+
+- **Learnings:**
+  - batch-065 has 3 permanent no-oracle skips: 1285 (continuous-ranges SQL), 1293 (grid obstacle BFS), 1294 (SQL weather)
+  - 1296 (divide-array-in-sets-of-k-consecutive-numbers) and 1298 (maximum-candies-you-can-get-from-boxes) generated stubs but printed without "→ ok" confirmation — likely fallback oracle issues; not blocking per story notes
+  - Range: LeetCode #1281-#1300 (digit operations, grouping, divisor, binary matrix, combination iterator, sorted array, intervals, DP, linked list, sequential digits, square threshold, digit count, divide array, substring, candies, replace elements, mutated array)
+---
