@@ -1646,3 +1646,20 @@
   - 5 problems (1252, 1253, 1255, 1257, 1258) printed "gen" but no "→ ok" confirmation — likely generator fallback issues; not blocking commit per story notes
   - Problems 1252-1260 range: mix of design, matrix, graph, and string problems
 ---
+
+## 2026-04-23 - US-082
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-064` — 9 generated, 11 missing/failed
+  - Generated: 1262, 1266-1267, 1269, 1271, 1275-1278 (9 stubs + tests)
+
+- **Files changed:**
+  - Added: 9 stubs in leetcode-playground/
+  - Added: 9 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - batch-064 has 4 permanent no-oracle skips: 1264, 1270, 1279, 1280 (SQL/concurrency/private)
+  - 1261 (design-class-sequence) and 1265 (pointer-linked-list) failed validation and were logged to needs-oracle.json
+  - Problems 1263, 1268, 1272, 1273, 1274 printed "gen" but without "→ ok" confirmation — fallback issues; not blocking per story notes
+  - Range: LeetCode #1261-#1280 (binary tree design, DP, BFS, linked list, geometry, grid, string problems)
+---
