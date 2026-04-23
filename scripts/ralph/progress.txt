@@ -1379,3 +1379,19 @@
   - `vowel-spellchecker` (0966): `spellchecker(words, queries)` — `(string[], string[])` combo has no generic handler in _build_plain_json_inputs. Fix: add slug override with wordlists and query arrays covering exact match, capitalization match, vowel match, and no match cases.
   - `needs-oracle.json` trailing comma: The file had a trailing comma before the closing `]` that caused `json.JSONDecodeError`. Fix: use `re.sub(r',\s*([}\]])', r'\1', content)` to strip trailing commas before loading.
 ---
+## 2026-04-23 - US-066
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-050` — 15 generated, 5 missing/failed
+  - Missing/failed: 0985-sum-of-even-numbers-after-queries, 0992-subarrays-with-k-different-integers, 0993-cousins-in-binary-tree, 0997-find-the-town-judge, 0999-available-captures-for-rook
+  - Generated: 0981-0984, 0986-0991, 0994-0996, 0998, 1000
+
+- **Files changed:**
+  - Added: 15 stubs (0981-1000 subset) in leetcode-playground/
+  - Added: 15 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json (5 entries added for missing/failed)
+
+- **Learnings:**
+  - batch-050 is the first batch to cross the 1000-problem boundary (0981-1000).
+  - 5 missing/failed this batch — no slug override attempts made; let generate_tests.py handle natively and log to needs-oracle.json.
+  - Red test output (undefined vs expected) is correct — stubs are blank `// implement` placeholders, not a regression.
+---
