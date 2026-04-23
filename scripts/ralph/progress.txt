@@ -1485,3 +1485,20 @@
   - 1066 (campus-bikes-ii) and 1067 (digit-count-in-range) showed in generator output without "→ ok" confirmation — no test files were emitted; likely missing oracle data.
   - Red test output (all stubs return undefined) is expected and does NOT block the commit per story notes.
 ---
+
+## 2026-04-23 - US-073
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-056` — 9 generated, 11 missing/failed
+  - Generated: 1101, 1103-1106, 1108, 1118-1120 (9 stubs + tests)
+  - Skipped: 1102 (platform PriorityQueue), 1107/1112-1117 (no oracle), 1109/1111 (validation failed, logged to needs-oracle.json), 1110 (pointer-tree, no test emitted)
+
+- **Files changed:**
+  - Added: 9 stubs in leetcode-playground/
+  - Added: 9 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - 1109 (corporate-flight-bookings): Stub returns `[3, 3, undefined, NaN]` vs expected `[3, 3, null, null]` — the stub initializes via `new Array(n)` (sparse) instead of `Array(n).fill(null)`. Oracle validation detects null vs undefined/NaN mismatch.
+  - 1111 (maximum-nesting-depth-of-two-valid-parentheses-strings): Stub returns `-0` instead of `+0` for zero elements in the result array — JavaScript sign-of-zero issue in stub arithmetic.
+  - 1110 (delete-nodes-and-return-forest): Classified as pointer-tree but no test file was emitted, likely because the return type is an array of TreeNodes, not a single TreeNode.
+---
