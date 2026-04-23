@@ -1395,3 +1395,19 @@
   - 5 missing/failed this batch — no slug override attempts made; let generate_tests.py handle natively and log to needs-oracle.json.
   - Red test output (undefined vs expected) is correct — stubs are blank `// implement` placeholders, not a regression.
 ---
+
+## 2026-04-23 - US-068
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-051` — 18 generated, 2 missing/failed
+  - Missing/failed: 1001-grid-illumination, 1005-maximize-sum-of-array-after-k-negations (oracle timeout)
+  - Generated: 1002-1004, 1006-1020
+
+- **Files changed:**
+  - Added: 18 stubs (1002-1004, 1006-1020) in leetcode-playground/
+  - Added: 18 tests in leetcode-playground/tests/
+
+- **Learnings:**
+  - 1001-grid-illumination and 1005-maximize-sum-of-array-after-k-negations both hit oracle_run timeout (30s), skipped as missing/failed — consistent with prior batches pattern where complex/heavy problems timeout
+  - Problems 1002-1020 all used plain-json/exact-equal category with no special handling needed
+  - 1019-next-greater-node-in-linked-list used pointer-linked-list/exact-equal category (linked list input)
+---
