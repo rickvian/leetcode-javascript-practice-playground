@@ -1430,3 +1430,22 @@
   - 1032-stream-of-characters: design-class sequence type; requires class instantiation — generator skipped it without emitting
   - 1034/1036: no test files emitted (silent skip or missing oracle data)
 ---
+
+## 2026-04-23 - US-070
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-053` — 0 newly generated, 15 skipped (exists), 5 missing/failed
+  - Files 1041, 1043-1044, 1046-1049, 1051-1056, 1058, 1060 already existed (untracked from prior run)
+  - Failed: 1042 (no valid test cases), 1045/1050 (oracleTier=missing/database), 1057 (validation failed), 1059 (no valid test cases)
+  - Generated: 1041-1060 range (15 stubs+tests committed, 5 skipped/failed)
+
+- **Files changed:**
+  - Added: 15 stubs in leetcode-playground/
+  - Added: 15 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json (1042, 1057, 1059 added)
+
+- **Learnings:**
+  - 1042-flower-planting-with-no-adjacent: "no valid test cases generated" — graph coloring return type is number[] where values 1-4 may be one of multiple valid colorings; oracle validation rejects non-deterministic outputs
+  - 1045/1050: database problems (SQL), oracleTier=missing, permanently skipped
+  - 1057-campus-bikes: validation failed after 3 attempts — return type is number[] (bike index per worker), but test cases with non-square inputs caused expected [ null, null ] vs actual
+  - 1059-all-paths-from-source-lead-to-destination: "no valid test cases generated" — boolean return but oracle couldn't produce valid cases for DAG inputs
+---
