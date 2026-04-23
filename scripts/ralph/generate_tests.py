@@ -137,7 +137,7 @@ def get_input_category(problem, param_types):
             'sort-list-in-place', 'merge-sorted-array',
             'reverse-words-in-a-string-ii', 'wiggle-sort',
             'walls-and-gates', 'game-of-life',
-            'reverse-string')):
+            'reverse-string', 'duplicate-zeros')):
         return 'in-place-mutation'
 
     return 'plain-json'
@@ -152,7 +152,7 @@ def get_assertion_template(problem, param_types, return_type):
     is_class_heavy = problem.get('classHeavy') and slug not in PLAIN_FN_SLUGS
     if is_class_heavy or (slug not in PLAIN_FN_SLUGS and fn_name_ac and fn_name_ac[0].isupper()):
         return 'design-class-sequence'
-    if 'two-sum' in slug and return_type != 'boolean':
+    if 'two-sum' in slug and return_type != 'boolean' and 'two-sum-less-than-k' not in slug:
         return 'any-valid-pair-summing'
     if any(kw in slug for kw in ('permutation', 'anagram', 'letter-combinations')):
         return 'permutation-invariant'
@@ -792,6 +792,33 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[""]],
             [[]],
             [["ab", "a"]],
+        ]
+
+    if 'high-five' in slug:
+        # items: number[][], each [id, score] — need valid [id, score] pairs, not bare ints
+        return [
+            [[[1,91],[1,92],[2,93],[2,99],[2,98],[2,97],[1,60],[1,58],[2,100],[1,61]]],
+            [[[1,100],[7,100],[1,100],[7,100],[1,100],[7,100],[1,100],[7,100],[1,68],[7,97]]],
+            [[[1,100],[1,90],[1,80],[1,70],[1,60]]],
+            [[[1,50],[2,80],[1,70],[2,60],[1,90],[2,40],[1,100],[2,30]]],
+            [[[1,80],[1,80],[1,80],[1,80],[1,80]]],
+            [[[1,100],[2,99],[1,98],[2,97],[1,96],[2,95],[1,94],[2,93]]],
+        ]
+
+    if 'statistics-from-a-large-sample' in slug:
+        # count must be exactly 256 elements; count[k] = frequency of value k
+        def mc(freqs):
+            c = [0] * 256
+            for k, v in freqs.items():
+                c[k] = v
+            return c
+        return [
+            [mc({0: 1})],
+            [mc({0: 1, 255: 1})],
+            [mc({0: 2, 1: 2, 2: 2})],
+            [mc({127: 3})],
+            [mc({10: 1, 20: 1, 30: 1})],
+            [mc({5: 3, 10: 2, 15: 1})],
         ]
 
     # ── (number, number[]) – e.g. best-time-to-buy-and-sell-stock-iv (k, prices) ──

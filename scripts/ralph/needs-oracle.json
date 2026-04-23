@@ -1228,5 +1228,75 @@
     "id": "1059",
     "slug": "all-paths-from-source-lead-to-destination",
     "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1066",
+    "slug": "campus-bikes-ii",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1067",
+    "slug": "digit-count-in-range",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1068",
+    "slug": "product-sales-analysis-i",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1069",
+    "slug": "product-sales-analysis-ii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1070",
+    "slug": "product-sales-analysis-iii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1075",
+    "slug": "project-employees-i",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1076",
+    "slug": "project-employees-ii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1077",
+    "slug": "project-employees-iii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1082",
+    "slug": "sales-analysis-i",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1083",
+    "slug": "sales-analysis-ii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1084",
+    "slug": "sales-analysis-iii",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1095",
+    "slug": "find-in-mountain-array",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1097",
+    "slug": "game-play-analysis-v",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1098",
+    "slug": "unpopular-books",
+    "reason": "oracleTier=missing"
   }
 ]
