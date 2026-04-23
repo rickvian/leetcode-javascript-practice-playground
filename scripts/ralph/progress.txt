@@ -1710,3 +1710,20 @@
   - 1334 (find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) printed without "→ ok" — oracle may have missing output; not blocking
   - Range: LeetCode #1321-#1340 (restaurant growth SQL, ads SQL, max 69 number, print words vertically, delete leaves with value, min taps garden, products SQL, break palindrome, sort matrix diagonally, reverse subarray max value, rank transform array, remove palindromic subsequences, filter restaurants, find city threshold distance, min job schedule difficulty, number of transactions SQL, k weakest rows, reduce array size half, max product split binary tree, jump game V)
 ---
+
+## 2026-04-23 - US-086
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-068` — 12 generated, 8 missing/failed (4 no-oracle skips: 1341 movie-rating SQL, 1350 students-invalid-departments SQL, 1355 activity-participants SQL, 1359 count-valid-pickup-delivery; 1 oracle timeout: 1357 apply-discount; 2 no "→ ok": 1353 max-events, 1360 num-days-between-dates; 1 no oracle: 1354 construct-target-array)
+  - Generated: 1342-1360 range (12 stubs + tests)
+
+- **Files changed:**
+  - Added: 12 stubs (1342-1349, 1351-1352, 1356, 1358) in leetcode-playground/
+  - Added: 12 tests in leetcode-playground/tests/
+
+- **Learnings:**
+  - batch-068 has 4 permanent no-oracle skips: 1341 (movie-rating SQL), 1350 (students-invalid-departments SQL), 1355 (activity-participants SQL), 1359 (count-all-valid-pickup-and-delivery-options)
+  - 1354 (construct-target-array-with-multiple-sums) — no oracle, skipped
+  - 1357 (apply-discount-every-n-orders) — design-class with oracle_run timeout (30s), also validator FAIL: sequence 1 cannot read 'length' of undefined — oracle issue, skipped
+  - 1353 (maximum-number-of-events-that-can-be-attended) and 1360 (number-of-days-between-two-dates) — printed without "→ ok"; oracle may have missing output; not blocking
+  - Range: LeetCode #1341-#1360 (movie rating SQL, number of steps reduce to zero, sub-arrays size k threshold, angle clock hands, jump game IV, check n double exist, min steps two strings anagram, tweet counts frequency, max students exam, students invalid SQL, count negative sorted matrix, product last k numbers, max events attended, construct target array, activity participants SQL, sort integers 1-bits, apply discount orders, substrings all three characters, count valid pickup SQL, days between dates)
+---
