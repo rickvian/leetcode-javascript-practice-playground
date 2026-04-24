@@ -1,3 +1,22 @@
+## 2026-04-24 - US-090
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-071` — 16 generated, 4 no-oracle (SQL/DP: 1407, 1412, 1416, 1420)
+  - Added 2 slug overrides to generate_tests.py: 1404 (binary strings) and 1405 (three integers)
+  - Generated: 1401-1419 (16 stubs + tests, excluding 1407, 1412, 1416, 1420)
+
+- **Files changed:**
+  - Added: 16 stubs (1401-1406, 1408-1411, 1413-1415, 1417-1419) in leetcode-playground/
+  - Added: 16 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (2 new slug overrides)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `number-of-steps-to-reduce-a-number-in-binary-representation-to-one` (1404): `numSteps(s)` takes a binary string. Generic single-string handler returns non-binary inputs (e.g. "abcabcbb") which crash `BigInt(\`0b${s}\`)`. Also: input "0" causes infinite loop (0n / 2n = 0n forever). Fix: slug override with valid binary strings, excluding "0".
+  - `longest-happy-string` (1405): `longestDiverseString(a, b, c)` takes three integers. No generic three-integer handler exists. Fix: slug override with (a, b, c) pairs.
+  - **Input "0" as binary string = infinite loop**: BigInt("0b0") = 0n which when divided by 2 stays 0n, never reaching 1n. Always exclude "0" from binary string inputs for numSteps.
+  - **stdout buffering hides oracle timeouts**: When Python generator runs with output piped, stdout is block-buffered and stderr is unbuffered. Oracle timeout messages appear BEFORE buffered stdout in combined output, making it look like the error happened before processing started.
+---
+
 ## 2026-04-24 - US-089
 - **What was implemented:**
   - Ran `python3 scripts/ralph/expand_prd.py` — seeded batch-071 through batch-080 + 1 Expand story (US-100)
