@@ -1,3 +1,23 @@
+## 2026-04-24 - US-088
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-070` — first run: 13 generated, 7 missing/failed
+  - Fixed 4 failures with generator overrides; re-ran; total 17/20 (3 permanent: SQL no-oracle)
+  - Generated: 1381-1400 (17 stubs + tests, excluding SQL: 1384, 1393, 1398)
+
+- **Files changed:**
+  - Added: 17 stubs (1381-1383, 1385-1392, 1394-1397, 1399-1400) in leetcode-playground/
+  - Added: 17 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/generate_tests.py (4 new slug overrides)
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - `cinema-seat-allocation` (1386): `maxNumberOfFamilies(n, reservedSeats)` — `(number, number[][])` combo has no generic handler; falls to fallback returning wrong format. Fix: add slug override with proper `[n, [[row,seat], ...]]` inputs (seats numbered 1-10).
+  - `sort-integers-by-the-power-value` (1387): `getKth(lo, hi, k)` — three integers with constraint `lo<=hi` and `k<=hi-lo+1`; no three-integer generic handler exists. Fix: add slug override with valid range inputs.
+  - `find-all-good-strings` (1397): `findGoodStrings(n, s1, s2, evil)` — `(number, string, string, string)` combo has no handler. Fix: add slug override where all strings have length `n`.
+  - `count-largest-group` (1399): `countLargestGroup(n)` — single integer but the generic handler includes `n=1534236469` which causes O(n) timeout. Fix: add slug override BEFORE the single-integer check (line ~1073) with small n values (max 10000 per constraints).
+  - **Placement matters for single-integer overrides**: Must be BEFORE the `# ── single integer ──` block or the generic handler returns first, skipping the override.
+---
+
 ## 2026-04-23 - US-079
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-061` — first run: 14 generated, 6 missing/failed
