@@ -1070,6 +1070,10 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             ["zyx", [[0,1],[1,2],[0,2]]],
         ]
 
+    # ── count-largest-group: countLargestGroup(n) — 1<=n<=10000, avoid timeout with large n ──
+    if 'count-largest-group' in slug:
+        return [[1], [2], [13], [24], [100], [10000]]
+
     # ── single integer ──
     if len(types) == 1 and first in ('number', 'integer', 'int'):
         return [[121], [-121], [10], [0], [-1], [1534236469]]
@@ -1341,6 +1345,39 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             [[], ["abcdefg"]],
             [["a","b","c"], ["abc","def"]],
             [["hello","world"], ["helo","wrd"]],
+        ]
+
+    # ── cinema-seat-allocation: maxNumberOfFamilies(n, reservedSeats) — (number, number[][]) ──
+    if 'cinema-seat-allocation' in slug:
+        return [
+            [3, [[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]],
+            [2, [[2,1],[1,8],[2,6]]],
+            [4, []],
+            [1, [[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[1,8],[1,9]]],
+            [5, [[1,3],[2,6],[3,9]]],
+            [1, [[1,1],[1,10]]],
+        ]
+
+    # ── sort-integers-by-the-power-value: getKth(lo, hi, k) — lo<=hi<=1000, k<=hi-lo+1 ──
+    if 'sort-integers-by-the-power-value' in slug:
+        return [
+            [12, 15, 2],
+            [7, 11, 4],
+            [1, 1, 1],
+            [10, 20, 5],
+            [1, 1000, 777],
+            [1, 10, 1],
+        ]
+
+    # ── find-all-good-strings: findGoodStrings(n, s1, s2, evil) — all strings length n ──
+    if 'find-all-good-strings' in slug:
+        return [
+            [2, "aa", "da", "b"],
+            [8, "leetcode", "leetcode", "leet"],
+            [2, "aa", "aa", "a"],
+            [1, "a", "z", "b"],
+            [3, "abc", "xyz", "bc"],
+            [4, "abcd", "mnop", "bc"],
         ]
 
     # fallback: try single number array

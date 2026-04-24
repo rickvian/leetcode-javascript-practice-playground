@@ -1798,5 +1798,115 @@
     "id": "1336",
     "slug": "number-of-transactions-per-visit",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1341",
+    "slug": "movie-rating",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1350",
+    "slug": "students-with-invalid-departments",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1353",
+    "slug": "maximum-number-of-events-that-can-be-attended",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "1354",
+    "slug": "construct-target-array-with-multiple-sums",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1355",
+    "slug": "activity-participants",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1357",
+    "slug": "apply-discount-every-n-orders",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "1359",
+    "slug": "count-all-valid-pickup-and-delivery-options",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1360",
+    "slug": "number-of-days-between-two-dates",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1362",
+    "slug": "closest-divisors",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1364",
+    "slug": "number-of-trusted-contacts-of-a-customer",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1369",
+    "slug": "get-the-second-most-recent-activity",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1370",
+    "slug": "increasing-decreasing-string",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "1376",
+    "slug": "time-needed-to-inform-all-employees",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1377",
+    "slug": "frog-position-after-t-seconds",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1378",
+    "slug": "replace-employee-id-with-the-unique-identifier",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1386",
+    "slug": "cinema-seat-allocation",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1387",
+    "slug": "sort-integers-by-the-power-value",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1397",
+    "slug": "find-all-good-strings",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1399",
+    "slug": "count-largest-group",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "1384",
+    "slug": "total-sales-amount-by-year",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1393",
+    "slug": "capital-gainloss",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1398",
+    "slug": "customers-who-bought-products-a-and-b-but-not-c",
+    "reason": "oracleTier=missing"
   }
 ]
