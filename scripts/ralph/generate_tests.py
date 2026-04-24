@@ -879,6 +879,10 @@ def _build_plain_json_inputs(problem, param_types, return_type):
             ["2000-01-01"],
         ]
 
+    # ── number-of-steps-to-reduce-a-number-in-binary-representation-to-one: numSteps(s) — binary strings only ──
+    if 'number-of-steps-to-reduce-a-number-in-binary-representation-to-one' in slug:
+        return [["1101"], ["10"], ["1"], ["1111"], ["10000"], ["1010101"]]
+
     # ── single plain string ──
     if first == 'string' and len(types) == 1:
         return [["abcabcbb"], ["bbbbb"], ["pwwkew"], [""], [" "], ["a"], ["aaaaaa"]]
@@ -1085,6 +1089,10 @@ def _build_plain_json_inputs(problem, param_types, return_type):
     # ── two integers ──
     if len(types) == 2 and all(t in ('number', 'integer', 'int') for t in types[:2]):
         return [[1, 1], [0, 0], [3, 7], [100, 1000]]
+
+    # ── longest-happy-string: longestDiverseString(a, b, c) — three non-negative integers ──
+    if 'longest-happy-string' in slug:
+        return [[1, 1, 7], [7, 1, 0], [0, 0, 1], [2, 2, 2], [1, 0, 0], [0, 1, 0]]
 
     # ── two plain strings ──
     if len(types) == 2 and types[0] == 'string' and types[1] == 'string':

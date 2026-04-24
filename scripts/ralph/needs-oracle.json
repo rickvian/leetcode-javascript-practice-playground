@@ -1908,5 +1908,35 @@
     "id": "1398",
     "slug": "customers-who-bought-products-a-and-b-but-not-c",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1405",
+    "slug": "longest-happy-string",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "1404",
+    "slug": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+    "reason": "oracle_run failed"
+  },
+  {
+    "id": "1407",
+    "slug": "top-travellers",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1412",
+    "slug": "find-the-quiet-students-in-all-exams",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1416",
+    "slug": "restore-the-array",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1420",
+    "slug": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+    "reason": "oracleTier=missing"
   }
 ]
