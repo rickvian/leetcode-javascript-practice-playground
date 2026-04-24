@@ -1,3 +1,21 @@
+## 2026-04-24 - US-089
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/expand_prd.py` — seeded batch-071 through batch-080 + 1 Expand story (US-100)
+  - expandedUpTo: 70 → 80 of 150
+  - Backfilled prd.yaml passes:true for US-087 and US-088 (were done in prd-part-2.yaml tracking but prd.yaml wasn't updated)
+  - Restored prd.yaml from HEAD before running (working tree had removed US-086 to US-089)
+
+- **Files changed:**
+  - Modified: scripts/ralph/prd.yaml (US-087/US-088 backfilled, US-089 marked true, US-090–US-100 appended)
+  - Modified: scripts/ralph/manifest.json (expandedUpTo: 70 → 80)
+  - Modified: scripts/ralph/prd-part-2.yaml (US-089 marked true)
+
+- **Learnings:**
+  - **prd.yaml vs prd-part-2.yaml**: Recent sessions tracked progress in prd-part-2.yaml instead of prd.yaml, but expand_prd.py writes to prd.yaml. Always use prd.yaml as the source of truth. prd-part-2.yaml is a mirror/backup.
+  - **Restore before expand**: If prd.yaml working tree has been modified (stories removed), restore from HEAD (`git checkout -- scripts/ralph/prd.yaml`) before running expand_prd.py so the active Expand story is found.
+  - **Backfill needed**: If prior stories show passes:false in prd.yaml but were already done (passes:true in prd-part-2.yaml), update prd.yaml to pass:true before committing to keep state consistent.
+---
+
 ## 2026-04-24 - US-088
 - **What was implemented:**
   - Ran `python3 scripts/ralph/generate_tests.py --batch batch-070` — first run: 13 generated, 7 missing/failed
