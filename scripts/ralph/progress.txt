@@ -1800,3 +1800,21 @@
   - batch-069 has 4 permanent no-oracle skips: 1362 (closest-divisors), 1364 (number-of-trusted-contacts-of-a-customer SQL), 1369 (get-the-second-most-recent-activity SQL), 1378 (replace-employee-id-with-the-unique-identifier SQL)
   - 1370 (increasing-decreasing-string), 1376 (time-needed-to-inform-all-employees), 1377 (frog-position-after-t-seconds) — printed without "→ ok"; oracle timeout (30s) at start may have affected these; not blocking
   - Range: LeetCode #1361-#1380 (validate binary tree nodes, closest divisors, largest multiple of three, trusted contacts SQL, how many smaller numbers, rank teams by votes, linked list in binary tree, min cost valid path grid, second most recent SQL, increasing decreasing string, longest substring vowels even counts, longest zigzag path binary tree, max sum BST binary tree, generate string odd counts, binary string prefix aligned, time to inform employees, frog position after T seconds, replace employee SQL, find node binary tree clone, lucky numbers in matrix)
+
+## 2026-04-24 - US-091
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-072` — 13 generated, 7 missing/failed
+  - Skipped (no oracle): 1421 (npv-queries SQL), 1435 (session bar chart SQL), 1440 (evaluate boolean expression)
+  - Failed: 1427 (perform-string-shifts), 1428 (leftmost-column-with-at-least-a-one), 1429 (first-unique-number design-class), 1436 (destination-city)
+  - Generated: 1422-1426, 1430-1434, 1437-1439
+
+- **Files changed:**
+  - Added: 13 stubs (1422-1426, 1430-1434, 1437-1439) in leetcode-playground/
+  - Added: 13 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - 1429 (first-unique-number): design-class-sequence validator fails with "nums is not iterable" — oracle returns scalar but sequence validator expects iterable constructor args
+  - 1427, 1428, 1436: generated but produced no test cases (no "→ ok"), so no stub/test files emitted
+  - batch-072 covers LeetCode #1421-#1440 (NPV queries SQL, max score split string, max points cards, diagonal traverse II, constrained subsequence sum, counting elements, perform string shifts, leftmost column with 1, first unique number, valid sequence root to leaves, kids with greatest candies, max diff changing integer, check string break another, hats to each other, session bar chart SQL, destination city, check 1s length k away, longest subarray abs diff limit, kth smallest matrix sum, evaluate boolean expression)
+---
