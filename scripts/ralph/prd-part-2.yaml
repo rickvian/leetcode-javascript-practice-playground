@@ -392,11 +392,11 @@ userStories:
   title: Expand prd window
   acceptanceCriteria:
   - Run `python3 scripts/ralph/expand_prd.py` to append the next batch window
-  - Commit the updated prd.yaml + manifest.json with message matching the story 
+  - Commit the updated prd.yaml + manifest.json with message matching the story
     title
   - 'If the script outputs <promise>COMPLETE</promise>, mark this story passes: true
     and stop'
   priority: 89
-  passes: false
-  notes: Append the next 10 batch stories + another Expand story. Emits 
+  passes: true
+  notes: Append the next 10 batch stories + another Expand story. Emits
     <promise>COMPLETE</promise> when all batches are seeded.
