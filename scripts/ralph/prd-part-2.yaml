@@ -1,0 +1,402 @@
+branchName: feature/populate-scenarios-v2
+userStories:
+- id: US-059
+  title: Implement batch-043
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-043.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-043` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-059] - Implement batch-043"
+  priority: 59
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-060
+  title: Implement batch-044
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-044.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-044` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-060] - Implement batch-044"
+  priority: 60
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-061
+  title: Implement batch-045
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-045.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-045` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-061] - Implement batch-045"
+  priority: 61
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-062
+  title: Implement batch-046
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-046.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-046` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-062] - Implement batch-046"
+  priority: 62
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-063
+  title: Implement batch-047
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-047.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-047` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-063] - Implement batch-047"
+  priority: 63
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-064
+  title: Implement batch-048
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-048.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-048` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-064] - Implement batch-048"
+  priority: 64
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-065
+  title: Implement batch-049
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-049.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-049` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-065] - Implement batch-049"
+  priority: 65
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-066
+  title: Implement batch-050
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-050.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-050` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-066] - Implement batch-050"
+  priority: 66
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-067
+  title: Expand prd window
+  acceptanceCriteria:
+  - Run `python3 scripts/ralph/expand_prd.py` to append the next batch window
+  - Commit the updated prd.yaml + manifest.json with message matching the story 
+    title
+  - 'If the script outputs <promise>COMPLETE</promise>, mark this story passes: true
+    and stop'
+  priority: 67
+  passes: true
+  notes: Append the next 10 batch stories + another Expand story. Emits 
+    <promise>COMPLETE</promise> when all batches are seeded.
+- id: US-068
+  title: Implement batch-051
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-051.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-051` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-068] - Implement batch-051"
+  priority: 68
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-069
+  title: Implement batch-052
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-052.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-052` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-069] - Implement batch-052"
+  priority: 69
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-070
+  title: Implement batch-053
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-053.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-053` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-070] - Implement batch-053"
+  priority: 70
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-071
+  title: Implement batch-054
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-054.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-054` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-071] - Implement batch-054"
+  priority: 71
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-072
+  title: Implement batch-055
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-055.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-055` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-072] - Implement batch-055"
+  priority: 72
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-073
+  title: Implement batch-056
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-056.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-056` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-073] - Implement batch-056"
+  priority: 73
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-074
+  title: Implement batch-057
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-057.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-057` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-074] - Implement batch-057"
+  priority: 74
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-075
+  title: Implement batch-058
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-058.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-058` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-075] - Implement batch-058"
+  priority: 75
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-076
+  title: Implement batch-059
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-059.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-059` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-076] - Implement batch-059"
+  priority: 76
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-077
+  title: Implement batch-060
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-060.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-060` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-077] - Implement batch-060"
+  priority: 77
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-078
+  title: Expand prd window
+  acceptanceCriteria:
+  - Run `python3 scripts/ralph/expand_prd.py` to append the next batch window
+  - Commit the updated prd.yaml + manifest.json with message matching the story 
+    title
+  - 'If the script outputs <promise>COMPLETE</promise>, mark this story passes: true
+    and stop'
+  priority: 78
+  passes: true
+  notes: Append the next 10 batch stories + another Expand story. Emits 
+    <promise>COMPLETE</promise> when all batches are seeded.
+- id: US-079
+  title: Implement batch-061
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-061.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-061` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-079] - Implement batch-061"
+  priority: 79
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-080
+  title: Implement batch-062
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-062.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-062` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-080] - Implement batch-062"
+  priority: 80
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-081
+  title: Implement batch-063
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-063.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-063` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-081] - Implement batch-063"
+  priority: 81
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-082
+  title: Implement batch-064
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-064.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-064` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-082] - Implement batch-064"
+  priority: 82
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-083
+  title: Implement batch-065
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-065.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-065` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-083] - Implement batch-065"
+  priority: 83
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-084
+  title: Implement batch-066
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-066.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-066` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-084] - Implement batch-066"
+  priority: 84
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-085
+  title: Implement batch-067
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-067.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-067` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-085] - Implement batch-067"
+  priority: 85
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-086
+  title: Implement batch-068
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-068.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-068` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-086] - Implement batch-068"
+  priority: 86
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-087
+  title: Implement batch-069
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-069.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-069` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-087] - Implement batch-069"
+  priority: 87
+  passes: true
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-088
+  title: Implement batch-070
+  acceptanceCriteria:
+  - "For each problem in scripts/ralph/batches/batch-070.json:\n- Run `python3 scripts/ralph/generate_tests.py
+    --batch batch-070` to emit stubs and test files — do NOT hand-author expected
+    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
+    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
+    newly generated test files\n- Commit with message: feat [US-088] - Implement batch-070"
+  priority: 88
+  passes: false
+  notes: Stubs intentionally fail assertions — red test output is the expected 
+    state and does NOT block the commit. Do not run the full suite; scope to new
+    files only.
+- id: US-089
+  title: Expand prd window
+  acceptanceCriteria:
+  - Run `python3 scripts/ralph/expand_prd.py` to append the next batch window
+  - Commit the updated prd.yaml + manifest.json with message matching the story 
+    title
+  - 'If the script outputs <promise>COMPLETE</promise>, mark this story passes: true
+    and stop'
+  priority: 89
+  passes: false
+  notes: Append the next 10 batch stories + another Expand story. Emits 
+    <promise>COMPLETE</promise> when all batches are seeded.

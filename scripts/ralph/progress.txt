@@ -1727,3 +1727,19 @@
   - 1353 (maximum-number-of-events-that-can-be-attended) and 1360 (number-of-days-between-two-dates) — printed without "→ ok"; oracle may have missing output; not blocking
   - Range: LeetCode #1341-#1360 (movie rating SQL, number of steps reduce to zero, sub-arrays size k threshold, angle clock hands, jump game IV, check n double exist, min steps two strings anagram, tweet counts frequency, max students exam, students invalid SQL, count negative sorted matrix, product last k numbers, max events attended, construct target array, activity participants SQL, sort integers 1-bits, apply discount orders, substrings all three characters, count valid pickup SQL, days between dates)
 ---
+---
+
+## 2026-04-24 - US-087
+- **What was implemented:**
+  - Ran `python3 scripts/ralph/generate_tests.py --batch batch-069` — 13 generated, 7 missing/failed (4 no-oracle skips: 1362, 1364, 1369, 1378; 3 no "→ ok": 1370, 1376, 1377)
+  - Generated: 1361-1380 range (13 stubs + tests)
+
+- **Files changed:**
+  - Added: 13 stubs (1361, 1363, 1365-1368, 1371-1375, 1379-1380) in leetcode-playground/
+  - Added: 13 tests in leetcode-playground/tests/
+  - Modified: scripts/ralph/needs-oracle.json
+
+- **Learnings:**
+  - batch-069 has 4 permanent no-oracle skips: 1362 (closest-divisors), 1364 (number-of-trusted-contacts-of-a-customer SQL), 1369 (get-the-second-most-recent-activity SQL), 1378 (replace-employee-id-with-the-unique-identifier SQL)
+  - 1370 (increasing-decreasing-string), 1376 (time-needed-to-inform-all-employees), 1377 (frog-position-after-t-seconds) — printed without "→ ok"; oracle timeout (30s) at start may have affected these; not blocking
+  - Range: LeetCode #1361-#1380 (validate binary tree nodes, closest divisors, largest multiple of three, trusted contacts SQL, how many smaller numbers, rank teams by votes, linked list in binary tree, min cost valid path grid, second most recent SQL, increasing decreasing string, longest substring vowels even counts, longest zigzag path binary tree, max sum BST binary tree, generate string odd counts, binary string prefix aligned, time to inform employees, frog position after T seconds, replace employee SQL, find node binary tree clone, lucky numbers in matrix)
