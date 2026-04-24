@@ -1938,5 +1938,40 @@
     "id": "1420",
     "slug": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
     "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1421",
+    "slug": "npv-queries",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1427",
+    "slug": "perform-string-shifts",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1428",
+    "slug": "leftmost-column-with-at-least-a-one",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1429",
+    "slug": "first-unique-number",
+    "reason": "validation failed and no cases left to drop"
+  },
+  {
+    "id": "1435",
+    "slug": "create-a-session-bar-chart",
+    "reason": "oracleTier=missing"
+  },
+  {
+    "id": "1436",
+    "slug": "destination-city",
+    "reason": "no valid test cases generated"
+  },
+  {
+    "id": "1440",
+    "slug": "evaluate-boolean-expression",
+    "reason": "oracleTier=missing"
   }
 ]
