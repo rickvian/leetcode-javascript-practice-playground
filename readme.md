@@ -28,7 +28,7 @@ you can start exercise of solving problem.
 - Tests grouped under `/tests` folder.
 
 <p align="center">
-  <img src="assets/debug-mode-yourself" width="600" alt="debug mode">
+  <img src="assets/debug-mode-yourself.jpg" width="600" alt="debug mode">
 </p>
 
 
