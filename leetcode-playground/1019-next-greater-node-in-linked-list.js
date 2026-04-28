@@ -12,14 +12,34 @@
  */
 
 class ListNode {
-    constructor(val = 0, next = null) {
-        this.val = val;
-        this.next = next;
-    }
+  constructor(val = 0, next = null) {
+    this.val = val;
+    this.next = next;
+  }
 }
 
-var nextLargerNodes = function(head) {
-    // implement
+var nextLargerNodes = function (head) {
+  const values = [];
+  let pointer = head;
+
+  // Convert linked list to array of values
+  while (pointer !== null) {
+    values.push(pointer.val);
+    pointer = pointer.next;
+  }
+
+  const result = Array.from({ length: values.length }, () => 0);
+  const stack = []; // Stack of indices
+
+  for (let i = 0; i < values.length; i++) {
+    while (stack.length > 0 && values[stack.at(-1)] < values[i]) {
+      const idx = stack.pop();
+      result[idx] = values[i];
+    }
+    stack.push(i);
+  }
+
+  return result;
 };
 
 export { nextLargerNodes, ListNode };
