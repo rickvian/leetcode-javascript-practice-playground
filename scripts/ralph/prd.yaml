@@ -11,7 +11,7 @@ userStories:
       - Cover both odd and even total-length merged arrays since the median formula differs
       - Use .toBeCloseTo(expected, 5) for all assertions
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/median-of-two-sorted-arrays/description/"
 
   - id: US-012

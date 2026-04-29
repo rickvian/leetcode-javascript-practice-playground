@@ -1,3 +1,21 @@
+## 2026-04-29 - US-011
+- **What was implemented:**
+  - Created test file for 0004-median-of-two-sorted-arrays
+  - 17 test cases covering: official examples, empty arrays, single elements, unequal lengths, negative values, duplicates, interleaved arrays, boundary values
+  - Both odd and even total-length merged arrays covered
+  - All assertions use `.toBeCloseTo(expected, 5)`
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0004-median-of-two-sorted-arrays.test.js
+
+- **Learnings:**
+  - Project uses Vitest (not Jest) — use `npx vitest run` not `npx jest`
+  - toBeCloseTo(value, 5) is the correct assertion for all floating-point median results
+  - Stub returns undefined so all tests fail as expected — this is correct behavior
+  - Avoid duplicate test inputs: official example 2 already covers [1,2]/[3,4] so "all-nums1-less-than-nums2" case must use different inputs
+
+---
+
 ## 2026-03-14 - US-009
 - **What was implemented:**
   - Created blank solution stubs and comprehensive test files for Blind 75 problems 71-75
@@ -24,7 +42,7 @@
 ---
 
 ## Codebase Patterns
-- Jest configuration: Use default jest config in package.json scripts
+- Test runner: Project uses Vitest (not Jest) — run tests with `npx vitest run <path>` or `npm test`
 - LeetCode file naming: [number]-[problem-name].js (e.g., 0001-two-sum.js)
 - Function exports: Use ES Module syntax `export { functionName }` (NOT CommonJS module.exports)
 - TreeNode problems: Define TreeNode class in solution file and export it alongside function
