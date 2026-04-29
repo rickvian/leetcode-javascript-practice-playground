@@ -1,15 +1,14 @@
 {
   "name": "Node.js",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
-  "postCreateCommand": "npm install -g @anthropic-ai/claude-code && git config --global --unset-all credential.helper || true",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code && curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/80a6fe606f73b19e52b0b330d242e62a6c07be42/install.sh | sh && rtk init -g && [ -d /home/vscode/.claude/plugins/caveman ] || (claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman) && [ -d /home/vscode/.claude/agents/awesome-subagents ] || (mkdir -p /home/vscode/.claude/agents && git clone --depth=1 https://github.com/VoltAgent/awesome-claude-code-subagents /home/vscode/.claude/agents/awesome-subagents) && git config --global --unset-all credential.helper || true",
   "remoteEnv": {
     "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}"
   },
   "customizations": {
     "vscode": {
       "extensions": [
-        "dbaeumer.vscode-eslint",
-        "vespa-dev-works.jestRunIt"
+        "dbaeumer.vscode-eslint"
       ],
       "settings": {
         "git.terminalAuthentication": false,
@@ -30,15 +29,20 @@
     "GCM_INTERACTIVE": "never",
     "GIT_TERMINAL_PROMPT": "0"
   },
+  "mounts": [
+    {
+      "source": "claude-agents-vol-leetcode-javascript-practice-playground",
+      "target": "/home/vscode/.claude",
+      "type": "volume"
+    },
+    {
+      "source": "gh-config-leetcode-javascript-practice-playground",
+      "target": "/home/vscode/.config/gh",
+      "type": "volume"
+    }
+  ],
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
-  "mounts": [
-    {
-      "source": "/Users/macbook/.config/ralph/leetcode-javascript-practice-playground/token",
-      "target": "/tmp/ralph_token",
-      "type": "bind"
-    }
-  ],
-  "postStartCommand": "unset VSCODE_GIT_IPC_HANDLE GIT_ASKPASS VSCODE_GIT_ASKPASS_NODE VSCODE_GIT_ASKPASS_MAIN && git config --global --unset-all credential.helper || true && gh auth login --with-token < /tmp/ralph_token && gh auth setup-git"
+  "postStartCommand": "unset VSCODE_GIT_IPC_HANDLE GIT_ASKPASS VSCODE_GIT_ASKPASS_NODE VSCODE_GIT_ASKPASS_MAIN && git config --global --unset-all credential.helper || true && gh auth login --with-token < ${containerWorkspaceFolder}/.ralph/token && gh auth setup-git"
 }
