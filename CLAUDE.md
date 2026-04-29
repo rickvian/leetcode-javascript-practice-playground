@@ -16,14 +16,7 @@ All JavaScript files and tests in this project use **ES Modules (ESM)** as speci
 2. **All tests**: Must be written as ES Modules with proper import statements
 3. **All JS files**: Must use ES Module syntax
 4. **Test files**: Use `.test.js` extension and import the modules being tested as ES Modules
-5. test case:
-- Adversarial Edge Cases: You must include tests for the following "hidden" scenarios:
-- Empty/Minimum: Empty strings "", empty arrays [], or single-element inputs.
-- Type Nuance: Handling null, undefined, and unexpected data types.
-- Whitespace: Leading, trailing, and internal whitespace (tabs, newlines).
-- Repetitive Data: Long sequences of identical characters/values.
-- Range Limits: Inputs at the exact threshold of defined constraints (e.g., first and last indices).
-- No Happy-Path Bias: Do not just test "clean" inputs; generate cases specifically designed to trigger off-by-one errors or null-pointer exceptions.
+5. test case: follow the guideline in `prd-test-case-guideline.md` for every test file you write.
 6. if the js placeholder files not exist, generate it.
 
 ### Examples
@@ -72,12 +65,16 @@ leetcode-playground/
  * Problem description from LeetCode (1-2 sentences)
  *
  * https://leetcode.com/problems/problem-slug/description/
- * 
+ *
  * @param {type} paramName - Description
  * @return {type}
+ *
+ * @constraints
+ * - constraint 1
+ * - constraint 2
  */
 var functionName = function(param1, param2) {
-    // Solution implementation
+    // implement
 };
 
 export { functionName }
@@ -86,7 +83,7 @@ export { functionName }
 **Requirements:**
 1. **Numbering**: Start filename with 4-digit problem number (e.g., `0001`, `0002`)
 2. **Naming**: Use kebab-case for problem name (e.g., `two-sum`, `add-two-numbers`)
-3. **JSDoc Header**: Include problem description, **LeetCode URL**, @param and @return tags
+3. **JSDoc Header**: Include problem description, **LeetCode URL**, @param, @return, and **@constraints** copied verbatim from LeetCode
 4. **Function**: Named function using camelCase
 5. **Export**: Use ES Module syntax: `export { functionName }`
 

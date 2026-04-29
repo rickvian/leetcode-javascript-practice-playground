@@ -1,103 +1,1093 @@
 branchName: ralph/feature
 userStories:
-  - id: US-001
-    title: Setup node project with jest test
+  - id: US-011
+    title: Create test cases for 0004-median-of-two-sorted-arrays
     acceptanceCriteria:
-      - setup node project with jest
-      - create folder with leetcode-playground, it contain tests/ folder
-      - each .js file inside leetcode-playground will have name format [number]-[problem-name].js e.g. 0002-add-two-numbers.js
-      - they contain function name exactly defined in leetcode, and exported.
-      - tests/file containing same forrmat
-      - create 2 leetcode file sample and tests first.
-      - ensure jest test work correctly
+      - Create test file at leetcode-playground/tests/0004-median-of-two-sorted-arrays.test.js
+      - Import findMedianSortedArrays from ../0004-median-of-two-sorted-arrays
+      - describe block named '0004-median-of-two-sorted-arrays'
+      - Include all LeetCode official example test cases
+      - Read the problem constraints from the LeetCode URL in the notes and derive test cases from them — cover empty arrays, single elements, unequal lengths, negative values, and duplicates
+      - Cover both odd and even total-length merged arrays since the median formula differs
+      - Use .toBeCloseTo(expected, 5) for all assertions
     priority: 1
-    passes: true
-    notes: ""
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/median-of-two-sorted-arrays/description/"
 
-  - id: US-002
-    title: Create unit tests for Blind 75 problems 1-10
+  - id: US-012
+    title: Create test cases for 0006-zigzag-conversion
     acceptanceCriteria:
-      - Retrieve problem list from 1-blind_75.txt file (items 1-10)
-      - Create blank solution files for problems 1-10 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
-    passes: true
-    notes: "First batch of Blind 75 problems - retrieve from 1-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+      - Create test file at leetcode-playground/tests/0006-zigzag-conversion.test.js
+      - Import convert from ../0006-zigzag-conversion
+      - describe block named '0006-zigzag-conversion'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover numRows=1 (no zigzag, output equals input), numRows >= string length (each char on its own row), single-character string, and a string where numRows=2
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/zigzag-conversion/description/"
 
-  - id: US-003
-    title: Create unit tests for Blind 75 problems 11-20
+  - id: US-013
+    title: Create test cases for 0009-palindrome-number
     acceptanceCriteria:
-      - Retrieve problem list from 2-blind_75.txt file (items 11-20)
-      - Create blank solution files for problems 11-20 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
-    passes: true
-    notes: "Second batch of Blind 75 problems - retrieve from 2-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+      - Create test file at leetcode-playground/tests/0009-palindrome-number.test.js
+      - Import isPalindrome from ../0009-palindrome-number
+      - describe block named '0009-palindrome-number'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover negative numbers (always false), x=0, single digit, number ending in 0 (not palindrome unless x=0), and large palindromes
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/palindrome-number/description/"
 
-  - id: US-004
-    title: Create unit tests for Blind 75 problems 21-30
+  - id: US-014
+    title: Create test cases for 0012-integer-to-roman
     acceptanceCriteria:
-      - Retrieve problem list from 3-blind_75.txt file (items 21-30)
-      - Create blank solution files for problems 21-30 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
-    passes: true
-    notes: "Third batch of Blind 75 problems - retrieve from 3-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+      - Create test file at leetcode-playground/tests/0012-integer-to-roman.test.js
+      - Import intToRoman from ../0012-integer-to-roman
+      - describe block named '0012-integer-to-roman'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover subtractive notation values (4, 9, 40, 90, 400, 900), minimum value (1), maximum value (3999), and a value that exercises all symbol levels
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/integer-to-roman/description/"
 
-  - id: US-005
-    title: Create unit tests for Blind 75 problems 31-40
+  - id: US-015
+    title: Create test cases for 0013-roman-to-integer
     acceptanceCriteria:
-      - Retrieve problem list from 4-blind_75.txt file (items 31-40)
-      - Create blank solution files for problems 31-40 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
-    passes: true
-    notes: "Fourth batch of Blind 75 problems - retrieve from 4-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+      - Create test file at leetcode-playground/tests/0013-roman-to-integer.test.js
+      - Import romanToInt from ../0013-roman-to-integer
+      - describe block named '0013-roman-to-integer'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover all six subtractive notation pairs (IV, IX, XL, XC, CD, CM), single character input, and the maximum roman numeral (MMMCMXCIX = 3999)
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/roman-to-integer/description/"
 
-  - id: US-006
-    title: Create unit tests for Blind 75 problems 41-50
+  - id: US-016
+    title: Create test cases for 0014-longest-common-prefix
     acceptanceCriteria:
-      - Retrieve problem list from 5-blind_75.txt file (items 41-50)
-      - Create blank solution files for problems 41-50 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
-    passes: true
-    notes: "Fifth batch of Blind 75 problems - retrieve from 5-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+      - Create test file at leetcode-playground/tests/0014-longest-common-prefix.test.js
+      - Import longestCommonPrefix from ../0014-longest-common-prefix
+      - describe block named '0014-longest-common-prefix'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single-string array, all identical strings, no common prefix (returns ""), prefix is only first character, and full strings are identical
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/longest-common-prefix/description/"
 
-  - id: US-007
-    title: Create unit tests for Blind 75 problems 51-60
+  - id: US-017
+    title: Create test cases for 0017-letter-combinations-of-a-phone-number
     acceptanceCriteria:
-      - Retrieve problem list from 6-blind_75.txt file (items 51-60)
-      - Create blank solution files for problems 51-60 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
-    passes: true
-    notes: "Sixth batch of Blind 75 problems - retrieve from 6-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+      - Create test file at leetcode-playground/tests/0017-letter-combinations-of-a-phone-number.test.js
+      - Import letterCombinations from ../0017-letter-combinations-of-a-phone-number
+      - describe block named '0017-letter-combinations-of-a-phone-number'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty string (returns []), single digit with 3 letters, single digit with 4 letters (7 or 9), and two-digit input (cross-product of combinations)
+      - Sort result arrays before comparing since order is not guaranteed
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/"
 
-  - id: US-008
-    title: Create unit tests for Blind 75 problems 61-70
+  - id: US-018
+    title: Create test cases for 0022-generate-parentheses
     acceptanceCriteria:
-      - Retrieve problem list from 7-blind_75.txt file (items 61-70)
-      - Create blank solution files for problems 61-70 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
-    passes: true
-    notes: "Seventh batch of Blind 75 problems - retrieve from 7-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+      - Create test file at leetcode-playground/tests/0022-generate-parentheses.test.js
+      - Import generateParenthesis from ../0022-generate-parentheses
+      - describe block named '0022-generate-parentheses'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover n=1 (single combination), n=2 (two combinations), n=3 (five combinations), and verify the count of combinations at the constraint boundary
+      - Sort result arrays before comparing since order is not guaranteed
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/generate-parentheses/description/"
 
-  - id: US-009
-    title: Create unit tests for Blind 75 problems 71-75
+  - id: US-019
+    title: Create test cases for 0025-reverse-nodes-in-k-group
     acceptanceCriteria:
-      - Retrieve problem list from 8-blind_75.txt file (items 71-75)
-      - Create blank solution files for problems 71-75 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
-    passes: true
-    notes: "Final batch of Blind 75 problems - retrieve from 8-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+      - Create test file at leetcode-playground/tests/0025-reverse-nodes-in-k-group.test.js
+      - Import ListNode and reverseKGroup from ../0025-reverse-nodes-in-k-group
+      - describe block named '0025-reverse-nodes-in-k-group'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover k=1 (list unchanged), k equals list length (full reversal), list length not divisible by k (tail left as-is), and single-node list
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/reverse-nodes-in-k-group/description/"
+
+  - id: US-020
+    title: Create test cases for 0026-remove-duplicates-from-sorted-array
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0026-remove-duplicates-from-sorted-array.test.js
+      - Import removeDuplicates from ../0026-remove-duplicates-from-sorted-array
+      - describe block named '0026-remove-duplicates-from-sorted-array'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single element, all elements identical (only 1 unique), no duplicates at all, and verify both the return value (k) and the first k elements of the modified array
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/"
+
+  - id: US-021
+    title: Create test cases for 0027-remove-element
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0027-remove-element.test.js
+      - Import removeElement from ../0027-remove-element
+      - describe block named '0027-remove-element'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover val not present in array, all elements equal val (k=0), single element matching val, and verify both return value and first k elements
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/remove-element/description/"
+
+  - id: US-022
+    title: Create test cases for 0028-find-the-index-of-the-first-occurrence-in-a-string
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0028-find-the-index-of-the-first-occurrence-in-a-string.test.js
+      - Import strStr from ../0028-find-the-index-of-the-first-occurrence-in-a-string
+      - describe block named '0028-find-the-index-of-the-first-occurrence-in-a-string'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty needle (returns 0), needle equals haystack, needle not found (returns -1), needle at position 0, needle at last position, and partial matches before the real match
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/"
+
+  - id: US-023
+    title: Create test cases for 0030-substring-with-concatenation-of-all-words
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0030-substring-with-concatenation-of-all-words.test.js
+      - Import findSubstring from ../0030-substring-with-concatenation-of-all-words
+      - describe block named '0030-substring-with-concatenation-of-all-words'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single word in words array, duplicate words in the words array, no valid concatenation (returns []), concatenation at the very start and very end of s
+      - Sort result arrays before comparing since order is not guaranteed
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/"
+
+  - id: US-024
+    title: Create test cases for 0034-find-first-and-last-position-of-element-in-sorted-array
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0034-find-first-and-last-position-of-element-in-sorted-array.test.js
+      - Import searchRange from ../0034-find-first-and-last-position-of-element-in-sorted-array
+      - describe block named '0034-find-first-and-last-position-of-element-in-sorted-array'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover target not in array (returns [-1,-1]), single occurrence, all elements equal target, target at first position, target at last position, and empty array
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/"
+
+  - id: US-025
+    title: Create test cases for 0035-search-insert-position
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0035-search-insert-position.test.js
+      - Import searchInsert from ../0035-search-insert-position
+      - describe block named '0035-search-insert-position'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover target found exactly, insert at index 0 (target smaller than all), insert at last index (target larger than all), insert in the middle, and single-element array
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/search-insert-position/description/"
+
+  - id: US-026
+    title: Create test cases for 0036-valid-sudoku
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0036-valid-sudoku.test.js
+      - Import isValidSudoku from ../0036-valid-sudoku
+      - describe block named '0036-valid-sudoku'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover a valid partially-filled board, a board with a row conflict, a board with a column conflict, and a board with a 3x3 box conflict; note the board need not be solvable
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/valid-sudoku/description/"
+
+  - id: US-027
+    title: Create test cases for 0045-jump-game-ii
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0045-jump-game-ii.test.js
+      - Import jump from ../0045-jump-game-ii
+      - describe block named '0045-jump-game-ii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single element (0 jumps), array where every element is 1 (n-1 jumps needed), large first jump reaches end directly (1 jump), and cases requiring greedy choices
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/jump-game-ii/description/"
+
+  - id: US-028
+    title: Create test cases for 0050-powx-n
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0050-powx-n.test.js
+      - Import myPow from ../0050-powx-n
+      - describe block named '0050-powx-n'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover n=0 (returns 1), n=1, negative n (reciprocal), x=0, x=1, x=-1 with even/odd n, and large positive n
+      - Use .toBeCloseTo(expected, 5) for all assertions
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/powx-n/description/"
+
+  - id: US-029
+    title: Create test cases for 0052-n-queens-ii
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0052-n-queens-ii.test.js
+      - Import totalNQueens from ../0052-n-queens-ii
+      - describe block named '0052-n-queens-ii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover n=1 (1 solution), n=2 and n=3 (0 solutions), n=4 (2 solutions), n=5 (10 solutions)
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/n-queens-ii/description/"
+
+  - id: US-030
+    title: Create test cases for 0058-length-of-last-word
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0058-length-of-last-word.test.js
+      - Import lengthOfLastWord from ../0058-length-of-last-word
+      - describe block named '0058-length-of-last-word'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover trailing spaces (must be ignored), single word, single word with leading/trailing spaces, multiple words, and a string of only one character
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/length-of-last-word/description/"
+
+  - id: US-031
+    title: Create test cases for 0061-rotate-list
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0061-rotate-list.test.js
+      - Import ListNode and rotateRight from ../0061-rotate-list
+      - describe block named '0061-rotate-list'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover k=0 (no rotation), k equals list length (same list), k larger than list length (equivalent to k mod length), single-node list, and two-node list
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/rotate-list/description/"
+
+  - id: US-032
+    title: Create test cases for 0063-unique-paths-ii
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0063-unique-paths-ii.test.js
+      - Import uniquePathsWithObstacles from ../0063-unique-paths-ii
+      - describe block named '0063-unique-paths-ii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover obstacle at start (returns 0), obstacle at end (returns 0), no obstacles, a 1x1 grid with no obstacle, and obstacle blocking all paths
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/unique-paths-ii/description/"
+
+  - id: US-033
+    title: Create test cases for 0064-minimum-path-sum
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0064-minimum-path-sum.test.js
+      - Import minPathSum from ../0064-minimum-path-sum
+      - describe block named '0064-minimum-path-sum'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover 1x1 grid, single-row grid, single-column grid, and a grid where going right-first or down-first produce different sums
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/minimum-path-sum/description/"
+
+  - id: US-034
+    title: Create test cases for 0066-plus-one
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0066-plus-one.test.js
+      - Import plusOne from ../0066-plus-one
+      - describe block named '0066-plus-one'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover no carry needed, carry that propagates one position, all-nines array (carry propagates to a new leading digit), and single digit [9]
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/plus-one/description/"
+
+  - id: US-035
+    title: Create test cases for 0067-add-binary
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0067-add-binary.test.js
+      - Import addBinary from ../0067-add-binary
+      - describe block named '0067-add-binary'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover inputs of different lengths, carry propagation producing a leading "1", a="0" or b="0", and both inputs equal "1"
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/add-binary/description/"
+
+  - id: US-036
+    title: Create test cases for 0068-text-justification
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0068-text-justification.test.js
+      - Import fullJustify from ../0068-text-justification
+      - describe block named '0068-text-justification'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover a line with a single long word (no extra spaces), the last line (left-justified), even vs uneven extra-space distribution (extra spaces go to left gaps first), and a single word that exactly fills maxWidth
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/text-justification/description/"
+
+  - id: US-037
+    title: Create test cases for 0069-sqrtx
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0069-sqrtx.test.js
+      - Import mySqrt from ../0069-sqrtx
+      - describe block named '0069-sqrtx'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover x=0, x=1, perfect squares, non-perfect squares (result is floor of sqrt), and a large value near the upper constraint
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/sqrtx/description/"
+
+  - id: US-038
+    title: Create test cases for 0071-simplify-path
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0071-simplify-path.test.js
+      - Import simplifyPath from ../0071-simplify-path
+      - describe block named '0071-simplify-path'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover trailing slash removal, consecutive slashes, single-dot components (current dir), double-dot components navigating up, and double-dot at root (stays at root)
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/simplify-path/description/"
+
+  - id: US-039
+    title: Create test cases for 0072-edit-distance
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0072-edit-distance.test.js
+      - Import minDistance from ../0072-edit-distance
+      - describe block named '0072-edit-distance'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover both strings empty (0), one empty string (distance equals other length), equal strings (0), single character strings, and strings with no common characters
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/edit-distance/description/"
+
+  - id: US-040
+    title: Create test cases for 0077-combinations
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0077-combinations.test.js
+      - Import combine from ../0077-combinations
+      - describe block named '0077-combinations'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover k=1 (each single number is a combination), k=n (only one combination: all numbers), n=1 with k=1, and verify the count of combinations matches C(n,k)
+      - Sort inner arrays and outer array before comparing since order is not guaranteed
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/combinations/description/"
+
+  - id: US-041
+    title: Create test cases for 0080-remove-duplicates-from-sorted-array-ii
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0080-remove-duplicates-from-sorted-array-ii.test.js
+      - Import removeDuplicates from ../0080-remove-duplicates-from-sorted-array-ii
+      - describe block named '0080-remove-duplicates-from-sorted-array-ii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover no duplicates, exactly two occurrences, more than two occurrences (third+ must be removed), all elements identical, and verify both return value (k) and first k elements
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/"
+
+  - id: US-042
+    title: Create test cases for 0082-remove-duplicates-from-sorted-list-ii
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0082-remove-duplicates-from-sorted-list-ii.test.js
+      - Import ListNode and deleteDuplicates from ../0082-remove-duplicates-from-sorted-list-ii
+      - describe block named '0082-remove-duplicates-from-sorted-list-ii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty list, no duplicates, all elements are duplicates (returns null), duplicate at the head, duplicate at the tail, and single-element list
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/"
+
+  - id: US-043
+    title: Create test cases for 0086-partition-list
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0086-partition-list.test.js
+      - Import ListNode and partition from ../0086-partition-list
+      - describe block named '0086-partition-list'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover all elements less than x, all elements greater than or equal to x, single-node list, empty list, and x smaller than all elements
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/partition-list/description/"
+
+  - id: US-044
+    title: Create test cases for 0088-merge-sorted-array
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0088-merge-sorted-array.test.js
+      - Import merge from ../0088-merge-sorted-array
+      - describe block named '0088-merge-sorted-array'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover m=0 (nums1 is all zeros, result is nums2), n=0 (nums1 unchanged), all elements of nums2 smaller than nums1, all elements of nums2 larger than nums1, and interleaved values
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/merge-sorted-array/description/"
+
+  - id: US-045
+    title: Create test cases for 0097-interleaving-string
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0097-interleaving-string.test.js
+      - Import isInterleave from ../0097-interleaving-string
+      - describe block named '0097-interleaving-string'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover all three strings empty, s1 empty (s3 must equal s2), s2 empty (s3 must equal s1), lengths that don't sum correctly (immediately false), and cases with duplicate characters that could mislead a greedy approach
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/interleaving-string/description/"
+
+  - id: US-046
+    title: Create test cases for 0101-symmetric-tree
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0101-symmetric-tree.test.js
+      - Import TreeNode and isSymmetric from ../0101-symmetric-tree
+      - describe block named '0101-symmetric-tree'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover null root, single node, perfectly symmetric tree, asymmetric due to structure difference, and asymmetric due to value difference with symmetric structure
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/symmetric-tree/description/"
+
+  - id: US-047
+    title: Create test cases for 0106-construct-binary-tree-from-inorder-and-postorder-traversal
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0106-construct-binary-tree-from-inorder-and-postorder-traversal.test.js
+      - Import TreeNode and buildTree from ../0106-construct-binary-tree-from-inorder-and-postorder-traversal
+      - describe block named '0106-construct-binary-tree-from-inorder-and-postorder-traversal'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single node, left-only chain, right-only chain, and a balanced tree; verify the resulting tree structure matches expected inorder and postorder
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/"
+
+  - id: US-048
+    title: Create test cases for 0108-convert-sorted-array-to-binary-search-tree
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0108-convert-sorted-array-to-binary-search-tree.test.js
+      - Import TreeNode and sortedArrayToBST from ../0108-convert-sorted-array-to-binary-search-tree
+      - describe block named '0108-convert-sorted-array-to-binary-search-tree'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single element, two elements, odd-length and even-length arrays; verify the result is a valid height-balanced BST by checking in-order traversal matches the input
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/"
+
+  - id: US-049
+    title: Create test cases for 0112-path-sum
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0112-path-sum.test.js
+      - Import TreeNode and hasPathSum from ../0112-path-sum
+      - describe block named '0112-path-sum'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover null root (returns false), single leaf node where value equals targetSum, single leaf where value does not equal targetSum, target met by a non-leaf path (must reach leaf), and negative values in path
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/path-sum/description/"
+
+  - id: US-050
+    title: Create test cases for 0114-flatten-binary-tree-to-linked-list
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0114-flatten-binary-tree-to-linked-list.test.js
+      - Import TreeNode and flatten from ../0114-flatten-binary-tree-to-linked-list
+      - describe block named '0114-flatten-binary-tree-to-linked-list'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty tree (no-op), single node, already right-only list (no-op), left-only tree, and a tree where the flattened order must follow pre-order traversal
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/"
+
+  - id: US-051
+    title: Create test cases for 0117-populating-next-right-pointers-in-each-node-ii
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0117-populating-next-right-pointers-in-each-node-ii.test.js
+      - Import Node and connect from ../0117-populating-next-right-pointers-in-each-node-ii
+      - describe block named '0117-populating-next-right-pointers-in-each-node-ii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty tree, single node, a partial last level (last node's next must be null), and a case where nodes on the same level are not siblings
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/"
+
+  - id: US-052
+    title: Create test cases for 0120-triangle
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0120-triangle.test.js
+      - Import minimumTotal from ../0120-triangle
+      - describe block named '0120-triangle'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single-element triangle, two-row triangle, all-negative values (minimum path is least negative), and a triangle where greedy local choices don't yield the global minimum
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/triangle/description/"
+
+  - id: US-053
+    title: Create test cases for 0122-best-time-to-buy-and-sell-stock-ii
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0122-best-time-to-buy-and-sell-stock-ii.test.js
+      - Import maxProfit from ../0122-best-time-to-buy-and-sell-stock-ii
+      - describe block named '0122-best-time-to-buy-and-sell-stock-ii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover strictly descending prices (0 profit), strictly ascending prices (collect all increases), single day (0 profit), and prices that require multiple transactions
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/"
+
+  - id: US-054
+    title: Create test cases for 0123-best-time-to-buy-and-sell-stock-iii
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0123-best-time-to-buy-and-sell-stock-iii.test.js
+      - Import maxProfit from ../0123-best-time-to-buy-and-sell-stock-iii
+      - describe block named '0123-best-time-to-buy-and-sell-stock-iii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover descending prices (0 profit), single transaction optimal, two transactions optimal, and cases where completing exactly two transactions beats one
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/"
+
+  - id: US-055
+    title: Create test cases for 0127-word-ladder
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0127-word-ladder.test.js
+      - Import ladderLength from ../0127-word-ladder
+      - describe block named '0127-word-ladder'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover no path exists (returns 0), beginWord equals endWord (edge case), endWord not in wordList (returns 0), single-character words, and shortest path through a multi-step chain
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/word-ladder/description/"
+
+  - id: US-056
+    title: Create test cases for 0129-sum-root-to-leaf-numbers
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0129-sum-root-to-leaf-numbers.test.js
+      - Import TreeNode and sumNumbers from ../0129-sum-root-to-leaf-numbers
+      - describe block named '0129-sum-root-to-leaf-numbers'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single leaf node (root value is the number), tree with only left children, tree with only right children, root with zeros in the path (e.g., 1->0->5 is 105)
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/sum-root-to-leaf-numbers/description/"
+
+  - id: US-057
+    title: Create test cases for 0130-surrounded-regions
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0130-surrounded-regions.test.js
+      - Import solve from ../0130-surrounded-regions
+      - describe block named '0130-surrounded-regions'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover all X board, all O board (none flipped since all border-connected), O on the border (not flipped), O fully surrounded by X (flipped), and a 1xN board
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/surrounded-regions/description/"
+
+  - id: US-058
+    title: Create test cases for 0134-gas-station
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0134-gas-station.test.js
+      - Import canCompleteCircuit from ../0134-gas-station
+      - describe block named '0134-gas-station'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover total gas < total cost (returns -1), single station with gas >= cost, single station with gas < cost, and the unique valid starting station is at the end of the array
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/gas-station/description/"
+
+  - id: US-059
+    title: Create test cases for 0135-candy
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0135-candy.test.js
+      - Import candy from ../0135-candy
+      - describe block named '0135-candy'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single child, all equal ratings (each gets 1), strictly ascending ratings (staircase distribution), strictly descending ratings, and a valley (both neighbors rate higher)
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/candy/description/"
+
+  - id: US-060
+    title: Create test cases for 0136-single-number
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0136-single-number.test.js
+      - Import singleNumber from ../0136-single-number
+      - describe block named '0136-single-number'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single element array, single number at the start, single number at the end, negative numbers, and zero as the unique number
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/single-number/description/"
+
+  - id: US-061
+    title: Create test cases for 0137-single-number-ii
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0137-single-number-ii.test.js
+      - Import singleNumber from ../0137-single-number-ii
+      - describe block named '0137-single-number-ii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single element, the unique element appearing once while all others appear three times, negative unique number, and zero as the unique number
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/single-number-ii/description/"
+
+  - id: US-062
+    title: Create test cases for 0138-copy-list-with-random-pointer
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0138-copy-list-with-random-pointer.test.js
+      - Import Node and copyRandomList from ../0138-copy-list-with-random-pointer
+      - describe block named '0138-copy-list-with-random-pointer'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty list (null), single node with random pointing to itself, all random pointers null, random pointers pointing backward, and verify the copy is a deep copy (different object references)
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/copy-list-with-random-pointer/description/"
+
+  - id: US-063
+    title: Create test cases for 0148-sort-list
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0148-sort-list.test.js
+      - Import ListNode and sortList from ../0148-sort-list
+      - describe block named '0148-sort-list'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty list (null), single node, already sorted, reverse sorted, all duplicate values, and negative values mixed with positives
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/sort-list/description/"
+
+  - id: US-064
+    title: Create test cases for 0149-max-points-on-a-line
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0149-max-points-on-a-line.test.js
+      - Import maxPoints from ../0149-max-points-on-a-line
+      - describe block named '0149-max-points-on-a-line'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single point (returns 1), two points (always collinear, returns 2), all points on the same line, all points are the same coordinate, and vertical lines (undefined slope)
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/max-points-on-a-line/description/"
+
+  - id: US-065
+    title: Create test cases for 0150-evaluate-reverse-polish-notation
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0150-evaluate-reverse-polish-notation.test.js
+      - Import evalRPN from ../0150-evaluate-reverse-polish-notation
+      - describe block named '0150-evaluate-reverse-polish-notation'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single number token, negative number tokens, division truncating toward zero (not floor), and nested operations
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/evaluate-reverse-polish-notation/description/"
+
+  - id: US-066
+    title: Create test cases for 0151-reverse-words-in-a-string
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0151-reverse-words-in-a-string.test.js
+      - Import reverseWords from ../0151-reverse-words-in-a-string
+      - describe block named '0151-reverse-words-in-a-string'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single word, leading and trailing spaces (must be stripped), multiple spaces between words (reduced to single space), and a string that is already reversed
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/reverse-words-in-a-string/description/"
+
+  - id: US-067
+    title: Create test cases for 0155-min-stack
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0155-min-stack.test.js
+      - Import MinStack from ../0155-min-stack
+      - describe block named '0155-min-stack'
+      - Include all LeetCode official example test cases
+      - Test by creating MinStack instances and calling push, pop, top, and getMin in sequence
+      - Derive test cases from problem constraints — cover getMin after pushing a new minimum, getMin after popping the minimum (must return previous minimum), duplicate minimum values, and a sequence that alternates between min updates and pops
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/min-stack/description/"
+
+  - id: US-068
+    title: Create test cases for 0162-find-peak-element
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0162-find-peak-element.test.js
+      - Import findPeakElement from ../0162-find-peak-element
+      - describe block named '0162-find-peak-element'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single element (index 0 is always a peak), monotonically increasing array (last element is peak), monotonically decreasing array (first element is peak), and multiple peaks (any valid index is acceptable)
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/find-peak-element/description/"
+
+  - id: US-069
+    title: Create test cases for 0167-two-sum-ii-input-array-is-sorted
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0167-two-sum-ii-input-array-is-sorted.test.js
+      - Import twoSum from ../0167-two-sum-ii-input-array-is-sorted
+      - describe block named '0167-two-sum-ii-input-array-is-sorted'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover answer at the first two indices, answer at the last two indices, answer indices far apart, negative numbers summing to a positive target, and 1-indexed result verification
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/"
+
+  - id: US-070
+    title: Create test cases for 0169-majority-element
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0169-majority-element.test.js
+      - Import majorityElement from ../0169-majority-element
+      - describe block named '0169-majority-element'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single element, all elements the same, majority element appears exactly floor(n/2)+1 times, majority element at the start vs scattered throughout
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/majority-element/description/"
+
+  - id: US-071
+    title: Create test cases for 0172-factorial-trailing-zeroes
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0172-factorial-trailing-zeroes.test.js
+      - Import trailingZeroes from ../0172-factorial-trailing-zeroes
+      - describe block named '0172-factorial-trailing-zeroes'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover n=0 (0! = 1, no trailing zero), n=5 (contributes one 5), n=25 (contributes extra zero for 25=5^2), and n=30 to verify accumulation of factors of 5
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/factorial-trailing-zeroes/description/"
+
+  - id: US-072
+    title: Create test cases for 0173-binary-search-tree-iterator
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0173-binary-search-tree-iterator.test.js
+      - Import TreeNode and BSTIterator from ../0173-binary-search-tree-iterator
+      - describe block named '0173-binary-search-tree-iterator'
+      - Include all LeetCode official example test cases
+      - Test by constructing BSTIterator with a tree root and calling hasNext/next in sequence
+      - Derive test cases from problem constraints — cover single-node tree, left-only tree, right-only tree, and verify that repeated next() calls return values in ascending (in-order) order and hasNext() returns false when exhausted
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/binary-search-tree-iterator/description/"
+
+  - id: US-073
+    title: Create test cases for 0188-best-time-to-buy-and-sell-stock-iv
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0188-best-time-to-buy-and-sell-stock-iv.test.js
+      - Import maxProfit from ../0188-best-time-to-buy-and-sell-stock-iv
+      - describe block named '0188-best-time-to-buy-and-sell-stock-iii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover k=0 (no transactions, 0 profit), k >= n/2 (unlimited transactions, collect all upward moves), descending prices (0 profit), and verify k transactions is better than k-1
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/"
+
+  - id: US-074
+    title: Create test cases for 0189-rotate-array
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0189-rotate-array.test.js
+      - Import rotate from ../0189-rotate-array
+      - describe block named '0189-rotate-array'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover k=0 (no change), k equals array length (no change), k larger than array length (equivalent to k mod n), single-element array, and negative values in the array
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/rotate-array/description/"
+
+  - id: US-075
+    title: Create test cases for 0199-binary-tree-right-side-view
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0199-binary-tree-right-side-view.test.js
+      - Import TreeNode and rightSideView from ../0199-binary-tree-right-side-view
+      - describe block named '0199-binary-tree-right-side-view'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty tree (returns []), single node, left-only tree (left nodes are visible from right), right-only tree, and a tree where the rightmost node per level is on the left subtree of the root
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/binary-tree-right-side-view/description/"
+
+  - id: US-076
+    title: Create test cases for 0201-bitwise-and-of-numbers-range
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0201-bitwise-and-of-numbers-range.test.js
+      - Import rangeBitwiseAnd from ../0201-bitwise-and-of-numbers-range
+      - describe block named '0201-bitwise-and-of-numbers-range'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover m=n (AND of same number is itself), m=0 (result is 0), a range crossing a power of 2 (result is 0 for that bit), and large values at the constraint boundary
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/bitwise-and-of-numbers-range/description/"
+
+  - id: US-077
+    title: Create test cases for 0202-happy-number
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0202-happy-number.test.js
+      - Import isHappy from ../0202-happy-number
+      - describe block named '0202-happy-number'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover n=1 (happy), n=7 (happy), n=2 (unhappy, enters cycle), n=4 (unhappy), and a multi-step happy number
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/happy-number/description/"
+
+  - id: US-078
+    title: Create test cases for 0205-isomorphic-strings
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0205-isomorphic-strings.test.js
+      - Import isIsomorphic from ../0205-isomorphic-strings
+      - describe block named '0205-isomorphic-strings'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover equal strings (isomorphic to themselves), single character, two different characters mapping to the same character (not isomorphic), and a bijective mapping that holds
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/isomorphic-strings/description/"
+
+  - id: US-079
+    title: Create test cases for 0209-minimum-size-subarray-sum
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0209-minimum-size-subarray-sum.test.js
+      - Import minSubArrayLen from ../0209-minimum-size-subarray-sum
+      - describe block named '0209-minimum-size-subarray-sum'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover no valid subarray (returns 0), entire array needed, single element >= target, and a sliding window case where the minimum window shrinks as the sum grows
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/minimum-size-subarray-sum/description/"
+
+  - id: US-080
+    title: Create test cases for 0210-course-schedule-ii
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0210-course-schedule-ii.test.js
+      - Import findOrder from ../0210-course-schedule-ii
+      - describe block named '0210-course-schedule-ii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover no prerequisites (any order valid), a cycle (returns []), a linear chain of dependencies, and a case with multiple valid orderings; verify the returned order is a valid topological sort
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/course-schedule-ii/description/"
+
+  - id: US-081
+    title: Create test cases for 0215-kth-largest-element-in-an-array
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0215-kth-largest-element-in-an-array.test.js
+      - Import findKthLargest from ../0215-kth-largest-element-in-an-array
+      - describe block named '0215-kth-largest-element-in-an-array'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover k=1 (maximum), k=n (minimum), all duplicate values, negative values, and a mix of positive/negative numbers
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/kth-largest-element-in-an-array/description/"
+
+  - id: US-082
+    title: Create test cases for 0219-contains-duplicate-ii
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0219-contains-duplicate-ii.test.js
+      - Import containsNearbyDuplicate from ../0219-contains-duplicate-ii
+      - describe block named '0219-contains-duplicate-ii'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover no duplicates at all, duplicate exactly at distance k (true), duplicate at distance k+1 (false), all elements the same (true for any k>=1), and k=0 (false, same index not allowed)
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/contains-duplicate-ii/description/"
+
+  - id: US-083
+    title: Create test cases for 0221-maximal-square
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0221-maximal-square.test.js
+      - Import maximalSquare from ../0221-maximal-square
+      - describe block named '0221-maximal-square'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover all zeros (returns 0), all ones (square is entire matrix), 1x1 matrix with '1', a single row, and a non-square rectangle of all ones
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/maximal-square/description/"
+
+  - id: US-084
+    title: Create test cases for 0222-count-complete-tree-nodes
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0222-count-complete-tree-nodes.test.js
+      - Import TreeNode and countNodes from ../0222-count-complete-tree-nodes
+      - describe block named '0222-count-complete-tree-nodes'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty tree (0), single node (1), complete last level fully filled, complete last level partially filled, and a large balanced tree
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/count-complete-tree-nodes/description/"
+
+  - id: US-085
+    title: Create test cases for 0228-summary-ranges
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0228-summary-ranges.test.js
+      - Import summaryRanges from ../0228-summary-ranges
+      - describe block named '0228-summary-ranges'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty array, single element, all elements consecutive (one range), all elements isolated (all single-element ranges), and negative numbers
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/summary-ranges/description/"
+
+  - id: US-086
+    title: Create test cases for 0236-lowest-common-ancestor-of-a-binary-tree
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0236-lowest-common-ancestor-of-a-binary-tree.test.js
+      - Import TreeNode and lowestCommonAncestor from ../0236-lowest-common-ancestor-of-a-binary-tree
+      - describe block named '0236-lowest-common-ancestor-of-a-binary-tree'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover root as LCA, one node being an ancestor of the other (LCA is that ancestor), nodes in different subtrees, and a two-node tree
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/"
+
+  - id: US-087
+    title: Create test cases for 0289-game-of-life
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0289-game-of-life.test.js
+      - Import gameOfLife from ../0289-game-of-life
+      - describe block named '0289-game-of-life'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover all dead (stay dead), all alive (overpopulation kills most), a blinker pattern (oscillator), a 1x1 board, and a single live cell (dies from underpopulation)
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/game-of-life/description/"
+
+  - id: US-088
+    title: Create test cases for 0290-word-pattern
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0290-word-pattern.test.js
+      - Import wordPattern from ../0290-word-pattern
+      - describe block named '0290-word-pattern'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover pattern length not matching word count (false), different pattern characters mapping to the same word (false), bijective mapping that holds, and single character pattern
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/word-pattern/description/"
+
+  - id: US-089
+    title: Create test cases for 0373-find-k-pairs-with-smallest-sums
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0373-find-k-pairs-with-smallest-sums.test.js
+      - Import kSmallestPairs from ../0373-find-k-pairs-with-smallest-sums
+      - describe block named '0373-find-k-pairs-with-smallest-sums'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover k=1 (only the smallest pair), k larger than total pairs (return all), equal values in both arrays, and verify results are in non-decreasing sum order
+      - Sort result arrays before comparing since order among equal-sum pairs is not guaranteed
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/"
+
+  - id: US-090
+    title: Create test cases for 0383-ransom-note
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0383-ransom-note.test.js
+      - Import canConstruct from ../0383-ransom-note
+      - describe block named '0383-ransom-note'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty ransomNote (always true), magazine shorter than ransomNote (false), magazine has exactly the needed characters, a repeated character needed more times than available, and ransomNote equals magazine
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/ransom-note/description/"
+
+  - id: US-091
+    title: Create test cases for 0392-is-subsequence
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0392-is-subsequence.test.js
+      - Import isSubsequence from ../0392-is-subsequence
+      - describe block named '0392-is-subsequence'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty s (always true), t empty with non-empty s (false), s equals t, s longer than t (false), and characters present but in wrong order
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/is-subsequence/description/"
+
+  - id: US-092
+    title: Create test cases for 0399-evaluate-division
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0399-evaluate-division.test.js
+      - Import calcEquation from ../0399-evaluate-division
+      - describe block named '0399-evaluate-division'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover a variable divided by itself (returns 1.0), query with unknown variable (returns -1.0), no path between queried variables (returns -1.0), and a chain that requires transitive reasoning
+      - Use .toBeCloseTo(expected, 5) for all assertions
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/evaluate-division/description/"
+
+  - id: US-093
+    title: Create test cases for 0427-construct-quad-tree
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0427-construct-quad-tree.test.js
+      - Import Node and construct from ../0427-construct-quad-tree
+      - describe block named '0427-construct-quad-tree'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover a 1x1 grid, all-zero grid (single leaf node), all-one grid (single leaf node), and a grid that requires subdivision at multiple levels
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/construct-quad-tree/description/"
+
+  - id: US-094
+    title: Create test cases for 0433-minimum-genetic-mutation
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0433-minimum-genetic-mutation.test.js
+      - Import minMutation from ../0433-minimum-genetic-mutation
+      - describe block named '0433-minimum-genetic-mutation'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover startGene equals endGene (0 mutations), endGene not reachable (returns -1), bank not containing endGene (returns -1), and a chain of exactly one valid mutation path
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/minimum-genetic-mutation/description/"
+
+  - id: US-095
+    title: Create test cases for 0452-minimum-number-of-arrows-to-burst-balloons
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0452-minimum-number-of-arrows-to-burst-balloons.test.js
+      - Import findMinArrowShots from ../0452-minimum-number-of-arrows-to-burst-balloons
+      - describe block named '0452-minimum-number-of-arrows-to-burst-balloons'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single balloon (1 arrow), all balloons overlapping (1 arrow), no balloons overlapping (n arrows), balloons touching at exactly one point (counts as overlapping), and negative coordinates
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/"
+
+  - id: US-096
+    title: Create test cases for 0502-ipo
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0502-ipo.test.js
+      - Import findMaximizedCapital from ../0502-ipo
+      - describe block named '0502-ipo'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover k=0 (no projects, capital unchanged), all projects unaffordable (capital unchanged), k greater than number of projects (complete all affordable ones), and greedy ordering where picking higher profit first maximizes final capital
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/ipo/description/"
+
+  - id: US-097
+    title: Create test cases for 0530-minimum-absolute-difference-in-bst
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0530-minimum-absolute-difference-in-bst.test.js
+      - Import TreeNode and getMinimumDifference from ../0530-minimum-absolute-difference-in-bst
+      - describe block named '0530-minimum-absolute-difference-in-bst'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover two-node tree (only one pair), right-only chain, a balanced BST, and a tree where the minimum difference is between non-adjacent values in the tree structure but adjacent in sorted order
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/"
+
+  - id: US-098
+    title: Create test cases for 0637-average-of-levels-in-binary-tree
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0637-average-of-levels-in-binary-tree.test.js
+      - Import TreeNode and averageOfLevels from ../0637-average-of-levels-in-binary-tree
+      - describe block named '0637-average-of-levels-in-binary-tree'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single node (average is node value), a balanced tree with equal values per level, a partial last level, and values that produce non-integer averages
+      - Use .toBeCloseTo(expected, 5) for each value in the result array
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/average-of-levels-in-binary-tree/description/"
+
+  - id: US-099
+    title: Create test cases for 0909-snakes-and-ladders
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0909-snakes-and-ladders.test.js
+      - Import snakesAndLadders from ../0909-snakes-and-ladders
+      - describe block named '0909-snakes-and-ladders'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover no snakes or ladders (minimum moves is ceil((n^2-1)/6)), a snake sending the player backward (making path longer), a ladder skipping to near the end, and an unreachable board (returns -1)
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/snakes-and-ladders/description/"
+
+  - id: US-100
+    title: Create test cases for 0918-maximum-sum-circular-subarray
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0918-maximum-sum-circular-subarray.test.js
+      - Import maxSubarraySumCircular from ../0918-maximum-sum-circular-subarray
+      - describe block named '0918-maximum-sum-circular-subarray'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover all negative values (must return the single largest element, not an empty subarray), single element, circular subarray beats linear (wrapping around is optimal), and linear subarray beats circular
+    priority: 1
+    passes: false
+    notes: "Problem: https://leetcode.com/problems/maximum-sum-circular-subarray/description/"
