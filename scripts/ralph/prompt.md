@@ -1,50 +1,58 @@
 # Ralph Agent Instructions
 
+This is the **general** ralph workflow. Phase- or project-specific rules
+(e.g. how to implement a "batch-NNN" story under the current plan) live in a
+dedicated guideline file referenced from the active prd.yaml story. Do **not**
+add phase-specific detail to this prompt.
+
 ## Your Task
 
 1. Read `scripts/ralph/prd.yaml`
 2. Read `scripts/ralph/progress.txt`
-   (check Codebase Patterns first)
 3. Check you're on the correct branch
-4. Pick highest priority story 
-   where `passes: false`
+4. Pick the highest priority story where `passes: false`
 5. Implement that ONE story (see story-type rules below)
-6. Run tests scoped to changed files via npx vitest run <paths>
+6. Run tests scoped to changed files via `npx vitest run <paths>`
 7. Commit: `feat: [ID] - [Title]`
 8. Update prd.yaml: `passes: true`
-9. Append learnings to scripts/ralph/progress.txt
+9. Append learnings to `scripts/ralph/progress.txt`
 
 ## Story-Type Rules
 
 ### Implement batch-NNN stories
 
-For any story titled "Implement batch-NNN":
+Follow the phase-specific batch guideline file referenced in the story's
+acceptance criteria (currently: `docs/plan-v3/claude.md`). Do not invent or
+shortcut the per-problem flow defined there.
 
-1. Run `python3 scripts/ralph/generate_tests.py --batch batch-NNN`
-2. Do NOT hand-author expected outputs
-3. Do NOT hand-author test cases
-4. The script emits all stubs and test files automatically from oracle outputs
-5. Run `npx vitest run` scoped to the newly generated test files
-6. Commit with message: `feat [US-0XX] - Implement batch-NNN`
+After all problems in the batch are processed, commit:
+`feat [US-0XX] - Implement batch-NNN`
 
 ### Expand prd window stories
 
-For any story titled "Expand prd window":
-
 1. Run `python3 scripts/ralph/expand_prd.py`
-2. Commit the updated `prd.yaml` + `manifest.json` together
-3. Commit with message: `feat [US-0XX] - Expand prd window`
+2. Commit updated `prd.yaml` + `manifest.json`
+3. Commit message: `feat [US-0XX] - Expand prd window`
 
-## Explicit Ban
+---
 
-**Never write expected outputs or test assertions from your own reasoning.**
-Ralph has no oracle except the scripts in `scripts/ralph/` and the solutions in `solutions-bank/`.
-All expected values MUST come from running oracle scripts — never from model inference.
+## Quality Rules
+
+- Never write expected outputs or test assertions from your own reasoning;
+  ralph has no oracle except the scripts in `scripts/ralph/` and the
+  solutions in `solutions-bank/`.
+- A test file is only committed if it passes the validation defined in the
+  active phase guideline.
+- Problems that can't produce a valid test suite go to `needs-oracle.json` —
+  never emit wrong tests.
+
+---
 
 ## Progress Format
 
-APPEND to scripts/ralph/progress.txt:
+APPEND to `scripts/ralph/progress.txt`:
 
+```
 ## [Date] - [Story ID]
 - What was implemented
 - Files changed
@@ -52,38 +60,30 @@ APPEND to scripts/ralph/progress.txt:
   - Patterns discovered
   - Gotchas encountered
 ---
+```
+
+---
 
 ## prd.yaml format
 
 ```yaml
-branchName: ralph/feature
+branchName: feature/name
 userStories:
   - id: US-001
-    title: Add login form
+    title: Example story
     acceptanceCriteria:
-      - Email/password fields
-      - Validates email format
-      - typecheck passes
+      - Criterion one
+      - Criterion two
     priority: 1
     passes: false
     notes: ""
 ```
 
-## Codebase Patterns
-
-Add reusable patterns to the TOP
-of progress.txt:
-
-## Codebase Patterns
-- Migrations: Use IF NOT EXISTS
-- React: useRef<Timeout | null>(null)
+---
 
 ## Stop Condition
 
-When the active story is an "Expand prd window" story and
-`python3 scripts/ralph/expand_prd.py` outputs `<promise>COMPLETE</promise>`,
-mark that story `passes: true`, commit, and reply:
+When the active story is "Expand prd window" and `expand_prd.py` outputs
+`<promise>COMPLETE</promise>`, mark `passes: true`, commit, and reply:
 
 <promise>COMPLETE</promise>
-
-Otherwise end normally.

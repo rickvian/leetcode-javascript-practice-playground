@@ -1,5 +1,16 @@
 #!/usr/bin/env node
 /**
+ * What is an "oracle"?
+ *
+ * In software testing, an oracle is a reference implementation — a known-correct
+ * solution used as the source of truth. Here, oracles live in solutions-bank/ and
+ * are complete, working implementations of LeetCode problems. This script feeds
+ * raw inputs through an oracle to produce expected outputs, which become the
+ * ground-truth answers baked into generated test files.
+ *
+ * In short: oracle = trusted solution → run it on inputs → capture outputs →
+ * those outputs become the `expected` values in Jest tests.
+ *
  * oracle_run.mjs
  *
  * Calls an oracle function from solutions-bank/, handles pointer-type

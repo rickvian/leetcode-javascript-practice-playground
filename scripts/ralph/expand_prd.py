@@ -17,11 +17,13 @@ MANIFEST_PATH = os.path.join(SCRIPT_DIR, "manifest.json")
 WINDOW = 10  # batch stories to add per expansion
 
 BATCH_STORY_TEMPLATE = """\
-For each problem in scripts/ralph/batches/{batchId}.json:
-- Run `python3 scripts/ralph/generate_tests.py --batch {batchId}` to emit stubs and test files — do NOT hand-author expected outputs, do NOT hand-author test cases
-- The script handles idempotent resume (skips existing stub+test pairs automatically)
-- Run npx vitest run scoped to newly generated test files
-- Commit with message: feat [{storyId}] - Implement {batchId}\
+For each problem in scripts/ralph/batches/{batchId}.json, follow the \
+plan-v3 phase guideline at docs/plan-v3/claude.md \
+(read oracle file, reason about domain-valid inputs, run oracle_run.mjs, \
+write stub + test, validate against oracle import). \
+The general ralph workflow lives in scripts/ralph/prompt.md; phase detail \
+lives in docs/plan-v3/claude.md — see docs/plan-v3/plan-v3.md for background. \
+Commit with message: feat [{storyId}] - Implement {batchId}\
 """
 
 EXPAND_STORY_CRITERIA = [

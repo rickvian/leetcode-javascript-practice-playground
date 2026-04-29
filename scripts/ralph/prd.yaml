@@ -353,90 +353,78 @@ userStories:
 - id: US-017
   title: Implement batch-005
   acceptanceCriteria:
-  - "For each problem in scripts/ralph/batches/batch-005.json:\n- Run `python3 scripts/ralph/generate_tests.py
-    --batch batch-005` to emit stubs and test files — do NOT hand-author expected
-    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
-    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
-    newly generated test files\n- Commit with message: feat [US-017] - Implement batch-005"
+  - Follow the plan-v3 phase guideline at docs/plan-v3/claude.md (general ralph workflow
+    lives in scripts/ralph/prompt.md; background in docs/plan-v3/plan-v3.md) for
+    each problem in scripts/ralph/batches/batch-005.json
+  - Commit with message: feat [US-017] - Implement batch-005
   priority: 17
   passes: false
-  notes: Stubs intentionally fail assertions — red test output is the expected 
-    state and does NOT block the commit. Do not run the full suite; scope to new
-    files only.
+  notes: Read each solutions-bank file to understand the problem domain before writing
+    inputs. Expected outputs come from oracle_run.mjs only.
 - id: US-018
   title: Implement batch-006
   acceptanceCriteria:
-  - "For each problem in scripts/ralph/batches/batch-006.json:\n- Run `python3 scripts/ralph/generate_tests.py
-    --batch batch-006` to emit stubs and test files — do NOT hand-author expected
-    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
-    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
-    newly generated test files\n- Commit with message: feat [US-018] - Implement batch-006"
+  - Follow the plan-v3 phase guideline at docs/plan-v3/claude.md (general ralph workflow
+    lives in scripts/ralph/prompt.md; background in docs/plan-v3/plan-v3.md) for
+    each problem in scripts/ralph/batches/batch-006.json
+  - Commit with message: feat [US-018] - Implement batch-006
   priority: 18
   passes: false
-  notes: Stubs intentionally fail assertions — red test output is the expected 
-    state and does NOT block the commit. Do not run the full suite; scope to new
-    files only.
+  notes: Read each solutions-bank file to understand the problem domain before writing
+    inputs. Expected outputs come from oracle_run.mjs only.
 - id: US-019
   title: Implement batch-007
   acceptanceCriteria:
-  - "For each problem in scripts/ralph/batches/batch-007.json:\n- Run `python3 scripts/ralph/generate_tests.py
-    --batch batch-007` to emit stubs and test files — do NOT hand-author expected
-    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
-    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
-    newly generated test files\n- Commit with message: feat [US-019] - Implement batch-007"
+  - Follow the plan-v3 phase guideline at docs/plan-v3/claude.md (general ralph workflow
+    lives in scripts/ralph/prompt.md; background in docs/plan-v3/plan-v3.md) for
+    each problem in scripts/ralph/batches/batch-007.json
+  - Commit with message: feat [US-019] - Implement batch-007
   priority: 19
   passes: false
-  notes: Stubs intentionally fail assertions — red test output is the expected 
-    state and does NOT block the commit. Do not run the full suite; scope to new
-    files only.
+  notes: Read each solutions-bank file to understand the problem domain before writing
+    inputs. Expected outputs come from oracle_run.mjs only.
 - id: US-020
   title: Implement batch-008
   acceptanceCriteria:
-  - "For each problem in scripts/ralph/batches/batch-008.json:\n- Run `python3 scripts/ralph/generate_tests.py
-    --batch batch-008` to emit stubs and test files — do NOT hand-author expected
-    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
-    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
-    newly generated test files\n- Commit with message: feat [US-020] - Implement batch-008"
+  - Follow the plan-v3 phase guideline at docs/plan-v3/claude.md (general ralph workflow
+    lives in scripts/ralph/prompt.md; background in docs/plan-v3/plan-v3.md) for
+    each problem in scripts/ralph/batches/batch-008.json
+  - Commit with message: feat [US-020] - Implement batch-008
   priority: 20
   passes: false
-  notes: Stubs intentionally fail assertions — red test output is the expected 
-    state and does NOT block the commit. Do not run the full suite; scope to new
-    files only.
+  notes: Read each solutions-bank file to understand the problem domain before writing
+    inputs. Expected outputs come from oracle_run.mjs only.
 - id: US-021
   title: Implement batch-009
   acceptanceCriteria:
-  - "For each problem in scripts/ralph/batches/batch-009.json:\n- Run `python3 scripts/ralph/generate_tests.py
-    --batch batch-009` to emit stubs and test files — do NOT hand-author expected
-    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
-    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
-    newly generated test files\n- Commit with message: feat [US-021] - Implement batch-009"
+  - Follow the plan-v3 phase guideline at docs/plan-v3/claude.md (general ralph workflow
+    lives in scripts/ralph/prompt.md; background in docs/plan-v3/plan-v3.md) for
+    each problem in scripts/ralph/batches/batch-009.json
+  - Commit with message: feat [US-021] - Implement batch-009
   priority: 21
   passes: false
-  notes: Stubs intentionally fail assertions — red test output is the expected 
-    state and does NOT block the commit. Do not run the full suite; scope to new
-    files only.
+  notes: Read each solutions-bank file to understand the problem domain before writing
+    inputs. Expected outputs come from oracle_run.mjs only.
 - id: US-022
   title: Implement batch-010
   acceptanceCriteria:
-  - "For each problem in scripts/ralph/batches/batch-010.json:\n- Run `python3 scripts/ralph/generate_tests.py
-    --batch batch-010` to emit stubs and test files — do NOT hand-author expected
-    outputs, do NOT hand-author test cases\n- The script handles idempotent resume
-    (skips existing stub+test pairs automatically)\n- Run npx vitest run scoped to
-    newly generated test files\n- Commit with message: feat [US-022] - Implement batch-010"
+  - Follow the plan-v3 phase guideline at docs/plan-v3/claude.md (general ralph workflow
+    lives in scripts/ralph/prompt.md; background in docs/plan-v3/plan-v3.md) for
+    each problem in scripts/ralph/batches/batch-010.json
+  - Commit with message: feat [US-022] - Implement batch-010
   priority: 22
   passes: false
-  notes: Stubs intentionally fail assertions — red test output is the expected 
-    state and does NOT block the commit. Do not run the full suite; scope to new
-    files only.
+  notes: Read each solutions-bank file to understand the problem domain before writing
+    inputs. Expected outputs come from oracle_run.mjs only.
 - id: US-023
   title: Expand prd window
   acceptanceCriteria:
   - Run `python3 scripts/ralph/expand_prd.py` to append the next batch window
-  - Commit the updated prd.yaml + manifest.json with message matching the story 
+  - Commit the updated prd.yaml + manifest.json with message matching the story
     title
   - 'If the script outputs <promise>COMPLETE</promise>, mark this story passes: true
     and stop'
   priority: 23
   passes: false
-  notes: Append the next 10 batch stories + another Expand story. Emits 
+  notes: Append the next 10 batch stories + another Expand story. Emits
     <promise>COMPLETE</promise> when all batches are seeded.
