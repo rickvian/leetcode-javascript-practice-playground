@@ -1,3 +1,23 @@
+## 2026-04-30 - US-017
+- **What was implemented:**
+  - Created test file for 0017-letter-combinations-of-a-phone-number
+  - 20 test cases covering: official examples ("23"→9 combos, ""→[], "234"→27 combos), single digits with 3 letters (2,3,4,5,6,8), single digits with 4 letters (7,9), two-digit cross-products (22, 24, 79, 27, 37), multi-digit sequences (234, 2345, 23456789)
+  - All test results sorted before comparison since order not guaranteed by problem
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0017-letter-combinations-of-a-phone-number.test.js
+  - Updated: scripts/ralph/prd.yaml (US-017 passes: true)
+
+- **Learnings:**
+  - Phone keypad mapping: 2=abc, 3=def, 4=ghi, 5=jkl, 6=mno, 7=pqrs, 8=tuv, 9=wxyz
+  - Empty string returns [] (edge case)
+  - Single digit returns array of its letters (3 or 4 letters depending on digit)
+  - Multi-digit is cross-product: "23" yields 3×3=9 combinations
+  - Result order not guaranteed, must sort before comparing
+  - Test coverage includes: single digits (3 and 4 letter types), multi-digit sequences, cross-product growth, and full digit range
+
+---
+
 ## 2026-04-30 - US-016
 - **What was implemented:**
   - Created test file for 0014-longest-common-prefix

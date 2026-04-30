@@ -84,7 +84,7 @@ userStories:
       - Derive test cases from problem constraints — cover empty string (returns []), single digit with 3 letters, single digit with 4 letters (7 or 9), and two-digit input (cross-product of combinations)
       - Sort result arrays before comparing since order is not guaranteed
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/"
 
   - id: US-018
