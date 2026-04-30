@@ -145,7 +145,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover empty needle (returns 0), needle equals haystack, needle not found (returns -1), needle at position 0, needle at last position, and partial matches before the real match
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/"
 
   - id: US-023

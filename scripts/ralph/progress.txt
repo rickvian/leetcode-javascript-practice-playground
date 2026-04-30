@@ -1,3 +1,22 @@
+## 2026-04-30 - US-022
+- **What was implemented:**
+  - Created test file for 0028-find-the-index-of-the-first-occurrence-in-a-string
+  - 18 test cases covering: empty needle (returns 0), needle equals haystack, needle not found (returns -1), needle at position 0, needle at last position, needle in middle, partial matches with false starts, single character needle (start/middle/end), single character haystack, needle longer than haystack, repeated characters, complex patterns with backtracking, spaces in strings
+  - Tests use direct numeric index assertions with .toBe()
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0028-find-the-index-of-the-first-occurrence-in-a-string.test.js
+  - Updated: scripts/ralph/prd.yaml (US-022 passes: true)
+
+- **Learnings:**
+  - String find/search problem: locate first occurrence of substring in string
+  - Empty needle always returns 0 (edge case per LeetCode)
+  - Needle not found returns -1
+  - Test coverage: empty needle, exact match, not found, position 0, position at end, middle positions, repeated characters, backtracking scenarios (ababdababac with ababac), spaces in strings
+  - No special sort/guard needed — direct index comparisons work fine
+
+---
+
 ## 2026-04-30 - US-018
 - **What was implemented:**
   - Created test file for 0022-generate-parentheses
