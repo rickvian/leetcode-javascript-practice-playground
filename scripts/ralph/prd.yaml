@@ -97,7 +97,7 @@ userStories:
       - Derive test cases from problem constraints — cover n=1 (single combination), n=2 (two combinations), n=3 (five combinations), and verify the count of combinations at the constraint boundary
       - Sort result arrays before comparing since order is not guaranteed
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/generate-parentheses/description/"
 
   - id: US-019

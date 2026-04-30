@@ -1,3 +1,24 @@
+## 2026-04-30 - US-018
+- **What was implemented:**
+  - Created test file for 0022-generate-parentheses
+  - 11 test cases covering: n=0 (edge), n=1 (single combo), n=2 (2 combos), n=3 (5 combos), n=4 (14 combos), count verification, well-formedness validation, string length, open/close balance
+  - All test results sorted before comparison since order not guaranteed
+  - Catalan number pattern: C(0)=1, C(1)=1, C(2)=2, C(3)=5, C(4)=14
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0022-generate-parentheses.test.js
+  - Updated: scripts/ralph/prd.yaml (US-018 passes: true)
+
+- **Learnings:**
+  - Generate parentheses: backtracking problem producing Catalan sequence results
+  - n pairs → 2*n length strings, always exactly n open and n close parens
+  - Constraint: never more close than open (valid at every prefix)
+  - Result order not guaranteed, must sort before .toEqual()
+  - Test coverage: n=0 edge case, increasing n values (1-4), well-formedness checks, balance verification
+  - Guard result?.sort() to handle undefined stub return gracefully
+
+---
+
 ## 2026-04-30 - US-017
 - **What was implemented:**
   - Created test file for 0017-letter-combinations-of-a-phone-number
