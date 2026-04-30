@@ -158,7 +158,7 @@ userStories:
       - Derive test cases from problem constraints — cover single word in words array, duplicate words in the words array, no valid concatenation (returns []), concatenation at the very start and very end of s
       - Sort result arrays before comparing since order is not guaranteed
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/"
 
   - id: US-024

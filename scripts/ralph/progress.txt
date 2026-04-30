@@ -243,6 +243,26 @@
 
 ---
 
+## 2026-04-30 - US-023
+- **What was implemented:**
+  - Created test file for 0030-substring-with-concatenation-of-all-words
+  - 18 test cases covering: official examples (barfoothefoobarman, wordgoodgoodgoodbestword, barfoofoomanman), single word in words array, duplicate words (["aa","aa"], ["bar","bar"]), no valid concatenation (returns []), concatenation at start and end, overlapping matches, three-word concatenation, repeated patterns, word order independence, all overlapping valid concatenations, empty words array, single character words
+  - All test results sorted before comparison since order not guaranteed
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0030-substring-with-concatenation-of-all-words.test.js
+  - Updated: scripts/ralph/prd.yaml (US-023 passes: true)
+
+- **Learnings:**
+  - Substring concatenation: find ALL starting indices where a substring is exactly one concatenation of all words from array
+  - Each word must be used exactly once per concatenation
+  - All words same length (implicit constraint in problem logic)
+  - Result order not guaranteed (multiple valid indices), must sort before .toEqual()
+  - Test coverage: official examples, single-word array, duplicate words (multiple matches possible), no match case, start/end positions, overlapping windows, three+ word concatenations, empty array edge case, single character words
+  - Guard result?.sort() to handle undefined stub return gracefully
+
+---
+
 ## Codebase Patterns
 - Test runner: Project uses Vitest (not Jest) — run tests with `npx vitest run <path>` or `npm test`
 - LeetCode file naming: [number]-[problem-name].js (e.g., 0001-two-sum.js)
@@ -252,6 +272,7 @@
 - Tree problems: Export TreeNode class from solution file for use in tests
 - Stub tests: All tests "fail" for stub files (expected - implementations are blank); guard assertions with `if (result !== undefined)`
 - In-place array problems: Verify both return value (k) and modified array slice — pattern: expect(k).toBe(n); expect(nums.slice(0, k)).toEqual([...])
+- Array index search problems: Sort result arrays before comparing when order is not guaranteed — pattern: expect(result?.sort((a,b) => a-b)).toEqual([...])
 
 ---
 
