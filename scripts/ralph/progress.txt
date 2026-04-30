@@ -74,6 +74,23 @@
 
 ---
 
+## 2026-04-30 - US-014
+- **What was implemented:**
+  - Created test file for 0012-integer-to-roman
+  - 32 test cases covering: official examples (3, 58, 1994, 3749), single symbols (1,5,10,50,100,500,1000), subtractive notation (4,9,40,90,400,900), all subtractives combined (444, 999), no subtractives (888), all symbol levels (1666, 2847), and additional edge cases
+  - Tests verify Roman numeral conversion across full constraint range 1-3999
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0012-integer-to-roman.test.js
+  - Updated: scripts/ralph/prd.yaml (US-014 passes: true)
+
+- **Learnings:**
+  - Roman numeral subtractive pairs: IV (4), IX (9), XL (40), XC (90), CD (400), CM (900)
+  - Test coverage: minimum 1→"I", maximum 3999→"MMMCMXCIX", all subtractives 444→"CDXLIV", no subtractives 888→"DCCCLXXXVIII"
+  - Value 1666 ("MDCLXVI") exercises all symbol levels M, D, C, L, X, V, I in order
+
+---
+
 ## Codebase Patterns
 - Test runner: Project uses Vitest (not Jest) — run tests with `npx vitest run <path>` or `npm test`
 - LeetCode file naming: [number]-[problem-name].js (e.g., 0001-two-sum.js)

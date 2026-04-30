@@ -47,7 +47,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover subtractive notation values (4, 9, 40, 90, 400, 900), minimum value (1), maximum value (3999), and a value that exercises all symbol levels
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/integer-to-roman/description/"
 
   - id: US-015
