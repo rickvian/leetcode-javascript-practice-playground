@@ -1,3 +1,20 @@
+## 2026-04-30 - US-013
+- **What was implemented:**
+  - Created test file for 0009-palindrome-number
+  - 19 test cases covering: official examples (121, -121, 10), single digits (0-9), negative numbers, numbers ending in 0, and large palindromes (1001, 12321, 9009, 999999)
+  - Tests verify palindrome checking for positive/negative, single/multi-digit, and boundary cases
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0009-palindrome-number.test.js
+
+- **Learnings:**
+  - Palindrome negatives always false (sign makes asymmetric number)
+  - Numbers ending in 0 (except 0 itself) always false (leading zero impossible in integer representation)
+  - Single digits 0-9 all palindromes (single char always symmetric)
+  - Test coverage: 0, single digits (1,5,9), negatives (-1,-121,-999), ending-in-zero (10,20,100), true palindromes (121,101,1001,1221,12321,9009,999999), false (123,1234)
+
+---
+
 ## 2026-04-30 - US-012
 - **What was implemented:**
   - Created test file for 0006-zigzag-conversion

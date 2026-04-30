@@ -35,7 +35,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover negative numbers (always false), x=0, single digit, number ending in 0 (not palindrome unless x=0), and large palindromes
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/palindrome-number/description/"
 
   - id: US-014
