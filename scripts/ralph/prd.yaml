@@ -170,7 +170,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover target not in array (returns [-1,-1]), single occurrence, all elements equal target, target at first position, target at last position, and empty array
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/"
 
   - id: US-025
