@@ -71,7 +71,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single-string array, all identical strings, no common prefix (returns ""), prefix is only first character, and full strings are identical
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/longest-common-prefix/description/"
 
   - id: US-017

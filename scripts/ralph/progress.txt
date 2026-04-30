@@ -1,3 +1,22 @@
+## 2026-04-30 - US-016
+- **What was implemented:**
+  - Created test file for 0014-longest-common-prefix
+  - 17 test cases covering: official examples (flower/flow/flight→"fl", dog/racecar/car→""), single-string array, all identical strings, no common prefix, prefix is only first character, full strings identical
+  - Tests verify string array common prefix logic across constraint cases
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0014-longest-common-prefix.test.js
+  - Updated: scripts/ralph/prd.yaml (US-016 passes: true)
+
+- **Learnings:**
+  - Empty array returns "" (base case)
+  - Single-string array returns entire string (array of length 1, whole string is common prefix)
+  - Common prefix length limited by shortest string in array
+  - Test coverage: empty array, single-element array, identical strings (entire string is prefix), all different first chars (empty prefix), single-char strings, identical multi-char strings, progressively-shortening prefixes
+  - No special comparison needed; direct string equality with .toBe() sufficient
+
+---
+
 ## 2026-04-30 - US-015
 - **What was implemented:**
   - Created test file for 0013-roman-to-integer
