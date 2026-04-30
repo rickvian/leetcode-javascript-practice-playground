@@ -133,7 +133,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover val not present in array, all elements equal val (k=0), single element matching val, and verify both return value and first k elements
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/remove-element/description/"
 
   - id: US-022

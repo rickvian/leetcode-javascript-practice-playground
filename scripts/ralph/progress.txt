@@ -206,6 +206,24 @@
 
 ---
 
+## 2026-04-30 - US-021
+- **What was implemented:**
+  - Created test file for 0027-remove-element
+  - 18 test cases covering: official examples ([3,2,2,3] val=3→k=2, [0,1,2,2,3,0,4,2] val=2→k=5), constraint cases (val not in array returns n, all equal val returns 0, single element), edge cases (empty array, two-element arrays), position coverage (start, middle, end), and verification patterns
+  - Tests verify both return value (k) and that first k elements don't contain val
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0027-remove-element.test.js
+  - Updated: scripts/ralph/prd.yaml (US-021 passes: true)
+
+- **Learnings:**
+  - Remove element: function removes all occurrences of val in-place and returns count of remaining elements
+  - Key assertion: verify both k value AND that nums.slice(0,k) contains no val instances
+  - Pattern similar to remove-duplicates but simpler (no uniqueness logic, just val matching)
+  - Test coverage: val not present (full array), all equal val (empty result), single element, empty array, position coverage (start/middle/end), multiple occurrences, negative/zero values
+
+---
+
 ## Codebase Patterns
 - Test runner: Project uses Vitest (not Jest) — run tests with `npx vitest run <path>` or `npm test`
 - LeetCode file naming: [number]-[problem-name].js (e.g., 0001-two-sum.js)
