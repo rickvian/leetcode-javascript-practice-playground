@@ -59,7 +59,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover all six subtractive notation pairs (IV, IX, XL, XC, CD, CM), single character input, and the maximum roman numeral (MMMCMXCIX = 3999)
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/roman-to-integer/description/"
 
   - id: US-016

@@ -1,3 +1,21 @@
+## 2026-04-30 - US-015
+- **What was implemented:**
+  - Created test file for 0013-roman-to-integer
+  - 39 test cases covering: official examples (III, LVIII, MCMXCIV), single symbols (I,V,X,L,C,D,M), all six subtractive pairs (IV,IX,XL,XC,CD,CM), multiple subtractive pairs (CDXLIV,XCIX,CMXCIX), all-additive cases (VI,VII,XI,XV,CCCLXVI,DCCCLXXXVIII), maximum 3999 (MMMCMXCIX), repeated symbols, and mixed cases
+  - Tests verify Roman to integer conversion across full constraint range 1-3999
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0013-roman-to-integer.test.js
+  - Updated: scripts/ralph/prd.yaml (US-015 passes: true)
+
+- **Learnings:**
+  - Roman numeral subtractive pairs: IV (4), IX (9), XL (40), XC (90), CD (400), CM (900)
+  - Single symbols: I=1, V=5, X=10, L=50, C=100, D=500, M=1000
+  - Test coverage: single digits (I-M), all six subtractive pairs individually, multiple subtractive in one numeral (e.g., CDXLIV=444), all-additive (no subtraction), maximum (3999), mixed patterns
+  - Repeated symbols: II (2), XX (20), CC (200), MMM (3000) all additive, no subtraction needed
+
+---
+
 ## 2026-04-30 - US-013
 - **What was implemented:**
   - Created test file for 0009-palindrome-number
