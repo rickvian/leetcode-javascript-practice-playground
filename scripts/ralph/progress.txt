@@ -188,6 +188,24 @@
 
 ---
 
+## 2026-04-30 - US-020
+- **What was implemented:**
+  - Created test file for 0026-remove-duplicates-from-sorted-array
+  - 19 test cases covering: official examples ([1,1,2]→k=2, [0,0,1,1,1,2,2,3,3,4]→k=5), single element, all identical (only 1 unique), no duplicates, two-element arrays (identical and different), duplicates at start/middle/end, multiple duplicate pairs, 10 unique elements, negative values, zero handling, empty array
+  - Tests verify both return value (k) and first k elements match expected unique elements
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0026-remove-duplicates-from-sorted-array.test.js
+  - Updated: scripts/ralph/prd.yaml (US-020 passes: true)
+
+- **Learnings:**
+  - Remove duplicates: function modifies array in-place and returns count of unique elements
+  - Return value k is separate from array modification — must verify both k and nums.slice(0, k)
+  - Test coverage: single element (k=1), all identical (k=1), no duplicates (k=n), duplicates at start/middle/end, multiple pairs, negative values, empty array
+  - Key assertion pattern: expect(k).toBe(expected); expect(nums.slice(0, k)).toEqual([...])
+
+---
+
 ## Codebase Patterns
 - Test runner: Project uses Vitest (not Jest) — run tests with `npx vitest run <path>` or `npm test`
 - LeetCode file naming: [number]-[problem-name].js (e.g., 0001-two-sum.js)
@@ -196,6 +214,7 @@
 - LinkedList operations: Create helper ListNode class for linked list problems; define arrayToList/listToArray helpers in test file
 - Tree problems: Export TreeNode class from solution file for use in tests
 - Stub tests: All tests "fail" for stub files (expected - implementations are blank); guard assertions with `if (result !== undefined)`
+- In-place array problems: Verify both return value (k) and modified array slice — pattern: expect(k).toBe(n); expect(nums.slice(0, k)).toEqual([...])
 
 ---
 

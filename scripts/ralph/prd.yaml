@@ -121,7 +121,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single element, all elements identical (only 1 unique), no duplicates at all, and verify both the return value (k) and the first k elements of the modified array
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/"
 
   - id: US-021
