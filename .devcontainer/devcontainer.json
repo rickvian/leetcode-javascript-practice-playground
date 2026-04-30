@@ -1,7 +1,7 @@
 {
   "name": "Node.js",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
-  "postCreateCommand": "npm install -g @anthropic-ai/claude-code && curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/80a6fe606f73b19e52b0b330d242e62a6c07be42/install.sh | sh && rtk init -g && [ -d /home/vscode/.claude/plugins/caveman ] || (claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman) && [ -d /home/vscode/.claude/agents/awesome-subagents ] || (mkdir -p /home/vscode/.claude/agents && git clone --depth=1 https://github.com/VoltAgent/awesome-claude-code-subagents /home/vscode/.claude/agents/awesome-subagents) && git config --global --unset-all credential.helper || true",
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code && sudo chown -R node:node /home/node/.claude /home/node/.config/gh && curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/80a6fe606f73b19e52b0b330d242e62a6c07be42/install.sh | sh && rtk init -g && [ -d \"$HOME/.claude/plugins/caveman\" ] || (claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman) && [ -d \"$HOME/.claude/agents/awesome-subagents\" ] || (mkdir -p \"$HOME/.claude/agents\" && git clone --depth=1 https://github.com/VoltAgent/awesome-claude-code-subagents \"$HOME/.claude/agents/awesome-subagents\") && git config --global --unset-all credential.helper || true",
   "remoteEnv": {
     "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}"
   },
@@ -18,6 +18,7 @@
       }
     }
   },
+  "remoteUser": "node",
   "containerEnv": {
     "SSH_AUTH_SOCK": "",
     "GIT_ASKPASS": "",
@@ -32,12 +33,12 @@
   "mounts": [
     {
       "source": "claude-agents-vol-leetcode-javascript-practice-playground",
-      "target": "/home/vscode/.claude",
+      "target": "/home/node/.claude",
       "type": "volume"
     },
     {
       "source": "gh-config-leetcode-javascript-practice-playground",
-      "target": "/home/vscode/.config/gh",
+      "target": "/home/node/.config/gh",
       "type": "volume"
     }
   ],
