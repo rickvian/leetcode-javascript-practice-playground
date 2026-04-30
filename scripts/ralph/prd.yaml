@@ -23,7 +23,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover numRows=1 (no zigzag, output equals input), numRows >= string length (each char on its own row), single-character string, and a string where numRows=2
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/zigzag-conversion/description/"
 
   - id: US-013

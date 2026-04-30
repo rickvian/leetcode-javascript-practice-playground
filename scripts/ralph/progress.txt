@@ -1,3 +1,19 @@
+## 2026-04-30 - US-012
+- **What was implemented:**
+  - Created test file for 0006-zigzag-conversion
+  - 17 test cases covering: official examples (numRows=3,4,1), edge cases (numRows=1, empty string, single char), constraint-based cases (numRows >= length, numRows=2, patterns)
+  - Tests verify cycle-based zigzag pattern behavior
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0006-zigzag-conversion.test.js
+
+- **Learnings:**
+  - Zigzag cycle length = 2*numRows - 2 when numRows > 1
+  - numRows=1 returns input unchanged (no pattern); numRows >= string length returns input unchanged
+  - Test values verified manually: "PAYPALISHIRING" + numRows=3 → "PAHNAPLSIIGYIR", numRows=4 → "PINALSIGYAHRPI"
+
+---
+
 ## 2026-04-29 - US-011
 - **What was implemented:**
   - Created test file for 0004-median-of-two-sorted-arrays
