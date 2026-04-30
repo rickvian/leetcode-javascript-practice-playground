@@ -109,7 +109,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover k=1 (list unchanged), k equals list length (full reversal), list length not divisible by k (tail left as-is), and single-node list
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/reverse-nodes-in-k-group/description/"
 
   - id: US-020

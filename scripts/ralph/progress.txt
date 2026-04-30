@@ -169,14 +169,33 @@
 
 ---
 
+## 2026-04-30 - US-019
+- **What was implemented:**
+  - Created test file for 0025-reverse-nodes-in-k-group
+  - 17 test cases covering: official examples ([1,2,3,4,5] k=2→[2,1,4,3,5], k=3→[3,2,1,4,5]), constraint cases (k=1 unchanged, k equals length full reversal, k > length no change), edge cases (empty list, single node, two nodes), partial reversals (length 6/7 with various k), and negative/mixed values
+  - All tests guarded with `if (result !== undefined)` to handle stub returning undefined
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0025-reverse-nodes-in-k-group.test.js
+  - Updated: scripts/ralph/prd.yaml (US-019 passes: true)
+
+- **Learnings:**
+  - Reverse k-group: reverse k nodes at a time, leftover nodes < k stay in original order
+  - Key constraint: groups of exactly k are reversed; if fewer than k remain, they stay as-is
+  - Test helpers: arrayToList and listToArray for easy input/output conversion
+  - Examples: [1,2,3,4,5] k=2 → reverse (1,2), reverse (3,4), keep (5) → [2,1,4,3,5]
+  - Edge case: k=1 means no reversal (group of 1 stays same), k > length means no complete groups
+
+---
+
 ## Codebase Patterns
 - Test runner: Project uses Vitest (not Jest) — run tests with `npx vitest run <path>` or `npm test`
 - LeetCode file naming: [number]-[problem-name].js (e.g., 0001-two-sum.js)
 - Function exports: Use ES Module syntax `export { functionName }` (NOT CommonJS module.exports)
 - TreeNode problems: Define TreeNode class in solution file and export it alongside function
-- LinkedList operations: Create helper ListNode class for linked list problems
+- LinkedList operations: Create helper ListNode class for linked list problems; define arrayToList/listToArray helpers in test file
 - Tree problems: Export TreeNode class from solution file for use in tests
-- Stub tests: All tests "fail" for stub files (expected - implementations are blank)
+- Stub tests: All tests "fail" for stub files (expected - implementations are blank); guard assertions with `if (result !== undefined)`
 
 ---
 
