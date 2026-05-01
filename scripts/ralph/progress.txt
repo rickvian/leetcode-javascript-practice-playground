@@ -1,3 +1,21 @@
+## 2026-05-01 - US-026
+- **What was implemented:**
+  - Created test file for 0036-valid-sudoku
+  - 10 test cases covering: official examples (valid partially-filled board→true, column conflict board→false), all empty board, single filled cell, row conflict, column conflict, 3x3 box conflict (top-left), 3x3 box conflict (middle box), valid scattered digits, valid board that may not be solvable
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0036-valid-sudoku.test.js
+  - Updated: scripts/ralph/prd.yaml (US-026 passes: true)
+
+- **Learnings:**
+  - Sudoku validation: three independent constraints — rows, columns, 3x3 boxes
+  - Box index formula: `Math.floor(i/3)*3 + Math.floor(j/3)` maps (row, col) to box 0-8
+  - Manually verify "valid" board test cases — hidden box conflicts from row/col checks passing separately
+  - The board need not be solvable — only current filled cells need to be conflict-free
+  - Test coverage: both official examples, all-empty, single cell, row/col/box conflicts, valid scattered digits
+
+---
+
 ## 2026-05-01 - US-025
 - **What was implemented:**
   - Created test file for 0035-search-insert-position

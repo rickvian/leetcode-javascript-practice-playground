@@ -21,7 +21,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover a valid partially-filled board, a board with a row conflict, a board with a column conflict, and a board with a 3x3 box conflict; note the board need not be solvable
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/valid-sudoku/description/"
 
   - id: US-027
