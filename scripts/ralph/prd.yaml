@@ -106,7 +106,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover 1x1 grid, single-row grid, single-column grid, and a grid where going right-first or down-first produce different sums
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/minimum-path-sum/description/"
 
   - id: US-034
