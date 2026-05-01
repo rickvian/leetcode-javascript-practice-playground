@@ -119,6 +119,25 @@ describe('NNNN-problem-name', () => {
 4. Create test file: `leetcode-playground/tests/NNNN-problem-name.test.js`
 5. Run tests: `npm test` or `npm run test:watch`
 
+## Verifying Test Correctness with Reference Solutions
+
+Use `leetcode-solutions/` (cloned from JoshCrozier/leetcode-javascript) as source of truth when auditing test assertions.
+
+### Workflow
+
+1. **Backup stubs**: Copy `leetcode-playground/NNNN-*.js` to `/tmp/stub-backup/`
+2. **Inject reference solution**: Copy matching file from `leetcode-solutions/` into `leetcode-playground/`, then append `export { functionName }` (Josh's files have no exports)
+3. **Run tests**: `npm test -- --testPathPattern NNNN`
+4. **Identify bugs**: Failing tests reveal wrong expected values; fix the test assertions
+5. **Restore stubs**: Copy all files from `/tmp/stub-backup/` back to `leetcode-playground/`
+
+### Special cases
+
+- Josh's filename may differ (e.g., `0028-implement-strstr.js` vs playground's `0028-find-the-index-of-the-first-occurrence-in-a-string.js`) — **LeetCode official problem name is source of truth for naming**; copy Josh's file explicitly to match playground filename
+- Some solutions reference undeclared classes (e.g., `ListNode` in 0025) — append the class definition before the export
+- Verify constraint boundaries: test inputs must respect `@constraints` (remove tests using invalid inputs like empty arrays when `1 ≤ nums.length`)
+- For order-independent results (e.g., arrays of indices), always sort before comparing
+
 ## Multiple Solution Approaches for the Same Problem
 
 When a problem has more than one solution approach, create separate files per approach using a `-[approach]` suffix on both the solution file and its test file.

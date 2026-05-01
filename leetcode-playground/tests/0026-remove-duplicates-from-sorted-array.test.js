@@ -140,11 +140,4 @@ describe('0026-remove-duplicates-from-sorted-array', () => {
         expect(nums.slice(0, k)).toEqual([0, 1]);
     });
 
-    // Empty array (edge case if allowed)
-    it('should return 0 for empty array []', () => {
-        const nums = [];
-        const k = removeDuplicates(nums);
-        expect(k).toBe(0);
-        expect(nums.slice(0, k)).toEqual([]);
-    });
 });

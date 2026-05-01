@@ -116,7 +116,7 @@ describe('0017-letter-combinations-of-a-phone-number', () => {
         const result = letterCombinations('2345');
         expect(result?.length).toBe(81);
         const sorted = result?.sort();
-        expect(sorted?.[0]).toBe('adjk');
+        expect(sorted?.[0]).toBe('adgj');
     });
 
     // Edge cases with digits having different letter counts

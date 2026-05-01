@@ -1,11 +1,6 @@
 import { generateParenthesis } from '../0022-generate-parentheses';
 
 describe('0022-generate-parentheses', () => {
-    it('should handle n=0 (single empty combination)', () => {
-        const result = generateParenthesis(0);
-        expect(result?.sort()).toEqual([''].sort());
-    });
-
     it('should handle n=1 (single combination)', () => {
         const result = generateParenthesis(1);
         expect(result?.sort()).toEqual(['()'].sort());
@@ -43,7 +38,7 @@ describe('0022-generate-parentheses', () => {
             '()()(())',
             '()()()()',
             '(()(()))',
-            '()(()())'
+            '()((()))'
         ];
         expect(result?.length).toBe(14);
         expect(result?.sort()).toEqual(expected.sort());

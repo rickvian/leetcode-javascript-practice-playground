@@ -110,7 +110,7 @@ describe('0027-remove-element', () => {
     const nums = [3, 1, 3, 1, 3, 1, 3];
     const val = 3;
     const k = removeElement(nums, val);
-    expect(k).toBe(4);
+    expect(k).toBe(3);
     // All first k elements must not equal val
     for (let i = 0; i < k; i++) {
       expect(nums[i]).not.toBe(val);
@@ -137,7 +137,7 @@ describe('0027-remove-element', () => {
     const nums = [1, 2, 3, 4, 5, 1, 1, 1];
     const val = 1;
     const k = removeElement(nums, val);
-    expect(k).toBe(5);
+    expect(k).toBe(4);
     expect(nums.slice(0, k).every(x => x !== val)).toBe(true);
   });
 

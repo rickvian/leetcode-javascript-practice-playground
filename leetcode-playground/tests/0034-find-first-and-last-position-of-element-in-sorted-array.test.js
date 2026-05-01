@@ -49,7 +49,7 @@ describe('0034-find-first-and-last-position-of-element-in-sorted-array', () => {
 
 	// Single occurrence in middle
 	it('should find single occurrence in middle', () => {
-		expect(searchRange([1, 2, 5, 3, 4], 5)).toEqual([2, 2]);
+		expect(searchRange([1, 2, 3, 4, 5], 3)).toEqual([2, 2]);
 	});
 
 	// Target not in array - various positions

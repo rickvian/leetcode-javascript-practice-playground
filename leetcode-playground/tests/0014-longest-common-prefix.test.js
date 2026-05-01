@@ -13,10 +13,6 @@ describe('0014-longest-common-prefix', () => {
         expect(longestCommonPrefix(["a"])).toBe("a");
     });
 
-    it('should return "" for empty array', () => {
-        expect(longestCommonPrefix([])).toBe("");
-    });
-
     it('should return entire string for all identical strings ["abc","abc","abc"]', () => {
         expect(longestCommonPrefix(["abc","abc","abc"])).toBe("abc");
     });
@@ -45,8 +41,8 @@ describe('0014-longest-common-prefix', () => {
         expect(longestCommonPrefix(["leets","leetcode","leet","leeds"])).toBe("lee");
     });
 
-    it('should return prefix of shortest string ["a","ba","caa"]', () => {
-        expect(longestCommonPrefix(["a","ba","caa"])).toBe("a");
+    it('should return "" for first chars all different ["a","ba","caa"]', () => {
+        expect(longestCommonPrefix(["a","ba","caa"])).toBe("");
     });
 
     it('should return "" for completely different strings ["cat","dog","bird"]', () => {

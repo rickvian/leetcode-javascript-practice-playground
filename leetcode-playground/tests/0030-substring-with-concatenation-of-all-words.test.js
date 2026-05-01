@@ -16,10 +16,10 @@ describe('0030-substring-with-concatenation-of-all-words', () => {
   });
 
   it('should handle LeetCode example 3', () => {
-    const s = 'barfoofoomanman';
-    const words = ['foo', 'bar', 'man'];
+    const s = 'barfoofoobartheman';
+    const words = ['bar', 'foo', 'the'];
     const result = findSubstring(s, words);
-    expect(result?.sort((a, b) => a - b)).toEqual([0, 9]);
+    expect(result?.sort((a, b) => a - b)).toEqual([6, 9, 12]);
   });
 
   it('should return empty array when no concatenation found', () => {
@@ -36,7 +36,7 @@ describe('0030-substring-with-concatenation-of-all-words', () => {
     expect(result?.sort((a, b) => a - b)).toEqual([0, 6]);
   });
 
-  it('should handle single word in words array not found', () => {
+  it('should handle single word in words array found at single index', () => {
     const s = 'barfoobar';
     const words = ['foo'];
     const result = findSubstring(s, words);
@@ -75,7 +75,7 @@ describe('0030-substring-with-concatenation-of-all-words', () => {
     const s = 'foobarmankeybarfookey';
     const words = ['foo', 'bar'];
     const result = findSubstring(s, words);
-    expect(result?.sort((a, b) => a - b)).toEqual([0, 9]);
+    expect(result?.sort((a, b) => a - b)).toEqual([0, 12]);
   });
 
   it('should return empty for substring shorter than total word length', () => {
@@ -103,7 +103,7 @@ describe('0030-substring-with-concatenation-of-all-words', () => {
     const s = 'dogcatdog';
     const words = ['cat', 'dog'];
     const result = findSubstring(s, words);
-    expect(result?.sort((a, b) => a - b)).toEqual([0]);
+    expect(result?.sort((a, b) => a - b)).toEqual([0, 3]);
   });
 
   it('should find all overlapping valid concatenations', () => {
@@ -124,6 +124,6 @@ describe('0030-substring-with-concatenation-of-all-words', () => {
     const s = 'abcabc';
     const words = ['a', 'b', 'c'];
     const result = findSubstring(s, words);
-    expect(result?.sort((a, b) => a - b)).toEqual([0, 3]);
+    expect(result?.sort((a, b) => a - b)).toEqual([0, 1, 2, 3]);
   });
 });
