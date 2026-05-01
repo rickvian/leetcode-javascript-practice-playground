@@ -1,3 +1,24 @@
+## 2026-05-01 - US-027
+- **What was implemented:**
+  - Created test file for 0045-jump-game-ii
+  - 13 test cases covering: official examples ([2,3,1,1,4]→2, [2,3,0,1,4]→2), single element (0 jumps), all 1s array (n-1 jumps), large first jump reaches end (1 jump), two-element arrays, and greedy choice cases
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0045-jump-game-ii.test.js
+  - Updated: scripts/ralph/prd.yaml (US-027 passes: true)
+
+- **Learnings:**
+  - Jump Game II: minimum jumps needed, guaranteed you can always reach end
+  - Greedy approach: track maxReach and curEnd per jump level
+  - Single-element array → 0 jumps (already at last index)
+  - All-1s array of length n → n-1 jumps (forced single-step path)
+  - Large first value can reach end in 1 jump regardless of remaining values
+  - [4,1,1,3,1,1,1]: from 0 reach up to 3 (val=3, reaches 6=last), so 2 jumps — greedy picks best reach not first reachable
+  - [1,2,3,4,5]: 3 jumps (from 0 only reach 1, then max reach 3, then max reach 7 covers last)
+  - [3,4,3,2,5,4,3]: 3 jumps — greedy expands horizon each level
+
+---
+
 ## 2026-05-01 - US-026
 - **What was implemented:**
   - Created test file for 0036-valid-sudoku

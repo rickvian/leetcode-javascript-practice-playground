@@ -33,7 +33,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single element (0 jumps), array where every element is 1 (n-1 jumps needed), large first jump reaches end directly (1 jump), and cases requiring greedy choices
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/jump-game-ii/description/"
 
   - id: US-028
