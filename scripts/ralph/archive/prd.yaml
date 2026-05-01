@@ -1,103 +1,174 @@
 branchName: ralph/feature
 userStories:
-  - id: US-001
-    title: Setup node project with jest test
+  - id: US-011
+    title: Create test cases for 0004-median-of-two-sorted-arrays
     acceptanceCriteria:
-      - setup node project with jest
-      - create folder with leetcode-playground, it contain tests/ folder
-      - each .js file inside leetcode-playground will have name format [number]-[problem-name].js e.g. 0002-add-two-numbers.js
-      - they contain function name exactly defined in leetcode, and exported.
-      - tests/file containing same forrmat
-      - create 2 leetcode file sample and tests first.
-      - ensure jest test work correctly
+      - Create test file at leetcode-playground/tests/0004-median-of-two-sorted-arrays.test.js
+      - Import findMedianSortedArrays from ../0004-median-of-two-sorted-arrays
+      - describe block named '0004-median-of-two-sorted-arrays'
+      - Include all LeetCode official example test cases
+      - Read the problem constraints from the LeetCode URL in the notes and derive test cases from them — cover empty arrays, single elements, unequal lengths, negative values, and duplicates
+      - Cover both odd and even total-length merged arrays since the median formula differs
+      - Use .toBeCloseTo(expected, 5) for all assertions
     priority: 1
     passes: true
-    notes: ""
+    notes: "Problem: https://leetcode.com/problems/median-of-two-sorted-arrays/description/"
 
-  - id: US-002
-    title: Create unit tests for Blind 75 problems 1-10
+  - id: US-012
+    title: Create test cases for 0006-zigzag-conversion
     acceptanceCriteria:
-      - Retrieve problem list from 1-blind_75.txt file (items 1-10)
-      - Create blank solution files for problems 1-10 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
+      - Create test file at leetcode-playground/tests/0006-zigzag-conversion.test.js
+      - Import convert from ../0006-zigzag-conversion
+      - describe block named '0006-zigzag-conversion'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover numRows=1 (no zigzag, output equals input), numRows >= string length (each char on its own row), single-character string, and a string where numRows=2
+    priority: 1
     passes: true
-    notes: "First batch of Blind 75 problems - retrieve from 1-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+    notes: "Problem: https://leetcode.com/problems/zigzag-conversion/description/"
 
-  - id: US-003
-    title: Create unit tests for Blind 75 problems 11-20
+  - id: US-013
+    title: Create test cases for 0009-palindrome-number
     acceptanceCriteria:
-      - Retrieve problem list from 2-blind_75.txt file (items 11-20)
-      - Create blank solution files for problems 11-20 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
+      - Create test file at leetcode-playground/tests/0009-palindrome-number.test.js
+      - Import isPalindrome from ../0009-palindrome-number
+      - describe block named '0009-palindrome-number'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover negative numbers (always false), x=0, single digit, number ending in 0 (not palindrome unless x=0), and large palindromes
+    priority: 1
     passes: true
-    notes: "Second batch of Blind 75 problems - retrieve from 2-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+    notes: "Problem: https://leetcode.com/problems/palindrome-number/description/"
 
-  - id: US-004
-    title: Create unit tests for Blind 75 problems 21-30
+  - id: US-014
+    title: Create test cases for 0012-integer-to-roman
     acceptanceCriteria:
-      - Retrieve problem list from 3-blind_75.txt file (items 21-30)
-      - Create blank solution files for problems 21-30 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
+      - Create test file at leetcode-playground/tests/0012-integer-to-roman.test.js
+      - Import intToRoman from ../0012-integer-to-roman
+      - describe block named '0012-integer-to-roman'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover subtractive notation values (4, 9, 40, 90, 400, 900), minimum value (1), maximum value (3999), and a value that exercises all symbol levels
+    priority: 1
     passes: true
-    notes: "Third batch of Blind 75 problems - retrieve from 3-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+    notes: "Problem: https://leetcode.com/problems/integer-to-roman/description/"
 
-  - id: US-005
-    title: Create unit tests for Blind 75 problems 31-40
+  - id: US-015
+    title: Create test cases for 0013-roman-to-integer
     acceptanceCriteria:
-      - Retrieve problem list from 4-blind_75.txt file (items 31-40)
-      - Create blank solution files for problems 31-40 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
+      - Create test file at leetcode-playground/tests/0013-roman-to-integer.test.js
+      - Import romanToInt from ../0013-roman-to-integer
+      - describe block named '0013-roman-to-integer'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover all six subtractive notation pairs (IV, IX, XL, XC, CD, CM), single character input, and the maximum roman numeral (MMMCMXCIX = 3999)
+    priority: 1
     passes: true
-    notes: "Fourth batch of Blind 75 problems - retrieve from 4-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+    notes: "Problem: https://leetcode.com/problems/roman-to-integer/description/"
 
-  - id: US-006
-    title: Create unit tests for Blind 75 problems 41-50
+  - id: US-016
+    title: Create test cases for 0014-longest-common-prefix
     acceptanceCriteria:
-      - Retrieve problem list from 5-blind_75.txt file (items 41-50)
-      - Create blank solution files for problems 41-50 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
+      - Create test file at leetcode-playground/tests/0014-longest-common-prefix.test.js
+      - Import longestCommonPrefix from ../0014-longest-common-prefix
+      - describe block named '0014-longest-common-prefix'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single-string array, all identical strings, no common prefix (returns ""), prefix is only first character, and full strings are identical
+    priority: 1
     passes: true
-    notes: "Fifth batch of Blind 75 problems - retrieve from 5-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+    notes: "Problem: https://leetcode.com/problems/longest-common-prefix/description/"
 
-  - id: US-007
-    title: Create unit tests for Blind 75 problems 51-60
+  - id: US-017
+    title: Create test cases for 0017-letter-combinations-of-a-phone-number
     acceptanceCriteria:
-      - Retrieve problem list from 6-blind_75.txt file (items 51-60)
-      - Create blank solution files for problems 51-60 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
+      - Create test file at leetcode-playground/tests/0017-letter-combinations-of-a-phone-number.test.js
+      - Import letterCombinations from ../0017-letter-combinations-of-a-phone-number
+      - describe block named '0017-letter-combinations-of-a-phone-number'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty string (returns []), single digit with 3 letters, single digit with 4 letters (7 or 9), and two-digit input (cross-product of combinations)
+      - Sort result arrays before comparing since order is not guaranteed
+    priority: 1
     passes: true
-    notes: "Sixth batch of Blind 75 problems - retrieve from 6-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+    notes: "Problem: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/"
 
-  - id: US-008
-    title: Create unit tests for Blind 75 problems 61-70
+  - id: US-018
+    title: Create test cases for 0022-generate-parentheses
     acceptanceCriteria:
-      - Retrieve problem list from 7-blind_75.txt file (items 61-70)
-      - Create blank solution files for problems 61-70 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
+      - Create test file at leetcode-playground/tests/0022-generate-parentheses.test.js
+      - Import generateParenthesis from ../0022-generate-parentheses
+      - describe block named '0022-generate-parentheses'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover n=1 (single combination), n=2 (two combinations), n=3 (five combinations), and verify the count of combinations at the constraint boundary
+      - Sort result arrays before comparing since order is not guaranteed
+    priority: 1
     passes: true
-    notes: "Seventh batch of Blind 75 problems - retrieve from 7-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+    notes: "Problem: https://leetcode.com/problems/generate-parentheses/description/"
 
-  - id: US-009
-    title: Create unit tests for Blind 75 problems 71-75
+  - id: US-019
+    title: Create test cases for 0025-reverse-nodes-in-k-group
     acceptanceCriteria:
-      - Retrieve problem list from 8-blind_75.txt file (items 71-75)
-      - Create blank solution files for problems 71-75 following CLAUDE.md format with function stubs and JSDoc headers with LeetCode URLs
-      - Create corresponding test files under tests/ folder
-      - Tests must include all test cases from LeetCode, not just 3 - ensure coverage of edge cases, constraints, and different input scenarios
-    priority: 2
+      - Create test file at leetcode-playground/tests/0025-reverse-nodes-in-k-group.test.js
+      - Import ListNode and reverseKGroup from ../0025-reverse-nodes-in-k-group
+      - describe block named '0025-reverse-nodes-in-k-group'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover k=1 (list unchanged), k equals list length (full reversal), list length not divisible by k (tail left as-is), and single-node list
+    priority: 1
     passes: true
-    notes: "Final batch of Blind 75 problems - retrieve from 8-blind_75.txt, create blank files and comprehensive test cases matching LeetCode"
+    notes: "Problem: https://leetcode.com/problems/reverse-nodes-in-k-group/description/"
+
+  - id: US-020
+    title: Create test cases for 0026-remove-duplicates-from-sorted-array
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0026-remove-duplicates-from-sorted-array.test.js
+      - Import removeDuplicates from ../0026-remove-duplicates-from-sorted-array
+      - describe block named '0026-remove-duplicates-from-sorted-array'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single element, all elements identical (only 1 unique), no duplicates at all, and verify both the return value (k) and the first k elements of the modified array
+    priority: 1
+    passes: true
+    notes: "Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/"
+
+  - id: US-021
+    title: Create test cases for 0027-remove-element
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0027-remove-element.test.js
+      - Import removeElement from ../0027-remove-element
+      - describe block named '0027-remove-element'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover val not present in array, all elements equal val (k=0), single element matching val, and verify both return value and first k elements
+    priority: 1
+    passes: true
+    notes: "Problem: https://leetcode.com/problems/remove-element/description/"
+
+  - id: US-022
+    title: Create test cases for 0028-find-the-index-of-the-first-occurrence-in-a-string
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0028-find-the-index-of-the-first-occurrence-in-a-string.test.js
+      - Import strStr from ../0028-find-the-index-of-the-first-occurrence-in-a-string
+      - describe block named '0028-find-the-index-of-the-first-occurrence-in-a-string'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover empty needle (returns 0), needle equals haystack, needle not found (returns -1), needle at position 0, needle at last position, and partial matches before the real match
+    priority: 1
+    passes: true
+    notes: "Problem: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/"
+
+  - id: US-023
+    title: Create test cases for 0030-substring-with-concatenation-of-all-words
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0030-substring-with-concatenation-of-all-words.test.js
+      - Import findSubstring from ../0030-substring-with-concatenation-of-all-words
+      - describe block named '0030-substring-with-concatenation-of-all-words'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover single word in words array, duplicate words in the words array, no valid concatenation (returns []), concatenation at the very start and very end of s
+      - Sort result arrays before comparing since order is not guaranteed
+    priority: 1
+    passes: true
+    notes: "Problem: https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/"
+
+  - id: US-024
+    title: Create test cases for 0034-find-first-and-last-position-of-element-in-sorted-array
+    acceptanceCriteria:
+      - Create test file at leetcode-playground/tests/0034-find-first-and-last-position-of-element-in-sorted-array.test.js
+      - Import searchRange from ../0034-find-first-and-last-position-of-element-in-sorted-array
+      - describe block named '0034-find-first-and-last-position-of-element-in-sorted-array'
+      - Include all LeetCode official example test cases
+      - Derive test cases from problem constraints — cover target not in array (returns [-1,-1]), single occurrence, all elements equal target, target at first position, target at last position, and empty array
+    priority: 1
+    passes: true
+    notes: "Problem: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/"
