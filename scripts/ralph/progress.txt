@@ -1,3 +1,20 @@
+## 2026-05-01 - US-029
+- **What was implemented:**
+  - Created test file for 0052-n-queens-ii
+  - 8 test cases covering: official examples (n=2→0, n=4→2), n=1 (1 solution), n=3 (0 solutions), n=5 (10 solutions), n=6 (4 solutions), n=7 (40 solutions), n=8 (92 solutions)
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0052-n-queens-ii.test.js
+  - Updated: scripts/ralph/prd.yaml (US-029 passes: true)
+
+- **Learnings:**
+  - N-Queens II: count distinct placements of n queens so no two attack each other
+  - Known sequence: n=1→1, n=2→0, n=3→0, n=4→2, n=5→10, n=6→4, n=7→40, n=8→92
+  - n=2 and n=3 have 0 solutions — important edge cases
+  - Direct integer comparison with .toBe() — no floating point, no sorting needed
+
+---
+
 ## 2026-05-01 - US-028
 - **What was implemented:**
   - Created test file for 0050-powx-n

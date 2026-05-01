@@ -58,7 +58,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover n=1 (1 solution), n=2 and n=3 (0 solutions), n=4 (2 solutions), n=5 (10 solutions)
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/n-queens-ii/description/"
 
   - id: US-030
