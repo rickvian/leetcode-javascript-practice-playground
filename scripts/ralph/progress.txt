@@ -1,3 +1,19 @@
+## 2026-05-01 - US-025
+- **What was implemented:**
+  - Created test file for 0035-search-insert-position
+  - 17 test cases covering: official examples (target found at index 2, insert at index 1, insert at index 4), target found at first position, target found at last position, target found in middle, insert at index 0 (smaller than all), insert at last index (larger than all), insert in middle of array, single-element array (match/smaller/larger), two-element array target between elements, all-same values with exact match
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0035-search-insert-position.test.js
+  - Updated: scripts/ralph/prd.yaml (US-025 passes: true)
+
+- **Learnings:**
+  - Binary search / insert position: return index if found, else return insert position
+  - Test coverage: all 3 official examples, exact match at different positions (first/last/middle), insert at boundary (index 0, last index, middle), single-element array, two-element array
+  - Simple index assertions with .toBe() — no sorting needed, no stub guard needed (returns number)
+
+---
+
 ## 2026-04-30 - US-022
 - **What was implemented:**
   - Created test file for 0028-find-the-index-of-the-first-occurrence-in-a-string

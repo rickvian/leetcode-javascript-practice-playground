@@ -9,7 +9,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover target found exactly, insert at index 0 (target smaller than all), insert at last index (target larger than all), insert in the middle, and single-element array
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/search-insert-position/description/"
 
   - id: US-026
