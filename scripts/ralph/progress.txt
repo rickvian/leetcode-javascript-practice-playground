@@ -1,3 +1,19 @@
+## 2026-05-01 - US-030
+- **What was implemented:**
+  - Created test file for 0058-length-of-last-word
+  - 12 test cases covering: official examples ("Hello World"→5, trailing spaces→4, "luffy is still joyboy"→6), single word, single character, trailing spaces ignored, leading spaces, both leading/trailing spaces, multiple words, last word is one char, two words only
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0058-length-of-last-word.test.js
+  - Updated: scripts/ralph/prd.yaml (US-030 passes: true)
+
+- **Learnings:**
+  - lengthOfLastWord: trim trailing spaces first, then find last word's length
+  - Key constraint: trailing spaces must be ignored — "world   " returns 5
+  - Direct integer assertions with .toBe() — simple numeric return, no sorting needed
+
+---
+
 ## 2026-05-01 - US-029
 - **What was implemented:**
   - Created test file for 0052-n-queens-ii

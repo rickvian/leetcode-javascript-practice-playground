@@ -70,7 +70,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover trailing spaces (must be ignored), single word, single word with leading/trailing spaces, multiple words, and a string of only one character
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/length-of-last-word/description/"
 
   - id: US-031
