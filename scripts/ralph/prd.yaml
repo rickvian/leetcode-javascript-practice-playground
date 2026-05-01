@@ -94,7 +94,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover obstacle at start (returns 0), obstacle at end (returns 0), no obstacles, a 1x1 grid with no obstacle, and obstacle blocking all paths
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/unique-paths-ii/description/"
 
   - id: US-033

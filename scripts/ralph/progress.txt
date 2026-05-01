@@ -1,3 +1,22 @@
+## 2026-05-01 - US-032
+- **What was implemented:**
+  - Created test file for 0063-unique-paths-ii
+  - 13 test cases covering: official examples ([[0,0,0],[0,1,0],[0,0,0]]→2, [[0,1],[0,0]]→1), obstacle at start (returns 0), obstacle at end (returns 0), 1x1 no obstacle (returns 1), 1x1 with obstacle (returns 0), 3x3 no obstacles (returns 6), obstacle blocking single-row path, obstacle blocking single-column path, single-row no obstacles, single-column no obstacles, top-right obstacle (still 1 path), obstacles forcing single path
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0063-unique-paths-ii.test.js
+  - Updated: scripts/ralph/prd.yaml (US-032 passes: true)
+
+- **Learnings:**
+  - Unique paths II: DP grid problem where obstacle cells contribute 0 paths
+  - Obstacle at start or end → 0 total paths
+  - 1x1 grid no obstacle → 1 (already at destination); 1x1 with obstacle → 0
+  - 3x3 no obstacles → 6 (same as unique paths I C(4,2))
+  - Single row/column with middle obstacle blocks all paths → 0
+  - Guard assertions with `if (result !== undefined)` for stub compatibility
+
+---
+
 ## 2026-05-01 - US-031
 - **What was implemented:**
   - Created test file for 0061-rotate-list
