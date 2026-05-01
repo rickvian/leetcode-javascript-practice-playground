@@ -118,7 +118,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover no carry needed, carry that propagates one position, all-nines array (carry propagates to a new leading digit), and single digit [9]
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/plus-one/description/"
 
   - id: US-035
