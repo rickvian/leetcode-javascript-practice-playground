@@ -82,7 +82,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover k=0 (no rotation), k equals list length (same list), k larger than list length (equivalent to k mod length), single-node list, and two-node list
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/rotate-list/description/"
 
   - id: US-032

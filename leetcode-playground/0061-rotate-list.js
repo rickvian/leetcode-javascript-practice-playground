@@ -6,6 +6,11 @@
  * @param {ListNode} head
  * @param {number} k
  * @return {ListNode}
+ *
+ * @constraints
+ * - The number of nodes in the list is in the range [0, 500].
+ * - -100 <= Node.val <= 100
+ * - 0 <= k <= 2 * 10^9
  */
 class ListNode {
     constructor(val, next) {
