@@ -1,3 +1,22 @@
+## 2026-05-01 - US-028
+- **What was implemented:**
+  - Created test file for 0050-powx-n
+  - 19 test cases covering: official examples (2^10=1024, 2.1^3≈9.261, 2^-2=0.25), n=0 returns 1, n=1 returns x, negative n (reciprocal), x=0 with positive n, x=1 with large/negative n, x=-1 with even/odd n (positive and negative), large positive n (1.00001^100000≈e), fractional base, negative base with even/odd n
+  - All assertions use .toBeCloseTo(expected, 5) per acceptance criteria
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0050-powx-n.test.js
+  - Updated: scripts/ralph/prd.yaml (US-028 passes: true)
+
+- **Learnings:**
+  - myPow: implement pow(x, n) including negative n (returns 1/x^|n|)
+  - x=-1 with even n = 1, odd n = -1 (sign alternates)
+  - x=0 with n=0: mathematically undefined, LeetCode treats as 1
+  - Large n test (1.00001^100000 ≈ e≈2.71828): use toBeCloseTo with precision 2 (not 5) due to floating-point accumulation
+  - All assertions must use toBeCloseTo — never toBe for float comparisons
+
+---
+
 ## 2026-05-01 - US-027
 - **What was implemented:**
   - Created test file for 0045-jump-game-ii

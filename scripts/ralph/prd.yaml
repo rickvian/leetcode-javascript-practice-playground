@@ -46,7 +46,7 @@ userStories:
       - Derive test cases from problem constraints — cover n=0 (returns 1), n=1, negative n (reciprocal), x=0, x=1, x=-1 with even/odd n, and large positive n
       - Use .toBeCloseTo(expected, 5) for all assertions
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/powx-n/description/"
 
   - id: US-029
