@@ -1,3 +1,26 @@
+## 2026-05-02 - US-056
+- **What was implemented:**
+  - Created test file for 0129-sum-root-to-leaf-numbers
+  - 19 test cases covering: official examples ([1,2,3]→25, [4,9,0,5,1]→1026), single leaf node, tree with only left children, tree with only right children, root with zero in path (1->0->5=105), multiple zeros in path, zero at leaf, balanced 7-node tree, two-level tree with all leaves, deep left chain, asymmetric tree with multiple paths, tree with duplicate values, single node with zero, tree with larger numbers (9,9,9), complex tree with mixed structure, three-level tree with single leaf at end, all zeros except root, wide tree at root level
+  - All tests verify: sum of all root-to-leaf numbers (each path forms a multi-digit number)
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0129-sum-root-to-leaf-numbers.test.js
+  - Updated: scripts/ralph/prd.yaml (US-056 passes: true)
+
+- **Learnings:**
+  - sumNumbers: each root-to-leaf path forms a multi-digit number (digits concatenate, not add)
+  - Example [1,2,3]: path 1→2 = number "12" = 12, path 1→3 = "13" = 13, total = 12+13 = 25
+  - Example [4,9,0,5,1]: three paths: 4→9→5 = 495, 4→9→1 = 491, 4→0 = 40, total = 1026
+  - Single leaf node: returns node value (no concatenation needed)
+  - Zeros in path: 1→0→5 = 105 (zero is valid digit in path)
+  - Multiple zeros: 1→0→0 = 100 (each zero contributes to place value)
+  - DFS/recursive approach typical: at each node accumulate (currentSum * 10 + node.val), at leaf add to result
+  - Guard assertions with `if (result !== undefined)` for stub compatibility
+  - Test coverage: official examples, single/deep/wide/balanced tree structures, zeros in various positions, multiple paths, duplicate values
+
+---
+
 ## 2026-05-02 - US-054
 - **What was implemented:**
   - Created test file for 0123-best-time-to-buy-and-sell-stock-iii

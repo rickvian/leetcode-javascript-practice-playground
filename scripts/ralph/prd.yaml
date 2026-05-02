@@ -383,7 +383,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single leaf node (root value is the number), tree with only left children, tree with only right children, root with zeros in the path (e.g., 1->0->5 is 105)
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/sum-root-to-leaf-numbers/description/"
 
   - id: US-057
