@@ -1,3 +1,26 @@
+## 2026-05-02 - US-060
+- **What was implemented:**
+  - Created test file for 0136-single-number
+  - 19 test cases covering: official examples ([1,1,2,2,3]→3, [2,2,1]→1, [4,1,2,1,2]→4), single element array, single number at start/middle/end, negative numbers, zero as unique, all negative pairs with positive single, large numbers (positive and negative), five pairs with one single, mixed positive/negative values
+  - All tests verify: finding the single non-paired element via XOR or set-based approaches
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0136-single-number.test.js
+  - Updated: scripts/ralph/prd.yaml (US-060 passes: true)
+
+- **Learnings:**
+  - singleNumber: every element appears exactly twice except one; find the single element
+  - XOR approach typical: XOR is commutative and associative; a^a=0, a^0=a, so XOR-ing all elements cancels pairs and leaves single
+  - Single element [5] → 5 (only one element, returns as-is)
+  - Position-independent: single element can be at start, middle, or end
+  - Works with negative numbers: XOR operates on bit level, treats negatives normally
+  - Zero as unique: [0,1,1,2,2] → 0 works fine
+  - Large numbers work: 1000000 and -1000000 handled by XOR
+  - Test coverage: official examples, position coverage (start/middle/end), single element, negative values, zero as unique, mixed positive/negative, large values, arrays of various sizes
+  - No special guards needed — direct integer assertions with .toBe()
+
+---
+
 ## 2026-05-02 - US-056
 - **What was implemented:**
   - Created test file for 0129-sum-root-to-leaf-numbers

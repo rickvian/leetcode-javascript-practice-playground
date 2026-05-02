@@ -431,7 +431,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single element array, single number at the start, single number at the end, negative numbers, and zero as the unique number
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/single-number/description/"
 
   - id: US-061
