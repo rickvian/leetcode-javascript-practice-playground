@@ -1,3 +1,26 @@
+## 2026-05-02 - US-049
+- **What was implemented:**
+  - Created test file for 0112-path-sum
+  - 21 test cases covering: null root (returns false), single node equals target (returns true), single node doesn't equal target, target sum at non-leaf path (must reach leaf), simple paths that equal targetSum, negative values in paths, all 3 LeetCode official examples (5,4,8,11,null,13,4,7,2,null,1→22; 1,2,3→5 false; 1,2→0 false), zero values (0+0=0), right-only tree, left-only tree, mixed negative/positive, large balanced tree, target not found, non-leaf sum equals target, negative targetSum, all-right paths, single large value, zero at leaf with zero target
+  - All tests verify: target sum requires reaching leaf node, paths don't count if they end at intermediate nodes
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0112-path-sum.test.js
+  - Updated: scripts/ralph/prd.yaml (US-049 passes: true)
+
+- **Learnings:**
+  - hasPathSum: return true if tree has root-to-leaf path summing to targetSum
+  - Null root returns false (no root means no path possible)
+  - Single node tree: true if node value equals targetSum
+  - Key constraint: must REACH a LEAF node — intermediate path sums don't count
+  - Example: tree [10,5,15,2,7] with targetSum=15; path 10->5=15 is false because 5 is not a leaf (has children 2,7)
+  - DFS/recursive approach typical: at each node, check if it's a leaf AND the current path sum equals target
+  - Leaf node definition: node with no left and no right children (val && !left && !right)
+  - Negative values work fine — just subtract from targetSum as we descend
+  - Guard assertions with `if (result !== undefined)` for stub compatibility
+
+---
+
 ## 2026-05-02 - US-048
 - **What was implemented:**
   - Created test file for 0108-convert-sorted-array-to-binary-search-tree

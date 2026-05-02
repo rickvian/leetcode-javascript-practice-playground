@@ -299,7 +299,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover null root (returns false), single leaf node where value equals targetSum, single leaf where value does not equal targetSum, target met by a non-leaf path (must reach leaf), and negative values in path
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/path-sum/description/"
 
   - id: US-050
