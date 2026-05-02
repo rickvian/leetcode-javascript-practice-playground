@@ -1,5 +1,9 @@
 import { permute } from '../0046-permutations.js';
 
+// Sort list of permutations for order-independent comparison
+function normalize(perms) {
+    return perms.map(p => p.join(',')).sort().join('|');
+}
 
 describe('0046-permutations-backtrack', () => {
     describe('happy path', () => {

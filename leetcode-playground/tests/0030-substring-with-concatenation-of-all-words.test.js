@@ -16,7 +16,7 @@ describe('0030-substring-with-concatenation-of-all-words', () => {
   });
 
   it('should handle LeetCode example 3', () => {
-    const s = 'barfoofoobartheman';
+    const s = 'barfoofoobarthefoobarman';
     const words = ['bar', 'foo', 'the'];
     const result = findSubstring(s, words);
     expect(result?.sort((a, b) => a - b)).toEqual([6, 9, 12]);

@@ -8,7 +8,7 @@ describe('0068-text-justification', () => {
         if (result !== undefined) {
             expect(result).toEqual([
                 "This    is    an",
-                "example of text",
+                "example  of text",
                 "justification.  "
             ]);
         }
@@ -33,12 +33,11 @@ describe('0068-text-justification', () => {
         const result = fullJustify(words, maxWidth);
         if (result !== undefined) {
             expect(result).toEqual([
-                "Science  is  what   ",
-                "we   understand      ",
-                "well  enough  to     ",
-                "explain to a        ",
-                "computer. Art is    ",
-                "everything else we  ",
+                "Science  is  what we",
+                "understand      well",
+                "enough to explain to",
+                "a  computer.  Art is",
+                "everything  else  we",
                 "do                  "
             ]);
         }
@@ -71,30 +70,30 @@ describe('0068-text-justification', () => {
         }
     });
 
-    it('should distribute extra spaces to left gaps first', () => {
+    it('should left-justify when all words fit on single last line', () => {
         const words = ["What","must","be"];
         const maxWidth = 12;
         const result = fullJustify(words, maxWidth);
         if (result !== undefined) {
-            expect(result).toEqual(["What  must  be"]);
+            expect(result).toEqual(["What must be"]);
         }
     });
 
-    it('should distribute uneven spaces correctly', () => {
+    it('should left-justify last line with right-padding', () => {
         const words = ["This","is","an"];
         const maxWidth = 11;
         const result = fullJustify(words, maxWidth);
         if (result !== undefined) {
-            expect(result).toEqual(["This  is an"]);
+            expect(result).toEqual(["This is an "]);
         }
     });
 
-    it('should handle two-word line with uneven space distribution', () => {
+    it('should left-justify single-line result', () => {
         const words = ["a","b","c"];
         const maxWidth = 5;
         const result = fullJustify(words, maxWidth);
         if (result !== undefined) {
-            expect(result).toEqual(["a   b", "c    "]);
+            expect(result).toEqual(["a b c"]);
         }
     });
 
@@ -103,7 +102,7 @@ describe('0068-text-justification', () => {
         const maxWidth = 10;
         const result = fullJustify(words, maxWidth);
         if (result !== undefined) {
-            expect(result).toEqual(["This    is", "an example"]);
+            expect(result).toEqual(["This is an", "example   "]);
         }
     });
 
@@ -112,16 +111,16 @@ describe('0068-text-justification', () => {
         const maxWidth = 10;
         const result = fullJustify(words, maxWidth);
         if (result !== undefined) {
-            expect(result).toEqual(["This    is", "an example", "of        "]);
+            expect(result).toEqual(["This is an", "example of"]);
         }
     });
 
-    it('should handle multiple words needing space distribution', () => {
+    it('should distribute extra spaces to left gaps first', () => {
         const words = ["The","quick","brown","fox"];
         const maxWidth = 13;
         const result = fullJustify(words, maxWidth);
         if (result !== undefined) {
-            expect(result).toEqual(["The quick   ", "brown fox   "]);
+            expect(result).toEqual(["The     quick", "brown fox    "]);
         }
     });
 
@@ -139,7 +138,7 @@ describe('0068-text-justification', () => {
         const maxWidth = 6;
         const result = fullJustify(words, maxWidth);
         if (result !== undefined) {
-            expect(result).toEqual(["a b c", "d    "]);
+            expect(result).toEqual(["a  b c", "d     "]);
         }
     });
 

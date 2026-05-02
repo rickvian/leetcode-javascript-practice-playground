@@ -76,7 +76,7 @@ describe("0128-longest-consecutive-sequence", () => {
 
   it("should handle unordered large sequence", () => {
     const arr = [50, 10, 5, 1, 2, 3, 4, 6, 7, 8, 9, 40, 30];
-    expect(longestConsecutive(arr)).toBe(9);
+    expect(longestConsecutive(arr)).toBe(10);
   });
 
   it("should handle sequence with one-off elements creating gap", () => {
@@ -3453,6 +3453,6 @@ describe("0128-longest-consecutive-sequence", () => {
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
       ]),
-    ).toBe(3);
+    ).toBe(25001);
   });
 });

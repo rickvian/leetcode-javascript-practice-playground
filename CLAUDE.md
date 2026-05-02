@@ -115,20 +115,21 @@ describe('NNNN-problem-name', () => {
 
 1. Find problem on LeetCode and note: number, name, description, parameter types, return type
 2. Create problem file: `leetcode-playground/NNNN-problem-name.js` with JSDoc and LeetCode link
-3. Implement the solution using ES Module syntax
-4. Create test file: `leetcode-playground/tests/NNNN-problem-name.test.js`
-5. Run tests: `npm test` or `npm run test:watch`
+3. Create test file: `leetcode-playground/tests/NNNN-problem-name.test.js` with test inputs only — use placeholder expected values (e.g., `toEqual(null)`) if unsure
+4. **MANDATORY: Verify all expected values using the reference solution workflow below before committing**
 
 ## Verifying Test Correctness with Reference Solutions
 
-Use `leetcode-solutions/` (cloned from JoshCrozier/leetcode-javascript) as source of truth when auditing test assertions.
+**This is MANDATORY** Never commit test assertions based on mental simulation of the algorithm. Always use the reference solution as source of truth to determine correct expected values.
+
+**When `leetcode-solutions/NNNN-*.js` exists for the problem, run this workflow before writing or finalizing any `expect(...)` assertion.**
 
 ### Workflow
 
 1. **Backup stubs**: Copy `leetcode-playground/NNNN-*.js` to `/tmp/stub-backup/`
 2. **Inject reference solution**: Copy matching file from `leetcode-solutions/` into `leetcode-playground/`, then append `export { functionName }` (Josh's files have no exports)
-3. **Run tests**: `npm test -- --testPathPattern NNNN`
-4. **Identify bugs**: Failing tests reveal wrong expected values; fix the test assertions
+3. **Run tests**: `npx vitest run NNNN-problem-name.test.js`
+4. **Fix assertions**: Failing tests have wrong expected values — update them to match what the reference solution actually returns
 5. **Restore stubs**: Copy all files from `/tmp/stub-backup/` back to `leetcode-playground/`
 
 ### Special cases

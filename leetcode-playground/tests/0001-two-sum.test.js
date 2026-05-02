@@ -14,11 +14,11 @@ describe('0001-two-sum', () => {
     });
 
     it('should handle negative numbers', () => {
-        expect(twoSum([-1, -2, -3, 5, 10], 7)).toEqual([3, 4]);
+        expect(twoSum([-1, -2, -3, 5, 10], 7)).toEqual([2, 4]);
     });
 
     it('should work with mixed positive and negative numbers', () => {
-        expect(twoSum([2, -3, 4, 5], 2)).toEqual([0, 3]);
+        expect(twoSum([2, -3, 4, 5], 2)).toEqual([1, 3]);
     });
 
     it('should handle minimum constraint (length = 2)', () => {

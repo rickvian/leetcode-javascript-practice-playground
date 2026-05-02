@@ -68,12 +68,12 @@ describe('0006-zigzag-conversion', () => {
 
     // Numeric string
     it('should convert "123456789" with numRows=3', () => {
-        expect(convert("123456789", 3)).toBe("159248367");
+        expect(convert("123456789", 3)).toBe("159246837");
     });
 
     // String with repeated characters
     it('should convert repeated characters correctly', () => {
-        expect(convert("AAABBBCCC", 2)).toBe("ABCABCABC");
+        expect(convert("AAABBBCCC", 2)).toBe("AABCCABBC");
     });
 
     // Large numRows
@@ -82,7 +82,7 @@ describe('0006-zigzag-conversion', () => {
     });
 
     // Another pattern verification: numRows=3, 6-character string
-    it('should convert "ABCDEF" with numRows=3 to "AEDBFC"', () => {
-        expect(convert("ABCDEF", 3)).toBe("AEDBFC");
+    it('should convert "ABCDEF" with numRows=3 to "AEBDFC"', () => {
+        expect(convert("ABCDEF", 3)).toBe("AEBDFC");
     });
 });
