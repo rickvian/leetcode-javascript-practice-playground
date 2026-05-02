@@ -419,7 +419,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single child, all equal ratings (each gets 1), strictly ascending ratings (staircase distribution), strictly descending ratings, and a valley (both neighbors rate higher)
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/candy/description/"
 
   - id: US-060

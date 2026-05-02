@@ -1117,6 +1117,35 @@
 
 ---
 
+## 2026-05-02 - US-059
+- **What was implemented:**
+  - Created test file for 0135-candy
+  - Added @constraints to stub file
+  - 27 test cases covering: single child (1 candy), all equal ratings (each gets 1), strictly ascending [1,2,3,4,5]→15 (staircase), strictly descending [5,4,3,2,1]→15 (staircase down), valley [3,2,1,2,3]→11, peak [1,3,2,1]→7, two peaks with valley [1,3,1,3,1]→7, multiple valleys/peaks [1,2,1,2,1,2,1,2]→12, LeetCode official examples ([1,0,2]→5, [1,2,87,87,87,2,1]→13), edge cases (zero ratings, negative/positive mixed, two-element arrays)
+  - All tests verified with reference solution: 27 passing
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0135-candy.test.js
+  - Updated: leetcode-playground/0135-candy.js (added @constraints)
+  - Updated: scripts/ralph/prd.yaml (US-059 passes: true)
+
+- **Learnings:**
+  - candy: two-pass greedy DP approach — ensure higher-rated neighbor has more candy than lower-rated
+  - Pass 1 (left-to-right): if ratings[i] > ratings[i-1], then candies[i] = candies[i-1] + 1
+  - Pass 2 (right-to-left): if ratings[i] > ratings[i+1], then candies[i] = max(candies[i], candies[i+1] + 1)
+  - Single child → always 1 candy (no constraints)
+  - All equal ratings → each gets 1 candy (no inequality constraints)
+  - Strictly ascending [1,2,3,4,5] → [1,2,3,4,5] (staircase up) = 15
+  - Strictly descending [5,4,3,2,1] → [5,4,3,2,1] (staircase down) = 15
+  - Valley [3,2,1,2,3] → [2,1,1,2,3]→11 (center gets 1, neighbors force higher values)
+  - Peak [1,3,2,1] → [1,3,2,1]→7 (peak gets 3, both neighbors need less)
+  - Two peaks with valley [1,3,1,3,1] → [1,3,1,2,1]→7 (second peak only gets 2, not 3, due to right-to-left pass constraint)
+  - LeetCode official examples verified: [1,0,2]→5 (middle is valley, needs adjustment on both sides), [1,2,87,87,87,2,1]→13
+  - Key insight: center valley or peak needs both left and right passes to satisfy constraints correctly
+  - Guard assertions with `if (candy !== undefined)` for stub compatibility
+
+---
+
 ## 2026-05-02 - US-058
 - **What was implemented:**
   - Created test file for 0134-gas-station
