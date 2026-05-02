@@ -1,3 +1,22 @@
+## 2026-05-02 - US-045
+- **What was implemented:**
+  - Created test file for 0097-interleaving-string
+  - 19 test cases covering: all empty strings (true), s1 empty + s3=s2 (true), s1 empty + s3≠s2 (false), s2 empty + s3=s1 (true), s2 empty + s3≠s1 (false), length mismatch (false), official example 1 ("aabcc"+"dbbca"→"aadbbcbcac" true), official example 2 ("aabcc"+"dbbca"→"aadbbbaccc" false), single char interleaving both orders, single char wrong chars (false), greedy-misleading duplicate chars ("aa"+"ab"→"aaba" true), duplicate chars both-s1-first ("aa"+"ab"→"aaab" true), DP-required case ("aab"+"aac"→"aacaab" true), wrong chars with length match (false), longer strings false/true, s3=s1+s2 (true), s3=s2+s1 (true)
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0097-interleaving-string.test.js
+  - Updated: scripts/ralph/prd.yaml (US-045 passes: true)
+
+- **Learnings:**
+  - isInterleave: DP (not greedy) — DP table values[i][j] = can s3[0..i+j-1] be formed from s1[0..i-1] interleaved with s2[0..j-1]
+  - Length check first: s1.length + s2.length ≠ s3.length → immediately false
+  - All empty: returns true (base case !i && !j)
+  - Greedy trap: "aa"+"ab"→"aaba" — greedy picks s1 when both match, exhausts s1 first, but correct path takes s2 chars in the middle
+  - No `if (result !== undefined)` guard needed — direct `.toBe(true/false)` assertions
+  - Reference solution uses 2D array `values`, returns Boolean(values.pop().pop())
+
+---
+
 ## 2026-05-02 - US-044
 - **What was implemented:**
   - Created test file for 0088-merge-sorted-array

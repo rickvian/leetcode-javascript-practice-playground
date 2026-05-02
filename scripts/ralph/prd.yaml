@@ -251,7 +251,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover all three strings empty, s1 empty (s3 must equal s2), s2 empty (s3 must equal s1), lengths that don't sum correctly (immediately false), and cases with duplicate characters that could mislead a greedy approach
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/interleaving-string/description/"
 
   - id: US-046
