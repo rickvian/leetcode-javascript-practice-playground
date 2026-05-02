@@ -395,7 +395,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover all X board, all O board (none flipped since all border-connected), O on the border (not flipped), O fully surrounded by X (flipped), and a 1xN board
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/surrounded-regions/description/"
 
   - id: US-058
