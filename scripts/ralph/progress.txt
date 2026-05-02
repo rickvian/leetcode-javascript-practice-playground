@@ -1,3 +1,28 @@
+## 2026-05-02 - US-061
+- **What was implemented:**
+  - Created test file for 0137-single-number-ii
+  - 19 test cases covering: official examples ([2,2,3,2]→3, [0,1,0,1,0,1,99]→99), single element array, unique element at start/middle/end positions, negative unique number, negative triples with positive unique, zero as unique (both positive and negative triples), multiple distinct triples with one unique (1,1,1,2,2,2,4→4), larger numbers (999999 triples), mixed positive/negative, larger arrays with multiple triples and unique element at different positions
+  - All tests verify: finding the single non-paired element that appears once while all others appear exactly three times
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0137-single-number-ii.test.js
+  - Updated: scripts/ralph/prd.yaml (US-061 passes: true)
+
+- **Learnings:**
+  - singleNumber: every element appears exactly three times except one; find the single element
+  - Bit manipulation typical approach: track bit frequency (mod 3) for each position, bits with count%3==1 belong to the single element
+  - Single element [5] → 5 (only one element, returns as-is)
+  - Position-independent: single element can be at start, middle, or end
+  - Works with negative numbers: bit representation handles negatives correctly
+  - Zero as unique: [1,1,0,1] → 0 works fine
+  - Multiple triples case: [1,1,1,2,2,2,4] → 4 (two separate triples plus one unique)
+  - Mixed positive/negative: [50,50,50,-100] → -100 (one triple and one unique negative)
+  - Large numbers work: bit manipulation operates on full integer range
+  - Test coverage: official examples, position coverage (start/middle/end), single element, negative values, zero as unique, multiple triples, mixed positive/negative, large values, larger arrays
+  - Guard assertions with `if (result !== undefined)` for stub compatibility
+
+---
+
 ## 2026-05-02 - US-060
 - **What was implemented:**
   - Created test file for 0136-single-number

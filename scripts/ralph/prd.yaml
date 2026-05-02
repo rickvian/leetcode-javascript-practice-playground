@@ -443,7 +443,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single element, the unique element appearing once while all others appear three times, negative unique number, and zero as the unique number
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/single-number-ii/description/"
 
   - id: US-062
