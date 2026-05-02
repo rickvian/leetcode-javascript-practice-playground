@@ -371,7 +371,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover no path exists (returns 0), beginWord equals endWord (edge case), endWord not in wordList (returns 0), single-character words, and shortest path through a multi-step chain
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/word-ladder/description/"
 
   - id: US-056
