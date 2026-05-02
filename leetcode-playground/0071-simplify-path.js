@@ -5,6 +5,11 @@
  *
  * @param {string} path
  * @return {string}
+ *
+ * @constraints
+ * - 1 ≤ path.length ≤ 3000
+ * - path consists of English letters, digits, '.', '/', or '_'
+ * - path is a valid absolute Unix path
  */
 var simplifyPath = function(path) {
     // implement

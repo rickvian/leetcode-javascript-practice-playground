@@ -710,3 +710,27 @@
   - All 6 test cases pass successfully
 
 ---
+
+## 2026-05-02 - US-038
+- **What was implemented:**
+  - Created test file for 0071-simplify-path
+  - Added @constraints to stub file
+  - 19 test cases covering: official examples ("/home/" → "/home", "/../" → "/", "/home//foo/" → "/home/foo", "/a/../../b/../c//./" → "/c", "/a//b////c/d//././/.." → "/a/b/c"), trailing slash removal, consecutive slashes, single-dot (current dir), double-dot (navigate up), double-dot at root (stays at root), multiple consecutive slashes, root only, mixed dots and ups, exceeding directory depth, path with special characters, deep directory structure, single directory, path ending with multiple slashes and dots
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0071-simplify-path.test.js
+  - Updated: leetcode-playground/0071-simplify-path.js (added @constraints)
+  - Updated: scripts/ralph/prd.yaml (US-038 passes: true)
+
+- **Learnings:**
+  - simplifyPath: convert absolute Unix file path to canonical form
+  - Single dot (.) means current directory — skip it when processing
+  - Double dots (..) mean go up one directory — pop from stack if not at root
+  - Double dots at root (/..) should stay at root ("/")
+  - Consecutive slashes (//) should be treated as single separator
+  - Trailing slash should be removed in result (unless it's root "/")
+  - Constraints: 1 ≤ path.length ≤ 3000, path contains English letters, digits, '.', '/', '_'
+  - Stack approach typical: split by '/', process each token (skip empty and '.', pop for '..'), join remaining with '/'
+  - Test coverage: official examples, trailing slashes, consecutive slashes, dot handling, multiple ups, mixed operations, single directory, special characters
+
+---

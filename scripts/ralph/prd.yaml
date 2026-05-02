@@ -166,7 +166,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover trailing slash removal, consecutive slashes, single-dot components (current dir), double-dot components navigating up, and double-dot at root (stays at root)
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/simplify-path/description/"
 
   - id: US-039
