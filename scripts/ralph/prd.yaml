@@ -275,7 +275,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single node, left-only chain, right-only chain, and a balanced tree; verify the resulting tree structure matches expected inorder and postorder
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/"
 
   - id: US-048
