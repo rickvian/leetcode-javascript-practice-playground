@@ -1,3 +1,29 @@
+## 2026-05-02 - US-062
+- **What was implemented:**
+  - Created test file for 0138-copy-list-with-random-pointer
+  - 19 test cases covering: empty list (null), single node with random = null, single node with random pointing to itself, two nodes with swapped random pointers, list with all random pointers null, backward random pointers, all random pointers to first node, all random pointers to last node, LeetCode official examples 1 and 2, mixed null/non-null random pointers, longer list with complex random pattern, four-node list all pointing to middle, random pointers forming cycle, alternating pointers, two-node list with both random null, five-node list with forward-only random pointers, verification of deep copy (different object references)
+  - All tests verify: correct copying of linked list with random pointers, deep copy semantics (different objects), random pointer mapping correctness
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0138-copy-list-with-random-pointer.test.js
+  - Updated: scripts/ralph/prd.yaml (US-062 passes: true)
+
+- **Learnings:**
+  - copyRandomList: deep copy of linked list with val, next, and random pointers
+  - Node class provided in solution file: constructor(val, next=null, random=null)
+  - Empty list (null input) returns null; must guard with `if (result !== undefined)` for stub compatibility
+  - Single node: must verify deep copy (result !== node, different object)
+  - Random pointer mapping: must map original random node references to copied random node references correctly
+  - Two patterns for verification: 1) getListStructure helper maps nodes to indices and random pointers to indices for easy comparison, 2) verifyDeepCopy helper checks object identity and random pointer consistency
+  - Deep copy requirement: none of the copied nodes should be the same object as original nodes (result === original must be false)
+  - LeetCode official examples: [[7,null],[13,0],[11,4],[10,2],[1,0]] and [[1,1],[2,1]] both verified
+  - Edge cases covered: empty list, single node, single node with self-reference, forward/backward/mixed random pointers, null and non-null pointer combinations, random pointer cycles
+  - Test coverage: all acceptance criteria met (null, self-reference, all-null, backward pointers, deep copy verification) plus comprehensive additional cases
+  - No special guards needed for assertions except `if (result !== undefined)` before assertions on result
+  - Import correct function name: copyRandomList (not copyListWithRandomPointer)
+
+---
+
 ## 2026-05-02 - US-061
 - **What was implemented:**
   - Created test file for 0137-single-number-ii

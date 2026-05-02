@@ -455,5 +455,5 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover empty list (null), single node with random pointing to itself, all random pointers null, random pointers pointing backward, and verify the copy is a deep copy (different object references)
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/copy-list-with-random-pointer/description/"
