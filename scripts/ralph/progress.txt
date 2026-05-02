@@ -1,3 +1,21 @@
+## 2026-05-02 - US-043
+- **What was implemented:**
+  - Created test file for 0086-partition-list
+  - 12 test cases covering: official examples ([1,4,3,2,5,2] x=3→[1,2,2,4,3,5], [2,1] x=2→[1,2]), empty list (null), single node < x, single node >= x, all elements < x (unchanged order), all elements >= x (unchanged order), x smaller than all (all go to second partition), elements equal to x go to second partition, relative order preserved in both partitions, two-node (first >= x, second < x), negative values around x=0
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0086-partition-list.test.js
+  - Updated: scripts/ralph/prd.yaml (US-043 passes: true)
+
+- **Learnings:**
+  - partition: two-pointer approach — collect nodes < x into "less" list, nodes >= x into "greater" list, concatenate
+  - Elements equal to x go to second (>= x) partition — key constraint
+  - Relative order within each partition must be preserved
+  - Empty list (null head) returns null
+  - Reference solution uses array + reduce trick: collect vals into stack/result, merge, rebuild linked list in reverse
+
+---
+
 ## 2026-05-02 - US-042
 - **What was implemented:**
   - Created test file for 0082-remove-duplicates-from-sorted-list-ii

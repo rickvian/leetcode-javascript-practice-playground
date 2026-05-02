@@ -227,7 +227,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover all elements less than x, all elements greater than or equal to x, single-node list, empty list, and x smaller than all elements
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/partition-list/description/"
 
   - id: US-044
