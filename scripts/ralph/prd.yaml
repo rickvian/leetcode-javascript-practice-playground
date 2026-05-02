@@ -191,7 +191,7 @@ userStories:
       - Derive test cases from problem constraints — cover k=1 (each single number is a combination), k=n (only one combination: all numbers), n=1 with k=1, and verify the count of combinations matches C(n,k)
       - Sort inner arrays and outer array before comparing since order is not guaranteed
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/combinations/description/"
 
   - id: US-041

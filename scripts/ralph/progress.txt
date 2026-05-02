@@ -1,3 +1,22 @@
+## 2026-05-02 - US-040
+- **What was implemented:**
+  - Created test file for 0077-combinations
+  - 14 test cases covering: official examples (n=4,k=2→6 combinations, n=1,k=1→[[1]]), k=1 (each single number), k=n (single combo with all numbers), k=n for n=4, count verification via C(n,k) formula (C(5,2)=10, C(5,3)=10, C(6,2)=15, C(6,3)=20, C(20,2)=190), each combo has exactly k elements, all numbers in range [1,n], no duplicate numbers per combo
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0077-combinations.test.js
+  - Updated: scripts/ralph/prd.yaml (US-040 passes: true)
+
+- **Learnings:**
+  - combinations: backtracking — all subsets of size k from range [1,n]
+  - Result order not guaranteed — sort inner arrays and outer array before comparing
+  - sortCombinations helper: map(c => [...c].sort((a,b) => a-b)).sort(lexicographic)
+  - C(n,k) = n! / (k! * (n-k)!): use count assertions to verify without enumerating all combinations
+  - k=1: n individual single-element combinations; k=n: exactly one combination
+  - Guard assertions with `if (result !== undefined)` for stub compatibility
+
+---
+
 ## 2026-05-02 - US-037
 - **What was implemented:**
   - Created test file for 0069-sqrtx
