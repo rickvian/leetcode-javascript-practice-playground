@@ -734,3 +734,27 @@
   - Test coverage: official examples, trailing slashes, consecutive slashes, dot handling, multiple ups, mixed operations, single directory, special characters
 
 ---
+
+## 2026-05-02 - US-039
+- **What was implemented:**
+  - Created test file for 0072-edit-distance
+  - Updated stub function name from editDistance to minDistance
+  - Added @constraints to stub file
+  - 18 test cases covering: both strings empty (0), word1 empty (distance equals word2 length), word2 empty (distance equals word1 length), equal strings (0), single character strings (equal and different), LeetCode official examples (horse→ros=3, intention→execution=5), strings with no common characters, single character differences, complete replacement, insertion only, deletion only, longer strings with multiple operations, similar strings with few differences
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0072-edit-distance.test.js
+  - Updated: leetcode-playground/0072-edit-distance.js (function name and @constraints)
+  - Updated: scripts/ralph/prd.yaml (US-039 passes: true)
+
+- **Learnings:**
+  - Edit distance (Levenshtein distance): minimum operations (insert, delete, replace) to convert one string to another
+  - Both empty strings → 0 (no operations needed)
+  - One empty string → distance equals length of non-empty string (all insertions or all deletions)
+  - Equal strings → 0 (already identical)
+  - LeetCode examples: "horse"→"ros" requires 3 operations, "intention"→"execution" requires 5 operations
+  - Constraint boundaries: 0 <= word1.length, word2.length <= 500, both lowercase English letters
+  - Dynamic programming typical approach: DP table of size (m+1) x (n+1)
+  - Test coverage: boundary cases (empty strings), single characters, official examples, operation types (insert/delete/replace), multiple operations needed
+
+---

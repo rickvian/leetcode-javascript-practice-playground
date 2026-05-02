@@ -178,7 +178,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover both strings empty (0), one empty string (distance equals other length), equal strings (0), single character strings, and strings with no common characters
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/edit-distance/description/"
 
   - id: US-040
