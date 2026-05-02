@@ -215,7 +215,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover empty list, no duplicates, all elements are duplicates (returns null), duplicate at the head, duplicate at the tail, and single-element list
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/"
 
   - id: US-043
