@@ -239,7 +239,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover m=0 (nums1 is all zeros, result is nums2), n=0 (nums1 unchanged), all elements of nums2 smaller than nums1, all elements of nums2 larger than nums1, and interleaved values
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/merge-sorted-array/description/"
 
   - id: US-045
