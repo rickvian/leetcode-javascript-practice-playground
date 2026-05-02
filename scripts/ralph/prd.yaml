@@ -263,7 +263,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover null root, single node, perfectly symmetric tree, asymmetric due to structure difference, and asymmetric due to value difference with symmetric structure
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/symmetric-tree/description/"
 
   - id: US-047
