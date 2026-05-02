@@ -54,11 +54,11 @@ describe('0064-minimum-path-sum', () => {
 
     // Right-first path beats down-first
     it('right-first path is cheaper than down-first', () => {
-        // right-first: 1→1→10 = 12, down-first: 1→10→10 = 21
-        // Actually: right-first 1→1 then down 10 = 12, down-first 1→10 then right 10 = 21
-        // min is top-right path: 1+1+10=12 vs 1+10+10=21, so 12
+        // Grid: [[1,1,10],[10,10,10]]
+        // Paths (2x3): R-R-D: 1+1+10+10=22, R-D-R: 1+1+10+10=22, D-R-R: 1+10+10+10=31
+        // min is 22
         const result = minPathSum([[1,1,10],[10,10,10]]);
-        if (result !== undefined) expect(result).toBe(12);
+        if (result !== undefined) expect(result).toBe(22);
     });
 
     // All zeros grid
@@ -69,9 +69,11 @@ describe('0064-minimum-path-sum', () => {
 
     // Grid where greedy (always pick min next step) fails
     it('greedy does not give optimal result', () => {
-        // Greedy: 1→1→99→1 = 102, optimal: 1→5→1→1 = 8
+        // Grid: [[1,1,99],[5,1,1]]
+        // R-R-D: 1+1+99+1=102, R-D-R: 1+1+1+1=4, D-R-R: 1+5+1+1=8
+        // Greedy picks D first (5<1 is false, so right then down), optimal path is R-D-R=4
         const result = minPathSum([[1,1,99],[5,1,1]]);
-        if (result !== undefined) expect(result).toBe(8);
+        if (result !== undefined) expect(result).toBe(4);
     });
 
     // 2x2 grid
