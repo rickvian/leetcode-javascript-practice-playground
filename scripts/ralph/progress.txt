@@ -1,3 +1,25 @@
+## 2026-05-02 - US-054
+- **What was implemented:**
+  - Created test file for 0123-best-time-to-buy-and-sell-stock-iii
+  - 20 test cases covering: official examples ([3,3,5,0,0,3,1,4]→3, [1,2,3,4,5]→4), single/two-element arrays, descending prices (0 profit), ascending prices (one transaction sufficient), flat prices, single peak (one transaction optimal), two distinct peaks (two transactions beat one), valley between peaks, multiple transactions, complex patterns with multiple valleys/peaks, zero prices, adjacent transactions, same optimal from one or two transactions
+  - All tests verify: maximum profit from at most two buy-sell transactions
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0123-best-time-to-buy-and-sell-stock-iii.test.js
+  - Updated: scripts/ralph/prd.yaml (US-054 passes: true)
+
+- **Learnings:**
+  - maxProfit III: at most two transactions (buy-sell-buy-sell); must sell before buying again
+  - Key insight: two transactions are optimal when local peaks are separated by valley (e.g., [1,5,0,5]→10 beats [1,5]→4)
+  - Single transaction optimal: continuous ascending prices (entire range beats splitting)
+  - Two-transaction benefit: only when profit(peak1→valley→peak2) > profit(peak1→peak2)
+  - Example [1,4,2,5]: buy@1 sell@4 (profit 3), buy@2 sell@5 (profit 3), total=6 beats single buy@1 sell@5 (profit 4)
+  - Descending/flat prices: 0 profit in all cases
+  - Reference solution uses DP: two passes tracking minimum cost and maximum profit after each position; allows reusing first transaction's profit in second
+  - Guard assertions with `if (maxProfit !== undefined)` for stub compatibility
+
+---
+
 ## 2026-05-02 - US-053
 - **What was implemented:**
   - Created test file for 0122-best-time-to-buy-and-sell-stock-ii

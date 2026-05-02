@@ -359,7 +359,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover descending prices (0 profit), single transaction optimal, two transactions optimal, and cases where completing exactly two transactions beats one
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/"
 
   - id: US-055
