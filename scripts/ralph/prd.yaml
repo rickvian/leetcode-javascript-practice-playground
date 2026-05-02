@@ -335,7 +335,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single-element triangle, two-row triangle, all-negative values (minimum path is least negative), and a triangle where greedy local choices don't yield the global minimum
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/triangle/description/"
 
   - id: US-053

@@ -977,3 +977,27 @@
   - Test coverage: boundary cases (empty strings), single characters, official examples, operation types (insert/delete/replace), multiple operations needed
 
 ---
+
+## 2026-05-02 - US-052
+- **What was implemented:**
+  - Created test file for 0120-triangle
+  - Added @constraints to stub file
+  - 25 test cases covering: LeetCode official examples (min path 11 and -10), single-element triangle, two-row triangles, all-negative values, greedy-fails case where local minimum doesn't lead to global minimum, large first column values, right path optimal, four-row and five-row triangles, mixed positive/negative values, wide triangles, large numbers, zeros in triangle, complex DP cases
+  - All tests verify: minimum path sum from top to bottom using DP
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0120-triangle.test.js
+  - Updated: leetcode-playground/0120-triangle.js (added @constraints)
+  - Updated: scripts/ralph/prd.yaml (US-052 passes: true)
+
+- **Learnings:**
+  - Triangle DP: each element at row i, index j can transition to indices j or j+1 in row i+1
+  - Bottom-up DP: start from last row, work backwards; triangle[i][j] = triangle[i][j] + min(triangle[i+1][j], triangle[i+1][j+1])
+  - Single-element triangle returns that element's value
+  - Two-row triangle [x], [y, z] → min(x+y, x+z)
+  - Greedy failure case: [1], [100, 2], [100, 100, 1] → greedy picks 1+100 but optimal is 1+2+1=4
+  - All-negative values: still follow DP logic; [[-1], [-2, -3], [-4, -5, -6]] → optimal path is top→left→left = -1+-2+-4 = -10 (not -13)
+  - Path length is always triangle.length rows; transition from row i to row i+1 strictly left or right diagonal
+  - Large numbers and zeros behave per same DP logic; no special cases
+
+---

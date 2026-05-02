@@ -5,6 +5,12 @@
  *
  * @param {number[][]} triangle
  * @return {number}
+ *
+ * @constraints
+ * - 1 <= triangle.length <= 200
+ * - triangle[0].length == 1
+ * - triangle[i].length == triangle[i - 1].length + 1
+ * - -10^4 <= triangle[i][j] <= 10^4
  */
 var minimumTotal = function(triangle) {
     // implement
