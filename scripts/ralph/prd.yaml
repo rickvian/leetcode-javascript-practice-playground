@@ -407,7 +407,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover total gas < total cost (returns -1), single station with gas >= cost, single station with gas < cost, and the unique valid starting station is at the end of the array
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/gas-station/description/"
 
   - id: US-059
