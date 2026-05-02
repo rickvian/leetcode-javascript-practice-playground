@@ -5,6 +5,9 @@
  *
  * @param {number} x
  * @return {number}
+ *
+ * @constraints
+ * - 0 <= x <= 2^31 - 1
  */
 var mySqrt = function(x) {
     // implement

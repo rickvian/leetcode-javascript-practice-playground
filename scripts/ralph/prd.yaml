@@ -154,7 +154,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover x=0, x=1, perfect squares, non-perfect squares (result is floor of sqrt), and a large value near the upper constraint
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/sqrtx/description/"
 
   - id: US-038

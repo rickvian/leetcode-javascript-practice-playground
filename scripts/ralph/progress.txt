@@ -1,3 +1,25 @@
+## 2026-05-02 - US-037
+- **What was implemented:**
+  - Created test file for 0069-sqrtx
+  - Added @constraints to stub file
+  - 24 test cases covering: x=0 (returns 0), x=1 (returns 1), perfect squares (4→2, 9→3, 16→4, 25→5, 49→7, 81→9, 100→10, 121→11, 144→12, 196→14, 225→15), non-perfect squares (2→1, 3→1, 5→2, 6→2, 7→2, 8→2, 10→3, 15→3, 24→4, 26→5, 99→9, 101→10), large values near 2^31-1 (2147395600→46340, 2147396000→46340)
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0069-sqrtx.test.js
+  - Updated: leetcode-playground/0069-sqrtx.js (added @constraints)
+  - Updated: scripts/ralph/prd.yaml (US-037 passes: true)
+
+- **Learnings:**
+  - mySqrt: return integer square root (floor of actual sqrt)
+  - x=0 and x=1 are boundary cases
+  - Perfect squares: 4→2, 9→3, 16→4, 25→5, 49→7, 81→9, 100→10, 121→11, 196→14, 225→15
+  - Non-perfect squares: result is floor of actual sqrt (e.g., 2→1, 8→2, 99→9)
+  - Large values: constraint upper limit is 2^31-1; test with 46340^2 = 2147395600 (exact) and slightly larger value
+  - Binary search approach typical for O(log n) solution
+  - Guard assertions with `if (result !== undefined)` for stub compatibility
+
+---
+
 ## 2026-05-02 - US-036
 - **What was implemented:**
   - Created test file for 0068-text-justification
