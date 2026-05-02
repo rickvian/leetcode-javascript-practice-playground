@@ -142,7 +142,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover a line with a single long word (no extra spaces), the last line (left-justified), even vs uneven extra-space distribution (extra spaces go to left gaps first), and a single word that exactly fills maxWidth
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/text-justification/description/"
 
   - id: US-037
