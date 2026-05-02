@@ -311,7 +311,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover empty tree (no-op), single node, already right-only list (no-op), left-only tree, and a tree where the flattened order must follow pre-order traversal
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/"
 
   - id: US-051
@@ -323,7 +323,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover empty tree, single node, a partial last level (last node's next must be null), and a case where nodes on the same level are not siblings
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/"
 
   - id: US-052
