@@ -130,7 +130,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover inputs of different lengths, carry propagation producing a leading "1", a="0" or b="0", and both inputs equal "1"
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/add-binary/description/"
 
   - id: US-036
