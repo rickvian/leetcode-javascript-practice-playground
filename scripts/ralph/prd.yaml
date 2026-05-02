@@ -347,7 +347,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover strictly descending prices (0 profit), strictly ascending prices (collect all increases), single day (0 profit), and prices that require multiple transactions
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/"
 
   - id: US-054

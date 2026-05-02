@@ -1,3 +1,28 @@
+## 2026-05-02 - US-053
+- **What was implemented:**
+  - Created test file for 0122-best-time-to-buy-and-sell-stock-ii
+  - 23 test cases covering: official examples ([7,1,5,3,6,4]→7, [1,2,3,4,5]→4), single day (0 profit), strictly descending prices (0 profit), strictly ascending prices (collect all increases), two-element arrays (profit/no profit), flat prices (0 profit), multiple distinct peaks/valleys, alternating ups/downs, duplicate consecutive values, single peak at end/start, longer arrays with multiple transactions, large numbers, zigzag pattern, minimal profit opportunities
+  - All tests verify: maximum profit from multiple buy-sell transactions
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0122-best-time-to-buy-and-sell-stock-ii.test.js
+  - Updated: scripts/ralph/prd.yaml (US-053 passes: true)
+
+- **Learnings:**
+  - maxProfit II: unlimited buy-sell transactions with at most one share held at a time
+  - Greedy approach: collect ALL positive differences (whenever price[i] > price[i-1], add the difference)
+  - Equivalent to: buy before every increase, sell before every decrease
+  - Strictly ascending prices: final - initial profit (buy at start, sell at end)
+  - Strictly descending: 0 profit (never buy)
+  - Single day: 0 profit (no transaction possible)
+  - Multiple peaks/valleys: algorithm automatically captures all profitable segments
+  - Flat prices (all same): 0 profit (no differences to exploit)
+  - Two elements: if ascending return diff, else 0
+  - No special sorting/guards needed — direct numeric assertions with .toBe()
+  - Guard assertions with `if (result !== undefined)` for stub compatibility
+
+---
+
 ## 2026-05-02 - US-051
 - **What was implemented:**
   - Created test file for 0117-populating-next-right-pointers-in-each-node-ii

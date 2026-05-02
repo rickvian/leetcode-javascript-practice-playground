@@ -15,7 +15,7 @@ for i in $(seq 1 $MAX_ITERATIONS); do
     | tee /dev/stderr) || true
 
   if echo "$OUTPUT" | \
-    grep -q "<promise>COMPLETE</promise>"
+    grep -qx "RALPH_ALL_DONE"
   then
     echo "✅ Done!"
     exit 0
