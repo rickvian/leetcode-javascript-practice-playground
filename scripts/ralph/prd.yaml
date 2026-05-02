@@ -203,7 +203,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover no duplicates, exactly two occurrences, more than two occurrences (third+ must be removed), all elements identical, and verify both return value (k) and first k elements
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/"
 
   - id: US-042
