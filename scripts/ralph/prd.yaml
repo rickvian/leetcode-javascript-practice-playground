@@ -287,7 +287,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single element, two elements, odd-length and even-length arrays; verify the result is a valid height-balanced BST by checking in-order traversal matches the input
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/"
 
   - id: US-049

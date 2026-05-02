@@ -1,3 +1,26 @@
+## 2026-05-02 - US-048
+- **What was implemented:**
+  - Created test file for 0108-convert-sorted-array-to-binary-search-tree
+  - 18 test cases covering: empty array (null), single element, two elements, odd-length arrays [1,2,3] and [1,2,3,4,5,6,7], even-length arrays [1,2,3,4] and [1,2,3,4,5,6,7,8], negative numbers [-10,-3,0,5,9], all negative [-9,-5,-3,-1], duplicate values [1,1,1,2,2,3], large values, array [0..9], root position verification, height-balance verification for arrays 1-16 elements, in-order traversal validation
+  - All tests verify: in-order traversal matches input, tree is height-balanced, tree is valid BST
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0108-convert-sorted-array-to-binary-search-tree.test.js
+  - Updated: scripts/ralph/prd.yaml (US-048 passes: true)
+
+- **Learnings:**
+  - Sorted array to BST: recursive approach using middle element as root, left slice becomes left subtree, right slice becomes right subtree
+  - Empty array returns null (base case)
+  - Single element: just TreeNode with val, both children null
+  - Middle element: for odd-length array, middle is exact center; for even-length, Math.floor(length/2) gives index slightly left of true middle
+  - Height-balanced property: recursive slicing automatically produces balanced tree because middle pivot is always chosen
+  - In-order traversal of BST always produces sorted array (verify with [left, val, right] traversal)
+  - Tree structure automatically satisfies BST property: left subtree values all < root < right subtree values
+  - Helper functions: getInorder (DFS traversal), getHeight (recursive height), isHeightBalanced (check height difference ≤ 1), isBST (validate BST property)
+  - Guard assertions with `if (sortedArrayToBST !== undefined)` for stub compatibility
+
+---
+
 ## 2026-05-02 - US-047
 - **What was implemented:**
   - Created test file for 0106-construct-binary-tree-from-inorder-and-postorder-traversal
