@@ -54,4 +54,47 @@ describe('0236-lowest-common-ancestor-of-a-binary-tree', () => {
         const result = lowestCommonAncestor(root, a, b);
         if (result !== undefined) expect(result).toBe(root);
     });
+
+    it('should find deep LCA buried 5 levels down in a wide tree', () => {
+        //                        1
+        //                 /            \
+        //               2               3
+        //             /   \           /   \
+        //           4       5       6       7
+        //          / \     / \     / \
+        //         8   9  10  11  12  13
+        //        / \           \
+        //      14  15          16
+        //      /                 \
+        //    [p=17]             [q=16] <- already at 16
+        //
+        // p=17 is under 14->8->4->2->1
+        // q=16 is under 11->5->2->1
+        // LCA should be node 2
+
+        const p = new TreeNode(17);
+        const fifteen = new TreeNode(15);
+        const fourteen = new TreeNode(14, p, null);
+        const eight = new TreeNode(8, fourteen, fifteen);
+        const nine = new TreeNode(9);
+        const four = new TreeNode(4, eight, nine);
+
+        const ten = new TreeNode(10);
+        const q = new TreeNode(16);
+        const eleven = new TreeNode(11, null, q);
+        const five = new TreeNode(5, ten, eleven);
+
+        const two = new TreeNode(2, four, five);
+
+        const twelve = new TreeNode(12);
+        const thirteen = new TreeNode(13);
+        const six = new TreeNode(6, twelve, thirteen);
+        const seven = new TreeNode(7);
+        const three = new TreeNode(3, six, seven);
+
+        const root = new TreeNode(1, two, three);
+
+        const result = lowestCommonAncestor(root, p, q);
+        if (result !== undefined) expect(result).toBe(two);
+    });
 });

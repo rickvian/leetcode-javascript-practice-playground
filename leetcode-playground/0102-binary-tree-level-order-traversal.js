@@ -9,15 +9,51 @@
  */
 
 class TreeNode {
-    constructor(val, left, right) {
-        this.val = val;
-        this.left = left === undefined ? null : left;
-        this.right = right === undefined ? null : right;
-    }
+  constructor(val, left, right) {
+    this.val = val;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
+  }
 }
 
-var levelOrder = function(root) {
-    // Solution implementation
+var levelOrder = function (root) {
+  //    3
+  //  9   20
+  //     15   7
+  // [3], [9, 20], [15, 7]
+  // perform breath first search,
+  // normally use queue.
+
+  let q = [];
+  let result = [];
+  q.push(root);
+  while (q.length > 0) {
+    // start processing the queue,
+
+    // push left and right into the queue for later processed
+
+    // then pop the queue to put it into level
+
+    let level = [];
+
+    let currentQueueLength = q.length;
+
+    for (let i = 0; i < currentQueueLength; i++) {
+      // process item in queue
+      const node = q.shift();
+      if (node) {
+        level.push(node.val);
+        q.push(node.left);
+        q.push(node.right);
+      }
+    }
+
+    if (level.length > 0) {
+      result.push(level);
+    }
+  }
+
+  return result;
 };
 
-export { levelOrder, TreeNode }
+export { levelOrder, TreeNode };
