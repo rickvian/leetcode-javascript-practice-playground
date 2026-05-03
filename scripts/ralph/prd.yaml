@@ -70,7 +70,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single element (index 0 is always a peak), monotonically increasing array (last element is peak), monotonically decreasing array (first element is peak), and multiple peaks (any valid index is acceptable)
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/find-peak-element/description/"
 
   - id: US-069
