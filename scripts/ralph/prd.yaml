@@ -239,7 +239,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover no duplicates at all, duplicate exactly at distance k (true), duplicate at distance k+1 (false), all elements the same (true for any k>=1), and k=0 (false, same index not allowed)
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/contains-duplicate-ii/description/"
 
   - id: US-083
