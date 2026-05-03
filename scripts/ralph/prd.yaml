@@ -94,7 +94,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single element, all elements the same, majority element appears exactly floor(n/2)+1 times, majority element at the start vs scattered throughout
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/majority-element/description/"
 
   - id: US-071
