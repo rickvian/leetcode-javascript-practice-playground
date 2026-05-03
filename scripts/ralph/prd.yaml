@@ -127,11 +127,11 @@ userStories:
     acceptanceCriteria:
       - Create test file at leetcode-playground/tests/0188-best-time-to-buy-and-sell-stock-iv.test.js
       - Import maxProfit from ../0188-best-time-to-buy-and-sell-stock-iv
-      - describe block named '0188-best-time-to-buy-and-sell-stock-iii'
+      - describe block named '0188-best-time-to-buy-and-sell-stock-iv'
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover k=0 (no transactions, 0 profit), k >= n/2 (unlimited transactions, collect all upward moves), descending prices (0 profit), and verify k transactions is better than k-1
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/"
 
   - id: US-074
