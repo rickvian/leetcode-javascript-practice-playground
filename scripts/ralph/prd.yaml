@@ -191,7 +191,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover equal strings (isomorphic to themselves), single character, two different characters mapping to the same character (not isomorphic), and a bijective mapping that holds
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/isomorphic-strings/description/"
 
   - id: US-079

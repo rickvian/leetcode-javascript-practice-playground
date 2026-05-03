@@ -1660,3 +1660,33 @@
   - Test coverage: all acceptance criteria met (n=1, n=7, n=2, n=4, multi-step happy) plus edge cases, unhappy numbers, variety of digit patterns
 
 ---
+
+## 2026-05-03 - US-078
+- **What was implemented:**
+  - Created test file for 0205-isomorphic-strings
+  - 12 test cases covering: LeetCode official examples (egg->add=true, badc->baba=false), equal strings (a->a=true), single character (a->b=true), two characters mapping to same (ab->aa=false), bijective mapping (ab->cd=true), paper->title=true, all characters to same (abc->ddd=false), character reuse mismatches (aa->ab=false, aabb->cdcd=false, bac->abb=false), empty strings
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0205-isomorphic-strings.test.js
+  - Updated: scripts/ralph/prd.yaml (US-078 passes: true)
+
+- **Learnings:**
+  - isIsomorphic: determines if s can be transformed to t by character replacement, checking bijective mapping
+  - Algorithm: for each index i, checks if first occurrence position of s[i] after i equals first occurrence of t[i] after i
+  - Key insight: if pattern of first occurrences matches, then mapping is valid (character consistency + bijectivity)
+  - Bijective requirement: no two characters can map to same character, and each character maps to exactly one other
+  - egg->add: e->a(first at 0), g->d(first at 1,2) = true (valid 1-to-1 mapping)
+  - badc->baba: b->b, a->a, d->b (conflict: d and b both map to b), c->a (conflict: c and a both map to a) = false
+  - a->b: single character can map to different character = true
+  - ab->aa: b and a both map to a = false (non-injective: not 1-to-1)
+  - aa->ab: a maps to both a and b = false (not well-defined mapping)
+  - paper->title: p->t, a->i, e->l, r->e = true (all consistent)
+  - abc->ddd: a,b,c all map to d = false (not injective)
+  - Empty strings: empty->empty = true (vacuous truth: no characters to violate mapping)
+  - Matching lengths: implied by problem (both s and t have same length for comparison to work)
+  - No explicit HashMap/Set needed: indexOf comparison elegantly checks pattern equivalence
+  - Time complexity: O(n²) due to indexOf searches for each character (linear searches inside loop)
+  - Space complexity: O(1) constant extra space (no collections needed)
+  - Test coverage: all acceptance criteria met (equal strings, single char, two->one conflict, bijective hold) plus LeetCode examples, length tests, empty case
+
+---
