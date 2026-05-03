@@ -227,7 +227,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover k=1 (maximum), k=n (minimum), all duplicate values, negative values, and a mix of positive/negative numbers
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/kth-largest-element-in-an-array/description/"
 
   - id: US-082
