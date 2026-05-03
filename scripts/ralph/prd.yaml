@@ -155,7 +155,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover empty tree (returns []), single node, left-only tree (left nodes are visible from right), right-only tree, and a tree where the rightmost node per level is on the left subtree of the root
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/binary-tree-right-side-view/description/"
 
   - id: US-076

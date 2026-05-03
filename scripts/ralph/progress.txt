@@ -1560,3 +1560,48 @@
   - Backward iteration on j (k to 1) ensures buy/sell use previous transaction state
 
 ---
+
+## 2026-05-03 - US-075
+- **What was implemented:**
+  - Created test file at leetcode-playground/tests/0199-binary-tree-right-side-view.test.js
+  - 14 comprehensive test cases covering all acceptance criteria and edge cases:
+    - Empty tree (null)
+    - Single node
+    - Right-only tree (all nodes visible)
+    - Left-only tree (left nodes visible from right)
+    - LeetCode official examples 1 and 2
+    - Tree where rightmost node at level is on left subtree
+    - Multiple levels with complex structure
+    - Right subtree deeper than left
+    - All same-level nodes with right children
+    - Negative values
+    - Duplicate values
+    - Single left child chain at each level
+    - Each level has both children but right child deeper
+  - All tests pass with reference solution (14/14)
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0199-binary-tree-right-side-view.test.js
+  - Updated: scripts/ralph/prd.yaml (US-075 passes: true)
+
+- **Learnings:**
+  - rightSideView: DFS traversal visiting nodes by depth, storing rightmost node value at each depth level
+  - Algorithm approach: DFS with depth parameter that overwrites result[depth] at each level, ensuring rightmost node persists (due to traversal order: left subtree first, then right subtree overwrites)
+  - Traversal order critical: visiting left subtree before right subtree allows right subtree's nodes to overwrite left subtree's nodes at same depth
+  - Base case: null node returns current result array (no further traversal)
+  - Each recursive call increments depth and passes same result array, building up sparse array with rightmost value per level
+  - Empty tree: returns [] (empty result array from initial call)
+  - Single node tree: returns [rootVal]
+  - Right-only tree (chain of right children): returns all values (each level has only right child, so all are rightmost)
+  - Left-only tree (chain of left children): returns all values (DFS processes left-only subtree, so all left nodes become "rightmost" at their depths)
+  - Negative values: handled naturally by numeric comparison/storage
+  - Duplicate values: allowed, each level stores whatever node is visited last (rightmost)
+  - Array structure: sparse array indexed by depth, so result[0]=root, result[1]=rightmost at level 1, etc.; length = max_depth + 1
+  - No explicit stack/queue needed: recursion handles depth tracking and traversal order naturally
+  - Time complexity: O(n) visiting each node once
+  - Space complexity: O(h) recursion depth where h = height of tree
+  - TreeNode constructor: val defaults to 0 if undefined, left/right default to null
+  - Test coverage: all acceptance criteria met (empty, single, left-only, right-only, mixed structures) plus negatives, duplicates, chains
+  - Guard assertions not needed — all operations guaranteed valid by test design
+
+---
