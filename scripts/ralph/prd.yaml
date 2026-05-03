@@ -167,7 +167,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover m=n (AND of same number is itself), m=0 (result is 0), a range crossing a power of 2 (result is 0 for that bit), and large values at the constraint boundary
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/bitwise-and-of-numbers-range/description/"
 
   - id: US-077

@@ -1605,3 +1605,29 @@
   - Guard assertions not needed — all operations guaranteed valid by test design
 
 ---
+
+## 2026-05-03 - US-076
+- **What was implemented:**
+  - Created test file for 0201-bitwise-and-of-numbers-range
+  - 12 test cases covering: left==right (same number returns itself), left==0 (0 is in range, result 0), power of 2 boundary (5,6→4), single bit result (3,4→0), common prefix (6,7→6), max range (0, 2^31-1 → 0), adjacent numbers (1,2→0), multi-bit crossing (1,7→0), large value identity (2^31-1, 2^31-1 → 2^31-1), mid-range consecutive (8,9→8), clear common bits (12,15→12), binary pattern (10,11→10)
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0201-bitwise-and-of-numbers-range.test.js
+  - Updated: scripts/ralph/prd.yaml (US-076 passes: true)
+
+- **Learnings:**
+  - Bitwise AND of range: finds common bits shared by all numbers in [left, right]
+  - Algorithm: right-shift both left and right until equal, then left-shift back by count
+  - When left and right differ in a bit position, all numbers between them toggle that bit, so AND will be 0 for that bit and all lower bits
+  - If 0 is in range [left, right], result is always 0 (0 AND x = 0 for any x)
+  - If left==right, result is left itself (AND of single number is itself)
+  - Common prefix bits: when left and right share high-order bits (same binary prefix), those bits persist in AND
+  - Example: (5,6) = (101,110) → right-shift to (10,11) → (1,1) → left-shift back gives 100=4; the only common bit is the 4-bit (2^2)
+  - Example: (6,7) = (110,111) → both have 11x prefix, so AND keeps 110=6 (high bits match)
+  - Example: (3,4) = (011,100) → no common bits after first position, right-shift count=1, result 0
+  - Range crossing power of 2 always produces 0 for the crossed bit (e.g., 1,7 crosses 2,4 boundaries)
+  - Large boundary: max 32-bit int = 2147483647 = 0x7FFFFFFF; left==right preserves it
+  - Time complexity: O(log(min(left, right))) due to bit-shifting
+  - Space complexity: O(1)
+
+---
