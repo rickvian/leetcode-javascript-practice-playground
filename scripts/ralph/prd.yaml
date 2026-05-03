@@ -215,7 +215,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover no prerequisites (any order valid), a cycle (returns []), a linear chain of dependencies, and a case with multiple valid orderings; verify the returned order is a valid topological sort
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/course-schedule-ii/description/"
 
   - id: US-081

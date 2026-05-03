@@ -1720,3 +1720,32 @@
   - Test coverage: all acceptance criteria met (no subarray, entire array needed, single element, sliding window) plus LeetCode examples, edge cases, large numbers, multiple windows
 
 ---
+
+## 2026-05-03 - US-080
+- **What was implemented:**
+  - Created test file for 0210-course-schedule-ii
+  - 19 test cases covering: no prerequisites (any order valid), single course, LeetCode official examples ([[1,0]]→[0,1], [[1,0],[2,0],[3,1],[3,2]]→[0,2,1,3]), cycle detection ([0,1],[1,0]]→[]), linear chain, three courses with no dependencies, larger cycle, single prerequisite, multiple independent chains, self-loop cycle, all courses depending on one, diamond dependency, larger numbers with chain, complex graph with multiple paths, cycle with three courses, two independent courses
+  - All tests verify: topological sort ordering with DFS cycle detection, returning valid course order or empty array if cycle exists
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0210-course-schedule-ii.test.js
+  - Updated: scripts/ralph/prd.yaml (US-080 passes: true)
+
+- **Learnings:**
+  - findOrder: topological sort using DFS with cycle detection via path set
+  - Build adjacency graph: prerequisites[i]=[a,b] means prerequisite b→course a, graph[b].push(a)
+  - DFS algorithm: path set tracks current recursion path, seen set tracks visited nodes
+  - Cycle detection: if course in path set, cycle detected, return false from dfs
+  - Post-order insertion: result.unshift(course) adds course after dependencies visited (post-order)
+  - Return value: empty array [] if any cycle detected, else topologically sorted courses
+  - Single course (no prerequisites): returns [0] (one valid ordering)
+  - No prerequisites (any order): returns all courses in topological order (reference solution picks ascending)
+  - Linear chain [1,0],[2,1]: returns [0,1,2] (dependencies satisfied: 0→1→2)
+  - Cycle [0,1],[1,0]: returns [] (impossible to order)
+  - LeetCode examples verified: [[1,0]]→[0,1] (0 before 1), [[1,0],[2,0],[3,1],[3,2]]→[0,2,1,3] (0 first, then 2 and 1, then 3)
+  - Diamond dependency: multiple paths to same node handled correctly by DFS
+  - Self-loop [0,0]: detected as cycle, returns []
+  - Test strategy: verify topological properties (predecessors before successors) rather than exact order when multiple valid orderings exist
+  - Test coverage: all acceptance criteria met (no prerequisites, cycle, linear chain, multiple orderings) plus comprehensive edge cases
+
+---
