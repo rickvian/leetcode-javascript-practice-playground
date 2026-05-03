@@ -1320,3 +1320,26 @@
   - Guard assertions with `if (result !== undefined)` for stub compatibility
 
 ---
+
+## 2026-05-03 - US-066
+- **What was implemented:**
+  - Created test file for 0151-reverse-words-in-a-string
+  - 23 test cases covering: official example ("the sky is blue" → "blue is sky the"), leading and trailing spaces handled, multiple spaces between words reduced to single space, single word returns unchanged, only-spaces input returns empty string, single leading space stripped, single trailing space stripped, multiple consecutive spaces normalized, mixed spacing patterns, three-word reversals, complex spacing with multiple words, single character repeated, longer words, preserving word content, four/five word phrases with irregular spacing, palindrome-like phrases ("race car race" stays same), identical words ("a a a a"), words with numeric characters
+  - All 23 tests pass with reference solution
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0151-reverse-words-in-a-string.test.js
+  - Updated: scripts/ralph/prd.yaml (US-066 passes: true)
+
+- **Learnings:**
+  - reverseWords: trim leading/trailing spaces, normalize multiple consecutive spaces to single space, split on whitespace, reverse array, join with single space
+  - trim() removes all leading/trailing whitespace (not just single spaces)
+  - .replace(/\s+/g, ' ') normalizes any sequence of whitespace (spaces, tabs, newlines) to single space
+  - split(/\s/) splits on any whitespace character; after trim and replace, results in array of actual words
+  - reverse() mutates array in-place but that's fine here (not reused)
+  - join(' ') concatenates words with single space separator
+  - Edge cases: empty input or only-spaces → empty string (trim yields empty, split yields empty or [empty], reverse/join yields empty); single word → returns same word; multiple spaces → normalized to single; leading/trailing spaces → stripped
+  - Test coverage: official examples, whitespace handling (leading, trailing, multiple consecutive, mixed), word counts (1-5 words), special cases (palindromes, identical words, numeric content)
+  - Guard assertions not needed — all tests use direct .toEqual() with string return values
+
+---

@@ -45,7 +45,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single word, leading and trailing spaces (must be stripped), multiple spaces between words (reduced to single space), and a string that is already reversed
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/reverse-words-in-a-string/description/"
 
   - id: US-067
