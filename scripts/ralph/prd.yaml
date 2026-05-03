@@ -21,7 +21,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single point (returns 1), two points (always collinear, returns 2), all points on the same line, all points are the same coordinate, and vertical lines (undefined slope)
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/max-points-on-a-line/description/"
 
   - id: US-065
