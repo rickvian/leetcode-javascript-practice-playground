@@ -1269,6 +1269,30 @@
 
 ---
 
+## 2026-05-03 - US-065
+- **What was implemented:**
+  - Created test file for 0150-evaluate-reverse-polish-notation
+  - 24 test cases covering: single number token, simple operations (addition, subtraction, multiplication, division), division with truncation toward zero, negative number tokens, single negative number, multiple negative numbers, LeetCode official examples 1-2, nested operations, longer expressions with mixed operators, division producing negative result, subtraction order, division by negative number, zero result, large numbers, complex expressions with four operations
+  - All tests verify: correct evaluation of RPN expressions using stack-based approach
+  - Added @constraints to stub file
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0150-evaluate-reverse-polish-notation.test.js
+  - Updated: leetcode-playground/0150-evaluate-reverse-polish-notation.js (added @constraints)
+  - Updated: scripts/ralph/prd.yaml (US-065 passes: true)
+
+- **Learnings:**
+  - evalRPN: stack-based RPN evaluation — push operands, pop two operands when operator found, push result
+  - Division truncates toward zero (not floor): `a / b >= 0 ? Math.floor(a / b) : Math.ceil(a / b)` handles both positive and negative division
+  - Single number token returns that number's value directly
+  - LeetCode official examples: ['2','1','+','3','*']→9 (2+1=3, 3*3=9), ['4','13','5','/','+']→6 (13/5=2, 4+2=6)
+  - Negative division example: -6/4=-1 (not -2), 10/-3=-3 (not -4), 7/-2=-3 (not -4)
+  - Operation order: RPN tokens processed left-to-right; when operator found, pop second operand first (top), pop first operand, apply as (first op second)
+  - Test coverage: single number, all four operators, division truncation (positive/negative), negative operands, official examples, nested operations, expressions with multiple operations, various division cases
+  - Guard assertions not needed — direct .toEqual() works (integer return value, no undefined stub guard)
+
+---
+
 ## 2026-05-03 - US-064
 - **What was implemented:**
   - Created test file for 0149-max-points-on-a-line

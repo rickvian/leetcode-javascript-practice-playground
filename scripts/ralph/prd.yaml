@@ -33,7 +33,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single number token, negative number tokens, division truncating toward zero (not floor), and nested operations
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/evaluate-reverse-polish-notation/description/"
 
   - id: US-066
