@@ -5,6 +5,10 @@
  *
  * @param {ListNode} head
  * @return {ListNode}
+ *
+ * @constraints
+ * - The number of nodes in the list is in the range [0, 5 * 10^4]
+ * - -10^5 <= Node.val <= 10^5
  */
 class ListNode {
     constructor(val, next) {

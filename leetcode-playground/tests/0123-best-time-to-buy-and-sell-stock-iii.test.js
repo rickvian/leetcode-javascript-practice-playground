@@ -39,7 +39,7 @@ describe('0123-best-time-to-buy-and-sell-stock-iii', () => {
 
     it('should handle official example 1: [3,3,5,0,0,3,1,4]', () => {
         if (maxProfit !== undefined) {
-            expect(maxProfit([3, 3, 5, 0, 0, 3, 1, 4])).toBe(3);
+            expect(maxProfit([3, 3, 5, 0, 0, 3, 1, 4])).toBe(6);
         }
     });
 
@@ -51,13 +51,13 @@ describe('0123-best-time-to-buy-and-sell-stock-iii', () => {
 
     it('should handle single peak (only buy once optimal)', () => {
         if (maxProfit !== undefined) {
-            expect(maxProfit([1, 7, 2, 8])).toBe(7);
+            expect(maxProfit([1, 7, 2, 8])).toBe(12);
         }
     });
 
     it('should handle two distinct peaks (two transactions better)', () => {
         if (maxProfit !== undefined) {
-            expect(maxProfit([1, 5, 0, 5])).toBe(10);
+            expect(maxProfit([1, 5, 0, 5])).toBe(9);
         }
     });
 
@@ -81,7 +81,7 @@ describe('0123-best-time-to-buy-and-sell-stock-iii', () => {
 
     it('should handle early peak then late peak', () => {
         if (maxProfit !== undefined) {
-            expect(maxProfit([1, 6, 2, 3, 5])).toBe(7);
+            expect(maxProfit([1, 6, 2, 3, 5])).toBe(8);
         }
     });
 
@@ -105,7 +105,7 @@ describe('0123-best-time-to-buy-and-sell-stock-iii', () => {
 
     it('should handle complex pattern: multiple valleys and peaks', () => {
         if (maxProfit !== undefined) {
-            expect(maxProfit([1, 5, 2, 6, 3, 7])).toBe(11);
+            expect(maxProfit([1, 5, 2, 6, 3, 7])).toBe(9);
         }
     });
 
@@ -115,9 +115,9 @@ describe('0123-best-time-to-buy-and-sell-stock-iii', () => {
         }
     });
 
-    it('should handle same optimal result from one or two transactions', () => {
+    it('should handle two transactions better than one: [1,10,2,5]', () => {
         if (maxProfit !== undefined) {
-            expect(maxProfit([1, 10, 2, 5])).toBe(9);
+            expect(maxProfit([1, 10, 2, 5])).toBe(12); // buy@1 sell@10 (9) + buy@2 sell@5 (3) = 12
         }
     });
 });

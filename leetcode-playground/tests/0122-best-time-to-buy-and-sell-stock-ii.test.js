@@ -55,13 +55,13 @@ describe('0122-best-time-to-buy-and-sell-stock-ii', () => {
     it('should handle multiple distinct peaks and valleys', () => {
         const prices = [2, 1, 2, 0, 1];
         const result = maxProfit(prices);
-        if (result !== undefined) expect(result).toBe(1); // 1→2 (1) + 0→1 (1) = 2, or just 1→2 = 1
+        if (result !== undefined) expect(result).toBe(2); // 1→2 (1) + 0→1 (1) = 2
     });
 
     it('should handle alternating ups and downs', () => {
         const prices = [1, 4, 2, 5, 3, 6];
         const result = maxProfit(prices);
-        if (result !== undefined) expect(result).toBe(8); // 1→4 (3) + 2→5 (3) + 3→6 (3) = 9, or similar
+        if (result !== undefined) expect(result).toBe(9); // 1→4 (3) + 2→5 (3) + 3→6 (3) = 9
     });
 
     it('should handle prices with duplicate consecutive values', () => {

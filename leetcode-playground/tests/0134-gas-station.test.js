@@ -36,24 +36,24 @@ describe('0134-gas-station', () => {
         if (result !== undefined) expect(result).toBe(-1);
     });
 
-    it('should return 0 when valid starting station is first', () => {
+    it('should return 4 when valid starting station is last', () => {
         const result = canCompleteCircuit([5, 1, 2, 3, 4], [4, 4, 1, 5, 1]);
-        if (result !== undefined) expect(result).toBe(0);
-    });
-
-    it('should return 1 when valid starting station is at index 1', () => {
-        const result = canCompleteCircuit([2, 3, 4], [3, 3, 4]);
-        if (result !== undefined) expect(result).toBe(1);
-    });
-
-    it('should return 2 when valid starting station is in middle', () => {
-        const result = canCompleteCircuit([1, 2, 3, 4, 5], [5, 5, 1, 6, 2]);
-        if (result !== undefined) expect(result).toBe(2);
-    });
-
-    it('should return 4 when valid starting station is at end (index n-1)', () => {
-        const result = canCompleteCircuit([1, 2, 3, 4, 6], [3, 3, 4, 3, 3]);
         if (result !== undefined) expect(result).toBe(4);
+    });
+
+    it('should return -1 when no solution exists (total gas < total cost)', () => {
+        const result = canCompleteCircuit([2, 3, 4], [3, 3, 4]);
+        if (result !== undefined) expect(result).toBe(-1);
+    });
+
+    it('should return -1 when no solution exists (net gas < 0)', () => {
+        const result = canCompleteCircuit([1, 2, 3, 4, 5], [5, 5, 1, 6, 2]);
+        if (result !== undefined) expect(result).toBe(-1);
+    });
+
+    it('should return 3 when valid starting station is at index 3', () => {
+        const result = canCompleteCircuit([1, 2, 3, 4, 6], [3, 3, 4, 3, 3]);
+        if (result !== undefined) expect(result).toBe(3);
     });
 
     it('should return 0 for two stations where first is valid', () => {
@@ -66,9 +66,9 @@ describe('0134-gas-station', () => {
         if (result !== undefined) expect(result).toBe(0);
     });
 
-    it('should return valid index for asymmetric gas distribution', () => {
+    it('should return 0 for asymmetric gas distribution (start from index 0)', () => {
         const result = canCompleteCircuit([1, 1, 1, 1, 10], [1, 1, 1, 1, 1]);
-        if (result !== undefined) expect(result).toBe(4);
+        if (result !== undefined) expect(result).toBe(0);
     });
 
     it('should return valid index when first station has no gas', () => {
@@ -91,9 +91,9 @@ describe('0134-gas-station', () => {
         if (result !== undefined) expect(result).toBe(-1);
     });
 
-    it('should return valid start when valid start is not first but exists', () => {
+    it('should return -1 when total gas < total cost', () => {
         const result = canCompleteCircuit([2, 1, 1, 1, 1], [1, 1, 2, 2, 2]);
-        if (result !== undefined) expect(result).toBe(0);
+        if (result !== undefined) expect(result).toBe(-1);
     });
 
     it('should find unique valid starting station in complex case', () => {

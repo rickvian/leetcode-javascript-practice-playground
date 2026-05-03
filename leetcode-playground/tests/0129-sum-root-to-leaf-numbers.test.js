@@ -74,7 +74,7 @@ describe('0129-sum-root-to-leaf-numbers', () => {
 		root.right.left = new TreeNode(6);
 		root.right.right = new TreeNode(7);
 		const result = sumNumbers(root);
-		if (result !== undefined) expect(result).toBe(412 + 413 + 426 + 427); // 124+125+136+137 = 522
+		if (result !== undefined) expect(result).toBe(124 + 125 + 136 + 137); // 522
 	});
 
 	it('should handle two-level tree with all leaves', () => {

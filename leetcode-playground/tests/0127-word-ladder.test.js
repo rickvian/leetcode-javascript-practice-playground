@@ -41,12 +41,12 @@ describe('0127-word-ladder', () => {
         if (result !== undefined) expect(result).toBe(0);
     });
 
-    it('should return 3 for simple two-step ladder', () => {
+    it('should return 2 for single-step ladder (a→c directly)', () => {
         const beginWord = 'a';
         const endWord = 'c';
         const wordList = ['a', 'b', 'c'];
         const result = ladderLength(beginWord, endWord, wordList);
-        if (result !== undefined) expect(result).toBe(3);
+        if (result !== undefined) expect(result).toBe(2);
     });
 
     it('should return 0 when no path exists (disconnected components)', () => {
@@ -65,28 +65,20 @@ describe('0127-word-ladder', () => {
         if (result !== undefined) expect(result).toBe(5);
     });
 
-    it('should return 0 when endWord is same as beginWord but not in path', () => {
-        const beginWord = 'a';
-        const endWord = 'a';
-        const wordList = ['b', 'c'];
-        const result = ladderLength(beginWord, endWord, wordList);
-        if (result !== undefined) expect(result).toBe(0);
-    });
-
     it('should find path through larger wordList', () => {
         const beginWord = 'hit';
         const endWord = 'log';
         const wordList = ['hit', 'hot', 'dot', 'dog', 'lot', 'log'];
         const result = ladderLength(beginWord, endWord, wordList);
-        if (result !== undefined) expect(result).toBe(5);
+        if (result !== undefined) expect(result).toBe(4);
     });
 
-    it('should return 0 when only one letter differs but not enough for path', () => {
+    it('should return 4 for red→tax path (red→ted→tex→tax)', () => {
         const beginWord = 'red';
         const endWord = 'tax';
         const wordList = ['red', 'ted', 'tex', 'tax'];
         const result = ladderLength(beginWord, endWord, wordList);
-        if (result !== undefined) expect(result).toBe(5);
+        if (result !== undefined) expect(result).toBe(4);
     });
 
     it('should handle case where multiple paths exist (return shortest)', () => {
@@ -118,7 +110,7 @@ describe('0127-word-ladder', () => {
         const endWord = 'c';
         const wordList = ['a', 'b', 'c', 'd', 'e'];
         const result = ladderLength(beginWord, endWord, wordList);
-        if (result !== undefined) expect(result).toBe(3);
+        if (result !== undefined) expect(result).toBe(2);
     });
 
     it('should return length including beginWord and endWord', () => {
@@ -137,11 +129,11 @@ describe('0127-word-ladder', () => {
         if (result !== undefined) expect(result).toBe(2);
     });
 
-    it('should find shortest among multiple possible paths (BFS required)', () => {
+    it('should return 0 when words have different lengths (no valid transformation)', () => {
         const beginWord = 'start';
         const endWord = 'end';
         const wordList = ['start', 'stend', 'end'];
         const result = ladderLength(beginWord, endWord, wordList);
-        if (result !== undefined) expect(result).toBe(3);
+        if (result !== undefined) expect(result).toBe(0);
     });
 });
