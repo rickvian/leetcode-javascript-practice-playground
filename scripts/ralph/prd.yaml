@@ -203,7 +203,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover no valid subarray (returns 0), entire array needed, single element >= target, and a sliding window case where the minimum window shrinks as the sum grows
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/minimum-size-subarray-sum/description/"
 
   - id: US-080
