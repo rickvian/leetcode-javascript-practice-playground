@@ -1343,3 +1343,38 @@
   - Guard assertions not needed — all tests use direct .toEqual() with string return values
 
 ---
+
+## 2026-05-03 - US-067
+- **What was implemented:**
+  - Created test file for 0155-min-stack
+  - 17 test cases covering: single value push/top, single value getMin, multiple values ascending order, multiple values descending order, pop and return previous minimum, pop and getMin reverts, duplicate minimum values, LeetCode official example 1 (-2,0,-3 sequence), negative values, mixed positive/negative, push new minimum update, push value larger than minimum, alternating min updates and pops sequence, large values (2147483647, -2147483648), zero values, complex sequence with multiple operations, all same values
+  - All tests verify: stack with constant-time getMin via auxiliary min-tracking data structure
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0155-min-stack.test.js
+  - Updated: scripts/ralph/prd.yaml (US-067 passes: true)
+
+- **Learnings:**
+  - MinStack: implements stack with push, pop, top, getMin all in O(1) time
+  - Approach: each stack entry stores both value and current minimum at that point
+  - push(val): stores {val, min: minimum(val, previous_min)}; first value has min=val
+  - pop(): removes top element; getMin automatically reverts to previous minimum
+  - top(): returns stack[top].val (the actual value)
+  - getMin(): returns stack[top].min (precomputed minimum)
+  - Single element: min equals that value
+  - Multiple values ascending (1,2,3): min stays 1 throughout
+  - Multiple values descending (5,3,1): each new value becomes new min
+  - After pop: min reverts to previous value automatically (due to stored min at each level)
+  - Duplicate minimums: each duplicate entry stores same min value; popping one still leaves others with that min
+  - LeetCode official example: push(-2,0,-3) → getMin=-3, pop → getMin=-2 (reverts correctly)
+  - Negative values: handled normally; bit-level operations not needed
+  - Mixed positive/negative: numeric comparison works correctly across sign boundary
+  - Large values: integer range fully supported
+  - Zero values: handled same as any other number
+  - Alternating operations: stack state properly maintained through push/pop/getMin sequences
+  - Empty stack: getMin returns 0 (defined in reference solution, not typically called on empty stack)
+  - Test coverage: all acceptance criteria met (new minimum, previous minimum after pop, duplicates, alternating ops) plus comprehensive cases
+  - Guard assertions not needed — all operations guaranteed valid by test design
+  - Import correct class name: MinStack (uppercase M and S)
+
+---

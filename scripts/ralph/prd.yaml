@@ -58,7 +58,7 @@ userStories:
       - Test by creating MinStack instances and calling push, pop, top, and getMin in sequence
       - Derive test cases from problem constraints — cover getMin after pushing a new minimum, getMin after popping the minimum (must return previous minimum), duplicate minimum values, and a sequence that alternates between min updates and pops
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/min-stack/description/"
 
   - id: US-068
