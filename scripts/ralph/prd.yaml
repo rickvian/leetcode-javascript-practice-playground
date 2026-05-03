@@ -82,7 +82,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover answer at the first two indices, answer at the last two indices, answer indices far apart, negative numbers summing to a positive target, and 1-indexed result verification
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/"
 
   - id: US-070
