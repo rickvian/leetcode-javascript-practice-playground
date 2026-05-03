@@ -119,7 +119,7 @@ userStories:
       - Test by constructing BSTIterator with a tree root and calling hasNext/next in sequence
       - Derive test cases from problem constraints — cover single-node tree, left-only tree, right-only tree, and verify that repeated next() calls return values in ascending (in-order) order and hasNext() returns false when exhausted
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/binary-search-tree-iterator/description/"
 
   - id: US-073

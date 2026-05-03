@@ -1,3 +1,28 @@
+## 2026-05-03 - US-072
+- **What was implemented:**
+  - Created test file for 0173-binary-search-tree-iterator
+  - 15 test cases covering: single-node tree, left-only tree, right-only tree, balanced tree, hasNext/next interaction, duplicate values, negative values, two-node trees, larger multi-level tree, LeetCode official example, multiple hasNext calls, trees with all elements less/greater than root, alternating hasNext/next calls
+  - All tests verify: in-order traversal of BST using stack-based iterator returning values in ascending order
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0173-binary-search-tree-iterator.test.js
+  - Updated: scripts/ralph/prd.yaml (US-072 passes: true)
+
+- **Learnings:**
+  - BSTIterator: stack-based in-order traversal implementation
+  - Constructor: initializes empty stack and stores root
+  - next() algorithm: push all left nodes to stack, pop smallest, move to right subtree
+  - hasNext() returns true if root exists or stack has elements (boolean conversion with !! needed for test assertions)
+  - Single node: hasNext true once, next returns value, hasNext false after
+  - Left-only tree: all nodes pushed to stack, popped in reverse (smallest first)
+  - Right-only tree: no initial left push, nodes visited in forward order as rights are traversed
+  - In-order traversal always returns values in ascending order regardless of tree shape
+  - Tree structure validation: invalid BSTs still produce correct in-order traversal by definition
+  - Test coverage: all acceptance criteria (single, left-only, right-only) plus comprehensive interaction patterns
+  - Stack-based approach avoids recursion, enabling efficient streaming iteration
+
+---
+
 ## 2026-05-03 - US-071
 - **What was implemented:**
   - Created test file for 0172-factorial-trailing-zeroes
