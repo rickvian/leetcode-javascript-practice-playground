@@ -179,7 +179,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover n=1 (happy), n=7 (happy), n=2 (unhappy, enters cycle), n=4 (unhappy), and a multi-step happy number
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/happy-number/description/"
 
   - id: US-078
