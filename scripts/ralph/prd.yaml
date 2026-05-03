@@ -143,7 +143,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover k=0 (no change), k equals array length (no change), k larger than array length (equivalent to k mod n), single-element array, and negative values in the array
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/rotate-array/description/"
 
   - id: US-075

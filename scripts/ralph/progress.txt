@@ -1,3 +1,31 @@
+## 2026-05-03 - US-074
+- **What was implemented:**
+  - Created test file for 0189-rotate-array
+  - 16 test cases covering: LeetCode official examples (rotate [1,2,3,4,5,6,7] by 3 = [5,6,7,1,2,3,4], rotate [-1,-100,3,99] by 2 = [3,99,-1,-100]), k=0 (no change), k equals array length (full rotation = no change), k larger than array length (k mod n behavior), single-element arrays with various k, negative values with positive k, all negative values, mixed positive/negative, two-element arrays, k=1 cases, larger arrays, all same elements
+  - All tests verify: in-place array rotation modifying nums directly and returning void
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0189-rotate-array.test.js
+  - Updated: scripts/ralph/prd.yaml (US-074 passes: true)
+
+- **Learnings:**
+  - rotate: modifies array in-place with k steps to the right, returns void (mutation-based)
+  - In-place implementation: uses `nums.unshift(...nums.splice((k % nums.length) * -1))` pattern
+  - k modulo behavior: k % nums.length handles k larger than array length (wraps around)
+  - k=0: no change, array stays same after rotation
+  - k equals length: full rotation wraps around, array unchanged (k % n = 0)
+  - Single-element array: rotation has no effect, always returns single element unchanged
+  - k=1: shifts all elements right by 1, last element moves to front
+  - Negative indices: using negative index in splice (k % n) * -1 starts from end
+  - Two-element array: k=1 swaps elements, k=2 returns to original
+  - All same elements: rotation has no visible effect, array unchanged
+  - Mixed positive/negative: sign doesn't affect rotation logic, purely positional
+  - Array mutation: tests must verify mutation in-place since function returns undefined
+  - Test strategy: call rotate(nums, k), then check nums directly (not return value)
+  - Test coverage: all acceptance criteria met (k=0, k=n, k>n, single, negatives) plus comprehensive edge cases and interaction patterns
+
+---
+
 ## 2026-05-03 - US-072
 - **What was implemented:**
   - Created test file for 0173-binary-search-tree-iterator
