@@ -1,3 +1,29 @@
+## 2026-05-03 - US-071
+- **What was implemented:**
+  - Created test file for 0172-factorial-trailing-zeroes
+  - 12 test cases covering: n=0 (no trailing zero), n=1-4 (no trailing zeros), n=5 (one trailing zero), n=9-10 (covering single factor of 5), n=25 (multiple factors: 25=5^2), n=30 (accumulation), n=100 (larger numbers), n=625 (625=5^4, multiple levels), and LeetCode official examples 1 and 2
+  - All tests verify: counting trailing zeros in n! using recursive counting of factors of 5
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0172-factorial-trailing-zeroes.test.js
+  - Updated: scripts/ralph/prd.yaml (US-071 passes: true)
+
+- **Learnings:**
+  - trailingZeroes: trailing zeros in n! determined by factors of 5 (more 5s than 2s in prime factorization)
+  - Recursive algorithm: floor(n/5) + trailingZeroes(floor(n/5)) counts each power of 5
+  - n=0 returns 0 (0! = 1 has no trailing zeros)
+  - n=1-4 returns 0 (no multiples of 5)
+  - n=5 returns 1 (one multiple of 5)
+  - n=10 returns 2 (multiples 5 and 10 contribute)
+  - n=25 returns 6 (5 contributes 1, 10 contributes 1, 15 contributes 1, 20 contributes 1, 25 contributes 2 for 25=5^2)
+  - n=30 returns 7 (adds 30 as another multiple of 5)
+  - n=100 returns 24 (five multiples: ⌊100/5⌋=20 + ⌊100/25⌋=4 = 24)
+  - n=625 returns 156 (625=5^4: ⌊625/5⌋=125 + ⌊625/25⌋=25 + ⌊625/125⌋=5 + ⌊625/625⌋=1 = 156)
+  - Test coverage: all acceptance criteria met (n=0, n=5, n=25, n=30) plus LeetCode examples and edge cases
+  - Recursive approach elegantly handles multiple levels of powers of 5
+
+---
+
 ## 2026-05-03 - US-070
 - **What was implemented:**
   - Created test file for 0169-majority-element

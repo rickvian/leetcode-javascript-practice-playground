@@ -106,7 +106,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover n=0 (0! = 1, no trailing zero), n=5 (contributes one 5), n=25 (contributes extra zero for 25=5^2), and n=30 to verify accumulation of factors of 5
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/factorial-trailing-zeroes/description/"
 
   - id: US-072
