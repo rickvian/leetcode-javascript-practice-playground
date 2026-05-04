@@ -263,7 +263,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover empty tree (0), single node (1), complete last level fully filled, complete last level partially filled, and a large balanced tree
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/count-complete-tree-nodes/description/"
 
   - id: US-085

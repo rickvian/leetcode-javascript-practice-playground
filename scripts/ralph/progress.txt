@@ -1824,3 +1824,20 @@
   - All zeros: returns 0 (no ones, no square)
   - DP uses (m+1)x(n+1) grid with 0-padding; dp[i][j] = min(top, left, diag) + 1
 ---
+
+## 2026-05-04 - US-084
+- **What was implemented:**
+  - Created test file for 0222-count-complete-tree-nodes
+  - 6 test cases covering: empty tree (null → 0), single node (1), LeetCode official example (6-node tree → 6), complete last level fully filled (7-node perfect tree → 7), complete last level partially filled (5-node tree → 5), large balanced tree (15-node perfect tree → 15)
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0222-count-complete-tree-nodes.test.js
+  - Updated: scripts/ralph/prd.yaml (US-084 passes: true)
+
+- **Learnings:**
+  - countNodes: recursive approach — 0 if null, else 1 + left count + right count
+  - Empty tree test: pass null directly (not a TreeNode), returns 0
+  - Perfect binary tree with h levels has 2^h - 1 nodes (h=1→1, h=2→3, h=3→7, h=4→15)
+  - Partial last level: only left-most nodes filled per complete binary tree definition
+
+---
