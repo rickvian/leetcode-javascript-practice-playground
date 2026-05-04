@@ -348,7 +348,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover empty s (always true), t empty with non-empty s (false), s equals t, s longer than t (false), and characters present but in wrong order
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/is-subsequence/description/"
 
   - id: US-092

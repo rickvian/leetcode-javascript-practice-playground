@@ -1957,3 +1957,30 @@
   - Efficiency: Map lookup and decrement is O(1), overall O(n + m) where n=magazine length, m=ransomNote length
 
 ---
+## 2026-05-04 - US-091
+- **What was implemented:**
+  - Created test file for 0392-is-subsequence
+  - 12 test cases covering: LeetCode official examples (s="ace", t="abcde" → true; s="aec", t="abcde" → false), empty s (always true), t empty with non-empty s (false), s equals t (true), s longer than t (false), characters present but wrong order (false), single character matching at various positions (first, middle, last), two-character valid/invalid subsequences
+  - All tests verify: two-pointer tracking whether s appears as subsequence in t (preserving order)
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0392-is-subsequence.test.js
+  - Updated: scripts/ralph/prd.yaml (US-091 passes: true)
+
+- **Learnings:**
+  - isSubsequence: two-pointer algorithm checking if s is a subsequence of t
+  - Algorithm: iterate through t, advance s pointer when characters match, return true if s pointer reaches s.length
+  - Early exit optimization: if s.length > t.length, immediately return false
+  - Empty s: always true (empty string is subsequence of any string)
+  - t empty with non-empty s: always false (cannot extract characters from empty string)
+  - s equals t: returns true (identical string is its own subsequence)
+  - s longer than t: immediately returns false (cannot fit longer string into shorter)
+  - Characters in wrong order: s="ac", t="ab" returns false ('c' doesn't exist after 'a' in "ab")
+  - Single character: always true if character exists anywhere in t
+  - Order preservation: s="ba", t="abc" returns false (b comes after a in t, but needed in reverse order)
+  - Multiple matches: when character appears multiple times, algorithm greedily takes first available
+  - Time complexity: O(t.length) single pass through t
+  - Space complexity: O(1) only tracking two integer pointers
+  - Test coverage: all acceptance criteria met (empty, longer, equals, wrong order) plus LeetCode examples and single/multi-character patterns
+
+---
