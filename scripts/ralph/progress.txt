@@ -1933,3 +1933,27 @@
   - Heap guarantees: min-heap ensures first k extracted pairs are exactly k smallest by sum
 
 ---
+## 2026-05-04 - US-090
+- **What was implemented:**
+  - Created test file for 0383-ransom-note
+  - 15 test cases covering: empty ransomNote (always true), magazine shorter than ransomNote (false), magazine has exactly needed characters (true), repeated character needed more times than available (false), ransomNote equals magazine (true), characters not in magazine (false), single character matches, mismatch cases, LeetCode official examples 1-3, multiple repeated characters, all wrong characters, and large strings (1000 characters)
+  - All tests verify: boolean return indicating whether ransomNote can be constructed from magazine with each letter used at most once
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0383-ransom-note.test.js
+  - Updated: scripts/ralph/prd.yaml (US-090 passes: true)
+
+- **Learnings:**
+  - canConstruct: checks if ransomNote letters are available in magazine with character frequency counting
+  - Map-based algorithm: builds character count map from magazine, then decrements for each character in ransomNote
+  - Empty ransomNote: always returns true (no characters needed, always constructible)
+  - Length constraint: magazine must have at least as many total characters as ransomNote
+  - Character availability: each letter in magazine can only be used once, tracked by count in map
+  - Repeated characters: 'aa' from 'a' returns false (need 2 'a's but have only 1)
+  - Magazine longer: ['abc' from 'aabbc'] returns true (extra characters don't prevent construction)
+  - Single character: single character match returns true, mismatch returns false
+  - Wrong characters: if ransomNote has any character not in magazine, returns false
+  - Test coverage: all acceptance criteria met (empty, shorter, exact, repeated, equals, not present) plus LeetCode examples and edge cases
+  - Efficiency: Map lookup and decrement is O(1), overall O(n + m) where n=magazine length, m=ransomNote length
+
+---

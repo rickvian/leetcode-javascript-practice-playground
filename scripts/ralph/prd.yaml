@@ -336,7 +336,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover empty ransomNote (always true), magazine shorter than ransomNote (false), magazine has exactly the needed characters, a repeated character needed more times than available, and ransomNote equals magazine
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/ransom-note/description/"
 
   - id: US-091
