@@ -26,7 +26,7 @@ describe('0167-two-sum-ii-input-array-is-sorted', () => {
     });
 
     it('should handle negative numbers summing to positive target', () => {
-        expect(twoSum([-5, -2, 0, 1, 3, 8], 3)).toEqual([1, 6]);
+        expect(twoSum([-3, -1, 0, 2, 5, 9], 4)).toEqual([2, 5]);
     });
 
     it('should verify 1-indexed result', () => {
