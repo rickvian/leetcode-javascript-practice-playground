@@ -287,7 +287,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover root as LCA, one node being an ancestor of the other (LCA is that ancestor), nodes in different subtrees, and a two-node tree
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/"
 
   - id: US-087

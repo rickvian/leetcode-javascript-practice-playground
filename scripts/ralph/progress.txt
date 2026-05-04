@@ -1859,3 +1859,25 @@
   - Reference solution uses for loop tracking range start (n = nums[0]), emits when gap detected
 
 ---
+
+## 2026-05-04 - US-086
+- **What was implemented:**
+  - Created test file for 0236-lowest-common-ancestor-of-a-binary-tree
+  - 7 test cases covering: LeetCode official examples (p=5,q=1→3; p=5,q=4→5; two-node tree p=root,q=child→1), root as LCA (nodes in different subtrees), one node is ancestor of the other (LCA is ancestor), nodes in deep left subtree sharing common ancestor, right-only tree where LCA is parent of both
+  - All tests verify: .val of returned TreeNode using actual reference node objects passed as p and q
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0236-lowest-common-ancestor-of-a-binary-tree.test.js
+  - Updated: scripts/ralph/prd.yaml (US-086 passes: true)
+
+- **Learnings:**
+  - lowestCommonAncestor: uses reference equality (===) to match p and q, so tests must pass actual TreeNode objects that are in the tree
+  - Return value is TreeNode object: assert .val property rather than the node itself (avoids deep equality on full subtree)
+  - Reference solution: recursive — if root is null/p/q returns root; recurse left and right; if both non-null return root (LCA), else return whichever side found a match
+  - Node-is-ancestor case: when p is ancestor of q, the algorithm returns p immediately (root === p) before finding q
+  - Two-node tree: when root is one of p/q, root is always the LCA (returns root immediately)
+  - Right-only tree: LCA is mid node (parent of both leaves), not root
+  - Test construction: must build actual tree with same TreeNode instances referenced as p/q
+  - Test coverage: all acceptance criteria met (root as LCA, ancestor case, different subtrees, two-node tree) plus additional structural patterns
+
+---
