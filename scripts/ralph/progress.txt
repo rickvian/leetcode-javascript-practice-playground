@@ -1807,3 +1807,20 @@
   - Test coverage: all acceptance criteria met (no duplicates, exact distance k, k+1, same elements, k=0) plus comprehensive edge cases and boundary values
 
 ---
+
+## 2026-05-04 - US-083
+- **What was implemented:**
+  - Created test file for 0221-maximal-square
+  - 8 test cases covering: LeetCode official examples (4x5 mixed matrix=4, single '0'=0, single '1'=1), all zeros 3x3=0, all ones 3x3=9, 1x1 with '1'=1, single row with mixed values=1, non-square 2x3 all ones=4
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0221-maximal-square.test.js
+  - Updated: scripts/ralph/prd.yaml (US-083 passes: true)
+
+- **Learnings:**
+  - maximalSquare: DP approach, returns area (side^2) of largest all-ones square
+  - Non-square all-ones matrix (2x3): largest square is 2x2=4, not full 6
+  - Single row: max square is always 1x1=1 (can't form 2x2 with only one row)
+  - All zeros: returns 0 (no ones, no square)
+  - DP uses (m+1)x(n+1) grid with 0-padding; dp[i][j] = min(top, left, diag) + 1
+---

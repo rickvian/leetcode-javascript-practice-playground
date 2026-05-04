@@ -251,7 +251,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover all zeros (returns 0), all ones (square is entire matrix), 1x1 matrix with '1', a single row, and a non-square rectangle of all ones
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/maximal-square/description/"
 
   - id: US-084
