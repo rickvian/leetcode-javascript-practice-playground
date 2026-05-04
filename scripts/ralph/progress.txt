@@ -1881,3 +1881,28 @@
   - Test coverage: all acceptance criteria met (root as LCA, ancestor case, different subtrees, two-node tree) plus additional structural patterns
 
 ---
+
+## 2026-05-04 - US-088
+- **What was implemented:**
+  - Created test file for 0290-word-pattern
+  - 12 test cases covering: LeetCode official examples 1,2,3 (pattern vs words bijection), pattern length not matching word count (false), different pattern characters mapping to same word (false), same character mapping to different words (false), single character pattern ('a', 'dog'→true), all same characters mapping to same word ('aaaa', 'dog dog dog dog'→true), empty pattern with empty string (false), non-bijective mapping without spaces ('abba', 'redbluebluered'→false), and basic bijection cases
+  - All tests verify: boolean return indicating whether pattern and words follow full bijection (each pattern char ↔ unique word, one-to-one mapping)
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0290-word-pattern.test.js
+  - Updated: scripts/ralph/prd.yaml (US-088 passes: true)
+
+- **Learnings:**
+  - wordPattern: checks full bijection between pattern characters and space-split words (one-to-one mapping)
+  - Pattern-to-words split: s.split(' ') creates word array, must have same length as pattern
+  - Length mismatch: immediately returns false if pattern.length !== words.length
+  - Bijection requirements: each char maps to exactly one word AND each word maps to exactly one char (no char→multiple words, no multiple chars→same word)
+  - Reference solution: uses Map to track char→word mappings and checks that no other char already maps to that word via [...map.values()].includes(words[i])
+  - Empty case: pattern='' and s='' splits to [''], length mismatch (1 ≠ 0), returns false
+  - No-space string: 'abba' vs 'redbluebluered' (no spaces) splits to single word, length mismatch (4 ≠ 1), returns false
+  - Single char: pattern 'a' maps to 'dog' works (1-to-1), returns true
+  - Same char repeat: 'aaaa' maps to 'dog dog dog dog' works (same char always maps to 'dog'), returns true
+  - Different mappings: 'ab' to 'dog dog' fails (both a and b would need to map to 'dog'), returns false
+  - Test coverage: all acceptance criteria met (length mismatch, char→word collision, word←char collision, bijection), LeetCode examples 1-3, and edge cases (single char, empty, repeated chars, no-space input)
+
+---

@@ -299,7 +299,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover all dead (stay dead), all alive (overpopulation kills most), a blinker pattern (oscillator), a 1x1 board, and a single live cell (dies from underpopulation)
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/game-of-life/description/"
 
   - id: US-088
@@ -311,7 +311,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover pattern length not matching word count (false), different pattern characters mapping to the same word (false), bijective mapping that holds, and single character pattern
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/word-pattern/description/"
 
   - id: US-089
