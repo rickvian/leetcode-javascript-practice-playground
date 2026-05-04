@@ -1906,3 +1906,30 @@
   - Test coverage: all acceptance criteria met (length mismatch, char→word collision, word←char collision, bijection), LeetCode examples 1-3, and edge cases (single char, empty, repeated chars, no-space input)
 
 ---
+
+## 2026-05-04 - US-089
+- **What was implemented:**
+  - Created test file for 0373-find-k-pairs-with-smallest-sums
+  - 12 test cases covering: LeetCode official examples 1-3 ([1,7,11]+[2,4,6]→[[1,2],[1,4],[1,6]], [1,1,2]+[1,2,3]→[[1,1],[1,1]], [1,2]+[3]→[[1,3],[2,3]]), k=1 returning single smallest pair, k larger than total possible pairs returning all pairs, arrays with all equal values, negative values mixed with positives, single-element arrays, arrays with large values (1000+), k equal to first array length, mixed magnitude values
+  - All tests verify: k smallest pairs returned in non-decreasing sum order (heap-based algorithm)
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0373-find-k-pairs-with-smallest-sums.test.js
+  - Updated: scripts/ralph/prd.yaml (US-089 passes: true)
+
+- **Learnings:**
+  - kSmallestPairs: min-heap algorithm using priority queue to extract k pairs with smallest sums
+  - Heap stores [sum, index1, index2] tuples for O(k log n) complexity
+  - Visited set prevents duplicate pairs in heap (critical for correctness)
+  - Algorithm starts with smallest pair [nums1[0] + nums2[0], 0, 0], always valid since arrays sorted
+  - Heap expansion: each popped element enqueues [i+1, j] and [i, j+1] neighbors if unvisited
+  - k=1: returns single pair (nums1[0], nums2[0]), smallest possible sum always from indices (0,0)
+  - k >= m*n: returns all m*n possible pairs in non-decreasing sum order
+  - Equal values: multiple identical pairs returned correctly, each pair counts as separate (e.g., [1,1]+[1,1,1] with k=5 returns five [1,1] pairs)
+  - Negative values: algorithm handles correctly, sum comparison works for any integers
+  - Single-element arrays: limits possible pairs to min(k, single_element_array_length)
+  - Large values (1000+): no overflow issues, JavaScript handles numeric comparisons correctly
+  - Test coverage: all acceptance criteria met (k=1, k>total, equal values, verified non-decreasing sum order) plus comprehensive edge cases
+  - Heap guarantees: min-heap ensures first k extracted pairs are exactly k smallest by sum
+
+---
