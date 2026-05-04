@@ -361,7 +361,7 @@ userStories:
       - Derive test cases from problem constraints — cover a variable divided by itself (returns 1.0), query with unknown variable (returns -1.0), no path between queried variables (returns -1.0), and a chain that requires transitive reasoning
       - Use .toBeCloseTo(expected, 5) for all assertions
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/evaluate-division/description/"
 
   - id: US-093
