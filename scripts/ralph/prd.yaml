@@ -275,7 +275,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover empty array, single element, all elements consecutive (one range), all elements isolated (all single-element ranges), and negative numbers
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/summary-ranges/description/"
 
   - id: US-086

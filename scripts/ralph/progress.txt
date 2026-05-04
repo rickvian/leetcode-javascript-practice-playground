@@ -1841,3 +1841,21 @@
   - Partial last level: only left-most nodes filled per complete binary tree definition
 
 ---
+
+## 2026-05-04 - US-085
+- **What was implemented:**
+  - Created test file for 0228-summary-ranges
+  - 9 test cases covering: LeetCode official examples, empty array, single element, all consecutive (one range), all isolated (all single-element ranges), negative numbers mixed with positives, single negative number, range spanning negative to positive
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0228-summary-ranges.test.js
+  - Updated: scripts/ralph/prd.yaml (US-085 passes: true)
+
+- **Learnings:**
+  - summaryRanges: outputs "a->b" for ranges, "a" for single values
+  - Empty array returns [] (not null/undefined)
+  - Negative numbers handled correctly: "-3->0", "-1" format
+  - Range spanning negative to positive: "-2->1"
+  - Reference solution uses for loop tracking range start (n = nums[0]), emits when gap detected
+
+---
