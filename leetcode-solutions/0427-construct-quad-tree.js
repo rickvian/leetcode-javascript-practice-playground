@@ -40,7 +40,7 @@ var construct = function(grid) {
       for (let j = y; j < y + n; j++) {
         if (grid[i][j] !== value) {
           n /= 2;
-          return new _Node(true, false,
+          return new Node(true, false,
             build(x, y, n),
             build(x, y + n, n),
             build(x + n, y, n),
@@ -49,6 +49,6 @@ var construct = function(grid) {
         }
       }
     }
-    return new _Node(value === 1, true, null, null, null, null);
+    return new Node(value === 1, true, null, null, null, null);
   }
 };

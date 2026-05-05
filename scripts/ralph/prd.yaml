@@ -373,7 +373,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover a 1x1 grid, all-zero grid (single leaf node), all-one grid (single leaf node), and a grid that requires subdivision at multiple levels
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/construct-quad-tree/description/"
 
   - id: US-094
