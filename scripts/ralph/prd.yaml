@@ -397,7 +397,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover single balloon (1 arrow), all balloons overlapping (1 arrow), no balloons overlapping (n arrows), balloons touching at exactly one point (counts as overlapping), and negative coordinates
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/"
 
   - id: US-096
@@ -409,7 +409,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover k=0 (no projects, capital unchanged), all projects unaffordable (capital unchanged), k greater than number of projects (complete all affordable ones), and greedy ordering where picking higher profit first maximizes final capital
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/ipo/description/"
 
   - id: US-097
@@ -421,7 +421,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover two-node tree (only one pair), right-only chain, a balanced BST, and a tree where the minimum difference is between non-adjacent values in the tree structure but adjacent in sorted order
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/"
 
   - id: US-098

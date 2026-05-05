@@ -2043,3 +2043,63 @@
 
 ---
 
+
+## 2026-05-05 - US-096
+- **What was implemented:**
+  - Created test file for 0502-ipo
+  - 15 test cases covering: official examples (k=1 with capital growth, k=unlimited), k=0 (no projects, capital unchanged), all projects unaffordable (capital unchanged), k exceeds project count (complete all affordable), greedy profit selection, single project (affordable/unaffordable), all projects affordable, mixed affordable/unaffordable, cascading profits, all same capital requirements, all same profits, capital=0 with affordable options
+  - All tests verify: two-priority-queue algorithm (MinPriorityQueue by capital requirement, MaxPriorityQueue by profit)
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0502-ipo.test.js
+  - Created: .vitest/setup.js (MinPriorityQueue and MaxPriorityQueue polyfills)
+  - Updated: vitest.config.js (setupFiles configuration)
+  - Updated: scripts/ralph/prd.yaml (US-096 passes: true)
+
+- **Learnings:**
+  - IPO problem: select at most k projects to maximize capital
+  - Two-queue algorithm: MinPriorityQueue (by capital requirement) + MaxPriorityQueue (by profit)
+  - Strategy: greedily pick highest-profit affordable project each iteration
+  - MinPriorityQueue management: enqueue all projects by capital requirement, move affordable ones to profit queue
+  - Profit queue selection: always dequeue (pick) max profit from currently affordable projects
+  - Capital progression: after each project, capital increases by profit, enabling previously unaffordable projects
+  - Loop bounds: iterate exactly k times (or fewer if no more affordable projects)
+  - Early exit: if profit queue empty at any iteration, no more projects available, return current capital
+  - k=0 edge case: loop skipped, capital unchanged (returns initial w)
+  - Unaffordable case: all projects exceed initial capital, capital stays same (returns w)
+  - Cascading profit: first high-profit project can enable lower-requirement projects (dynamic enablement)
+  - Unlimited transactions (k >= n/2): achieve Kadane's maximum subarray (collect all positive differences)
+  - Priority queue comparison: min-heap uses ascending order for capital, max-heap uses descending order for profit
+  - Test infrastructure: LeetCode's global MinPriorityQueue/MaxPriorityQueue classes required polyfill for Node.js testing
+  - Polyfill implementation: binary heap with bubbleUp/bubbleDown for O(log n) enqueue/dequeue
+  - Test coverage: all acceptance criteria met plus edge cases (k>n, all unaffordable, cascading) plus profit maximization verification
+
+---
+
+## 2026-05-05 - US-097
+- **What was implemented:**
+  - Created test file for 0530-minimum-absolute-difference-in-bst
+  - 13 test cases covering: two-node tree (1 pair), right-only chain, left-only chain, balanced BST, minimum difference between non-adjacent tree nodes, LeetCode official examples 1 and 2, values where minimum is not between leaf nodes, three-node unbalanced tree, large numbers, negative numbers, mixed positive/negative, and values with larger gaps
+  - All tests verify: finding minimum absolute difference between any two nodes in BST using in-order traversal
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0530-minimum-absolute-difference-in-bst.test.js
+  - Updated: scripts/ralph/prd.yaml (US-097 passes: true)
+
+- **Learnings:**
+  - getMinimumDifference: in-order traversal of BST visits nodes in ascending order
+  - In-order traversal property: consecutive values in in-order sequence give minimum difference between any pair
+  - Algorithm: track previous node value, compute difference with current node, update minimum
+  - Single value per level: algorithm skips unvisited nodes, only compares consecutive in-order values
+  - Two-node tree: difference is simply larger - smaller (e.g., 2 - 1 = 1)
+  - Chains: right-only chain (1→2→3) and left-only chain (3→2→1) both visit in ascending order, min diff = 1
+  - Balanced tree: values spread across levels, but in-order gives sorted sequence [1,2,4,6,7,8,9], min diff = 1
+  - Non-adjacent difference: tree structure doesn't matter, in-order linearizes to sorted sequence (e.g., 12-11 = 1)
+  - Unbalanced trees: three-node tree (20, 10, 15) has in-order [10,15,20], min diff = 5 (15-10)
+  - Large numbers: difference calculation same for 1000000 vs 999999 (diff = 1)
+  - Negative numbers: algorithm handles negatives naturally (e.g., -1 - (-2) = 1)
+  - Mixed positive/negative: in-order still produces sorted sequence crossing zero (e.g., [-50,-25,0,50])
+  - Result calculation: minimum of all consecutive differences, never 0 unless tree has duplicate nodes
+  - Test coverage: all acceptance criteria met (two-node, right-only, left-only, balanced) plus edge cases and BST property validation
+
+---
