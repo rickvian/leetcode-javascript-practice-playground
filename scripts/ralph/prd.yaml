@@ -385,7 +385,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover startGene equals endGene (0 mutations), endGene not reachable (returns -1), bank not containing endGene (returns -1), and a chain of exactly one valid mutation path
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/minimum-genetic-mutation/description/"
 
   - id: US-095
