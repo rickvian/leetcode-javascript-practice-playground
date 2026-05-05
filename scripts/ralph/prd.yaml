@@ -434,7 +434,7 @@ userStories:
       - Derive test cases from problem constraints — cover single node (average is node value), a balanced tree with equal values per level, a partial last level, and values that produce non-integer averages
       - Use .toBeCloseTo(expected, 5) for each value in the result array
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/average-of-levels-in-binary-tree/description/"
 
   - id: US-099

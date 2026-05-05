@@ -2103,3 +2103,32 @@
   - Test coverage: all acceptance criteria met (two-node, right-only, left-only, balanced) plus edge cases and BST property validation
 
 ---
+
+## 2026-05-05 - US-098
+- **What was implemented:**
+  - Created test file for 0637-average-of-levels-in-binary-tree
+  - 11 test cases covering: LeetCode official examples (balanced tree with mixed values, single node), single node with zero value, left-only chain, right-only chain, balanced tree with equal values per level, partial last level, non-integer averages, negative values, large values, and three-level tree with multiple nodes per level
+  - All tests verify: level-order traversal using BFS queue to compute average of node values at each level
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0637-average-of-levels-in-binary-tree.test.js
+  - Updated: scripts/ralph/prd.yaml (US-098 passes: true)
+
+- **Learnings:**
+  - averageOfLevels: BFS level-order traversal with queue-based level grouping
+  - Level-grouping strategy: process all nodes at current level before moving to next, compute sum/count for each level
+  - Queue tracking: queue.length before processing inner loop determines level node count
+  - Floating-point precision: use .toBeCloseTo(expected, 5) for tolerance when expected values are non-integer
+  - Average formula: sum / level_count gives exact average for each level
+  - Single node: single level with one node, average equals node value (e.g., node=1 → avg=1.0)
+  - Zero value node: handles correctly (e.g., node=0 → avg=0.0)
+  - Chains (left-only/right-only): each node forms own level, averages = node values (1, 2, 3 → [1.0, 2.0, 3.0])
+  - Balanced tree: equal values per level, averages trivially match values (level avg = values)
+  - Partial last level: fewer nodes on final level, average formula still applies (e.g., 2 nodes with avg of 4.5)
+  - Non-integer averages: mixed values at level produce fractional result (e.g., (2+3)/2 = 2.5)
+  - Negative values: subtraction produces correct negative averages (e.g., (-2-3)/2 = -2.5)
+  - Large values: integer precision maintained for values up to millions (e.g., 2500000 avg)
+  - Three-level multi-node trees: balanced structure [1] → [2,3] → [4,5,6,7] produces [1.0, 2.5, 5.5]
+  - Test coverage: all acceptance criteria (single node, balanced, partial last level, non-integer) plus edge cases (zero, negatives, large values, chains)
+
+---
