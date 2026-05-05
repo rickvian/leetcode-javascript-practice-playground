@@ -458,5 +458,5 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover all negative values (must return the single largest element, not an empty subarray), single element, circular subarray beats linear (wrapping around is optimal), and linear subarray beats circular
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/maximum-sum-circular-subarray/description/"

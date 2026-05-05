@@ -2165,3 +2165,30 @@
   - Test coverage: all acceptance criteria met (official examples, no snakes/ladders, ladder impact, unreachable scenarios) plus edge cases (single element, various board sizes)
 
 ---
+
+## 2026-05-05 - US-100
+- **What was implemented:**
+  - Created test file for 0918-maximum-sum-circular-subarray
+  - 18 test cases covering: LeetCode official examples (3, 10, 15), all negative arrays returning largest element, single element arrays, circular subarray scenarios, linear subarray dominance, mixed positive/negative, zero values, two-element arrays
+  - All tests verify: Kadane's algorithm applied to both linear max subarray and circular (wrap-around) cases, returning max of the two
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0918-maximum-sum-circular-subarray.test.js
+  - Updated: scripts/ralph/prd.yaml (US-100 passes: true)
+
+- **Learnings:**
+  - maxSubarraySumCircular: combines max subarray (Kadane) with circular logic (total sum - min subarray)
+  - Two-phase algorithm: tracks max and min subarrays in single pass while summing all elements
+  - Return logic: `max > 0 ? Math.max(max, sum - min) : max` ensures all-negative arrays return single largest element, not empty
+  - All negative case: when max ≤ 0, circular (sum - min) would give worse result, so return max (single largest element)
+  - Max subarray examples: [1,-2,3,-2] = 3 (linear [3]), [5,-3,5] = 10 (circular [5,5] wrapping), [1,2,3,4,5] = 15 (linear [1,2,3,4,5])
+  - Circular advantage: occurs when min subarray is in middle, allowing wrapping around it (e.g., [5,1,-10,1,5] = 12, circular [5,1,5])
+  - Linear dominance: when max subarray spans wider than circular can achieve (e.g., [1,2,3,4,2] linear [1,2,3,4,2]=12 vs circular)
+  - Single element: returns element itself (positive or negative, no choice)
+  - All negative handling: [-1,-2,-3] returns -1 (largest), not empty or sum
+  - Boundary conditions: n=1 (single element), n=2 (can be linear or circular depending on values), small arrays covered
+  - Kadane state tracking: prevMax and prevMin accumulate running max/min, global max/min track best seen
+  - Sum accumulation: running total of all elements enables circular calculation (total - min = max circular)
+  - Test coverage: all acceptance criteria met (official examples, all negative, single element, circular vs linear) plus comprehensive edge cases and pattern variations
+
+---
