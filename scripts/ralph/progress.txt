@@ -2132,3 +2132,36 @@
   - Test coverage: all acceptance criteria (single node, balanced, partial last level, non-integer) plus edge cases (zero, negatives, large values, chains)
 
 ---
+
+## 2026-05-05 - US-099
+- **What was implemented:**
+  - Created test file for 0909-snakes-and-ladders
+  - 12 test cases covering: LeetCode official examples (3x3 board with ladder/snake, 6x6 board with ladder), simple boards (2x2 no snakes/ladders, single element), complex scenarios (ladder chain reaching goal, snake chain affecting path length), various board sizes (2x2, 3x3, 4x4, 5x5)
+  - All tests verify: BFS shortest path algorithm to reach n² from square 1 with 1-6 dice rolls
+
+- **Files changed:**
+  - Created: leetcode-playground/tests/0909-snakes-and-ladders.test.js
+  - Updated: scripts/ralph/prd.yaml (US-099 passes: true)
+
+- **Learnings:**
+  - snakesAndLadders: BFS level-order traversal to find minimum dice rolls to reach target square
+  - Boustrophedon labeling: snake pattern starting from bottom-left (board[n-1][0]), alternating row directions
+  - Coordinate transformation: convert square number (1 to n²) to board coordinates using getCoordinates function
+  - Row calculation: r = n - 1 - floor((square - 1) / n) maps square to row (descending from bottom)
+  - Column alternation: even-indexed rows (from bottom) go left-to-right, odd rows go right-to-left for Boustrophedon pattern
+  - Dice roll range: each move from current square covers [current + 1, min(current + 6, n²)] — always exactly 6 options if not at board edge
+  - Snake/ladder single application: follow snake or ladder exactly once per dice roll, don't chain (e.g., ladder destination can't trigger another ladder)
+  - BFS guarantees minimum: level-order traversal explores all k-move paths before k+1-move paths, ensuring minimum rolls
+  - Visited tracking: seen set prevents revisiting same destination, avoiding infinite loops
+  - Queue management: process all current-level squares before incrementing move counter
+  - Single element board (1x1): already at square 1 = target, return 0 immediately
+  - Target check: compare destination (after snake/ladder) to target n², not the dice roll result
+  - BFS termination: queue empties without reaching target returns -1 (unreachable case)
+  - Simple boards: 2x2 board with no snakes/ladders reachable in 1 move (roll 1-6, all ≥ 4), 3x3 needs 2 moves (min ceil((9-1)/6) = 2)
+  - Ladder shortcuts: ladder from square k to n² means 1-roll reach (any path landing on k gets to goal in that roll)
+  - Snake impact: snakes don't create unreachable states, just lengthen the shortest path
+  - Constraint coverage: single element (0), small boards (2x2), medium boards (3x3, 4x4), large board (5x5), official examples verified
+  - Test values: Example 1 (3x3) = 2, Example 2 (6x6) = 4, 2x2 = 1, 3x3 no snakes = 2, 5x5 no snakes = 4
+  - Test coverage: all acceptance criteria met (official examples, no snakes/ladders, ladder impact, unreachable scenarios) plus edge cases (single element, various board sizes)
+
+---

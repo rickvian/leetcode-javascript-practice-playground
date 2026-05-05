@@ -446,7 +446,7 @@ userStories:
       - Include all LeetCode official example test cases
       - Derive test cases from problem constraints — cover no snakes or ladders (minimum moves is ceil((n^2-1)/6)), a snake sending the player backward (making path longer), a ladder skipping to near the end, and an unreachable board (returns -1)
     priority: 1
-    passes: false
+    passes: true
     notes: "Problem: https://leetcode.com/problems/snakes-and-ladders/description/"
 
   - id: US-100
