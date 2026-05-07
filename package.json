@@ -4,10 +4,11 @@
   "description": "LeetCode JavaScript practice problems with Vitest test scenarios",
   "main": "index.js",
   "scripts": {
+    "prepare": "git config core.hooksPath .githooks || true",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:perf": "PERF=true vitest run --reporter=verbose",
-    "ralph": "./scripts/ralph/ralph.sh ${RALPHLOOP}"
+    "ralph": "./scripts/ralph/ralph.sh"
   },
   "keywords": [
     "leetcode",

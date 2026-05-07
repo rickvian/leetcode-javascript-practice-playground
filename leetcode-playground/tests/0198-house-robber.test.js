@@ -23,7 +23,7 @@ describe('0198-house-robber', () => {
     });
 
     it('should handle large values', () => {
-        expect(rob([200, 3, 140, 20, 10])).toBe(340);
+        expect(rob([200, 3, 140, 20, 10])).toBe(350);
     });
 
     it('should handle alternating high values', () => {

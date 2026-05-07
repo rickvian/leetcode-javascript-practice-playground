@@ -2,55 +2,13 @@
 
 ## Important Note
 
-This is playground repository to mimic leetcode, please provide test case only with blank implementation, unless you explicitly requested to write the code solution, leave the solution empty with // implement
+LeetCode playground repo. Provide test cases only with blank implementation (`// implement`) unless solution code explicitly requested.
 
-## Module Type Configuration
+## Module Type
 
-All JavaScript files and tests in this project use **ES Modules (ESM)** as specified in `package.json`:
-```json
-"type": "module"
-```
+Project is ESM (`"type": "module"` in `package.json`). Use `import`/`export` everywhere — never `require`/`module.exports`. Jest handles ESM resolution automatically.
 
-### Guidelines for the Agent
-1. **All imports**: Use ES Module syntax (`import`/`export`) instead of CommonJS (`require`/`module.exports`)
-2. **All tests**: Must be written as ES Modules with proper import statements
-3. **All JS files**: Must use ES Module syntax
-4. **Test files**: Use `.test.js` extension and import the modules being tested as ES Modules
-5. test case:
-- Adversarial Edge Cases: You must include tests for the following "hidden" scenarios:
-- Empty/Minimum: Empty strings "", empty arrays [], or single-element inputs.
-- Type Nuance: Handling null, undefined, and unexpected data types.
-- Whitespace: Leading, trailing, and internal whitespace (tabs, newlines).
-- Repetitive Data: Long sequences of identical characters/values.
-- Range Limits: Inputs at the exact threshold of defined constraints (e.g., first and last indices).
-- No Happy-Path Bias: Do not just test "clean" inputs; generate cases specifically designed to trigger off-by-one errors or null-pointer exceptions.
-6. if the js placeholder files not exist, generate it.
-
-### Examples
-
-✅ Correct (ES Modules):
-```javascript
-// test file
-import { addTwoNumbers } from '../index.js';
-
-describe('addTwoNumbers', () => {
-  it('should add two numbers', () => {
-    expect(addTwoNumbers(2, 3)).toBe(5);
-  });
-});
-```
-
-❌ Incorrect (CommonJS):
-```javascript
-const { addTwoNumbers } = require('../index.js');
-```
-
-### Jest Configuration
-
-Jest is configured to work with ES Modules. When writing tests:
-- Do not use `require()` or CommonJS syntax
-- Jest will handle the module resolution automatically
-
+Test cases: follow `prd-test-case-guideline.md`. Generate JS placeholder file if missing.
 
 ## Creating New Problems
 
@@ -63,6 +21,8 @@ leetcode-playground/
     └── NNNN-problem-name.test.js  # Jest test file
 ```
 
+Naming: 4-digit problem number + kebab-case name (e.g., `0001-two-sum`).
+
 ### Problem File Format
 
 **File:** `leetcode-playground/NNNN-problem-name.js`
@@ -72,23 +32,22 @@ leetcode-playground/
  * Problem description from LeetCode (1-2 sentences)
  *
  * https://leetcode.com/problems/problem-slug/description/
- * 
+ *
  * @param {type} paramName - Description
  * @return {type}
+ *
+ * @constraints
+ * - constraint 1
+ * - constraint 2
  */
 var functionName = function(param1, param2) {
-    // Solution implementation
+    // implement
 };
 
 export { functionName }
 ```
 
-**Requirements:**
-1. **Numbering**: Start filename with 4-digit problem number (e.g., `0001`, `0002`)
-2. **Naming**: Use kebab-case for problem name (e.g., `two-sum`, `add-two-numbers`)
-3. **JSDoc Header**: Include problem description, **LeetCode URL**, @param and @return tags
-4. **Function**: Named function using camelCase
-5. **Export**: Use ES Module syntax: `export { functionName }`
+JSDoc must include LeetCode URL and `@constraints` copied verbatim. Function name in camelCase.
 
 ### Test File Format
 
@@ -99,40 +58,50 @@ import { functionName } from '../NNNN-problem-name';
 
 describe('NNNN-problem-name', () => {
     it('should handle test case 1', () => {
-        expect(functionName(input1)).toEqual(expectedOutput1);
+        expect(functionName(input1)).toEqual(null); // placeholder — filled by verification workflow
     });
 
     it('should handle test case 2', () => {
-        expect(functionName(input2)).toEqual(expectedOutput2);
+        expect(functionName(input2)).toEqual(null); // placeholder — filled by verification workflow
     });
 });
 ```
 
-**Requirements:**
-1. **Import**: Use ES Module syntax
-2. **Describe Block**: Name matches problem filename (e.g., `'0001-two-sum'`)
-3. **Test Cases**: Include at least 2-3 meaningful test cases
-4. **Clear Descriptions**: Use descriptive test names
+At least 2-3 meaningful test cases with descriptive names. `describe` block name matches problem filename.
 
-### Steps to Create a New Problem
+### Steps
 
-1. Find problem on LeetCode and note: number, name, description, parameter types, return type
-2. Create problem file: `leetcode-playground/NNNN-problem-name.js` with JSDoc and LeetCode link
-3. Implement the solution using ES Module syntax
-4. Create test file: `leetcode-playground/tests/NNNN-problem-name.test.js`
-5. Run tests: `npm test` or `npm run test:watch`
+1. Note problem details from LeetCode (number, name, description, types)
+2. Create problem file with JSDoc + LeetCode URL
+3. Create test file — ALL `expect(...)` use `.toEqual(null)`. **No real expected values yet, no exceptions.**
+4. Run verification workflow below to fill real values
 
-## Multiple Solution Approaches for the Same Problem
+## Verifying Test Correctness with Reference Solutions
 
-When a problem has more than one solution approach, create separate files per approach using a `-[approach]` suffix on both the solution file and its test file.
+**Only proof a test file is correct: `npm run test` with reference solution injected returns 0 failures. Nothing else counts — not reasoning, not manual tracing, not "obvious" cases.**
 
-### File Structure
+**When `leetcode-solutions/NNNN-*.js` exists, this workflow is required before committing. No skipping.**
 
-```
-leetcode-playground/
-├── NNNN-problem-name-[approach1].js
-├── NNNN-problem-name-[approach2].js
-└── tests/
-    ├── NNNN-problem-name-[approach1].test.js
-    └── NNNN-problem-name-[approach2].test.js
-```
+### Workflow
+
+1. **Inject reference solution**: Copy from `leetcode-solutions/` into `leetcode-playground/`, append `export { functionName }` (source files have no exports)
+2. **Run tests**: `npm run test -- NNNN-problem-name.test.js` — read actual values from failure messages
+3. **Update assertions**: Replace each placeholder with value reference solution returned (shown as `expected X to equal null`)
+4. **Re-run**: Must show **0 failures**. If any still fail, repeat step 3.
+5. **Restore stub**: `git checkout -- leetcode-playground/NNNN-problem-name.js`
+6. **Verify restore**: `grep "// implement" leetcode-playground/NNNN-problem-name.js` must match
+
+**Why step 4 is the guarantee**: if reference solution passes every assertion, every expected value is provably correct.
+
+**Why `git checkout` not `cp`**: git is authoritative backup, always available, needs no prior backup step.
+
+### Special cases
+
+- Josh's filename may differ (e.g., `0028-implement-strstr.js` vs `0028-find-the-index-of-the-first-occurrence-in-a-string.js`) — LeetCode official name is source of truth; copy Josh's file explicitly to match playground filename
+- Some solutions reference undeclared classes (e.g., `ListNode` in 0025) — append class definition before export
+- Test inputs must respect `@constraints` (e.g., remove empty-array tests when `1 ≤ nums.length`)
+- Order-independent results (e.g., arrays of indices): sort before comparing
+
+## Multiple Solution Approaches
+
+When a problem has more than one approach, suffix both files with `-[approach]` (e.g., `0001-two-sum-brute-force.js`, `0001-two-sum-hashmap.js` + matching test files).

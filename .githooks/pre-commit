@@ -1,0 +1,229 @@
+#!/bin/bash
+# =============================================================================
+# pre-commit: Check that staged test files have correct expected values
+# =============================================================================
+#
+# WHAT IT DOES
+#   Before every commit, if you staged any test files
+#   (leetcode-playground/tests/*.test.js), this hook runs the matching
+#   reference solution against those tests to confirm the expected values
+#   are correct. If any test fails, the commit is blocked.
+#
+#   This catches the most common mistake: forgetting to replace the
+#   `.toEqual(null)` placeholders with real values via the workflow in CLAUDE.md.
+#
+# STEPS (per test file)
+#   1. Find the matching problem file and reference solution
+#   2. Save a copy of the problem file (which has "// implement")
+#   3. Build a temporary runnable file: helper classes + reference solution + export
+#   4. Swap it in, run the tests, then restore the original "// implement" file
+#   5. Report OK or BLOCKED
+#
+# EXIT CODES
+#   0 = no test files staged, or all staged tests passed
+#   1 = one or more staged tests failed or had no reference solution
+# =============================================================================
+
+set -euo pipefail
+
+HOOK_LIB_DIR="$(dirname "$0")/lib"
+EXTRACT_HELPER_CLASSES_PY="${HOOK_LIB_DIR}/extract-helper-classes.py"
+
+FAILED=0   # How many test files failed or had no reference solution.
+CHECKED=0  # How many test files were actually run.
+
+
+# -----------------------------------------------------------------------------
+# discover_staged_tests
+#   Print all staged test file paths (one per line).
+#   Empty output means nothing to check — hook will exit 0.
+# -----------------------------------------------------------------------------
+discover_staged_tests() {
+    git diff --cached --name-only \
+        | grep "^leetcode-playground/tests/.*\.test\.js$" \
+        || true   # grep exits 1 on no match; swallow to keep `set -e` happy.
+}
+
+
+# -----------------------------------------------------------------------------
+# build_injected_file <playground_file> <ref_file> <output_file>
+#   Build a runnable file by combining:
+#     - any helper classes from the problem file that the reference needs
+#     - the reference solution body
+#     - the export line from the problem file
+#
+#   The export line must match so the test's `import { foo }` still works.
+# -----------------------------------------------------------------------------
+build_injected_file() {
+    local playground_file="$1"
+    local ref_file="$2"
+    local out_file="$3"
+
+    local classes
+    classes=$(python3 "$EXTRACT_HELPER_CLASSES_PY" "$playground_file" "$ref_file")
+
+    if [ -n "$classes" ]; then
+        printf '%s\n\n' "$classes" > "$out_file"
+        cat "$ref_file" >> "$out_file"
+    else
+        cat "$ref_file" > "$out_file"
+    fi
+
+    local export_line
+    export_line=$(grep "^export" "$playground_file" || true)
+    if [ -n "$export_line" ]; then
+        printf '\n%s\n' "$export_line" >> "$out_file"
+    fi
+}
+
+
+# -----------------------------------------------------------------------------
+# run_vitest_and_check <test_file>
+#   Run vitest on one test file and return all output.
+#   We use `|| true` so a failing test doesn't abort the script —
+#   we check pass/fail by reading the output, not the exit code.
+# -----------------------------------------------------------------------------
+run_vitest_and_check() {
+    local test_file="$1"
+    npx vitest run "$test_file" 2>&1 || true
+}
+
+
+# -----------------------------------------------------------------------------
+# vitest_failed <captured_output>
+#   Return 0 (true) if the vitest output shows any failures.
+# -----------------------------------------------------------------------------
+vitest_failed() {
+    echo "$1" | grep -qE "[0-9]+ failed"
+}
+
+
+# -----------------------------------------------------------------------------
+# report_blocked <basename> <vitest_output>
+#   Print a BLOCKED message with a few lines showing what went wrong.
+# -----------------------------------------------------------------------------
+report_blocked() {
+    local basename="$1"
+    local result="$2"
+    echo ""
+    echo "BLOCKED: $basename — test cases don't match reference solution"
+    echo "$result" | grep -E "AssertionError|expected|received|✗" | head -8
+    echo ""
+}
+
+
+# -----------------------------------------------------------------------------
+# verify_one_test <test_file>
+#   Run the full check for one staged test file.
+#   Updates FAILED / CHECKED as a side effect.
+#
+#   Possible outcomes:
+#     - No reference solution found  → BLOCKED (must verify manually)
+#     - No playground file found     → SKIP (nothing to inject into)
+#     - Tests fail against ref       → BLOCKED
+#     - Tests pass against ref       → OK
+# -----------------------------------------------------------------------------
+verify_one_test() {
+    local test_file="$1"
+    local basename
+    basename=$(basename "$test_file" .test.js)
+    local playground_file="leetcode-playground/${basename}.js"
+    local ref_file
+    ref_file=$(ls leetcode-solutions/${basename}.js 2>/dev/null || true)
+
+    # ---- No reference solution -----------------------------------------------
+    # Can't auto-check without a reference. Blocked.
+    #
+    # NOTE FOR CONTRIBUTORS: you don't need to add a file to leetcode-solutions/.
+    # Just verify manually before committing:
+    #   1. Write a real working solution in the playground file
+    #   2. Run: npx vitest run <test-file>
+    #   3. Copy the actual values into your .toEqual() assertions
+    #   4. Restore the stub: git checkout -- <playground-file>
+    if [ -z "$ref_file" ] || [ ! -f "$ref_file" ]; then
+        echo ""
+        echo "  WARNING: $basename — no reference solution found."
+        echo "  Expected values MUST be verified manually before this commit."
+        echo "  Implement a temporary solution, run npx vitest run, confirm outputs, restore stub."
+        echo ""
+        FAILED=$((FAILED + 1))
+        return
+    fi
+
+    # ---- No playground file --------------------------------------------------
+    # Unusual, but nothing to inject into — skip without failing.
+    if [ ! -f "$playground_file" ]; then
+        echo "  SKIP (no playground file): $basename"
+        return
+    fi
+
+    CHECKED=$((CHECKED + 1))
+
+    # Save the original stub content so we can restore it after running the tests.
+    # This ensures "// implement" is never left overwritten, even if vitest crashes.
+    local original_content
+    original_content=$(cat "$playground_file")
+
+    # Build the runnable file, swap it in, then run the tests.
+    local tmp_inject
+    tmp_inject=$(mktemp)
+    build_injected_file "$playground_file" "$ref_file" "$tmp_inject"
+    cp "$tmp_inject" "$playground_file"
+    rm "$tmp_inject"
+
+    local result
+    result=$(run_vitest_and_check "$test_file")
+
+    # Always restore the stub — never leave the reference solution on disk.
+    printf '%s\n' "$original_content" > "$playground_file"
+
+    if vitest_failed "$result"; then
+        report_blocked "$basename" "$result"
+        FAILED=$((FAILED + 1))
+    else
+        echo "  OK: $basename"
+    fi
+}
+
+
+# -----------------------------------------------------------------------------
+# print_summary
+#   Print the final result and exit with the right code.
+# -----------------------------------------------------------------------------
+print_summary() {
+    if [ "$FAILED" -gt 0 ]; then
+        echo ""
+        echo "Commit blocked: $FAILED test file(s) unverified or failed."
+        echo "For ref solutions: run verification workflow (CLAUDE.md)."
+        echo "For no ref solution: implement temp solution, run vitest, confirm outputs, restore stub."
+        exit 1
+    fi
+
+    if [ "$CHECKED" -gt 0 ]; then
+        echo "  All $CHECKED test file(s) verified against reference solutions."
+    fi
+
+    exit 0
+}
+
+
+# =============================================================================
+# Main
+# =============================================================================
+main() {
+    local staged_tests
+    staged_tests=$(discover_staged_tests)
+
+    # Nothing relevant staged — let the commit through.
+    if [ -z "$staged_tests" ]; then
+        exit 0
+    fi
+
+    for test_file in $staged_tests; do
+        verify_one_test "$test_file"
+    done
+
+    print_summary
+}
+
+main "$@"

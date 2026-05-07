@@ -43,7 +43,7 @@ describe('0435-non-overlapping-intervals', () => {
 
     // Negative intervals
     it('should handle negative coordinates', () => {
-        expect(eraseOverlapIntervals([[-52,31],[-73,-26],[82,97],[-65,-11],[-62,-49],[95,99],[58,95]])).toBe(1);
+        expect(eraseOverlapIntervals([[-52,31],[-73,-26],[82,97],[-65,-11],[-62,-49],[95,99],[58,95]])).toBe(4);
     });
 
     // Already sorted non-overlapping
