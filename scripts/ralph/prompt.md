@@ -10,8 +10,8 @@
   invocation — the bash loop will
   re-invoke you for the next one.
 - Only if ALL stories already have
-  `passes: true` when you start, output
-  the exact line `RALPH_ALL_DONE` and stop.
+  `passes: true` when you start, reply
+  `<promise>COMPLETE</promise>` and stop.
 
 ## Your Task
 
