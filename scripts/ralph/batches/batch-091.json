@@ -1,0 +1,247 @@
+{
+  "batchId": "batch-091",
+  "problems": [
+    {
+      "id": "1902",
+      "slug": "depth-of-bst-given-insertion-order",
+      "title": "Depth of BST Given Insertion Order",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "tree",
+        "binary-search-tree",
+        "binary-tree",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1903",
+      "slug": "largest-odd-number-in-string",
+      "title": "Largest Odd Number in String",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1904",
+      "slug": "the-number-of-full-rounds-you-have-played",
+      "title": "The Number of Full Rounds You Have Played",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1905",
+      "slug": "count-sub-islands",
+      "title": "Count Sub Islands",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1906",
+      "slug": "minimum-absolute-difference-queries",
+      "title": "Minimum Absolute Difference Queries",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1907",
+      "slug": "count-salary-categories",
+      "title": "Count Salary Categories",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1908",
+      "slug": "game-of-nim",
+      "title": "Game of Nim",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "bit-manipulation",
+        "brainteaser",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1909",
+      "slug": "remove-one-element-to-make-the-array-strictly-increasing",
+      "title": "Remove One Element to Make the Array Strictly Increasing",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1910",
+      "slug": "remove-all-occurrences-of-a-substring",
+      "title": "Remove All Occurrences of a Substring",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1911",
+      "slug": "maximum-alternating-subsequence-sum",
+      "title": "Maximum Alternating Subsequence Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1912",
+      "slug": "design-movie-rental-system",
+      "title": "Design Movie Rental System",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "design",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1913",
+      "slug": "maximum-product-difference-between-two-pairs",
+      "title": "Maximum Product Difference Between Two Pairs",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1914",
+      "slug": "cyclically-rotating-a-grid",
+      "title": "Cyclically Rotating a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1915",
+      "slug": "number-of-wonderful-substrings",
+      "title": "Number of Wonderful Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1916",
+      "slug": "count-ways-to-build-rooms-in-an-ant-colony",
+      "title": "Count Ways to Build Rooms in an Ant Colony",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "graph",
+        "topological-sort",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1917",
+      "slug": "leetcodify-friends-recommendations",
+      "title": "Leetcodify Friends Recommendations",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1918",
+      "slug": "kth-smallest-subarray-sum",
+      "title": "Kth Smallest Subarray Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1919",
+      "slug": "leetcodify-similar-friends",
+      "title": "Leetcodify Similar Friends",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1920",
+      "slug": "build-array-from-permutation",
+      "title": "Build Array from Permutation",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1921",
+      "slug": "eliminate-maximum-number-of-monsters",
+      "title": "Eliminate Maximum Number of Monsters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

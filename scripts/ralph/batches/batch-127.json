@@ -1,0 +1,183 @@
+{
+  "batchId": "batch-127",
+  "problems": [
+    {
+      "id": "2622",
+      "slug": "cache-with-time-limit",
+      "title": "Cache With Time Limit",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": true
+    },
+    {
+      "id": "2623",
+      "slug": "memoize",
+      "title": "Memoize",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2624",
+      "slug": "snail-traversal",
+      "title": "Snail Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2625",
+      "slug": "flatten-deeply-nested-array",
+      "title": "Flatten Deeply Nested Array",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2626",
+      "slug": "array-reduce-transformation",
+      "title": "Array Reduce Transformation",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2627",
+      "slug": "debounce",
+      "title": "Debounce",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2628",
+      "slug": "json-deep-equal",
+      "title": "JSON Deep Equal",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2629",
+      "slug": "function-composition",
+      "title": "Function Composition",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2630",
+      "slug": "memoize-ii",
+      "title": "Memoize II",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2631",
+      "slug": "group-by",
+      "title": "Group By",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2632",
+      "slug": "curry",
+      "title": "Curry",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2633",
+      "slug": "convert-object-to-json-string",
+      "title": "Convert Object to JSON String",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2634",
+      "slug": "filter-elements-from-array",
+      "title": "Filter Elements from Array",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2635",
+      "slug": "apply-transform-over-each-element-in-array",
+      "title": "Apply Transform Over Each Element in Array",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2636",
+      "slug": "promise-pool",
+      "title": "Promise Pool",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2637",
+      "slug": "promise-time-limit",
+      "title": "Promise Time Limit",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2638",
+      "slug": "count-the-number-of-k-free-subsets",
+      "title": "Count the Number of K-Free Subsets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "sorting",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2639",
+      "slug": "find-the-width-of-columns-of-a-grid",
+      "title": "Find the Width of Columns of a Grid",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2640",
+      "slug": "find-the-score-of-all-prefixes-of-an-array",
+      "title": "Find the Score of All Prefixes of an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2641",
+      "slug": "cousins-in-binary-tree-ii",
+      "title": "Cousins in Binary Tree II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

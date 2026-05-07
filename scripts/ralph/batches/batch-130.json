@@ -1,0 +1,208 @@
+{
+  "batchId": "batch-130",
+  "problems": [
+    {
+      "id": "2682",
+      "slug": "find-the-losers-of-the-circular-game",
+      "title": "Find the Losers of the Circular Game",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2683",
+      "slug": "neighboring-bitwise-xor",
+      "title": "Neighboring Bitwise XOR",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2684",
+      "slug": "maximum-number-of-moves-in-a-grid",
+      "title": "Maximum Number of Moves in a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2685",
+      "slug": "count-the-number-of-complete-components",
+      "title": "Count the Number of Complete Components",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2686",
+      "slug": "immediate-food-delivery-iii",
+      "title": "Immediate Food Delivery III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2687",
+      "slug": "bikes-last-time-used",
+      "title": "Bikes Last Time Used ",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2688",
+      "slug": "find-active-users",
+      "title": "Find Active Users",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2689",
+      "slug": "extract-kth-character-from-the-rope-tree",
+      "title": "Extract Kth Character From The Rope Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2690",
+      "slug": "infinite-method-object",
+      "title": "Infinite Method Object",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2691",
+      "slug": "immutability-helper",
+      "title": "Immutability Helper",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2692",
+      "slug": "make-object-immutable",
+      "title": "Make Object Immutable",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2693",
+      "slug": "call-function-with-custom-context",
+      "title": "Call Function with Custom Context",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2694",
+      "slug": "event-emitter",
+      "title": "Event Emitter",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2695",
+      "slug": "array-wrapper",
+      "title": "Array Wrapper",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2696",
+      "slug": "minimum-string-length-after-removing-substrings",
+      "title": "Minimum String Length After Removing Substrings",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2697",
+      "slug": "lexicographically-smallest-palindrome",
+      "title": "Lexicographically Smallest Palindrome",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2698",
+      "slug": "find-the-punishment-number-of-an-integer",
+      "title": "Find the Punishment Number of an Integer",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2699",
+      "slug": "modify-graph-edge-weights",
+      "title": "Modify Graph Edge Weights",
+      "difficulty": "HARD",
+      "tags": [
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2700",
+      "slug": "differences-between-two-objects",
+      "title": "Differences Between Two Objects",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2701",
+      "slug": "consecutive-transactions-with-increasing-amounts",
+      "title": "Consecutive Transactions with Increasing Amounts",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

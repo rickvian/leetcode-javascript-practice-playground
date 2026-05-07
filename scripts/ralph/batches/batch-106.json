@@ -1,0 +1,240 @@
+{
+  "batchId": "batch-106",
+  "problems": [
+    {
+      "id": "2202",
+      "slug": "maximize-the-topmost-element-after-k-moves",
+      "title": "Maximize the Topmost Element After K Moves",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2203",
+      "slug": "minimum-weighted-subgraph-with-the-required-paths",
+      "title": "Minimum Weighted Subgraph With the Required Paths",
+      "difficulty": "HARD",
+      "tags": [
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2204",
+      "slug": "distance-to-a-cycle-in-undirected-graph",
+      "title": "Distance to a Cycle in Undirected Graph",
+      "difficulty": "HARD",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2205",
+      "slug": "the-number-of-users-that-are-eligible-for-discount",
+      "title": "The Number of Users That Are Eligible for Discount",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2206",
+      "slug": "divide-array-into-equal-pairs",
+      "title": "Divide Array Into Equal Pairs",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2207",
+      "slug": "maximize-number-of-subsequences-in-a-string",
+      "title": "Maximize Number of Subsequences in a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2208",
+      "slug": "minimum-operations-to-halve-array-sum",
+      "title": "Minimum Operations to Halve Array Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2209",
+      "slug": "minimum-white-tiles-after-covering-with-carpets",
+      "title": "Minimum White Tiles After Covering With Carpets",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2210",
+      "slug": "count-hills-and-valleys-in-an-array",
+      "title": "Count Hills and Valleys in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2211",
+      "slug": "count-collisions-on-a-road",
+      "title": "Count Collisions on a Road",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2212",
+      "slug": "maximum-points-in-an-archery-competition",
+      "title": "Maximum Points in an Archery Competition",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
+        "bit-manipulation",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2213",
+      "slug": "longest-substring-of-one-repeating-character",
+      "title": "Longest Substring of One Repeating Character",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "segment-tree",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2214",
+      "slug": "minimum-health-to-beat-game",
+      "title": "Minimum Health to Beat Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2215",
+      "slug": "find-the-difference-of-two-arrays",
+      "title": "Find the Difference of Two Arrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2216",
+      "slug": "minimum-deletions-to-make-array-beautiful",
+      "title": "Minimum Deletions to Make Array Beautiful",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2217",
+      "slug": "find-palindrome-with-fixed-length",
+      "title": "Find Palindrome With Fixed Length",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2218",
+      "slug": "maximum-value-of-k-coins-from-piles",
+      "title": "Maximum Value of K Coins From Piles",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2219",
+      "slug": "maximum-sum-score-of-array",
+      "title": "Maximum Sum Score of Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2220",
+      "slug": "minimum-bit-flips-to-convert-number",
+      "title": "Minimum Bit Flips to Convert Number",
+      "difficulty": "EASY",
+      "tags": [
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2221",
+      "slug": "find-triangular-sum-of-an-array",
+      "title": "Find Triangular Sum of an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "simulation",
+        "combinatorics",
+        "number-theory"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

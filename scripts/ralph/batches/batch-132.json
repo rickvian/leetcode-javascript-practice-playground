@@ -1,0 +1,219 @@
+{
+  "batchId": "batch-132",
+  "problems": [
+    {
+      "id": "2722",
+      "slug": "join-two-arrays-by-id",
+      "title": "Join Two Arrays by ID",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2723",
+      "slug": "add-two-promises",
+      "title": "Add Two Promises",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2724",
+      "slug": "sort-by",
+      "title": "Sort By",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2725",
+      "slug": "interval-cancellation",
+      "title": "Interval Cancellation",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2726",
+      "slug": "calculator-with-method-chaining",
+      "title": "Calculator with Method Chaining",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2727",
+      "slug": "is-object-empty",
+      "title": "Is Object Empty",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2728",
+      "slug": "count-houses-in-a-circular-street",
+      "title": "Count Houses in a Circular Street",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2729",
+      "slug": "check-if-the-number-is-fascinating",
+      "title": "Check if The Number is Fascinating",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2730",
+      "slug": "find-the-longest-semi-repetitive-substring",
+      "title": "Find the Longest Semi-Repetitive Substring",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2731",
+      "slug": "movement-of-robots",
+      "title": "Movement of Robots",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "brainteaser",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2732",
+      "slug": "find-a-good-subset-of-the-matrix",
+      "title": "Find a Good Subset of the Matrix",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2733",
+      "slug": "neither-minimum-nor-maximum",
+      "title": "Neither Minimum nor Maximum",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2734",
+      "slug": "lexicographically-smallest-string-after-substring-operation",
+      "title": "Lexicographically Smallest String After Substring Operation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2735",
+      "slug": "collecting-chocolates",
+      "title": "Collecting Chocolates",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2736",
+      "slug": "maximum-sum-queries",
+      "title": "Maximum Sum Queries",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "stack",
+        "binary-indexed-tree",
+        "segment-tree",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2737",
+      "slug": "find-the-closest-marked-node",
+      "title": "Find the Closest Marked Node",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2738",
+      "slug": "count-occurrences-in-text",
+      "title": "Count Occurrences in Text",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2739",
+      "slug": "total-distance-traveled",
+      "title": "Total Distance Traveled",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2740",
+      "slug": "find-the-value-of-the-partition",
+      "title": "Find the Value of the Partition",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2741",
+      "slug": "special-permutations",
+      "title": "Special Permutations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

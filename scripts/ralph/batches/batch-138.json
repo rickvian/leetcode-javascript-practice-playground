@@ -1,0 +1,250 @@
+{
+  "batchId": "batch-138",
+  "problems": [
+    {
+      "id": "2842",
+      "slug": "count-k-subsequences-of-a-string-with-maximum-beauty",
+      "title": "Count K-Subsequences of a String With Maximum Beauty",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "greedy",
+        "sorting",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2843",
+      "slug": "count-symmetric-integers",
+      "title": "  Count Symmetric Integers",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2844",
+      "slug": "minimum-operations-to-make-a-special-number",
+      "title": "Minimum Operations to Make a Special Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "greedy",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2845",
+      "slug": "count-of-interesting-subarrays",
+      "title": "Count of Interesting Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2846",
+      "slug": "minimum-edge-weight-equilibrium-queries-in-a-tree",
+      "title": "Minimum Edge Weight Equilibrium Queries in a Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2847",
+      "slug": "smallest-number-with-given-digit-product",
+      "title": "Smallest Number With Given Digit Product",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2848",
+      "slug": "points-that-intersect-with-cars",
+      "title": "Points That Intersect With Cars",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2849",
+      "slug": "determine-if-a-cell-is-reachable-at-a-given-time",
+      "title": "Determine if a Cell Is Reachable at a Given Time",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2850",
+      "slug": "minimum-moves-to-spread-stones-over-grid",
+      "title": "Minimum Moves to Spread Stones Over Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "matrix",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2851",
+      "slug": "string-transformation",
+      "title": "String Transformation",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "dynamic-programming",
+        "string-matching"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2852",
+      "slug": "sum-of-remoteness-of-all-cells",
+      "title": "Sum of Remoteness of All Cells",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2853",
+      "slug": "highest-salaries-difference",
+      "title": "Highest Salaries Difference",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2854",
+      "slug": "rolling-average-steps",
+      "title": "Rolling Average Steps",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2855",
+      "slug": "minimum-right-shifts-to-sort-the-array",
+      "title": "Minimum Right Shifts to Sort the Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2856",
+      "slug": "minimum-array-length-after-pair-removals",
+      "title": "Minimum Array Length After Pair Removals",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "binary-search",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2857",
+      "slug": "count-pairs-of-points-with-distance-k",
+      "title": "Count Pairs of Points With Distance k",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2858",
+      "slug": "minimum-edge-reversals-so-every-node-is-reachable",
+      "title": "Minimum Edge Reversals So Every Node Is Reachable",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2859",
+      "slug": "sum-of-values-at-indices-with-k-set-bits",
+      "title": "Sum of Values at Indices With K Set Bits",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2860",
+      "slug": "happy-students",
+      "title": "Happy Students",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2861",
+      "slug": "maximum-number-of-alloys",
+      "title": "Maximum Number of Alloys",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

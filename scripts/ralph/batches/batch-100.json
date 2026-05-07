@@ -1,0 +1,250 @@
+{
+  "batchId": "batch-100",
+  "problems": [
+    {
+      "id": "2082",
+      "slug": "the-number-of-rich-customers",
+      "title": "The Number of Rich Customers",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2083",
+      "slug": "substrings-that-begin-and-end-with-the-same-letter",
+      "title": "Substrings That Begin and End With the Same Letter",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "counting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2084",
+      "slug": "drop-type-1-orders-for-customers-with-type-0-orders",
+      "title": "Drop Type 1 Orders for Customers With Type 0 Orders",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2085",
+      "slug": "count-common-words-with-one-occurrence",
+      "title": "Count Common Words With One Occurrence",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2086",
+      "slug": "minimum-number-of-food-buckets-to-feed-the-hamsters",
+      "title": "Minimum Number of Food Buckets to Feed the Hamsters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2087",
+      "slug": "minimum-cost-homecoming-of-a-robot-in-a-grid",
+      "title": "Minimum Cost Homecoming of a Robot in a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2088",
+      "slug": "count-fertile-pyramids-in-a-land",
+      "title": "Count Fertile Pyramids in a Land",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2089",
+      "slug": "find-target-indices-after-sorting-array",
+      "title": "Find Target Indices After Sorting Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2090",
+      "slug": "k-radius-subarray-averages",
+      "title": "K Radius Subarray Averages",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2091",
+      "slug": "removing-minimum-and-maximum-from-array",
+      "title": "Removing Minimum and Maximum From Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2092",
+      "slug": "find-all-people-with-secret",
+      "title": "Find All People With Secret",
+      "difficulty": "HARD",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2093",
+      "slug": "minimum-cost-to-reach-city-with-discounts",
+      "title": "Minimum Cost to Reach City With Discounts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2094",
+      "slug": "finding-3-digit-even-numbers",
+      "title": "Finding 3-Digit Even Numbers",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "recursion",
+        "sorting",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2095",
+      "slug": "delete-the-middle-node-of-a-linked-list",
+      "title": "Delete the Middle Node of a Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2096",
+      "slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+      "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2097",
+      "slug": "valid-arrangement-of-pairs",
+      "title": "Valid Arrangement of Pairs",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "graph",
+        "eulerian-circuit"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2098",
+      "slug": "subsequence-of-size-k-with-the-largest-even-sum",
+      "title": "Subsequence of Size K With the Largest Even Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2099",
+      "slug": "find-subsequence-of-length-k-with-the-largest-sum",
+      "title": "Find Subsequence of Length K With the Largest Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2100",
+      "slug": "find-good-days-to-rob-the-bank",
+      "title": "Find Good Days to Rob the Bank",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2101",
+      "slug": "detonate-the-maximum-bombs",
+      "title": "Detonate the Maximum Bombs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "geometry"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "batchId": "batch-139",
+  "problems": [
+    {
+      "id": "2862",
+      "slug": "maximum-element-sum-of-a-complete-subset-of-indices",
+      "title": "Maximum Element-Sum of a Complete Subset of Indices",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2863",
+      "slug": "maximum-length-of-semi-decreasing-subarrays",
+      "title": "Maximum Length of Semi-Decreasing Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2864",
+      "slug": "maximum-odd-binary-number",
+      "title": "Maximum Odd Binary Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2865",
+      "slug": "beautiful-towers-i",
+      "title": "Beautiful Towers I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2866",
+      "slug": "beautiful-towers-ii",
+      "title": "Beautiful Towers II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2867",
+      "slug": "count-valid-paths-in-a-tree",
+      "title": "Count Valid Paths in a Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2868",
+      "slug": "the-wording-game",
+      "title": "The Wording Game",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "two-pointers",
+        "string",
+        "greedy",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2869",
+      "slug": "minimum-operations-to-collect-elements",
+      "title": "Minimum Operations to Collect Elements",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2870",
+      "slug": "minimum-number-of-operations-to-make-array-empty",
+      "title": "Minimum Number of Operations to Make Array Empty",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2871",
+      "slug": "split-array-into-maximum-number-of-subarrays",
+      "title": "Split Array Into Maximum Number of Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2872",
+      "slug": "maximum-number-of-k-divisible-components",
+      "title": "Maximum Number of K-Divisible Components",
+      "difficulty": "HARD",
+      "tags": [
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2873",
+      "slug": "maximum-value-of-an-ordered-triplet-i",
+      "title": "Maximum Value of an Ordered Triplet I",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2874",
+      "slug": "maximum-value-of-an-ordered-triplet-ii",
+      "title": "Maximum Value of an Ordered Triplet II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2875",
+      "slug": "minimum-size-subarray-in-infinite-array",
+      "title": "Minimum Size Subarray in Infinite Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2876",
+      "slug": "count-visited-nodes-in-a-directed-graph",
+      "title": "Count Visited Nodes in a Directed Graph",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "depth-first-search",
+        "graph",
+        "topological-sort",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2877",
+      "slug": "create-a-dataframe-from-list",
+      "title": "Create a DataFrame from List",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2878",
+      "slug": "get-the-size-of-a-dataframe",
+      "title": "Get the Size of a DataFrame",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2879",
+      "slug": "display-the-first-three-rows",
+      "title": "Display the First Three Rows",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2880",
+      "slug": "select-data",
+      "title": "Select Data",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2881",
+      "slug": "create-a-new-column",
+      "title": "Create a New Column",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    }
+  ]
+}

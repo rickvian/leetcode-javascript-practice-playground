@@ -1,0 +1,241 @@
+{
+  "batchId": "batch-092",
+  "problems": [
+    {
+      "id": "1922",
+      "slug": "count-good-numbers",
+      "title": "Count Good Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1923",
+      "slug": "longest-common-subpath",
+      "title": "Longest Common Subpath",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "rolling-hash",
+        "suffix-array",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1924",
+      "slug": "erect-the-fence-ii",
+      "title": "Erect the Fence II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1925",
+      "slug": "count-square-sum-triples",
+      "title": "Count Square Sum Triples",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1926",
+      "slug": "nearest-exit-from-entrance-in-maze",
+      "title": "Nearest Exit from Entrance in Maze",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1927",
+      "slug": "sum-game",
+      "title": "Sum Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "greedy",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1928",
+      "slug": "minimum-cost-to-reach-destination-in-time",
+      "title": "Minimum Cost to Reach Destination in Time",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1929",
+      "slug": "concatenation-of-array",
+      "title": "Concatenation of Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1930",
+      "slug": "unique-length-3-palindromic-subsequences",
+      "title": "Unique Length-3 Palindromic Subsequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1931",
+      "slug": "painting-a-grid-with-three-different-colors",
+      "title": "Painting a Grid With Three Different Colors",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1932",
+      "slug": "merge-bsts-to-create-single-bst",
+      "title": "Merge BSTs to Create Single BST",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1933",
+      "slug": "check-if-string-is-decomposable-into-value-equal-substrings",
+      "title": "Check if String Is Decomposable Into Value-Equal Substrings",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1934",
+      "slug": "confirmation-rate",
+      "title": "Confirmation Rate",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1935",
+      "slug": "maximum-number-of-words-you-can-type",
+      "title": "Maximum Number of Words You Can Type",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1936",
+      "slug": "add-minimum-number-of-rungs",
+      "title": "Add Minimum Number of Rungs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1937",
+      "slug": "maximum-number-of-points-with-cost",
+      "title": "Maximum Number of Points with Cost",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1938",
+      "slug": "maximum-genetic-difference-query",
+      "title": "Maximum Genetic Difference Query",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "depth-first-search",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1939",
+      "slug": "users-that-actively-request-confirmation-messages",
+      "title": "Users That Actively Request Confirmation Messages",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1940",
+      "slug": "longest-common-subsequence-between-sorted-arrays",
+      "title": "Longest Common Subsequence Between Sorted Arrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1941",
+      "slug": "check-if-all-characters-have-equal-number-of-occurrences",
+      "title": "Check if All Characters Have Equal Number of Occurrences",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

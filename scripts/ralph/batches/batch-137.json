@@ -1,0 +1,233 @@
+{
+  "batchId": "batch-137",
+  "problems": [
+    {
+      "id": "2822",
+      "slug": "inversion-of-object",
+      "title": "Inversion of Object",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2823",
+      "slug": "deep-object-filter",
+      "title": "Deep Object Filter",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2824",
+      "slug": "count-pairs-whose-sum-is-less-than-target",
+      "title": "Count Pairs Whose Sum is Less than Target",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2825",
+      "slug": "make-string-a-subsequence-using-cyclic-increments",
+      "title": "Make String a Subsequence Using Cyclic Increments",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2826",
+      "slug": "sorting-three-groups",
+      "title": "Sorting Three Groups",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2827",
+      "slug": "number-of-beautiful-integers-in-the-range",
+      "title": "Number of Beautiful Integers in the Range",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2828",
+      "slug": "check-if-a-string-is-an-acronym-of-words",
+      "title": "Check if a String Is an Acronym of Words",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2829",
+      "slug": "determine-the-minimum-sum-of-a-k-avoiding-array",
+      "title": "Determine the Minimum Sum of a k-avoiding Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2830",
+      "slug": "maximize-the-profit-as-the-salesman",
+      "title": "Maximize the Profit as the Salesman",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2831",
+      "slug": "find-the-longest-equal-subarray",
+      "title": "Find the Longest Equal Subarray",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2832",
+      "slug": "maximal-range-that-each-element-is-maximum-in-it",
+      "title": "Maximal Range That Each Element Is Maximum in It",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2833",
+      "slug": "furthest-point-from-origin",
+      "title": "Furthest Point From Origin",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2834",
+      "slug": "find-the-minimum-possible-sum-of-a-beautiful-array",
+      "title": "Find the Minimum Possible Sum of a Beautiful Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2835",
+      "slug": "minimum-operations-to-form-subsequence-with-target-sum",
+      "title": "Minimum Operations to Form Subsequence With Target Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2836",
+      "slug": "maximize-value-of-function-in-a-ball-passing-game",
+      "title": "Maximize Value of Function in a Ball Passing Game",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2837",
+      "slug": "total-traveled-distance",
+      "title": "Total Traveled Distance",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2838",
+      "slug": "maximum-coins-heroes-can-collect",
+      "title": "Maximum Coins Heroes Can Collect",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2839",
+      "slug": "check-if-strings-can-be-made-equal-with-operations-i",
+      "title": "Check if Strings Can be Made Equal With Operations I",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2840",
+      "slug": "check-if-strings-can-be-made-equal-with-operations-ii",
+      "title": "Check if Strings Can be Made Equal With Operations II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2841",
+      "slug": "maximum-sum-of-almost-unique-subarray",
+      "title": "Maximum Sum of Almost Unique Subarray",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

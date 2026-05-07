@@ -1,0 +1,242 @@
+{
+  "batchId": "batch-018",
+  "problems": [
+    {
+      "id": "0434",
+      "slug": "number-of-segments-in-a-string",
+      "title": "Number of Segments in a String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0436",
+      "slug": "find-right-interval",
+      "title": "Find Right Interval",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0437",
+      "slug": "path-sum-iii",
+      "title": "Path Sum III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0438",
+      "slug": "find-all-anagrams-in-a-string",
+      "title": "Find All Anagrams in a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0439",
+      "slug": "ternary-expression-parser",
+      "title": "Ternary Expression Parser",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0440",
+      "slug": "k-th-smallest-in-lexicographical-order",
+      "title": "K-th Smallest in Lexicographical Order",
+      "difficulty": "HARD",
+      "tags": [
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0441",
+      "slug": "arranging-coins",
+      "title": "Arranging Coins",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0442",
+      "slug": "find-all-duplicates-in-an-array",
+      "title": "Find All Duplicates in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0443",
+      "slug": "string-compression",
+      "title": "String Compression",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0444",
+      "slug": "sequence-reconstruction",
+      "title": "Sequence Reconstruction",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0445",
+      "slug": "add-two-numbers-ii",
+      "title": "Add Two Numbers II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "math",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0446",
+      "slug": "arithmetic-slices-ii-subsequence",
+      "title": "Arithmetic Slices II - Subsequence",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0447",
+      "slug": "number-of-boomerangs",
+      "title": "Number of Boomerangs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0448",
+      "slug": "find-all-numbers-disappeared-in-an-array",
+      "title": "Find All Numbers Disappeared in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0449",
+      "slug": "serialize-and-deserialize-bst",
+      "title": "Serialize and Deserialize BST",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "design",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0450",
+      "slug": "delete-node-in-a-bst",
+      "title": "Delete Node in a BST",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0451",
+      "slug": "sort-characters-by-frequency",
+      "title": "Sort Characters By Frequency",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sorting",
+        "heap-priority-queue",
+        "bucket-sort",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0452",
+      "slug": "minimum-number-of-arrows-to-burst-balloons",
+      "title": "Minimum Number of Arrows to Burst Balloons",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0453",
+      "slug": "minimum-moves-to-equal-array-elements",
+      "title": "Minimum Moves to Equal Array Elements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0454",
+      "slug": "4sum-ii",
+      "title": "4Sum II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

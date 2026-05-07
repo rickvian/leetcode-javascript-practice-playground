@@ -1,6 +1,9 @@
-import { TreeNode, sortedArrayToBST } from '../0108-convert-sorted-array-to-binary-search-tree';
+import {
+  TreeNode,
+  sortedArrayToBST,
+} from "../0108-convert-sorted-array-to-binary-search-tree";
 
-describe('0108-convert-sorted-array-to-binary-search-tree', () => {
+describe("0108-convert-sorted-array-to-binary-search-tree", () => {
   const getInorder = (node) => {
     if (!node) return [];
     return [...getInorder(node.left), node.val, ...getInorder(node.right)];
@@ -25,14 +28,14 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     return isBST(node.left, min, node.val) && isBST(node.right, node.val, max);
   };
 
-  it('should return null for empty array', () => {
+  it("should return null for empty array", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([]);
       expect(result).toBeNull();
     }
   });
 
-  it('should handle single element', () => {
+  it("should handle single element", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1]);
       expect(result?.val).toBe(1);
@@ -41,7 +44,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should handle two elements', () => {
+  it("should handle two elements", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1, 2]);
       expect(getInorder(result)).toEqual([1, 2]);
@@ -50,7 +53,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should handle odd-length array [1, 2, 3]', () => {
+  it("should handle odd-length array [1, 2, 3]", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1, 2, 3]);
       expect(getInorder(result)).toEqual([1, 2, 3]);
@@ -60,7 +63,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should handle even-length array [1, 2, 3, 4]', () => {
+  it("should handle even-length array [1, 2, 3, 4]", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1, 2, 3, 4]);
       expect(getInorder(result)).toEqual([1, 2, 3, 4]);
@@ -69,7 +72,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should handle larger odd-length array [1, 2, 3, 4, 5, 6, 7]', () => {
+  it("should handle larger odd-length array [1, 2, 3, 4, 5, 6, 7]", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1, 2, 3, 4, 5, 6, 7]);
       expect(getInorder(result)).toEqual([1, 2, 3, 4, 5, 6, 7]);
@@ -79,7 +82,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should handle larger even-length array [1, 2, 3, 4, 5, 6, 7, 8]', () => {
+  it("should handle larger even-length array [1, 2, 3, 4, 5, 6, 7, 8]", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1, 2, 3, 4, 5, 6, 7, 8]);
       expect(getInorder(result)).toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
@@ -88,7 +91,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should handle negative numbers [-10, -3, 0, 5, 9]', () => {
+  it("should handle negative numbers [-10, -3, 0, 5, 9]", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([-10, -3, 0, 5, 9]);
       expect(getInorder(result)).toEqual([-10, -3, 0, 5, 9]);
@@ -97,7 +100,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should handle all negative numbers [-9, -5, -3, -1]', () => {
+  it("should handle all negative numbers [-9, -5, -3, -1]", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([-9, -5, -3, -1]);
       expect(getInorder(result)).toEqual([-9, -5, -3, -1]);
@@ -106,7 +109,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should handle duplicate values [1, 1, 1, 2, 2, 3]', () => {
+  it("should handle duplicate values [1, 1, 1, 2, 2, 3]", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1, 1, 1, 2, 2, 3]);
       expect(getInorder(result)).toEqual([1, 1, 1, 2, 2, 3]);
@@ -114,7 +117,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should handle large values [1000000, 2000000, 3000000]', () => {
+  it("should handle large values [1000000, 2000000, 3000000]", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1000000, 2000000, 3000000]);
       expect(getInorder(result)).toEqual([1000000, 2000000, 3000000]);
@@ -123,7 +126,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should be height-balanced for array [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]', () => {
+  it("should be height-balanced for array [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
       expect(getInorder(result)).toEqual([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
@@ -132,7 +135,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should produce root at middle for odd-length array', () => {
+  it("should produce root at middle for odd-length array", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1, 2, 3, 4, 5]);
       expect(result?.val).toBe(3);
@@ -140,7 +143,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should handle left-skewed array [1, 2]', () => {
+  it("should handle left-skewed array [1, 2]", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1, 2]);
       expect(getInorder(result)).toEqual([1, 2]);
@@ -148,7 +151,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should handle right-skewed array [1, 2]', () => {
+  it("should handle right-skewed array [1, 2]", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1, 2]);
       expect(getInorder(result)).toEqual([1, 2]);
@@ -156,7 +159,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should return height-balanced tree for any array length', () => {
+  it("should return height-balanced tree for any array length", () => {
     if (sortedArrayToBST !== undefined) {
       for (const length of [1, 2, 3, 5, 7, 15, 16]) {
         const arr = Array.from({ length }, (_, i) => i + 1);
@@ -167,7 +170,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should verify in-order traversal matches input for [3, 5, 1, 4, 2]', () => {
+  it("should verify in-order traversal matches input for [3, 5, 1, 4, 2]", () => {
     if (sortedArrayToBST !== undefined) {
       const arr = [1, 2, 3, 4, 5];
       const result = sortedArrayToBST(arr);
@@ -175,7 +178,7 @@ describe('0108-convert-sorted-array-to-binary-search-tree', () => {
     }
   });
 
-  it('should create valid BST structure', () => {
+  it("should create valid BST structure", () => {
     if (sortedArrayToBST !== undefined) {
       const result = sortedArrayToBST([1, 2, 3, 4, 5, 6, 7, 8]);
       expect(isBST(result)).toBe(true);

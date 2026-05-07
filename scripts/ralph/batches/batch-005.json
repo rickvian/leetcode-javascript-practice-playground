@@ -1,0 +1,246 @@
+{
+  "batchId": "batch-005",
+  "problems": [
+    {
+      "id": "0120",
+      "slug": "triangle",
+      "title": "Triangle",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0122",
+      "slug": "best-time-to-buy-and-sell-stock-ii",
+      "title": "Best Time to Buy and Sell Stock II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0123",
+      "slug": "best-time-to-buy-and-sell-stock-iii",
+      "title": "Best Time to Buy and Sell Stock III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0126",
+      "slug": "word-ladder-ii",
+      "title": "Word Ladder II",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0127",
+      "slug": "word-ladder",
+      "title": "Word Ladder",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0129",
+      "slug": "sum-root-to-leaf-numbers",
+      "title": "Sum Root to Leaf Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0130",
+      "slug": "surrounded-regions",
+      "title": "Surrounded Regions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0131",
+      "slug": "palindrome-partitioning",
+      "title": "Palindrome Partitioning",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0132",
+      "slug": "palindrome-partitioning-ii",
+      "title": "Palindrome Partitioning II",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0134",
+      "slug": "gas-station",
+      "title": "Gas Station",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0135",
+      "slug": "candy",
+      "title": "Candy",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0136",
+      "slug": "single-number",
+      "title": "Single Number",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0137",
+      "slug": "single-number-ii",
+      "title": "Single Number II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0138",
+      "slug": "copy-list-with-random-pointer",
+      "title": "Copy List with Random Pointer",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0140",
+      "slug": "word-break-ii",
+      "title": "Word Break II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "backtracking",
+        "trie",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0142",
+      "slug": "linked-list-cycle-ii",
+      "title": "Linked List Cycle II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0144",
+      "slug": "binary-tree-preorder-traversal",
+      "title": "Binary Tree Preorder Traversal",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0145",
+      "slug": "binary-tree-postorder-traversal",
+      "title": "Binary Tree Postorder Traversal",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0147",
+      "slug": "insertion-sort-list",
+      "title": "Insertion Sort List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0149",
+      "slug": "max-points-on-a-line",
+      "title": "Max Points on a Line",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

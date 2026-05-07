@@ -1,0 +1,248 @@
+{
+  "batchId": "batch-065",
+  "problems": [
+    {
+      "id": "1382",
+      "slug": "balance-a-binary-search-tree",
+      "title": "Balance a Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "divide-and-conquer",
+        "greedy",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1383",
+      "slug": "maximum-performance-of-a-team",
+      "title": "Maximum Performance of a Team",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1384",
+      "slug": "total-sales-amount-by-year",
+      "title": "Total Sales Amount by Year",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1385",
+      "slug": "find-the-distance-value-between-two-arrays",
+      "title": "Find the Distance Value Between Two Arrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1386",
+      "slug": "cinema-seat-allocation",
+      "title": "Cinema Seat Allocation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1387",
+      "slug": "sort-integers-by-the-power-value",
+      "title": "Sort Integers by The Power Value",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "memoization",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1388",
+      "slug": "pizza-with-3n-slices",
+      "title": "Pizza With 3n Slices",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1389",
+      "slug": "create-target-array-in-the-given-order",
+      "title": "Create Target Array in the Given Order",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1390",
+      "slug": "four-divisors",
+      "title": "Four Divisors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1391",
+      "slug": "check-if-there-is-a-valid-path-in-a-grid",
+      "title": "Check if There is a Valid Path in a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1392",
+      "slug": "longest-happy-prefix",
+      "title": "Longest Happy Prefix",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "rolling-hash",
+        "string-matching",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1393",
+      "slug": "capital-gainloss",
+      "title": "Capital Gain/Loss",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1394",
+      "slug": "find-lucky-integer-in-an-array",
+      "title": "Find Lucky Integer in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1395",
+      "slug": "count-number-of-teams",
+      "title": "Count Number of Teams",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "binary-indexed-tree",
+        "segment-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1396",
+      "slug": "design-underground-system",
+      "title": "Design Underground System",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "design"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1397",
+      "slug": "find-all-good-strings",
+      "title": "Find All Good Strings",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "string-matching"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1398",
+      "slug": "customers-who-bought-products-a-and-b-but-not-c",
+      "title": "Customers Who Bought Products A and B but Not C",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1399",
+      "slug": "count-largest-group",
+      "title": "Count Largest Group",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "math",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1400",
+      "slug": "construct-k-palindrome-strings",
+      "title": "Construct K Palindrome Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1401",
+      "slug": "circle-and-rectangle-overlapping",
+      "title": "Circle and Rectangle Overlapping",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "batchId": "batch-128",
+  "problems": [
+    {
+      "id": "2642",
+      "slug": "design-graph-with-shortest-path-calculator",
+      "title": "Design Graph With Shortest Path Calculator",
+      "difficulty": "HARD",
+      "tags": [
+        "graph",
+        "design",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "2643",
+      "slug": "row-with-maximum-ones",
+      "title": "Row With Maximum Ones",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2644",
+      "slug": "find-the-maximum-divisibility-score",
+      "title": "Find the Maximum Divisibility Score",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2645",
+      "slug": "minimum-additions-to-make-valid-string",
+      "title": "Minimum Additions to Make Valid String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2646",
+      "slug": "minimize-the-total-price-of-the-trips",
+      "title": "Minimize the Total Price of the Trips",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2647",
+      "slug": "color-the-triangle-red",
+      "title": "Color the Triangle Red",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2648",
+      "slug": "generate-fibonacci-sequence",
+      "title": "Generate Fibonacci Sequence",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2649",
+      "slug": "nested-array-generator",
+      "title": "Nested Array Generator",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2650",
+      "slug": "design-cancellable-function",
+      "title": "Design Cancellable Function",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": true
+    },
+    {
+      "id": "2651",
+      "slug": "calculate-delayed-arrival-time",
+      "title": "Calculate Delayed Arrival Time",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2652",
+      "slug": "sum-multiples",
+      "title": "Sum Multiples",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2653",
+      "slug": "sliding-subarray-beauty",
+      "title": "Sliding Subarray Beauty",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2654",
+      "slug": "minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
+      "title": "Minimum Number of Operations to Make All Array Elements Equal to 1",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2655",
+      "slug": "find-maximal-uncovered-ranges",
+      "title": "Find Maximal Uncovered Ranges",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2656",
+      "slug": "maximum-sum-with-exactly-k-elements",
+      "title": "Maximum Sum With Exactly K Elements ",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2657",
+      "slug": "find-the-prefix-common-array-of-two-arrays",
+      "title": "Find the Prefix Common Array of Two Arrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2658",
+      "slug": "maximum-number-of-fish-in-a-grid",
+      "title": "Maximum Number of Fish in a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2659",
+      "slug": "make-array-empty",
+      "title": "Make Array Empty",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "binary-indexed-tree",
+        "segment-tree",
+        "sorting",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2660",
+      "slug": "determine-the-winner-of-a-bowling-game",
+      "title": "Determine the Winner of a Bowling Game",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2661",
+      "slug": "first-completely-painted-row-or-column",
+      "title": "First Completely Painted Row or Column",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

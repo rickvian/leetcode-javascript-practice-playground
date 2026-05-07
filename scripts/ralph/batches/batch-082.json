@@ -1,0 +1,256 @@
+{
+  "batchId": "batch-082",
+  "problems": [
+    {
+      "id": "1722",
+      "slug": "minimize-hamming-distance-after-swap-operations",
+      "title": "Minimize Hamming Distance After Swap Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "union-find"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1723",
+      "slug": "find-minimum-time-to-finish-all-jobs",
+      "title": "Find Minimum Time to Finish All Jobs",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1724",
+      "slug": "checking-existence-of-edge-length-limited-paths-ii",
+      "title": "Checking Existence of Edge Length Limited Paths II",
+      "difficulty": "HARD",
+      "tags": [
+        "depth-first-search",
+        "union-find",
+        "graph",
+        "design",
+        "sorting",
+        "heap-priority-queue",
+        "minimum-spanning-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1725",
+      "slug": "number-of-rectangles-that-can-form-the-largest-square",
+      "title": "Number Of Rectangles That Can Form The Largest Square",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1726",
+      "slug": "tuple-with-same-product",
+      "title": "Tuple with Same Product",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1727",
+      "slug": "largest-submatrix-with-rearrangements",
+      "title": "Largest Submatrix With Rearrangements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1728",
+      "slug": "cat-and-mouse-ii",
+      "title": "Cat and Mouse II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "graph",
+        "topological-sort",
+        "memoization",
+        "matrix",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1729",
+      "slug": "find-followers-count",
+      "title": "Find Followers Count",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1730",
+      "slug": "shortest-path-to-get-food",
+      "title": "Shortest Path to Get Food",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1731",
+      "slug": "the-number-of-employees-which-report-to-each-employee",
+      "title": "The Number of Employees Which Report to Each Employee",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1732",
+      "slug": "find-the-highest-altitude",
+      "title": "Find the Highest Altitude",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1733",
+      "slug": "minimum-number-of-people-to-teach",
+      "title": "Minimum Number of People to Teach",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1734",
+      "slug": "decode-xored-permutation",
+      "title": "Decode XORed Permutation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1735",
+      "slug": "count-ways-to-make-array-with-product",
+      "title": "Count Ways to Make Array With Product",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "combinatorics",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1736",
+      "slug": "latest-time-by-replacing-hidden-digits",
+      "title": "Latest Time by Replacing Hidden Digits",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1737",
+      "slug": "change-minimum-characters-to-satisfy-one-of-three-conditions",
+      "title": "Change Minimum Characters to Satisfy One of Three Conditions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1738",
+      "slug": "find-kth-largest-xor-coordinate-value",
+      "title": "Find Kth Largest XOR Coordinate Value",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "bit-manipulation",
+        "sorting",
+        "heap-priority-queue",
+        "matrix",
+        "prefix-sum",
+        "quickselect"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1739",
+      "slug": "building-boxes",
+      "title": "Building Boxes",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "binary-search",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1740",
+      "slug": "find-distance-in-a-binary-tree",
+      "title": "Find Distance in a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1741",
+      "slug": "find-total-time-spent-by-each-employee",
+      "title": "Find Total Time Spent by Each Employee",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

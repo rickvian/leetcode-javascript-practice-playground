@@ -1,0 +1,259 @@
+{
+  "batchId": "batch-034",
+  "problems": [
+    {
+      "id": "0759",
+      "slug": "employee-free-time",
+      "title": "Employee Free Time",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "line-sweep",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0760",
+      "slug": "find-anagram-mappings",
+      "title": "Find Anagram Mappings",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0761",
+      "slug": "special-binary-string",
+      "title": "Special Binary String",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "divide-and-conquer",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0762",
+      "slug": "prime-number-of-set-bits-in-binary-representation",
+      "title": "Prime Number of Set Bits in Binary Representation",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0763",
+      "slug": "partition-labels",
+      "title": "Partition Labels",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0764",
+      "slug": "largest-plus-sign",
+      "title": "Largest Plus Sign",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0765",
+      "slug": "couples-holding-hands",
+      "title": "Couples Holding Hands",
+      "difficulty": "HARD",
+      "tags": [
+        "greedy",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0766",
+      "slug": "toeplitz-matrix",
+      "title": "Toeplitz Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0767",
+      "slug": "reorganize-string",
+      "title": "Reorganize String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0768",
+      "slug": "max-chunks-to-make-sorted-ii",
+      "title": "Max Chunks To Make Sorted II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "stack",
+        "greedy",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0769",
+      "slug": "max-chunks-to-make-sorted",
+      "title": "Max Chunks To Make Sorted",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "greedy",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0770",
+      "slug": "basic-calculator-iv",
+      "title": "Basic Calculator IV",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0771",
+      "slug": "jewels-and-stones",
+      "title": "Jewels and Stones",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0772",
+      "slug": "basic-calculator-iii",
+      "title": "Basic Calculator III",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0773",
+      "slug": "sliding-puzzle",
+      "title": "Sliding Puzzle",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "breadth-first-search",
+        "memoization",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0774",
+      "slug": "minimize-max-distance-to-gas-station",
+      "title": "Minimize Max Distance to Gas Station",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0775",
+      "slug": "global-and-local-inversions",
+      "title": "Global and Local Inversions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0776",
+      "slug": "split-bst",
+      "title": "Split BST",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "binary-search-tree",
+        "recursion",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0777",
+      "slug": "swap-adjacent-in-lr-string",
+      "title": "Swap Adjacent in LR String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0778",
+      "slug": "swim-in-rising-water",
+      "title": "Swim in Rising Water",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "batchId": "batch-045",
+  "problems": [
+    {
+      "id": "0980",
+      "slug": "unique-paths-iii",
+      "title": "Unique Paths III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "backtracking",
+        "bit-manipulation",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0981",
+      "slug": "time-based-key-value-store",
+      "title": "Time Based Key-Value Store",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "binary-search",
+        "design"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0982",
+      "slug": "triples-with-bitwise-and-equal-to-zero",
+      "title": "Triples with Bitwise AND Equal To Zero",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0983",
+      "slug": "minimum-cost-for-tickets",
+      "title": "Minimum Cost For Tickets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0984",
+      "slug": "string-without-aaa-or-bbb",
+      "title": "String Without AAA or BBB",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0985",
+      "slug": "sum-of-even-numbers-after-queries",
+      "title": "Sum of Even Numbers After Queries",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0986",
+      "slug": "interval-list-intersections",
+      "title": "Interval List Intersections",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "line-sweep"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0987",
+      "slug": "vertical-order-traversal-of-a-binary-tree",
+      "title": "Vertical Order Traversal of a Binary Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "sorting",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0988",
+      "slug": "smallest-string-starting-from-leaf",
+      "title": "Smallest String Starting From Leaf",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0989",
+      "slug": "add-to-array-form-of-integer",
+      "title": "Add to Array-Form of Integer",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0990",
+      "slug": "satisfiability-of-equality-equations",
+      "title": "Satisfiability of Equality Equations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0991",
+      "slug": "broken-calculator",
+      "title": "Broken Calculator",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0992",
+      "slug": "subarrays-with-k-different-integers",
+      "title": "Subarrays with K Different Integers",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0993",
+      "slug": "cousins-in-binary-tree",
+      "title": "Cousins in Binary Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0994",
+      "slug": "rotting-oranges",
+      "title": "Rotting Oranges",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0995",
+      "slug": "minimum-number-of-k-consecutive-bit-flips",
+      "title": "Minimum Number of K Consecutive Bit Flips",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "queue",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0996",
+      "slug": "number-of-squareful-arrays",
+      "title": "Number of Squareful Arrays",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0997",
+      "slug": "find-the-town-judge",
+      "title": "Find the Town Judge",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0998",
+      "slug": "maximum-binary-tree-ii",
+      "title": "Maximum Binary Tree II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0999",
+      "slug": "available-captures-for-rook",
+      "title": "Available Captures for Rook",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

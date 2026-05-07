@@ -1,0 +1,259 @@
+{
+  "batchId": "batch-116",
+  "problems": [
+    {
+      "id": "2402",
+      "slug": "meeting-rooms-iii",
+      "title": "Meeting Rooms III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "heap-priority-queue",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2403",
+      "slug": "minimum-time-to-kill-all-monsters",
+      "title": "Minimum Time to Kill All Monsters",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2404",
+      "slug": "most-frequent-even-element",
+      "title": "Most Frequent Even Element",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2405",
+      "slug": "optimal-partition-of-string",
+      "title": "Optimal Partition of String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2406",
+      "slug": "divide-intervals-into-minimum-number-of-groups",
+      "title": "Divide Intervals Into Minimum Number of Groups",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2407",
+      "slug": "longest-increasing-subsequence-ii",
+      "title": "Longest Increasing Subsequence II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "dynamic-programming",
+        "binary-indexed-tree",
+        "segment-tree",
+        "queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2408",
+      "slug": "design-sql",
+      "title": "Design SQL",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "design"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "2409",
+      "slug": "count-days-spent-together",
+      "title": "Count Days Spent Together",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2410",
+      "slug": "maximum-matching-of-players-with-trainers",
+      "title": "Maximum Matching of Players With Trainers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2411",
+      "slug": "smallest-subarrays-with-maximum-bitwise-or",
+      "title": "Smallest Subarrays With Maximum Bitwise OR",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "bit-manipulation",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2412",
+      "slug": "minimum-money-required-before-transactions",
+      "title": "Minimum Money Required Before Transactions",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2413",
+      "slug": "smallest-even-multiple",
+      "title": "Smallest Even Multiple",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2414",
+      "slug": "length-of-the-longest-alphabetical-continuous-substring",
+      "title": "Length of the Longest Alphabetical Continuous Substring",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2415",
+      "slug": "reverse-odd-levels-of-binary-tree",
+      "title": "Reverse Odd Levels of Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2416",
+      "slug": "sum-of-prefix-scores-of-strings",
+      "title": "Sum of Prefix Scores of Strings",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "trie",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2417",
+      "slug": "closest-fair-integer",
+      "title": "Closest Fair Integer",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2418",
+      "slug": "sort-the-people",
+      "title": "Sort the People",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2419",
+      "slug": "longest-subarray-with-maximum-bitwise-and",
+      "title": "Longest Subarray With Maximum Bitwise AND",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "brainteaser"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2420",
+      "slug": "find-all-good-indices",
+      "title": "Find All Good Indices",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2421",
+      "slug": "number-of-good-paths",
+      "title": "Number of Good Paths",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "union-find",
+        "graph",
+        "sorting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "batchId": "batch-002",
+  "problems": [
+    {
+      "id": "0031",
+      "slug": "next-permutation",
+      "title": "Next Permutation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0032",
+      "slug": "longest-valid-parentheses",
+      "title": "Longest Valid Parentheses",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0034",
+      "slug": "find-first-and-last-position-of-element-in-sorted-array",
+      "title": "Find First and Last Position of Element in Sorted Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0035",
+      "slug": "search-insert-position",
+      "title": "Search Insert Position",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0036",
+      "slug": "valid-sudoku",
+      "title": "Valid Sudoku",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0037",
+      "slug": "sudoku-solver",
+      "title": "Sudoku Solver",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "backtracking",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0038",
+      "slug": "count-and-say",
+      "title": "Count and Say",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0040",
+      "slug": "combination-sum-ii",
+      "title": "Combination Sum II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0041",
+      "slug": "first-missing-positive",
+      "title": "First Missing Positive",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0043",
+      "slug": "multiply-strings",
+      "title": "Multiply Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0044",
+      "slug": "wildcard-matching",
+      "title": "Wildcard Matching",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "greedy",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0045",
+      "slug": "jump-game-ii",
+      "title": "Jump Game II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0047",
+      "slug": "permutations-ii",
+      "title": "Permutations II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0051",
+      "slug": "n-queens",
+      "title": "N-Queens",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0052",
+      "slug": "n-queens-ii",
+      "title": "N-Queens II",
+      "difficulty": "HARD",
+      "tags": [
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0058",
+      "slug": "length-of-last-word",
+      "title": "Length of Last Word",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0059",
+      "slug": "spiral-matrix-ii",
+      "title": "Spiral Matrix II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0060",
+      "slug": "permutation-sequence",
+      "title": "Permutation Sequence",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0061",
+      "slug": "rotate-list",
+      "title": "Rotate List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0063",
+      "slug": "unique-paths-ii",
+      "title": "Unique Paths II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "batchId": "batch-055",
+  "problems": [
+    {
+      "id": "1182",
+      "slug": "shortest-distance-to-target-color",
+      "title": "Shortest Distance to Target Color",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1183",
+      "slug": "maximum-number-of-ones",
+      "title": "Maximum Number of Ones",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1184",
+      "slug": "distance-between-bus-stops",
+      "title": "Distance Between Bus Stops",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1185",
+      "slug": "day-of-the-week",
+      "title": "Day of the Week",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1186",
+      "slug": "maximum-subarray-sum-with-one-deletion",
+      "title": "Maximum Subarray Sum with One Deletion",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1187",
+      "slug": "make-array-strictly-increasing",
+      "title": "Make Array Strictly Increasing",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1188",
+      "slug": "design-bounded-blocking-queue",
+      "title": "Design Bounded Blocking Queue",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1189",
+      "slug": "maximum-number-of-balloons",
+      "title": "Maximum Number of Balloons",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1190",
+      "slug": "reverse-substrings-between-each-pair-of-parentheses",
+      "title": "Reverse Substrings Between Each Pair of Parentheses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1191",
+      "slug": "k-concatenation-maximum-sum",
+      "title": "K-Concatenation Maximum Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1192",
+      "slug": "critical-connections-in-a-network",
+      "title": "Critical Connections in a Network",
+      "difficulty": "HARD",
+      "tags": [
+        "depth-first-search",
+        "graph",
+        "biconnected-component"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1193",
+      "slug": "monthly-transactions-i",
+      "title": "Monthly Transactions I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1194",
+      "slug": "tournament-winners",
+      "title": "Tournament Winners",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1195",
+      "slug": "fizz-buzz-multithreaded",
+      "title": "Fizz Buzz Multithreaded",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1196",
+      "slug": "how-many-apples-can-you-put-into-the-basket",
+      "title": "How Many Apples Can You Put into the Basket",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1197",
+      "slug": "minimum-knight-moves",
+      "title": "Minimum Knight Moves",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1198",
+      "slug": "find-smallest-common-element-in-all-rows",
+      "title": "Find Smallest Common Element in All Rows",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "matrix",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1199",
+      "slug": "minimum-time-to-build-blocks",
+      "title": "Minimum Time to Build Blocks",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1200",
+      "slug": "minimum-absolute-difference",
+      "title": "Minimum Absolute Difference",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1201",
+      "slug": "ugly-number-iii",
+      "title": "Ugly Number III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "binary-search",
+        "combinatorics",
+        "number-theory"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

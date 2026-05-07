@@ -10,8 +10,33 @@
  * @param {number} k - Maximum number of replacements allowed
  * @return {number} - Length of longest substring with same letter after at most k replacements
  */
-var characterReplacement = function(s, k) {
-    // stub
+// Sliding window. A window is valid when (windowLength - maxFreq) <= k,
+// i.e. the non-dominant chars can all be replaced within the budget k.
+//
+// Time:  O(n) — right advances n times; left advances at most n times.
+//        maxFreq is tracked lazily (never decreased), so no inner scan is needed.
+// Space: O(1) — freq map holds at most 26 uppercase letters.
+var characterReplacement = function (s, k) {
+  const freq = new Map();
+  let left = 0;
+  let maxFreq = 0; // record the longest freq
+  let maxLength = 0;
+
+  for (let right = 0; right < s.length; right++) {
+    const c = s[right];
+    freq.set(c, (freq.get(c) ?? 0) + 1); // increment once
+    maxFreq = Math.max(maxFreq, freq.get(c)); // only update maxFreq if new freqIs Found
+    // Window grew by 1 and maxFreq grew by ≤ 1, so the constraint is
+    // violated by at most 1 — a single shrink restores validity.
+    if (right - left + 1 - maxFreq > k) {
+      freq.set(s[left], freq.get(s[left]) - 1); // not enough k to replace chars to keep the window, move left
+      left++;
+    }
+
+    maxLength = Math.max(maxLength, right - left + 1); // update with current window length if its longer
+  }
+
+  return maxLength;
 };
 
 export { characterReplacement };

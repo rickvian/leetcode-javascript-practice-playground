@@ -1,0 +1,257 @@
+{
+  "batchId": "batch-021",
+  "problems": [
+    {
+      "id": "0495",
+      "slug": "teemo-attacking",
+      "title": "Teemo Attacking",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0496",
+      "slug": "next-greater-element-i",
+      "title": "Next Greater Element I",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0497",
+      "slug": "random-point-in-non-overlapping-rectangles",
+      "title": "Random Point in Non-overlapping Rectangles",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "binary-search",
+        "reservoir-sampling",
+        "prefix-sum",
+        "ordered-set",
+        "randomized"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0498",
+      "slug": "diagonal-traverse",
+      "title": "Diagonal Traverse",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0499",
+      "slug": "the-maze-iii",
+      "title": "The Maze III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "matrix",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0500",
+      "slug": "keyboard-row",
+      "title": "Keyboard Row",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0501",
+      "slug": "find-mode-in-binary-search-tree",
+      "title": "Find Mode in Binary Search Tree",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0502",
+      "slug": "ipo",
+      "title": "IPO",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0503",
+      "slug": "next-greater-element-ii",
+      "title": "Next Greater Element II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0504",
+      "slug": "base-7",
+      "title": "Base 7",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0505",
+      "slug": "the-maze-ii",
+      "title": "The Maze II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "matrix",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0506",
+      "slug": "relative-ranks",
+      "title": "Relative Ranks",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0507",
+      "slug": "perfect-number",
+      "title": "Perfect Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0508",
+      "slug": "most-frequent-subtree-sum",
+      "title": "Most Frequent Subtree Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0509",
+      "slug": "fibonacci-number",
+      "title": "Fibonacci Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "recursion",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0510",
+      "slug": "inorder-successor-in-bst-ii",
+      "title": "Inorder Successor in BST II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0511",
+      "slug": "game-play-analysis-i",
+      "title": "Game Play Analysis I",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0512",
+      "slug": "game-play-analysis-ii",
+      "title": "Game Play Analysis II",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0513",
+      "slug": "find-bottom-left-tree-value",
+      "title": "Find Bottom Left Tree Value",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0514",
+      "slug": "freedom-trail",
+      "title": "Freedom Trail",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "batchId": "batch-046",
+  "problems": [
+    {
+      "id": "1000",
+      "slug": "minimum-cost-to-merge-stones",
+      "title": "Minimum Cost to Merge Stones",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1001",
+      "slug": "grid-illumination",
+      "title": "Grid Illumination",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1002",
+      "slug": "find-common-characters",
+      "title": "Find Common Characters",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1003",
+      "slug": "check-if-word-is-valid-after-substitutions",
+      "title": "Check If Word Is Valid After Substitutions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1004",
+      "slug": "max-consecutive-ones-iii",
+      "title": "Max Consecutive Ones III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1005",
+      "slug": "maximize-sum-of-array-after-k-negations",
+      "title": "Maximize Sum Of Array After K Negations",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1006",
+      "slug": "clumsy-factorial",
+      "title": "Clumsy Factorial",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1007",
+      "slug": "minimum-domino-rotations-for-equal-row",
+      "title": "Minimum Domino Rotations For Equal Row",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1008",
+      "slug": "construct-binary-search-tree-from-preorder-traversal",
+      "title": "Construct Binary Search Tree from Preorder Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "tree",
+        "binary-search-tree",
+        "monotonic-stack",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1009",
+      "slug": "complement-of-base-10-integer",
+      "title": "Complement of Base 10 Integer",
+      "difficulty": "EASY",
+      "tags": [
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1010",
+      "slug": "pairs-of-songs-with-total-durations-divisible-by-60",
+      "title": "Pairs of Songs With Total Durations Divisible by 60",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1011",
+      "slug": "capacity-to-ship-packages-within-d-days",
+      "title": "Capacity To Ship Packages Within D Days",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1012",
+      "slug": "numbers-with-repeated-digits",
+      "title": "Numbers With Repeated Digits",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1013",
+      "slug": "partition-array-into-three-parts-with-equal-sum",
+      "title": "Partition Array Into Three Parts With Equal Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1014",
+      "slug": "best-sightseeing-pair",
+      "title": "Best Sightseeing Pair",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1015",
+      "slug": "smallest-integer-divisible-by-k",
+      "title": "Smallest Integer Divisible by K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1016",
+      "slug": "binary-string-with-substrings-representing-1-to-n",
+      "title": "Binary String With Substrings Representing 1 To N",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1017",
+      "slug": "convert-to-base-2",
+      "title": "Convert to Base -2",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1018",
+      "slug": "binary-prefix-divisible-by-5",
+      "title": "Binary Prefix Divisible By 5",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1020",
+      "slug": "number-of-enclaves",
+      "title": "Number of Enclaves",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

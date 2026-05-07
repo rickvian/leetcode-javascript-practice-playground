@@ -1,0 +1,227 @@
+{
+  "batchId": "batch-051",
+  "problems": [
+    {
+      "id": "1101",
+      "slug": "the-earliest-moment-when-everyone-become-friends",
+      "title": "The Earliest Moment When Everyone Become Friends",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "union-find",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1102",
+      "slug": "path-with-maximum-minimum-value",
+      "title": "Path With Maximum Minimum Value",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1103",
+      "slug": "distribute-candies-to-people",
+      "title": "Distribute Candies to People",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1104",
+      "slug": "path-in-zigzag-labelled-binary-tree",
+      "title": "Path In Zigzag Labelled Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1105",
+      "slug": "filling-bookcase-shelves",
+      "title": "Filling Bookcase Shelves",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1106",
+      "slug": "parsing-a-boolean-expression",
+      "title": "Parsing A Boolean Expression",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1107",
+      "slug": "new-users-daily-count",
+      "title": "New Users Daily Count",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1108",
+      "slug": "defanging-an-ip-address",
+      "title": "Defanging an IP Address",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1109",
+      "slug": "corporate-flight-bookings",
+      "title": "Corporate Flight Bookings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1110",
+      "slug": "delete-nodes-and-return-forest",
+      "title": "Delete Nodes And Return Forest",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1111",
+      "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+      "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1112",
+      "slug": "highest-grade-for-each-student",
+      "title": "Highest Grade For Each Student",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1113",
+      "slug": "reported-posts",
+      "title": "Reported Posts",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1114",
+      "slug": "print-in-order",
+      "title": "Print in Order",
+      "difficulty": "EASY",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1115",
+      "slug": "print-foobar-alternately",
+      "title": "Print FooBar Alternately",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1116",
+      "slug": "print-zero-even-odd",
+      "title": "Print Zero Even Odd",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1117",
+      "slug": "building-h2o",
+      "title": "Building H2O",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1118",
+      "slug": "number-of-days-in-a-month",
+      "title": "Number of Days in a Month",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1119",
+      "slug": "remove-vowels-from-a-string",
+      "title": "Remove Vowels from a String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1120",
+      "slug": "maximum-average-subtree",
+      "title": "Maximum Average Subtree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

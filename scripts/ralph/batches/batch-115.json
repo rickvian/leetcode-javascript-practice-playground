@@ -1,0 +1,252 @@
+{
+  "batchId": "batch-115",
+  "problems": [
+    {
+      "id": "2382",
+      "slug": "maximum-segment-sum-after-removals",
+      "title": "Maximum Segment Sum After Removals",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "union-find",
+        "prefix-sum",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2383",
+      "slug": "minimum-hours-of-training-to-win-a-competition",
+      "title": "Minimum Hours of Training to Win a Competition",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2384",
+      "slug": "largest-palindromic-number",
+      "title": "Largest Palindromic Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2385",
+      "slug": "amount-of-time-for-binary-tree-to-be-infected",
+      "title": "Amount of Time for Binary Tree to Be Infected",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2386",
+      "slug": "find-the-k-sum-of-an-array",
+      "title": "Find the K-Sum of an Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2387",
+      "slug": "median-of-a-row-wise-sorted-matrix",
+      "title": "Median of a Row Wise Sorted Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2388",
+      "slug": "change-null-values-in-a-table-to-the-previous-value",
+      "title": "Change Null Values in a Table to the Previous Value",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2389",
+      "slug": "longest-subsequence-with-limited-sum",
+      "title": "Longest Subsequence With Limited Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2390",
+      "slug": "removing-stars-from-a-string",
+      "title": "Removing Stars From a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2391",
+      "slug": "minimum-amount-of-time-to-collect-garbage",
+      "title": "Minimum Amount of Time to Collect Garbage",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2392",
+      "slug": "build-a-matrix-with-conditions",
+      "title": "Build a Matrix With Conditions",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "graph",
+        "topological-sort",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2393",
+      "slug": "count-strictly-increasing-subarrays",
+      "title": "Count Strictly Increasing Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2394",
+      "slug": "employees-with-deductions",
+      "title": "Employees With Deductions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2395",
+      "slug": "find-subarrays-with-equal-sum",
+      "title": "Find Subarrays With Equal Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2396",
+      "slug": "strictly-palindromic-number",
+      "title": "Strictly Palindromic Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "two-pointers",
+        "brainteaser"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2397",
+      "slug": "maximum-rows-covered-by-columns",
+      "title": "Maximum Rows Covered by Columns",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
+        "bit-manipulation",
+        "matrix",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2398",
+      "slug": "maximum-number-of-robots-within-budget",
+      "title": "Maximum Number of Robots Within Budget",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "queue",
+        "sliding-window",
+        "heap-priority-queue",
+        "prefix-sum",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2399",
+      "slug": "check-distances-between-same-letters",
+      "title": "Check Distances Between Same Letters",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2400",
+      "slug": "number-of-ways-to-reach-a-position-after-exactly-k-steps",
+      "title": "Number of Ways to Reach a Position After Exactly k Steps",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2401",
+      "slug": "longest-nice-subarray",
+      "title": "Longest Nice Subarray",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

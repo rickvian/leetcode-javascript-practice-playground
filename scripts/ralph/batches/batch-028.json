@@ -1,0 +1,259 @@
+{
+  "batchId": "batch-028",
+  "problems": [
+    {
+      "id": "0635",
+      "slug": "design-log-storage-system",
+      "title": "Design Log Storage System",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "design",
+        "ordered-set"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0638",
+      "slug": "shopping-offers",
+      "title": "Shopping Offers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "memoization",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0639",
+      "slug": "decode-ways-ii",
+      "title": "Decode Ways II",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0640",
+      "slug": "solve-the-equation",
+      "title": "Solve the Equation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0641",
+      "slug": "design-circular-deque",
+      "title": "Design Circular Deque",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "linked-list",
+        "design",
+        "queue"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0643",
+      "slug": "maximum-average-subarray-i",
+      "title": "Maximum Average Subarray I",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0644",
+      "slug": "maximum-average-subarray-ii",
+      "title": "Maximum Average Subarray II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0645",
+      "slug": "set-mismatch",
+      "title": "Set Mismatch",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0646",
+      "slug": "maximum-length-of-pair-chain",
+      "title": "Maximum Length of Pair Chain",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0648",
+      "slug": "replace-words",
+      "title": "Replace Words",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0649",
+      "slug": "dota2-senate",
+      "title": "Dota2 Senate",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy",
+        "queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0650",
+      "slug": "2-keys-keyboard",
+      "title": "2 Keys Keyboard",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0651",
+      "slug": "4-keys-keyboard",
+      "title": "4 Keys Keyboard",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0652",
+      "slug": "find-duplicate-subtrees",
+      "title": "Find Duplicate Subtrees",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0653",
+      "slug": "two-sum-iv-input-is-a-bst",
+      "title": "Two Sum IV - Input is a BST",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "two-pointers",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0654",
+      "slug": "maximum-binary-tree",
+      "title": "Maximum Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "stack",
+        "tree",
+        "monotonic-stack",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0655",
+      "slug": "print-binary-tree",
+      "title": "Print Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0656",
+      "slug": "coin-path",
+      "title": "Coin Path",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0657",
+      "slug": "robot-return-to-origin",
+      "title": "Robot Return to Origin",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0658",
+      "slug": "find-k-closest-elements",
+      "title": "Find K Closest Elements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sliding-window",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

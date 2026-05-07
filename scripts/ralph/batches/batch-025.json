@@ -1,0 +1,233 @@
+{
+  "batchId": "batch-025",
+  "problems": [
+    {
+      "id": "0577",
+      "slug": "employee-bonus",
+      "title": "Employee Bonus",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0578",
+      "slug": "get-highest-answer-rate-question",
+      "title": "Get Highest Answer Rate Question",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0579",
+      "slug": "find-cumulative-salary-of-an-employee",
+      "title": "Find Cumulative Salary of an Employee",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0580",
+      "slug": "count-student-number-in-departments",
+      "title": "Count Student Number in Departments",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0581",
+      "slug": "shortest-unsorted-continuous-subarray",
+      "title": "Shortest Unsorted Continuous Subarray",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "stack",
+        "greedy",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0582",
+      "slug": "kill-process",
+      "title": "Kill Process",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0583",
+      "slug": "delete-operation-for-two-strings",
+      "title": "Delete Operation for Two Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0584",
+      "slug": "find-customer-referee",
+      "title": "Find Customer Referee",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0585",
+      "slug": "investments-in-2016",
+      "title": "Investments in 2016",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0586",
+      "slug": "customer-placing-the-largest-number-of-orders",
+      "title": "Customer Placing the Largest Number of Orders",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0587",
+      "slug": "erect-the-fence",
+      "title": "Erect the Fence",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0588",
+      "slug": "design-in-memory-file-system",
+      "title": "Design In-Memory File System",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "design",
+        "trie",
+        "sorting"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0589",
+      "slug": "n-ary-tree-preorder-traversal",
+      "title": "N-ary Tree Preorder Traversal",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0590",
+      "slug": "n-ary-tree-postorder-traversal",
+      "title": "N-ary Tree Postorder Traversal",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0591",
+      "slug": "tag-validator",
+      "title": "Tag Validator",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0592",
+      "slug": "fraction-addition-and-subtraction",
+      "title": "Fraction Addition and Subtraction",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0593",
+      "slug": "valid-square",
+      "title": "Valid Square",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0594",
+      "slug": "longest-harmonious-subsequence",
+      "title": "Longest Harmonious Subsequence",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0595",
+      "slug": "big-countries",
+      "title": "Big Countries",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0596",
+      "slug": "classes-with-at-least-5-students",
+      "title": "Classes With at Least 5 Students",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

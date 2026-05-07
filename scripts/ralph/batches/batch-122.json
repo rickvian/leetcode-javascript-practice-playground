@@ -1,0 +1,250 @@
+{
+  "batchId": "batch-122",
+  "problems": [
+    {
+      "id": "2522",
+      "slug": "partition-string-into-substrings-with-values-at-most-k",
+      "title": "Partition String Into Substrings With Values at Most K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2523",
+      "slug": "closest-prime-numbers-in-range",
+      "title": "Closest Prime Numbers in Range",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2524",
+      "slug": "maximum-frequency-score-of-a-subarray",
+      "title": "Maximum Frequency Score of a Subarray",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "stack",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2525",
+      "slug": "categorize-box-according-to-criteria",
+      "title": "Categorize Box According to Criteria",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2526",
+      "slug": "find-consecutive-integers-from-a-data-stream",
+      "title": "Find Consecutive Integers from a Data Stream",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "design",
+        "queue",
+        "counting",
+        "data-stream"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2527",
+      "slug": "find-xor-beauty-of-array",
+      "title": "Find Xor-Beauty of Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2528",
+      "slug": "maximize-the-minimum-powered-city",
+      "title": "Maximize the Minimum Powered City",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "queue",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2529",
+      "slug": "maximum-count-of-positive-integer-and-negative-integer",
+      "title": "Maximum Count of Positive Integer and Negative Integer",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2530",
+      "slug": "maximal-score-after-applying-k-operations",
+      "title": "Maximal Score After Applying K Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2531",
+      "slug": "make-number-of-distinct-characters-equal",
+      "title": "Make Number of Distinct Characters Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2532",
+      "slug": "time-to-cross-a-bridge",
+      "title": "Time to Cross a Bridge",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "heap-priority-queue",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2533",
+      "slug": "number-of-good-binary-strings",
+      "title": "Number of Good Binary Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2534",
+      "slug": "time-taken-to-cross-the-door",
+      "title": "Time Taken to Cross the Door",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "queue",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2535",
+      "slug": "difference-between-element-sum-and-digit-sum-of-an-array",
+      "title": "Difference Between Element Sum and Digit Sum of an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2536",
+      "slug": "increment-submatrices-by-one",
+      "title": "Increment Submatrices by One",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2537",
+      "slug": "count-the-number-of-good-subarrays",
+      "title": "Count the Number of Good Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2538",
+      "slug": "difference-between-maximum-and-minimum-price-sum",
+      "title": "Difference Between Maximum and Minimum Price Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2539",
+      "slug": "count-the-number-of-good-subsequences",
+      "title": "Count the Number of Good Subsequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "combinatorics",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2540",
+      "slug": "minimum-common-value",
+      "title": "Minimum Common Value",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2541",
+      "slug": "minimum-operations-to-make-array-equal-ii",
+      "title": "Minimum Operations to Make Array Equal II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

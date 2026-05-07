@@ -1,0 +1,244 @@
+{
+  "batchId": "batch-010",
+  "problems": [
+    {
+      "id": "0256",
+      "slug": "paint-house",
+      "title": "Paint House",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0257",
+      "slug": "binary-tree-paths",
+      "title": "Binary Tree Paths",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "backtracking",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0258",
+      "slug": "add-digits",
+      "title": "Add Digits",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "simulation",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0259",
+      "slug": "3sum-smaller",
+      "title": "3Sum Smaller",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0260",
+      "slug": "single-number-iii",
+      "title": "Single Number III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0262",
+      "slug": "trips-and-users",
+      "title": "Trips and Users",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0263",
+      "slug": "ugly-number",
+      "title": "Ugly Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0264",
+      "slug": "ugly-number-ii",
+      "title": "Ugly Number II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "dynamic-programming",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0265",
+      "slug": "paint-house-ii",
+      "title": "Paint House II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0266",
+      "slug": "palindrome-permutation",
+      "title": "Palindrome Permutation",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0267",
+      "slug": "palindrome-permutation-ii",
+      "title": "Palindrome Permutation II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0270",
+      "slug": "closest-binary-search-tree-value",
+      "title": "Closest Binary Search Tree Value",
+      "difficulty": "EASY",
+      "tags": [
+        "binary-search",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0272",
+      "slug": "closest-binary-search-tree-value-ii",
+      "title": "Closest Binary Search Tree Value II",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "heap-priority-queue",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0273",
+      "slug": "integer-to-english-words",
+      "title": "Integer to English Words",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "string",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0275",
+      "slug": "h-index-ii",
+      "title": "H-Index II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0276",
+      "slug": "paint-fence",
+      "title": "Paint Fence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0277",
+      "slug": "find-the-celebrity",
+      "title": "Find the Celebrity",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "graph",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0278",
+      "slug": "first-bad-version",
+      "title": "First Bad Version",
+      "difficulty": "EASY",
+      "tags": [
+        "binary-search",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0279",
+      "slug": "perfect-squares",
+      "title": "Perfect Squares",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0280",
+      "slug": "wiggle-sort",
+      "title": "Wiggle Sort",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

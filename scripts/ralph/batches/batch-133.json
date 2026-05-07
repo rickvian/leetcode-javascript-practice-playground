@@ -1,0 +1,220 @@
+{
+  "batchId": "batch-133",
+  "problems": [
+    {
+      "id": "2742",
+      "slug": "painting-the-walls",
+      "title": "Painting the Walls",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2743",
+      "slug": "count-substrings-without-repeating-character",
+      "title": "Count Substrings Without Repeating Character",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2744",
+      "slug": "find-maximum-number-of-string-pairs",
+      "title": "Find Maximum Number of String Pairs",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2745",
+      "slug": "construct-the-longest-new-string",
+      "title": "Construct the Longest New String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "greedy",
+        "brainteaser"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2746",
+      "slug": "decremental-string-concatenation",
+      "title": "Decremental String Concatenation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2747",
+      "slug": "count-zero-request-servers",
+      "title": "Count Zero Request Servers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2748",
+      "slug": "number-of-beautiful-pairs",
+      "title": "Number of Beautiful Pairs",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "counting",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2749",
+      "slug": "minimum-operations-to-make-the-integer-zero",
+      "title": "Minimum Operations to Make the Integer Zero",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "bit-manipulation",
+        "brainteaser",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2750",
+      "slug": "ways-to-split-array-into-good-subarrays",
+      "title": "Ways to Split Array Into Good Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2751",
+      "slug": "robot-collisions",
+      "title": "Robot Collisions",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "stack",
+        "sorting",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2752",
+      "slug": "customers-with-maximum-number-of-transactions-on-consecutive-days",
+      "title": "Customers with Maximum Number of Transactions on Consecutive Days",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2753",
+      "slug": "count-houses-in-a-circular-street-ii",
+      "title": "Count Houses in a Circular Street II",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2754",
+      "slug": "bind-function-to-context",
+      "title": "Bind Function to Context",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2755",
+      "slug": "deep-merge-of-two-objects",
+      "title": "Deep Merge of Two Objects",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2756",
+      "slug": "query-batching",
+      "title": "Query Batching",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2757",
+      "slug": "generate-circular-array-values",
+      "title": "Generate Circular Array Values",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2758",
+      "slug": "next-day",
+      "title": "Next Day",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2759",
+      "slug": "convert-json-string-to-object",
+      "title": "Convert JSON String to Object",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2760",
+      "slug": "longest-even-odd-subarray-with-threshold",
+      "title": "Longest Even Odd Subarray With Threshold",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2761",
+      "slug": "prime-pairs-with-target-sum",
+      "title": "Prime Pairs With Target Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "enumeration",
+        "number-theory"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "batchId": "batch-007",
+  "problems": [
+    {
+      "id": "0172",
+      "slug": "factorial-trailing-zeroes",
+      "title": "Factorial Trailing Zeroes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0173",
+      "slug": "binary-search-tree-iterator",
+      "title": "Binary Search Tree Iterator",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "stack",
+        "tree",
+        "design",
+        "binary-search-tree",
+        "binary-tree",
+        "iterator"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0174",
+      "slug": "dungeon-game",
+      "title": "Dungeon Game",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0175",
+      "slug": "combine-two-tables",
+      "title": "Combine Two Tables",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0176",
+      "slug": "second-highest-salary",
+      "title": "Second Highest Salary",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0177",
+      "slug": "nth-highest-salary",
+      "title": "Nth Highest Salary",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0178",
+      "slug": "rank-scores",
+      "title": "Rank Scores",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0179",
+      "slug": "largest-number",
+      "title": "Largest Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0180",
+      "slug": "consecutive-numbers",
+      "title": "Consecutive Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0181",
+      "slug": "employees-earning-more-than-their-managers",
+      "title": "Employees Earning More Than Their Managers",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0182",
+      "slug": "duplicate-emails",
+      "title": "Duplicate Emails",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0183",
+      "slug": "customers-who-never-order",
+      "title": "Customers Who Never Order",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0184",
+      "slug": "department-highest-salary",
+      "title": "Department Highest Salary",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0185",
+      "slug": "department-top-three-salaries",
+      "title": "Department Top Three Salaries",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0186",
+      "slug": "reverse-words-in-a-string-ii",
+      "title": "Reverse Words in a String II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0187",
+      "slug": "repeated-dna-sequences",
+      "title": "Repeated DNA Sequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "sliding-window",
+        "rolling-hash",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0188",
+      "slug": "best-time-to-buy-and-sell-stock-iv",
+      "title": "Best Time to Buy and Sell Stock IV",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0189",
+      "slug": "rotate-array",
+      "title": "Rotate Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0192",
+      "slug": "word-frequency",
+      "title": "Word Frequency",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "shell"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0193",
+      "slug": "valid-phone-numbers",
+      "title": "Valid Phone Numbers",
+      "difficulty": "EASY",
+      "tags": [
+        "shell"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

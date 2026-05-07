@@ -1,0 +1,245 @@
+{
+  "batchId": "batch-126",
+  "problems": [
+    {
+      "id": "2602",
+      "slug": "minimum-operations-to-make-all-array-elements-equal",
+      "title": "Minimum Operations to Make All Array Elements Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2603",
+      "slug": "collect-coins-in-a-tree",
+      "title": "Collect Coins in a Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "tree",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2604",
+      "slug": "minimum-time-to-eat-all-grains",
+      "title": "Minimum Time to Eat All Grains",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2605",
+      "slug": "form-smallest-number-from-two-digit-arrays",
+      "title": "Form Smallest Number From Two Digit Arrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2606",
+      "slug": "find-the-substring-with-maximum-cost",
+      "title": "Find the Substring With Maximum Cost",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2607",
+      "slug": "make-k-subarray-sums-equal",
+      "title": "Make K-Subarray Sums Equal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "greedy",
+        "sorting",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2608",
+      "slug": "shortest-cycle-in-a-graph",
+      "title": "Shortest Cycle in a Graph",
+      "difficulty": "HARD",
+      "tags": [
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2609",
+      "slug": "find-the-longest-balanced-substring-of-a-binary-string",
+      "title": "Find the Longest Balanced Substring of a Binary String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2610",
+      "slug": "convert-an-array-into-a-2d-array-with-conditions",
+      "title": "Convert an Array Into a 2D Array With Conditions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2611",
+      "slug": "mice-and-cheese",
+      "title": "Mice and Cheese",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2612",
+      "slug": "minimum-reverse-operations",
+      "title": "Minimum Reverse Operations",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "breadth-first-search",
+        "union-find",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2613",
+      "slug": "beautiful-pairs",
+      "title": "Beautiful Pairs",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "divide-and-conquer",
+        "geometry",
+        "sorting",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2614",
+      "slug": "prime-in-diagonal",
+      "title": "Prime In Diagonal",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "matrix",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2615",
+      "slug": "sum-of-distances",
+      "title": "Sum of Distances",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2616",
+      "slug": "minimize-the-maximum-difference-of-pairs",
+      "title": "Minimize the Maximum Difference of Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2617",
+      "slug": "minimum-number-of-visited-cells-in-a-grid",
+      "title": "Minimum Number of Visited Cells in a Grid",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "breadth-first-search",
+        "union-find",
+        "heap-priority-queue",
+        "matrix",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2618",
+      "slug": "check-if-object-instance-of-class",
+      "title": "Check if Object Instance of Class",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2619",
+      "slug": "array-prototype-last",
+      "title": "Array Prototype Last",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2620",
+      "slug": "counter",
+      "title": "Counter",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2621",
+      "slug": "sleep",
+      "title": "Sleep",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    }
+  ]
+}

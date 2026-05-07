@@ -1,0 +1,259 @@
+{
+  "batchId": "batch-113",
+  "problems": [
+    {
+      "id": "2342",
+      "slug": "max-sum-of-a-pair-with-equal-sum-of-digits",
+      "title": "Max Sum of a Pair With Equal Sum of Digits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2343",
+      "slug": "query-kth-smallest-trimmed-number",
+      "title": "Query Kth Smallest Trimmed Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "divide-and-conquer",
+        "sorting",
+        "heap-priority-queue",
+        "radix-sort",
+        "quickselect"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2344",
+      "slug": "minimum-deletions-to-make-array-divisible",
+      "title": "Minimum Deletions to Make Array Divisible",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "sorting",
+        "heap-priority-queue",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2345",
+      "slug": "finding-the-number-of-visible-mountains",
+      "title": "Finding the Number of Visible Mountains",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2346",
+      "slug": "compute-the-rank-as-a-percentage",
+      "title": "Compute the Rank as a Percentage",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2347",
+      "slug": "best-poker-hand",
+      "title": "Best Poker Hand",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2348",
+      "slug": "number-of-zero-filled-subarrays",
+      "title": "Number of Zero-Filled Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2349",
+      "slug": "design-a-number-container-system",
+      "title": "Design a Number Container System",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "design",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "2350",
+      "slug": "shortest-impossible-sequence-of-rolls",
+      "title": "Shortest Impossible Sequence of Rolls",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2351",
+      "slug": "first-letter-to-appear-twice",
+      "title": "First Letter to Appear Twice",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2352",
+      "slug": "equal-row-and-column-pairs",
+      "title": "Equal Row and Column Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2353",
+      "slug": "design-a-food-rating-system",
+      "title": "Design a Food Rating System",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "design",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "2354",
+      "slug": "number-of-excellent-pairs",
+      "title": "Number of Excellent Pairs",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2355",
+      "slug": "maximum-number-of-books-you-can-take",
+      "title": "Maximum Number of Books You Can Take",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2356",
+      "slug": "number-of-unique-subjects-taught-by-each-teacher",
+      "title": "Number of Unique Subjects Taught by Each Teacher",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2357",
+      "slug": "make-array-zero-by-subtracting-equal-amounts",
+      "title": "Make Array Zero by Subtracting Equal Amounts",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2358",
+      "slug": "maximum-number-of-groups-entering-a-competition",
+      "title": "Maximum Number of Groups Entering a Competition",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "binary-search",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2359",
+      "slug": "find-closest-node-to-given-two-nodes",
+      "title": "Find Closest Node to Given Two Nodes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2360",
+      "slug": "longest-cycle-in-a-graph",
+      "title": "Longest Cycle in a Graph",
+      "difficulty": "HARD",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2361",
+      "slug": "minimum-costs-using-the-train-line",
+      "title": "Minimum Costs Using the Train Line",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

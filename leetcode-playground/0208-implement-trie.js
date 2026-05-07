@@ -6,40 +6,95 @@
  *
  * https://leetcode.com/problems/implement-trie-prefix-tree/description/
  */
-var Trie = function () {
+class Trie {
 
-};
+    constructor() {
+        // whats in trie
 
-/**
- * @param {string} word
- * @return {void}
- */
-Trie.prototype.insert = function (word) {
+        this.children = {} // mapping the children character
+        this.isEndOfWord = false
+    }
 
-};
+    /**
+     * @param {string} word
+     * @return {void}
+     */
+    insert(word) {
+        // trie is tree data structure.
+        //    a    b    c
+        //         ^
 
-/**
- * @param {string} word
- * @return {boolean}
- */
-Trie.prototype.search = function (word) {
+        // rootTrie() 
+        // children [a]:Trie()
+        // children [b]:Trie()
+        // children [c]:Trie()<-
 
-};
+        let curr = this // initiate as root
 
-/**
- * @param {string} prefix
- * @return {boolean}
- */
-Trie.prototype.startsWith = function (prefix) {
+        for (let c of word) {
+            if (!curr.children[c]) {
+                // not exist, add c as children
+                curr.children[c] = new Trie()
+            }
 
-};
+            curr = curr.children[c] // move pointer to inner trie
+        }
 
-/**
- * Your Trie object will be instantiated and called as such:
- * var obj = new Trie()
- * obj.insert(word)
- * var param_2 = obj.search(word)
- * var param_3 = obj.startsWith(prefix)
- */
+        curr.isEndOfWord = true
+
+    }
+
+    /**
+     * @param {string} word
+     * @return {boolean}
+     */
+    search(word) {
+
+        // search
+        //    g    b    c
+        //              ^
+
+        // value
+        // rootTrie() 
+        // children [g]:Trie()
+        // children [b]:Trie()
+        // children [c]:Trie()  <- curr
+        // children [d]:Trie()  ?
+
+        let curr = this
+
+        for (let c of word) {
+            if (!curr.children[c]) {
+                return false // character does not exist, return false
+            }
+
+            // else, found, continue
+            curr = curr.children[c] // move pointer to inner trie
+
+        }
+
+        return curr.isEndOfWord
+    }
+
+    /**
+     * @param {string} prefix
+     * @return {boolean}
+     */
+    startsWith(prefix) {
+        let curr = this
+
+        for (let c of prefix) {
+            if (!curr.children[c]) {
+                return false // character does not exist, return false
+            }
+
+            // else, found, continue
+            curr = curr.children[c] // move pointer to inner trie
+
+        }
+
+        return true
+    }
+}
 
 export { Trie };

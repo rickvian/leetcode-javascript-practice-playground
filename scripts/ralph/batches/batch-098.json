@@ -1,0 +1,243 @@
+{
+  "batchId": "batch-098",
+  "problems": [
+    {
+      "id": "2042",
+      "slug": "check-if-numbers-are-ascending-in-a-sentence",
+      "title": "Check if Numbers Are Ascending in a Sentence",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2043",
+      "slug": "simple-bank-system",
+      "title": "Simple Bank System",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "design",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2044",
+      "slug": "count-number-of-maximum-bitwise-or-subsets",
+      "title": "Count Number of Maximum Bitwise-OR Subsets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
+        "bit-manipulation",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2045",
+      "slug": "second-minimum-time-to-reach-destination",
+      "title": "Second Minimum Time to Reach Destination",
+      "difficulty": "HARD",
+      "tags": [
+        "breadth-first-search",
+        "graph",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2046",
+      "slug": "sort-linked-list-already-sorted-using-absolute-values",
+      "title": "Sort Linked List Already Sorted Using Absolute Values",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2047",
+      "slug": "number-of-valid-words-in-a-sentence",
+      "title": "Number of Valid Words in a Sentence",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2048",
+      "slug": "next-greater-numerically-balanced-number",
+      "title": "Next Greater Numerically Balanced Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "backtracking",
+        "counting",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2049",
+      "slug": "count-nodes-with-the-highest-score",
+      "title": "Count Nodes With the Highest Score",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2050",
+      "slug": "parallel-courses-iii",
+      "title": "Parallel Courses III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2051",
+      "slug": "the-category-of-each-member-in-the-store",
+      "title": "The Category of Each Member in the Store",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2052",
+      "slug": "minimum-cost-to-separate-sentence-into-rows",
+      "title": "Minimum Cost to Separate Sentence Into Rows",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2053",
+      "slug": "kth-distinct-string-in-an-array",
+      "title": "Kth Distinct String in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2054",
+      "slug": "two-best-non-overlapping-events",
+      "title": "Two Best Non-Overlapping Events",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2055",
+      "slug": "plates-between-candles",
+      "title": "Plates Between Candles",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "binary-search",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2056",
+      "slug": "number-of-valid-move-combinations-on-chessboard",
+      "title": "Number of Valid Move Combinations On Chessboard",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "backtracking",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2057",
+      "slug": "smallest-index-with-equal-value",
+      "title": "Smallest Index With Equal Value",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2058",
+      "slug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+      "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2059",
+      "slug": "minimum-operations-to-convert-number",
+      "title": "Minimum Operations to Convert Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2060",
+      "slug": "check-if-an-original-string-exists-given-two-encoded-strings",
+      "title": "Check if an Original String Exists Given Two Encoded Strings",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2061",
+      "slug": "number-of-spaces-cleaning-robot-cleaned",
+      "title": "Number of Spaces Cleaning Robot Cleaned",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

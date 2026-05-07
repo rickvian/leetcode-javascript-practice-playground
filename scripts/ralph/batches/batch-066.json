@@ -1,0 +1,232 @@
+{
+  "batchId": "batch-066",
+  "problems": [
+    {
+      "id": "1402",
+      "slug": "reducing-dishes",
+      "title": "Reducing Dishes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1403",
+      "slug": "minimum-subsequence-in-non-increasing-order",
+      "title": "Minimum Subsequence in Non-Increasing Order",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1404",
+      "slug": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+      "title": "Number of Steps to Reduce a Number in Binary Representation to One",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "bit-manipulation",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1405",
+      "slug": "longest-happy-string",
+      "title": "Longest Happy String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1406",
+      "slug": "stone-game-iii",
+      "title": "Stone Game III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1407",
+      "slug": "top-travellers",
+      "title": "Top Travellers",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1408",
+      "slug": "string-matching-in-an-array",
+      "title": "String Matching in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "string-matching"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1409",
+      "slug": "queries-on-a-permutation-with-key",
+      "title": "Queries on a Permutation With Key",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-indexed-tree",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1410",
+      "slug": "html-entity-parser",
+      "title": "HTML Entity Parser",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1411",
+      "slug": "number-of-ways-to-paint-n-3-grid",
+      "title": "Number of Ways to Paint N \u00d7 3 Grid",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1412",
+      "slug": "find-the-quiet-students-in-all-exams",
+      "title": "Find the Quiet Students in All Exams",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1413",
+      "slug": "minimum-value-to-get-positive-step-by-step-sum",
+      "title": "Minimum Value to Get Positive Step by Step Sum",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1414",
+      "slug": "find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k",
+      "title": "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1415",
+      "slug": "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n",
+      "title": "The k-th Lexicographical String of All Happy Strings of Length n",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1416",
+      "slug": "restore-the-array",
+      "title": "Restore The Array",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1417",
+      "slug": "reformat-the-string",
+      "title": "Reformat The String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1418",
+      "slug": "display-table-of-food-orders-in-a-restaurant",
+      "title": "Display Table of Food Orders in a Restaurant",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1419",
+      "slug": "minimum-number-of-frogs-croaking",
+      "title": "Minimum Number of Frogs Croaking",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1420",
+      "slug": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+      "title": "Build Array Where You Can Find The Maximum Exactly K Comparisons",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1421",
+      "slug": "npv-queries",
+      "title": "NPV Queries",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

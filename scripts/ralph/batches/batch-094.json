@@ -1,0 +1,245 @@
+{
+  "batchId": "batch-094",
+  "problems": [
+    {
+      "id": "1962",
+      "slug": "remove-stones-to-minimize-the-total",
+      "title": "Remove Stones to Minimize the Total",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1963",
+      "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+      "title": "Minimum Number of Swaps to Make the String Balanced",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1964",
+      "slug": "find-the-longest-valid-obstacle-course-at-each-position",
+      "title": "Find the Longest Valid Obstacle Course at Each Position",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "binary-indexed-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1965",
+      "slug": "employees-with-missing-information",
+      "title": "Employees With Missing Information",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1966",
+      "slug": "binary-searchable-numbers-in-an-unsorted-array",
+      "title": "Binary Searchable Numbers in an Unsorted Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1967",
+      "slug": "number-of-strings-that-appear-as-substrings-in-word",
+      "title": "Number of Strings That Appear as Substrings in Word",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1968",
+      "slug": "array-with-elements-not-equal-to-average-of-neighbors",
+      "title": "Array With Elements Not Equal to Average of Neighbors",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1969",
+      "slug": "minimum-non-zero-product-of-the-array-elements",
+      "title": "Minimum Non-Zero Product of the Array Elements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1970",
+      "slug": "last-day-where-you-can-still-cross",
+      "title": "Last Day Where You Can Still Cross",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1971",
+      "slug": "find-if-path-exists-in-graph",
+      "title": "Find if Path Exists in Graph",
+      "difficulty": "EASY",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1972",
+      "slug": "first-and-last-call-on-the-same-day",
+      "title": "First and Last Call On the Same Day",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1973",
+      "slug": "count-nodes-equal-to-sum-of-descendants",
+      "title": "Count Nodes Equal to Sum of Descendants",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1974",
+      "slug": "minimum-time-to-type-word-using-special-typewriter",
+      "title": "Minimum Time to Type Word Using Special Typewriter",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1975",
+      "slug": "maximum-matrix-sum",
+      "title": "Maximum Matrix Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1976",
+      "slug": "number-of-ways-to-arrive-at-destination",
+      "title": "Number of Ways to Arrive at Destination",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "graph",
+        "topological-sort",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1977",
+      "slug": "number-of-ways-to-separate-numbers",
+      "title": "Number of Ways to Separate Numbers",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "suffix-array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1978",
+      "slug": "employees-whose-manager-left-the-company",
+      "title": "Employees Whose Manager Left the Company",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1979",
+      "slug": "find-greatest-common-divisor-of-array",
+      "title": "Find Greatest Common Divisor of Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1980",
+      "slug": "find-unique-binary-string",
+      "title": "Find Unique Binary String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1981",
+      "slug": "minimize-the-difference-between-target-and-chosen-elements",
+      "title": "Minimize the Difference Between Target and Chosen Elements",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

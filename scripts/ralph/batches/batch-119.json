@@ -1,0 +1,247 @@
+{
+  "batchId": "batch-119",
+  "problems": [
+    {
+      "id": "2462",
+      "slug": "total-cost-to-hire-k-workers",
+      "title": "Total Cost to Hire K Workers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "heap-priority-queue",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2463",
+      "slug": "minimum-total-distance-traveled",
+      "title": "Minimum Total Distance Traveled",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2464",
+      "slug": "minimum-subarrays-in-a-valid-split",
+      "title": "Minimum Subarrays in a Valid Split",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2465",
+      "slug": "number-of-distinct-averages",
+      "title": "Number of Distinct Averages",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2466",
+      "slug": "count-ways-to-build-good-strings",
+      "title": "Count Ways To Build Good Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2467",
+      "slug": "most-profitable-path-in-a-tree",
+      "title": "Most Profitable Path in a Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2468",
+      "slug": "split-message-based-on-limit",
+      "title": "Split Message Based on Limit",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2469",
+      "slug": "convert-the-temperature",
+      "title": "Convert the Temperature",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2470",
+      "slug": "number-of-subarrays-with-lcm-equal-to-k",
+      "title": "Number of Subarrays With LCM Equal to K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2471",
+      "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+      "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2472",
+      "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
+      "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2473",
+      "slug": "minimum-cost-to-buy-apples",
+      "title": "Minimum Cost to Buy Apples",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2474",
+      "slug": "customers-with-strictly-increasing-purchases",
+      "title": "Customers With Strictly Increasing Purchases",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2475",
+      "slug": "number-of-unequal-triplets-in-array",
+      "title": "Number of Unequal Triplets in Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2476",
+      "slug": "closest-nodes-queries-in-a-binary-search-tree",
+      "title": "Closest Nodes Queries in a Binary Search Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2477",
+      "slug": "minimum-fuel-cost-to-report-to-the-capital",
+      "title": "Minimum Fuel Cost to Report to the Capital",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2478",
+      "slug": "number-of-beautiful-partitions",
+      "title": "Number of Beautiful Partitions",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2479",
+      "slug": "maximum-xor-of-two-non-overlapping-subtrees",
+      "title": "Maximum XOR of Two Non-Overlapping Subtrees",
+      "difficulty": "HARD",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "graph",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2480",
+      "slug": "form-a-chemical-bond",
+      "title": "Form a Chemical Bond",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2481",
+      "slug": "minimum-cuts-to-divide-a-circle",
+      "title": "Minimum Cuts to Divide a Circle",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

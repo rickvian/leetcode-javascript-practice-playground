@@ -1,0 +1,243 @@
+{
+  "batchId": "batch-111",
+  "problems": [
+    {
+      "id": "2302",
+      "slug": "count-subarrays-with-score-less-than-k",
+      "title": "Count Subarrays With Score Less Than K",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2303",
+      "slug": "calculate-amount-paid-in-taxes",
+      "title": "Calculate Amount Paid in Taxes",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2304",
+      "slug": "minimum-path-cost-in-a-grid",
+      "title": "Minimum Path Cost in a Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2305",
+      "slug": "fair-distribution-of-cookies",
+      "title": "Fair Distribution of Cookies",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2306",
+      "slug": "naming-a-company",
+      "title": "Naming a Company",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2307",
+      "slug": "check-for-contradictions-in-equations",
+      "title": "Check for Contradictions in Equations",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2308",
+      "slug": "arrange-table-by-gender",
+      "title": "Arrange Table by Gender",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2309",
+      "slug": "greatest-english-letter-in-upper-and-lower-case",
+      "title": "Greatest English Letter in Upper and Lower Case",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2310",
+      "slug": "sum-of-numbers-with-units-digit-k",
+      "title": "Sum of Numbers With Units Digit K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "greedy",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2311",
+      "slug": "longest-binary-subsequence-less-than-or-equal-to-k",
+      "title": "Longest Binary Subsequence Less Than or Equal to K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "greedy",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2312",
+      "slug": "selling-pieces-of-wood",
+      "title": "Selling Pieces of Wood",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2313",
+      "slug": "minimum-flips-in-binary-tree-to-get-result",
+      "title": "Minimum Flips in Binary Tree to Get Result",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2314",
+      "slug": "the-first-day-of-the-maximum-recorded-degree-in-each-city",
+      "title": "The First Day of the Maximum Recorded Degree in Each City",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2315",
+      "slug": "count-asterisks",
+      "title": "Count Asterisks",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2316",
+      "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+      "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2317",
+      "slug": "maximum-xor-after-operations",
+      "title": "Maximum XOR After Operations ",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2318",
+      "slug": "number-of-distinct-roll-sequences",
+      "title": "Number of Distinct Roll Sequences",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2319",
+      "slug": "check-if-matrix-is-x-matrix",
+      "title": "Check if Matrix Is X-Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2320",
+      "slug": "count-number-of-ways-to-place-houses",
+      "title": "Count Number of Ways to Place Houses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2321",
+      "slug": "maximum-score-of-spliced-array",
+      "title": "Maximum Score Of Spliced Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "batchId": "batch-059",
+  "problems": [
+    {
+      "id": "1262",
+      "slug": "greatest-sum-divisible-by-three",
+      "title": "Greatest Sum Divisible by Three",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1263",
+      "slug": "minimum-moves-to-move-a-box-to-their-target-location",
+      "title": "Minimum Moves to Move a Box to Their Target Location",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1264",
+      "slug": "page-recommendations",
+      "title": "Page Recommendations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1265",
+      "slug": "print-immutable-linked-list-in-reverse",
+      "title": "Print Immutable Linked List in Reverse",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "two-pointers",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1266",
+      "slug": "minimum-time-visiting-all-points",
+      "title": "Minimum Time Visiting All Points",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1267",
+      "slug": "count-servers-that-communicate",
+      "title": "Count Servers that Communicate",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1268",
+      "slug": "search-suggestions-system",
+      "title": "Search Suggestions System",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "binary-search",
+        "trie",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1269",
+      "slug": "number-of-ways-to-stay-in-the-same-place-after-some-steps",
+      "title": "Number of Ways to Stay in the Same Place After Some Steps",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1270",
+      "slug": "all-people-report-to-the-given-manager",
+      "title": "All People Report to the Given Manager",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1271",
+      "slug": "hexspeak",
+      "title": "Hexspeak",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1272",
+      "slug": "remove-interval",
+      "title": "Remove Interval",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1273",
+      "slug": "delete-tree-nodes",
+      "title": "Delete Tree Nodes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1274",
+      "slug": "number-of-ships-in-a-rectangle",
+      "title": "Number of Ships in a Rectangle",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1275",
+      "slug": "find-winner-on-a-tic-tac-toe-game",
+      "title": "Find Winner on a Tic Tac Toe Game",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1276",
+      "slug": "number-of-burgers-with-no-waste-of-ingredients",
+      "title": "Number of Burgers with No Waste of Ingredients",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1277",
+      "slug": "count-square-submatrices-with-all-ones",
+      "title": "Count Square Submatrices with All Ones",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1278",
+      "slug": "palindrome-partitioning-iii",
+      "title": "Palindrome Partitioning III",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1279",
+      "slug": "traffic-light-controlled-intersection",
+      "title": "Traffic Light Controlled Intersection",
+      "difficulty": "EASY",
+      "tags": [
+        "concurrency"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1280",
+      "slug": "students-and-examinations",
+      "title": "Students and Examinations",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1281",
+      "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+      "title": "Subtract the Product and Sum of Digits of an Integer",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

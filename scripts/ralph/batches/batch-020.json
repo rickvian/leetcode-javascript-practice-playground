@@ -1,0 +1,247 @@
+{
+  "batchId": "batch-020",
+  "problems": [
+    {
+      "id": "0475",
+      "slug": "heaters",
+      "title": "Heaters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0476",
+      "slug": "number-complement",
+      "title": "Number Complement",
+      "difficulty": "EASY",
+      "tags": [
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0477",
+      "slug": "total-hamming-distance",
+      "title": "Total Hamming Distance",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0478",
+      "slug": "generate-random-point-in-a-circle",
+      "title": "Generate Random Point in a Circle",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "geometry",
+        "rejection-sampling",
+        "randomized"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0479",
+      "slug": "largest-palindrome-product",
+      "title": "Largest Palindrome Product",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0480",
+      "slug": "sliding-window-median",
+      "title": "Sliding Window Median",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0481",
+      "slug": "magical-string",
+      "title": "Magical String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0482",
+      "slug": "license-key-formatting",
+      "title": "License Key Formatting",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0483",
+      "slug": "smallest-good-base",
+      "title": "Smallest Good Base",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0484",
+      "slug": "find-permutation",
+      "title": "Find Permutation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0485",
+      "slug": "max-consecutive-ones",
+      "title": "Max Consecutive Ones",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0486",
+      "slug": "predict-the-winner",
+      "title": "Predict the Winner",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "recursion",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0487",
+      "slug": "max-consecutive-ones-ii",
+      "title": "Max Consecutive Ones II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0488",
+      "slug": "zuma-game",
+      "title": "Zuma Game",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "stack",
+        "breadth-first-search",
+        "memoization"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0489",
+      "slug": "robot-room-cleaner",
+      "title": "Robot Room Cleaner",
+      "difficulty": "HARD",
+      "tags": [
+        "backtracking",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0490",
+      "slug": "the-maze",
+      "title": "The Maze",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0491",
+      "slug": "non-decreasing-subsequences",
+      "title": "Non-decreasing Subsequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0492",
+      "slug": "construct-the-rectangle",
+      "title": "Construct the Rectangle",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0493",
+      "slug": "reverse-pairs",
+      "title": "Reverse Pairs",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0494",
+      "slug": "target-sum",
+      "title": "Target Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

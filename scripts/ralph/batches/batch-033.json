@@ -1,0 +1,252 @@
+{
+  "batchId": "batch-033",
+  "problems": [
+    {
+      "id": "0739",
+      "slug": "daily-temperatures",
+      "title": "Daily Temperatures",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0740",
+      "slug": "delete-and-earn",
+      "title": "Delete and Earn",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0741",
+      "slug": "cherry-pickup",
+      "title": "Cherry Pickup",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0742",
+      "slug": "closest-leaf-in-a-binary-tree",
+      "title": "Closest Leaf in a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0743",
+      "slug": "network-delay-time",
+      "title": "Network Delay Time",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0744",
+      "slug": "find-smallest-letter-greater-than-target",
+      "title": "Find Smallest Letter Greater Than Target",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0745",
+      "slug": "prefix-and-suffix-search",
+      "title": "Prefix and Suffix Search",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "design",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0746",
+      "slug": "min-cost-climbing-stairs",
+      "title": "Min Cost Climbing Stairs",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0747",
+      "slug": "largest-number-at-least-twice-of-others",
+      "title": "Largest Number At Least Twice of Others",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0748",
+      "slug": "shortest-completing-word",
+      "title": "Shortest Completing Word",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0749",
+      "slug": "contain-virus",
+      "title": "Contain Virus",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0750",
+      "slug": "number-of-corner-rectangles",
+      "title": "Number Of Corner Rectangles",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0751",
+      "slug": "ip-to-cidr",
+      "title": "IP to CIDR",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0752",
+      "slug": "open-the-lock",
+      "title": "Open the Lock",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0753",
+      "slug": "cracking-the-safe",
+      "title": "Cracking the Safe",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "depth-first-search",
+        "graph",
+        "eulerian-circuit"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0754",
+      "slug": "reach-a-number",
+      "title": "Reach a Number",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0755",
+      "slug": "pour-water",
+      "title": "Pour Water",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0756",
+      "slug": "pyramid-transition-matrix",
+      "title": "Pyramid Transition Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0757",
+      "slug": "set-intersection-size-at-least-two",
+      "title": "Set Intersection Size At Least Two",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0758",
+      "slug": "bold-words-in-string",
+      "title": "Bold Words in String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie",
+        "string-matching"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

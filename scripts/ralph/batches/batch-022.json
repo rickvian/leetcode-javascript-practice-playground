@@ -1,0 +1,253 @@
+{
+  "batchId": "batch-022",
+  "problems": [
+    {
+      "id": "0515",
+      "slug": "find-largest-value-in-each-tree-row",
+      "title": "Find Largest Value in Each Tree Row",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0516",
+      "slug": "longest-palindromic-subsequence",
+      "title": "Longest Palindromic Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0517",
+      "slug": "super-washing-machines",
+      "title": "Super Washing Machines",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0518",
+      "slug": "coin-change-ii",
+      "title": "Coin Change II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0519",
+      "slug": "random-flip-matrix",
+      "title": "Random Flip Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "reservoir-sampling",
+        "randomized"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0520",
+      "slug": "detect-capital",
+      "title": "Detect Capital",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0521",
+      "slug": "longest-uncommon-subsequence-i",
+      "title": "Longest Uncommon Subsequence I",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0522",
+      "slug": "longest-uncommon-subsequence-ii",
+      "title": "Longest Uncommon Subsequence II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0523",
+      "slug": "continuous-subarray-sum",
+      "title": "Continuous Subarray Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0524",
+      "slug": "longest-word-in-dictionary-through-deleting",
+      "title": "Longest Word in Dictionary through Deleting",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0525",
+      "slug": "contiguous-array",
+      "title": "Contiguous Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0526",
+      "slug": "beautiful-arrangement",
+      "title": "Beautiful Arrangement",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0527",
+      "slug": "word-abbreviation",
+      "title": "Word Abbreviation",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "greedy",
+        "trie",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0528",
+      "slug": "random-pick-with-weight",
+      "title": "Random Pick with Weight",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "binary-search",
+        "prefix-sum",
+        "randomized"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0529",
+      "slug": "minesweeper",
+      "title": "Minesweeper",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0530",
+      "slug": "minimum-absolute-difference-in-bst",
+      "title": "Minimum Absolute Difference in BST",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0531",
+      "slug": "lonely-pixel-i",
+      "title": "Lonely Pixel I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0532",
+      "slug": "k-diff-pairs-in-an-array",
+      "title": "K-diff Pairs in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0533",
+      "slug": "lonely-pixel-ii",
+      "title": "Lonely Pixel II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0534",
+      "slug": "game-play-analysis-iii",
+      "title": "Game Play Analysis III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

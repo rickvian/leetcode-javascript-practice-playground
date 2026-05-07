@@ -1,0 +1,247 @@
+{
+  "batchId": "batch-075",
+  "problems": [
+    {
+      "id": "1582",
+      "slug": "special-positions-in-a-binary-matrix",
+      "title": "Special Positions in a Binary Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1583",
+      "slug": "count-unhappy-friends",
+      "title": "Count Unhappy Friends",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1584",
+      "slug": "min-cost-to-connect-all-points",
+      "title": "Min Cost to Connect All Points",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "union-find",
+        "graph",
+        "minimum-spanning-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1585",
+      "slug": "check-if-string-is-transformable-with-substring-sort-operations",
+      "title": "Check If String Is Transformable With Substring Sort Operations",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1586",
+      "slug": "binary-search-tree-iterator-ii",
+      "title": "Binary Search Tree Iterator II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "stack",
+        "tree",
+        "design",
+        "binary-search-tree",
+        "binary-tree",
+        "iterator"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1587",
+      "slug": "bank-account-summary-ii",
+      "title": "Bank Account Summary II",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1588",
+      "slug": "sum-of-all-odd-length-subarrays",
+      "title": "Sum of All Odd Length Subarrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1589",
+      "slug": "maximum-sum-obtained-of-any-permutation",
+      "title": "Maximum Sum Obtained of Any Permutation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1590",
+      "slug": "make-sum-divisible-by-p",
+      "title": "Make Sum Divisible by P",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1591",
+      "slug": "strange-printer-ii",
+      "title": "Strange Printer II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "graph",
+        "topological-sort",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1592",
+      "slug": "rearrange-spaces-between-words",
+      "title": "Rearrange Spaces Between Words",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1593",
+      "slug": "split-a-string-into-the-max-number-of-unique-substrings",
+      "title": "Split a String Into the Max Number of Unique Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1594",
+      "slug": "maximum-non-negative-product-in-a-matrix",
+      "title": "Maximum Non Negative Product in a Matrix",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1595",
+      "slug": "minimum-cost-to-connect-two-groups-of-points",
+      "title": "Minimum Cost to Connect Two Groups of Points",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "matrix",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1596",
+      "slug": "the-most-frequently-ordered-products-for-each-customer",
+      "title": "The Most Frequently Ordered Products for Each Customer",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1597",
+      "slug": "build-binary-expression-tree-from-infix-expression",
+      "title": "Build Binary Expression Tree From Infix Expression",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "stack",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1598",
+      "slug": "crawler-log-folder",
+      "title": "Crawler Log Folder",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1599",
+      "slug": "maximum-profit-of-operating-a-centennial-wheel",
+      "title": "Maximum Profit of Operating a Centennial Wheel",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1600",
+      "slug": "throne-inheritance",
+      "title": "Throne Inheritance",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "design"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1601",
+      "slug": "maximum-number-of-achievable-transfer-requests",
+      "title": "Maximum Number of Achievable Transfer Requests",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "backtracking",
+        "bit-manipulation",
+        "enumeration"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

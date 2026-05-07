@@ -1,0 +1,256 @@
+{
+  "batchId": "batch-108",
+  "problems": [
+    {
+      "id": "2242",
+      "slug": "maximum-score-of-a-node-sequence",
+      "title": "Maximum Score of a Node Sequence",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "graph",
+        "sorting",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2243",
+      "slug": "calculate-digit-sum-of-a-string",
+      "title": "Calculate Digit Sum of a String",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2244",
+      "slug": "minimum-rounds-to-complete-all-tasks",
+      "title": "Minimum Rounds to Complete All Tasks",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2245",
+      "slug": "maximum-trailing-zeros-in-a-cornered-path",
+      "title": "Maximum Trailing Zeros in a Cornered Path",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2246",
+      "slug": "longest-path-with-different-adjacent-characters",
+      "title": "Longest Path With Different Adjacent Characters",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "tree",
+        "depth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2247",
+      "slug": "maximum-cost-of-trip-with-k-highways",
+      "title": "Maximum Cost of Trip With K Highways",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "bit-manipulation",
+        "graph",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2248",
+      "slug": "intersection-of-multiple-arrays",
+      "title": "Intersection of Multiple Arrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2249",
+      "slug": "count-lattice-points-inside-a-circle",
+      "title": "Count Lattice Points Inside a Circle",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "geometry",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2250",
+      "slug": "count-number-of-rectangles-containing-each-point",
+      "title": "Count Number of Rectangles Containing Each Point",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "binary-indexed-tree",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2251",
+      "slug": "number-of-flowers-in-full-bloom",
+      "title": "Number of Flowers in Full Bloom",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "sorting",
+        "prefix-sum",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2252",
+      "slug": "dynamic-pivoting-of-a-table",
+      "title": "Dynamic Pivoting of a Table",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2253",
+      "slug": "dynamic-unpivoting-of-a-table",
+      "title": "Dynamic Unpivoting of a Table",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2254",
+      "slug": "design-video-sharing-platform",
+      "title": "Design Video Sharing Platform",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "design",
+        "heap-priority-queue"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "2255",
+      "slug": "count-prefixes-of-a-given-string",
+      "title": "Count Prefixes of a Given String",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2256",
+      "slug": "minimum-average-difference",
+      "title": "Minimum Average Difference",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2257",
+      "slug": "count-unguarded-cells-in-the-grid",
+      "title": "Count Unguarded Cells in the Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2258",
+      "slug": "escape-the-spreading-fire",
+      "title": "Escape the Spreading Fire",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2259",
+      "slug": "remove-digit-from-number-to-maximize-result",
+      "title": "Remove Digit From Number to Maximize Result",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "greedy",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2260",
+      "slug": "minimum-consecutive-cards-to-pick-up",
+      "title": "Minimum Consecutive Cards to Pick Up",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2261",
+      "slug": "k-divisible-elements-subarrays",
+      "title": "K Divisible Elements Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "trie",
+        "rolling-hash",
+        "hash-function",
+        "enumeration"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

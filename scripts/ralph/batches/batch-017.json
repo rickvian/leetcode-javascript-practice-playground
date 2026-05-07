@@ -1,0 +1,252 @@
+{
+  "batchId": "batch-017",
+  "problems": [
+    {
+      "id": "0412",
+      "slug": "fizz-buzz",
+      "title": "Fizz Buzz",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0413",
+      "slug": "arithmetic-slices",
+      "title": "Arithmetic Slices",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0414",
+      "slug": "third-maximum-number",
+      "title": "Third Maximum Number",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0415",
+      "slug": "add-strings",
+      "title": "Add Strings",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0416",
+      "slug": "partition-equal-subset-sum",
+      "title": "Partition Equal Subset Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0418",
+      "slug": "sentence-screen-fitting",
+      "title": "Sentence Screen Fitting",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0419",
+      "slug": "battleships-in-a-board",
+      "title": "Battleships in a Board",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0420",
+      "slug": "strong-password-checker",
+      "title": "Strong Password Checker",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "greedy",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0421",
+      "slug": "maximum-xor-of-two-numbers-in-an-array",
+      "title": "Maximum XOR of Two Numbers in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "bit-manipulation",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0422",
+      "slug": "valid-word-square",
+      "title": "Valid Word Square",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0423",
+      "slug": "reconstruct-original-digits-from-english",
+      "title": "Reconstruct Original Digits from English",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0425",
+      "slug": "word-squares",
+      "title": "Word Squares",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "backtracking",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0426",
+      "slug": "convert-binary-search-tree-to-sorted-doubly-linked-list",
+      "title": "Convert Binary Search Tree to Sorted Doubly Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree",
+        "doubly-linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0427",
+      "slug": "construct-quad-tree",
+      "title": "Construct Quad Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "tree",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0428",
+      "slug": "serialize-and-deserialize-n-ary-tree",
+      "title": "Serialize and Deserialize N-ary Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0429",
+      "slug": "n-ary-tree-level-order-traversal",
+      "title": "N-ary Tree Level Order Traversal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0430",
+      "slug": "flatten-a-multilevel-doubly-linked-list",
+      "title": "Flatten a Multilevel Doubly Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "depth-first-search",
+        "doubly-linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0431",
+      "slug": "encode-n-ary-tree-to-binary-tree",
+      "title": "Encode N-ary Tree to Binary Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "design",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0432",
+      "slug": "all-oone-data-structure",
+      "title": "All O`one Data Structure",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "linked-list",
+        "design",
+        "doubly-linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0433",
+      "slug": "minimum-genetic-mutation",
+      "title": "Minimum Genetic Mutation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

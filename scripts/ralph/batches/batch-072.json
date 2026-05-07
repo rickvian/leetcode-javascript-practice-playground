@@ -1,0 +1,236 @@
+{
+  "batchId": "batch-072",
+  "problems": [
+    {
+      "id": "1522",
+      "slug": "diameter-of-n-ary-tree",
+      "title": "Diameter of N-Ary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1523",
+      "slug": "count-odd-numbers-in-an-interval-range",
+      "title": "Count Odd Numbers in an Interval Range",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1524",
+      "slug": "number-of-sub-arrays-with-odd-sum",
+      "title": "Number of Sub-arrays With Odd Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1525",
+      "slug": "number-of-good-ways-to-split-a-string",
+      "title": "Number of Good Ways to Split a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "dynamic-programming",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1526",
+      "slug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+      "title": "Minimum Number of Increments on Subarrays to Form a Target Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "stack",
+        "greedy",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1527",
+      "slug": "patients-with-a-condition",
+      "title": "Patients With a Condition",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1528",
+      "slug": "shuffle-string",
+      "title": "Shuffle String",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1529",
+      "slug": "minimum-suffix-flips",
+      "title": "Minimum Suffix Flips",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1530",
+      "slug": "number-of-good-leaf-nodes-pairs",
+      "title": "Number of Good Leaf Nodes Pairs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1531",
+      "slug": "string-compression-ii",
+      "title": "String Compression II",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1532",
+      "slug": "the-most-recent-three-orders",
+      "title": "The Most Recent Three Orders",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1533",
+      "slug": "find-the-index-of-the-large-integer",
+      "title": "Find the Index of the Large Integer",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1534",
+      "slug": "count-good-triplets",
+      "title": "Count Good Triplets",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1535",
+      "slug": "find-the-winner-of-an-array-game",
+      "title": "Find the Winner of an Array Game",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1536",
+      "slug": "minimum-swaps-to-arrange-a-binary-grid",
+      "title": "Minimum Swaps to Arrange a Binary Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1537",
+      "slug": "get-the-maximum-score",
+      "title": "Get the Maximum Score",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1538",
+      "slug": "guess-the-majority-in-a-hidden-array",
+      "title": "Guess the Majority in a Hidden Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1539",
+      "slug": "kth-missing-positive-number",
+      "title": "Kth Missing Positive Number",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1540",
+      "slug": "can-convert-string-in-k-moves",
+      "title": "Can Convert String in K Moves",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1541",
+      "slug": "minimum-insertions-to-balance-a-parentheses-string",
+      "title": "Minimum Insertions to Balance a Parentheses String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "batchId": "batch-086",
+  "problems": [
+    {
+      "id": "1802",
+      "slug": "maximum-value-at-a-given-index-in-a-bounded-array",
+      "title": "Maximum Value at a Given Index in a Bounded Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "binary-search",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1803",
+      "slug": "count-pairs-with-xor-in-a-range",
+      "title": "Count Pairs With XOR in a Range",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "bit-manipulation",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1804",
+      "slug": "implement-trie-ii-prefix-tree",
+      "title": "Implement Trie II (Prefix Tree)",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "design",
+        "trie"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1805",
+      "slug": "number-of-different-integers-in-a-string",
+      "title": "Number of Different Integers in a String",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1806",
+      "slug": "minimum-number-of-operations-to-reinitialize-a-permutation",
+      "title": "Minimum Number of Operations to Reinitialize a Permutation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1807",
+      "slug": "evaluate-the-bracket-pairs-of-a-string",
+      "title": "Evaluate the Bracket Pairs of a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1808",
+      "slug": "maximize-number-of-nice-divisors",
+      "title": "Maximize Number of Nice Divisors",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "recursion",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1809",
+      "slug": "ad-free-sessions",
+      "title": "Ad-Free Sessions",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1810",
+      "slug": "minimum-path-cost-in-a-hidden-grid",
+      "title": "Minimum Path Cost in a Hidden Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "matrix",
+        "interactive",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1811",
+      "slug": "find-interview-candidates",
+      "title": "Find Interview Candidates",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1812",
+      "slug": "determine-color-of-a-chessboard-square",
+      "title": "Determine Color of a Chessboard Square",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1813",
+      "slug": "sentence-similarity-iii",
+      "title": "Sentence Similarity III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1814",
+      "slug": "count-nice-pairs-in-an-array",
+      "title": "Count Nice Pairs in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1815",
+      "slug": "maximum-number-of-groups-getting-fresh-donuts",
+      "title": "Maximum Number of Groups Getting Fresh Donuts",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "memoization",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1816",
+      "slug": "truncate-sentence",
+      "title": "Truncate Sentence",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1817",
+      "slug": "finding-the-users-active-minutes",
+      "title": "Finding the Users Active Minutes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1818",
+      "slug": "minimum-absolute-sum-difference",
+      "title": "Minimum Absolute Sum Difference",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1819",
+      "slug": "number-of-different-subsequences-gcds",
+      "title": "Number of Different Subsequences GCDs",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "counting",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1820",
+      "slug": "maximum-number-of-accepted-invitations",
+      "title": "Maximum Number of Accepted Invitations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "graph",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1821",
+      "slug": "find-customers-with-positive-revenue-this-year",
+      "title": "Find Customers With Positive Revenue this Year",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

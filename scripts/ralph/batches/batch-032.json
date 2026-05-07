@@ -1,0 +1,258 @@
+{
+  "batchId": "batch-032",
+  "problems": [
+    {
+      "id": "0707",
+      "slug": "design-linked-list",
+      "title": "Design Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list",
+        "design"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0716",
+      "slug": "max-stack",
+      "title": "Max Stack",
+      "difficulty": "HARD",
+      "tags": [
+        "linked-list",
+        "stack",
+        "design",
+        "doubly-linked-list",
+        "ordered-set"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0720",
+      "slug": "longest-word-in-dictionary",
+      "title": "Longest Word in Dictionary",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0721",
+      "slug": "accounts-merge",
+      "title": "Accounts Merge",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0722",
+      "slug": "remove-comments",
+      "title": "Remove Comments",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0723",
+      "slug": "candy-crush",
+      "title": "Candy Crush",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0724",
+      "slug": "find-pivot-index",
+      "title": "Find Pivot Index",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0725",
+      "slug": "split-linked-list-in-parts",
+      "title": "Split Linked List in Parts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0726",
+      "slug": "number-of-atoms",
+      "title": "Number of Atoms",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "stack",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0727",
+      "slug": "minimum-window-subsequence",
+      "title": "Minimum Window Subsequence",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0728",
+      "slug": "self-dividing-numbers",
+      "title": "Self Dividing Numbers",
+      "difficulty": "EASY",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0729",
+      "slug": "my-calendar-i",
+      "title": "My Calendar I",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "design",
+        "segment-tree",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0730",
+      "slug": "count-different-palindromic-subsequences",
+      "title": "Count Different Palindromic Subsequences",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0731",
+      "slug": "my-calendar-ii",
+      "title": "My Calendar II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "design",
+        "segment-tree",
+        "prefix-sum",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0732",
+      "slug": "my-calendar-iii",
+      "title": "My Calendar III",
+      "difficulty": "HARD",
+      "tags": [
+        "binary-search",
+        "design",
+        "segment-tree",
+        "prefix-sum",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0733",
+      "slug": "flood-fill",
+      "title": "Flood Fill",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0734",
+      "slug": "sentence-similarity",
+      "title": "Sentence Similarity",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0736",
+      "slug": "parse-lisp-expression",
+      "title": "Parse Lisp Expression",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0737",
+      "slug": "sentence-similarity-ii",
+      "title": "Sentence Similarity II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0738",
+      "slug": "monotone-increasing-digits",
+      "title": "Monotone Increasing Digits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

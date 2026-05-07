@@ -1,0 +1,255 @@
+{
+  "batchId": "batch-038",
+  "problems": [
+    {
+      "id": "0839",
+      "slug": "similar-string-groups",
+      "title": "Similar String Groups",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0840",
+      "slug": "magic-squares-in-grid",
+      "title": "Magic Squares In Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0841",
+      "slug": "keys-and-rooms",
+      "title": "Keys and Rooms",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0842",
+      "slug": "split-array-into-fibonacci-sequence",
+      "title": "Split Array into Fibonacci Sequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0843",
+      "slug": "guess-the-word",
+      "title": "Guess the Word",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "string",
+        "interactive",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0844",
+      "slug": "backspace-string-compare",
+      "title": "Backspace String Compare",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string",
+        "stack",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0845",
+      "slug": "longest-mountain-in-array",
+      "title": "Longest Mountain in Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "dynamic-programming",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0846",
+      "slug": "hand-of-straights",
+      "title": "Hand of Straights",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0847",
+      "slug": "shortest-path-visiting-all-nodes",
+      "title": "Shortest Path Visiting All Nodes",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming",
+        "bit-manipulation",
+        "breadth-first-search",
+        "graph",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0848",
+      "slug": "shifting-letters",
+      "title": "Shifting Letters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0849",
+      "slug": "maximize-distance-to-closest-person",
+      "title": "Maximize Distance to Closest Person",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0850",
+      "slug": "rectangle-area-ii",
+      "title": "Rectangle Area II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "segment-tree",
+        "line-sweep",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0851",
+      "slug": "loud-and-rich",
+      "title": "Loud and Rich",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0852",
+      "slug": "peak-index-in-a-mountain-array",
+      "title": "Peak Index in a Mountain Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0853",
+      "slug": "car-fleet",
+      "title": "Car Fleet",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0854",
+      "slug": "k-similar-strings",
+      "title": "K-Similar Strings",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "string",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0855",
+      "slug": "exam-room",
+      "title": "Exam Room",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "design",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0856",
+      "slug": "score-of-parentheses",
+      "title": "Score of Parentheses",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0857",
+      "slug": "minimum-cost-to-hire-k-workers",
+      "title": "Minimum Cost to Hire K Workers",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0858",
+      "slug": "mirror-reflection",
+      "title": "Mirror Reflection",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "geometry",
+        "number-theory"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

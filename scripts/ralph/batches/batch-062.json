@@ -1,0 +1,236 @@
+{
+  "batchId": "batch-062",
+  "problems": [
+    {
+      "id": "1322",
+      "slug": "ads-performance",
+      "title": "Ads Performance",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1323",
+      "slug": "maximum-69-number",
+      "title": "Maximum 69 Number",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1324",
+      "slug": "print-words-vertically",
+      "title": "Print Words Vertically",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1325",
+      "slug": "delete-leaves-with-a-given-value",
+      "title": "Delete Leaves With a Given Value",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1326",
+      "slug": "minimum-number-of-taps-to-open-to-water-a-garden",
+      "title": "Minimum Number of Taps to Open to Water a Garden",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1327",
+      "slug": "list-the-products-ordered-in-a-period",
+      "title": "List the Products Ordered in a Period",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1328",
+      "slug": "break-a-palindrome",
+      "title": "Break a Palindrome",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1329",
+      "slug": "sort-the-matrix-diagonally",
+      "title": "Sort the Matrix Diagonally",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1330",
+      "slug": "reverse-subarray-to-maximize-array-value",
+      "title": "Reverse Subarray To Maximize Array Value",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1331",
+      "slug": "rank-transform-of-an-array",
+      "title": "Rank Transform of an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1332",
+      "slug": "remove-palindromic-subsequences",
+      "title": "Remove Palindromic Subsequences",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1333",
+      "slug": "filter-restaurants-by-vegan-friendly-price-and-distance",
+      "title": "Filter Restaurants by Vegan-Friendly, Price and Distance",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1334",
+      "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "graph",
+        "shortest-path"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1335",
+      "slug": "minimum-difficulty-of-a-job-schedule",
+      "title": "Minimum Difficulty of a Job Schedule",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1336",
+      "slug": "number-of-transactions-per-visit",
+      "title": "Number of Transactions per Visit",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1337",
+      "slug": "the-k-weakest-rows-in-a-matrix",
+      "title": "The K Weakest Rows in a Matrix",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "binary-search",
+        "sorting",
+        "heap-priority-queue",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1338",
+      "slug": "reduce-array-size-to-the-half",
+      "title": "Reduce Array Size to The Half",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1339",
+      "slug": "maximum-product-of-splitted-binary-tree",
+      "title": "Maximum Product of Splitted Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1340",
+      "slug": "jump-game-v",
+      "title": "Jump Game V",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1341",
+      "slug": "movie-rating",
+      "title": "Movie Rating",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

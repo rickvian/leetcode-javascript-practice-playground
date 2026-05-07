@@ -1,0 +1,253 @@
+{
+  "batchId": "batch-118",
+  "problems": [
+    {
+      "id": "2442",
+      "slug": "count-number-of-distinct-integers-after-reverse-operations",
+      "title": "Count Number of Distinct Integers After Reverse Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2443",
+      "slug": "sum-of-number-and-its-reverse",
+      "title": "Sum of Number and Its Reverse",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2444",
+      "slug": "count-subarrays-with-fixed-bounds",
+      "title": "Count Subarrays With Fixed Bounds",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "queue",
+        "sliding-window",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2445",
+      "slug": "number-of-nodes-with-value-one",
+      "title": "Number of Nodes With Value One",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2446",
+      "slug": "determine-if-two-events-have-conflict",
+      "title": "Determine if Two Events Have Conflict",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2447",
+      "slug": "number-of-subarrays-with-gcd-equal-to-k",
+      "title": "Number of Subarrays With GCD Equal to K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2448",
+      "slug": "minimum-cost-to-make-array-equal",
+      "title": "Minimum Cost to Make Array Equal",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "greedy",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2449",
+      "slug": "minimum-number-of-operations-to-make-arrays-similar",
+      "title": "Minimum Number of Operations to Make Arrays Similar",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2450",
+      "slug": "number-of-distinct-binary-strings-after-applying-operations",
+      "title": "Number of Distinct Binary Strings After Applying Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2451",
+      "slug": "odd-string-difference",
+      "title": "Odd String Difference",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2452",
+      "slug": "words-within-two-edits-of-dictionary",
+      "title": "Words Within Two Edits of Dictionary",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2453",
+      "slug": "destroy-sequential-targets",
+      "title": "Destroy Sequential Targets",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2454",
+      "slug": "next-greater-element-iv",
+      "title": "Next Greater Element IV",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "stack",
+        "sorting",
+        "heap-priority-queue",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2455",
+      "slug": "average-value-of-even-numbers-that-are-divisible-by-three",
+      "title": "Average Value of Even Numbers That Are Divisible by Three",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2456",
+      "slug": "most-popular-video-creator",
+      "title": "Most Popular Video Creator",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2457",
+      "slug": "minimum-addition-to-make-integer-beautiful",
+      "title": "Minimum Addition to Make Integer Beautiful",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2458",
+      "slug": "height-of-binary-tree-after-subtree-removal-queries",
+      "title": "Height of Binary Tree After Subtree Removal Queries",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2459",
+      "slug": "sort-array-by-moving-items-to-empty-space",
+      "title": "Sort Array by Moving Items to Empty Space",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2460",
+      "slug": "apply-operations-to-an-array",
+      "title": "Apply Operations to an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2461",
+      "slug": "maximum-sum-of-distinct-subarrays-with-length-k",
+      "title": "Maximum Sum of Distinct Subarrays With Length K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

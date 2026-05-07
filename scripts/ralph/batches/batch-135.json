@@ -1,0 +1,218 @@
+{
+  "batchId": "batch-135",
+  "problems": [
+    {
+      "id": "2782",
+      "slug": "number-of-unique-categories",
+      "title": "Number of Unique Categories",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "union-find",
+        "interactive",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2783",
+      "slug": "flight-occupancy-and-waitlist-analysis",
+      "title": "Flight Occupancy and Waitlist Analysis",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2784",
+      "slug": "check-if-array-is-good",
+      "title": "Check if Array is Good",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2785",
+      "slug": "sort-vowels-in-a-string",
+      "title": "Sort Vowels in a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2786",
+      "slug": "visit-array-positions-to-maximize-score",
+      "title": "Visit Array Positions to Maximize Score",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2787",
+      "slug": "ways-to-express-an-integer-as-sum-of-powers",
+      "title": "Ways to Express an Integer as Sum of Powers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2788",
+      "slug": "split-strings-by-separator",
+      "title": "Split Strings by Separator",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2789",
+      "slug": "largest-element-in-an-array-after-merge-operations",
+      "title": "Largest Element in an Array after Merge Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2790",
+      "slug": "maximum-number-of-groups-with-increasing-length",
+      "title": "Maximum Number of Groups With Increasing Length",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "binary-search",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2791",
+      "slug": "count-paths-that-can-form-a-palindrome-in-a-tree",
+      "title": "Count Paths That Can Form a Palindrome in a Tree",
+      "difficulty": "HARD",
+      "tags": [
+        "hash-table",
+        "dynamic-programming",
+        "bit-manipulation",
+        "tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2792",
+      "slug": "count-nodes-that-are-great-enough",
+      "title": "Count Nodes That Are Great Enough",
+      "difficulty": "HARD",
+      "tags": [
+        "divide-and-conquer",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2793",
+      "slug": "status-of-flight-tickets",
+      "title": "Status of Flight Tickets",
+      "difficulty": "HARD",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2794",
+      "slug": "create-object-from-two-arrays",
+      "title": "Create Object from Two Arrays",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2795",
+      "slug": "parallel-execution-of-promises-for-individual-results-retrieval",
+      "title": "Parallel Execution of Promises for Individual Results Retrieval",
+      "difficulty": "MEDIUM",
+      "tags": [],
+      "classHeavy": true
+    },
+    {
+      "id": "2796",
+      "slug": "repeat-string",
+      "title": "Repeat String",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2797",
+      "slug": "partial-function-with-placeholders",
+      "title": "Partial Function with Placeholders",
+      "difficulty": "EASY",
+      "tags": [],
+      "classHeavy": false
+    },
+    {
+      "id": "2798",
+      "slug": "number-of-employees-who-met-the-target",
+      "title": "Number of Employees Who Met the Target",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2799",
+      "slug": "count-complete-subarrays-in-an-array",
+      "title": "Count Complete Subarrays in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2800",
+      "slug": "shortest-string-that-contains-three-strings",
+      "title": "Shortest String That Contains Three Strings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "2801",
+      "slug": "count-stepping-numbers-in-range",
+      "title": "Count Stepping Numbers in Range",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

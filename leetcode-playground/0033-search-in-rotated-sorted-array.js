@@ -8,8 +8,46 @@
  * @param {number} target
  * @return {number}
  */
-var search = function(nums, target) {
+var search = function (nums, target) {
+  let left = 0;
+  let right = nums.length - 1;
 
+  while (left <= right) {
+    let mid = Math.floor((right + left) / 2);
+
+    // base case
+
+    if (nums[mid] === target) return mid;
+
+    // figure where we are at, is it left or right portion,
+    // so we know the pivot is.
+    if (nums[mid] >= nums[0]) {
+      // mid is on left portion of sorted array
+      // pivot is on right side, right has 2 condition
+      if (target < nums[0] || target > nums[mid]) {
+        // search right
+        left = mid + 1;
+      } else {
+        //target < nums[mid] && target > nums[0]
+        // search left
+        right = mid - 1;
+      }
+    } else {
+      // nums[mid] < nums[0]
+      // mid is currently on RIGHT sorted portion of array.
+      // pivot is somewhere on left, left rotated contains 2 conditions
+      if (target >= nums[0] || target < nums[mid]) {
+        // why target >= nums[0]? because left rotated section check includes nums[0]
+        // search left
+        right = mid - 1;
+      } else {
+        left = mid + 1;
+      }
+      // mid is on right portion of sorted array
+    }
+  }
+
+  return -1;
 };
 
 export { search };

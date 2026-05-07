@@ -1,0 +1,242 @@
+{
+  "batchId": "batch-056",
+  "problems": [
+    {
+      "id": "1202",
+      "slug": "smallest-string-with-swaps",
+      "title": "Smallest String With Swaps",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1203",
+      "slug": "sort-items-by-groups-respecting-dependencies",
+      "title": "Sort Items by Groups Respecting Dependencies",
+      "difficulty": "HARD",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1204",
+      "slug": "last-person-to-fit-in-the-bus",
+      "title": "Last Person to Fit in the Bus",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1205",
+      "slug": "monthly-transactions-ii",
+      "title": "Monthly Transactions II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1206",
+      "slug": "design-skiplist",
+      "title": "Design Skiplist",
+      "difficulty": "HARD",
+      "tags": [
+        "linked-list",
+        "design"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1207",
+      "slug": "unique-number-of-occurrences",
+      "title": "Unique Number of Occurrences",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1208",
+      "slug": "get-equal-substrings-within-budget",
+      "title": "Get Equal Substrings Within Budget",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "binary-search",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1209",
+      "slug": "remove-all-adjacent-duplicates-in-string-ii",
+      "title": "Remove All Adjacent Duplicates in String II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1210",
+      "slug": "minimum-moves-to-reach-target-with-rotations",
+      "title": "Minimum Moves to Reach Target with Rotations",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1211",
+      "slug": "queries-quality-and-percentage",
+      "title": "Queries Quality and Percentage",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1212",
+      "slug": "team-scores-in-football-tournament",
+      "title": "Team Scores in Football Tournament",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1213",
+      "slug": "intersection-of-three-sorted-arrays",
+      "title": "Intersection of Three Sorted Arrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1214",
+      "slug": "two-sum-bsts",
+      "title": "Two Sum BSTs",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "two-pointers",
+        "binary-search",
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1215",
+      "slug": "stepping-numbers",
+      "title": "Stepping Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "backtracking",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1216",
+      "slug": "valid-palindrome-iii",
+      "title": "Valid Palindrome III",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1217",
+      "slug": "minimum-cost-to-move-chips-to-the-same-position",
+      "title": "Minimum Cost to Move Chips to The Same Position",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1218",
+      "slug": "longest-arithmetic-subsequence-of-given-difference",
+      "title": "Longest Arithmetic Subsequence of Given Difference",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1219",
+      "slug": "path-with-maximum-gold",
+      "title": "Path with Maximum Gold",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "backtracking",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1220",
+      "slug": "count-vowels-permutation",
+      "title": "Count Vowels Permutation",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1221",
+      "slug": "split-a-string-in-balanced-strings",
+      "title": "Split a String in Balanced Strings",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

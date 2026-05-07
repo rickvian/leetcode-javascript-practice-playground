@@ -1,0 +1,249 @@
+{
+  "batchId": "batch-035",
+  "problems": [
+    {
+      "id": "0779",
+      "slug": "k-th-symbol-in-grammar",
+      "title": "K-th Symbol in Grammar",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "bit-manipulation",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0780",
+      "slug": "reaching-points",
+      "title": "Reaching Points",
+      "difficulty": "HARD",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0781",
+      "slug": "rabbits-in-forest",
+      "title": "Rabbits in Forest",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0782",
+      "slug": "transform-to-chessboard",
+      "title": "Transform to Chessboard",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "bit-manipulation",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0783",
+      "slug": "minimum-distance-between-bst-nodes",
+      "title": "Minimum Distance Between BST Nodes",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0784",
+      "slug": "letter-case-permutation",
+      "title": "Letter Case Permutation",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "backtracking",
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0785",
+      "slug": "is-graph-bipartite",
+      "title": "Is Graph Bipartite?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0786",
+      "slug": "k-th-smallest-prime-fraction",
+      "title": "K-th Smallest Prime Fraction",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0787",
+      "slug": "cheapest-flights-within-k-stops",
+      "title": "Cheapest Flights Within K Stops",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "heap-priority-queue",
+        "shortest-path"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0788",
+      "slug": "rotated-digits",
+      "title": "Rotated Digits",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0789",
+      "slug": "escape-the-ghosts",
+      "title": "Escape The Ghosts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0790",
+      "slug": "domino-and-tromino-tiling",
+      "title": "Domino and Tromino Tiling",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0791",
+      "slug": "custom-sort-string",
+      "title": "Custom Sort String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0792",
+      "slug": "number-of-matching-subsequences",
+      "title": "Number of Matching Subsequences",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "binary-search",
+        "dynamic-programming",
+        "trie",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0793",
+      "slug": "preimage-size-of-factorial-zeroes-function",
+      "title": "Preimage Size of Factorial Zeroes Function",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0794",
+      "slug": "valid-tic-tac-toe-state",
+      "title": "Valid Tic-Tac-Toe State",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0795",
+      "slug": "number-of-subarrays-with-bounded-maximum",
+      "title": "Number of Subarrays with Bounded Maximum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0796",
+      "slug": "rotate-string",
+      "title": "Rotate String",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "string-matching"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0797",
+      "slug": "all-paths-from-source-to-target",
+      "title": "All Paths From Source to Target",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "backtracking",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0798",
+      "slug": "smallest-rotation-with-highest-score",
+      "title": "Smallest Rotation with Highest Score",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

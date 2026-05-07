@@ -1,0 +1,248 @@
+{
+  "batchId": "batch-069",
+  "problems": [
+    {
+      "id": "1462",
+      "slug": "course-schedule-iv",
+      "title": "Course Schedule IV",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1463",
+      "slug": "cherry-pickup-ii",
+      "title": "Cherry Pickup II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1464",
+      "slug": "maximum-product-of-two-elements-in-an-array",
+      "title": "Maximum Product of Two Elements in an Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "sorting",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1465",
+      "slug": "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+      "title": "Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1466",
+      "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+      "title": "Reorder Routes to Make All Paths Lead to the City Zero",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1467",
+      "slug": "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls",
+      "title": "Probability of a Two Boxes Having The Same Number of Distinct Balls",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "backtracking",
+        "combinatorics",
+        "probability-and-statistics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1468",
+      "slug": "calculate-salaries",
+      "title": "Calculate Salaries",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1469",
+      "slug": "find-all-the-lonely-nodes",
+      "title": "Find All The Lonely Nodes",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1470",
+      "slug": "shuffle-the-array",
+      "title": "Shuffle the Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1471",
+      "slug": "the-k-strongest-values-in-an-array",
+      "title": "The k Strongest Values in an Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1472",
+      "slug": "design-browser-history",
+      "title": "Design Browser History",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "linked-list",
+        "stack",
+        "design",
+        "doubly-linked-list",
+        "data-stream"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1473",
+      "slug": "paint-house-iii",
+      "title": "Paint House III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1474",
+      "slug": "delete-n-nodes-after-m-nodes-of-a-linked-list",
+      "title": "Delete N Nodes After M Nodes of a Linked List",
+      "difficulty": "EASY",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1475",
+      "slug": "final-prices-with-a-special-discount-in-a-shop",
+      "title": "Final Prices With a Special Discount in a Shop",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1476",
+      "slug": "subrectangle-queries",
+      "title": "Subrectangle Queries",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "design",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1477",
+      "slug": "find-two-non-overlapping-sub-arrays-each-with-target-sum",
+      "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "dynamic-programming",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1478",
+      "slug": "allocate-mailboxes",
+      "title": "Allocate Mailboxes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1479",
+      "slug": "sales-by-day-of-the-week",
+      "title": "Sales by Day of the Week",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1480",
+      "slug": "running-sum-of-1d-array",
+      "title": "Running Sum of 1d Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1481",
+      "slug": "least-number-of-unique-integers-after-k-removals",
+      "title": "Least Number of Unique Integers after K Removals",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

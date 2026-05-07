@@ -1,0 +1,254 @@
+{
+  "batchId": "batch-042",
+  "problems": [
+    {
+      "id": "0920",
+      "slug": "number-of-music-playlists",
+      "title": "Number of Music Playlists",
+      "difficulty": "HARD",
+      "tags": [
+        "math",
+        "dynamic-programming",
+        "combinatorics"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0921",
+      "slug": "minimum-add-to-make-parentheses-valid",
+      "title": "Minimum Add to Make Parentheses Valid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0922",
+      "slug": "sort-array-by-parity-ii",
+      "title": "Sort Array By Parity II",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0923",
+      "slug": "3sum-with-multiplicity",
+      "title": "3Sum With Multiplicity",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "two-pointers",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0924",
+      "slug": "minimize-malware-spread",
+      "title": "Minimize Malware Spread",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0925",
+      "slug": "long-pressed-name",
+      "title": "Long Pressed Name",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0926",
+      "slug": "flip-string-to-monotone-increasing",
+      "title": "Flip String to Monotone Increasing",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0927",
+      "slug": "three-equal-parts",
+      "title": "Three Equal Parts",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0928",
+      "slug": "minimize-malware-spread-ii",
+      "title": "Minimize Malware Spread II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0929",
+      "slug": "unique-email-addresses",
+      "title": "Unique Email Addresses",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0930",
+      "slug": "binary-subarrays-with-sum",
+      "title": "Binary Subarrays With Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0931",
+      "slug": "minimum-falling-path-sum",
+      "title": "Minimum Falling Path Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0932",
+      "slug": "beautiful-array",
+      "title": "Beautiful Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "divide-and-conquer"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0933",
+      "slug": "number-of-recent-calls",
+      "title": "Number of Recent Calls",
+      "difficulty": "EASY",
+      "tags": [
+        "design",
+        "queue",
+        "data-stream"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0934",
+      "slug": "shortest-bridge",
+      "title": "Shortest Bridge",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0935",
+      "slug": "knight-dialer",
+      "title": "Knight Dialer",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0936",
+      "slug": "stamping-the-sequence",
+      "title": "Stamping The Sequence",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "stack",
+        "greedy",
+        "queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0937",
+      "slug": "reorder-data-in-log-files",
+      "title": "Reorder Data in Log Files",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0938",
+      "slug": "range-sum-of-bst",
+      "title": "Range Sum of BST",
+      "difficulty": "EASY",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0939",
+      "slug": "minimum-area-rectangle",
+      "title": "Minimum Area Rectangle",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "geometry",
+        "sorting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "batchId": "batch-008",
+  "problems": [
+    {
+      "id": "0194",
+      "slug": "transpose-file",
+      "title": "Transpose File",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "shell"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0195",
+      "slug": "tenth-line",
+      "title": "Tenth Line",
+      "difficulty": "EASY",
+      "tags": [
+        "shell"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0196",
+      "slug": "delete-duplicate-emails",
+      "title": "Delete Duplicate Emails",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0197",
+      "slug": "rising-temperature",
+      "title": "Rising Temperature",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0199",
+      "slug": "binary-tree-right-side-view",
+      "title": "Binary Tree Right Side View",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0201",
+      "slug": "bitwise-and-of-numbers-range",
+      "title": "Bitwise AND of Numbers Range",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "bit-manipulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0202",
+      "slug": "happy-number",
+      "title": "Happy Number",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "math",
+        "two-pointers"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0203",
+      "slug": "remove-linked-list-elements",
+      "title": "Remove Linked List Elements",
+      "difficulty": "EASY",
+      "tags": [
+        "linked-list",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0204",
+      "slug": "count-primes",
+      "title": "Count Primes",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "enumeration",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0205",
+      "slug": "isomorphic-strings",
+      "title": "Isomorphic Strings",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0209",
+      "slug": "minimum-size-subarray-sum",
+      "title": "Minimum Size Subarray Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "binary-search",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0214",
+      "slug": "shortest-palindrome",
+      "title": "Shortest Palindrome",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "rolling-hash",
+        "string-matching",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0218",
+      "slug": "the-skyline-problem",
+      "title": "The Skyline Problem",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "line-sweep",
+        "sorting",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0219",
+      "slug": "contains-duplicate-ii",
+      "title": "Contains Duplicate II",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0220",
+      "slug": "contains-duplicate-iii",
+      "title": "Contains Duplicate III",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "sliding-window",
+        "sorting",
+        "bucket-sort",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0222",
+      "slug": "count-complete-tree-nodes",
+      "title": "Count Complete Tree Nodes",
+      "difficulty": "EASY",
+      "tags": [
+        "binary-search",
+        "bit-manipulation",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0223",
+      "slug": "rectangle-area",
+      "title": "Rectangle Area",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0225",
+      "slug": "implement-stack-using-queues",
+      "title": "Implement Stack using Queues",
+      "difficulty": "EASY",
+      "tags": [
+        "stack",
+        "design",
+        "queue"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0228",
+      "slug": "summary-ranges",
+      "title": "Summary Ranges",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0229",
+      "slug": "majority-element-ii",
+      "title": "Majority Element II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "counting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

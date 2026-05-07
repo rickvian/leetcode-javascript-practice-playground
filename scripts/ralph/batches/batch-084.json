@@ -1,0 +1,244 @@
+{
+  "batchId": "batch-084",
+  "problems": [
+    {
+      "id": "1762",
+      "slug": "buildings-with-an-ocean-view",
+      "title": "Buildings With an Ocean View",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1763",
+      "slug": "longest-nice-substring",
+      "title": "Longest Nice Substring",
+      "difficulty": "EASY",
+      "tags": [
+        "hash-table",
+        "string",
+        "divide-and-conquer",
+        "bit-manipulation",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1764",
+      "slug": "form-array-by-concatenating-subarrays-of-another-array",
+      "title": "Form Array by Concatenating Subarrays of Another Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "string-matching"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1765",
+      "slug": "map-of-highest-peak",
+      "title": "Map of Highest Peak",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "breadth-first-search",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1766",
+      "slug": "tree-of-coprimes",
+      "title": "Tree of Coprimes",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "tree",
+        "depth-first-search",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1767",
+      "slug": "find-the-subtasks-that-did-not-execute",
+      "title": "Find the Subtasks That Did Not Execute",
+      "difficulty": "HARD",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1768",
+      "slug": "merge-strings-alternately",
+      "title": "Merge Strings Alternately",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1769",
+      "slug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
+      "title": "Minimum Number of Operations to Move All Balls to Each Box",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1770",
+      "slug": "maximum-score-from-performing-multiplication-operations",
+      "title": "Maximum Score from Performing Multiplication Operations",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1771",
+      "slug": "maximize-palindrome-length-from-subsequences",
+      "title": "Maximize Palindrome Length From Subsequences",
+      "difficulty": "HARD",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1772",
+      "slug": "sort-features-by-popularity",
+      "title": "Sort Features by Popularity",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1773",
+      "slug": "count-items-matching-a-rule",
+      "title": "Count Items Matching a Rule",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1774",
+      "slug": "closest-dessert-cost",
+      "title": "Closest Dessert Cost",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1775",
+      "slug": "equal-sum-arrays-with-minimum-number-of-operations",
+      "title": "Equal Sum Arrays With Minimum Number of Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "greedy",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1776",
+      "slug": "car-fleet-ii",
+      "title": "Car Fleet II",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "stack",
+        "heap-priority-queue",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1777",
+      "slug": "products-price-for-each-store",
+      "title": "Product's Price for Each Store",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1778",
+      "slug": "shortest-path-in-a-hidden-grid",
+      "title": "Shortest Path in a Hidden Grid",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "matrix",
+        "interactive"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1779",
+      "slug": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+      "title": "Find Nearest Point That Has the Same X or Y Coordinate",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1780",
+      "slug": "check-if-number-is-a-sum-of-powers-of-three",
+      "title": "Check if Number is a Sum of Powers of Three",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1781",
+      "slug": "sum-of-beauty-of-all-substrings",
+      "title": "Sum of Beauty of All Substrings",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "counting"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

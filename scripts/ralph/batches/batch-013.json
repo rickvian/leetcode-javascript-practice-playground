@@ -1,0 +1,261 @@
+{
+  "batchId": "batch-013",
+  "problems": [
+    {
+      "id": "0327",
+      "slug": "count-of-range-sum",
+      "title": "Count of Range Sum",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "binary-search",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "ordered-set"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0328",
+      "slug": "odd-even-linked-list",
+      "title": "Odd Even Linked List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "linked-list"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0329",
+      "slug": "longest-increasing-path-in-a-matrix",
+      "title": "Longest Increasing Path in a Matrix",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort",
+        "memoization",
+        "matrix"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0330",
+      "slug": "patching-array",
+      "title": "Patching Array",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0331",
+      "slug": "verify-preorder-serialization-of-a-binary-tree",
+      "title": "Verify Preorder Serialization of a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "stack",
+        "tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0332",
+      "slug": "reconstruct-itinerary",
+      "title": "Reconstruct Itinerary",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "string",
+        "depth-first-search",
+        "graph",
+        "sorting",
+        "heap-priority-queue",
+        "eulerian-circuit"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0333",
+      "slug": "largest-bst-subtree",
+      "title": "Largest BST Subtree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0334",
+      "slug": "increasing-triplet-subsequence",
+      "title": "Increasing Triplet Subsequence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0335",
+      "slug": "self-crossing",
+      "title": "Self Crossing",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0336",
+      "slug": "palindrome-pairs",
+      "title": "Palindrome Pairs",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0337",
+      "slug": "house-robber-iii",
+      "title": "House Robber III",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "dynamic-programming",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0339",
+      "slug": "nested-list-weight-sum",
+      "title": "Nested List Weight Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0340",
+      "slug": "longest-substring-with-at-most-k-distinct-characters",
+      "title": "Longest Substring with At Most K Distinct Characters",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0341",
+      "slug": "flatten-nested-list-iterator",
+      "title": "Flatten Nested List Iterator",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "stack",
+        "tree",
+        "depth-first-search",
+        "design",
+        "queue",
+        "iterator"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "0342",
+      "slug": "power-of-four",
+      "title": "Power of Four",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "bit-manipulation",
+        "recursion"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0343",
+      "slug": "integer-break",
+      "title": "Integer Break",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0344",
+      "slug": "reverse-string",
+      "title": "Reverse String",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0345",
+      "slug": "reverse-vowels-of-a-string",
+      "title": "Reverse Vowels of a String",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0346",
+      "slug": "moving-average-from-data-stream",
+      "title": "Moving Average from Data Stream",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "design",
+        "queue",
+        "data-stream"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "0348",
+      "slug": "design-tic-tac-toe",
+      "title": "Design Tic-Tac-Toe",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "design",
+        "matrix",
+        "simulation"
+      ],
+      "classHeavy": true
+    }
+  ]
+}

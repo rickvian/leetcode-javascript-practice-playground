@@ -1,0 +1,241 @@
+{
+  "batchId": "batch-068",
+  "problems": [
+    {
+      "id": "1442",
+      "slug": "count-triplets-that-can-form-two-arrays-of-equal-xor",
+      "title": "Count Triplets That Can Form Two Arrays of Equal XOR",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "bit-manipulation",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1443",
+      "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+      "title": "Minimum Time to Collect All Apples in a Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1444",
+      "slug": "number-of-ways-of-cutting-a-pizza",
+      "title": "Number of Ways of Cutting a Pizza",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "memoization",
+        "matrix",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1445",
+      "slug": "apples-oranges",
+      "title": "Apples & Oranges",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1446",
+      "slug": "consecutive-characters",
+      "title": "Consecutive Characters",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1447",
+      "slug": "simplified-fractions",
+      "title": "Simplified Fractions",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "string",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1448",
+      "slug": "count-good-nodes-in-binary-tree",
+      "title": "Count Good Nodes in Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1449",
+      "slug": "form-largest-integer-with-digits-that-add-up-to-target",
+      "title": "Form Largest Integer With Digits That Add up to Target",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1450",
+      "slug": "number-of-students-doing-homework-at-a-given-time",
+      "title": "Number of Students Doing Homework at a Given Time",
+      "difficulty": "EASY",
+      "tags": [
+        "array"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1451",
+      "slug": "rearrange-words-in-a-sentence",
+      "title": "Rearrange Words in a Sentence",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1452",
+      "slug": "people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list",
+      "title": "People Whose List of Favorite Companies Is Not a Subset of Another List",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1453",
+      "slug": "maximum-number-of-darts-inside-of-a-circular-dartboard",
+      "title": "Maximum Number of Darts Inside of a Circular Dartboard",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "geometry"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1454",
+      "slug": "active-users",
+      "title": "Active Users",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1455",
+      "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+      "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+      "difficulty": "EASY",
+      "tags": [
+        "two-pointers",
+        "string",
+        "string-matching"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1456",
+      "slug": "maximum-number-of-vowels-in-a-substring-of-given-length",
+      "title": "Maximum Number of Vowels in a Substring of Given Length",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1457",
+      "slug": "pseudo-palindromic-paths-in-a-binary-tree",
+      "title": "Pseudo-Palindromic Paths in a Binary Tree",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "bit-manipulation",
+        "tree",
+        "depth-first-search",
+        "breadth-first-search",
+        "binary-tree"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1458",
+      "slug": "max-dot-product-of-two-subsequences",
+      "title": "Max Dot Product of Two Subsequences",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1459",
+      "slug": "rectangles-area",
+      "title": "Rectangles Area",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1460",
+      "slug": "make-two-arrays-equal-by-reversing-subarrays",
+      "title": "Make Two Arrays Equal by Reversing Subarrays",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1461",
+      "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+      "title": "Check If a String Contains All Binary Codes of Size K",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "rolling-hash",
+        "hash-function"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

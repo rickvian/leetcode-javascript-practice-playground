@@ -1,0 +1,248 @@
+{
+  "batchId": "batch-080",
+  "problems": [
+    {
+      "id": "1682",
+      "slug": "longest-palindromic-subsequence-ii",
+      "title": "Longest Palindromic Subsequence II",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1683",
+      "slug": "invalid-tweets",
+      "title": "Invalid Tweets",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1684",
+      "slug": "count-the-number-of-consistent-strings",
+      "title": "Count the Number of Consistent Strings",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "counting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1685",
+      "slug": "sum-of-absolute-differences-in-a-sorted-array",
+      "title": "Sum of Absolute Differences in a Sorted Array",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1686",
+      "slug": "stone-game-vi",
+      "title": "Stone Game VI",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "greedy",
+        "sorting",
+        "heap-priority-queue",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1687",
+      "slug": "delivering-boxes-from-storage-to-ports",
+      "title": "Delivering Boxes from Storage to Ports",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "segment-tree",
+        "queue",
+        "heap-priority-queue",
+        "prefix-sum",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1688",
+      "slug": "count-of-matches-in-tournament",
+      "title": "Count of Matches in Tournament",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1689",
+      "slug": "partitioning-into-minimum-number-of-deci-binary-numbers",
+      "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1690",
+      "slug": "stone-game-vii",
+      "title": "Stone Game VII",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "game-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1691",
+      "slug": "maximum-height-by-stacking-cuboids",
+      "title": "Maximum Height by Stacking Cuboids ",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1692",
+      "slug": "count-ways-to-distribute-candies",
+      "title": "Count Ways to Distribute Candies",
+      "difficulty": "HARD",
+      "tags": [
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1693",
+      "slug": "daily-leads-and-partners",
+      "title": "Daily Leads and Partners",
+      "difficulty": "EASY",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1694",
+      "slug": "reformat-phone-number",
+      "title": "Reformat Phone Number",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1695",
+      "slug": "maximum-erasure-value",
+      "title": "Maximum Erasure Value",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1696",
+      "slug": "jump-game-vi",
+      "title": "Jump Game VI",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "queue",
+        "heap-priority-queue",
+        "monotonic-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1697",
+      "slug": "checking-existence-of-edge-length-limited-paths",
+      "title": "Checking Existence of Edge Length Limited Paths",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "two-pointers",
+        "union-find",
+        "graph",
+        "sorting"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1698",
+      "slug": "number-of-distinct-substrings-in-a-string",
+      "title": "Number of Distinct Substrings in a String",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "string",
+        "trie",
+        "rolling-hash",
+        "suffix-array",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1699",
+      "slug": "number-of-calls-between-two-persons",
+      "title": "Number of Calls Between Two Persons",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1700",
+      "slug": "number-of-students-unable-to-eat-lunch",
+      "title": "Number of Students Unable to Eat Lunch",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "stack",
+        "queue",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1701",
+      "slug": "average-waiting-time",
+      "title": "Average Waiting Time",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "classHeavy": false
+    }
+  ]
+}

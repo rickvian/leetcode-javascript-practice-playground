@@ -1,0 +1,243 @@
+{
+  "batchId": "batch-093",
+  "problems": [
+    {
+      "id": "1942",
+      "slug": "the-number-of-the-smallest-unoccupied-chair",
+      "title": "The Number of the Smallest Unoccupied Chair",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "heap-priority-queue"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1943",
+      "slug": "describe-the-painting",
+      "title": "Describe the Painting",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1944",
+      "slug": "number-of-visible-people-in-a-queue",
+      "title": "Number of Visible People in a Queue",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": true
+    },
+    {
+      "id": "1945",
+      "slug": "sum-of-digits-of-string-after-convert",
+      "title": "Sum of Digits of String After Convert",
+      "difficulty": "EASY",
+      "tags": [
+        "string",
+        "simulation"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1946",
+      "slug": "largest-number-after-mutating-substring",
+      "title": "Largest Number After Mutating Substring",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "string",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1947",
+      "slug": "maximum-compatibility-score-sum",
+      "title": "Maximum Compatibility Score Sum",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "backtracking",
+        "bit-manipulation",
+        "bitmask"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1948",
+      "slug": "delete-duplicate-folders-in-system",
+      "title": "Delete Duplicate Folders in System",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1949",
+      "slug": "strong-friendship",
+      "title": "Strong Friendship",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1950",
+      "slug": "maximum-of-minimum-values-in-all-subarrays",
+      "title": "Maximum of Minimum Values in All Subarrays",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1951",
+      "slug": "all-the-pairs-with-the-maximum-number-of-common-followers",
+      "title": "All the Pairs With the Maximum Number of Common Followers",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "database"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1952",
+      "slug": "three-divisors",
+      "title": "Three Divisors",
+      "difficulty": "EASY",
+      "tags": [
+        "math",
+        "enumeration",
+        "number-theory"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1953",
+      "slug": "maximum-number-of-weeks-for-which-you-can-work",
+      "title": "Maximum Number of Weeks for Which You Can Work",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1954",
+      "slug": "minimum-garden-perimeter-to-collect-enough-apples",
+      "title": "Minimum Garden Perimeter to Collect Enough Apples",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "math",
+        "binary-search"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1955",
+      "slug": "count-number-of-special-subsequences",
+      "title": "Count Number of Special Subsequences",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "dynamic-programming"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1956",
+      "slug": "minimum-time-for-k-virus-variants-to-spread",
+      "title": "Minimum Time For K Virus Variants to Spread",
+      "difficulty": "HARD",
+      "tags": [
+        "array",
+        "math",
+        "binary-search",
+        "geometry",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1957",
+      "slug": "delete-characters-to-make-fancy-string",
+      "title": "Delete Characters to Make Fancy String",
+      "difficulty": "EASY",
+      "tags": [
+        "string"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1958",
+      "slug": "check-if-move-is-legal",
+      "title": "Check if Move is Legal",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "matrix",
+        "enumeration"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1959",
+      "slug": "minimum-total-space-wasted-with-k-resizing-operations",
+      "title": "Minimum Total Space Wasted With K Resizing Operations",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "array",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1960",
+      "slug": "maximum-product-of-the-length-of-two-palindromic-substrings",
+      "title": "Maximum Product of the Length of Two Palindromic Substrings",
+      "difficulty": "HARD",
+      "tags": [
+        "two-pointers",
+        "string",
+        "rolling-hash",
+        "hash-function"
+      ],
+      "classHeavy": false
+    },
+    {
+      "id": "1961",
+      "slug": "check-if-string-is-a-prefix-of-array",
+      "title": "Check If String Is a Prefix of Array",
+      "difficulty": "EASY",
+      "tags": [
+        "array",
+        "two-pointers",
+        "string"
+      ],
+      "classHeavy": false
+    }
+  ]
+}
