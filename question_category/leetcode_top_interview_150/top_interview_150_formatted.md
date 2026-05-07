@@ -108,6 +108,7 @@
 0189 - rotate array
 0190 - reverse bits
 0191 - number of 1 bits
+0198 - house robber
 0199 - binary tree right side view
 0200 - number of islands
 0201 - bitwise and of numbers range
