@@ -35,10 +35,16 @@
  */
 class MaxPriorityQueue {
   #heap = [];
-  #valueOf;
+  #priorityOf;
 
-  constructor({ valueOf = (x) => x } = {}) {
-    this.#valueOf = valueOf;
+  /**
+   * @param {object} [opts]
+   * @param {(item: any) => number} [opts.priorityOf] — extracts numeric priority from an item.
+   *   NOTE: do NOT name this `valueOf` — it collides with Object.prototype.valueOf,
+   *   which destructuring picks up via the prototype chain when the option object is empty.
+   */
+  constructor({ priorityOf = (x) => x } = {}) {
+    this.#priorityOf = priorityOf;
   }
 
   enqueue(val) {
@@ -73,7 +79,7 @@ class MaxPriorityQueue {
   }
 
   #priority(i) {
-    return this.#valueOf(this.#heap[i]);
+    return this.#priorityOf(this.#heap[i]);
   }
 
   #swap(i, j) {
