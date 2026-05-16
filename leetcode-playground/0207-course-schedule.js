@@ -11,84 +11,69 @@
  * @return {boolean}
  */
 var canFinish = function (numCourses, prerequisites) {
-  // 0-3 (numCourse-1)
   // e.g [0, 1], [0, 2], [1, 3], [2, 3]
   // num of course: 4
-  // traverse all chain of dependency, and if there are cycle, meaning it cannot be solved.
-  // we can have like memory to remember if we visited that before, so when cycle happens, return false (course cannot be finisehd.)
+  // 0 -> 1 -> 3
+  //   -> 2 ->
+  // intuition, we need to perform traversal, and ensure all courses can be completed
+  // the only case where its not possible is when we find circular dependency
 
-  // we could have like independent path chains, so we need to check all prerequisite items.
+  // we will keep finding it, if no circular found, return true
 
-  // traverse the dependency path, check the possibility
+  // to help traversal able to look up dependency fast, we can levereage prerequisite map
 
-  // for each of prerequisites, traverse them, dfs
-
-  // [0,1], [0,2]
-
-  // preMap
-
-  const preMap = {};
-
-  // {
-  //   0:[]
-  //   1:[]
-  //   2:[]
-  //   3:[]
-  // }
-
-  // build map
-  for (let i = 0; i < numCourses; i++) {
-    preMap[i] = [];
-  } // initiate empty array
-
-  // push prereq to the map
+  let preMap = {}; // { [courses]: [..prerequisites]}
 
   for (let [course, dependency] of prerequisites) {
+    if (!preMap[course]) {
+      preMap[course] = [];
+    }
+
     preMap[course].push(dependency);
   }
 
-  // {
-  // 0: [1, 2]
-  // 1: [3]
-  // 2: [3]
-  // 3: []
-  //}
-
-  // perform dfs on every course.
-
-  const visitedSet = new Set(); // current nodes marked as visited for current path traversal.
+  let visited = new Set();
 
   function dfs(crs) {
-    // base case / edge case
-    if (visitedSet.has(crs)) {
-      return false; // cycle detected
+    // traverse crs dependencies, if we reach all deps without circle, return true
+
+    // base cases
+    // if visited before, meaning we are visiting again circularly
+    if (visited.has(crs)) {
+      return false;
     }
 
-    if (preMap[crs].length === 0) {
-      // can be finished independently
+    if (!preMap[crs]) {
+      // it has no dependency, clear, can immediately complete this one
       return true;
     }
 
-    // it has dependency, we need to traverse further to check the resolution.
+    // process current course
+    visited.add(crs);
 
-    visitedSet.add(crs);
+    // perform dfs on all of crs dependency, ensure they contain no dependency as well
 
-    // check all deps
-    for (let dep of preMap[crs]) {
-      if (!dfs(dep)) return false; // if cycle detected, immediately return false.
-      // if depth returns true, continue check all dependency.
+    for (let depCourse of preMap[crs]) {
+      if (!dfs(depCourse)) {
+        return false; // dependency contain circular
+      }
     }
 
-    // checked all, no issue with dependency.
-    visitedSet.delete(crs); // remove current CRS from visitedSet of current
+    // backtrack
+    // once done, we done explore that path, remove it from visited
+    visited.delete(crs);
 
+    // if there are no issue
     return true;
   }
 
-  // dfs all course, because they can be independent
-  for (let i = 0; i < numCourses; i++) {
-    if (!dfs(i)) return false; // if false occured, return false
+  // then we can perform DFS on each courses to check if we are able to complete each
+
+  for (let course = 0; course < numCourses; course++) {
+    if (!dfs(course)) return false; // if any return false, immediately return false
   }
+
+  // otherwise all good
 
   return true;
 };

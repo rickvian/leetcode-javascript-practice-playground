@@ -6,8 +6,33 @@
  * @param {number[]} newInterval - Interval to insert [start, end]
  * @return {number[][]} Updated intervals with newInterval merged
  */
-var insert = function(_intervals, _newInterval) {
-    // Solution implementation
+var insert = function (intervals, newInterval) {
+  // input is sorted
+  // iterate through, when s
+  let res = [];
+
+  for (let [currStart, currEnd] of intervals) {
+    // check for position where we possibly able to insert the interval at
+
+    // newInterval ends < currStart
+
+    // scenario middle causing overlap prev
+    //   ----new---
+    //  ----        --currStart--
+
+    // scenario not
+    //   ----
+    //         ---
+
+    if (newInterval[1] < currStart) {
+      //it may cause previous overlaps, go check
+      let prevEnds = res.at(-1)?.[1];
+      if (prevEnds > newInterval[0]) {
+        // it does overlap with previous one, you merge them
+        prevEnds = newInterval[1]; // give new longer end, effectively merges them
+      }
+    }
+  }
 };
 
-export { insert }
+export { insert };
