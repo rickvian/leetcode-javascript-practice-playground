@@ -18,4 +18,12 @@ describe('0073-set-matrix-zeroes', () => {
         setZeroes(matrix);
         expect(matrix).toEqual([[0]]);
     });
+
+    it('should handle interior zero with first row having zero but first column having no zero', () => {
+        // [0][1] = 0 (first row has zero), [2][2] = 0 (interior zero), first col = all non-zero
+        const matrix = [[1, 0, 1], [1, 1, 1], [1, 1, 0]];
+        setZeroes(matrix);
+        // row 0 zeroed (firstRowHasZero), col 1 zeroed, row 2 zeroed, col 2 zeroed
+        expect(matrix).toEqual([[0, 0, 0], [1, 0, 0], [0, 0, 0]]);
+    });
 });

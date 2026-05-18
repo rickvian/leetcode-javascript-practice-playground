@@ -6,49 +6,41 @@
  * @return {void} Rotates matrix in-place
  */
 var rotate = function (matrix) {
-  // use 4 index to set the boundaries
-  // we wills start clearing the outer perimeter first
-
+  // Think of the matrix as concentric rings (like an onion).
+  // Each iteration of the while loop processes one ring, from outermost to innermost.
+  // left/right shrink the ring horizontally, top/bottom shrink it vertically.
   let left = 0;
-  let right = matrix[0].length - 1; // right index
-
+  let right = matrix[0].length - 1;
   let top = 0;
-  let bottom = matrix.length - 1; // left index
+  let bottom = matrix.length - 1;
 
-  // because left and right and top and bottom move at same time, there is no need to check top and bottom
   while (left < right) {
-    // rotate first item.
-    // we do reverse order for easier temp variable management.
-    // loop through 1 to lastitem-1 in top row
-
+    // i is an OFFSET from the ring's starting corner — not an absolute index.
+    // It walks along the top edge: 0 means "first element of this ring", 1 means "second", etc.
+    // right - left - 1 = number of elements to rotate per side (excluding the last corner,
+    // which is already handled by the previous i).
     for (let i = 0; i <= right - left - 1; i++) {
-      // rotate 4 points
-      // [1, 2]
-      // [3, 4]
+      // Mental model: picture a clockwise cycle of 4 cells.
+      // Save top-left before it gets overwritten, then chain-shift counter-clockwise:
+      //   bottom-left → top-left → top-right → bottom-right → (back to top-left via saved)
+      // Counter-clockwise chain = only 1 temp variable needed.
       //
-      // [0,0  0,1]
-      // [1,0  1,1]
-      //
-      let topLeft = matrix[top][left + i];
+      // Tip to recall each line: track which EDGE the cell sits on, then apply i as the offset
+      // AWAY from the ring's starting corner along that edge:
+      //   top edge    → col grows right:  left + i
+      //   left edge   → row grows down:   top + i  (but counted from bottom: bottom - i)
+      //   bottom edge → col grows left:   right - i
+      //   right edge  → row grows up:     top + i
 
-      // logic :
-      // rotate 1,0 to 0,0
-      // a.ka rotate bottom - i to top, 1
+      let topLeft = matrix[top][left + i]; // save top-left
 
-      matrix[top][left + i] = matrix[bottom - i][left];
-
-      // rotate 1,1 to 1,0
-
-      matrix[bottom - i][left] = matrix[bottom][right - i];
-      // rotate 0,1 to 1,1
-
-      matrix[bottom][right - i] = matrix[top + i][right];
-      // rotate 0,0 to 0,1
-
-      matrix[top + i][right] = topLeft;
+      matrix[top][left + i] = matrix[bottom - i][left]; // bottom-left  → top-left
+      matrix[bottom - i][left] = matrix[bottom][right - i]; // bottom-right → bottom-left
+      matrix[bottom][right - i] = matrix[top + i][right]; // top-right    → bottom-right
+      matrix[top + i][right] = topLeft; // top-left     → top-right
     }
-    // shift the boundaries
 
+    // Done with this ring — shrink inward to the next one.
     top++;
     bottom--;
     left++;
