@@ -79,65 +79,108 @@ const setZeroesEfficientApproach = (matrix) => {
   const ROWS = matrix.length; // O(1) space
   const COLS = matrix[0].length; // O(1) space
 
-  // O(n) — check before we corrupt row 0 with markers
-  let firstRowHasZero = false;
+  // check first row and first col need to zero out?
+
+  let firstRowHasZero = false; // O(1) space
   for (let c = 0; c < COLS; c++) {
+    // O(n)
     if (matrix[0][c] === 0) {
       firstRowHasZero = true;
       break;
     }
   }
 
-  // O(m) — check before we corrupt col 0 with markers
-  let firstColHasZero = false;
+  let firstColHasZero = false; // O(1) space
   for (let r = 0; r < ROWS; r++) {
+    // O(m)
     if (matrix[r][0] === 0) {
       firstColHasZero = true;
       break;
     }
   }
 
-  // O(m * n) — for every zero in the interior, stamp its row and col markers
-  // matrix[0][c] = 0  means "zero out column c"
-  // matrix[r][0] = 0  means "zero out row r"
-  // start at r=1, c=1 to leave the marker row/col untouched during this scan
+  // for the rest, (the interior)
+
+  // [1, 0, 0]
+  // [1, 1, 1]
+  // [0, 1, 0]
+
+  // label col and row to be converted to 0, based on the content.
   for (let r = 1; r < ROWS; r++) {
     // O(m)
     for (let c = 1; c < COLS; c++) {
-      // O(n)
+      // O(n) → O(m * n) total for this loop
       if (matrix[r][c] === 0) {
-        matrix[0][c] = 0; // O(1) — mark column c via row-0 flag
-        matrix[r][0] = 0; // O(1) — mark row r via col-0 flag
+        matrix[0][c] = 0; // O(1) — flagged that column for zeroing
+        matrix[r][0] = 0; // O(1) — flagged that row for zeroing
       }
     }
   }
 
-  // O(m * n) — apply markers: zero any interior cell whose row or col is flagged
+  // Peform the zerioing
+
+  // [1, 0, 0]
+  // [1, 0, 0]
+  // [0, 0, 0]
+
+  // start form interior
   for (let r = 1; r < ROWS; r++) {
     // O(m)
     for (let c = 1; c < COLS; c++) {
-      // O(n)
+      // O(n) → O(m * n) total for this loop
+      // check if column marked for zeroing?
+
       if (matrix[0][c] === 0 || matrix[r][0] === 0) {
+        // any col or row marker will cause this cell to turn into zero
         matrix[r][c] = 0; // O(1)
       }
     }
   }
 
-  // Row 0 and col 0 must be zeroed AFTER the apply-markers pass, not before.
-  // During that pass we read matrix[0][c] and matrix[r][0] to decide which interior
-  // cells to zero. If we zeroed row 0 or col 0 early, every column or row marker
-  // would read as 0, causing the entire interior to be incorrectly wiped.
-  // The two booleans captured the original zero state upfront so we can act on it safely here.
+  // perform zeroing for first row
 
-  // O(n) — zero out row 0 last, after it has finished serving as column markers
+  // [0, 0, 0]
+  // [1, 0, 0]
+  // [0, 0, 0]
+
   if (firstRowHasZero) {
-    for (let c = 0; c < COLS; c++) matrix[0][c] = 0;
+    // convert entire row cells into 0
+    for (let c = 0; c < COLS; c++) {
+      // O(n)
+      matrix[0][c] = 0; // O(1)
+    }
   }
 
-  // O(m) — zero out col 0 last, after it has finished serving as row markers
+  // [0, 0, 0]
+  // [1, 0, 0]
+  // [0, 0, 0]
   if (firstColHasZero) {
-    for (let r = 0; r < ROWS; r++) matrix[r][0] = 0;
+    // convert entire col cells into 0
+    for (let r = 0; r < ROWS; r++) {
+      // O(m)
+      matrix[r][0] = 0; // O(1)
+    }
   }
+
+  // Total time breakdown:
+  //   O(n)    first-row zero check
+  //   O(m)    first-col zero check
+  //   O(m*n)  interior marker scan
+  //   O(m*n)  interior zeroing pass
+  //   O(n)    zero out first row (conditional)
+  //   O(m)    zero out first col (conditional)
+  //
+  // Step-by-step simplification:
+  //   O(n) + O(m) + O(m*n) + O(m*n) + O(n) + O(m)
+  //   = O(2n + 2m + 2*m*n)    collect like terms
+  //   = O(m*n + m*n + m + m + n + n)
+  //   = O(m*n)                m*n grows faster than m or n alone when both dimensions
+  //                           are large, so the O(m) and O(n) terms are absorbed:
+  //                           O(m) ≤ O(m*n) because n ≥ 1, and
+  //                           O(n) ≤ O(m*n) because m ≥ 1.
+  //                           Big-O also drops constant multipliers, so 2*m*n → m*n.
+  //
+  // Total space: O(1) — two booleans only; all markers stored inside the input matrix
 };
 
 export const setZeroes = setZeroesEfficientApproach;
