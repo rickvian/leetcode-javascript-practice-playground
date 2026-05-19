@@ -20,11 +20,12 @@
  * Space: O(n)
  *   - Map stores one entry per element → O(n)
  */
-var longestConsecutive = function (nums) {
+var longestConsecutiveNaive = function (nums) {
   // form a map of index
   // when iterating each item, if there are n + 1 exist in the map, then we continue look it up
   // until we found none, then record the longest streak
 
+  if (nums.length == 0) return 0;
   let mapper = new Map(); // [number] : index
 
   for (let i = 0; i < nums.length; i++) {
@@ -33,7 +34,7 @@ var longestConsecutive = function (nums) {
   }
 
   // now we look for longest streak as we iterate
-  let longest = 0;
+  let longest = 1;
   for (let i = 0; i < nums.length; i++) {
     // O(n) outer
     let currentStreak = 1; // each fresh iteration we reset.
@@ -72,7 +73,7 @@ var longestConsecutive = function (nums) {
 var longestConsecutiveOptimized = function (nums) {
   let numSet = new Set(nums); // O(n) — build set
   let longestStreak = 0;
-  for (num of nums) {
+  for (let num of nums) {
     // O(n) outer
     if (!numSet.has(num - 1)) {
       // only start of a sequence enters — amortizes the while to O(n) total
@@ -91,4 +92,5 @@ var longestConsecutiveOptimized = function (nums) {
 };
 
 var longestConsecutive = longestConsecutiveOptimized;
-export { longestConsecutive };
+
+export { longestConsecutiveOptimized };
