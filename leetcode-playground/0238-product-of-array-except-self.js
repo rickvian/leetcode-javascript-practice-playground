@@ -7,8 +7,8 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-var productExceptSelf = function(nums) {
-
+var productExceptSelf = function (nums) {
+  // implement
 };
 
-export { productExceptSelf }
+export { productExceptSelf };
