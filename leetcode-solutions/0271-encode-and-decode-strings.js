@@ -1,58 +1,87 @@
 /**
- * 271. Encode and Decode Strings
- * https://leetcode.com/problems/encode-and-decode-strings/
- * Difficulty: Medium
+ * Design an algorithm to encode a list of strings to a string. The encoded string is then
+ * sent over the network and is decoded back to the original list of strings.
  *
- * Design an algorithm to encode a list of strings to a string. The encoded string is then sent over
- * the network and is decoded back to the original list of strings.
+ * https://leetcode.com/problems/encode-and-decode-strings/description/
  *
- * Machine 1 (sender) has the function:
- * string encode(vector<string> strs) {
- *   // ... your code
- *   return encoded_string;
- * }
- * Machine 2 (receiver) has the function:
- * vector<string> decode(string s) {
- *   //... your code
- *   return strs;
- * }
- * So Machine 1 does:
- * string encoded_string = encode(strs);
- * and Machine 2 does:
- * vector<string> strs2 = decode(encoded_string);
- * strs2 in Machine 2 should be the same as strs in Machine 1.
+ * @param {string[]} strs - List of strings to encode
+ * @return {string} - Encoded string
  *
- * Implement the encode and decode methods.
- *
- * You are not allowed to solve the problem using any serialize methods (such as eval).
+ * @complexity
+ * Time: O(n + m) where n = number of strings, m = total length of all strings
+ *   - Loop through n strings: O(n)
+ *   - Each s.length lookup and string concatenation: O(1) per iteration
+ *   - result.join("") concatenates all parts: O(m) — copies all m characters
+ *   - Total: O(n) + O(m) = O(n + m)
+ * Space: O(m) — result array and joined string both store all characters
  */
+var encode = function (strs) {
+  // approach,
+  // ['Hello', 'World']
+  // encode into
+  // 5#Hello5#World
 
-/**
- * Encodes a list of strings to a single string.
- *
- * @param {string[]} strs
- * @return {string}
- */
-var encode = function(strs) {
-  return strs.map(str => `${str.length}:${str}`).join('');
+  // ababababab (10 char)
+  // 10#abababababab
+
+  let result = [];
+  // iterate each character to get the length
+  for (let s of strs) {
+    result.push(`${s.length}#${s}`); // '5#Hello
+    // [5, "#" , "Hello", 5, "#", "World"]
+  }
+
+  return result.join(""); // 5#Hello5#World
 };
 
 /**
- * Decodes a single string to a list of strings.
+ * @param {string} str - Encoded string
+ * @return {string[]} - Decoded list of strings
  *
- * @param {string} s
- * @return {string[]}
+ * @complexity
+ * Time: O(m) where m = length of encoded string
+ *   - While loop iterates through entire string once: O(m)
+ *   - str.slice() operations create substrings, but each character is extracted once
+ *   - Number() conversion is O(k) where k = length of number (typically 1-3 digits, negligible)
+ *   - Each character is visited exactly once
+ *   - Total: O(m)
+ * Space: O(n + m) where n = number of decoded strings, m = total length of all strings
+ *   - Result array stores n decoded strings with total length m
  */
-var decode = function(s) {
-  const result = [];
-  let i = 0;
+var decode = function (str) {
+  // 5#Hello5#World
+  //        p
+  //
+  // 10#abababababab
+  //   p
 
-  while (i < s.length) {
-    const colon = s.indexOf(':', i);
-    const len = parseInt(s.slice(i, colon));
-    result.push(s.slice(colon + 1, colon + 1 + len));
-    i = colon + 1 + len;
-  }
+  let pointer = 0;
+
+  let result = [];
+  let numberStart = pointer;
+
+  while (pointer < str.length) {
+    // check for number
+    if (str[pointer] == "#") {
+      // we can parse the number now
+
+      let contentCount = Number(str.slice(numberStart, pointer)); // 5
+      pointer++; // skips over the #
+
+      // now we can start getting the content
+      let content = str.slice(pointer, pointer + contentCount); // 3 -> before 8 ()
+      result.push(content);
+
+      pointer = pointer + contentCount; // move the pointer to next start of number.
+      numberStart = pointer;
+    }
+
+    // if number, it skips
+    // it will never meet character because we always move pointer beyond character.
+    pointer++;
+  } // loop will repeat on next numbers
 
   return result;
 };
+
+export { encode, decode };
