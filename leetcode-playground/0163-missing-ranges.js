@@ -9,8 +9,6 @@
  * @param {number} upper
  * @return {number[][]}
  */
-var findMissingRanges = function(nums, lower, upper) {
-    // implement
-};
+var findMissingRanges = function (nums, lower, upper) {};
 
-export { findMissingRanges }
+export { findMissingRanges };
