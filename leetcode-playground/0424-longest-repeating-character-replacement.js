@@ -10,8 +10,8 @@
  * @param {number} k - Maximum number of replacements allowed
  * @return {number} - Length of longest substring with same letter after at most k replacements
  */
-var characterReplacement = function(s, k) {
-    // stub
+var characterReplacement = function (s, k) {
+  // stub
 };
 
 export { characterReplacement };
