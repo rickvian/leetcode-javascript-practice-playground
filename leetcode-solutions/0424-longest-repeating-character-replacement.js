@@ -44,3 +44,5 @@ var characterReplacement = function (s, k) {
 
   return maxLength;
 };
+
+export { characterReplacement };
