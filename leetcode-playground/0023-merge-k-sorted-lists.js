@@ -6,8 +6,16 @@
  * @param {ListNode[]} lists
  * @return {ListNode}
  */
-var mergeKLists = function(lists) {
 
+class ListNode {
+  constructor(val, next = null) {
+    this.val = val;
+    this.next = next;
+  }
+}
+
+var mergeKLists = function (lists) {
+  // implement
 };
 
 export { mergeKLists };

@@ -23,8 +23,18 @@
  * @param {TreeNode} q
  * @return {TreeNode}
  */
-var lowestCommonAncestor = function(root, p, q) {
+var lowestCommonAncestor = function (root, p, q) {
+  // base case — null bubbles up from deepest leaf (not found); p/q signals "found one of them" to parent
   if (!root || root === p || root === q) return root;
-  const [l, r] = [lowestCommonAncestor(root.left, p, q), lowestCommonAncestor(root.right, p, q)];
-  return l && r ? root : l ?? r;
+
+  // search both subtrees; each returns null (not found) or a node (found signal or already-resolved LCA)
+  const [l, r] = [
+    lowestCommonAncestor(root.left, p, q),
+    lowestCommonAncestor(root.right, p, q),
+  ];
+
+  // l && r: both sides found something — current root is the split point, so it's the LCA
+  // otherwise: one side is null, bubble up whichever side found something
+  // note: the non-null side could be p/q (signal) or an already-resolved LCA — same logic handles both
+  return l && r ? root : (l ?? r);
 };
