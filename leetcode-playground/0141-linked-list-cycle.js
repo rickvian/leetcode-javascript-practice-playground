@@ -10,13 +10,14 @@
  * @return {boolean}
  */
 class ListNode {
-    constructor(val) {
-        this.val = val;
-        this.next = null;
-    }
+  constructor(val) {
+    this.val = val;
+    this.next = null;
+  }
 }
 
-var hasCycle = function(head) {
+var hasCycle = function (head) {
+  // implement
 };
 
 export { hasCycle, ListNode };

@@ -8,13 +8,14 @@
  */
 
 class ListNode {
-    constructor(val, next) {
-        this.val = (val === undefined ? 0 : val);
-        this.next = (next === undefined ? null : next);
-    }
+  constructor(val, next) {
+    this.val = val === undefined ? 0 : val;
+    this.next = next === undefined ? null : next;
+  }
 }
 
-var reverseList = function(head) {
+var reverseList = function (head) {
+  // implementation
 };
 
 export { ListNode, reverseList };
