@@ -9,8 +9,8 @@
  * @param {string} word
  * @return {boolean}
  */
-var exist = function(board, word) {
-    // Solution implementation
+var exist = function (board, word) {
+  // implementation
 };
 
-export { exist }
+export { exist };
