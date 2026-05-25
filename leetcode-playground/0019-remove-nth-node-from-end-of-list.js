@@ -6,8 +6,16 @@
  * @param {number} n
  * @return {ListNode}
  */
-var removeNthFromEnd = function(head, n) {
 
+class ListNode {
+  constructor(val = 0, next = null) {
+    this.val = val;
+    this.next = next;
+  }
+}
+
+var removeNthFromEnd = function (head, n) {
+  // implement
 };
 
 export { removeNthFromEnd };

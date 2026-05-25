@@ -23,7 +23,7 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isValidBST = function(root) {
+var isValidBST = function (root) {
   return traverse(root, null, null);
 };
 
@@ -36,5 +36,23 @@ function traverse(root, min, max) {
     return false;
   }
 
-  return traverse(root.left, min, root.val) && traverse(root.right, root.val, max);
+  return (
+    traverse(root.left, min, root.val) && traverse(root.right, root.val, max)
+  );
 }
+
+// Alternative
+var isValidBST = function (root) {
+  function valid(node, leftBoundary, rightBoundary) {
+    if (!node) return true; // technically true, and also base case for null leaf.
+
+    if (!(leftBoundary < node.val && node.val < rightBoundary)) return false; // meaning trees rule are violated
+
+    return (
+      valid(node.left, leftBoundary, node.val) &&
+      valid(node.right, node.val, rightBoundary)
+    );
+  }
+
+  return valid(root, -Infinity, +Infinity);
+};

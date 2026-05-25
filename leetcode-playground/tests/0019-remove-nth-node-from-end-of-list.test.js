@@ -59,7 +59,7 @@ describe('0019-remove-nth-node-from-end-of-list', () => {
     it('should handle removing from larger list', () => {
         const head = createList([1, 2, 3, 4, 5, 6, 7]);
         const result = removeNthFromEnd(head, 3);
-        expect(listToArray(result)).toEqual([1, 2, 3, 4, 5, 7]);
+        expect(listToArray(result)).toEqual([1, 2, 3, 4, 6, 7]);
     });
 
     it('should handle removing first element in larger list', () => {

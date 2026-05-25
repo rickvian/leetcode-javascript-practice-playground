@@ -9,13 +9,14 @@
  * @return {void} Do not return anything, modify head in-place instead.
  */
 class ListNode {
-    constructor(val, next) {
-        this.val = (val === undefined ? 0 : val);
-        this.next = (next === undefined ? null : next);
-    }
+  constructor(val, next) {
+    this.val = val === undefined ? 0 : val;
+    this.next = next === undefined ? null : next;
+  }
 }
 
-var reorderList = function(head) {
+var reorderList = function (head) {
+  // implement
 };
 
 export { reorderList, ListNode };

@@ -25,12 +25,32 @@
  * @param {TreeNode} q
  * @return {TreeNode}
  */
-var lowestCommonAncestor = function(root, p, q) {
+var lowestCommonAncestor = function (root, p, q) {
   if (p.val > root.val && q.val > root.val) {
     return lowestCommonAncestor(root.right, p, q);
   }
   if (p.val < root.val && q.val < root.val) {
-    return lowestCommonAncestor(root.left, p , q);
+    return lowestCommonAncestor(root.left, p, q);
   }
   return root;
+};
+
+var lowestCommonAncestorAlt = function (root, p, q) {
+  let curr = root;
+
+  while (curr !== null) {
+    // Step 1: if both targets are greater, LCA must be in the right subtree — move down
+    // e.g. curr=6, p=7, q=9  =>  go right
+    if (p.val > curr.val && q.val > curr.val) {
+      curr = curr.right;
+      // Step 2: if both targets are smaller, LCA must be in the left subtree — move down
+      // e.g. curr=6, p=2, q=4  =>  go left
+    } else if (p.val < curr.val && q.val < curr.val) {
+      curr = curr.left;
+    } else {
+      // Step 3: targets split across curr (or curr is one of them) — curr is the LCA
+      // e.g. curr=6, p=2, q=8  =>  one left, one right  =>  return 6
+      return curr;
+    }
+  }
 };

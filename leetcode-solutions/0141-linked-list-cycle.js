@@ -25,13 +25,27 @@
  * @param {ListNode} head
  * @return {boolean}
  */
-var hasCycle = function(head) {
+var hasCycle = function (head) {
   while (head) {
     if (head.visited) {
       return true;
     }
     head.visited = 1;
     head = head.next;
+  }
+
+  return false;
+};
+
+// Floyd tortoise and hare algorithm
+var hasCycle = function (head) {
+  let slow = head,
+    fast = head;
+
+  while (fast && fast.next) {
+    slow = slow.next;
+    fast = fast.next.next;
+    if (slow === fast) return true;
   }
 
   return false;

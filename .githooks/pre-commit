@@ -64,9 +64,9 @@ build_injected_file() {
 
     if [ -n "$classes" ]; then
         printf '%s\n\n' "$classes" > "$out_file"
-        cat "$ref_file" >> "$out_file"
+        grep -v "^export" "$ref_file" >> "$out_file"
     else
-        cat "$ref_file" > "$out_file"
+        grep -v "^export" "$ref_file" > "$out_file"
     fi
 
     local export_line

@@ -1,32 +1,48 @@
 /**
- * 424. Longest Repeating Character Replacement
- * https://leetcode.com/problems/longest-repeating-character-replacement/
- * Difficulty: Medium
+ * You are given a string s and an integer k. You can choose any character of the string and change it
+ * to any other uppercase English character. You can perform this operation at most k times.
+ * Return the length of the longest substring containing the same letter you can get after performing
+ * the above operations.
  *
- * You are given a string s and an integer k. You can choose any character of the string
- * and change it to any other uppercase English character. You can perform this operation
- * at most k times.
+ * https://leetcode.com/problems/longest-repeating-character-replacement/description/
  *
- * Return the length of the longest substring containing the same letter you can get after
- * performing the above operations.
+ * @param {string} s - The input string
+ * @param {number} k - Maximum number of replacements allowed
+ * @return {number} - Length of longest substring with same letter after at most k replacements
  */
+// Sliding window. A window is valid when (windowLength - maxFreq) <= k,
+// i.e. the non-dominant chars can all be replaced within the budget k.
+//
+// Time:  O(n) — right advances n times; left advances at most n times.
+//        maxFreq is tracked lazily (never decreased), so no inner scan is needed.
+// Space: O(1) — freq map holds at most 26 uppercase letters.
+var characterReplacement = function (s, k) {
+  let windowFreq = new Map();
+  let l = 0;
+  let r = 0;
+  let maxFreq = 0; // lazy high-water mark — never decreased
+  let maxLength = 0;
 
-/**
- * @param {string} s
- * @param {number} k
- * @return {number}
- */
-var characterReplacement = function(s, k) {
-  const count = new Map();
-  let max = 0;
-  let left = 0;
+  while (r < s.length) {
+    windowFreq.set(s[r], (windowFreq.get(s[r]) ?? 0) + 1);
+    maxFreq = Math.max(windowFreq.get(s[r]), maxFreq);
 
-  return s.split('').reduce((maxLength, char, right) => {
-    count.set(char, (count.get(char) || 0) + 1);
-    max = Math.max(max, count.get(char));
-    if (right - left + 1 - max > k) {
-      count.set(s[left], count.get(s[left++]) - 1);
+    // window is invalid when non-dominant chars exceed replacement budget k:
+    // (windowLen - maxFreq) > k
+    if (r - l + 1 - maxFreq > k) {
+      // `if` not `while`: we only care about windows LARGER than maxLength, so
+      // we never need to shrink below the best size already found. Since r
+      // moves by 1 each iteration, the constraint can be violated by at most 1,
+      // so a single left-move always restores window size — just slides it forward.
+      windowFreq.set(s[l], windowFreq.get(s[l]) - 1);
+      l++;
     }
-    return Math.max(maxLength, right - left + 1);
-  }, 0);
+
+    maxLength = Math.max(maxLength, r - l + 1);
+    r++;
+  }
+
+  return maxLength;
 };
+
+export { characterReplacement };
