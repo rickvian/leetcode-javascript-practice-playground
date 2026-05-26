@@ -25,7 +25,7 @@ describe('0139-word-break', () => {
         expect(wordBreak('aaaa', ['a', 'aa'])).toBe(true);
     });
 
-    it('should return false when word not in dictionary', () => {
+    it('should return true when word can be segmented multiple ways', () => {
         expect(wordBreak('cars', ['car', 'ca', 'rs'])).toBe(true);
     });
 

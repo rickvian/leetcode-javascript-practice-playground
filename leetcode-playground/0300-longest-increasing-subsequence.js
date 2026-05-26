@@ -5,9 +5,10 @@
  *
  * @param {number[]} nums
  * @return {number}
+ *
  */
-var lengthOfLIS = function(nums) {
-    // stub
+var lengthOfLIS = function (nums) {
+\
 };
 
 export { lengthOfLIS };

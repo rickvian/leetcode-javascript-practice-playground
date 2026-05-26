@@ -24,7 +24,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var maxPathSum = function(root) {
+var maxPathSum = function (root) {
   let result = -Infinity;
 
   function traverse(node) {
@@ -38,4 +38,33 @@ var maxPathSum = function(root) {
   traverse(root);
 
   return result;
+};
+
+// alternative syntax
+var maxPathSum = function (root) {
+  let res = root.val; // try with array if its stale
+
+  function dfs(node) {
+    // base case
+    if (!node) return 0;
+
+    let leftMax = dfs(node.left);
+    let rightMax = dfs(node.right);
+
+    // lower return value might return negative value, in that case, it might be better not to include them at all
+    // hence that would be zero, basically this rules out negative value
+    leftMax = Math.max(leftMax, 0);
+    rightMax = Math.max(rightMax, 0);
+
+    // now check max IF we perform split from this node
+    res = Math.max(res, leftMax + node.val + rightMax);
+
+    // for checking max without splitting, it will be done by parent, we just return longer left or right path without splitting
+    // parent does not need to know its going left or right, just give the longest possible path sum
+    return Math.max(leftMax + node.val, rightMax + node.val);
+  }
+
+  dfs(root);
+
+  return res;
 };

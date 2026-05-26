@@ -12,7 +12,8 @@
  * @param {number[]} nums
  * @return {number}
  */
-var rob = function(nums) {
+var rob = function (nums) {
+  // implement
 };
 
 export { rob };
