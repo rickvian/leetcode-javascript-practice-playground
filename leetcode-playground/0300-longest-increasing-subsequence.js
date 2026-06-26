@@ -8,7 +8,7 @@
  *
  */
 var lengthOfLIS = function (nums) {
-\
+  // implement
 };
 
 export { lengthOfLIS };
