@@ -8,8 +8,8 @@
  * @param {string} s
  * @return {number}
  */
-var numDecodings = function(s) {
-    // Solution implementation
+var numDecodings = function (s) {
+  // implementations
 };
 
-export { numDecodings }
+export { numDecodings };

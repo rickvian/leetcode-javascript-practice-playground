@@ -33,9 +33,9 @@
  * @param {string} s
  * @return {number}
  */
-var numDecodings = function(s) {
+var numDecodings = function (s) {
   if (s == null || s.length === 0) return 0;
-  if (s[0] === '0') return 0;
+  if (s[0] === "0") return 0;
 
   const group = new Array(s.length + 1).fill(0);
   group[0] = 1;
@@ -54,4 +54,61 @@ var numDecodings = function(s) {
   }
 
   return group[s.length];
+};
+
+var numDecodings = function (s) {
+  // top down approach
+  // imagine if we only have 1 item, the last item,
+  // [1,2,1]
+  //      ^
+  // the ways to decode index 3 is only 1 way
+  //   ------
+  //
+  // [1,2,1]
+  //    ^
+  // then we find ways to decode from 2nd last item to last item.
+  // [1,2,1]
+  //    ^
+  //  since it can be coded as [21] or [2] and [1], it can be coded as 2
+  // when decoding [2] and [1], its the "same way" when we decode only last item as [1]
+  // its the same decision path
+  //
+  let dp = {
+    [s.length]: 1,
+  }; // top down approach
+
+  // [ 1, 2, 3]
+  //         ^
+  for (let i = s.length - 1; i > -1; i--) {
+    // char occurrences scenario
+
+    if (s[i] === "0") {
+      dp[i] = 0; // no way to decode, imagine  0,1,2 -> no way to decode because we have 0
+    } else {
+      // s[i] is digit 0-9, we can consider it as same primary way of "picking 1 digit" decision path
+      dp[i] = dp[i + 1];
+    }
+
+    // check if possible to add extra branching decision,
+    // can we instead of picking 1 digit to decode, we merge it with next digit
+    // but it must be between 1-23 to be valid new branching
+
+    if (
+      // ensure we are not picking next char out of boundary.
+      (i + 1 < s.length &&
+        // if its "1", we can combine with any next digit just fine
+        s[i] === "1") ||
+      // if its "2", the next digit must be "0-6"
+      (s[i] === "2" && /[0-6]/.test(s[i + 1]))
+    ) {
+      // we can form new branch of decision,
+      // where current digit merged to next digit
+      // eg [2,3] we add extra path [23]
+      // taking 2 current character means we skips 2 position,
+      // now it depends how many ways so far for characters 2 over (dp[i+2])
+      dp[i] = dp[i] + dp[i + 2];
+    }
+  }
+
+  return dp[0];
 };

@@ -608,8 +608,8 @@ tree:
     number: "0211"
     name: design-add-and-search-words
     difficulty: medium
-    solution: ./leetcode-playground/0211-design-add-and-search-words.js
-    test: ./leetcode-playground/tests/0211-design-add-and-search-words.test.js
+    solution: ./leetcode-playground/0211-design-add-and-search-words-data-structure.js
+    test: ./leetcode-playground/tests/0211-design-add-and-search-words-data-structure.test.js
     leetcode_url: https://leetcode.com/problems/design-add-and-search-words-data-structure/
     notes: ""
 

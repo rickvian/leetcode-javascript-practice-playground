@@ -16,18 +16,36 @@
  * @param {number[]} coins
  * @param {number} amount
  * @return {number}
+ *
+ * @complexity
+ * Time:
+ *   - Outer loop: O(amount)
+ *   - Inner loop: O(n) per amount value, n = coins.length
+ *   - Total: O(amount) * O(n) = O(amount * n)
+ *
+ * Space:
+ *   - counts array: O(amount + 1) = O(amount)
  */
-var coinChange = function(coins, amount) {
-  const counts = new Array(amount + 1).fill(amount + 1);
-  counts[0] = 0;
+var coinChange = function (coins, amount) {
+  // Fill with amount+1 as (Sentinel) "not found yet" placeholder — real answer always < amount+1
+  // e.g. coins=[1,2,5], amount=5 → counts = [0, 6, 6, 6, 6, 6]
+  const dp = new Array(amount + 1).fill(amount + 1);
+  dp[0] = 0; // base case: 0 coins to make amount 0
 
-  for (let i = 1; i <= amount; i++) {
-    for (let j = 0; j < coins.length; j++) {
-      if (i - coins[j] >= 0) {
-        counts[i] = Math.min(counts[i], 1 + counts[i - coins[j]]);
+  for (let a = 1; a <= amount; a++) {
+    // O(amount)
+    for (let coin of coins) {
+      // O(n)
+      if (a - coin >= 0) {
+        // Recurrence: fewest coins for i = 1 coin + fewest coins for (i - coin)
+        // e.g. i=3, coin=2: counts[3] = min(counts[3], 1 + counts[1])
+        dp[a] = Math.min(dp[a], 1 + dp[a - coin]);
       }
     }
   }
 
-  return counts[amount] !== amount + 1 ? counts[amount] : -1;
+  // Still the "impossible" placeholder → no valid combination exists
+  if (dp[amount] === amount + 1) return -1;
+
+  return dp[amount];
 };

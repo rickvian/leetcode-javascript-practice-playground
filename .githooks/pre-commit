@@ -39,7 +39,7 @@ CHECKED=0  # How many test files were actually run.
 #   Empty output means nothing to check — hook will exit 0.
 # -----------------------------------------------------------------------------
 discover_staged_tests() {
-    git diff --cached --name-only \
+    git diff --cached --name-only --diff-filter=ACMR \
         | grep "^leetcode-playground/tests/.*\.test\.js$" \
         || true   # grep exits 1 on no match; swallow to keep `set -e` happy.
 }

@@ -21,14 +21,29 @@
  * @param {number[]} inorder
  * @return {TreeNode}
  */
-var buildTree = function(preorder, inorder) {
+var buildTree = function (preorder, inorder) {
   if (!preorder.length || !inorder.length) return null;
 
+  // preorder[0] is always the root of the current subtree
   const root = new TreeNode(preorder[0]);
+
+  // mid = root's index in inorder = how many nodes are in the left subtree
+  //
+  //   preorder: [ 3  |  9  |  20, 15, 7 ]
+  //               root  left     right
+  //
+  //   inorder:  [ 9  |  3  |  15, 20, 7 ]
+  //               left  root     right
+  //                     ^mid=1
   const mid = inorder.indexOf(preorder[0]);
 
-  root.left = buildTree(preorder.slice(1, mid + 1), inorder.slice(0, mid));
-  root.right = buildTree(preorder.slice(mid + 1), inorder.slice(mid + 1));
+  const leftPreorder = preorder.slice(1, mid + 1);
+  const leftInorder = inorder.slice(0, mid);
+  root.left = buildTree(leftPreorder, leftInorder);
+
+  const rightPreorder = preorder.slice(mid + 1);
+  const rightInorder = inorder.slice(mid + 1);
+  root.right = buildTree(rightPreorder, rightInorder);
 
   return root;
 };

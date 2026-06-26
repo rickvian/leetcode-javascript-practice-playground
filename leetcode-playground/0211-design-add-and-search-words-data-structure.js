@@ -7,22 +7,19 @@
  * https://leetcode.com/problems/design-add-and-search-words-data-structure/description/
  */
 class WordDictionary {
-    constructor() {
-    }
+  constructor() {}
 
-    /**
-     * @param {string} word
-     * @return {void}
-     */
-    addWord(word) {
-    }
+  /**
+   * @param {string} word
+   * @return {void}
+   */
+  addWord(word) {}
 
-    /**
-     * @param {string} word
-     * @return {boolean}
-     */
-    search(word) {
-    }
+  /**
+   * @param {string} word
+   * @return {boolean}
+   */
+  search(word) {}
 }
 
 export { WordDictionary };

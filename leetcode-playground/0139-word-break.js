@@ -9,7 +9,8 @@
  * @param {string[]} wordDict
  * @return {boolean}
  */
-var wordBreak = function(s, wordDict) {
+var wordBreak = function (s, wordDict) {
+  // implement
 };
 
 export { wordBreak };

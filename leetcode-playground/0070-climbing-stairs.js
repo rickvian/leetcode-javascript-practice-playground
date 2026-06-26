@@ -5,8 +5,8 @@
  * @param {number} n - Number of stairs to climb
  * @return {number} Number of distinct ways to climb the stairs
  */
-var climbStairs = function(n) {
-    // Solution implementation
+var climbStairs = function (n) {
+  // implement
 };
 
-export { climbStairs }
+export { climbStairs };

@@ -10,8 +10,8 @@
  * @param {number} amount
  * @return {number}
  */
-var coinChange = function(coins, amount) {
-    // stub
+var coinChange = function (coins, amount) {
+  //implementation
 };
 
 export { coinChange };
