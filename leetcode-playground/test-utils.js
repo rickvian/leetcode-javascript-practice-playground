@@ -7,7 +7,7 @@
  * Example:
  *   const result = measure(() => twoSum([2, 7, 11, 15], 9), 'basic case');
  *
- * Run with: PERF=true npm test
+ * Run with: PERF=true pnpm test
  */
 
 const PERF = process.env.PERF === "true";

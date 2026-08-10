@@ -11,24 +11,28 @@
  * @param {number[]} nums
  * @return {number}
  * @complexity
- * Time: O(n) — single pass, constant work per iteration (3 multiplications + Math.min/max)
- * Space: O(1) — only 3 variables (result, min, max) regardless of input size
+ * Time: O(n) — single pass with constant work per number
+ * Space: O(1) — only a fixed number of variables
  */
 var maxProduct = function (nums) {
-  // Negatives flip sign: a large negative × negative = large positive
-  // So we must track both the running min AND max ending at each position
-  // e.g. [2, 3, -2, 4]: at -2, the min=-6 becomes max=12 after × -2
-  let result = nums[0];
-  let min = 1;
-  let max = 1;
-  for (let n of nums) {
-    // Three candidates each step: start fresh at n, extend max, extend min
-    // e.g. n=-2, min=6, max=6 → candidates: -2, -12, -12 → new min=-12, new max=-2
-    // e.g. n=-3, min=-12, max=-2 → candidates: -3, 36, 6 → new min=-3, new max=36
-    [min, max] = [Math.min(n, min * n, max * n), Math.max(n, min * n, max * n)];
-    result = Math.max(result, max);
+  // The first number is a valid one-element subarray, so it seeds every state.
+  // Starting from 1 would incorrectly favor 1 for an input such as [-2].
+  let largestProduct = nums[0];
+  let largestEndingHere = nums[0];
+  let smallestEndingHere = nums[0];
+
+  for (const number of nums.slice(1)) {
+    // A negative number can turn the smallest product into the largest one.
+    const productWithLargest = number * largestEndingHere;
+    const productWithSmallest = number * smallestEndingHere;
+
+    largestEndingHere = Math.max(number, productWithLargest, productWithSmallest);
+    smallestEndingHere = Math.min(number, productWithLargest, productWithSmallest);
+
+    largestProduct = Math.max(largestProduct, largestEndingHere);
   }
-  return result;
+
+  return largestProduct;
 };
 
 // alternative approach
