@@ -63,3 +63,50 @@ var topKFrequentHeapSolution = function (nums, k) {
 
   return result;
 };
+
+// Optimal
+var topKFrequentBucketSortSolution = function (nums, k) {
+  // using bucket sort approach
+
+  // Time complexity O(n)
+  // Space complexity o(n)
+  // we collect all frequency of num first
+  const countFreq = new Map(); // { num: freq }
+
+  for (let num of nums) {
+    countFreq.set(num, (countFreq.get(num) ?? 0) + 1);
+  }
+
+  // then numbers will be assigned to index of its freq
+
+  let bucketFreq = Array.from({ length: nums.length + 1 }, () => []);
+  // assume 6 item with same number, it needs access index 6, hence nums.length + 1, length 6 only gives you index 0-5
+
+  for (let [num, freq] of countFreq.entries()) {
+    bucketFreq[freq].push(num);
+  }
+  // assume
+  // 1,1,1,4,7,77
+
+  // [
+  //  [] , [4] , [] , [3,7] , []
+  //   0    1     2     3      4
+  // ]
+
+  // then we go through each bucket to get the numbers from highest index (freq) until we get K items
+
+  let result = [];
+  for (let i = bucketFreq.length - 1; i > 0; i--) {
+    // we start from last item
+    const current = bucketFreq[i];
+    if (bucketFreq[i].length > 0) {
+      // it has content, iterate it and push to result as needed
+      for (let item of bucketFreq[i]) {
+        result.push(item);
+        if (result.length === k) return result; // found enough top k items
+      }
+    }
+  }
+
+  return [];
+};
