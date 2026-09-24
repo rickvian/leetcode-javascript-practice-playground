@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # Install the AI CLI
-npm install -g @anthropic-ai/claude-code
+pnpm add -g @anthropic-ai/claude-code
 
 # Fix ownership of named volumes (Docker creates them as root, container runs as the dev user)
 sudo chown -R node:node /home/node/.claude /home/node/.config/gh

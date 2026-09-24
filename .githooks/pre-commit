@@ -4,9 +4,9 @@
 # =============================================================================
 #
 # WHAT IT DOES
-#   Before every commit, if you staged any test files
-#   (leetcode-playground/tests/*.test.js), this hook runs the matching
-#   reference solution against those tests to confirm the expected values
+#   Before every commit, if you staged any supported test files, this hook
+#   runs the matching reference solution against those tests to confirm the
+#   expected values
 #   are correct. If any test fails, the commit is blocked.
 #
 #   This catches the most common mistake: forgetting to replace the
@@ -40,7 +40,7 @@ CHECKED=0  # How many test files were actually run.
 # -----------------------------------------------------------------------------
 discover_staged_tests() {
     git diff --cached --name-only --diff-filter=ACMR \
-        | grep "^leetcode-playground/tests/.*\.test\.js$" \
+        | grep -E "^(leetcode-playground/tests|interview-questions/tests)/.*\.test\.js$" \
         || true   # grep exits 1 on no match; swallow to keep `set -e` happy.
 }
 
@@ -85,7 +85,7 @@ build_injected_file() {
 # -----------------------------------------------------------------------------
 run_vitest_and_check() {
     local test_file="$1"
-    npx vitest run "$test_file" 2>&1 || true
+    pnpm exec vitest run "$test_file" 2>&1 || true
 }
 
 
@@ -127,6 +127,12 @@ verify_one_test() {
     local test_file="$1"
     local basename
     basename=$(basename "$test_file" .test.js)
+
+    if [[ "$test_file" == interview-questions/tests/* ]]; then
+        verify_interview_test "$test_file" "$basename"
+        return
+    fi
+
     local playground_file="leetcode-playground/${basename}.js"
     local ref_file
     ref_file=$(ls leetcode-solutions/${basename}.js 2>/dev/null || true)
@@ -137,14 +143,22 @@ verify_one_test() {
     # NOTE FOR CONTRIBUTORS: you don't need to add a file to leetcode-solutions/.
     # Just verify manually before committing:
     #   1. Write a real working solution in the playground file
-    #   2. Run: npx vitest run <test-file>
+    #   2. Run: pnpm exec vitest run <test-file>
     #   3. Copy the actual values into your .toEqual() assertions
     #   4. Restore the stub: git checkout -- <playground-file>
     if [ -z "$ref_file" ] || [ ! -f "$ref_file" ]; then
         echo ""
-        echo "  WARNING: $basename — no reference solution found."
-        echo "  Expected values MUST be verified manually before this commit."
-        echo "  Implement a temporary solution, run npx vitest run, confirm outputs, restore stub."
+        echo "  BLOCKED: $test_file"
+        echo "  No LeetCode reference solution was found at: leetcode-solutions/${basename}.js"
+        if [ ! -f "$playground_file" ]; then
+            echo "  No matching implementation was found at: $playground_file"
+            echo "  This looks like an interview-question test in the LeetCode test folder."
+            echo "  Move it to interview-questions/tests/ and keep its implementation in interview-questions/."
+        else
+            echo "  Expected values must be verified manually for this test."
+            echo "  Temporarily implement $playground_file, run: pnpm exec vitest run $test_file"
+            echo "  Then restore the stub before committing."
+        fi
         echo ""
         FAILED=$((FAILED + 1))
         return
@@ -187,6 +201,57 @@ verify_one_test() {
 
 
 # -----------------------------------------------------------------------------
+# verify_interview_test <test_file> <basename>
+#   Interview-question solutions are colocated separately from LeetCode files.
+#   Their tests use the implementation in interview-questions/ and the
+#   corresponding reference in interview-questions/solution/.
+# -----------------------------------------------------------------------------
+verify_interview_test() {
+    local test_file="$1"
+    local basename="$2"
+    local implementation_name="$basename"
+
+    # The test is conventionally named currying.test.js while the function
+    # implementation is named curry.js.
+    if [ "$basename" = "currying" ]; then
+        implementation_name="curry"
+    fi
+
+    local implementation_file="interview-questions/${implementation_name}.js"
+    local ref_file="interview-questions/solution/${implementation_name}.js"
+
+    if [ ! -f "$implementation_file" ] || [ ! -f "$ref_file" ]; then
+        echo ""
+        echo "  BLOCKED: $test_file"
+        echo "  Interview-question tests must have these colocated files:"
+        echo "    implementation: $implementation_file"
+        echo "    reference:      $ref_file"
+        echo "  Add or rename the missing file, or remove this test from the commit."
+        echo ""
+        FAILED=$((FAILED + 1))
+        return
+    fi
+
+    CHECKED=$((CHECKED + 1))
+    local original_content
+    original_content=$(cat "$implementation_file")
+    cp "$ref_file" "$implementation_file"
+
+    local result
+    result=$(run_vitest_and_check "$test_file")
+
+    printf '%s\n' "$original_content" > "$implementation_file"
+
+    if vitest_failed "$result" || echo "$result" | grep -qE "Failed Suites|Test Files.*failed"; then
+        report_blocked "$basename" "$result"
+        FAILED=$((FAILED + 1))
+    else
+        echo "  OK: $basename (interview-question reference)"
+    fi
+}
+
+
+# -----------------------------------------------------------------------------
 # print_summary
 #   Print the final result and exit with the right code.
 # -----------------------------------------------------------------------------
@@ -194,8 +259,9 @@ print_summary() {
     if [ "$FAILED" -gt 0 ]; then
         echo ""
         echo "Commit blocked: $FAILED test file(s) unverified or failed."
-        echo "For ref solutions: run verification workflow (CLAUDE.md)."
-        echo "For no ref solution: implement temp solution, run vitest, confirm outputs, restore stub."
+        echo "For each BLOCKED file above, either:"
+        echo "  - fix its path/name so it matches the expected implementation and reference layout; or"
+        echo "  - verify its expected values using the command shown above, then restore any temporary stub."
         exit 1
     fi
 

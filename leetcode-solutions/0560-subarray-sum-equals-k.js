@@ -14,15 +14,53 @@
  * @param {number} k
  * @return {number}
  */
-var subarraySum = function(nums, k) {
-  const map = new Map([[0, 1]]);
-  let result = 0;
+var subarraySumBruteForce = function (nums, k) {
+  // brute force approach
 
-  for (let i = 0, count = 0; i < nums.length; i++) {
-    count += nums[i];
-    result += map.get(count - k) ?? 0;
-    map.set(count, (map.get(count) ?? 0) + 1);
+  // time complexity O(n^2)
+  // space complexity O(n)
+
+  let res = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    let sum = 0;
+    for (let j = i; j < nums.length; j++) {
+      sum += nums[j];
+      if (sum === k) res++;
+    }
+  }
+
+  return res;
+};
+
+var subarraySumPrefixSumApproach = function (nums, k) {
+  let result = 0;
+  let currSum = 0;
+  let prefixSum = new Map();
+
+  prefixSum.set(0, 1); // with prefix 0 represents 1 way of subArray to chop the current array.
+
+  for (let num of nums) {
+    // we keep track of sum so far
+    currSum += num;
+
+    // so we want to know if we hit the k as target, or there are diffs
+    let diff = currSum - k;
+    // i want to see if we chop the current running window, so we can result in K.
+    // if we have the prefixSum.get(diff), meaning there are ways to chop with x time to result the subarray total of K
+
+    prefixSum.get(diff); // how many times our prefixSum with diff occured before?
+    // that represent the ways we can chop the current window,
+    // apply that X time to chop the current window, we will have
+
+    // X variants of sub array that total to K.
+    result += prefixSum.get(diff) || 0;
+
+    // now we record currSum as the prefixSum occured again.
+    prefixSum.set(currSum, (prefixSum.get(currSum) || 0) + 1);
   }
 
   return result;
 };
+
+var subarraySum = subarraySumPrefixSumApproach;
