@@ -19,7 +19,7 @@
  * @param {number} k
  * @return {number}
  */
-var networkDelayTime = function(times, n, k) {
+var networkDelayTime = function (times, n, k) {
   const time = new Array(n + 1).fill(Infinity);
 
   time[k] = 0;
