@@ -43,7 +43,7 @@ These are NOT meant to replace `Map`/`Set`/`Array` in production. They exist to 
 ## Run tests
 
 ```bash
-npm run test -- data-structure
+pnpm run test -- data-structure
 ```
 
 ## Style guide for adding new structures

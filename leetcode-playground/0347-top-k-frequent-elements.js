@@ -1,3 +1,5 @@
+import { MinPriorityQueue } from "datastructures-js";
+
 /**
  * Given an integer array nums and an integer k, return the k most frequent elements.
  * You may return the answer in any order.
@@ -8,8 +10,8 @@
  * @param {number} k
  * @return {number[]}
  */
-var topKFrequent = function(nums, k) {
-    // stub
+var topKFrequent = function (nums, k) {
+  // implement
 };
 
 export { topKFrequent };

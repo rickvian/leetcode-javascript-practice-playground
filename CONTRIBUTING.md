@@ -24,19 +24,19 @@ If you find a bug in an existing solution or test case, please open an issue or 
 
 1. **Install dependencies**:
    ```bash
-   npm install
+   pnpm install
    ```
 
 2. **Run tests**:
    ```bash
    # Run all tests
-   npm run test
+   pnpm run test
 
    # Run tests in watch mode
-   npm run test:watch
+   pnpm run test:watch
 
    # Run a specific test
-   npx vitest tests/0001-two-sum.test.js
+   pnpm exec vitest tests/0001-two-sum.test.js
    ```
 
 ## Coding Guidelines

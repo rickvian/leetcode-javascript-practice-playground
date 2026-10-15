@@ -78,14 +78,14 @@ At least 2-3 meaningful test cases with descriptive names. `describe` block name
 
 ## Verifying Test Correctness with Reference Solutions
 
-**Only proof a test file is correct: `npm run test` with reference solution injected returns 0 failures. Nothing else counts — not reasoning, not manual tracing, not "obvious" cases.**
+**Only proof a test file is correct: `pnpm run test` with reference solution injected returns 0 failures. Nothing else counts — not reasoning, not manual tracing, not "obvious" cases.**
 
 **When `leetcode-solutions/NNNN-*.js` exists, this workflow is required before committing. No skipping.**
 
 ### Workflow
 
 1. **Inject reference solution**: Copy from `leetcode-solutions/` into `leetcode-playground/`, append `export { functionName }` (source files have no exports)
-2. **Run tests**: `npm run test -- NNNN-problem-name.test.js` — read actual values from failure messages
+2. **Run tests**: `pnpm run test -- NNNN-problem-name.test.js` — read actual values from failure messages
 3. **Update assertions**: Replace each placeholder with value reference solution returned (shown as `expected X to equal null`)
 4. **Re-run**: Must show **0 failures**. If any still fail, repeat step 3.
 5. **Restore stub**: `git checkout -- leetcode-playground/NNNN-problem-name.js`
