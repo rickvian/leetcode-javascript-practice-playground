@@ -5,7 +5,7 @@ export default defineConfig({
     logHeapUsage: true,
     globals: true,
     environment: 'node',
-    include: ['**/tests/**/*.test.js'],
+    include: ['**/tests/**/*.test.{js,ts}', '**/*.test.ts'],
     testTimeout: 400_000,
   },
 });
